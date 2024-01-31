@@ -1,0 +1,1000 @@
+--- Qtvcp Screen Started on: mié, ene 03 2024 11:59:05 ---
+mié03 11:59 Machine OFF
+
+mié03 11:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:17:49 ---
+mié03 12:17 Machine OFF
+
+mié03 12:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:18:37 ---
+mié03 12:18 Machine OFF
+
+mié03 12:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:19:38 ---
+mié03 12:19 Machine OFF
+
+mié03 12:19 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:23:03 ---
+mié03 12:23 Machine OFF
+
+mié03 12:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:23:19 ---
+mié03 12:23 Machine OFF
+
+mié03 12:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:25:07 ---
+mié03 12:25 Machine OFF
+
+mié03 12:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:25 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:27:06 ---
+mié03 12:27 Machine OFF
+
+mié03 12:27 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:27 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:28:21 ---
+mié03 12:28 Machine OFF
+
+mié03 12:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:28 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:31:05 ---
+mié03 12:31 Machine OFF
+
+mié03 12:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:31 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:34:29 ---
+mié03 12:34 Machine OFF
+
+mié03 12:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:34 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:35:11 ---
+mié03 12:35 Machine OFF
+
+mié03 12:35 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:35 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:35:50 ---
+mié03 12:35 Machine OFF
+
+mié03 12:35 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:35 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:40:33 ---
+mié03 12:40 Machine OFF
+
+mié03 12:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:40 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:41:30 ---
+mié03 12:41 Machine OFF
+
+mié03 12:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:41 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:44:48 ---
+mié03 12:44 Machine OFF
+
+mié03 12:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:44 Machine ON
+
+mié03 12:46  20.000000
+
+mié03 12:46  20.000000
+
+mié03 12:48  20.000000
+
+mié03 12:49 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 12:49 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 12:49 Started program from line 1
+mié03 12:49  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 12:49 Started program from line 1
+mié03 12:49  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 12:50 Started program from line 1
+mié03 12:50  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:54:09 ---
+mié03 12:54 Machine OFF
+
+mié03 12:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 12:54 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 12:54 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 12:54 Machine ON
+mié03 12:54 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+mié03 12:54 Started program from line 1
+mié03 12:54 Falta homing. No se puede ejecutar el programa
+
+mié03 12:54 Machine OFF
+
+mié03 12:54 Machine ON
+mié03 12:54 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+mié03 12:54 Machine OFF
+
+mié03 12:54 Machine ON
+mié03 12:54 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+mié03 12:54 Machine OFF
+
+mié03 12:54 Machine ON
+
+mié03 12:54 Must be in AUTO mode to run a program
+
+mié03 12:54 Must be in AUTO mode to run a program
+
+mié03 12:54 Must be in AUTO mode to run a program
+mié03 12:54 Must be in AUTO mode to run a program
+
+mié03 12:54 Must be in AUTO mode to run a program
+
+mié03 12:54 Must be in AUTO mode to run a program
+
+mié03 12:54 Started program from line 1
+
+mié03 12:54  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:56:06 ---
+mié03 12:56 Machine OFF
+
+mié03 12:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:57:07 ---
+mié03 12:57 Machine OFF
+
+mié03 12:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 12:57:27 ---
+mié03 12:57 Machine OFF
+
+mié03 12:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 13:02:38 ---
+mié03 13:02 Machine OFF
+
+mié03 13:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 13:03 Machine ON
+
+mié03 13:03 Machine OFF
+
+mié03 13:03 Machine ON
+
+mié03 13:03 Machine OFF
+
+mié03 13:03 Machine ON
+
+mié03 13:03 Machine OFF
+
+mié03 13:03 Machine ON
+
+mié03 13:03 Machine OFF
+
+mié03 13:10 Machine ON
+
+mié03 13:10 Must be in AUTO mode to run a program
+
+mié03 13:10 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:10 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:10 Started program from line 1
+
+mié03 13:10  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:10 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:10 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:10 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+mié03 13:10 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+mié03 13:10 Started program from line 1
+
+mié03 13:11 Started program from line 1
+mié03 13:11  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:11 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:11 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:11 Started program from line 1
+mié03 13:11  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:12 Started program from line 1
+mié03 13:12  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:13 Cannot switch pages while in AUTO mode
+
+mié03 13:13 Cannot switch pages while in AUTO mode
+
+mié03 13:13 Keyboard shortcuts are disabled
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:13 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:13 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:13 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:13 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:13 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:13 Cannot switch pages while in AUTO mode
+
+mié03 13:13 Cannot switch pages while in AUTO mode
+
+mié03 13:13 Keyboard shortcuts are disabled
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:13 Keyboard shortcuts are disabled
+
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:14 Started program from line 1
+mié03 13:14  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:14 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:14 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:14 Started program from line 1
+mié03 13:14  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:15 Started program from line 1
+
+mié03 13:15  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:15 Started program from line 1
+
+mié03 13:15 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:15 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:15 Started program from line 1
+mié03 13:15  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+mié03 13:16 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:16 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 13:16 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+mié03 13:16 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+mié03 13:18 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:18 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 13:18 Started program from line 1
+
+mié03 13:22 Started program from line 1
+
+mié03 13:22 Started program from line 1
+
+mié03 13:48 Machine OFF
+
+mié03 13:48 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:02:58 ---
+mié03 14:02 Machine OFF
+
+mié03 14:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:03 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:04:43 ---
+mié03 14:04 Machine OFF
+
+mié03 14:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:04 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:12:18 ---
+mié03 14:12 Machine OFF
+
+mié03 14:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:12 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:15:04 ---
+mié03 14:15 Machine OFF
+
+mié03 14:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:15 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:18:28 ---
+mié03 14:18 Machine OFF
+
+mié03 14:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:18 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:21:37 ---
+mié03 14:21 Machine OFF
+
+mié03 14:21 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:21 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:23:02 ---
+mié03 14:23 Machine OFF
+
+mié03 14:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:23 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:23:42 ---
+mié03 14:23 Machine OFF
+
+mié03 14:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:23 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 14:24:19 ---
+mié03 14:24 Machine OFF
+
+mié03 14:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 14:24 Machine ON
+
+mié03 14:24 eje z no esta en posicion
+
+mié03 14:24 eje y no esta en posicion
+mié03 14:24 eje z no esta en posicion
+
+mié03 14:24 eje y no esta en posicion
+mié03 14:24 eje z no esta en posicion
+
+mié03 14:24 eje z no esta en posicion
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:41:23 ---
+mié03 15:41 Machine OFF
+
+mié03 15:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:41 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:43:09 ---
+mié03 15:43 Machine OFF
+
+mié03 15:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:43 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:46:19 ---
+mié03 15:46 Machine OFF
+
+mié03 15:46 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:46 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:46 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:46 Machine ON
+mié03 15:46 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+mié03 15:46 Machine OFF
+
+mié03 15:46 Machine ON
+
+mié03 15:46 Started program from line 1
+
+mié03 15:47 Started program from line 1
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:48:58 ---
+mié03 15:48 Machine OFF
+
+mié03 15:48 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:49 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:49 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:49 Machine ON
+mié03 15:49 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+mié03 15:49 Machine OFF
+mié03 15:49 Machine ON
+
+mié03 15:49 Started program from line 1
+
+mié03 15:49 Started program from line 1
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:50:48 ---
+mié03 15:50 Machine OFF
+
+mié03 15:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:51 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:51:58 ---
+mié03 15:51 Machine OFF
+
+mié03 15:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:52 Machine ON
+
+mié03 15:52 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:52 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:52 Started program from line 1
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:52:59 ---
+mié03 15:52 Machine OFF
+
+mié03 15:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:53 Machine ON
+
+mié03 15:53 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:53 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:53 Started program from line 1
+
+mié03 15:53 Started program from line 1
+
+mié03 15:55 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:55 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:55 Started program from line 1
+
+mié03 15:55 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:55 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:55 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en espera
+
+mié03 15:55 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en espera
+
+mié03 15:55 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:55 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:55 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+mié03 15:56 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+mié03 15:56 Started program from line 1
+
+mié03 15:56 Started program from line 1
+
+mié03 15:56 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:56 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:56 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+
+mié03 15:56 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+mié03 15:56 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:56 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:56 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+mié03 15:56 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+mié03 15:56 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:56 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:56 Started program from line 1
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:57:05 ---
+mié03 15:57 Machine OFF
+
+mié03 15:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:57 Machine ON
+
+mié03 15:57 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 15:57 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 15:57 Started program from line 1
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 15:59:12 ---
+mié03 15:59 Machine OFF
+
+mié03 15:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 15:59 Machine ON
+
+mié03 15:59 Machine OFF
+
+mié03 15:59 Machine ON
+
+mié03 15:59 Error en condiciones iniciales de pateador
+mié03 15:59 Cupla no presente en pateador
+mié03 15:59 Cuna no esta abajo
+mié03 15:59 Pateador no retraido
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+mié03 15:59 Error en condiciones iniciales de soplador
+mié03 15:59 Flag de comenzar rutina soplado no esta encendido
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+mié03 15:59 Error en condiciones iniciales de descarga
+mié03 15:59 Piston de descarga no esta arriba
+mié03 15:59 Bancal descarga lleno
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+mié03 15:59 Error en condiciones iniciales de carga
+mié03 15:59 Segregador no presente del lado carga
+mié03 15:59 Piston de carga no esta arriba
+mié03 15:59 Cupla no presente en segregador
+mié03 15:59 Cupla presente en carga
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+mié03 15:59 Error en condiciones iniciales de torno entrar
+mié03 15:59 Torno no termino programa
+mié03 15:59 Torno no se encuentra en home
+mié03 15:59 Puerta techo no esta cerrada
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+mié03 15:59 Error en condiciones iniciales de torno salir
+mié03 15:59 Torno no termino programa
+mié03 15:59 Puerta techo no esta abierta
+mié03 15:59 Robot dentro de okuma
+mié03 15:59 Gantry no esta en estado 2 (programa en automatico)
+mié03 15:59 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:03:52 ---
+mié03 16:03 Machine OFF
+
+mié03 16:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:07:17 ---
+mié03 16:07 Machine OFF
+
+mié03 16:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:07 Machine ON
+
+mié03 16:07 Machine OFF
+
+mié03 16:07 Machine ON
+
+mié03 16:07 Keyboard shortcuts are disabled
+
+mié03 16:07 Keyboard shortcuts are disabled
+mié03 16:07 Keyboard shortcuts are disabled
+
+mié03 16:07 Keyboard shortcuts are disabled
+mié03 16:07 Keyboard shortcuts are disabled
+mié03 16:07 Keyboard shortcuts are disabled
+
+mié03 16:07 Keyboard shortcuts are disabled
+
+mié03 16:07 Keyboard shortcuts are disabled
+
+mié03 16:07 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+mié03 16:07 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+mié03 16:07 Started program from line 1
+
+mié03 16:11 Cannot switch pages while in AUTO mode
+
+mié03 16:11 Cannot switch pages while in AUTO mode
+
+mié03 16:11 Cannot switch pages while in AUTO mode
+mié03 16:11 Cannot switch pages while in AUTO mode
+
+mié03 16:11 Machine OFF
+
+mié03 16:11 Machine ON
+
+mié03 16:11 Machine OFF
+
+mié03 16:11 Machine ON
+
+mié03 16:11 Machine OFF
+
+mié03 16:11 Machine ON
+
+mié03 16:15 Cannot switch pages while in AUTO mode
+
+mié03 16:16 Eje z no esta en posicion
+
+mié03 16:16 Eje z no esta en posicion
+
+mié03 16:16 Eje y no esta en posicion
+mié03 16:16 Eje z no esta en posicion
+
+mié03 16:16 Eje y no esta en posicion
+mié03 16:16 Eje z no esta en posicion
+
+mié03 16:16 Eje y no esta en posicion
+
+mié03 16:16 Eje y no esta en posicion
+
+mié03 16:17 Error en condiciones iniciales de pateador
+mié03 16:17 Cupla no presente en pateador
+mié03 16:17 Cuna no esta abajo
+mié03 16:17 Pateador no retraido
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+mié03 16:17 Error en condiciones iniciales de soplador
+mié03 16:17 Flag de comenzar rutina soplado no esta encendido
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+mié03 16:17 Error en condiciones iniciales de descarga
+mié03 16:17 Piston de descarga no esta arriba
+mié03 16:17 Bancal descarga lleno
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+mié03 16:17 Error en condiciones iniciales de carga
+mié03 16:17 Segregador no presente del lado carga
+mié03 16:17 Piston de carga no esta arriba
+mié03 16:17 Cupla no presente en segregador
+
+mié03 16:17 Cupla presente en carga
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+mié03 16:17 Error en condiciones iniciales de torno entrar
+mié03 16:17 Torno no termino programa
+mié03 16:17 Torno no se encuentra en home
+mié03 16:17 Puerta techo no esta cerrada
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+mié03 16:17 Error en condiciones iniciales de torno salir
+mié03 16:17 Torno no termino programa
+mié03 16:17 Puerta techo no esta abierta
+mié03 16:17 Robot dentro de okuma
+mié03 16:17 Gantry no esta en estado 2 (programa en automatico)
+mié03 16:17 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:20:35 ---
+mié03 16:20 Machine OFF
+
+mié03 16:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:20 Machine ON
+
+mié03 16:21 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+
+mié03 16:21 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:27:47 ---
+mié03 16:27 Machine OFF
+
+mié03 16:27 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:28 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:28:23 ---
+mié03 16:28 Machine OFF
+
+mié03 16:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:32:18 ---
+mié03 16:32 Machine OFF
+
+mié03 16:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:32 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:40:10 ---
+mié03 16:40 Machine OFF
+
+mié03 16:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:40 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:41:47 ---
+mié03 16:41 Machine OFF
+
+mié03 16:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:41 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:44:06 ---
+mié03 16:44 Machine OFF
+
+mié03 16:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:44 Machine ON
+
+mié03 16:44 Machine OFF
+
+mié03 16:44 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:46:20 ---
+mié03 16:46 Machine OFF
+
+mié03 16:46 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:46 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:49:21 ---
+mié03 16:49 Machine OFF
+
+mié03 16:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:49 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 16:52:20 ---
+mié03 16:52 Machine OFF
+
+mié03 16:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 16:52 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 17:03:06 ---
+mié03 17:03 Machine OFF
+
+mié03 17:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 17:05:24 ---
+mié03 17:05 Machine OFF
+
+mié03 17:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 17:05 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+mié03 17:05 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 17:07:22 ---
+mié03 17:07 Machine OFF
+
+mié03 17:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 17:07 No se puede abrir el archivo <../ngc/vacio.ngc>
+mié03 17:07 no se puede abrir ../ngc/vacio.ngc
+
+
+--- Qtvcp Screen Started on: mié, ene 03 2024 17:08:58 ---
+mié03 17:08 Machine OFF
+
+mié03 17:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié03 17:09 No se puede abrir el archivo <../ngc/vacio.ngc>
+mié03 17:09 no se puede abrir ../ngc/vacio.ngc
+

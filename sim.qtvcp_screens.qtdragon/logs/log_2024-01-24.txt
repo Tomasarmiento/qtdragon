@@ -1,0 +1,60 @@
+--- Qtvcp Screen Started on: mié, ene 24 2024 09:53:14 ---
+mié24 09:53 Machine OFF
+
+mié24 09:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié24 09:53 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 24 2024 12:52:32 ---
+mié24 12:52 Machine OFF
+
+mié24 12:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine must be ON and in Manual mode to jog
+
+mié24 12:53 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 24 2024 15:30:56 ---
+mié24 15:30 Machine OFF
+
+mié24 15:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié24 15:31 Machine ON
+
+mié24 15:37 Machine OFF
+

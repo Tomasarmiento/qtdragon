@@ -1,0 +1,73 @@
+--- Qtvcp Screen Started on: jue, dic 07 2023 08:48:06 ---
+jue07 08:48 Machine OFF
+jue07 08:48 Tool 0: No Tool
+jue07 08:48 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue07 09:56 Machine ON
+
+jue07 09:57 error de seguimiento en articulacion 0
+jue07 09:57 Machine OFF
+
+jue07 09:57 Machine ON
+
+jue07 09:58 error de seguimiento en articulacion 0
+jue07 09:58 Machine OFF
+
+jue07 09:59 Machine ON
+
+jue07 09:59 Machine OFF
+jue07 09:59 error de seguimiento en articulacion 0
+
+jue07 10:00 Machine ON
+
+jue07 10:00 Machine OFF
+jue07 10:00 error de seguimiento en articulacion 2
+
+jue07 10:00 Machine ON
+
+jue07 10:00 Machine OFF
+jue07 10:00 error de seguimiento en articulacion 2
+
+jue07 10:11 Machine ON
+
+jue07 10:11 error de seguimiento en articulacion 2
+jue07 10:11 Machine OFF
+
+jue07 10:11 Machine ON
+
+jue07 10:11 Machine OFF
+jue07 10:11 error de seguimiento en articulacion 2
+
+jue07 10:11 Machine ON
+
+jue07 10:11 Machine OFF
+jue07 10:11 error de seguimiento en articulacion 2
+
+jue07 10:11 Machine ON
+
+jue07 10:11 Machine OFF
+jue07 10:11 error de seguimiento en articulacion 2
+
+jue07 10:11 Machine ON
+
+jue07 10:11 error de seguimiento en articulacion 2
+jue07 10:11 Machine OFF
+
+jue07 10:11 Machine ON
+
+jue07 10:11 Machine OFF
+jue07 10:11 error de seguimiento en articulacion 0
+
+jue07 10:11 Machine ON
+
+jue07 10:11 Machine OFF
+jue07 10:11 error de seguimiento en articulacion 0
+
+jue07 10:37 Machine ON
+
+jue07 10:38 error de seguimiento en articulacion 1
+jue07 10:38 Machine OFF
+

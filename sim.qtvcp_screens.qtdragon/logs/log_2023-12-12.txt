@@ -1,0 +1,174 @@
+--- Qtvcp Screen Started on: mar, dic 12 2023 10:08:18 ---
+mar12 10:08 Machine OFF
+mar12 10:08 Tool 0: No Tool
+mar12 10:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 10:25 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+mar12 10:25 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+mar12 10:25 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+
+mar12 10:25 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+mar12 10:25 Machine ON
+
+mar12 10:25 Machine OFF
+mar12 10:25 error de seguimiento en articulacion 1
+
+mar12 10:25 Machine ON
+
+mar12 10:25 error de seguimiento en articulacion 1
+mar12 10:25 Machine OFF
+
+mar12 10:27 Machine ON
+
+mar12 11:06 error de seguimiento en articulacion 1
+mar12 11:06 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 11:06:50 ---
+mar12 11:06 Machine OFF
+mar12 11:06 Tool 0: No Tool
+mar12 11:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 11:07 Machine ON
+
+mar12 11:07 error de seguimiento en articulacion 2
+
+mar12 11:07 Machine OFF
+
+mar12 11:08 Machine ON
+
+mar12 11:09 No se puede hacer g1 con velocidad de avance cero
+
+mar12 11:09 Machine OFF
+mar12 11:09 error de seguimiento en articulacion 1
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 11:44:57 ---
+mar12 11:44 Machine OFF
+mar12 11:44 Tool 0: No Tool
+mar12 11:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 11:45 Machine ON
+
+mar12 12:03 Homing negado por motion.homing-inhibit joint=-1
+
+
+mar12 12:03 Machine OFF
+
+mar12 12:03 Machine ON
+
+mar12 12:03 el movimiento Linear en la línea 0 excedería el límite X 
+mar12 12:03 el movimiento Linear en la línea 0 excedería el límite positivo de la articulacion 0
+mar12 12:03 parámetros inválidos en comando lineal
+
+mar12 12:03 el movimiento Linear en la línea 0 excedería el límite X 
+mar12 12:03 el movimiento Linear en la línea 0 excedería el límite positivo de la articulacion 0
+mar12 12:03 parámetros inválidos en comando lineal
+
+mar12 12:04 Joint jog requested for undefined joint number=-1 (min=0,max=2)
+
+mar12 12:06 Homing negado por motion.homing-inhibit joint=-1
+
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 12:26:31 ---
+mar12 12:26 Machine OFF
+mar12 12:26 Tool 0: No Tool
+mar12 12:26 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 12:26 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 14:28:16 ---
+mar12 14:28 Machine OFF
+mar12 14:28 Tool 0: No Tool
+mar12 14:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 14:28 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 14:51:42 ---
+mar12 14:51 Machine OFF
+mar12 14:51 Tool 0: No Tool
+mar12 14:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 14:51 Machine ON
+
+mar12 15:06 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+mar12 15:06 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 15:38:58 ---
+mar12 15:38 Machine OFF
+mar12 15:38 Tool 0: No Tool
+mar12 15:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 15:39 Machine ON
+
+mar12 15:43 el movimiento Linear en la línea 0 excedería el límite Z 
+
+mar12 15:43 el movimiento Linear en la línea 0 excedería el límite negativo de articulacion 2's
+mar12 15:43 parámetros inválidos en comando lineal
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 16:17:57 ---
+mar12 16:17 Machine OFF
+mar12 16:17 Tool 0: No Tool
+mar12 16:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 16:18 Machine ON
+
+mar12 16:18 Machine OFF
+mar12 16:18 error de seguimiento en articulacion 2
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 16:18:36 ---
+mar12 16:18 Machine OFF
+mar12 16:18 Tool 0: No Tool
+mar12 16:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 16:18 Machine ON
+
+mar12 16:18 Machine OFF
+mar12 16:18 error de seguimiento en articulacion 2
+
+
+--- Qtvcp Screen Started on: mar, dic 12 2023 16:19:02 ---
+mar12 16:19 Machine OFF
+mar12 16:19 Tool 0: No Tool
+mar12 16:19 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar12 16:19 Machine ON
+

@@ -1,0 +1,85 @@
+f100
+g1 x2450
+f1
+g1 x0
+f1000
+f1000
+f1000
+g1 y0
+f1000
+g1 y0
+g1 z0
+f1000
+g1 z0
+g1 x0
+f1000
+g1 z0
+g1 y0
+G1 X0
+G1 X0
+G1 Y0
+G1 Y0
+f1000
+g1 y10
+f1000
+z0
+g1 z0 f1
+g1 z0 f1
+g1 z0 f1
+g1 z0 f1
+m64 p59
+m65 p58
+g38.2 x2750 f10
+m65 p58
+m64 p59
+m64 p58
+m65 p59
+g1 x2450 f10
+g1 x0 f10
+g1 x10 f10
+g1 x10 f10
+g1 x10 f10
+g1 x10 f10
+g1 x2450 f10
+g1 x2050 f10
+g1 x20 f10
+g1 x20 f10
+g1 z10 f10
+g1 z10 f10
+g1 z0 f10
+g1 z0 f10
+g1 z0 f10
+g1 z10. f100
+g1 z10. f100
+g1 z10. f100.
+g1 z0 f10
+g1 z0 f1000
+g1 z0 f1000
+g1 z80 f1000
+g1 z80 f1000
+g1 X80 f1000
+g1 X120 f1000
+g1 X-120 f1000
+g1 X20 f1000
+g1 X20 f1000
+g1 X200
+g0 X200
+g0 X2500
+g0 X3000
+g0 X0
+g0 X3000
+g0 X0
+g0 X3000
+g0 X0
+g0 X3000
+g0 X0
+g0 X3000
+g0 X0
+g1 X3000 f1000
+g0 X3000
+g0 X0
+(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
+(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
+(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
+(debug, M66 P49 L3 Q0.1)
+M66 P49 L3 Q0.1

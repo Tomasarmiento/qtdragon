@@ -1,0 +1,32 @@
+--- Qtvcp Screen Started on: mar, ene 23 2024 15:31:53 ---
+mar23 15:31 Machine OFF
+
+mar23 15:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Machine ON
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+
+mar23 15:32 Keyboard shortcuts are disabled
+mar23 15:32 Keyboard shortcuts are disabled
+

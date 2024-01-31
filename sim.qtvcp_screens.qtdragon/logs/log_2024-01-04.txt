@@ -1,0 +1,958 @@
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:15:52 ---
+jue04 09:15 Machine OFF
+
+jue04 09:15 Machine ON
+
+jue04 09:15 Machine OFF
+
+jue04 09:15 Machine ON
+
+jue04 09:15 Machine OFF
+
+jue04 09:16 Machine ON
+
+jue04 09:16 Machine OFF
+
+jue04 09:16 Machine ON
+jue04 09:16 Machine OFF
+
+jue04 09:16 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:24:35 ---
+jue04 09:24 Machine OFF
+
+jue04 09:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 09:24 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:25:07 ---
+jue04 09:25 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:28:22 ---
+jue04 09:28 Machine OFF
+
+jue04 09:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 09:50 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:52:36 ---
+jue04 09:52 Machine OFF
+
+jue04 09:52 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:53:38 ---
+jue04 09:53 Machine OFF
+
+jue04 09:53 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 09:53:56 ---
+jue04 09:53 Machine OFF
+
+jue04 09:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 09:53 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 10:11:44 ---
+jue04 10:11 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 10:12:15 ---
+jue04 10:12 Machine OFF
+
+jue04 11:29 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+jue04 11:29 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+jue04 11:29 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+jue04 11:29 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 11:29 Cannot switch pages while in AUTO mode
+
+jue04 11:29 Cannot switch pages while in AUTO mode
+
+jue04 11:29 Machine ON
+jue04 11:29 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:42:58 ---
+jue04 11:42 Machine OFF
+
+jue04 11:43 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+jue04 11:43 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+jue04 11:43 No se puede reemplazar valores de cupla en programa principal del gantry.
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:44:45 ---
+jue04 11:44 Machine OFF
+
+jue04 11:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 11:44 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+jue04 11:44 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+jue04 11:44 No se puede reemplazar valores de cupla en programa principal del gantry.
+
+jue04 11:45 No se puede reemplazar valores de cupla en programa principal del gantry.
+
+jue04 11:46 Machine ON
+
+jue04 11:46 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:48:07 ---
+jue04 11:48 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:48:56 ---
+jue04 11:48 Machine OFF
+
+jue04 11:48 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:49:35 ---
+jue04 11:49 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:50:02 ---
+jue04 11:50 Machine OFF
+
+jue04 11:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:51:41 ---
+jue04 11:51 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:52:27 ---
+jue04 11:52 Machine OFF
+
+jue04 11:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:53:20 ---
+jue04 11:53 Machine OFF
+
+jue04 11:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:53:43 ---
+jue04 11:53 Machine OFF
+
+jue04 11:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:54:50 ---
+jue04 11:54 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:56:06 ---
+jue04 11:56 Machine OFF
+
+jue04 11:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:59:11 ---
+jue04 11:59 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 11:59:31 ---
+jue04 11:59 Machine OFF
+
+jue04 11:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 12:41:00 ---
+jue04 12:41 Machine OFF
+
+jue04 12:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 12:50:48 ---
+jue04 12:50 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 12:58:28 ---
+jue04 12:58 Machine OFF
+
+jue04 12:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 12:59 Machine ON
+
+jue04 13:00  M66 P49 L3 Q0.1
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 13:27:35 ---
+jue04 13:27 Machine OFF
+
+jue04 13:27 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 13:29:44 ---
+jue04 13:29 Machine OFF
+
+jue04 13:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 13:29 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 13:34:46 ---
+jue04 13:34 Machine OFF
+
+jue04 13:34 Machine ON
+
+jue04 13:34 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:15:44 ---
+jue04 14:15 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:17:33 ---
+jue04 14:17 Machine OFF
+
+jue04 14:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:17 Machine ON
+
+jue04 14:17 Machine OFF
+
+jue04 14:17 Machine ON
+
+jue04 14:17 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:21:09 ---
+jue04 14:21 Machine OFF
+
+jue04 14:21 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:21 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:21:38 ---
+jue04 14:21 Machine OFF
+
+jue04 14:21 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:21 Machine ON
+
+jue04 14:21 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:21 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:22:52 ---
+jue04 14:22 Machine OFF
+
+jue04 14:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:22 Machine ON
+
+jue04 14:23 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:23 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:25:02 ---
+jue04 14:25 Machine OFF
+
+jue04 14:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:28 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:28 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:32:13 ---
+jue04 14:32 Machine OFF
+
+jue04 14:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:32 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:32:43 ---
+jue04 14:32 Machine OFF
+
+jue04 14:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:32 Machine ON
+jue04 14:32 Machine OFF
+jue04 14:32 Machine ON
+
+jue04 14:32 Machine OFF
+
+jue04 14:32 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:33:07 ---
+jue04 14:33 Machine OFF
+
+jue04 14:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:33 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:33:48 ---
+jue04 14:33 Machine OFF
+
+jue04 14:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:34 Keyboard shortcuts are disabled
+
+jue04 14:34 Keyboard shortcuts are disabled
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:34:39 ---
+jue04 14:34 Machine OFF
+
+jue04 14:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:36:50 ---
+jue04 14:36 Machine OFF
+
+jue04 14:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:36 Machine ON
+
+jue04 14:36 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:36 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 14:37 Machine OFF
+
+jue04 14:37 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:38:23 ---
+jue04 14:38 Machine OFF
+
+jue04 14:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:38 Machine ON
+
+jue04 14:40 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:40 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:41:53 ---
+jue04 14:41 Machine OFF
+
+jue04 14:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:41 Machine ON
+
+jue04 14:42 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:42 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 14:42:17 ---
+jue04 14:42 Machine OFF
+
+jue04 14:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 14:42 Machine ON
+
+jue04 14:42 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 14:42 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:03:25 ---
+jue04 15:03 Machine OFF
+
+jue04 15:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:03 Machine ON
+
+jue04 15:03 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:03 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:05:09 ---
+jue04 15:05 Machine OFF
+
+jue04 15:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:06:24 ---
+jue04 15:06 Machine OFF
+
+jue04 15:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:06 Machine ON
+
+jue04 15:06 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:07:30 ---
+jue04 15:07 Machine OFF
+
+jue04 15:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:09 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:09 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:09:47 ---
+jue04 15:09 Machine OFF
+
+jue04 15:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:09 Machine ON
+
+jue04 15:09 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:09 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:12:59 ---
+jue04 15:12 Machine OFF
+
+jue04 15:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:13 Machine ON
+
+jue04 15:13 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:13 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:14:59 ---
+jue04 15:14 Machine OFF
+
+jue04 15:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:15 Loaded program file : /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:15 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:15 Machine ON
+jue04 15:15 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:15 Machine OFF
+
+jue04 15:15 Machine ON
+jue04 15:15 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:15 Machine OFF
+
+jue04 15:15 Machine ON
+
+jue04 15:15 Started program from line 1
+jue04 15:15  dentro rutina
+
+jue04 15:15 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:15 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:15 Started program from line 1
+jue04 15:15  dentro rutina
+
+jue04 15:16  dentro rutina
+
+jue04 15:16  dentro rutina
+
+jue04 15:18 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:18 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:18 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:18 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:18 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:18 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:18 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:18 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:19 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+jue04 15:19 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:19 Loaded program file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:19 Loaded file /home/ipclinux/Escritorio/ui/sim.qtvcp_screens.qtdragon/ngc/programa01.ngc
+
+jue04 15:19 Started program from line 1
+
+jue04 15:19  dentro rutina
+
+jue04 15:19  1.000000
+jue04 15:19  dentro rutina
+
+jue04 15:19  2.000000
+jue04 15:19  dentro rutina
+
+jue04 15:19  3.000000
+jue04 15:19  dentro rutina
+
+jue04 15:20  4.000000
+
+jue04 15:20  dentro rutina
+
+jue04 15:20  5.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20  6.000000
+
+jue04 15:20  dentro rutina
+
+jue04 15:20  7.000000
+
+jue04 15:20  dentro rutina
+
+jue04 15:20  8.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20  9.000000
+
+jue04 15:20  dentro rutina
+
+jue04 15:20  10.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20  11.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+jue04 15:20  12.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+jue04 15:20 Cannot switch pages while in AUTO mode
+
+jue04 15:20  13.000000
+
+jue04 15:20  dentro rutina
+
+jue04 15:20  14.000000
+jue04 15:20  dentro rutina
+
+jue04 15:20  10002.000000
+
+jue04 15:20 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:46:27 ---
+jue04 15:46 Machine OFF
+
+jue04 15:46 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 15:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 15:47 Cannot switch pages while in AUTO mode
+
+jue04 15:47 Machine ON
+jue04 15:47 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:47 Cannot switch pages while in AUTO mode
+
+jue04 15:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 15:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 15:49:41 ---
+jue04 15:49 Machine OFF
+
+jue04 15:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 15:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 15:50 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 15:51 Cannot switch pages while in AUTO mode
+
+jue04 15:51 Cannot switch pages while in AUTO mode
+
+jue04 15:51 Machine ON
+jue04 15:51 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:51 Machine OFF
+
+jue04 15:51 Machine ON
+jue04 15:51 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:51 Machine OFF
+
+jue04 15:51 Machine ON
+jue04 15:51 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 15:52 Machine OFF
+
+jue04 15:52 Machine ON
+
+jue04 15:52 Machine OFF
+
+jue04 15:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 15:58 Machine ON
+
+jue04 15:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 15:59 Cannot switch pages while in AUTO mode
+
+jue04 15:59 Cannot switch pages while in AUTO mode
+
+jue04 15:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:05:53 ---
+jue04 16:05 Machine OFF
+
+jue04 16:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:05 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:06:44 ---
+jue04 16:06 Machine OFF
+
+jue04 16:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:08:01 ---
+jue04 16:08 Machine OFF
+
+jue04 16:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:08 Valor invalido, no se puede calcular.
+
+jue04 16:08 Valor invalido, no se puede calcular.
+
+jue04 16:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:10:03 ---
+jue04 16:10 Machine OFF
+
+jue04 16:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:11:38 ---
+jue04 16:11 Machine OFF
+
+jue04 16:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:11 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:11 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:12:43 ---
+jue04 16:12 Machine OFF
+
+jue04 16:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:13 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:13 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:14:16 ---
+jue04 16:14 Machine OFF
+
+jue04 16:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:15:43 ---
+jue04 16:15 Machine OFF
+
+jue04 16:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:16 Machine ON
+jue04 16:16 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 16:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:20 Cannot switch pages while in AUTO mode
+
+jue04 16:20 Cannot switch pages while in AUTO mode
+
+jue04 16:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:23 Cannot switch pages while in AUTO mode
+
+jue04 16:23 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:41 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:41 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:42 Cannot switch pages while in AUTO mode
+
+jue04 16:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:42 Cannot switch pages while in AUTO mode
+
+jue04 16:42 Cannot switch pages while in AUTO mode
+
+jue04 16:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:45 Cannot switch pages while in AUTO mode
+
+jue04 16:45 Cannot switch pages while in AUTO mode
+jue04 16:45 Cannot switch pages while in AUTO mode
+
+jue04 16:45 Cannot switch pages while in AUTO mode
+jue04 16:45 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:51:54 ---
+jue04 16:51 Machine OFF
+
+jue04 16:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:52 Machine ON
+
+jue04 16:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:52 Cannot switch pages while in AUTO mode
+
+jue04 16:52 Cannot switch pages while in AUTO mode
+
+jue04 16:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 16:58:00 ---
+jue04 16:58 Machine OFF
+
+jue04 16:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 16:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 16:58 Machine ON
+jue04 16:58 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 16:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 16:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:59 Cannot switch pages while in AUTO mode
+
+jue04 16:59 Cannot switch pages while in AUTO mode
+
+jue04 16:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+jue04 16:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 17:00:12 ---
+jue04 17:00 Machine OFF
+
+jue04 17:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 17:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 17:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue04 17:00 Machine ON
+jue04 17:00 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue04 17:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue04 17:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 17:03:29 ---
+jue04 17:03 Machine OFF
+
+jue04 17:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, ene 04 2024 17:55:02 ---
+jue04 17:55 Machine OFF
+
+jue04 17:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue04 17:55 Machine ON
+

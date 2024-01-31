@@ -1,0 +1,8 @@
+--- Qtvcp Screen Started on: jue, dic 14 2023 09:20:30 ---
+jue14 09:20 Machine OFF
+jue14 09:20 Tool 0: No Tool
+jue14 09:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+

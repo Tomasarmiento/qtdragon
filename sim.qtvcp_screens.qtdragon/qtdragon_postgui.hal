@@ -1,0 +1,271 @@
+#loadrt abs names=abs_spindle_feedback
+#addf abs_spindle_feedback servo-thread
+
+#net spindle-speed-limited  =>  spindle.0.speed-out-rps => spindle.0.speed-in
+
+# the unlink pin commands are only used, because they are connected 
+# in core_sim.hal and we use this file to simulate
+#unlinkp iocontrol.0.tool-change
+#unlinkp iocontrol.0.tool-changed
+#unlinkp iocontrol.0.tool-prep-number
+
+#net tool-change      hal_manualtoolchange.change   <=  iocontrol.0.tool-change 
+#net tool-changed     hal_manualtoolchange.changed  <=  iocontrol.0.tool-changed
+#net tool-prep-number hal_manualtoolchange.number   <=  iocontrol.0.tool-prep-number
+
+#net xwidth           motion.analog-out-00 => qtdragon.x_width
+#net ywidth           motion.analog-out-01 => qtdragon.y_width
+#net avg_dia          motion.analog-out-02 => qtdragon.avg_diameter
+#net edge_angle       motion.analog-out-03 => qtdragon.edge_angle
+#net edge_delta       motion.analog-out-04 => qtdragon.edge_delta
+#net xminus           motion.analog-out-05 => qtdragon.x_minus
+#net yminus           motion.analog-out-06 => qtdragon.y_minus
+#net zminus           motion.analog-out-07 => qtdragon.z_minus
+#net xplus            motion.analog-out-08 => qtdragon.x_plus
+#net yplus            motion.analog-out-09 => qtdragon.y_plus
+#net xcenter          motion.analog-out-10 => qtdragon.x_center
+#net ycenter          motion.analog-out-11 => qtdragon.y_center
+#net cal_offset       motion.analog-out-12 => qtdragon.cal_offset
+########################################################################
+
+# Axes
+#===========================================================
+#net posMode <= pyvcp.positionMode
+net resetFaults <= qtdragon.resetFaults
+#net emcEnabled => pyvcp.emcEnabled
+
+# x axis
+#-----------------------------------------------------------
+net x-stateFbk => qtdragon.x_StateFbk #state
+net x-endingCodeFbk => qtdragon.x_EndingCodeFbk #endcode
+#net x-velFbk => qtdragon.x_VelocityFbk #velocity
+#net x-posFbk => qtdragon.x_PositionFbk #position
+net x-targetReached => qtdragon.x_TargetReached #reached
+
+net x-driveOperational => qtdragon.x_driveOperational #operational
+net x-driveReady => qtdragon.x_driveReady #ready
+net x-driveEnabled => qtdragon.x_driveEnabled #enable
+net x-driveFault => qtdragon.x_driveFault #fault
+
+#net x-negativeLimitSwitch => qtdragon.x_negativeLimitSwitch #neg sw
+#net x-positiveLimitSwitch => qtdragon.x_positiveLimitSwitch #pos sw
+#net x-homeSwitch => qtdragon.x_homeSwitch #home sw
+
+net x-negativePositionLimit => qtdragon.x_negativePositionLimit #position lim-
+net x-positivePositionLimit => qtdragon.x_positivePositionLimit #position lim+
+net x-negativeTorqueLimit => qtdragon.x_negativeTorqueLimit #torque lim-
+net x-positiveTorqueLimit => qtdragon.x_positiveTorqueLimit #torque lim+
+
+# y axis
+#-----------------------------------------------------------
+net y-stateFbk => qtdragon.y_StateFbk
+net y-endingCodeFbk => qtdragon.y_EndingCodeFbk
+#net y-velFbk => qtdragon.y_VelocityFbk
+#net y-posFbk => qtdragon.y_PositionFbk
+net y-targetReached => qtdragon.y_TargetReached
+
+net y-driveOperational => qtdragon.y_driveOperational
+net y-driveReady => qtdragon.y_driveReady
+net y-driveEnabled => qtdragon.y_driveEnabled
+net y-driveFault => qtdragon.y_driveFault
+
+#net y-negativeLimitSwitch => qtdragon.y_negativeLimitSwitch
+#net y-positiveLimitSwitch => qtdragon.y_positiveLimitSwitch
+#net y-homeSwitch => qtdragon.y_homeSwitch
+
+net y-negativePositionLimit => qtdragon.y_negativePositionLimit
+net y-positivePositionLimit => qtdragon.y_positivePositionLimit
+net y-negativeTorqueLimit => qtdragon.y_negativeTorqueLimit
+net y-positiveTorqueLimit => qtdragon.y_positiveTorqueLimit
+
+# z axis
+#-----------------------------------------------------------
+net z-stateFbk => qtdragon.z_StateFbk
+net z-endingCodeFbk => qtdragon.z_EndingCodeFbk
+#net z-velFbk => qtdragon.z_VelocityFbk
+#net z-posFbk => qtdragon.z_PositionFbk
+net z-targetReached => qtdragon.z_TargetReached
+
+net z-driveOperational => qtdragon.z_driveOperational
+net z-driveReady => qtdragon.z_driveReady
+net z-driveEnabled => qtdragon.z_driveEnabled
+net z-driveFault => qtdragon.z_driveFault
+
+#net z-negativeLimitSwitch => qtdragon.z_negativeLimitSwitch
+#net z-positiveLimitSwitch => qtdragon.z_positiveLimitSwitch
+#net z-homeSwitch => qtdragon.z_homeSwitch
+
+net z-negativePositionLimit => qtdragon.z_negativePositionLimit
+net z-positivePositionLimit => qtdragon.z_positivePositionLimit
+net z-negativeTorqueLimit => qtdragon.z_negativeTorqueLimit
+net z-positiveTorqueLimit => qtdragon.z_positiveTorqueLimit
+
+########################################################################
+
+#bancal carga
+#leds
+net SEN_bc_pc => qtdragon.SEN_bc_pc
+net SEN_bc_up => qtdragon.SEN_bc_up
+net SEN_bc_down => qtdragon.SEN_bc_down
+net SEN_bc_frw => qtdragon.SEN_bc_frw
+net SEN_bc_bkw => qtdragon.SEN_bc_bkw
+
+#botones accionamientos
+net EV_bc_up <= qtdragon.EV_bc_up
+net EV_bc_down <= qtdragon.EV_bc_down
+net EV_bc_frw <= qtdragon.EV_bc_frw
+net EV_bc_bkw <= qtdragon.EV_bc_bkw
+
+########################################################################
+
+#bancal descarga
+#leds
+net SEN_bd_pc => qtdragon.SEN_bd_pc
+net SEN_bd_full => qtdragon.SEN_bd_full
+net SEN_bd_up => qtdragon.SEN_bd_up
+net SEN_bd_down => qtdragon.SEN_bd_down
+net SEN_bd_frw => qtdragon.SEN_bd_frw
+net SEN_bd_bkw => qtdragon.SEN_bd_bkw
+
+#botones accionamientos
+net EV_bd_up <= qtdragon.EV_bd_up
+net EV_bd_down <= qtdragon.EV_bd_down
+net EV_bd_frw <= qtdragon.EV_bd_frw
+net EV_bd_bkw <= qtdragon.EV_bd_bkw
+
+########################################################################
+
+#segregador carga
+#leds
+net SEN_seg_pc => qtdragon.SEN_seg_pc
+net SEN_seg_overturn => qtdragon.SEN_seg_overturn
+net SEN_seg_idle => qtdragon.SEN_seg_idle
+
+#botones accionamientos
+net EV_seg_overturn <= qtdragon.EV_seg_overturn
+net EV_seg_idle <= qtdragon.EV_seg_idle
+
+########################################################################
+
+#soplador/parking
+#leds
+net SEN_blw_pc => qtdragon.SEN_blw_pc
+net SEN_park_pc => qtdragon.SEN_park_pc
+net SEN_blw_closed => qtdragon.SEN_blw_closed
+net SEN_blw_open => qtdragon.SEN_blw_open
+
+#botones accionamientos
+net EV_blw_open_cobertor <= qtdragon.EV_blw_open_cobertor
+net EV_blw_close_cobertor <= qtdragon.EV_blw_close_cobertor
+net EV_blw_on <= qtdragon.EV_blw_on
+
+########################################################################
+
+#volteador
+#leds
+net SEN_volt_claw_open => qtdragon.SEN_volt_claw_open
+net SEN_volt_claw_closed => qtdragon.SEN_volt_claw_closed
+net SEN_volt_180_side => qtdragon.SEN_volt_180_side
+net SEN_volt_0_side => qtdragon.SEN_volt_0_side
+
+#botones accionamientos
+net remote_EV_volt_claw_open <= halui.mdi-command-08 halui.mdi-command-09 <= qtdragon.EV_volt_claw_open
+net remote_EV_volt_claw_closed <= halui.mdi-command-10 halui.mdi-command-11 <= qtdragon.EV_volt_claw_closed
+net remote_EV_volt_180_side <= halui.mdi-command-12 halui.mdi-command-13 <= qtdragon.EV_volt_180_side
+net remote_EV_volt_0_side <= halui.mdi-command-14 halui.mdi-command-15 <= qtdragon.EV_volt_0_side
+
+################################################################################
+
+#gantry
+#leds
+net SEN_gr_d_open => qtdragon.SEN_gr_d_open
+net SEN_gr_d_closed => qtdragon.SEN_gr_d_closed
+net SEN_gr_u_closed => qtdragon.SEN_gr_u_closed
+net SEN_gr_u_open => qtdragon.SEN_gr_u_open
+net SEN_gr_d_pc => qtdragon.SEN_gr_d_pc
+net SEN_gr_u_pc => qtdragon.SEN_gr_u_pc
+
+net x-negativeLimitSwitch => qtdragon.x_negativeLimitSwitch
+net x-positiveLimitSwitch => qtdragon.x_positiveLimitSwitch
+net y-negativeLimitSwitch => qtdragon.y_negativeLimitSwitch
+net y-positiveLimitSwitch => qtdragon.y_positiveLimitSwitch
+net z-negativeLimitSwitch => qtdragon.z_negativeLimitSwitch
+net z-positiveLimitSwitch => qtdragon.z_positiveLimitSwitch
+
+#botones accionamientos
+net remote_EV_gr_d_open <= halui.mdi-command-00 halui.mdi-command-01 <=  qtdragon.EV_gr_d_open
+net remote_EV_gr_d_closed <= halui.mdi-command-02 halui.mdi-command-03 <= qtdragon.EV_gr_d_closed
+net remote_EV_gr_u_open <= halui.mdi-command-04 halui.mdi-command-05 <= qtdragon.EV_gr_u_open
+net remote_EV_gr_u_closed <= halui.mdi-command-06 halui.mdi-command-07 <= qtdragon.EV_gr_u_closed
+
+net probe => qtdragon.hal_led_probe
+net soft_limit => qtdragon.led_eoffset_limit
+
+#########################################################################
+
+#pateador
+#leds
+net SEN_pat_pc => qtdragon.SEN_pat_pc
+net SEN_pat_bkw => qtdragon.SEN_pat_bkw
+net SEN_pat_frw => qtdragon.SEN_pat_frw
+net SEN_pat_up => qtdragon.SEN_pat_up
+net SEN_pat_down => qtdragon.SEN_pat_down
+
+#botones accionamientos
+net EV_pat_frw => qtdragon.EV_pat_frw
+net EV_pat_bkw => qtdragon.EV_pat_bkw
+net EV_pat_down => qtdragon.EV_pat_down
+net EV_pat_up => qtdragon.EV_pat_up
+
+#########################################################################
+
+#torno
+#leds
+net SEN_tor_gate_open => qtdragon.SEN_tor_gate_open
+net SEN_tor_gate_closed => qtdragon.SEN_tor_gate_closed
+
+#estado de torno
+net RI_tor_cc_confirm => qtdragon.RI_tor_cc_confirm #chuck clamp
+net RI_tor_cu_confirm => qtdragon.RI_tor_cu_confirm #chuck unclamp
+net RI_tor_so1_confirm => qtdragon.RI_tor_so1_confirm #spindle orientation 1
+net RI_tor_so2_confirm => qtdragon.RI_tor_so2_confirm #spindle orientation 2
+net RI_tor_ep_confirm => qtdragon.RI_tor_ep_confirm #end program - CYCLE COMPLETE
+net RI_tor_home_confirm => qtdragon.RI_tor_home_confirm
+net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm
+net RI_tor_alarm_confirm => qtdragon.RI_tor_alarm_confirm
+net RI_tor_cstop_confirm => qtdragon.RI_tor_cstop_confirm
+net RI_tor_m180_confirm => qtdragon.RI_tor_m180_confirm
+net RI_tor_m181_confirm => qtdragon.RI_tor_m181_confirm
+
+net RI_tor_cc <= qtdragon.RI_tor_cc #chuck clamp
+net RI_tor_cu <= qtdragon.RI_tor_cu #chuck unclamp
+net RI_tor_so1 <= qtdragon.RI_tor_so1 #spindle orientation 1
+net RI_tor_so2 <= qtdragon.RI_tor_so2 #spindle orientation 2
+net RI_tor_ofm <= qtdragon.RI_tor_ofm #out of machine
+net RI_tor_cs <= qtdragon.RI_tor_cs #cycle start
+net RI_tor_spare <= qtdragon.RI_tor_spare #spare
+net RI_tor_mfin <= qtdragon.RI_tor_mfin #mfin request answer
+net RI_tor_sl <= qtdragon.RI_tor_sl #system link
+net RI_tor_ga <= qtdragon.RI_tor_ga #gantry alarm
+
+#botones accionamientos
+net EV_tor_gate_open <= qtdragon.EV_tor_gate_open
+net EV_tor_gate_closed <= qtdragon.EV_tor_gate_closed
+
+########################################################################
+
+#flags de intercambio
+net CTRL_bc_ogr => motion.digital-out-63 => qtdragon.CTRL_bc_ogr
+net CTRL_bd_ogr => motion.digital-out-62 => qtdragon.CTRL_bd_ogr
+net CTRL_blw_ogr => motion.digital-out-61 => qtdragon.CTRL_blw_ogr
+
+net CTRL_blw_sr => motion.digital-out-60 => qtdragon.CTRL_blw_sr
+net CTRL_blw_er => motion.digital-in-27 => qtdragon.CTRL_blw_er
+
+net CTRL_ch_ce => motion.digital-in-29 => qtdragon.CTRL_ch_ce
+net CTRL_ch_od => motion.digital-in-35 => qtdragon.LED_ch_od => qtdragon.CTRL_ch_od
+
+net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master
+
+net CTRL_end_cycle => motion.digital-in-49 => qtdragon.CTRL_end_cycle => qtdragon.LED_end_cycle
+

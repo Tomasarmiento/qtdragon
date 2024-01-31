@@ -1,0 +1,826 @@
+--- Qtvcp Screen Started on: jue, oct 05 2023 12:27:21 ---
+jue05 12:27 Machine OFF
+jue05 12:27 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 12:30:44 ---
+jue05 12:30 Machine OFF
+jue05 12:30 Tool 0: No Tool
+
+jue05 12:30 Machine ON
+
+jue05 12:30 Machine OFF
+
+jue05 12:31 Machine ON
+
+jue05 12:31 Cannot switch pages while in AUTO mode
+
+jue05 12:31 Cannot switch pages while in AUTO mode
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 12:34:20 ---
+jue05 12:34 asdasdassad
+jue05 12:34 Machine OFF
+jue05 12:34 Tool 0: No Tool
+
+jue05 12:38 Saving Status file to status_12:38:31_.txt
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 13:27:59 ---
+jue05 13:27 Machine OFF
+jue05 13:27 Tool 0: No Tool
+
+jue05 13:28 Machine ON
+
+jue05 13:28 Machine OFF
+
+jue05 13:28 Machine ON
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 13:31:10 ---
+jue05 13:31 Machine OFF
+jue05 13:31 Tool 0: No Tool
+
+jue05 13:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+
+jue05 13:31 Machine ON
+jue05 13:31 Machine OFF
+
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+jue05 13:31 Machine OFF
+
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+
+jue05 13:31 Machine OFF
+jue05 13:31 Machine ON
+
+jue05 13:31 Cannot switch pages while in AUTO mode
+
+jue05 13:31 Cannot switch pages while in AUTO mode
+
+jue05 13:31 Loaded program file : /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+jue05 13:31 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+jue05 13:31 Started program from line 1
+
+jue05 13:31  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 13:39:54 ---
+jue05 13:39 Machine OFF
+jue05 13:39 Tool 0: No Tool
+
+jue05 13:39 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 13:40 Machine ON
+
+jue05 13:40 Machine OFF
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 14:50:45 ---
+jue05 14:50 Machine OFF
+jue05 14:50 Tool 0: No Tool
+
+jue05 14:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 14:51 Machine ON
+
+jue05 14:51 Machine OFF
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 14:53:50 ---
+jue05 14:53 Machine OFF
+jue05 14:53 Tool 0: No Tool
+
+jue05 14:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 14:53 Machine ON
+
+jue05 14:53 Machine OFF
+
+jue05 14:53 Machine ON
+
+jue05 14:53 Machine OFF
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 14:54:40 ---
+jue05 14:54 Machine OFF
+jue05 14:54 Tool 0: No Tool
+
+jue05 14:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 14:55:07 ---
+jue05 14:55 Machine OFF
+jue05 14:55 Tool 0: No Tool
+
+jue05 14:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 14:57:04 ---
+jue05 14:57 Machine OFF
+jue05 14:57 Tool 0: No Tool
+
+jue05 14:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 15:00:07 ---
+jue05 15:00 Machine OFF
+jue05 15:00 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 15:02:53 ---
+jue05 15:02 Machine OFF
+jue05 15:02 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 15:04:12 ---
+jue05 15:04 Machine OFF
+jue05 15:04 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 15:04:48 ---
+jue05 15:04 Machine OFF
+jue05 15:04 Tool 0: No Tool
+
+jue05 15:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 15:07 Machine ON
+
+jue05 15:07 Machine OFF
+
+jue05 15:11 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+jue05 15:11 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 15:41:31 ---
+jue05 15:41 Machine OFF
+jue05 15:41 Tool 0: No Tool
+
+jue05 15:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 15:41 Machine ON
+
+jue05 15:41 Machine OFF
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 16:49:34 ---
+jue05 16:49 Machine OFF
+jue05 16:49 Tool 0: No Tool
+
+jue05 16:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: jue, oct 05 2023 16:50:23 ---
+jue05 16:50 Machine OFF
+jue05 16:50 Tool 0: No Tool
+
+jue05 16:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue05 16:50 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 09:52:51 ---
+vie06 09:52 Machine OFF
+vie06 09:52 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 10:02:25 ---
+vie06 10:02 Machine OFF
+vie06 10:02 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 10:06:01 ---
+vie06 10:06 Machine OFF
+vie06 10:06 Tool 0: No Tool
+
+vie06 10:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 10:12:12 ---
+vie06 10:12 Machine OFF
+vie06 10:12 Tool 0: No Tool
+
+vie06 10:12 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 10:26:22 ---
+vie06 10:26 Machine OFF
+vie06 10:26 Tool 0: No Tool
+
+vie06 10:26 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 10:26 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+vie06 10:26 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/program_not_od.ngc
+
+vie06 10:27 Cannot switch pages while in AUTO mode
+
+vie06 10:27 Cannot switch pages while in AUTO mode
+
+vie06 10:27 fallo del amplificador de articulacion 0
+vie06 10:27 fallo del amplificador de articulacion 2
+
+vie06 10:27 fallo del amplificador de articulacion 0
+vie06 10:27 fallo del amplificador de articulacion 2
+
+vie06 10:27 Machine ON
+
+vie06 10:28 Machine OFF
+vie06 10:28 movimiento detenido por entrada habilitada
+vie06 10:28 error de seguimiento en articulacion 0
+
+vie06 10:28 error de seguimiento en articulacion 1
+vie06 10:28 error de seguimiento en articulacion 2
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 10:29:26 ---
+vie06 10:29 Machine OFF
+vie06 10:29 Tool 0: No Tool
+
+vie06 10:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 10:29 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+vie06 10:29 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/program_not_od.ngc
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 11:10:58 ---
+vie06 11:10 Machine OFF
+vie06 11:10 Tool 0: No Tool
+
+vie06 11:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 11:11 Machine ON
+
+vie06 11:11 Machine OFF
+
+vie06 11:11 Machine ON
+
+vie06 11:11 Machine OFF
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 11:36:03 ---
+vie06 11:36 Machine OFF
+vie06 11:36 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 11:38:31 ---
+vie06 11:38 Machine OFF
+vie06 11:38 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 12:51:39 ---
+vie06 12:51 Machine OFF
+vie06 12:51 Tool 0: No Tool
+
+vie06 12:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 12:51 Machine ON
+
+vie06 12:52 Machine OFF
+vie06 12:52 movimiento detenido por entrada habilitada
+vie06 12:52 error de seguimiento en articulacion 0
+vie06 12:52 error de seguimiento en articulacion 1
+vie06 12:52 error de seguimiento en articulacion 2
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 12:55:28 ---
+vie06 12:55 Machine OFF
+vie06 12:55 Tool 0: No Tool
+
+vie06 12:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 12:55 fallo del amplificador de articulacion 0
+vie06 12:55 fallo del amplificador de articulacion 1
+vie06 12:55 fallo del amplificador de articulacion 2
+
+vie06 12:55 Machine ON
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 12:58:01 ---
+vie06 12:58 Machine OFF
+vie06 12:58 Tool 0: No Tool
+
+vie06 12:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 12:58:47 ---
+vie06 12:58 Machine OFF
+vie06 12:58 Tool 0: No Tool
+
+vie06 12:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:01:16 ---
+vie06 13:01 Machine OFF
+vie06 13:01 Tool 0: No Tool
+
+vie06 13:01 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:02:38 ---
+vie06 13:02 Machine OFF
+vie06 13:02 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:05:30 ---
+vie06 13:05 Machine OFF
+vie06 13:05 Tool 0: No Tool
+
+vie06 13:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:06:04 ---
+vie06 13:06 Machine OFF
+vie06 13:06 Tool 0: No Tool
+
+vie06 13:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:07:40 ---
+vie06 13:07 Machine OFF
+vie06 13:07 Tool 0: No Tool
+
+vie06 13:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:10:12 ---
+vie06 13:10 Machine OFF
+vie06 13:10 Tool 0: No Tool
+
+vie06 13:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:12:01 ---
+vie06 13:12 Machine OFF
+vie06 13:12 Tool 0: No Tool
+
+vie06 13:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 13:12 Machine ON
+
+vie06 13:12 Machine OFF
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:15:39 ---
+vie06 13:15 Machine OFF
+vie06 13:15 Tool 0: No Tool
+
+vie06 13:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 13:15 Error en condiciones iniciales de carga
+vie06 13:15 Error en condiciones iniciales de descarga
+vie06 13:15 Error en condiciones iniciales de soplador
+vie06 13:15 Error en condiciones iniciales de torno entrar
+vie06 13:15 Error en condiciones iniciales de torno salir
+vie06 13:15 Error en condiciones iniciales de pateador
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:16:07 ---
+vie06 13:16 Machine OFF
+vie06 13:16 Tool 0: No Tool
+
+vie06 13:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 13:16 Error en condiciones iniciales de carga
+vie06 13:16 Error en condiciones iniciales de descarga
+vie06 13:16 Error en condiciones iniciales de soplador
+vie06 13:16 Error en condiciones iniciales de torno entrar
+vie06 13:16 Error en condiciones iniciales de torno salir
+vie06 13:16 Error en condiciones iniciales de pateador
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:18:38 ---
+vie06 13:18 Machine OFF
+vie06 13:18 Tool 0: No Tool
+
+vie06 13:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 13:18 Error en condiciones iniciales de carga
+vie06 13:18 Error en condiciones iniciales de descarga
+vie06 13:18 Error en condiciones iniciales de soplador
+vie06 13:18 Error en condiciones iniciales de torno entrar
+vie06 13:18 Error en condiciones iniciales de torno salir
+vie06 13:18 Error en condiciones iniciales de pateador
+
+vie06 13:18 Machine ON
+
+vie06 13:18 Machine OFF
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:21:35 ---
+vie06 13:21 Machine OFF
+vie06 13:21 Tool 0: No Tool
+
+vie06 13:21 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:29:15 ---
+vie06 13:29 Machine OFF
+vie06 13:29 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:29:51 ---
+vie06 13:29 Machine OFF
+vie06 13:29 Tool 0: No Tool
+
+vie06 13:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:30:36 ---
+vie06 13:30 Machine OFF
+vie06 13:30 Tool 0: No Tool
+
+vie06 13:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:32:02 ---
+vie06 13:32 Machine OFF
+vie06 13:32 Tool 0: No Tool
+
+vie06 13:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:54:12 ---
+vie06 13:54 Machine OFF
+vie06 13:54 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:55:30 ---
+vie06 13:55 Machine OFF
+vie06 13:55 Tool 0: No Tool
+
+vie06 13:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 13:57:18 ---
+vie06 13:57 Machine OFF
+vie06 13:57 Tool 0: No Tool
+
+vie06 13:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:00:16 ---
+vie06 14:00 Machine OFF
+vie06 14:00 Tool 0: No Tool
+
+vie06 14:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:02:29 ---
+vie06 14:02 Machine OFF
+vie06 14:02 Tool 0: No Tool
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:05:26 ---
+vie06 14:05 Machine OFF
+vie06 14:05 Tool 0: No Tool
+
+vie06 14:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:09:43 ---
+vie06 14:09 Machine OFF
+vie06 14:09 Tool 0: No Tool
+
+vie06 14:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:12:23 ---
+vie06 14:12 Machine OFF
+vie06 14:12 Tool 0: No Tool
+
+vie06 14:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:16:43 ---
+vie06 14:16 Machine OFF
+vie06 14:16 Tool 0: No Tool
+
+vie06 14:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 14:17 Presence Sensor Error - LOADING - Step 4 - Checking cuping presence sensor in vertical loading
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 14:30:25 ---
+vie06 14:30 Machine OFF
+vie06 14:30 Tool 0: No Tool
+
+vie06 14:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 15:48 Machine ON
+
+vie06 15:48 Machine OFF
+
+vie06 15:49 Machine ON
+
+vie06 15:50 Loaded program file : /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+vie06 15:50 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 15:50 Started program from line 1
+
+vie06 15:50  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 15:50 Machine OFF
+
+vie06 15:51 Machine ON
+
+vie06 15:51 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+vie06 15:51 Loaded program file : /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 15:51 Cannot switch pages while in AUTO mode
+
+vie06 15:51 Cannot switch pages while in AUTO mode
+
+vie06 15:51 Machine OFF
+
+vie06 15:51 Machine ON
+
+vie06 15:51 Cannot switch pages while in AUTO mode
+
+vie06 15:51 Cannot switch pages while in AUTO mode
+
+vie06 15:51 Cannot switch pages while in AUTO mode
+
+vie06 15:51 Machine OFF
+
+vie06 15:51 Machine ON
+
+vie06 15:52 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+vie06 15:52 Loaded program file : /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 15:52 Started program from line 1
+vie06 15:52  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 15:52 Started program from line 1
+vie06 15:52  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 15:52 Cannot switch pages while in AUTO mode
+
+vie06 15:52 Cannot switch pages while in AUTO mode
+
+vie06 15:52 Cannot switch pages while in AUTO mode
+
+vie06 15:53 Unable to copy file. `/home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc` and `programa01.ngc` are the same file
+
+vie06 15:53 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 15:53 Loaded program file : /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 15:53 Cannot switch pages while in AUTO mode
+
+vie06 15:53 Cannot switch pages while in AUTO mode
+
+vie06 15:58 Machine OFF
+
+vie06 15:59 Machine ON
+
+vie06 15:59 Machine OFF
+
+vie06 15:59 Machine ON
+
+vie06 16:16 Unable to copy file. [Errno 13] Permiso denegado: u'/../../../../../../usr/../programa01.ngc'
+
+vie06 16:16 Unable to copy file. [Errno 13] Permiso denegado: u'/../../../../../../usr/../programa01.ngc'
+
+vie06 16:16 Unable to copy file. [Errno 13] Permiso denegado: u'/../../../../../../home/programa01.ngc'
+
+vie06 16:16 Unable to copy file. [Errno 13] Permiso denegado: u'/../../../../../../home/programa01.ngc'
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 16:22:45 ---
+vie06 16:22 Machine OFF
+vie06 16:22 Tool 0: No Tool
+
+vie06 16:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 16:23 Unable to copy file. `/home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc` and `programa01.ngc` are the same file
+
+vie06 16:23 Unable to copy file. `/home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc` and `programa01.ngc` are the same file
+
+vie06 16:23 Machine ON
+
+vie06 16:23 Machine OFF
+
+vie06 16:23 Unable to copy file. `/home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc` and `programa01.ngc` are the same file
+
+vie06 16:23 Unable to copy file. `/home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc` and `programa01.ngc` are the same file
+
+vie06 16:23 Unable to copy file. [Errno 13] Permiso denegado: u'/media/gantry06/../valor_cuplas.ngc'
+
+vie06 16:24 Unable to copy file. [Errno 13] Permiso denegado: u'/media/gantry06/../programa01.ngc'
+
+vie06 16:24 Unable to copy file. [Errno 13] Permiso denegado: u'/media/gantry06/../programa01.ngc'
+
+vie06 16:24 Unable to copy file. [Errno 13] Permiso denegado: u'/media/gantry06/../valor_cuplas.ngc'
+
+vie06 16:24 Unable to copy file. [Errno 13] Permiso denegado: u'/media/gantry06/../programa01.ngc'
+
+vie06 16:26 Copied file from /home/gantry06/linuxcnc/nc_files/examples/plasmac/imperial_material_change.ngc to /home/gantry06/linuxcnc/imperial_material_change.ngc
+
+vie06 16:27 Unable to copy file. [Errno 13] Permiso denegado: u'/../../home/imperial_material_change.ngc'
+
+vie06 16:27 Copied file from /home/gantry06/linuxcnc/nc_files/examples/plasmac/imperial_wrench.ngc to /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+
+vie06 16:27 Unable to copy file. [Errno 13] Permiso denegado: u'/home/gantry06/linuxcnc/nc_files/examples/plasmac/imperial_material_change.ngc'
+
+vie06 16:27 Unable to copy file. [Errno 13] Permiso denegado: u'/home/gantry06/linuxcnc/nc_files/examples/plasmac/imperial_wrench.ngc'
+
+vie06 16:27 Copied file from /home/gantry06/linuxcnc/nc_files/examples/plasmac/imperial_squares.ngc to /../../home/gantry06/linuxcnc/imperial_squares.ngc
+
+vie06 16:27 Copied file from /home/gantry06/linuxcnc/nc_files/examples/3D_Chips.ngc to /../../home/gantry06/linuxcnc/3D_Chips.ngc
+
+vie06 16:28 Machine ON
+
+vie06 16:28 Loaded program file : /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+vie06 16:28 Loaded file /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+
+vie06 16:28 Cannot switch pages while in AUTO mode
+
+vie06 16:28 Cannot switch pages while in AUTO mode
+
+vie06 16:29 Loaded program file : /../../home/gantry06/linuxcnc/imperial_squares.ngc
+vie06 16:29 Loaded file /../../home/gantry06/linuxcnc/imperial_squares.ngc
+
+vie06 16:29 Loaded program file : /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+vie06 16:29 Loaded file /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+
+vie06 16:30 Loaded program file : /../../home/gantry06/linuxcnc/imperial_squares.ngc
+vie06 16:30 Loaded file /../../home/gantry06/linuxcnc/imperial_squares.ngc
+
+vie06 16:30 Loaded program file : /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+vie06 16:30 Loaded file /../../home/gantry06/linuxcnc/imperial_wrench.ngc
+
+vie06 16:31 Loaded program file : /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+vie06 16:31 Loaded file /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 16:31 Loaded program file /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 16:31 Loaded file /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 16:32 Started program from line 1
+
+vie06 16:32  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 16:32 Started program from line 1
+vie06 16:32  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 16:32 Started program from line 1
+vie06 16:32  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 16:33 Cannot switch pages while in AUTO mode
+
+vie06 16:33 Cannot switch pages while in AUTO mode
+
+vie06 16:33 Cannot switch pages while in AUTO mode
+
+vie06 16:33 Cannot switch pages while in AUTO mode
+
+vie06 16:33 Cannot switch pages while in AUTO mode
+
+vie06 16:33 Loaded file /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+
+vie06 16:34 Loaded file /home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/program_not_od.ngc
+
+vie06 16:34 Cannot switch pages while in AUTO mode
+
+vie06 16:34 Cannot switch pages while in AUTO mode
+
+vie06 16:34 Cannot switch pages while in AUTO mode
+
+vie06 16:34 Loaded program file : /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+vie06 16:34 Loaded file /../../home/gantry06/linuxcnc/configs/sim.qtvcp_screens.qtdragon/programa01.ngc
+
+vie06 16:34 Started program from line 1
+vie06 16:34  INIT - DESCARGA gripper down - Cupla presente en vertical
+
+vie06 16:34 Cannot switch pages while in AUTO mode
+
+vie06 16:34 Cannot switch pages while in AUTO mode
+
+vie06 16:35 Cannot switch pages while in AUTO mode
+
+vie06 16:35 Cannot switch pages while in AUTO mode
+
+vie06 16:35 Machine OFF
+
+vie06 16:35 Machine ON
+
+vie06 16:35 Homing negado por motion.homing-inhibit joint=-1
+
+
+vie06 16:35 Homing negado por motion.homing-inhibit joint=-1
+
+
+vie06 16:37 Saving Status file to status_04:37:28_.txt
+
+vie06 16:37 Saving Status file to status_04:37:29_.txt
+
+vie06 16:37 Saving Status file to status_04:37:45_.txt
+
+vie06 16:37 Saving Status file to status_04:37:56_.txt
+
+vie06 16:38 Saving Status file to status_04:38:07_.txt
+
+vie06 16:38 Saving Status file to status_04:38:09_.txt
+
+vie06 16:38 Saving Status file to status_04:38:10_.txt
+
+--- Qtvcp Screen Started on: vie, oct 06 2023 16:39:49 ---
+vie06 16:39 Machine OFF
+vie06 16:39 Tool 0: No Tool
+
+vie06 16:39 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+vie06 16:40 Machine ON
+

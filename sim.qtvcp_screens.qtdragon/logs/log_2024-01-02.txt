@@ -1,0 +1,396 @@
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:17:38 ---
+mar02 11:17 Machine OFF
+
+mar02 11:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:17 Error en condiciones iniciales de pateador
+mar02 11:17 Cupla no presente en pateador
+mar02 11:17 Cuna no esta abajo
+mar02 11:17 Pateador no retraido
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+mar02 11:17 Error en condiciones iniciales de soplador
+mar02 11:17 Flag de comenzar rutina soplado no esta encendido
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+mar02 11:17 Error en condiciones iniciales de descarga
+mar02 11:17 Piston de descarga no esta arriba
+mar02 11:17 Bancal descarga lleno
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+mar02 11:17 Error en condiciones iniciales de carga
+mar02 11:17 Segregador no presente del lado carga
+mar02 11:17 Piston de carga no esta arriba
+mar02 11:17 Cupla no presente en segregador
+mar02 11:17 Cupla presente en carga
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+mar02 11:17 Error en condiciones iniciales de torno entrar
+mar02 11:17 Torno no termino programa
+mar02 11:17 Torno no se encuentra en home
+mar02 11:17 Puerta techo no esta cerrada
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+mar02 11:17 Error en condiciones iniciales de torno salir
+mar02 11:17 Torno no termino programa
+mar02 11:17 Puerta techo no esta abierta
+mar02 11:17 Robot dentro de okuma
+mar02 11:17 Gantry no esta en estado 2 (programa en automatico)
+mar02 11:17 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:34:53 ---
+mar02 11:34 Machine OFF
+
+mar02 11:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:34 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:42:34 ---
+mar02 11:42 Machine OFF
+
+mar02 11:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:42 Machine ON
+
+mar02 11:42 Machine OFF
+
+mar02 11:42 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:53:36 ---
+mar02 11:53 Machine OFF
+
+mar02 11:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:53 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:55:14 ---
+mar02 11:55 Machine OFF
+
+mar02 11:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:55 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:56:36 ---
+mar02 11:56 Machine OFF
+
+mar02 11:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:56 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:56:55 ---
+mar02 11:56 Machine OFF
+
+mar02 11:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:56 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:57:44 ---
+mar02 11:57 Machine OFF
+
+mar02 11:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:57 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:58:11 ---
+mar02 11:58 Machine OFF
+
+mar02 11:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 11:58:51 ---
+mar02 11:58 Machine OFF
+
+mar02 11:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 11:58 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:02:44 ---
+mar02 12:02 Machine OFF
+
+mar02 12:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:02 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:12:32 ---
+mar02 12:12 Machine OFF
+
+mar02 12:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:12 Machine ON
+
+mar02 12:12 Machine OFF
+
+mar02 12:12 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:12:55 ---
+mar02 12:12 Machine OFF
+
+mar02 12:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:13:28 ---
+mar02 12:13 Machine OFF
+
+mar02 12:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:13:46 ---
+mar02 12:13 Machine OFF
+
+mar02 12:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:32:09 ---
+mar02 12:32 Machine OFF
+mar02 12:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:34:06 ---
+mar02 12:34 Machine OFF
+mar02 12:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:34:24 ---
+mar02 12:34 Machine OFF
+mar02 12:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:36:01 ---
+mar02 12:36 Machine OFF
+
+mar02 12:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:36 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:36:36 ---
+mar02 12:36 Machine OFF
+
+mar02 12:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:36 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:37:17 ---
+mar02 12:37 Machine OFF
+
+mar02 12:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:37 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:38:53 ---
+mar02 12:38 Machine OFF
+
+mar02 12:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:38 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:41:45 ---
+mar02 12:41 Machine OFF
+mar02 12:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:42:59 ---
+mar02 12:43 Machine OFF
+
+mar02 12:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:43 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:49:44 ---
+mar02 12:49 Machine OFF
+
+mar02 12:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:49 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:50:31 ---
+mar02 12:50 Machine OFF
+
+mar02 12:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 12:52:33 ---
+mar02 12:52 Machine OFF
+
+mar02 12:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 12:52 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 13:01:32 ---
+mar02 13:01 Machine OFF
+
+mar02 13:01 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 13:01 Machine ON
+
+mar02 13:01 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 13:01:47 ---
+mar02 13:01 Machine OFF
+
+mar02 13:01 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 13:01 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 14:54:55 ---
+mar02 14:54 Machine OFF
+
+mar02 14:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 14:59:04 ---
+mar02 14:59 Machine OFF
+
+mar02 14:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 15:00:01 ---
+mar02 15:00 Machine OFF
+
+mar02 15:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar02 15:49 Machine ON
+
+mar02 15:49 Machine OFF
+
+mar02 15:49 Machine ON
+
+mar02 15:49 Keyboard shortcuts are disabled
+mar02 15:49 Keyboard shortcuts are disabled
+
+mar02 15:49 Keyboard shortcuts are disabled
+mar02 15:49 Keyboard shortcuts are disabled
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 15:55:48 ---
+mar02 15:55 Machine OFF
+
+mar02 15:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, ene 02 2024 16:04:56 ---
+mar02 16:04 Machine OFF
+
+mar02 16:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+

@@ -1,0 +1,31 @@
+(**********************************************************************)
+(***** TABLA DE CALCULOS *****)
+(**********************************************************************)
+
+#<_diametro_bruto>= 100
+#<_diametro_torneado>= 100
+#<_diametro_interno>= 80
+#<_diametro_referencia>= 90
+
+#<_largo_bruto>= 123
+#<_largo_op10>= 123
+#<_largo_torneado>= 123
+#<_largo_referencia>= 233 
+; en la carga, entre barandas y tope hay 237mm, o sea 4mm de huelgo
+; sensor a 4.1mm de la chapa en gripper down
+; sensor a 4.3mm de la chapa en gripper up
+
+#<_correccion_largo>= [#<_largo_bruto>-#<_largo_referencia>]
+;[#<_largo_referencia>+#<_correccion_largo>]
+
+#<_d_bruto_altura_ps>= 37.5
+;#<_d_torneado_altura_ps>= 37.5
+#<_d_referencia_altura_ps>= 20
+#<_correccion_altura_ps>= [#<_d_bruto_altura_ps>-#<_d_referencia_altura_ps>]
+
+#<_d_bruto_altura_cd>= 61.0387294381
+;#<_d_torneado_altura_cd>= 61.0387294381
+#<_d_referencia_altura_cd>= 20
+#<_correccion_altura_cd>= [#<_d_bruto_altura_cd>-#<_d_referencia_altura_cd>]
+
+m30

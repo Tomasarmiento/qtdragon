@@ -1,0 +1,47 @@
+--- Qtvcp Screen Started on: mié, nov 08 2023 14:33:27 ---
+mié08 14:33 Machine OFF
+mié08 14:33 Tool 0: No Tool
+mié08 14:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié08 14:33 Machine ON
+mié08 14:33 Machine OFF
+mié08 14:43 Machine ON
+mié08 14:43 Machine OFF
+mié08 14:43 Machine ON
+mié08 14:58 Machine OFF
+mié08 14:58 Machine ON
+mié08 14:58 Machine OFF
+mié08 14:58 Machine ON
+mié08 14:59 Machine OFF
+mié08 14:59 Machine ON
+mié08 14:59 Machine OFF
+mié08 14:59 Machine ON
+mié08 14:59 Machine OFF
+mié08 14:59 Machine ON
+mié08 15:00 Machine OFF
+mié08 15:00 Machine ON
+mié08 15:00 Machine OFF
+mié08 15:00 Machine ON
+mié08 15:00 Machine OFF
+mié08 15:00 Machine ON
+
+mié08 15:35 Loaded program file : /home/tom/linuxcnc/nc_files/examples/3D_Chips.ngc
+mié08 15:35 Loaded file /home/tom/linuxcnc/nc_files/examples/3D_Chips.ngc
+
+mié08 15:35 Started program from line 1
+
+mié08 15:35 Started program from line 1
+
+mié08 15:35 Started program from line 1
+
+mié08 15:37 Cannot switch pages while in AUTO mode
+
+mié08 15:37 Cannot switch pages while in AUTO mode
+
+mié08 15:37 Cannot switch pages while in AUTO mode
+
+mié08 15:37 No se puede abrir el archivo </home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc>
+mié08 15:37 no se puede abrir /home/gantry06/Escritorio/backup 06072023 gant/vacio.ngc
+

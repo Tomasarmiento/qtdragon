@@ -1,0 +1,201 @@
+--- Qtvcp Screen Started on: lun, ene 29 2024 11:28:08 ---
+lun29 11:28 Machine OFF
+
+lun29 11:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun29 11:28 Machine ON
+
+lun29 11:28 Machine OFF
+lun29 11:28 error de seguimiento en articulacion 2
+
+lun29 11:28 Machine ON
+
+lun29 11:28 Machine OFF
+lun29 11:28 error de seguimiento en articulacion 2
+
+
+--- Qtvcp Screen Started on: lun, ene 29 2024 11:29:27 ---
+lun29 11:29 Machine OFF
+
+lun29 11:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun29 11:29 Machine ON
+
+lun29 11:29 error de seguimiento en articulacion 2
+lun29 11:29 Machine OFF
+
+lun29 11:29 Machine ON
+
+lun29 11:30 Hard Limits Are Reset To Active!
+
+lun29 11:30 Machine OFF
+lun29 11:30 error de seguimiento en articulacion 2
+
+lun29 11:30 Machine ON
+
+lun29 11:30 Machine OFF
+lun29 11:30 error de seguimiento en articulacion 2
+
+lun29 11:30 Machine ON
+
+lun29 11:30 Machine OFF
+lun29 11:30 Machine ON
+
+lun29 11:30 Machine OFF
+
+lun29 11:30 Machine ON
+
+lun29 11:30 Machine OFF
+
+lun29 11:30 Machine ON
+
+lun29 11:45 Machine OFF
+
+lun29 11:45 error de seguimiento en articulacion 2
+
+lun29 11:45 Machine ON
+
+lun29 11:45 Machine OFF
+
+lun29 11:45 Machine ON
+
+lun29 11:45 Machine OFF
+lun29 11:45 Machine ON
+
+lun29 11:45 Hard Limits Are Reset To Active!
+lun29 11:45 Hard Limits Are Reset To Active!
+
+lun29 11:46 Machine OFF
+lun29 11:46 error de seguimiento en articulacion 2
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 error de seguimiento en articulacion 2
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 error de seguimiento en articulacion 2
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 error de seguimiento en articulacion 2
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+
+lun29 11:46 Machine ON
+
+lun29 11:46 Machine OFF
+lun29 11:46 error de seguimiento en articulacion 2
+
+lun29 11:46 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, ene 29 2024 12:20:03 ---
+lun29 12:20 Machine OFF
+
+lun29 12:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun29 12:20 fallo del amplificador de articulacion 0
+lun29 12:20 fallo del amplificador de articulacion 1
+lun29 12:20 fallo del amplificador de articulacion 2
+
+lun29 12:20 fallo del amplificador de articulacion 0
+lun29 12:20 fallo del amplificador de articulacion 1
+lun29 12:20 fallo del amplificador de articulacion 2
+
+lun29 12:20 fallo del amplificador de articulacion 0
+lun29 12:20 fallo del amplificador de articulacion 1
+lun29 12:20 fallo del amplificador de articulacion 2
+
+lun29 12:20 Machine ON
+
+lun29 12:20 error de seguimiento en articulacion 2
+lun29 12:20 Machine OFF
+
+lun29 12:20 Machine ON
+
+lun29 12:20 Machine OFF
+lun29 12:20 error de seguimiento en articulacion 2
+
+lun29 12:20 Machine ON
+
+lun29 12:20 Machine OFF
+lun29 12:20 Machine ON
+
+lun29 12:20 Machine OFF
+lun29 12:20 error de seguimiento en articulacion 0
+
+lun29 12:20 Machine ON
+
+lun29 12:21 Machine OFF
+lun29 12:21 Machine ON
+
+lun29 12:21 Machine OFF
+
+lun29 12:21 Machine ON
+
+lun29 12:21 Machine OFF
+lun29 12:21 Machine ON
+
+lun29 12:21 Machine OFF
+
+lun29 12:21 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, ene 29 2024 12:25:20 ---
+lun29 12:25 Machine OFF
+
+lun29 12:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun29 12:25 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, ene 29 2024 12:29:51 ---
+lun29 12:29 Machine OFF
+
+lun29 12:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun29 12:29 Machine ON
+

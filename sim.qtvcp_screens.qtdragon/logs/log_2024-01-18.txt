@@ -1,0 +1,42 @@
+--- Qtvcp Screen Started on: jue, ene 18 2024 12:21:55 ---
+jue18 12:21 Machine OFF
+
+jue18 12:21 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue18 12:22 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/arcspiral.ngc
+jue18 12:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/arcspiral.ngc
+
+jue18 12:22 Machine ON
+jue18 12:22 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue18 12:22 Machine OFF
+
+jue18 12:22 Machine ON
+jue18 12:22 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+jue18 12:22 Machine OFF
+
+jue18 12:22 Machine ON
+jue18 12:22 no se puede hacer (EMC_JOINT_HOME:123) en modo MDI
+
+jue18 12:23 Machine OFF
+
+jue18 12:23 Machine ON
+
+jue18 12:23 Machine OFF
+jue18 12:23 Machine ON
+
+jue18 12:30 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/arcspiral.ngc
+jue18 12:30 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/arcspiral.ngc
+
+jue18 12:31 Cannot switch pages while in AUTO mode
+
+jue18 12:31 Cannot switch pages while in AUTO mode
+
+jue18 12:31 Machine OFF
+
+jue18 12:31 Machine ON
+
