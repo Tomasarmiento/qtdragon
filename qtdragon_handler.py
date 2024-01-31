@@ -354,6 +354,7 @@ class HandlerClass:
                 self.py_out_pins.update({str(name): self.pin_out})
 
 
+
         for n in self.py_out_pins:
             if n.split("_")[0] == "RI":
                 if self.py_out_pins[n].get() == False:
