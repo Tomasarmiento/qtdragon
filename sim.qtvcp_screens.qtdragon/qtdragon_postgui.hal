@@ -121,7 +121,7 @@ net EV_bc_bkw <= qtdragon.EV_bc_bkw
 #bancal descarga
 #leds
 net SEN_bd_pc => qtdragon.SEN_bd_pc
-net SEN_bd_full => qtdragon.SEN_bd_full
+net SEN_bd_full => qtdragon.SEN_bd_full => qtdragon.SEN_bd_full_4
 net SEN_bd_up => qtdragon.SEN_bd_up
 net SEN_bd_down => qtdragon.SEN_bd_down
 net SEN_bd_frw => qtdragon.SEN_bd_frw

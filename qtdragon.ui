@@ -231,7 +231,7 @@
                <enum>QFrame::Raised</enum>
               </property>
               <property name="currentIndex">
-               <number>8</number>
+               <number>2</number>
               </property>
               <widget class="QWidget" name="gcode_page">
                <property name="sizePolicy">
@@ -513,7 +513,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="SEN_bd_full" native="true">
+                    <widget class="LED" name="SEN_bd_full_4" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>

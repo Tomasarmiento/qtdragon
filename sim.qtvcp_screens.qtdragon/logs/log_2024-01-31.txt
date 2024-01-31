@@ -1,0 +1,2679 @@
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:10:27 ---
+mié31 05:10 Machine OFF
+
+mié31 05:10 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:11:44 ---
+mié31 05:11 Machine OFF
+
+mié31 05:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:11 Error en condiciones iniciales de pateador
+mié31 05:11 Cupla no presente en pateador
+mié31 05:11 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:11 anulada activa
+mié31 05:11 --------------------------------------------------------------------------------------
+mié31 05:11 Error en condiciones iniciales de soplador
+mié31 05:11 Flag de comenzar rutina soplado no esta encendido
+mié31 05:11 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:11 anulada activa
+mié31 05:11 --------------------------------------------------------------------------------------
+mié31 05:11 Error en condiciones iniciales de descarga
+mié31 05:11 Piston de descarga no esta arriba
+mié31 05:11 Bancal descarga lleno
+mié31 05:11 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:11 anulada activa
+mié31 05:11 --------------------------------------------------------------------------------------
+mié31 05:11 Error en condiciones iniciales de carga
+mié31 05:11 Cupla presente en carga
+mié31 05:11 --------------------------------------------------------------------------------------
+mié31 05:11 Error en condiciones iniciales de torno entrar
+mié31 05:11 Torno se encuentra en alarma
+mié31 05:11 Torno no se encuentra en home
+mié31 05:11 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:11 anulada activa
+mié31 05:11 --------------------------------------------------------------------------------------
+mié31 05:11 Error en condiciones iniciales de torno salir
+mié31 05:11 Torno se encuentra en alarma
+mié31 05:11 Puerta techo no esta abierta
+mié31 05:11 Robot dentro de okuma
+mié31 05:11 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:11 anulada activa
+mié31 05:11 --------------------------------------------------------------------------------------
+
+mié31 05:13 Error en condiciones iniciales de pateador
+mié31 05:13 Cupla no presente en pateador
+mié31 05:13 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:13 anulada activa
+mié31 05:13 --------------------------------------------------------------------------------------
+mié31 05:13 Error en condiciones iniciales de soplador
+mié31 05:13 Flag de comenzar rutina soplado no esta encendido
+mié31 05:13 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:13 anulada activa
+mié31 05:13 --------------------------------------------------------------------------------------
+mié31 05:13 Error en condiciones iniciales de descarga
+mié31 05:13 Piston de descarga no esta arriba
+mié31 05:13 Bancal descarga lleno
+
+mié31 05:13 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:13 anulada activa
+mié31 05:13 --------------------------------------------------------------------------------------
+mié31 05:13 Error en condiciones iniciales de carga
+mié31 05:13 --------------------------------------------------------------------------------------
+mié31 05:13 Error en condiciones iniciales de torno entrar
+mié31 05:13 Torno se encuentra en alarma
+mié31 05:13 Torno no se encuentra en home
+mié31 05:13 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:13 anulada activa
+mié31 05:13 --------------------------------------------------------------------------------------
+mié31 05:13 Error en condiciones iniciales de torno salir
+mié31 05:13 Torno se encuentra en alarma
+mié31 05:13 Puerta techo no esta abierta
+mié31 05:13 Robot dentro de okuma
+mié31 05:13 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:13 anulada activa
+mié31 05:13 --------------------------------------------------------------------------------------
+
+mié31 05:15 Machine ON
+
+mié31 05:15 Machine OFF
+
+mié31 05:15 Error en condiciones iniciales de pateador
+mié31 05:15 Cupla no presente en pateador
+mié31 05:15 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:15 anulada activa
+mié31 05:15 --------------------------------------------------------------------------------------
+mié31 05:15 Error en condiciones iniciales de soplador
+mié31 05:15 Flag de comenzar rutina soplado no esta encendido
+mié31 05:15 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:15 anulada activa
+mié31 05:15 --------------------------------------------------------------------------------------
+mié31 05:15 Error en condiciones iniciales de descarga
+mié31 05:15 Piston de descarga no esta arriba
+mié31 05:15 Bancal descarga lleno
+mié31 05:15 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:15 anulada activa
+mié31 05:15 --------------------------------------------------------------------------------------
+
+mié31 05:15 Error en condiciones iniciales de carga
+mié31 05:15 Cupla presente en carga
+mié31 05:15 --------------------------------------------------------------------------------------
+mié31 05:15 Error en condiciones iniciales de torno entrar
+mié31 05:15 Torno se encuentra en alarma
+mié31 05:15 Torno no se encuentra en home
+mié31 05:15 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:15 anulada activa
+mié31 05:15 --------------------------------------------------------------------------------------
+mié31 05:15 Error en condiciones iniciales de torno salir
+mié31 05:15 Torno se encuentra en alarma
+mié31 05:15 Puerta techo no esta abierta
+mié31 05:15 Robot dentro de okuma
+mié31 05:15 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:15 anulada activa
+mié31 05:15 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:16:06 ---
+mié31 05:16 Machine OFF
+
+mié31 05:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:16 Error en condiciones iniciales de pateador
+mié31 05:16 Cupla no presente en pateador
+mié31 05:16 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:16 anulada activa
+mié31 05:16 --------------------------------------------------------------------------------------
+mié31 05:16 Error en condiciones iniciales de soplador
+mié31 05:16 Flag de comenzar rutina soplado no esta encendido
+mié31 05:16 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:16 anulada activa
+mié31 05:16 --------------------------------------------------------------------------------------
+mié31 05:16 Error en condiciones iniciales de descarga
+mié31 05:16 Piston de descarga no esta arriba
+mié31 05:16 Bancal descarga lleno
+mié31 05:16 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:16 anulada activa
+mié31 05:16 --------------------------------------------------------------------------------------
+mié31 05:16 Error en condiciones iniciales de carga
+mié31 05:16 --------------------------------------------------------------------------------------
+mié31 05:16 Error en condiciones iniciales de torno entrar
+mié31 05:16 Torno se encuentra en alarma
+mié31 05:16 Torno no se encuentra en home
+mié31 05:16 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:16 anulada activa
+mié31 05:16 --------------------------------------------------------------------------------------
+mié31 05:16 Error en condiciones iniciales de torno salir
+mié31 05:16 Torno se encuentra en alarma
+mié31 05:16 Puerta techo no esta abierta
+mié31 05:16 Robot dentro de okuma
+mié31 05:16 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:16 anulada activa
+mié31 05:16 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:17:19 ---
+mié31 05:17 asd
+
+mié31 05:17 Machine OFF
+mié31 05:17 asd
+
+mié31 05:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+mié31 05:17 asd
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:17:46 ---
+mié31 05:17 Machine OFF
+
+mié31 05:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:18:23 ---
+mié31 05:18 Machine OFF
+
+mié31 05:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:19:40 ---
+mié31 05:19 Machine OFF
+
+mié31 05:19 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:20:36 ---
+mié31 05:20 Machine OFF
+
+mié31 05:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:22:38 ---
+mié31 05:22 Machine OFF
+
+mié31 05:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:23:03 ---
+mié31 05:23 Machine OFF
+
+mié31 05:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:23:41 ---
+mié31 05:23 Machine OFF
+
+mié31 05:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:23 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:25:31 ---
+mié31 05:25 Machine OFF
+
+mié31 05:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:28:27 ---
+mié31 05:28 Machine OFF
+
+mié31 05:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:29:10 ---
+mié31 05:29 Machine OFF
+
+mié31 05:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:29 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:32:32 ---
+mié31 05:32 Machine OFF
+
+mié31 05:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:33:43 ---
+mié31 05:33 Machine OFF
+
+mié31 05:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:33 Error en condiciones iniciales de pateador
+mié31 05:33 Cupla no presente en pateador
+mié31 05:33 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:33 anulada activa
+mié31 05:33 --------------------------------------------------------------------------------------
+mié31 05:33 Error en condiciones iniciales de soplador
+mié31 05:33 Flag de comenzar rutina soplado no esta encendido
+mié31 05:33 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:33 anulada activa
+mié31 05:33 --------------------------------------------------------------------------------------
+mié31 05:33 Error en condiciones iniciales de descarga
+mié31 05:33 Piston de descarga no esta arriba
+mié31 05:33 Bancal descarga lleno
+mié31 05:33 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:33 anulada activa
+mié31 05:33 --------------------------------------------------------------------------------------
+mié31 05:33 Error en condiciones iniciales de carga
+mié31 05:33 Cupla no presente en segregador
+mié31 05:33 --------------------------------------------------------------------------------------
+mié31 05:33 Error en condiciones iniciales de torno entrar
+mié31 05:33 Torno se encuentra en alarma
+mié31 05:33 Torno no se encuentra en home
+mié31 05:33 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:33 anulada activa
+mié31 05:33 --------------------------------------------------------------------------------------
+mié31 05:33 Error en condiciones iniciales de torno salir
+mié31 05:33 Torno se encuentra en alarma
+mié31 05:33 Puerta techo no esta abierta
+mié31 05:33 Robot dentro de okuma
+mié31 05:33 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:33 anulada activa
+mié31 05:33 --------------------------------------------------------------------------------------
+
+mié31 05:34 Machine ON
+mié31 05:34 Machine OFF
+
+mié31 05:34 Error en condiciones iniciales de pateador
+mié31 05:34 Cupla no presente en pateador
+mié31 05:34 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:34 anulada activa
+mié31 05:34 --------------------------------------------------------------------------------------
+mié31 05:34 Error en condiciones iniciales de soplador
+mié31 05:34 Flag de comenzar rutina soplado no esta encendido
+mié31 05:34 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:34 anulada activa
+mié31 05:34 --------------------------------------------------------------------------------------
+mié31 05:34 Error en condiciones iniciales de descarga
+mié31 05:34 Piston de descarga no esta arriba
+mié31 05:34 Bancal descarga lleno
+mié31 05:34 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:34 anulada activa
+mié31 05:34 --------------------------------------------------------------------------------------
+mié31 05:34 Error en condiciones iniciales de carga
+mié31 05:34 Cupla presente en carga
+mié31 05:34 --------------------------------------------------------------------------------------
+mié31 05:34 Error en condiciones iniciales de torno entrar
+mié31 05:34 Torno se encuentra en alarma
+mié31 05:34 Torno no se encuentra en home
+mié31 05:34 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:34 anulada activa
+mié31 05:34 --------------------------------------------------------------------------------------
+mié31 05:34 Error en condiciones iniciales de torno salir
+mié31 05:34 Torno se encuentra en alarma
+mié31 05:34 Puerta techo no esta abierta
+mié31 05:34 Robot dentro de okuma
+mié31 05:34 Gantry no esta en estado 2 (programa en automatico)
+
+mié31 05:34 anulada activa
+mié31 05:34 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:34:58 ---
+mié31 05:34 Machine OFF
+
+mié31 05:35 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:38:34 ---
+mié31 05:38 Machine OFF
+
+mié31 05:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:38 Error en condiciones iniciales de pateador
+mié31 05:38 Cupla no presente en pateador
+mié31 05:38 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:38 anulada activa
+mié31 05:38 --------------------------------------------------------------------------------------
+mié31 05:38 Error en condiciones iniciales de soplador
+mié31 05:38 Flag de comenzar rutina soplado no esta encendido
+mié31 05:38 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:38 anulada activa
+mié31 05:38 --------------------------------------------------------------------------------------
+mié31 05:38 Error en condiciones iniciales de descarga
+mié31 05:38 Piston de descarga no esta arriba
+mié31 05:38 Bancal descarga lleno
+mié31 05:38 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:38 anulada activa
+mié31 05:38 --------------------------------------------------------------------------------------
+mié31 05:38 Error en condiciones iniciales de carga
+mié31 05:38 Cupla no presente en segregador
+mié31 05:38 Cupla presente en carga
+mié31 05:38 --------------------------------------------------------------------------------------
+mié31 05:38 Error en condiciones iniciales de torno entrar
+mié31 05:38 Torno se encuentra en alarma
+mié31 05:38 Torno no se encuentra en home
+mié31 05:38 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:38 anulada activa
+mié31 05:38 --------------------------------------------------------------------------------------
+mié31 05:38 Error en condiciones iniciales de torno salir
+mié31 05:38 Torno se encuentra en alarma
+mié31 05:38 Puerta techo no esta abierta
+mié31 05:38 Robot dentro de okuma
+mié31 05:38 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:38 anulada activa
+mié31 05:38 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:39:34 ---
+mié31 05:39 Machine OFF
+
+mié31 05:39 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:39 Error en condiciones iniciales de pateador
+mié31 05:39 Cupla no presente en pateador
+mié31 05:39 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:39 anulada activa
+mié31 05:39 --------------------------------------------------------------------------------------
+mié31 05:39 Error en condiciones iniciales de soplador
+mié31 05:39 Flag de comenzar rutina soplado no esta encendido
+mié31 05:39 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:39 anulada activa
+mié31 05:39 --------------------------------------------------------------------------------------
+mié31 05:39 Error en condiciones iniciales de descarga
+mié31 05:39 Piston de descarga no esta arriba
+mié31 05:39 Bancal descarga lleno
+mié31 05:39 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:39 anulada activa
+mié31 05:39 --------------------------------------------------------------------------------------
+mié31 05:39 Error en condiciones iniciales de carga
+mié31 05:39 Cupla no presente en segregador
+mié31 05:39 --------------------------------------------------------------------------------------
+mié31 05:39 Error en condiciones iniciales de torno entrar
+mié31 05:39 Torno se encuentra en alarma
+
+mié31 05:39 Torno no se encuentra en home
+mié31 05:39 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:39 anulada activa
+mié31 05:39 --------------------------------------------------------------------------------------
+mié31 05:39 Error en condiciones iniciales de torno salir
+mié31 05:39 Torno se encuentra en alarma
+mié31 05:39 Puerta techo no esta abierta
+mié31 05:39 Robot dentro de okuma
+mié31 05:39 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:39 anulada activa
+mié31 05:39 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:41:04 ---
+mié31 05:41 Machine OFF
+
+mié31 05:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 05:41 Error en condiciones iniciales de pateador
+mié31 05:41 Cupla no presente en pateador
+mié31 05:41 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:41 anulada activa
+mié31 05:41 --------------------------------------------------------------------------------------
+mié31 05:41 Error en condiciones iniciales de soplador
+mié31 05:41 Flag de comenzar rutina soplado no esta encendido
+mié31 05:41 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:41 anulada activa
+mié31 05:41 --------------------------------------------------------------------------------------
+
+mié31 05:41 Error en condiciones iniciales de descarga
+mié31 05:41 Piston de descarga no esta arriba
+mié31 05:41 Bancal descarga lleno
+mié31 05:41 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:41 anulada activa
+mié31 05:41 --------------------------------------------------------------------------------------
+mié31 05:41 Error en condiciones iniciales de carga
+mié31 05:41 Cupla no presente en segregador
+mié31 05:41 Cupla presente en carga
+mié31 05:41 --------------------------------------------------------------------------------------
+mié31 05:41 Error en condiciones iniciales de torno entrar
+mié31 05:41 Torno se encuentra en alarma
+mié31 05:41 Torno no se encuentra en home
+mié31 05:41 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:41 anulada activa
+mié31 05:41 --------------------------------------------------------------------------------------
+mié31 05:41 Error en condiciones iniciales de torno salir
+mié31 05:41 Torno se encuentra en alarma
+mié31 05:41 Puerta techo no esta abierta
+mié31 05:41 Robot dentro de okuma
+mié31 05:41 Gantry no esta en estado 2 (programa en automatico)
+mié31 05:41 anulada activa
+mié31 05:41 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 05:52:03 ---
+mié31 05:52 Machine OFF
+
+mié31 05:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 06:04:49 ---
+mié31 06:04 Machine OFF
+
+mié31 06:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 06:04 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+mié31 06:04 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+mié31 06:05 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+mié31 06:05 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+mié31 06:05 Machine ON
+
+mié31 06:05 Machine OFF
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+
+mié31 07:25 Error en condiciones iniciales de pateador
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+
+mié31 07:25 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+
+mié31 07:25 Error en condiciones iniciales de soplador
+
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+
+mié31 07:25 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+
+mié31 07:25 Error en condiciones iniciales de descarga
+
+mié31 07:25 Piston de descarga no esta arriba
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+
+mié31 07:25 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+
+mié31 07:25 Error en condiciones iniciales de carga
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+
+mié31 07:25 --------------------------------------------------------------------------------------
+
+mié31 07:25 Error en condiciones iniciales de torno entrar
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+
+mié31 07:25 Torno no se encuentra en home
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+
+mié31 07:25 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+
+mié31 07:25 Error en condiciones iniciales de torno salir
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Puerta techo no esta abierta
+
+mié31 07:25 Robot dentro de okuma
+
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Puerta techo no esta abierta
+mié31 07:25 Robot dentro de okuma
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Puerta techo no esta abierta
+mié31 07:25 Robot dentro de okuma
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Puerta techo no esta abierta
+mié31 07:25 Robot dentro de okuma
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:24:52 ---
+mié31 07:24 Machine OFF
+mié31 07:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:25 Pneumatic Sensor Error - LOADING - Step 1.1 - Checking vertical sensor
+mié31 07:25 Error en condiciones iniciales de pateador
+mié31 07:25 Cupla no presente en pateador
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de soplador
+mié31 07:25 Flag de comenzar rutina soplado no esta encendido
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de descarga
+mié31 07:25 Piston de descarga no esta arriba
+mié31 07:25 Cupla no presente en descarga
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de carga
+mié31 07:25 Error en rutina previo
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno entrar
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Torno no se encuentra en home
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:25 Error en condiciones iniciales de torno salir
+mié31 07:25 Torno se encuentra en alarma
+mié31 07:25 Puerta techo no esta abierta
+mié31 07:25 Robot dentro de okuma
+mié31 07:25 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:25 Error en rutina previo
+mié31 07:25 anulada activa
+mié31 07:25 --------------------------------------------------------------------------------------
+mié31 07:27 Presence Sensor Error - LOADING - Step 4 - Checking cuping presence sensor in vertical loading
+
+mié31 07:28 Machine ON
+
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:28 Keyboard shortcuts are disabled
+
+mié31 07:28 Keyboard shortcuts are disabled
+mié31 07:29 Keyboard shortcuts are disabled
+mié31 07:29 Keyboard shortcuts are disabled
+mié31 07:29 Keyboard shortcuts are disabled
+
+mié31 07:29 Keyboard shortcuts are disabled
+mié31 07:29 Keyboard shortcuts are disabled
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:31:00 ---
+mié31 07:31 Machine OFF
+
+mié31 07:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 07:31 Error en condiciones iniciales de pateador
+mié31 07:31 Cupla no presente en pateador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de soplador
+mié31 07:31 Flag de comenzar rutina soplado no esta encendido
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de descarga
+mié31 07:31 Rutina ya ejecutandose
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de carga
+mié31 07:31 Cupla no presente en segregador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno entrar
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Torno no se encuentra en home
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno salir
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Puerta techo no esta abierta
+mié31 07:31 Robot dentro de okuma
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:31:00 ---
+mié31 07:31 Machine OFF
+mié31 07:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:31 Error en condiciones iniciales de pateador
+mié31 07:31 Cupla no presente en pateador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de soplador
+mié31 07:31 Flag de comenzar rutina soplado no esta encendido
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de descarga
+mié31 07:31 Rutina ya ejecutandose
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de carga
+mié31 07:31 Cupla no presente en segregador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno entrar
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Torno no se encuentra en home
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno salir
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Puerta techo no esta abierta
+mié31 07:31 Robot dentro de okuma
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:31:00 ---
+mié31 07:31 Machine OFF
+mié31 07:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:31 Error en condiciones iniciales de pateador
+mié31 07:31 Cupla no presente en pateador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de soplador
+mié31 07:31 Flag de comenzar rutina soplado no esta encendido
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de descarga
+mié31 07:31 Rutina ya ejecutandose
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de carga
+mié31 07:31 Cupla no presente en segregador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno entrar
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Torno no se encuentra en home
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno salir
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Puerta techo no esta abierta
+mié31 07:31 Robot dentro de okuma
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+mié31 07:31 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:31:00 ---
+mié31 07:31 Machine OFF
+mié31 07:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:31 Error en condiciones iniciales de pateador
+mié31 07:31 Cupla no presente en pateador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de soplador
+mié31 07:31 Flag de comenzar rutina soplado no esta encendido
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de descarga
+mié31 07:31 Rutina ya ejecutandose
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de carga
+mié31 07:31 Cupla no presente en segregador
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno entrar
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Torno no se encuentra en home
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Error en condiciones iniciales de torno salir
+mié31 07:31 Torno se encuentra en alarma
+mié31 07:31 Puerta techo no esta abierta
+mié31 07:31 Robot dentro de okuma
+mié31 07:31 Gantry no esta en estado 2 (programa en automatico)
+mié31 07:31 anulada activa
+mié31 07:31 --------------------------------------------------------------------------------------
+mié31 07:31 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+mié31 07:31 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+mié31 07:34 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:36:23 ---
+mié31 07:36 Machine OFF
+
+mié31 07:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:36:23 ---
+mié31 07:36 Machine OFF
+mié31 07:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:37 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:37:43 ---
+mié31 07:37 Machine OFF
+
+mié31 07:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:37:43 ---
+mié31 07:37 Machine OFF
+mié31 07:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:38 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:37:43 ---
+mié31 07:37 Machine OFF
+mié31 07:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 07:38 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+mié31 07:38 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:40:13 ---
+mié31 07:40 Machine OFF
+
+mié31 07:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 07:52:55 ---
+mié31 07:52 Machine OFF
+
+mié31 07:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:10:56 ---
+mié31 08:10 Machine OFF
+
+mié31 08:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:13:52 ---
+mié31 08:13 Machine OFF
+
+mié31 08:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:14:38 ---
+mié31 08:14 Machine OFF
+
+mié31 08:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:33:58 ---
+mié31 08:33 Machine OFF
+
+mié31 08:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:35:23 ---
+mié31 08:35 Machine OFF
+
+mié31 08:35 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:36:31 ---
+mié31 08:36 Machine OFF
+
+mié31 08:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:38:39 ---
+mié31 08:38 Machine OFF
+
+mié31 08:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:40:00 ---
+mié31 08:40 Machine OFF
+
+mié31 08:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 08:43 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:47:08 ---
+mié31 08:47 Machine OFF
+
+mié31 08:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:49:30 ---
+mié31 08:49 Machine OFF
+
+mié31 08:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:49:56 ---
+mié31 08:49 Machine OFF
+
+mié31 08:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:51:36 ---
+mié31 08:51 Machine OFF
+
+mié31 08:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:52:32 ---
+mié31 08:52 Machine OFF
+
+mié31 08:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:54:00 ---
+mié31 08:54 Machine OFF
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:55:12 ---
+mié31 08:55 Machine OFF
+
+mié31 08:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:55:42 ---
+mié31 08:55 Machine OFF
+
+mié31 08:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:56:31 ---
+mié31 08:56 Machine OFF
+
+mié31 08:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:59:19 ---
+mié31 08:59 Machine OFF
+
+mié31 08:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 08:59:48 ---
+mié31 08:59 Machine OFF
+
+mié31 08:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:01:54 ---
+mié31 09:01 Machine OFF
+
+mié31 09:01 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:02:23 ---
+mié31 09:02 Machine OFF
+
+mié31 09:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:03:49 ---
+mié31 09:03 Machine OFF
+
+mié31 09:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:04:42 ---
+mié31 09:04 Machine OFF
+
+mié31 09:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:05:16 ---
+mié31 09:05 Machine OFF
+
+mié31 09:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:07:08 ---
+mié31 09:07 Machine OFF
+
+mié31 09:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:07:57 ---
+mié31 09:07 Machine OFF
+
+mié31 09:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:08:18 ---
+mié31 09:08 Machine OFF
+
+mié31 09:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:08:35 ---
+mié31 09:08 Machine OFF
+
+mié31 09:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:09:47 ---
+mié31 09:09 Machine OFF
+
+mié31 09:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:13:36 ---
+mié31 09:13 Machine OFF
+
+mié31 09:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:17:18 ---
+mié31 09:17 Machine OFF
+
+mié31 09:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:19:38 ---
+mié31 09:19 Machine OFF
+
+mié31 09:19 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:22:03 ---
+mié31 09:22 Machine OFF
+
+mié31 09:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:23:00 ---
+mié31 09:23 Machine OFF
+
+mié31 09:23 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:25:31 ---
+mié31 09:25 Machine OFF
+
+mié31 09:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:26:11 ---
+mié31 09:26 Machine OFF
+
+mié31 09:26 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:29:34 ---
+mié31 09:29 Machine OFF
+
+mié31 09:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:33:24 ---
+mié31 09:33 Machine OFF
+
+mié31 09:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:49:11 ---
+mié31 09:49 Machine OFF
+
+mié31 09:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:52:21 ---
+mié31 09:52 Machine OFF
+
+mié31 09:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:55:05 ---
+mié31 09:55 Machine OFF
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:56:10 ---
+mié31 09:56 Machine OFF
+
+mié31 09:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 09:56 Pneumatic Sensor Error - UNLOAD - Step 1.1 - Checking vertical sensor
+
+mié31 09:56 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:57:21 ---
+mié31 09:57 Machine OFF
+
+mié31 09:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:58:34 ---
+mié31 09:58 Machine OFF
+
+mié31 09:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 09:59:17 ---
+mié31 09:59 Machine OFF
+
+mié31 09:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:00:50 ---
+mié31 10:00 Machine OFF
+
+mié31 10:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:01:52 ---
+mié31 10:01 Machine OFF
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:03:14 ---
+mié31 10:03 Machine OFF
+
+mié31 10:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:04:12 ---
+mié31 10:04 Machine OFF
+
+mié31 10:04 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:05:20 ---
+mié31 10:05 Machine OFF
+
+mié31 10:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 10:08 Error en condiciones iniciales de pateador
+mié31 10:08 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:08 anulada activa
+mié31 10:08 --------------------------------------------------------------------------------------
+mié31 10:08 Error en condiciones iniciales de soplador
+mié31 10:08 Flag de comenzar rutina soplado no esta encendido
+mié31 10:08 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:08 anulada activa
+mié31 10:08 --------------------------------------------------------------------------------------
+mié31 10:08 Error en condiciones iniciales de descarga
+mié31 10:08 Cupla no presente en descarga
+mié31 10:08 --------------------------------------------------------------------------------------
+mié31 10:08 Error en condiciones iniciales de carga
+mié31 10:08 Cupla no presente en segregador
+mié31 10:08 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:08 --------------------------------------------------------------------------------------
+mié31 10:08 Error en condiciones iniciales de torno entrar
+mié31 10:08 Torno se encuentra en alarma
+mié31 10:08 Torno no se encuentra en home
+mié31 10:08 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:08 anulada activa
+mié31 10:08 --------------------------------------------------------------------------------------
+mié31 10:08 Error en condiciones iniciales de torno salir
+mié31 10:08 Torno se encuentra en alarma
+mié31 10:08 Puerta techo no esta abierta
+mié31 10:08 Robot dentro de okuma
+mié31 10:08 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:08 anulada activa
+mié31 10:08 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+
+mié31 10:10 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+
+mié31 10:10 Error en condiciones iniciales de carga
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+
+mié31 10:10 --------------------------------------------------------------------------------------
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+
+mié31 10:10 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+
+mié31 10:10 --------------------------------------------------------------------------------------
+
+mié31 10:10 Error en condiciones iniciales de torno salir
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Puerta techo no esta abierta
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Puerta techo no esta abierta
+mié31 10:10 Robot dentro de okuma
+
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Puerta techo no esta abierta
+mié31 10:10 Robot dentro de okuma
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Puerta techo no esta abierta
+mié31 10:10 Robot dentro de okuma
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:09:13 ---
+mié31 10:09 Machine OFF
+mié31 10:09 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mié31 10:09 Pneumatic Sensor Error - KICKER - Step 1.1 - Check cradle up sensor
+mié31 10:10 Error en condiciones iniciales de pateador
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de soplador
+mié31 10:10 Flag de comenzar rutina soplado no esta encendido
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de descarga
+mié31 10:10 Cupla no presente en descarga
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de carga
+mié31 10:10 Cupla no presente en segregador
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno entrar
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Torno no se encuentra en home
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+mié31 10:10 Error en condiciones iniciales de torno salir
+mié31 10:10 Torno se encuentra en alarma
+mié31 10:10 Puerta techo no esta abierta
+mié31 10:10 Robot dentro de okuma
+mié31 10:10 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:10 Error en rutina previo
+mié31 10:10 anulada activa
+mié31 10:10 --------------------------------------------------------------------------------------
+
+mié31 10:12 Error en condiciones iniciales de pateador
+mié31 10:12 Cupla no presente en pateador
+mié31 10:12 --------------------------------------------------------------------------------------
+mié31 10:12 Error en condiciones iniciales de soplador
+mié31 10:12 Flag de comenzar rutina soplado no esta encendido
+mié31 10:12 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:12 anulada activa
+mié31 10:12 --------------------------------------------------------------------------------------
+mié31 10:12 Error en condiciones iniciales de descarga
+mié31 10:12 Cupla no presente en descarga
+mié31 10:12 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:12 --------------------------------------------------------------------------------------
+mié31 10:12 Error en condiciones iniciales de carga
+mié31 10:12 Cupla no presente en segregador
+mié31 10:12 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:12 --------------------------------------------------------------------------------------
+mié31 10:12 Error en condiciones iniciales de torno entrar
+mié31 10:12 Torno se encuentra en alarma
+mié31 10:12 Torno no se encuentra en home
+mié31 10:12 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:12 anulada activa
+mié31 10:12 --------------------------------------------------------------------------------------
+mié31 10:12 Error en condiciones iniciales de torno salir
+mié31 10:12 Torno se encuentra en alarma
+mié31 10:12 Puerta techo no esta abierta
+mié31 10:12 Robot dentro de okuma
+
+mié31 10:12 Gantry no esta en estado 2 (programa en automatico)
+mié31 10:12 anulada activa
+mié31 10:12 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:13:54 ---
+mié31 10:13 Machine OFF
+
+mié31 10:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié31 10:14 Pneumatic Sensor Error - BLOWING - Step 3.1 - Checking closed door sensor for blowing
+
+mié31 10:14 Control Flag Error - BLOWING - Step 8 - Wait for turn on blower
+
+
+--- Qtvcp Screen Started on: mié, ene 31 2024 10:20:45 ---
+mié31 10:20 Machine OFF
+
+mié31 10:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
