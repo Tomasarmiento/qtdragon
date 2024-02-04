@@ -1490,22 +1490,41 @@ class HandlerClass:
 	# ********* rutina - OKUMA ENTRAR *********
     def ch_routine_entrar(self):
         # Paso 1 - Verifica cycle start = 0
-        sen_key = 'RI_tor_cs'
-        if not self.wait_for_not_sen_common_flag(sen_key):
-            msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start is 0'
+        #sen_key = 'RI_tor_cs'
+        #if not self.wait_for_not_sen_common_flag(sen_key):
+        #    msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start is 0'
+        #    print(msg_error)
+        #    self.routine_error_messages['torno_entrar'].append(msg_error)
+        #    self.err_routine = False
+        #    return False
+        
+        # Paso 1 - cycle start = 0
+        key_1 = 'RI_tor_cs'
+        if not self.send_pneumatic(key_1, False):
+            msg_error = 'Pneumatic Command Error - OKUMA ENTER - Step 1 - cycle start off'
             print(msg_error)
             self.routine_error_messages['torno_entrar'].append(msg_error)
             self.err_routine = False
             return False
-        
+
 
         # Paso 1.2 - MFIN = 0, sino error
+        key_1 = 'RI_tor_mfin'
+        if not self.send_pneumatic(key_1, False):
+            msg_error = 'Pneumatic Command Error - OKUMA ENTER - Step 1.2 - request answer off'
+            print(msg_error)
+            self.routine_error_messages['torno_entrar'].append(msg_error)
+            self.err_routine = False
+            return False
 
 
         # Paso 1.3 - LOADER SYSTEM LINK/AUTO MODE (salida del Gantry que indica que esta en automatico) = 1, sino error
+        #en todas las rutinas se chequea que gantry este en automatico y si esta en automatico ya prende la salida de system link
 
 
         # Paso 1.4 - ROBOT/LOADER ALARM (salida NC del Gantry que indica que esta en alarma) = 1, sino error
+        #aca el gantry deberia ponerla en 1 cuando inicia el programa en automatico y cuando saltan los m2 por errores que la apague
+        
 
 
         # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
@@ -1867,8 +1886,9 @@ class HandlerClass:
 		    (self.threadTorno_salir.is_alive() == False, 'Rutina ya ejecutandose'),
 			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
    			
-            (hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
+            (hal.get_value('RI_tor_alarm_confirm') == True, 'Torno se encuentra en alarma'), #NC ALARM=1
             #tiene sentido???, aunque el torno este en alarma, conviene que el Gantry Salga....
+            #ts: no si chequiamos mhp
 
 			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'), # condicion1
 			(self.py_out_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
@@ -1877,6 +1897,7 @@ class HandlerClass:
             #aunque por ejemplo al iniciar el sistema se puede dar que robot esta afuera y la puerta esta abierta...
             #habria que poner como 3er condicion que el flag de que el robot puede ingresar este en 1
             #con eso aseguramos que venga de la rutina Okuma Entrar, total en el paso 1 lo baja a ese flag
+            #ts: pondria como condicion para que el gantry arranque la puerta cerrada
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
@@ -1907,11 +1928,11 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            #FALTAN
-                #SYSTEM LINK MODE = 1
-                #CYCLE STOP REQUEST = 1 (es NC)
-                #M180 = 0
-                #M181 = 0
+            (hal.get_value('RI_tor_cstop_confirm') == True, 'Señal de cycle stop prendida'),
+            (hal.get_value('RI_tor_m180_confirm') == False, 'Señal m180 del torno prendida'),
+            (hal.get_value('RI_tor_m181_confirm') == False, 'Señal m181 del torno prendida'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+                #SYSTEM LINK MODE = 1 hay q chequearlo en todas las rutinas
       
 		]
 

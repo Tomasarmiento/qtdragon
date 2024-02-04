@@ -1,5 +1,5 @@
 (**********************************************************************)
-(***** TABLA DE CALCULOS *****)
+(***** TABLA DE CALCULOS                                          *****)
 (**********************************************************************)
 ;not od
 #<_diametro_bruto>= 111
@@ -33,7 +33,7 @@
 
 
 ;(**********************************************************************)
-;(***** TABLA DE POSICIONES *****)
+;(***** TABLA DE POSICIONES                                        *****)
 ;(**********************************************************************)
 
 ;posicion segura
@@ -151,7 +151,7 @@
 
 
 (**********************************************************************)
-(***** TABLA DE VELOCIDADES *****)
+(***** TABLA DE VELOCIDADES                                       *****)
 (**********************************************************************)
 
 #<_VEL_RAPIDA>=35000
@@ -161,7 +161,7 @@
 
 
 (**********************************************************************)
-(***** ENCABEZADO *****)
+(***** ENCABEZADO                                                 *****)
 (**********************************************************************)
 
 G10 L2 P1 X0 Y0 Z0 ;offset a G54
@@ -174,50 +174,62 @@ G64 P1 ;path blending(cont)
 
 
 (**********************************************************************)
-(***** PROGRAMA *****)
+(***** PROGRAMA                                                   *****)
 (**********************************************************************)
 
 o800 CALL ;condiciones inciales
 
 o1300 CALL ;RUTINA CARGA gripper down
 o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
+o2100 CALL ; **** OP10 ****
+
 
 #<_terminar> = 0
 
 o500 WHILE [#<_terminar> LT 10000]
 
-    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
-    M66 P49 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
-    o116 IF [#5399 EQ 1]
-        #<_terminar> = 10001
-    o116 ENDIF
-
     o1300 CALL ;RUTINA CARGA gripper down
     o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
-    o3200 CALL ;RUTINA TORNO MEDIO TOMA CON gripper down / DEJA CON gripper up
+    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
+    o2100 CALL ; **** OP10 ****
+
     o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-    o3200 CALL ;RUTINA TORNO MEDIO TOMA CON gripper down / DEJA CON gripper up
+    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
+    o2150 CALL ; ----- OP20 -----
+
     o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-    o3200 CALL ;RUTINA TORNO MEDIO TOMA CON gripper down / DEJA CON gripper up
+    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
+    o2150 CALL ; ----- OP20 -----
+
     o1200 CALL ;soplador dejar down
     o1250 CALL ;soplador tomar down
     o1350 CALL ;RUTINA DESCARGA gripper down
     o1300 CALL ;RUTINA CARGA gripper down
     o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
-    o3200 CALL ;RUTINA TORNO MEDIO TOMA CON gripper down / DEJA CON gripper up
+    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
+    o2100 CALL ; **** OP10 ****
+
     o1200 CALL ;soplador dejar down
     o1250 CALL ;soplador tomar down
     o1350 CALL ;RUTINA DESCARGA gripper down
 
     #<_terminar> = [#<_terminar> + 1]
 
+    ;VERIFICAR Señal LAST CYCLE
+    M66 Pxx L3 Q0.1	;poner número de entrada
+    o116 IF [#5399 EQ 1]
+        #<_terminar> = 10001
+    o116 ENDIF
+
 o500 ENDWHILE
 
 o10 IF [#<_terminar> GT 10000]
-    o3400 CALL ;RUTINA TORNO TERMINA TOMA CON gripper down
-    RUTINA VOLTEADOR gripper down - sale DOWN
+    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
+    O1500 CALL ;RUTINA VOLTEADOR gripper down - sale down
     o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-    o3400 CALL ;RUTINA TORNO TERMINA TOMA CON gripper down
+    o2150 CALL ; ----- OP20 -----
+
+    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
     o1200 CALL ;soplador dejar down
     o1250 CALL ;soplador tomar down
     o1350 CALL ;RUTINA DESCARGA gripper down
@@ -229,7 +241,7 @@ M02
 
 
 ;(**********************************************************************)
-;(***** INICIALIZACION CHEQUEOS *****)
+;(***** INICIALIZACION CHEQUEOS                                    *****)
 ;(**********************************************************************)
 
 o800 SUB
@@ -382,13 +394,104 @@ o800 SUB
         M02
     o116 ENDIF
 
-    ;Señal 02 torno en alarma en 0 (la setea el torno, y la lee el Python)
-    M66 P46 L4 Q0.1	;cambiar entrada a mirar - RI_tor_alarm_confirm
+
+
+    
+
+    ;****************************** faltan poner estas ******************************
+    ;Sino se cumple alguna de las anteriores dar mensaje de error
+    
+    
+    ;VERIFICA SYSTEM LINK MODE PRENDIDO
+    M66 P46 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma no tiene system link prendido)
+        ;(log, )
+        M02
+    o117 ENDIF
+    
+
+    ;Señal 02 torno en nc alarma en 1 (la setea el torno, y la lee el Python)
+    M66 P55 L3 Q0.1	; ******************* cambiar entrada a mirar - RI_tor_alarm_confirm
     o117 IF [#5399 EQ -1]
         (debug, INIT TORNO - Okuma se encuentra en alarma)
         ;(log, )
         M02
     o117 ENDIF
+
+    ;VERIFICAR CYCLE COMPLETE EN 1
+    M66 P47 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma no finalizo el ciclo)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;VERIFICAR MACHINE HOME POSITION EN 1
+    M66 P48 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma señal de machine home position no esta prendida)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;VERIFICAR CYCLE STOP REQUEST EN 1
+    M66 P50 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma cycle stop activado)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;VERIFICAR REQUEST 1 (M180) EN 0
+    M66 P51 L4 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma señal de m180 prendida)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;VERIFICAR REQUEST 2 (M181) EN 0
+    M66 P52 L4 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma señal de m181 prendida)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+
+    ;   Señal 03 iniciar torno en automático en 0  (la setea el Python, y la lee el torno)--- ??
+    
+    ;VERIFICAR PLATO DEL TORNO ABIERTO (la setea el torno, y la lee el Python / Código G)
+    M66 P43 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma plato no esta abierto)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;Flag 58 de Gantry puede ingresar en 0 (la setea el Python, y la lee el Código G)
+    M66 P29 L3 Q0.1
+    o117 IF [#5399 EQ -1]
+        (debug, INIT gantry - flag de gantry puede ingresar no esta apagado)
+        ;(log, )
+        M02
+    o117 ENDIF
+
+    ;Setear:   
+    ;   LOADER SYSTEM LINK/AUTO MODE=1, ya esta ligada a gantry en automatico
+    ;   ROBOT/LOADER OUT OF MACHINE AREA=1, se puede ligar a la posicion del eje Z safe
+
+
+    ;SETEAR señal de robot loader alarm 1
+    M64 P39
+
+    ;SETEAR señal de CYCLE START en 0
+    M65 P50
+
+    ;SETEAR señal de request answer en 0
+    M65 P52
+
 
 o800 ENDSUB
 
@@ -396,17 +499,10 @@ o800 ENDSUB
 
 
 
-;Señales de comunicación
-;Señal 01 torno terminó en 0 (es un M, la setea el torno, y la lee el Python)
-;Señal 03 iniciar torno en automático en 0  (la setea el Python, y la lee el torno)
-;Señal 06 Plato abierto (la setea el torno, y la lee el Python / Código G)
-;Sino se cumple alguna de las anteriores dar mensaje de error
-
-
 
 
 (**********************************************************************)
-(***** PARKING - DEJAR DOWN - TOMAR UP *****)
+(***** PARKING - DEJAR DOWN - TOMAR UP                            *****)
 (**********************************************************************)
 
 o2100 SUB
@@ -552,7 +648,7 @@ o2100 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA PARKING gripper down DEJAR *****)
+(***** RUTINA PARKING gripper down DEJAR                          *****)
 (**********************************************************************)
 
 o1000 SUB
@@ -632,8 +728,8 @@ o1000 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA PARKING gripper down TOMAR *****)
-(***** MIDE *****)
+(***** RUTINA PARKING gripper down TOMAR                          *****)
+(***** MIDE                                                       *****)
 (**********************************************************************)
 
 o1050 SUB
@@ -730,7 +826,7 @@ o1050 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA PARKING gripper UP DEJAR *****)
+(***** RUTINA PARKING gripper up DEJAR                            *****)
 (**********************************************************************)
 
 o1100 SUB
@@ -811,7 +907,7 @@ o1100 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA PARKING gripper UP TOMAR *****)
+(***** RUTINA PARKING gripper up TOMAR                            *****)
 (**********************************************************************)
 
 o1150 SUB
@@ -906,8 +1002,13 @@ o1150 SUB
 o1150 ENDSUB
 
 
+
+
+
+
+
 (**********************************************************************)
-(***** RUTINA SOPLADOR GRIPPER DOWN DEJAR *****)
+(***** RUTINA SOPLADOR GRIPPER DOWN DEJAR                         *****)
 (**********************************************************************)
 
 o1200 SUB
@@ -1032,8 +1133,8 @@ o1200 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA SOPLADOR GRIPPER DOWN TOMAR *****)
-(***** MIDE *****)
+(***** RUTINA SOPLADOR GRIPPER DOWN TOMAR                         *****)
+(***** MIDE                                                       *****)
 (**********************************************************************)
 
 o1250 SUB
@@ -1178,9 +1279,14 @@ o1250 SUB
 o1250 ENDSUB
 
 
+
+
+
+
+
 (**********************************************************************)
-(***** RUTINA CARGA gripper down *****)
-(***** MIDE *****)
+(***** RUTINA CARGA gripper down                                  *****)
+(***** MIDE                                                       *****)
 (**********************************************************************)
 
 o1300 SUB
@@ -1315,7 +1421,7 @@ o1300 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA DESCARGA gripper down *****)
+(***** RUTINA DESCARGA gripper down                               *****)
 (**********************************************************************)
 
 o1350 SUB
@@ -1407,9 +1513,14 @@ o1350 SUB
 o1350 ENDSUB
 
 
+
+
+
+
+
 (**********************************************************************)
-(***** RUTINA VOLTEADOR gripper down - sale up*****)
-(***** MIDE *****)
+(***** RUTINA VOLTEADOR gripper down - sale up                    *****)
+(***** MIDE                                                       *****)
 (**********************************************************************)
 
 o1400 SUB
@@ -1540,6 +1651,10 @@ o1400 SUB
             M02
         o1440 ENDIF
 
+    ; ************ DIFERENCIA ************
+    
+
+
     G1 x#<_volteador_gripper_down_extrae>	F#<_VEL_RAPIDA>
 
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
@@ -1646,6 +1761,163 @@ o1400 SUB
 o1400 ENDSUB
 
 
+(**********************************************************************)
+(***** RUTINA VOLTEADOR gripper down - sale down                  *****)
+(***** MIDE                                                       *****)
+(**********************************************************************)
+
+o1500 SUB
+
+    ;VERIFICAR POSICION SEGURA
+        #5399 = 0
+        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o1551 IF [#5399 EQ -1]
+            (debug, Volteador - No en posición segura Y/Z para comenzar)
+            ;(log, )
+            M02
+        o1551 ENDIF
+
+    ;VERIFICAR SENSOR MORDAZA ABIERTA EN VOLTEADOR - sino error
+        M66 P13 L3 Q0.1
+        o1555 IF [#5399 EQ -1]
+            (debug, Volteador - Mordaza cerrada)
+            ;(log, )
+            M02
+        o1555 ENDIF
+    
+    ;VERIFICAR SENSOR GIRADOR EN 0 GRADOS - sino error
+        M66 P10 L3 Q0.1
+        o1560 IF [#5399 EQ -1]
+            (debug, Volteador - Girador no en posicion 0 grados)
+            ;(log, )
+            M02
+        o1560 ENDIF
+
+    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+        M66 P21 L4 Q0.1
+        o1565 IF [#5399 EQ -1]
+            (debug, Volteador - Cupla no presente en gripper de abajo)
+            ;(log, )
+            M02
+        o1565 ENDIF
+
+    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+
+    G1 y#<_volteador_ingreso_down_y>	F#<_VEL_RAPIDA>
+
+    G1 z#<_volteador_gripper_down_z>	F#<_VEL_RAPIDA>
+
+    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+
+    G1 x#<_volteador_gripper_down_dejar_x_calculado>	F#<_VEL_MEDIA>
+
+    ;CERRAR MORDAZAS VOLTEADOR
+        M64 P04
+        M65 P03
+        
+    ;VERIFICAR SENSORES DE MORDAZA ABIERTA Y CERRADA EN 0 - sino error
+        G04 p3
+
+        M66 P13 L4 Q0.1 (Chequea la senal de mordaza no abierta)
+        o1570 IF [#5399 EQ -1]
+            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            ;(log, )
+            M02
+        o1570 ENDIF
+
+        M66 P12 L4 Q0.1 (Chequea la senal de mordaza no cerrada)
+        o1575 IF [#5399 EQ -1]
+            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            ;(log, )
+            M02
+        o1575 ENDIF
+   
+    ;SUBRUTINA DE ABRIR DOWN
+        o1700 CALL ;abrir gripper down
+            o1581 IF [#5399 EQ -1]
+                (debug, ERROR EN RUTINA VOLTEADOR)
+                ;(log, )
+                M02
+            o1581 ENDIF
+
+    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+
+    ;GIRAR VOLTEADOR A 180 GRADOS
+        M64 P01
+        M65 P02
+
+    ;VERIFICAR SENSOR GIRADOR EN 180 GRADOS - sino error
+        M66 P11 L3 Q5
+        o1585 IF [#5399 EQ -1]
+            (debug, Volteador - Girador no en 180 posicion correcta)
+            ;(log, )
+            M02
+        o1585 ENDIF
+
+    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+
+    G1 x[#<_volteador_gripper_down_tomar_x_calculado>+#<_volteador_offset_x_medicion>]	F#<_VEL_LENTA>
+
+    ;SUBRUTINA DE MEDICION gripper down
+        o1600 CALL ;mide presencia cupla gripper down
+            o1586 IF [#5399 EQ -1]
+                (debug, ERROR EN RUTINA VOLTEADOR GRIPER DOWN)
+                ;(log, )
+                M02
+            o1586 ENDIF
+            #<_volteador_gripper_down_x_error> = [#<_volteador_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
+            (debug, VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = #<_volteador_gripper_down_x_error> )
+            ;(log, )
+            o1587 IF [ABS[#<_volteador_gripper_down_x_error>] GT #<_volteador_x_error_admisible>]
+                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN)
+                ;(log, )
+                M02
+            o1587 ENDIF
+
+    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
+        o1900 CALL ;cerrar pieza gripper down
+            o1588 IF [#5399 EQ -1]
+                (debug, ERROR EN RUTINA VOLTEADOR)
+                ;(log, )
+                M02
+            o1588 ENDIF
+
+    ;ABRIR MORDAZAS VOLTEADOR
+        M64 P03
+        M65 P04
+    
+    ;VERIFICAR SENSORES DE MORDAZA ABIERTA DEL VOLTEADOR - sino error
+        M66 P13 L3 Q5
+        o1590 IF [#5399 EQ -1]
+            (debug, Volteador - Mordazas no estan abiertas)
+            ;(log, )
+            M02
+        o1590 ENDIF
+
+    ; ************ DIFERENCIA ************
+
+
+
+    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+
+    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+        M66 P21 L4 Q0.1
+        o1595 IF [#5399 EQ -1]
+            (debug, Volteador - Cupla no presente en gripper de abajo)
+            ;(log, )
+            M02
+        o1595 ENDIF
+
+     G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
+
+    ;GIRAR VOLTEADOR A 0 GRADOS
+        M64 P02
+        M65 P01
+    ;(VERIFICA SENSOR EN LA PRÓXIMA EJECUCIÓN DE LA RUTINA)
+
+o1500 ENDSUB
+
 
 
 
@@ -1653,13 +1925,13 @@ o1400 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA TORNO*****)
+(***** RUTINA TORNO                                               *****)
 (**********************************************************************)
 
-(**********************************************************************)
-(***** RUTINA TORNO INICIA - gripper down DEJAR *****)
-(*****  DEJA LA PIEZA CON GRIPPER DOWN)
-(**********************************************************************)
+(***********************************************************************)
+(***** RUTINA TORNO INICIA - gripper down DEJAR                    *****)
+(***** DEJA LA PIEZA CON GRIPPER DOWN)                             *****)
+(***********************************************************************)
 
 o3000 SUB
 
@@ -1715,7 +1987,7 @@ o3000 SUB
             M02
         o3030 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 0
+    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
         M65 P48 ;cambiar salida a setear - RI_tor_ofm
 
     ;SALIDA PARA ABRIR PLATO
@@ -1783,14 +2055,14 @@ o3000 SUB
             M02
         o3055 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1
+    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
         M64 P48 ;cambiar salida a setear - RI_tor_ofm
 
 o3000 ENDSUB
 
-(**********************************************************************)
-(***** RUTINA TORNO MEDIO TOMA CON gripper down / DEJA CON gripper up *****)
-(**********************************************************************)
+(***********************************************************************)
+(***** RUTINA TORNO MEDIO - gripper down TOMAR / gripper up DEJAR  *****)
+(***********************************************************************)
 
 o3200 SUB
 
@@ -1840,7 +2112,7 @@ o3200 SUB
             M02
         o3225 ENDIF
 
-    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
+    ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
         M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
         o3230 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO TOMA GRD - Okuma no se encuentra en home)
@@ -1856,14 +2128,13 @@ o3200 SUB
             M02
         o3235 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 0
+    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
         M65 P48 ;cambiar salida a setear - RI_tor_ofm
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
         M64 P43 ;cambiar salida a setear - RI_tor_so1
 
-    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
         M66 P45 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm
@@ -1872,6 +2143,9 @@ o3200 SUB
             ;(log, )
             M02
         o3240 ENDIF
+    
+    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
+    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
 
     G1 x#<_torno_gripper_down_aproxima_x>	F#<_VEL_MEDIA>
 
@@ -1892,7 +2166,6 @@ o3200 SUB
                 ;(log, )
                 M02
             o3250 ENDIF
-
 
     ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
         o1900 CALL ;cerrar pieza gripper down
@@ -1989,14 +2262,14 @@ o3200 SUB
             M02
         o3290 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1
+    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
         M64 P48 ;cambiar salida a setear - RI_tor_ofm
 
 o3200 ENDSUB
 
-(**********************************************************************)
-(***** RUTINA TORNO TERMINA TOMA CON gripper down *****)
-(**********************************************************************)
+(***********************************************************************)
+(***** RUTINA TORNO TERMINA - gripper down TOMAR / gripper up VACIO*****)
+(***********************************************************************)
 
 o3400 SUB
 
@@ -2030,7 +2303,7 @@ o3400 SUB
             M02
         o3415 ENDIF
 
-    ;SALIDA DE ABRIR gripper down
+    ;SUBRUTINA DE ABRIR gripper down
         o1700 CALL ;abrir gripper down
             o3420 IF [#5399 EQ -1]
                 (debug, ERROR EN RUTINA TORNO TOMAR GRU)
@@ -2046,7 +2319,7 @@ o3400 SUB
             M02
         o3425 ENDIF
 
-    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
+    ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
         M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
         o3430 IF [#5399 EQ -1]
             (debug, TORNO TOMAR GRU - Okuma no se encuentra en home)
@@ -2062,14 +2335,13 @@ o3400 SUB
             M02
         o3435 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 0
+    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
         M65 P48 ;cambiar salida a setear - RI_tor_ofm
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
         M64 P46 ;cambiar salida a setear - RI_tor_so1
 
-    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
         M66 P45 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm | RI_tor_so2_confirm
@@ -2078,6 +2350,9 @@ o3400 SUB
             ;(log, )
             M02
         o3440 ENDIF
+
+    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
+    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
 
     G1 x#<_torno_gripper_down_aproxima_x>	F#<_VEL_MEDIA>
 
@@ -2107,10 +2382,8 @@ o3400 SUB
                 M02
             o3455 ENDIF
 
-
     ;SALIDA PARA ABRIR PLATO
         M64 P44 ;cambiar salida a setear - RI_tor_cu
-
 
     ;ENTRADA DE CONFIRMACION PLATO ABIERTO
         M66 P43 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cu_confirm
@@ -2134,7 +2407,7 @@ o3400 SUB
     G1 z#<_z-pos-segura> F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura> F#<_VEL_RAPIDA>
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1
+    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
         M64 P48 ;cambiar salida a setear - RI_tor_ofm
 
 o3400 ENDSUB
@@ -2146,11 +2419,8 @@ o3400 ENDSUB
 
 
 
-
-
-
 (**********************************************************************)
-(***** RUTINA MEDICION gripper down *****)
+(***** RUTINA MEDICION gripper down                               *****)
 (**********************************************************************)
 
 o1600 SUB
@@ -2189,7 +2459,7 @@ o1600 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA MEDICION gripper up *****)
+(***** RUTINA MEDICION gripper up                                 *****)
 (**********************************************************************)
 
 o1650 SUB
@@ -2230,7 +2500,7 @@ o1650 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA ABRIR GRIPPER DOWN *****)
+(***** RUTINA ABRIR GRIPPER DOWN                                  *****)
 (**********************************************************************)
 
 o1700 SUB
@@ -2247,7 +2517,7 @@ o1700 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA ABRIR GRIPPER UP *****)
+(***** RUTINA ABRIR GRIPPER UP                                    *****)
 (**********************************************************************)
 
 o1750 SUB
@@ -2264,7 +2534,7 @@ o1750 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER DOWN *****)
+(***** RUTINA CERRAR GRIPPER DOWN                                 *****)
 (**********************************************************************)
 
 o1800 SUB
@@ -2281,7 +2551,7 @@ o1800 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER UP *****)
+(***** RUTINA CERRAR GRIPPER UP                                   *****)
 (**********************************************************************)
 
 o1850 SUB
@@ -2298,7 +2568,7 @@ o1850 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER DOWN CON PIEZA *****)
+(***** RUTINA CERRAR GRIPPER DOWN CON PIEZA                       *****)
 (**********************************************************************)
 
 o1900 SUB
@@ -2332,7 +2602,7 @@ o1900 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER UP CON PIEZA *****)
+(***** RUTINA CERRAR GRIPPER UP CON PIEZA                         *****)
 (**********************************************************************)
 
 o1950 SUB
@@ -2366,7 +2636,7 @@ o1950 ENDSUB
 
 
 (**********************************************************************)
-(***** VERIFICAR POSICION SEGURA CON TOLERANCIA *****)
+(***** VERIFICAR POSICION SEGURA CON TOLERANCIA                   *****)
 (**********************************************************************)
 
 o2000 SUB
@@ -2386,3 +2656,111 @@ o2000 SUB
     o2010 ENDIF
 
 o2000 ENDSUB
+
+
+(**********************************************************************)
+(***** OP10 (SPARE=0 / M180=1)                                    *****)
+(**********************************************************************)
+
+o2100 SUB
+
+    ; **** OP10 ****
+    ; setea código SPARE=0 
+    ; levanta CYCLE START=1
+    ; lee código M180=1 / M181=0
+    ; baja CYCLE START=0
+    ; levanta MFIN=1
+    ; lee código M180=0
+    ; baja MFIN=0
+
+    M65 Pxx ; baja SPARE=0
+
+    G04 P0.5
+    
+    M64 Pxx ; levanta CYCLE START=1   
+
+    ;VERIFICAR M180=1
+    M66 Pxx L3 Q5.0 ; espera tiempo a que levante el M
+    o2110 IF [#5399 EQ -1]
+        (debug, OP10 - incongruencia en seleccion de programa, M180=0)
+        ;(log, )
+        M02
+    o2110 ENDIF
+
+    ;VERIFICAR M181=0
+    M66 Pxx L4 Q5.0 ; espera tiempo a que baje el M
+    o2115 IF [#5399 EQ -1]
+        (debug, OP10 - incongruencia en seleccion de programa, M181=1)
+        ;(log, )
+        M02
+    o2115 ENDIF
+
+    M65 Pxx ; baja CYCLE START=0   
+   
+    M64 Pxx ; levanta MFIN=1
+
+    ;VERIFICAR M180=0
+    M66 Pxx L4 Q5.0 ; espera tiempo a que baje el M
+    o2120 IF [#5399 EQ -1]
+        (debug, OP10 - no bajó el M180)
+        ;(log, )
+        M02
+    o2120 ENDIF
+
+    M65 Pxx ; baja MFIN=0
+
+o2100 ENDSUB
+
+
+(**********************************************************************)
+(----- OP20 (SPARE=1 / M181=1)                                    -----)
+(**********************************************************************)
+
+o2150 SUB
+
+    ; ----- OP20 -----
+    ; setea código SPARE=1
+    ; levanta CYCLE START=1
+    ; lee código M181=1 / M180=0
+    ; baja CYCLE START=0
+    ; levanta MFIN=1
+    ; lee código M181=0
+    ; baja MFIN=0
+
+    M64 Pxx ;levanta código SPARE=1
+
+    G04 P0.5
+    
+    M64 Pxx ;levanta CYCLE START=1   
+
+    ;VERIFICAR M180=0
+    M66 Pxx L4 Q5.0 ; espera tiempo a que baje el M
+    o2155 IF [#5399 EQ -1]
+        (debug, OP20 - incongruencia en seleccion de programa, M180=1)
+        ;(log, )
+        M02
+    o2155 ENDIF
+
+    ;VERIFICAR M181=1
+    M66 Pxx L3 Q5.0 ; espera tiempo a que levante el M
+    o2160 IF [#5399 EQ -1]
+        (debug, OP20 - incongruencia en seleccion de programa, M181=0)
+        ;(log, )
+        M02
+    o2160 ENDIF
+
+    M65 Pxx ; baja CYCLE START=0   
+   
+    M64 Pxx ; levanta MFIN=1
+
+    ;VERIFICAR M181=0
+    M66 Pxx L4 Q5.0 ; espera tiempo a que baje el M
+    o2120 IF [#5399 EQ -1]
+        (debug, OP20 - no bajó el M181)
+        ;(log, )
+        M02
+    o2120 ENDIF
+
+    M65 Pxx ; baja MFIN=0
+
+o2150 ENDSUB
