@@ -1,0 +1,349 @@
+--- Qtvcp Screen Started on: dom, feb 04 2024 03:49:46 ---
+dom04 03:49 Machine OFF
+
+dom04 03:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom04 03:49 Machine ON
+
+dom04 03:49 Machine OFF
+
+dom04 05:31 Machine ON
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:31 Keyboard shortcuts are disabled
+dom04 05:31 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 05:32 Keyboard shortcuts are disabled
+dom04 05:32 Keyboard shortcuts are disabled
+
+dom04 06:03 Machine OFF
+dom04 06:03 movimiento detenido por entrada habilitada
+
+dom04 06:09 Machine ON
+
+dom04 06:20 Machine OFF
+dom04 06:20 movimiento detenido por entrada habilitada
+
+
+
+
+--- Qtvcp Screen Started on: dom, feb 04 2024 07:53:04 ---
+dom04 07:53 Machine OFF
+
+dom04 07:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom04 08:00 Machine ON
+
+dom04 08:00 Keyboard shortcuts are disabled
+dom04 08:00 Keyboard shortcuts are disabled
+
+dom04 08:00 Keyboard shortcuts are disabled
+
+dom04 08:00 Keyboard shortcuts are disabled
+
+dom04 08:00 Machine OFF
+
+dom04 08:01 Machine ON
+
+dom04 08:24 Presence Sensor Error - LOADING - Step 4 - Checking cuping presence sensor in vertical loading
+
+
+--- Qtvcp Screen Started on: dom, feb 04 2024 09:49:11 ---
+dom04 09:49 Machine OFF
+
+dom04 09:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom04 09:49 Machine ON
+
+dom04 09:49 Machine OFF
+
+dom04 09:50 Machine ON
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:50 Keyboard shortcuts are disabled
+dom04 09:50 Keyboard shortcuts are disabled
+
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+
+dom04 09:51 Keyboard shortcuts are disabled
+dom04 09:51 Keyboard shortcuts are disabled
+
+
+--- Qtvcp Screen Started on: dom, feb 04 2024 09:53:37 ---
+dom04 09:53 Machine OFF
+
+dom04 09:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom04 09:53 Machine ON
+
+dom04 09:54 Machine OFF
+
+dom04 09:54 Machine ON
+
+dom04 09:58 movimiento detenido por entrada habilitada
+dom04 09:58 Machine OFF
+
+dom04 10:08 Machine ON
+

@@ -1502,10 +1502,10 @@ class HandlerClass:
         # Paso 1.2 - MFIN = 0, sino error
 
 
-        # Paso 1.3 - LOADER SYSTEM LINK/AUTO MODE (salida del Gantry que indica que está en automatico) = 1, sino error
+        # Paso 1.3 - LOADER SYSTEM LINK/AUTO MODE (salida del Gantry que indica que esta en automatico) = 1, sino error
 
 
-        # Paso 1.4 - ROBOT/LOADER ALARM (salida NC del Gantry que indica que está en alarma) = 1, sino error
+        # Paso 1.4 - ROBOT/LOADER ALARM (salida NC del Gantry que indica que esta en alarma) = 1, sino error
 
 
         # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
@@ -1868,14 +1868,14 @@ class HandlerClass:
 			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
    			
             (hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
-            #tiene sentido???, aunque el torno esté en alarma, conviene que el Gantry Salga....
+            #tiene sentido???, aunque el torno este en alarma, conviene que el Gantry Salga....
 
 			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'), # condicion1
-			(self.py_in_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
-            #solo se ejecuta si la puerta está abierta y el robot está fuera de la máquina (son condiciones 1 y 2)
+			(self.py_out_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
+            #solo se ejecuta si la puerta esta abierta y el robot esta fuera de la maquina son condiciones 1 y 2
             #para que no entre en un loop repetitivo
-            #aunque por ejemplo al iniciar el sistema se puede dar que robot está afuera y la puerta está abierta...
-            #habría que poner como 3er condición que el flag de que el robot puede ingresar esté en 1
+            #aunque por ejemplo al iniciar el sistema se puede dar que robot esta afuera y la puerta esta abierta...
+            #habria que poner como 3er condicion que el flag de que el robot puede ingresar este en 1
             #con eso aseguramos que venga de la rutina Okuma Entrar, total en el paso 1 lo baja a ese flag
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
