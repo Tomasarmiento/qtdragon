@@ -1339,6 +1339,11 @@ class HandlerClass:
             self.py_out_pins[key].set(False)
             self.w[key].setStyleSheet("color:red")
 
+    
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
+
  	# ********* rutina - PATEADOR *********
     def pateador_routine(self):
         # Paso 1 - Subir cuna
@@ -1484,7 +1489,7 @@ class HandlerClass:
 
 	# ********* rutina - OKUMA ENTRAR *********
     def ch_routine_entrar(self):
-        # Paso 1 - Verifica cycle start en 0
+        # Paso 1 - Verifica cycle start = 0
         sen_key = 'RI_tor_cs'
         if not self.wait_for_not_sen_common_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start is 0'
@@ -1493,7 +1498,18 @@ class HandlerClass:
             self.err_routine = False
             return False
         
-        # Paso 2 - Chequea senal de Robot out of machine prendida(que esta afuera el gantry)
+
+        # Paso 1.2 - MFIN = 0, sino error
+
+
+        # Paso 1.3 - LOADER SYSTEM LINK/AUTO MODE (salida del Gantry que indica que está en automatico) = 1, sino error
+
+
+        # Paso 1.4 - ROBOT/LOADER ALARM (salida NC del Gantry que indica que está en alarma) = 1, sino error
+
+
+        # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
+        # ROBOT/LOADER OUT OF MACHINE AREA
         sen_key = 'RI_tor_ofm'
         if not self.wait_for_sen_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 2 - Checking robot out of machine is 1'
@@ -1501,6 +1517,7 @@ class HandlerClass:
             self.routine_error_messages['torno_entrar'].append(msg_error)
             self.err_routine = False
             return False
+
 
         # Paso 3 - Abrir puerta techo okuma
         key_1 = 'EV_tor_gate_open'
@@ -1512,6 +1529,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         # Paso 3.1 - Chequea sensor neumatico puerta techo abierta
         sen_key = 'SEN_tor_gate_open'
         if not self.wait_for_sen_flag(sen_key):
@@ -1521,6 +1539,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         # Paso 4 - Prende flag de control gantry puede ingresar
         key_1 = 'CTRL_ch_ce'
         if not self.send_pctrl(key_1, True):
@@ -1530,6 +1549,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         return True
 
 	# ********* rutina - SOPLADO *********
@@ -1650,7 +1670,7 @@ class HandlerClass:
 
         return True
 
- 	# ********* rutina - DESCARGA *********
+    # ********* rutina - DESCARGA *********
     def unload_routine(self):
         # Paso 0 - Prende flag de presencia de cupla
         self.flag_bd_pc = True
@@ -1711,7 +1731,7 @@ class HandlerClass:
             self.routine_error_messages['descarga'].append(msg_error)
             self.err_routine = False
             return False
-            
+        
         return True
 
 	# ********* rutina - CARGA *********
@@ -1844,15 +1864,23 @@ class HandlerClass:
 		error_messages = []
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
-			(self.threadTorno_salir.is_alive() == False, 'Rutina ya ejecutandose'),
-			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'),	
-   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'),
-			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'),
-			(self.py_out_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'),
+		    (self.threadTorno_salir.is_alive() == False, 'Rutina ya ejecutandose'),
+			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
+   			
+            (hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
+            #tiene sentido???, aunque el torno esté en alarma, conviene que el Gantry Salga....
+
+			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'), # condicion1
+			(self.py_in_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
+            #solo se ejecuta si la puerta está abierta y el robot está fuera de la máquina (son condiciones 1 y 2)
+            #para que no entre en un loop repetitivo
+            #aunque por ejemplo al iniciar el sistema se puede dar que robot está afuera y la puerta está abierta...
+            #habría que poner como 3er condición que el flag de que el robot puede ingresar esté en 1
+            #con eso aseguramos que venga de la rutina Okuma Entrar, total en el paso 1 lo baja a ese flag
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		(anular == False, 'anulada activa'),
+      		#(anular == False, 'anulada activa'),  
       
 		]
 
@@ -1871,14 +1899,19 @@ class HandlerClass:
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
 			(self.threadTorno_entrar.is_alive() == False, 'Rutina ya ejecutandose'),
-			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'),	
-   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'),
-      		(hal.get_value('RI_tor_home_confirm') == True, 'Torno no se encuentra en home'),
+			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
+   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
+      		(hal.get_value('RI_tor_home_confirm') == True, 'Torno no se encuentra en home'), #MACHINE HOME POSITION=1
 			(hal.get_value('SEN_tor_gate_closed') == True, 'Puerta techo no esta cerrada'),	
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		(anular == False, 'anulada activa'),
+      		#(anular == False, 'anulada activa'),
+            #FALTAN
+                #SYSTEM LINK MODE = 1
+                #CYCLE STOP REQUEST = 1 (es NC)
+                #M180 = 0
+                #M181 = 0
       
 		]
 
@@ -1994,6 +2027,10 @@ class HandlerClass:
 
         return error_messages
 	
+
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
 
     #####################
     # COMMANDS FUNCTIONS #
@@ -2133,7 +2170,11 @@ class HandlerClass:
                 print("conexion cerrada")
                 self.add_status('Valor no pudo ser reemplazado en programa de torno,conexion cerrada.')
                 return False
-            
+
+
+# *************************************************************************
+# ******************************* CALCULOS  *******************************
+# *************************************************************************  
         
     #boton cargar programa
     def btn_send_cupla_params(self):
