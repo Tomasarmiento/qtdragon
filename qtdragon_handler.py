@@ -278,7 +278,7 @@ class HandlerClass:
 							#'SEN_bd_pc': 0,
 							#'SEN_bd_up': 0,
 							#'SEN_bd_down': 0,
-							#'SEN_bd_full': 0,
+							'SEN_bd_full': 0,
 							}       
         self.py_out_pins = {'EV_gr_d_open':0,
 							'EV_gr_d_closed':0,
@@ -340,12 +340,14 @@ class HandlerClass:
                 self.py_control_pins.update({str(name): self.pin_control})
 
         #declaracion de pines de entrada en python
-        for name,value in self.py_in_pins.items():
-            self.pin_in = self.hglib_pin(self.h.newpin(name, hal.HAL_BIT, hal.HAL_IN))
-            if str(name) in self.py_in_pins:
-                self.py_in_pins.update({str(name): self.pin_in})
-                if str(name) in self.py_in_nc_pins:
-                    self.pin_in.connect('value-changed', self.change_value)
+        pin = self.h.newpin("SEN_bd_full", hal.HAL_BIT, hal.HAL_IN)
+        hal_glib.GPin(pin).connect("value_changed", self.change_value)
+        #for name,value in self.py_in_pins.items():
+        #    self.pin_in = self.hglib_pin(self.h.newpin(name, hal.HAL_BIT, hal.HAL_IN))
+        #    if str(name) in self.py_in_pins:
+        #        self.py_in_pins.update({str(name): self.pin_in})
+        #        if str(name) in self.py_in_nc_pins:
+        #            self.pin_in.connect("value_changed", self.change_value)
                 
         #declaracion de pines de salida en python
         for name,value in self.py_out_pins.items():
@@ -361,15 +363,16 @@ class HandlerClass:
                     self.w[n].setStyleSheet("color:red")
                 else:
                     self.w[n].setStyleSheet("color:green")
-        print('el pin es',(hal.get_value('SEN_bd_down')))
+        #print('el pin es',(hal.get_value('SEN_bd_down')))
         # print('los widgets son',self.w.sender().property('sensor'))
 
 
 
     def change_value(self,pin):
-        return
-		#if self.threadUnload.is_alive() == True:
-		#	self.flag_bd_pc = False
+        #print('cambia valor de sensor')
+        if self.threadUnload.is_alive() == True:
+            self.flag_bd_pc = False
+        #return
 
          
     def init_preferences(self):
@@ -1152,8 +1155,8 @@ class HandlerClass:
 		# Iniciar el hilo
 		#self.mi_hilo.start()
         
-
-		self.thread.start()
+        time.sleep(3)
+        self.thread.start()
 
     def master_init_conditions(self, userdata=None):
         #print dir(self)
@@ -1215,7 +1218,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_carga()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de carga')
                 self.init_conditions_error_messages['carga'] = init_conditions_error_messages[:]
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de carga')
@@ -1229,7 +1232,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_descarga()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de descarga')
                 self.init_conditions_error_messages['descarga'] = init_conditions_error_messages[:]
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de descarga')
@@ -1244,7 +1247,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_blw()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de soplador')
                 self.init_conditions_error_messages['soplador'] = init_conditions_error_messages[:]
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de soplador')
@@ -1259,7 +1262,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_ch_entrar()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno entrar')
                 self.init_conditions_error_messages['torno_entrar'] = init_conditions_error_messages[:]
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de torno entrar')
@@ -1274,7 +1277,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_ch_salir()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno salir')
                 self.init_conditions_error_messages['torno_salir'] = init_conditions_error_messages[:]
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de torno salir')
@@ -1288,8 +1291,7 @@ class HandlerClass:
                 init_conditions_error_messages = self.check_init_conditions_pateador()
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de pateador')
                 self.init_conditions_error_messages['pateador'] = init_conditions_error_messages[:] 
-
-                if init_conditions_error_messages:
+                if len(init_conditions_error_messages) > 1:
                     #pass
                     if self.chk_init_conditions == True:
                         print('\nError en condiciones iniciales de pateador')
@@ -1337,6 +1339,11 @@ class HandlerClass:
         else:
             self.py_out_pins[key].set(False)
             self.w[key].setStyleSheet("color:red")
+
+    
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
 
  	# ********* rutina - PATEADOR *********
     def pateador_routine(self):
@@ -1483,7 +1490,7 @@ class HandlerClass:
 
 	# ********* rutina - OKUMA ENTRAR *********
     def ch_routine_entrar(self):
-        # Paso 1 - Verifica cycle start en 0
+        # Paso 1 - Verifica cycle start = 0
         sen_key = 'RI_tor_cs'
         if not self.wait_for_not_sen_common_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start is 0'
@@ -1492,7 +1499,18 @@ class HandlerClass:
             self.err_routine = False
             return False
         
-        # Paso 2 - Chequea senal de Robot out of machine prendida(que esta afuera el gantry)
+
+        # Paso 1.2 - MFIN = 0, sino error
+
+
+        # Paso 1.3 - LOADER SYSTEM LINK/AUTO MODE (salida del Gantry que indica que está en automatico) = 1, sino error
+
+
+        # Paso 1.4 - ROBOT/LOADER ALARM (salida NC del Gantry que indica que está en alarma) = 1, sino error
+
+
+        # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
+        # ROBOT/LOADER OUT OF MACHINE AREA
         sen_key = 'RI_tor_ofm'
         if not self.wait_for_sen_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 2 - Checking robot out of machine is 1'
@@ -1500,6 +1518,7 @@ class HandlerClass:
             self.routine_error_messages['torno_entrar'].append(msg_error)
             self.err_routine = False
             return False
+
 
         # Paso 3 - Abrir puerta techo okuma
         key_1 = 'EV_tor_gate_open'
@@ -1511,6 +1530,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         # Paso 3.1 - Chequea sensor neumatico puerta techo abierta
         sen_key = 'SEN_tor_gate_open'
         if not self.wait_for_sen_flag(sen_key):
@@ -1520,6 +1540,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         # Paso 4 - Prende flag de control gantry puede ingresar
         key_1 = 'CTRL_ch_ce'
         if not self.send_pctrl(key_1, True):
@@ -1529,6 +1550,7 @@ class HandlerClass:
             self.err_routine = False
             return False
         
+
         return True
 
 	# ********* rutina - SOPLADO *********
@@ -1623,7 +1645,7 @@ class HandlerClass:
         # Paso 8 - Espera accionar soplado en 0
         sen_key = 'CTRL_blw_sr'
         if not self.wait_for_ctrl_flag(sen_key):
-            msg_error = 'Control Flag Error - BLOWING - Step 8 - Wait for turn on blower'
+            msg_error = 'Control Flag Error - BLOWING - Step 8 - Wait for start flag blower routine off'
             print(msg_error)
             self.routine_error_messages['soplador'].append(msg_error)
             self.err_routine = False
@@ -1649,7 +1671,7 @@ class HandlerClass:
 
         return True
 
- 	# ********* rutina - DESCARGA *********
+    # ********* rutina - DESCARGA *********
     def unload_routine(self):
         # Paso 0 - Prende flag de presencia de cupla
         self.flag_bd_pc = True
@@ -1710,7 +1732,7 @@ class HandlerClass:
             self.routine_error_messages['descarga'].append(msg_error)
             self.err_routine = False
             return False
-            
+        
         return True
 
 	# ********* rutina - CARGA *********
@@ -1778,7 +1800,7 @@ class HandlerClass:
             
         # Paso 4 - Chequea cupla en vertical carga
         sen_key = 'SEN_bc_pc'
-        if not self.wait_for_not_sen_common_flag(sen_key):
+        if not self.wait_for_sen_flag(sen_key):
             msg_error = 'Presence Sensor Error - LOADING - Step 4 - Checking cuping presence sensor in vertical loading'
             print(msg_error)
             self.routine_error_messages['carga'].append(msg_error)
@@ -1843,15 +1865,23 @@ class HandlerClass:
 		error_messages = []
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
-			(self.threadTorno_salir.is_alive() == False, 'Rutina ya ejecutandose'),
-			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'),	
-   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'),
-			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'),
-			(self.py_out_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'),
+		    (self.threadTorno_salir.is_alive() == False, 'Rutina ya ejecutandose'),
+			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
+   			
+            (hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
+            #tiene sentido???, aunque el torno esté en alarma, conviene que el Gantry Salga....
+
+			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'), # condicion1
+			(self.py_in_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
+            #solo se ejecuta si la puerta está abierta y el robot está fuera de la máquina (son condiciones 1 y 2)
+            #para que no entre en un loop repetitivo
+            #aunque por ejemplo al iniciar el sistema se puede dar que robot está afuera y la puerta está abierta...
+            #habría que poner como 3er condición que el flag de que el robot puede ingresar esté en 1
+            #con eso aseguramos que venga de la rutina Okuma Entrar, total en el paso 1 lo baja a ese flag
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		#(anular == False, 'anulada activa'),
+      		#(anular == False, 'anulada activa'),  
       
 		]
 
@@ -1870,14 +1900,19 @@ class HandlerClass:
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
 			(self.threadTorno_entrar.is_alive() == False, 'Rutina ya ejecutandose'),
-			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'),	
-   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'),
-      		(hal.get_value('RI_tor_home_confirm') == True, 'Torno no se encuentra en home'),
+			(hal.get_value('RI_tor_ep_confirm') == True, 'Torno no termino programa'), #PROGRAM END=1 (esta es la que GC describe como CYCLE COMPLETE en 1)
+   			(hal.get_value('RI_tor_alarm_confirm') == False, 'Torno se encuentra en alarma'), #NC ALARM=1
+      		(hal.get_value('RI_tor_home_confirm') == True, 'Torno no se encuentra en home'), #MACHINE HOME POSITION=1
 			(hal.get_value('SEN_tor_gate_closed') == True, 'Puerta techo no esta cerrada'),	
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
+            #FALTAN
+                #SYSTEM LINK MODE = 1
+                #CYCLE STOP REQUEST = 1 (es NC)
+                #M180 = 0
+                #M181 = 0
       
 		]
 
@@ -1965,10 +2000,10 @@ class HandlerClass:
                 (hal.get_value('SEN_seg_idle') == True, 'Segregador no presente del lado carga'),	
                 (hal.get_value('SEN_bc_up') == True, 'Piston de carga no esta arriba'),				
                 (hal.get_value('SEN_seg_pc') == True, 'Cupla no presente en segregador'),					
-                (hal.get_value('SEN_bc_pc') == True, 'Cupla presente en carga'),
+                (hal.get_value('SEN_bc_pc') == False, 'Cupla presente en carga'),
                 (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de carga'),
-                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                (s.task_paused == 0, 'Pausa esta activa'),
+                #(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
+                #(s.task_paused == 0, 'Pausa esta activa'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
             ]
@@ -1980,7 +2015,7 @@ class HandlerClass:
                 (hal.get_value('SEN_seg_pc') == True, 'Cupla no presente en segregador'),					
                 (hal.get_value('SEN_bc_pc') == True, 'Cupla presente en carga'),
                 (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de carga'),
-                # (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
+                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
                 (s.task_paused == 0, 'Pausa esta activa'),
                 (hal.get_value('SEN_bc_bkw') == True, 'Piston de carga adelante'),
                 (self.err_routine == True, 'Error en rutina previo'),
@@ -1993,6 +2028,10 @@ class HandlerClass:
 
         return error_messages
 	
+
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
+# **************************************** XXXX ****************************************
 
     #####################
     # COMMANDS FUNCTIONS #
@@ -2132,7 +2171,11 @@ class HandlerClass:
                 print("conexion cerrada")
                 self.add_status('Valor no pudo ser reemplazado en programa de torno,conexion cerrada.')
                 return False
-            
+
+
+# *************************************************************************
+# ******************************* CALCULOS  *******************************
+# *************************************************************************  
         
     #boton cargar programa
     def btn_send_cupla_params(self):
