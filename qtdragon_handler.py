@@ -1258,11 +1258,13 @@ class HandlerClass:
                 init_conditions_error_messages.insert(0,'Error en condiciones iniciales de soplador')
                 self.init_conditions_error_messages['soplador'] = init_conditions_error_messages[:]
                 if len(init_conditions_error_messages) > 1:
+                    for err in init_conditions_error_messages:
+                        print(err)
                     #pass
-                    if self.chk_init_conditions == True:
-                        print('\nError en condiciones iniciales de soplador')
-                        for err in init_conditions_error_messages:
-                            print(err)
+                    #if self.chk_init_conditions == True:
+                    #    print('\nError en condiciones iniciales de soplador')
+                    #    for err in init_conditions_error_messages:
+                    #        print(err)
                 else:
                     self.threadBlower = threading.Thread(target=self.blw_routine)
                     self.threadBlower.start()
@@ -1628,6 +1630,7 @@ class HandlerClass:
 
         # Paso 2 - Chequea sensor cupla presente
         sen_key = 'SEN_blw_pc'
+        #wait_for_not_sen_flag # creo que tengo que usar esta
         if not self.wait_for_not_sen_common_flag(sen_key):
             msg_error = 'Pneumatic Sensor Error - BLOWING - Step 2 - Checking presence sensor'
             print(msg_error)
@@ -1948,7 +1951,7 @@ class HandlerClass:
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
             (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
-            (self.py_control_pins['CTRL_ch_ce'].get() == False, 'Flag de gantry puede ingresar al okuma prendido'),
+            (self.py_control_pins['CTRL_ch_ce'].get() == True, 'Flag de gantry puede ingresar al okuma esta apagado'),
       
 		]
 
@@ -2005,7 +2008,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+            #(hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
       
 		]
 
