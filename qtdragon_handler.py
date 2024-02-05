@@ -1465,43 +1465,63 @@ class HandlerClass:
             self.err_routine = False
             return False
             
-        # Step 3 - Cycle start en 1
-        key_1 = 'RI_tor_cs'
-        if not self.send_pneumatic(key_1, True):
-            msg_error = 'Signal Command Error - OKUMA SALIR - Step 3 - Could not turn on cycle start'
-            print(msg_error)
-            self.routine_error_messages['torno_salir'].append(msg_error)
-            self.err_routine = False
-            return False
-            
-        time.sleep(1)
+        ## Step 3 - Cycle start en 1
+        #key_1 = 'RI_tor_cs'
+        #if not self.send_pneumatic(key_1, True):
+        #    msg_error = 'Signal Command Error - OKUMA SALIR - Step 3 - Could not turn on cycle start'
+        #    print(msg_error)
+        #    self.routine_error_messages['torno_salir'].append(msg_error)
+        #    self.err_routine = False
+        #    return False
+        #    
+        #time.sleep(1)
 
-        # Step 4 - Cycle start en 0
-        key_1 = 'RI_tor_cs'
-        if not self.send_pneumatic(key_1, False):
-            msg_error = 'Signal Command Error - OKUMA SALIR - Step 4 - Could not turn off cycle start'
-            print(msg_error)
-            self.routine_error_messages['torno_salir'].append(msg_error)
-            self.err_routine = False
-            return False
-            
+        ## Step 4 - Cycle start en 0
+        #key_1 = 'RI_tor_cs'
+        #if not self.send_pneumatic(key_1, False):
+        #    msg_error = 'Signal Command Error - OKUMA SALIR - Step 4 - Could not turn off cycle start'
+        #    print(msg_error)
+        #    self.routine_error_messages['torno_salir'].append(msg_error)
+        #    self.err_routine = False
+        #    return False
+
+        #time.sleep(1)
+
+
+        #if (hal.get_value('RI_tor_m180_confirm') == True and hal.get_value('RI_tor_m181_confirm') == False and hal.get_value('RI_tor_spare') == False) or 
+        #    (hal.get_value('RI_tor_m180_confirm') == False and hal.get_value('RI_tor_m181_confirm') == True and hal.get_value('RI_tor_spare') == True):
+        #    # Step 5 - request answer en 1 
+        #    key_1 = 'RI_tor_mfin'
+        #    if not self.send_pneumatic(key_1, True):
+        #        msg_error = 'Signal Command Error - OKUMA SALIR - Step 3 - Could not turn on cycle start'
+        #        print(msg_error)
+        #        self.routine_error_messages['torno_salir'].append(msg_error)
+        #        self.err_routine = False
+        #        return False
+
+        #    # Step 5 - request answer en 0 
+        #    key_1 = 'RI_tor_mfin'
+        #    if not self.send_pneumatic(key_1, True):
+        #        msg_error = 'Signal Command Error - OKUMA SALIR - Step 3 - Could not turn of cycle start'
+        #        print(msg_error)
+        #        self.routine_error_messages['torno_salir'].append(msg_error)
+        #        self.err_routine = False
+        #        return False
+
+        #else:
+        #    msg_error = 'Spare no coincide con m180/m181'
+        #    print(msg_error)
+        #    self.routine_error_messages['torno_salir'].append(msg_error)
+        #    self.err_routine = False
+                
         return True
 
 	# ********* rutina - OKUMA ENTRAR *********
     def ch_routine_entrar(self):
-        # Paso 1 - Verifica cycle start = 0
-        #sen_key = 'RI_tor_cs'
-        #if not self.wait_for_not_sen_common_flag(sen_key):
-        #    msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start is 0'
-        #    print(msg_error)
-        #    self.routine_error_messages['torno_entrar'].append(msg_error)
-        #    self.err_routine = False
-        #    return False
-        
         # Paso 1 - cycle start = 0
-        key_1 = 'RI_tor_cs'
-        if not self.send_pneumatic(key_1, False):
-            msg_error = 'Pneumatic Command Error - OKUMA ENTER - Step 1 - cycle start off'
+        sen_key = 'RI_tor_cs'
+        if not self.wait_for_sen_flag(sen_key):
+            msg_error = 'Signal Error - OKUMA ENTER - Step 1 - Checking cycle start off'
             print(msg_error)
             self.routine_error_messages['torno_entrar'].append(msg_error)
             self.err_routine = False
@@ -1529,6 +1549,7 @@ class HandlerClass:
 
         # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
         # ROBOT/LOADER OUT OF MACHINE AREA
+        #aca deberiamos prender esta señal cuando este en safe pos el gantry
         sen_key = 'RI_tor_ofm'
         if not self.wait_for_sen_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 2 - Checking robot out of machine is 1'
@@ -1557,6 +1578,18 @@ class HandlerClass:
             self.routine_error_messages['torno_entrar'].append(msg_error)
             self.err_routine = False
             return False
+
+        
+        ## Paso 3.2 - orienta plato
+        #key_1 = 'RI_tor_so1'
+        #if not self.send_pneumatic(key_1, False):
+        #    msg_error = 'Pneumatic Command Error - OKUMA ENTER - Step 1.2 - orientar plato'
+        #    print(msg_error)
+        #    self.routine_error_messages['torno_entrar'].append(msg_error)
+        #    self.err_routine = False
+        #    return False
+
+        #no espera a ver plato orientado para no perder tiempo, que lo mire el gantry cuando entra
         
 
         # Paso 4 - Prende flag de control gantry puede ingresar
@@ -1867,6 +1900,7 @@ class HandlerClass:
             #(flag de que se puede patear == True, 'flag de pateo no activo'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
 		]
 
 		for flag, error in init_flags:
@@ -1888,7 +1922,7 @@ class HandlerClass:
    			
             (hal.get_value('RI_tor_alarm_confirm') == True, 'Torno se encuentra en alarma'), #NC ALARM=1
             #tiene sentido???, aunque el torno este en alarma, conviene que el Gantry Salga....
-            #ts: no si chequiamos mhp
+            #ts: no si chequiamos mhp(machine home p)
 
 			(hal.get_value('SEN_tor_gate_open') == True, 'Puerta techo no esta abierta'), # condicion1
 			(self.py_out_pins['RI_tor_ofm'].get() == True, 'Robot dentro de okuma'), #condicion2
@@ -1897,11 +1931,13 @@ class HandlerClass:
             #aunque por ejemplo al iniciar el sistema se puede dar que robot esta afuera y la puerta esta abierta...
             #habria que poner como 3er condicion que el flag de que el robot puede ingresar este en 1
             #con eso aseguramos que venga de la rutina Okuma Entrar, total en el paso 1 lo baja a ese flag
-            #ts: pondria como condicion para que el gantry arranque la puerta cerrada
+            #ts: pondria como condicion inicial en el codigo g para que el gantry arranque con la puerta cerrada
       		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		#(anular == False, 'anulada activa'),  
+      		#(anular == False, 'anulada activa'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+            (self.py_control_pins['CTRL_ch_ce'].get() == False, 'Flag de gantry puede ingresar al okuma prendido'),
       
 		]
 
@@ -1958,6 +1994,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
       
 		]
 
@@ -1985,6 +2022,7 @@ class HandlerClass:
                 (s.task_paused == 0, 'Pausa esta activa'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
             ]
         else:
             init_flags = [
@@ -1998,6 +2036,7 @@ class HandlerClass:
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
                 (hal.get_value('SEN_bd_bkw') == True, 'Piston de descarga adelante'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
             ]
 
 
@@ -2022,10 +2061,11 @@ class HandlerClass:
                 (hal.get_value('SEN_seg_pc') == True, 'Cupla no presente en segregador'),					
                 (hal.get_value('SEN_bc_pc') == False, 'Cupla presente en carga'),
                 (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de carga'),
-                #(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                #(s.task_paused == 0, 'Pausa esta activa'),
+                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
+                (s.task_paused == 0, 'Pausa esta activa'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
             ]
         else:
             init_flags = [
@@ -2040,6 +2080,7 @@ class HandlerClass:
                 (hal.get_value('SEN_bc_bkw') == True, 'Piston de carga adelante'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
             ]
 
         for flag, error in init_flags:
