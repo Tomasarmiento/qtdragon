@@ -156,3 +156,34 @@ Run the Latency Test and resolve before continuing.
 --- Qtvcp Screen Started on: lun, feb 05 2024 05:58:22 ---
 lun05 05:58 Machine OFF
 
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 08:04:36 ---
+lun05 08:04 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 08:05:21 ---
+lun05 08:05 Machine OFF
+
+lun05 08:05 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 08:06 Machine ON
+
+lun05 08:07 Machine OFF
+lun05 08:07 movimiento detenido por entrada habilitada
+
+lun05 08:08 Machine ON
+
+lun05 08:08 Machine OFF
+lun05 08:08 movimiento detenido por entrada habilitada
+
+lun05 08:14 Machine ON
+
+lun05 08:14 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 08:47:38 ---
+lun05 08:47 Machine OFF
+

@@ -19,7 +19,7 @@ catch_errors = True
 desktop_notify = True
 shutdown_check = True
 sound_player_on = False
-mainwindow_geometry = 3 60 1366 862
+mainwindow_geometry = -61 60 1366 862
 
 [MCH_MSG_OPTIONS]
 mchnMsg_play_sound = True

@@ -1560,7 +1560,7 @@ class HandlerClass:
 
         # Paso 2 - Chequea senal de Robot out of machine = 1 (que gantry esta afuera del okuma)
         # ROBOT/LOADER OUT OF MACHINE AREA
-        #aca deberiamos prender esta señal cuando este en safe pos el gantry
+        #aca deberiamos prender esta senal cuando este en safe pos el gantry
         sen_key = 'RI_tor_ofm'
         if not self.wait_for_sen_flag(sen_key):
             msg_error = 'Signal Error - OKUMA ENTER - Step 2 - Checking robot out of machine is 1'
@@ -1911,7 +1911,7 @@ class HandlerClass:
             #(flag de que se puede patear == True, 'flag de pateo no activo'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
 		]
 
 		for flag, error in init_flags:
@@ -1947,7 +1947,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             (self.py_control_pins['CTRL_ch_ce'].get() == False, 'Flag de gantry puede ingresar al okuma prendido'),
       
 		]
@@ -1975,10 +1975,10 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_cstop_confirm') == True, 'Señal de cycle stop prendida'),
-            (hal.get_value('RI_tor_m180_confirm') == False, 'Señal m180 del torno prendida'),
-            (hal.get_value('RI_tor_m181_confirm') == False, 'Señal m181 del torno prendida'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+            (hal.get_value('RI_tor_cstop_confirm') == True, 'Senal de cycle stop prendida'),
+            (hal.get_value('RI_tor_m180_confirm') == False, 'Senal m180 del torno prendida'),
+            (hal.get_value('RI_tor_m181_confirm') == False, 'Senal m181 del torno prendida'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
                 #SYSTEM LINK MODE = 1 hay q chequearlo en todas las rutinas
       
 		]
@@ -2005,7 +2005,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
       		#(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
       
 		]
 
@@ -2033,7 +2033,7 @@ class HandlerClass:
                 (s.task_paused == 0, 'Pausa esta activa'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             ]
         else:
             init_flags = [
@@ -2047,7 +2047,7 @@ class HandlerClass:
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
                 (hal.get_value('SEN_bd_bkw') == True, 'Piston de descarga adelante'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             ]
 
 
@@ -2076,7 +2076,7 @@ class HandlerClass:
                 (s.task_paused == 0, 'Pausa esta activa'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             ]
         else:
             init_flags = [
@@ -2091,7 +2091,7 @@ class HandlerClass:
                 (hal.get_value('SEN_bc_bkw') == True, 'Piston de carga adelante'),
                 (self.err_routine == True, 'Error en rutina previo'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Señal de system link del torno no esta prendida'),
+                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             ]
 
         for flag, error in init_flags:
