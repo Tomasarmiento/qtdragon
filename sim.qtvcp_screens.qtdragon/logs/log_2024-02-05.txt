@@ -1,0 +1,158 @@
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:15:55 ---
+lun05 03:15 Machine OFF
+
+lun05 03:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 03:17 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:19:48 ---
+lun05 03:19 Machine OFF
+
+lun05 03:21 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:36:01 ---
+lun05 03:36 Machine OFF
+
+lun05 03:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:38:02 ---
+lun05 03:38 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:39:10 ---
+lun05 03:39 Machine OFF
+
+lun05 03:39 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 03:40:35 ---
+lun05 03:40 Machine OFF
+
+lun05 03:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 04:13:55 ---
+lun05 04:13 Machine OFF
+
+lun05 04:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 04:14:23 ---
+lun05 04:14 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:03:13 ---
+lun05 05:03 Machine OFF
+
+lun05 05:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 05:04 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:06:10 ---
+lun05 05:06 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:07:01 ---
+lun05 05:07 Machine OFF
+
+lun05 05:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 05:07 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:13:41 ---
+lun05 05:13 Machine OFF
+
+lun05 05:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 05:14 Machine ON
+
+lun05 05:14 Keyboard shortcuts are disabled
+lun05 05:14 Keyboard shortcuts are disabled
+
+lun05 05:14 Keyboard shortcuts are disabled
+lun05 05:14 Keyboard shortcuts are disabled
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:20:53 ---
+lun05 05:20 Machine OFF
+
+lun05 05:20 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 05:21 Machine ON
+
+lun05 05:23 Machine must be ON and in Manual mode to jog
+lun05 05:23 Machine must be ON and in Manual mode to jog
+lun05 05:23 Machine must be ON and in Manual mode to jog
+lun05 05:23 Machine must be ON and in Manual mode to jog
+
+lun05 05:23 Machine must be ON and in Manual mode to jog
+
+lun05 05:23 Machine must be ON and in Manual mode to jog
+
+lun05 05:24 Machine OFF
+lun05 05:24 movimiento detenido por entrada habilitada
+
+lun05 05:51 Machine ON
+
+lun05 05:54 Machine OFF
+lun05 05:54 movimiento detenido por entrada habilitada
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:55:12 ---
+lun05 05:55 Machine OFF
+
+lun05 05:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun05 05:55 Machine ON
+
+lun05 05:56 Machine OFF
+lun05 05:56 movimiento detenido por entrada habilitada
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:56:38 ---
+lun05 05:56 Machine OFF
+
+lun05 05:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: lun, feb 05 2024 05:58:22 ---
+lun05 05:58 Machine OFF
+

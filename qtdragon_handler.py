@@ -198,6 +198,9 @@ class HandlerClass:
         self.safe_pos_y = self.inifile.find('INIT_SAFE_POSITIONS', 'Y_POS') or 'unknow'
         self.safe_pos_z = self.inifile.find('INIT_SAFE_POSITIONS', 'Z_POS') or 'unknow'
 
+        pin = self.h.newpin("z-posRef", hal.HAL_FLOAT, hal.HAL_IN)
+        hal_glib.GPin(pin).connect("value_changed", self.gantry_z_safe_position)
+
 
         #print 'xpos: ', safe_pos_x, '\n', 'ypos: ', safe_pos_y, '\n', 'zpos: ', safe_pos_z 
 
@@ -576,6 +579,14 @@ class HandlerClass:
     def x_end_code_changed(self, data):
         state = self.h['x_EndingCodeFbk']
         self.w.lbl_x_EndingCodeFbk.setText(str(state))
+
+    def gantry_z_safe_position(self, data):
+        #print("valor de z actualizado",data.get())
+        pos = data.get()
+        if pos >= (int(self.safe_pos_z) - self.safe_pos_offset) and pos <= (int(self.safe_pos_z) + self.safe_pos_offset):
+            self.py_out_pins['RI_tor_ofm'].set(True)
+        else:
+            self.py_out_pins['RI_tor_ofm'].set(False)
 
     def x_state_changed(self, data):
         state = self.h['x_StateFbk']

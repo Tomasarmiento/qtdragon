@@ -1,0 +1,56 @@
+[DIALOG_OPTIONS]
+EntryDialog_play_sound = True
+EntryDialog_sound_type = READY
+toolDialog_play_sound = True
+toolDialog_speak = True
+toolDialog_sound_type = READY
+CalculatorDialog_play_sound = True
+CalculatorDialog_sound_type = READY
+MachineLogDialog_play_sound = True
+MachineLogDialog_sound_type = READY
+RunFromLineDialog_play_sound = True
+RunFromLineDialog_sound_type = READY
+
+[DIALOG_GEOMETRY]
+ToolChangeDialog-geometry = 0 0 100 30
+
+[SCREEN_OPTIONS]
+catch_errors = True
+desktop_notify = True
+shutdown_check = True
+sound_player_on = False
+mainwindow_geometry = 3 60 1366 862
+
+[MCH_MSG_OPTIONS]
+mchnMsg_play_sound = True
+mchnMsg_speak_errors = True
+mchnMsg_sound_type = RING
+
+[USR_MSG_OPTIONS]
+usermsg_play_sound = True
+userMsg_sound_type = RING
+userMsg_use_focusOverlay = True
+
+[SHUTDOWN_OPTIONS]
+shutdown_play_sound = True
+shutdown_alert_sound_type = READY
+shutdown_exit_sound_type = LOGOUT
+shutdown_msg_title = Do you want to Shutdown now?
+shutdown_msg_detail = 
+
+[NOTIFY_OPTIONS]
+notify_start_greeting = True
+notify_start_title = Welcome
+notify_start_detail = This option can be changed in the preference file
+notify_start_timeout = 5
+
+[BOOK_KEEPING]
+last_loaded_directory = 
+last_loaded_file = 
+style_QSS_Path = As Loaded
+
+[CUSTOM_FORM_ENTRIES]
+Tool to load = 0
+Use keyboard = True
+Inhibit display mouse selection = False
+

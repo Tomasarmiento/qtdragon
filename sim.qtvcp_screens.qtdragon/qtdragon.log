@@ -1,49 +1,29 @@
-2024-02-04 09:53:32,805 - QTvcp - INFO - Logging to "/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/qtdragon.log"
-2024-02-04 09:53:33,297 - QTvcp - INFO - Base log level set to 20
-2024-02-04 09:53:33,297 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - BASENAME qtdragon
-2024-02-04 09:53:33,299 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: None Found
-2024-02-04 09:53:33,299 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for default handler file in: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
-2024-02-04 09:53:33,300 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT handler file path: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
-2024-02-04 09:53:33,301 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: None Found
-2024-02-04 09:53:33,302 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
-2024-02-04 09:53:33,302 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
-2024-02-04 09:53:33,303 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: None Found
-2024-02-04 09:53:33,304 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
-2024-02-04 09:53:33,304 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qss file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
-2024-02-04 09:53:33,306 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: None Found
-2024-02-04 09:53:33,306 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
-2024-02-04 09:53:33,307 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qrc file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
-2024-02-04 09:53:33,307 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/resources.py
-2024-02-04 09:53:33,307 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/resources.py
-2024-02-04 09:53:33,308 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT resources.py file from /usr/share/qtvcp/screens/qtdragon/resources.py
-2024-02-04 09:53:33,308 - QTvcp - INFO - Building A Linuxcnc Main Screen
-2024-02-04 09:53:33,342 - QTvcp - INFO - No handler file specified on command line
-2024-02-04 09:53:33,342 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon
-2024-02-04 09:53:33,677 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /usr/share/qtvcp/screens/qtdragon/resources.py
-2024-02-04 09:53:40,466 - QtDesigner.QTVCP.QT_TSTAT - DEBUG - Toolfile does not exist' None
-2024-02-04 09:53:40,470 - QtDesigner.QTVCP.QT_TSTAT - DEBUG - Toolfile does not exist' None
-2024-02-04 09:53:40,470 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - QSS Filepath Error: As Loaded
-2024-02-04 09:53:40,471 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - As Loaded theme not available
-2024-02-04 09:53:40,471 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - QTvcp Available system themes: fusion , Windows, Fusion
-2024-02-04 09:53:41,313 - QTvcp - INFO - postgui filename: qtdragon_postgui.hal
-2024-02-04 09:53:41,354 - QTvcp - INFO - Preference path: /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/qtdragon.pref
-2024-02-04 10:18:41,389 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:18:58,309 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:33:20,915 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:33:22,961 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:33:24,749 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:33:31,463 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 10:39:26,969 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:07:20,857 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:12:02,561 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:17:55,125 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:18:24,024 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:18:32,101 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:18:33,350 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:18:57,703 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:14,550 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:20,984 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:24,134 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:28,038 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:37,479 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
-2024-02-04 11:19:38,496 - QTvcp.QTVCP.WIDGETS.ACTION_BUTTON - ERROR - No action recognised
+2024-02-05 05:58:18,556 - QTvcp - INFO - Logging to "/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/qtdragon.log"
+2024-02-05 05:58:18,995 - QTvcp - INFO - Base log level set to 20
+2024-02-05 05:58:18,996 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - BASENAME qtdragon
+2024-02-05 05:58:18,998 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: None Found
+2024-02-05 05:58:18,998 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for default handler file in: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
+2024-02-05 05:58:18,999 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT handler file path: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
+2024-02-05 05:58:19,000 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: None Found
+2024-02-05 05:58:19,001 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
+2024-02-05 05:58:19,001 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
+2024-02-05 05:58:19,003 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: None Found
+2024-02-05 05:58:19,003 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
+2024-02-05 05:58:19,004 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qss file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
+2024-02-05 05:58:19,005 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: None Found
+2024-02-05 05:58:19,006 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
+2024-02-05 05:58:19,006 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qrc file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
+2024-02-05 05:58:19,007 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/resources.py
+2024-02-05 05:58:19,008 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/resources.py
+2024-02-05 05:58:19,008 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT resources.py file from /usr/share/qtvcp/screens/qtdragon/resources.py
+2024-02-05 05:58:19,009 - QTvcp - INFO - Building A Linuxcnc Main Screen
+2024-02-05 05:58:19,046 - QTvcp - INFO - No handler file specified on command line
+2024-02-05 05:58:19,046 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon
+2024-02-05 05:58:19,364 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /usr/share/qtvcp/screens/qtdragon/resources.py
+2024-02-05 05:58:25,763 - QtDesigner.QTVCP.QT_TSTAT - DEBUG - Toolfile does not exist' None
+2024-02-05 05:58:25,766 - QtDesigner.QTVCP.QT_TSTAT - DEBUG - Toolfile does not exist' None
+2024-02-05 05:58:25,767 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - QSS Filepath Error: As Loaded
+2024-02-05 05:58:25,768 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - As Loaded theme not available
+2024-02-05 05:58:25,768 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - QTvcp Available system themes: fusion , Windows, Fusion
+2024-02-05 05:58:26,368 - QTvcp - INFO - postgui filename: qtdragon_postgui.hal
+2024-02-05 05:58:26,404 - QTvcp - INFO - Preference path: /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/qtdragon.pref

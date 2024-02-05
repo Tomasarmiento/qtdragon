@@ -454,8 +454,8 @@ net RI_tor_ofm <= coenet.DigOutCmd-008 <= motion.digital-out-48 #out of machine
 net RI_tor_cs <= coenet.DigOutCmd-010 <= motion.digital-out-50 #cycle start
 net RI_tor_spare <= coenet.DigOutCmd-011 <= motion.digital-out-51 #spare
 net RI_tor_mfin <= coenet.DigOutCmd-012 <= motion.digital-out-52 #mfin - REQUEST ANSWER (MFIN)
-net RI_tor_sl <= coenet.DigOutCmd-007 <= motion.digital-out-57 #system link - falta vincular a halui.mode.is-auto
-net RI_tor_ga <= coenet.DigOutCmd-009 <= motion.digital-out-39 #gantry alarm - ROBOT/LOADER ALARM - falta vincular a alarma - falta agregarlo en front
+net RI_tor_sl <= coenet.DigOutCmd-007 <= halui.mode.is-auto #system link - motion.digital-out-57 para usar en codigo g
+net RI_tor_ga <= coenet.DigOutCmd-009 <= halui.estop.is-activated#gantry alarm - motion.digital-out-39- ROBOT/LOADER ALARM - falta vincular a alarma - falta agregarlo en front
 #botones accionamientos
 net EV_tor_gate_open <= coenet.DigOutCmd-114 #<= motion.digital-out-13
 net EV_tor_gate_closed <= coenet.DigOutCmd-113 #<= motion.digital-out-14

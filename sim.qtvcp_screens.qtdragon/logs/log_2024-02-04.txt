@@ -347,3 +347,12 @@ dom04 09:58 Machine OFF
 
 dom04 10:08 Machine ON
 
+
+--- Qtvcp Screen Started on: dom, feb 04 2024 11:43:54 ---
+dom04 11:43 Machine OFF
+
+dom04 11:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
