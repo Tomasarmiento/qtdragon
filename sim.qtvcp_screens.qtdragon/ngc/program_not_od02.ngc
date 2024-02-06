@@ -103,7 +103,7 @@
 ; ********** Soplador gripper_down ********** 
 ;(maneja cuplas torneadas)
 
-#<_soplador_aproxima_x>=2100
+#<_soplador_aproxima_x>=2200
 #<_soplador_gripper_down_dejar_x_calculado>=[2035 + #<_correccion_largo_torneado>]
 #<_soplador_gripper_down_tomar_x_calculado>=[2033 + #<_correccion_largo_torneado>]
 #<_soplador_gripper_down_z_calculado_torneado>=[1326 + #<_d_torneado_correccion_altura_ps>]
@@ -113,7 +113,7 @@
 #<_soplador_z_offset>=5
 
 ;control de largos up (se completa con las primeras mediciones, y el error resultante)
-#<_soplador_gripper_down_x_med_ref_torneado>=[2031.8 + #<_correccion_largo_torneado>]
+#<_soplador_gripper_down_x_med_ref_torneado>=[2031 + #<_correccion_largo_torneado>]
 #<_soplador_gripper_down_x_error_admisible>=6
 
 
@@ -205,7 +205,7 @@
 #<_torno_offset_x_medicion>=4
 
 ;control de largos (se completa con las primeras mediciones, y el error resultante)
-#<_torno_gripper_down_x_med_ref>=[2849.6 + #<_correccion_largo_bruto>]
+#<_torno_gripper_down_x_med_ref>=[2851.3 + #<_correccion_largo_bruto>]
 #<_torno_gripper_down_x_error_admisible>=6
 
 
@@ -218,10 +218,10 @@
 ;#<_VEL_MEDIA>=15000
 ;#<_VEL_LENTA>=3000
 ;#<_VEL_RTN_MEDIR>=400
-#<_VEL_RAPIDA>=1500
-#<_VEL_MEDIA>=1000
-#<_VEL_LENTA>=500
-#<_VEL_RTN_MEDIR>=400
+#<_VEL_RAPIDA>=2000
+#<_VEL_MEDIA>=500
+#<_VEL_LENTA>=300
+#<_VEL_RTN_MEDIR>=200
 
 (**********************************************************************)
 (***** ENCABEZADO                                                 *****)
@@ -247,12 +247,8 @@ o800 CALL ;condiciones inciales
 ;o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
 ;o1350 CALL ;RUTINA DESCARGA gripper down
 ;o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-;o1500 CALL ;RUTINA VOLTEADOR gripper down
-;o1200 CALL ;soplador dejar down
-;o1250 CALL ;soplador tomar down
-;o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;o3200 CALL
-o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
+o1200 CALL ;soplador dejar down
+o1250 CALL ;soplador tomar down
 M02
 
 
@@ -396,12 +392,12 @@ o800 SUB
     o108 ENDIF
 
     ;Parking - Sensor de cupla - NO debe haber cupla
-    M66 P14 L3 Q0.1
-    o109 IF [#5399 EQ -1]
-        (debug, INIT - Parking - Cupla presente en parking)
-        ;(log, )
-        M02
-    o109 ENDIF
+    ;M66 P14 L4 Q0.1
+    ;o109 IF [#5399 EQ -1]
+    ;    (debug, INIT - Parking - Cupla presente en parking)
+    ;    ;(log, )
+    ;    M02
+    ;o109 ENDIF
     
     ;Volteador - VERIFICAR SENSOR MORDAZA ABIERTA
     M66 P13 L3 Q0.1
@@ -419,7 +415,6 @@ o800 SUB
         M02
     o111 ENDIF
 
-    ;*** REVISAR - descomentar
     ;gripper_down - Sensor de mordaza abierta
     ;M66 P25 L3 Q0.1		(Chequea la senal de mordaza abierta)
     ;o112 IF [#5399 EQ -1]
@@ -427,8 +422,7 @@ o800 SUB
     ;    ;(log, )
     ;    M02
     ;o112 ENDIF
-    
-    ;*** REVISAR - descomentar
+
     ;gripper_down - Sensor de cupla NO presente
     ;M66 P21 L3 Q0.1
     ;o113 IF [#5399 EQ -1]
@@ -437,23 +431,21 @@ o800 SUB
     ;    M02
     ;o113 ENDIF
 
-    ;*** REVISAR
     ;gripper_up - Sensor de mordaza abierta
-    ;M66 P26 L3 Q0.1		(Chequea la senal de mordaza abierta)
-    ;o114 IF [#5399 EQ -1]
-    ;    (debug, INIT - ERROR: gripper arriba no abierto)
-    ;    ;(log, )
-    ;    M02
-    ;o114 ENDIF
+    M66 P26 L3 Q0.1		(Chequea la senal de mordaza abierta)
+    o114 IF [#5399 EQ -1]
+        (debug, INIT - ERROR: gripper arriba no abierto)
+        ;(log, )
+        M02
+    o114 ENDIF
 
-    ;*** REVISAR
     ;gripper_up - Sensor de cupla NO presente
-    ;M66 P22 L3 Q0.1
-    ;o115 IF [#5399 EQ -1]
-    ;    (debug, INIT - Parking gripper down - Cupla presente en gripper de abajo - rutina up dejar)
-    ;    ;(log, )
-    ;    M02
-    ;o115 ENDIF
+    M66 P22 L3 Q0.1
+    o115 IF [#5399 EQ -1]
+        (debug, INIT - Parking gripper down - Cupla presente en gripper de abajo - rutina up dejar)
+        ;(log, )
+        M02
+    o115 ENDIF
 
     ;SYSTEM LINK MODE PRENDIDO
     M66 P55 L3 Q0.1
@@ -463,6 +455,7 @@ o800 SUB
         M02
     o117 ENDIF
     
+
     ;Señal 02 torno en nc alarma en 1
     M66 P46 L3 Q0.1	
     o118 IF [#5399 EQ -1]
@@ -486,7 +479,6 @@ o800 SUB
     ;    ;(log, )
     ;    M02
     ;o120 ENDIF
-    ;no va porque arrancamos con puerta cerrada
 
     ;CYCLE STOP REQUEST EN 1
     M66 P50 L3 Q0.1
@@ -511,31 +503,27 @@ o800 SUB
         ;(log, )
         M02
     o123 ENDIF
-
-    ;*** REVISAR
+ 
     ;VERIFICAR PLATO DEL TORNO ABIERTO (la setea el torno, y la lee el Python / Código G)
-    ;M66 P43 L3 Q0.1
-    ;o124 IF [#5399 EQ -1]
-    ;    (debug, INIT TORNO - Okuma plato no esta abierto)
-    ;    ;(log, )
-    ;    M02
-    ;o124 ENDIF
+    M66 P43 L3 Q0.1
+    o124 IF [#5399 EQ -1]
+        (debug, INIT TORNO - Okuma plato no esta abierto)
+        ;(log, )
+        M02
+    o124 ENDIF
 
     ;Flag 58 de Gantry puede ingresar en 0 (la setea el Python, y la lee el Código G)
-    ;M66 P29 L4 Q0.1
-    ;o125 IF [#5399 EQ -1]
-    ;    (debug, INIT gantry - flag de gantry puede ingresar no esta apagado)
-    ;    ;(log, )
-    ;    M02
-    ;o125 ENDIF
-    ;no se pone porque la rutina Okuma Entrar se ejecuta al principio
+    M66 P29 L4 Q0.1
+    o125 IF [#5399 EQ -1]
+        (debug, INIT gantry - flag de gantry puede ingresar no esta apagado)
+        ;(log, )
+        M02
+    o125 ENDIF
+
 
 
 
 ; FLAGS A SETEAR
-
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
 
     ;Flag 01 Gantry en carga en 0
     M65 P63
@@ -566,6 +554,7 @@ o800 SUB
     ;*** REVISAR
     ;VERIFICAR SI HAY UN MODO DE EMERGENCIA QUE PODEMOS SETERA DESDE ERRORES DEL CODIGO G
 
+
     ;SETEAR señal de CYCLE START en 0
     M65 P50
 
@@ -574,18 +563,6 @@ o800 SUB
    
     ;SETEAR LOADER SYSTEM LINK/AUTO MODE=1
     ;ya esta ligada a gantry en automatico
-
-    ;SETEAR señal de chuck clamp en 0
-    M65 P43
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
 
 o800 ENDSUB
 
@@ -612,7 +589,7 @@ o2100 SUB
         o2105 ENDIF
 
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - no debe haber cupla
-        M66 P14 L3 Q0.1
+        M66 P14 L4 Q0.1
         o2110 IF [#5399 EQ -1]
             (debug, Parking - Cupla presente - rutina down dejar)
             ;(log, )
@@ -637,7 +614,7 @@ o2100 SUB
     G1 x#<_parking_gripper_down_dejar_x_calculado>	F#<_VEL_LENTA>
 
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - debe haber cupla
-        M66 P14 L4 Q0.1
+        M66 P14 L3 Q0.1
         o2120 IF [#5399 EQ -1]
             (debug, Parking - Cupla no presente - rutina down dejar)
             ;(log, )
@@ -655,7 +632,7 @@ o2100 SUB
     G1 x#<_parking_ingreso_x>	F#<_VEL_RAPIDA>
 
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - debe haber cupla
-        M66 P14 L4 Q0.1
+        M66 P14 L3 Q0.1
         o2130 IF [#5399 EQ -1]
             (debug, Parking - Cupla no presente - rutina down dejar)
             ;(log, )
@@ -720,11 +697,11 @@ o2100 SUB
 
     G1 x#<_parking_ingreso_x> z[#<_parking_gripper_up_z_calculado>+#<_parking_z_offset>]	F#<_VEL_RAPIDA>
     
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
-    
+    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
+
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - NO debe haber cupla
-        M66 P14 L3 Q0.1
+        M66 P14 L4 Q0.1
         o2165 IF [#5399 EQ -1]
             (debug, Parking - Cupla presente parking - rutina up tomar)
             ;(log, )
@@ -984,8 +961,8 @@ o1250 SUB
 
     G1 x#<_soplador_ingreso_x> z[#<_soplador_gripper_down_z_calculado_torneado>+#<_soplador_z_offset>] 	F#<_VEL_RAPIDA>
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
 
     ;VERIFICAR SENSOR DE CUPLA PRESENTE EN SOPLADOR - cupla debe NO estar presente
         M66 P16 L4 Q0.1
@@ -1009,7 +986,7 @@ o1250 SUB
     ;SETEAR Flag de NO accionar rutina python de soplado en 0
         M65 P61
 
-    ;ABRIR GRIPPER DE ARRIBA, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
+    ;ABRIR GRIPPER DE ABAJO, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
         o1750 CALL ;abrir gripper up
             o1286 IF [#5399 EQ -1]
                 (debug, ERROR EN RUTINA SOPLADOR - rutina tomar)
@@ -1066,7 +1043,7 @@ o1300 SUB
         o1304 ENDIF
 
     ;Parking Sensor de cupla - NO debe haber cupla
-        M66 P14 L3 Q0.1
+        M66 P14 L4 Q0.1
         o1305 IF [#5399 EQ -1]
             (debug, CARGA gripper down - Cupla presente en parking)
             ;(log, )
@@ -1489,8 +1466,8 @@ o1400 SUB
             M02
         o1472 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
 
     ;GIRAR VOLTEADOR A 0 GRADOS
         M64 P02
@@ -1643,8 +1620,8 @@ o1500 SUB
             M02
         o1595 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
 
     ;GIRAR VOLTEADOR A 0 GRADOS
         M64 P02
@@ -1669,21 +1646,6 @@ o1500 ENDSUB
 (***********************************************************************)
 
 o3000 SUB
-
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-
-  ;SETEAR señal de chuck clamp en 0
-    M65 P43
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
 
     ;VERIFICAR POSICION SEGURA
         #5399 = 0
@@ -1730,7 +1692,7 @@ o3000 SUB
         o3025 ENDIF
 
     ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
+        M66 P19 L3 Q0.1	;cambiar entrada a mirar - SEN_tor_gate_open
         o3030 IF [#5399 EQ -1]
             (debug, TORNO inicia down dejar - Puerta del techo del okuma no esta abierta)
             ;(log, )
@@ -1742,15 +1704,15 @@ o3000 SUB
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
 
     ;SALIDA PARA ABRIR PLATO
-        M64 P44
+        M64 P44 ;cambiar salida a setear - RI_tor_cu
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
-        M64 P46 
+        M64 P46 ;cambiar salida a setear - RI_tor_so1
 
     G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
-        M66 P45 L3 Q5
+        M66 P45 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm
         o3035 IF [#5399 EQ -1]
             (debug, TORNO inicia down dejar - Plato del torno no esta en posicion correcta)
             ;(log, )
@@ -1758,18 +1720,12 @@ o3000 SUB
         o3035 ENDIF
 
     ;ENTRADA DE CONFIRMACION PLATO ABIERTO PARA gripper down
-        M66 P43 L3 Q5
+        M66 P43 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cu_confirm
         o3040 IF [#5399 EQ -1]
             (debug, TORNO inicia down dejar - Plato del torno no abierto)
             ;(log, )
             M02
         o3040 ENDIF
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
 
     G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
     G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
@@ -1787,18 +1743,15 @@ o3000 SUB
             o3045 ENDIF
 
     ;SALIDA PARA CERRAR PLATO
-        M64 P43
+        M64 P43 ;cambiar salida a setear - RI_tor_cc
 
     ;ENTRADA DE CONFIRMACION PLATO CERRADO
-        M66 P42 L3 Q10	
+        M66 P42 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cc_confirm
         o3050 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Falta confirmacion de plato cerrado)
+            (debug, TORNO inicia down dejar - Plato del torno no esta en posicion correcta)
             ;(log, )
             M02
         o3050 ENDIF
-
-    ;SETEAR señal de chuck clamp en 0
-    M65 P43
 
     G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
 
@@ -1818,9 +1771,6 @@ o3000 SUB
     ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
     ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-    
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
 
 o3000 ENDSUB
 
@@ -1830,20 +1780,6 @@ o3000 ENDSUB
 (***********************************************************************)
 
 o3200 SUB
-
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-  ;SETEAR señal de chuck clamp en 0
-    M65 P43
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
 
     ;VERIFICAR POSICION SEGURA
         #5399 = 0
@@ -1900,7 +1836,7 @@ o3200 SUB
         o3230 ENDIF
         
     ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
+        M66 P19 L3 Q0.1	;cambiar entrada a mirar - SEN_tor_gate_open
         o3235 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO TOMA GRD - Puerta del techo del okuma no esta abierta)
             ;(log, )
@@ -1912,21 +1848,18 @@ o3200 SUB
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
-        M64 P46
+        M64 P43 ;cambiar salida a setear - RI_tor_so1
 
     G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
-        M66 P45 L3 Q5	
+        M66 P45 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm
         o3240 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO TOMA GRD - Plato del torno no esta en posicion correcta)
             ;(log, )
             M02
         o3240 ENDIF
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-  
+    
     G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
     G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
 
@@ -1959,18 +1892,15 @@ o3200 SUB
             o3255 ENDIF
 
     ;SALIDA PARA ABRIR PLATO
-        M64 P44
+        M64 P44 ;cambiar salida a setear - RI_tor_cu
 
     ;ENTRADA DE CONFIRMACION PLATO ABIERTO
-        M66 P43 L3 Q10	
+        M66 P43 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cu_confirm
         o3260 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO TOMA GRD - Plato del torno no esta abierto)
             ;(log, )
             M02
         o3260 ENDIF
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
 
     G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
 
@@ -1985,30 +1915,27 @@ o3200 SUB
     ;-------------------- gripper up DEJAR --------------------
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper up
-        M64 P47 
+        M64 P47 ;cambiar salida a setear - RI_tor_so2
 
-    G1 z#<_torno_ingreso3_z>	F#<_VEL_RAPIDA>
+    G1 x#<_torno_ingreso3_z>	F#<_VEL_RAPIDA>
     
     G1 z#<_torno_gripper_up_centro_z>	F#<_VEL_LENTA>
     G1 y#<_torno_gripper_up_centro_y>	F#<_VEL_LENTA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper up
-        M66 P44 L3 Q5	
+        M66 P44 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm | RI_tor_so2_confirm
         o3270 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO DEJA GRU - Plato del torno no esta en posicion correcta)
             ;(log, )
             M02
         o3270 ENDIF
 
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
-
     G1 x#<_torno_gripper_up_aproxima_x>	F#<_VEL_MEDIA>
 
     G1 x#<_torno_gripper_up_x_calculado>	F#<_VEL_LENTA>
 
-    ;ABRIR GRIPPER DE ARRIBA, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
-        o1750 CALL ;abrir gripper up
+    ;SUBRUTINA DE ABRIR gripper up
+        o1700 CALL ;abrir gripper down
             o3275 IF [#5399 EQ -1]
                 (debug, ERROR EN RUTINA TORNO INTERCAMBIO DEJA GRU)
                 ;(log, )
@@ -2016,18 +1943,15 @@ o3200 SUB
             o3275 ENDIF
 
     ;SALIDA PARA CERRAR PLATO
-        M64 P43
+        M64 P43 ;cambiar salida a setear - RI_tor_cc
 
     ;ENTRADA DE CONFIRMACION PLATO CERRADO
-        M66 P42 L3 Q10
+        M66 P42 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cc_confirm
         o3280 IF [#5399 EQ -1]
             (debug, TORNO INTERCAMBIO DEJA GRU - Plato del torno no cerrado)
             ;(log, )
             M02
         o3280 ENDIF
-
-    ;SETEAR señal de chuck clamp en 0
-    M65 P43
 
     G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
 
@@ -2060,8 +1984,6 @@ o3200 SUB
     ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
     
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
 
 o3200 ENDSUB
 
@@ -2071,21 +1993,6 @@ o3200 ENDSUB
 (***********************************************************************)
 
 o3400 SUB
-
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-
-  ;SETEAR señal de chuck clamp en 0
-    M65 P43
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
 
     ;VERIFICAR POSICION SEGURA
         #5399 = 0
@@ -2142,7 +2049,7 @@ o3400 SUB
         o3430 ENDIF
 
     ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
+        M66 P19 L3 Q0.1	;cambiar entrada a mirar - SEN_tor_gate_open
         o3435 IF [#5399 EQ -1]
             (debug, TORNO TOMAR GRU - Puerta del techo del okuma no esta abierta)
             ;(log, )
@@ -2154,20 +2061,17 @@ o3400 SUB
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
-        M64 P46 
+        M64 P46 ;cambiar salida a setear - RI_tor_so1
 
-        G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
+    G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
 
     ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
-        M66 P45 L3 Q5
+        M66 P45 L3 Q0.1	;cambiar entrada a mirar - RI_tor_so1_confirm | RI_tor_so2_confirm
         o3440 IF [#5399 EQ -1]
             (debug, TORNO TOMAR GRU - Plato del torno no esta en posicion correcta)
             ;(log, )
             M02
         o3440 ENDIF
-    
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
 
     G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
     G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
@@ -2201,18 +2105,15 @@ o3400 SUB
             o3455 ENDIF
 
     ;SALIDA PARA ABRIR PLATO
-        M64 P44 
+        M64 P44 ;cambiar salida a setear - RI_tor_cu
 
     ;ENTRADA DE CONFIRMACION PLATO ABIERTO
-        M66 P43 L3 Q10	
+        M66 P43 L3 Q0.1	;cambiar entrada a mirar - RI_tor_cu_confirm
         o3460 IF [#5399 EQ -1]
             (debug, TORNO TOMAR GRU - Plato del torno no esta en posicion correcta)
             ;(log, )
             M02
         o3460 ENDIF
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
 
     G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
     G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
@@ -2231,9 +2132,6 @@ o3400 SUB
     ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
     ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
     ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
 
 o3400 ENDSUB
 

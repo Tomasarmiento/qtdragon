@@ -45,12 +45,12 @@ notify_start_detail = This option can be changed in the preference file
 notify_start_timeout = 5
 
 [BOOK_KEEPING]
-last_loaded_directory = 
-last_loaded_file = 
+last_loaded_directory = /../../../../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc
+last_loaded_file = /../../../../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
 style_QSS_Path = As Loaded
 
 [CUSTOM_FORM_ENTRIES]
 Tool to load = 0
-Use keyboard = True
-Inhibit display mouse selection = False
+Use keyboard = False
+Inhibit display mouse selection = True
 

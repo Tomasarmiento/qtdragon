@@ -11,7 +11,7 @@ loadrt [EMCMOT]EMCMOT servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JO
 #loadrt jolIoenet names=ioenet
 loadrt jolCoenet names=coenet
 
-loadrt not count=4
+loadrt not count=5
 loadrt or2 count=1
 loadrt and2 count=6
 
@@ -33,6 +33,7 @@ addf not.0                  servo-thread
 addf not.1                  servo-thread
 addf not.2                  servo-thread
 addf not.3                  servo-thread
+addf not.4                  servo-thread
 addf or2.0                  servo-thread
 addf and2.0                 servo-thread
 addf and2.1                 servo-thread
@@ -455,7 +456,8 @@ net RI_tor_cs <= coenet.DigOutCmd-010 <= motion.digital-out-50 #cycle start
 net RI_tor_spare <= coenet.DigOutCmd-011 <= motion.digital-out-51 #spare
 net RI_tor_mfin <= coenet.DigOutCmd-012 <= motion.digital-out-52 #mfin - REQUEST ANSWER (MFIN)
 net RI_tor_sl <= coenet.DigOutCmd-007 <= halui.mode.is-auto #system link - motion.digital-out-57 para usar en codigo g
-net RI_tor_ga <= coenet.DigOutCmd-009 <= halui.estop.is-activated#gantry alarm - motion.digital-out-39- ROBOT/LOADER ALARM - falta vincular a alarma - falta agregarlo en front
+net RI_tor_ga <= halui.estop.is-activated <= not.4.in #gantry alarm - motion.digital-out-39- ROBOT/LOADER ALARM - falta vincular a alarma - falta agregarlo en front
+net RI_tor_ga_nc => not.4.out <= coenet.DigOutCmd-009
 #botones accionamientos
 net EV_tor_gate_open <= coenet.DigOutCmd-114 #<= motion.digital-out-13
 net EV_tor_gate_closed <= coenet.DigOutCmd-113 #<= motion.digital-out-14

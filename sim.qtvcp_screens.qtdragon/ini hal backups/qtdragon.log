@@ -1,0 +1,30 @@
+2024-02-06 03:45:09,467 - QTvcp - INFO - Logging to "/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ini hal backups/qtdragon.log"
+2024-02-06 03:45:09,956 - QTvcp - INFO - Base log level set to 20
+2024-02-06 03:45:09,957 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - BASENAME qtdragon
+2024-02-06 03:45:09,957 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: None Found
+2024-02-06 03:45:09,958 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for default handler file in: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
+2024-02-06 03:45:09,958 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT handler file path: /usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py
+2024-02-06 03:45:09,959 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: None Found
+2024-02-06 03:45:09,959 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
+2024-02-06 03:45:09,960 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from /usr/share/qtvcp/screens/qtdragon/qtdragon.ui
+2024-02-06 03:45:09,960 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: None Found
+2024-02-06 03:45:09,961 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
+2024-02-06 03:45:09,961 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qss file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qss
+2024-02-06 03:45:09,962 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: None Found
+2024-02-06 03:45:09,963 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
+2024-02-06 03:45:09,963 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT qrc file from /usr/share/qtvcp/screens/qtdragon/qtdragon.qrc
+2024-02-06 03:45:09,964 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ini hal backups/resources.py
+2024-02-06 03:45:09,964 - QtDesigner.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /usr/share/qtvcp/screens/qtdragon/resources.py
+2024-02-06 03:45:09,965 - QtDesigner.QTVCP.QT_PSTAT - INFO - Using DEFAULT resources.py file from /usr/share/qtvcp/screens/qtdragon/resources.py
+2024-02-06 03:45:09,965 - QTvcp - INFO - Building A Linuxcnc Main Screen
+2024-02-06 03:45:10,000 - QTvcp - INFO - No handler file specified on command line
+2024-02-06 03:45:10,000 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon
+2024-02-06 03:45:10,316 - QTvcp.QTVCP.QT_MAKEGUI - ERROR - Trouble looking for handlers in 'qtdragon_handler':
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/qtvcp/qt_makegui.py", line 291, in _load_handlers
+    objlist = h(halcomp,widgets,self.PATHS) # this sets the handler class signature
+  File "/usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py", line 2524, in get_handlers
+    return [HandlerClass(halcomp, widgets, paths)]
+  File "/usr/share/qtvcp/screens/qtdragon/qtdragon_handler.py", line 80, in __init__
+    self.inifile = linuxcnc.ini('../sim.qtvcp_screens.qtdragon/qtdragon.ini')
+error: inifile.open() failed

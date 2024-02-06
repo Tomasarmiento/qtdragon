@@ -257,13 +257,14 @@ net EV_tor_gate_closed <= qtdragon.EV_tor_gate_closed
 #flags de intercambio
 net CTRL_bc_ogr => motion.digital-out-63 => qtdragon.CTRL_bc_ogr
 net CTRL_bd_ogr => motion.digital-out-62 => qtdragon.CTRL_bd_ogr
-net CTRL_blw_ogr => motion.digital-out-61 => qtdragon.CTRL_blw_ogr
 
+net CTRL_blw_ogr => motion.digital-out-61 => qtdragon.CTRL_blw_ogr
 net CTRL_blw_sr => motion.digital-out-60 => qtdragon.CTRL_blw_sr
 net CTRL_blw_er => motion.digital-in-27 => qtdragon.CTRL_blw_er
 
 net CTRL_ch_ce => motion.digital-in-29 => qtdragon.CTRL_ch_ce
 net CTRL_ch_od => motion.digital-in-35 => qtdragon.LED_ch_od => qtdragon.CTRL_ch_od
+net CTRL_ch_of => motion.digital-out-53 => qtdragon.CTRL_ch_of #operation finished
 
 net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master
 
