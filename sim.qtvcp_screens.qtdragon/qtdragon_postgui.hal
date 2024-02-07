@@ -270,5 +270,6 @@ net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master
 
 net CTRL_end_cycle => motion.digital-in-49 => qtdragon.CTRL_end_cycle => qtdragon.LED_end_cycle
 
+net x-posRef => qtdragon.x-posRef
 net z-posRef => qtdragon.z-posRef
 

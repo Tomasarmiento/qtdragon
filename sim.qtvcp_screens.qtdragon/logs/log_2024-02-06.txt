@@ -5011,3 +5011,25 @@ Run the Latency Test and resolve before continuing.
 --- Qtvcp Screen Started on: mar, feb 06 2024 12:09:43 ---
 mar06 12:09 Machine OFF
 
+
+--- Qtvcp Screen Started on: mar, feb 06 2024 12:18:54 ---
+mar06 12:18 Machine OFF
+
+mar06 12:18 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar06 12:19 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+mar06 12:19 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+mar06 12:19 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+mar06 12:19 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+mar06 12:19 Machine ON
+mar06 12:19 no se puede hacer (EMC_JOINT_HOME:123) en modo MDI
+
+mar06 12:19 Machine OFF
+mar06 12:19 Machine ON
+
