@@ -249,20 +249,20 @@ o800 CALL ;condiciones inciales
 
 o1300 CALL ;RUTINA CARGA gripper down
 o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-o2200 CALL ; **** OP10 ****
+;o2200 CALL ; **** OP10 ****
 
 o1300 CALL ;RUTINA CARGA gripper down
 o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
 o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-o2200 CALL ; **** OP10 ****
+;o2200 CALL ; **** OP10 ****
 
 o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
 o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-o2150 CALL ; ----- OP20 -----
+;o2150 CALL ; ----- OP20 -----
 
 o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
 o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-o2150 CALL ; ----- OP20 -----
+;o2150 CALL ; ----- OP20 -----
 o1200 CALL ;soplador dejar down
 o1250 CALL ;soplador tomar down
 o1350 CALL ;RUTINA DESCARGA gripper down
@@ -288,7 +288,7 @@ M02
 ;
 ;o1300 CALL ;RUTINA CARGA gripper down
 ;o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;o2200 CALL ; **** OP10 ****
+;;o2200 CALL ; **** OP10 ****
 ;
 ;#<_terminar> = 0
 ;
@@ -297,15 +297,15 @@ M02
 ;    o1300 CALL ;RUTINA CARGA gripper down
 ;    o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
 ;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;    o2200 CALL ; **** OP10 ****
+;;    o2200 CALL ; **** OP10 ****
 ;
 ;    o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
 ;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;    o2150 CALL ; ----- OP20 -----
+;;    o2150 CALL ; ----- OP20 -----
 ;
 ;    o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
 ;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;    o2150 CALL ; ----- OP20 -----
+;;    o2150 CALL ; ----- OP20 -----
 ;
 ;    o1200 CALL ;soplador dejar down
 ;    o1250 CALL ;soplador tomar down
@@ -313,7 +313,7 @@ M02
 ;    o1300 CALL ;RUTINA CARGA gripper down
 ;    o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
 ;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;    o2200 CALL ; **** OP10 ****
+;;    o2200 CALL ; **** OP10 ****
 ;
 ;    o1200 CALL ;soplador dejar down
 ;    o1250 CALL ;soplador tomar down
@@ -333,7 +333,7 @@ M02
 ;    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
 ;    O1500 CALL ;RUTINA VOLTEADOR gripper down - sale down
 ;    o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;    o2150 CALL ; ----- OP20 -----
+;;    o2150 CALL ; ----- OP20 -----
 ;
 ;    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
 ;    o1200 CALL ;soplador dejar down
@@ -541,13 +541,7 @@ o800 SUB
         M02
     o115 ENDIF
 
-    ;SYSTEM LINK MODE PRENDIDO
-    M66 P55 L3 Q0.1
-    o117 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma no tiene system link prendido)
-        ;(log, )
-        M02
-    o117 ENDIF
+    
     
     ;Señal 02 torno en nc alarma en 1
     M66 P46 L3 Q0.1	
@@ -1718,9 +1712,6 @@ o1500 ENDSUB
 
 o3000 SUB
 
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-
   ;SETEAR señal de chuck clamp en 0
     M65 P43
 
@@ -1761,33 +1752,35 @@ o3000 SUB
             M02
         o3015 ENDIF
 
-    ;VERIFICAR Flag 58 de Gantry puede ingresar en 1 - sino ESPERAR
-        M66 P29 L3 Q30		(thctab.CTRL_ch_ce | okuma can enter python)
-        o3020 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Tiempo de espera maximo para ingresar exedido)
-            ;(log, )
-            M02
-        o3020 ENDIF
+    ;SYSTEM LINK MODE PRENDIDO
+    M66 P55 L3 Q0.1
 
-    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
-        M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
-        o3025 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Okuma no se encuentra en home)
-            ;(log, )
-            M02
-        o3025 ENDIF
+    o3016 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE PRENDIDO
+        M66 P55 L3 Q1
+    o3016 endwhile
+
+    M0 ;
+
+    ;ABRIR TECHO
+    M64 P13
+    M65 P14
 
     ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
+        M66 P20 L3 Q10
         o3030 IF [#5399 EQ -1]
             (debug, TORNO inicia down dejar - Puerta del techo del okuma no esta abierta)
             ;(log, )
             M02
         o3030 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
-    ;    M65 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
+    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
+        M66 P48 L3 Q10	;cambiar entrada a mirar - RI_tor_home_confirm
+        o3025 IF [#5399 EQ -1]
+            (debug, TORNO inicia down dejar - Okuma no se encuentra en home)
+            ;(log, )
+            M02
+        o3025 ENDIF
 
     ;SALIDA PARA ABRIR PLATO
         M64 P44
@@ -1863,12 +1856,9 @@ o3000 SUB
             M02
         o3055 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
-    ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-    
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
+    ;CERRAR TECHO
+    M64 P14
+    M65 P13
 
 o3000 ENDSUB
 
@@ -1879,9 +1869,7 @@ o3000 ENDSUB
 
 o3200 SUB
 
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-  ;SETEAR señal de chuck clamp en 0
+    ;SETEAR señal de chuck clamp en 0
     M65 P43
 
     ;SETEAR señal de chuck unclamp en 0
@@ -1931,13 +1919,27 @@ o3200 SUB
                 M02
             o3220 ENDIF
 
-    ;VERIFICAR Flag 58 de Gantry puede ingresar en 1 - sino ESPERAR
-        M66 P29 L3 Q30		(thctab.CTRL_ch_ce | okuma can enter python)
-        o3225 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Tiempo de espera maximo para ingresar exedido)
+    ;SYSTEM LINK MODE PRENDIDO
+    M66 P55 L3 Q0.1
+
+    o3221 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE PRENDIDO
+        M66 P55 L3 Q1
+    o3221 endwhile
+
+    M0 ;
+
+    ;ABRIR TECHO
+    M64 P13
+    M65 P14
+
+    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
+        M66 P20 L3 Q10
+        o3235 IF [#5399 EQ -1]
+            (debug, TORNO INTERCAMBIO TOMA GRD - Puerta del techo del okuma no esta abierta)
             ;(log, )
             M02
-        o3225 ENDIF
+        o3235 ENDIF
 
     ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
         M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
@@ -1947,18 +1949,6 @@ o3200 SUB
             M02
         o3230 ENDIF
         
-    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
-        o3235 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Puerta del techo del okuma no esta abierta)
-            ;(log, )
-            M02
-        o3235 ENDIF
-
-    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
-    ;    M65 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
         M64 P46
 
@@ -2104,12 +2094,9 @@ o3200 SUB
             M02
         o3290 ENDIF
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
-    ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-    
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
+    ;CERRAR TECHO
+    M64 P14
+    M65 P13
 
 o3200 ENDSUB
 
@@ -2120,10 +2107,7 @@ o3200 ENDSUB
 
 o3400 SUB
 
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
-
-  ;SETEAR señal de chuck clamp en 0
+    ;SETEAR señal de chuck clamp en 0
     M65 P43
 
     ;SETEAR señal de chuck unclamp en 0
@@ -2173,13 +2157,27 @@ o3400 SUB
                 M02
             o3420 ENDIF
     
-    ;VERIFICAR Flag 58 de Gantry puede ingresar en 1 - sino ESPERAR
-        M66 P29 L3 Q30		(thctab.CTRL_ch_ce | okuma can enter python)
-        o3425 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Tiempo de espera maximo para ingresar exedido)
+    ;SYSTEM LINK MODE PRENDIDO
+    M66 P55 L3 Q0.1
+
+    o3421 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE PRENDIDO
+        M66 P55 L3 Q1
+    o3421 endwhile
+
+    M0 ;
+
+    ;ABRIR TECHO
+    M64 P13
+    M65 P14
+
+    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
+        M66 P20 L3 Q10
+        o3435 IF [#5399 EQ -1]
+            (debug, TORNO TOMAR GRU - Puerta del techo del okuma no esta abierta)
             ;(log, )
             M02
-        o3425 ENDIF
+        o3435 ENDIF
 
     ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
         M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
@@ -2189,17 +2187,6 @@ o3400 SUB
             M02
         o3430 ENDIF
 
-    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
-        M66 P20 L3 Q0.1
-        o3435 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Puerta del techo del okuma no esta abierta)
-            ;(log, )
-            M02
-        o3435 ENDIF
-
-    ;SETEAR Señal 04 Robot fuera de torno en 0 - ROBOT/LOADER OUT OF MACHINE AREA = 0
-    ;    M65 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
 
     ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
         M64 P46 
@@ -2276,12 +2263,9 @@ o3400 SUB
     G1 z#<_z-pos-segura> F#<_VEL_RAPIDA>
     G1 y#<_y-pos-segura> F#<_VEL_RAPIDA>
 
-    ;SETEAR Señal 04 Robot fuera de torno en 1 - ROBOT/LOADER OUT OF MACHINE AREA = 1
-    ;    M64 P48 ;cambiar salida a setear - RI_tor_ofm
-    ; SE SETEA AUTOMÁTICO CUANDO EL GANTRY SALE DE Z POS SEGURA
-
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    M64 P53
+    ;CERRAR TECHO
+    M64 P14
+    M65 P13
 
 o3400 ENDSUB
 

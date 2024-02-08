@@ -1297,35 +1297,35 @@ class HandlerClass:
 
                 
                 # Paso 0 - Condiciones iniciales TORNO ENTRAR
-                init_conditions_error_messages = self.check_init_conditions_ch_entrar()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno entrar')
-                self.init_conditions_error_messages['torno_entrar'] = init_conditions_error_messages[:]
-                if len(init_conditions_error_messages) > 1:
-                    #pass
-                    if self.chk_init_conditions == True:
-                        print('\nError en condiciones iniciales de torno entrar')
-                        for err in init_conditions_error_messages:
-                            print(err)
-                else:
-                    if self.err_routine == True:
-                        self.threadTorno_entrar = threading.Thread(target=self.ch_routine_entrar)
-                        self.threadTorno_entrar.start()
+                #init_conditions_error_messages = self.check_init_conditions_ch_entrar()
+                #init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno entrar')
+                #self.init_conditions_error_messages['torno_entrar'] = init_conditions_error_messages[:]
+                #if len(init_conditions_error_messages) > 1:
+                #    #pass
+                #    if self.chk_init_conditions == True:
+                #        print('\nError en condiciones iniciales de torno entrar')
+                #        for err in init_conditions_error_messages:
+                #            print(err)
+                #else:
+                #    if self.err_routine == True:
+                #        self.threadTorno_entrar = threading.Thread(target=self.ch_routine_entrar)
+                #        self.threadTorno_entrar.start()
 
 
                 # Paso 0 - Condiciones iniciales TORNO SALIR
-                init_conditions_error_messages = self.check_init_conditions_ch_salir()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno salir')
-                self.init_conditions_error_messages['torno_salir'] = init_conditions_error_messages[:]
-                if len(init_conditions_error_messages) > 1:
-                    #pass
-                    if self.chk_init_conditions == True:
-                        print('\nError en condiciones iniciales de torno salir')
-                        for err in init_conditions_error_messages:
-                            print(err)
-                else:
-                    if self.err_routine == True:
-                        self.threadTorno_salir = threading.Thread(target=self.ch_routine_salir)
-                        self.threadTorno_salir.start()
+                #init_conditions_error_messages = self.check_init_conditions_ch_salir()
+                #init_conditions_error_messages.insert(0,'Error en condiciones iniciales de torno salir')
+                #self.init_conditions_error_messages['torno_salir'] = init_conditions_error_messages[:]
+                #if len(init_conditions_error_messages) > 1:
+                #    #pass
+                #    if self.chk_init_conditions == True:
+                #        print('\nError en condiciones iniciales de torno salir')
+                #        for err in init_conditions_error_messages:
+                #            print(err)
+                #else:
+                #    if self.err_routine == True:
+                #        self.threadTorno_salir = threading.Thread(target=self.ch_routine_salir)
+                #        self.threadTorno_salir.start()
 
                 # Paso 0 - Condiciones iniciales PATEADOR
                 init_conditions_error_messages = self.check_init_conditions_pateador()
@@ -2024,7 +2024,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		#(anular == False, 'anulada activa'),
+      		(anular == False, 'anulada activa'),
             (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
       
 		]
@@ -2053,7 +2053,7 @@ class HandlerClass:
       		(s.task_paused == 0, 'Pausa esta activa'),
             (self.err_routine == True, 'Error en rutina previo'),
             (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
-      		#(anular == False, 'anulada activa'),
+      		(anular == False, 'anulada activa'),
             (hal.get_value('RI_tor_cstop_confirm') == True, 'Senal de cycle stop prendida'),
             (hal.get_value('RI_tor_m180_confirm') == False, 'Senal m180 del torno prendida'),
             (hal.get_value('RI_tor_m181_confirm') == False, 'Senal m181 del torno prendida'),

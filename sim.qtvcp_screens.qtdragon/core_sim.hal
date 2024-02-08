@@ -459,8 +459,8 @@ net RI_tor_sl <= coenet.DigOutCmd-007 <= halui.mode.is-auto #system link - motio
 net RI_tor_ga <= halui.estop.is-activated <= not.4.in #gantry alarm - motion.digital-out-39- ROBOT/LOADER ALARM - falta vincular a alarma - falta agregarlo en front
 net RI_tor_ga_nc => not.4.out <= coenet.DigOutCmd-009
 #botones accionamientos
-net EV_tor_gate_open <= coenet.DigOutCmd-114 #<= motion.digital-out-13
-net EV_tor_gate_closed <= coenet.DigOutCmd-113 #<= motion.digital-out-14
+net EV_tor_gate_open <= coenet.DigOutCmd-114 <= motion.digital-out-13
+net EV_tor_gate_closed <= coenet.DigOutCmd-113 <= motion.digital-out-14
 
 ########################################################################
 
