@@ -7,13 +7,13 @@
 
 
 ;**** VALORES CARGADOS EN EL PANEL, Y QUE SE PASAN AL CODIGO G ****
-#<_diametro_bruto>= 125.8
-#<_diametro_torneado>= 125.8
+#<_diametro_bruto>= 123.5
+#<_diametro_torneado>= 123.5
 #<_diametro_interno>= 100
 
-#<_largo_bruto>= 238
-#<_largo_op10>= 238
-#<_largo_torneado>= 238
+#<_largo_bruto>= 243
+#<_largo_op10>= 243
+#<_largo_torneado>= 243
 
 
 
@@ -35,8 +35,8 @@
 #<_d_referencia_altura_ps>= 70.83
 
 ;VALORES CALCULADOS Y ESCRITOS POR EL PYTHON EN BASE A LOS DATOS CARGADOS POR PANEL 
-#<_d_bruto_altura_ps>= 56.4372217601
-#<_d_torneado_altura_ps>= 56.4372217601
+#<_d_bruto_altura_ps>= 54.8913699957
+#<_d_torneado_altura_ps>= 54.8913699957
 
 ;CORRECCIONES DE DIAMETRO
 #<_d_bruto_correccion_altura_ps>= [#<_d_bruto_altura_ps>-#<_d_referencia_altura_ps>] ;correccion para cuando incide el d bruto
@@ -50,8 +50,8 @@
 #<_d_referencia_altura_cd>= 90.58
 
 ;VALORES CALCULADOS Y ESCRITOS POR EL PYTHON EN BASE A LOS DATOS CARGADOS POR PANEL
-#<_d_bruto_altura_cd>= 76.7867216331
-#<_d_torneado_altura_cd>= 76.7867216331
+#<_d_bruto_altura_cd>= 75.382830856
+#<_d_torneado_altura_cd>= 75.382830856
 
 ;CORRECCIONES DE DIAMETRO
 #<_d_bruto_correccion_altura_cd>= [#<_d_bruto_altura_cd>-#<_d_referencia_altura_cd>] ;correccion para cuando incide el d bruto
@@ -614,6 +614,14 @@ o800 SUB
     ;    M02
     ;o125 ENDIF
     ;no se pone porque la rutina Okuma Entrar se ejecuta al principio
+
+    ;VERIFICAR RUTINA DE PYTHON EN 1
+    M66 P63 L3 Q0.1
+    o127 IF [#5399 EQ -1]
+        (debug, INIT PYTHON - Rutina master no esta corriendo)
+        ;(log, )
+        M02
+    o127 ENDIF
 
 o800 ENDSUB
 

@@ -266,7 +266,7 @@ net CTRL_ch_ce => motion.digital-in-29 => qtdragon.CTRL_ch_ce
 net CTRL_ch_od => motion.digital-in-35 => qtdragon.LED_ch_od => qtdragon.CTRL_ch_od
 net CTRL_ch_of => motion.digital-out-53 => qtdragon.CTRL_ch_of #operation finished
 
-net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master
+net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master => motion.digital-in-62
 
 net CTRL_end_cycle => motion.digital-in-49 => qtdragon.CTRL_end_cycle => qtdragon.LED_end_cycle
 

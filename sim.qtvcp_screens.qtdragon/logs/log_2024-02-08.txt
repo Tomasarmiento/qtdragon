@@ -1,0 +1,495 @@
+--- Qtvcp Screen Started on: jue, feb 08 2024 02:41:10 ---
+jue08 02:41 Machine OFF
+
+jue08 02:41 Machine ON
+jue08 02:41 Machine OFF
+
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 02:43:14 ---
+jue08 02:43 Machine OFF
+
+jue08 02:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue08 02:43 Machine ON
+
+jue08 02:43 Machine OFF
+
+jue08 03:54 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 03:54 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+jue08 03:54 Machine ON
+
+jue08 03:55 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+jue08 03:55 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+jue08 03:56 Cannot switch pages while in AUTO mode
+
+jue08 03:56 Cannot switch pages while in AUTO mode
+
+jue08 03:56 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+
+jue08 03:59 Machine ON
+
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+jue08 04:00 Started program from line 1
+
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+
+jue08 04:00 Started program from line 1
+
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+
+jue08 04:01 Started program from line 1
+
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+
+jue08 04:03  sensor de gripper down ya accionado
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+jue08 04:08  gripper down cota x medida 267.409790
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+jue08 04:08  gripper down cota x medida 267.409790
+jue08 04:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.590210 
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+jue08 04:08  gripper down cota x medida 267.409790
+jue08 04:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.590210 
+jue08 04:09 Cannot switch pages while in AUTO mode
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+jue08 04:08  gripper down cota x medida 267.409790
+jue08 04:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.590210 
+jue08 04:09 Cannot switch pages while in AUTO mode
+jue08 04:09 Cannot switch pages while in AUTO mode
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 03:59:24 ---
+jue08 03:59 Machine OFF
+jue08 03:59 Machine ON
+jue08 04:00 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+jue08 04:00 Started program from line 1
+jue08 04:00  INIT - ERROR: gripper arriba no abierto
+jue08 04:00 Started program from line 1
+jue08 04:01  INIT TORNO - Okuma no tiene system link prendido
+jue08 04:01 Started program from line 1
+jue08 04:01  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+jue08 04:01 Signal Error - OKUMA ENTER - Step 3.2 - Checking home position okuma
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO
+jue08 04:02 Started program from line 1
+jue08 04:02  INIT TORNO - Okuma plato no esta abierto
+jue08 04:03 Started program from line 1
+jue08 04:03  sensor de gripper down ya accionado
+jue08 04:03  ERROR EN RUTINA CARGA GRIPPER DOWN
+jue08 04:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue08 04:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue08 04:08 Started program from line 1
+jue08 04:08  gripper down cota x medida 267.409790
+jue08 04:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.590210 
+jue08 04:09 Cannot switch pages while in AUTO mode
+jue08 04:09 Cannot switch pages while in AUTO mode
+jue08 04:09 Cannot switch pages while in AUTO mode
+
+jue08 04:10 Cannot switch pages while in AUTO mode
+
+jue08 04:10 Started program from line 1
+
+jue08 04:11  gripper down cota x medida 268.123108
+
+jue08 04:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.123108 
+
+jue08 04:12  gripper down cota x medida 268.103302
+
+jue08 04:12  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.103302 
+
+jue08 04:12  gripper up cota x medida 233.985001
+
+jue08 04:12  PARKING UP TOMAR DIFERENCIA CON X REF = 0.014999 
+
+jue08 04:12  ERROR: Cierre con pieza UP
+jue08 04:12  ERROR EN RUTINA PARKING UP TOMAR
+
+jue08 04:15 Eje z no esta en posicion
+
+jue08 04:15 Eje z no esta en posicion
+
+jue08 04:28 Started program from line 1
+
+jue08 04:28  gripper down cota x medida 268.103333
+
+jue08 04:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.103333 
+
+jue08 04:29  gripper down cota x medida 267.463623
+
+jue08 04:29  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.536377 
+
+jue08 04:30  gripper up cota x medida 233.505524
+
+jue08 04:30  PARKING UP TOMAR DIFERENCIA CON X REF = 0.494476 
+
+jue08 04:31  TORNO INTERCAMBIO TOMA GRD - Tiempo de espera maximo para ingresar exedido
+
+jue08 04:36 Cannot switch pages while in AUTO mode
+
+jue08 04:37 Cannot switch pages while in AUTO mode
+
+jue08 04:37 Started program from line 1
+
+jue08 04:37  gripper down cota x medida 268.123291
+
+jue08 04:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.123291 
+
+jue08 04:38  gripper down cota x medida 267.403503
+
+jue08 04:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.596497 
+
+jue08 04:39  gripper up cota x medida 233.304153
+
+jue08 04:39  PARKING UP TOMAR DIFERENCIA CON X REF = 0.695847 
+
+jue08 04:39  TORNO INTERCAMBIO TOMA GRD - Tiempo de espera maximo para ingresar exedido
+
+jue08 04:40 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: jue, feb 08 2024 04:50:44 ---
+jue08 04:50 Machine OFF
+
+jue08 04:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+

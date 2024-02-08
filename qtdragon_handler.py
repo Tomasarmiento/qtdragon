@@ -1989,7 +1989,7 @@ class HandlerClass:
             (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
             #(flag de que se puede patear == True, 'flag de pateo no activo'),
             (self.err_routine == True, 'Error en rutina previo'),
-      		#(anular == False, 'anulada activa'),
+      		(anular == False, 'anulada activa'),
             (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
 		]
 
