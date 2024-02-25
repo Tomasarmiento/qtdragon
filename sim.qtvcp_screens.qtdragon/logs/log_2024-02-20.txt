@@ -1,0 +1,1693 @@
+--- Qtvcp Screen Started on: mar, feb 20 2024 02:43:19 ---
+mar20 02:43 Machine OFF
+
+mar20 02:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 02:43 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 02:43 Machine ON
+mar20 02:44 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+mar20 02:44 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+
+mar20 02:44 Started program from line 1
+mar20 02:44 Falta homing. No se puede ejecutar el programa
+
+mar20 02:44 Machine OFF
+mar20 02:44 Machine ON
+
+mar20 02:44 Started program from line 1
+
+mar20 02:44 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Started program from line 1
+mar20 02:44 rutina carga
+
+mar20 02:44 Cannot switch pages while in AUTO mode
+
+mar20 02:47 Machine OFF
+
+mar20 02:48 Machine ON
+
+mar20 02:48 Machine OFF
+
+mar20 02:48 Machine ON
+mar20 02:48 Machine OFF
+mar20 02:48 Machine ON
+
+mar20 02:48 Machine OFF
+mar20 02:48 Machine ON
+mar20 02:48 Machine OFF
+
+mar20 02:48 Machine ON
+mar20 02:48 Machine OFF
+
+mar20 02:48 Machine ON
+mar20 02:48 Machine OFF
+mar20 02:48 Machine ON
+
+mar20 02:48 Machine OFF
+
+mar20 02:48 Machine ON
+
+mar20 02:48 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 02:51:28 ---
+mar20 02:51 Machine OFF
+
+mar20 02:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 02:51 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 02:51 Machine ON
+
+mar20 02:51 Machine OFF
+mar20 02:51 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:00:04 ---
+mar20 03:00 Machine OFF
+mar20 03:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 03:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:00 Machine ON
+mar20 03:00 Machine OFF
+
+mar20 03:00 Machine ON
+mar20 03:00 Machine OFF
+mar20 03:00 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:02:53 ---
+mar20 03:02 Machine OFF
+
+mar20 03:02 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:02 Cannot switch pages while in AUTO mode
+
+mar20 03:02 Cannot switch pages while in AUTO mode
+
+mar20 03:03 Machine ON
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:06:11 ---
+mar20 03:06 Machine OFF
+
+mar20 03:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 03:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:06 Machine ON
+mar20 03:06 Machine OFF
+mar20 03:06 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:07:50 ---
+mar20 03:07 Machine OFF
+mar20 03:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 03:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:08:21 ---
+mar20 03:08 Machine OFF
+
+mar20 03:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 03:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:08 Cannot switch pages while in AUTO mode
+
+mar20 03:08 Cannot switch pages while in AUTO mode
+
+mar20 03:08 Machine ON
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:10:32 ---
+mar20 03:10 Machine OFF
+
+mar20 03:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:13:18 ---
+mar20 03:13 Machine OFF
+
+mar20 03:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 03:13 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:13 Machine ON
+
+mar20 03:13 Machine OFF
+
+mar20 03:13 Machine ON
+mar20 03:13 Machine OFF
+
+mar20 03:13 Machine ON
+mar20 03:13 Machine OFF
+
+mar20 03:13 Machine ON
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:13:57 ---
+mar20 03:14 Machine OFF
+
+mar20 03:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 03:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:16:38 ---
+mar20 03:16 Machine OFF
+
+mar20 03:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:16 Machine ON
+mar20 03:16 Machine OFF
+
+mar20 03:16 Machine ON
+mar20 03:16 Machine OFF
+
+mar20 03:17 Machine ON
+
+mar20 03:17 Machine OFF
+
+mar20 03:17 Machine ON
+
+mar20 03:17 Machine OFF
+
+mar20 03:17 Machine ON
+mar20 03:17 Machine OFF
+
+mar20 03:17 Machine ON
+mar20 03:17 Machine OFF
+
+mar20 03:17 Machine ON
+
+mar20 03:17 Started program from line 1
+mar20 03:17 rutina main
+
+mar20 03:17 Cannot switch pages while in AUTO mode
+
+mar20 03:18 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+mar20 03:18 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+
+mar20 03:18 Started program from line 1
+
+mar20 03:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:18 Started program from line 1
+mar20 03:18 rutina carga
+
+mar20 03:18 Started program from line 1
+
+mar20 03:18 rutina carga
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 03:19:20 ---
+mar20 03:19 Machine OFF
+
+mar20 03:19 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 03:19 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 03:19 Machine ON
+mar20 03:19 Machine OFF
+mar20 03:19 Machine ON
+
+mar20 03:19 Machine OFF
+
+mar20 03:19 Machine ON
+
+mar20 03:19 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:11:39 ---
+mar20 04:11 Machine OFF
+
+mar20 04:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 04:11 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 04:11 Cannot switch pages while in AUTO mode
+
+mar20 04:11 Cannot switch pages while in AUTO mode
+
+mar20 04:11 Machine ON
+mar20 04:11 Cannot switch pages while in AUTO mode
+
+mar20 04:11 Cannot switch pages while in AUTO mode
+
+mar20 04:11 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:14:44 ---
+mar20 04:14 Machine OFF
+
+mar20 04:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 04:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 04:14 Machine ON
+mar20 04:15 Machine OFF
+
+mar20 04:15 Machine ON
+mar20 04:15 Machine OFF
+mar20 04:15 Machine ON
+
+mar20 04:15 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:27:24 ---
+mar20 04:27 Machine OFF
+
+mar20 04:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 04:27 Machine ON
+mar20 04:27 Machine OFF
+
+mar20 04:27 Machine ON
+
+mar20 04:27 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+
+mar20 04:27 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+
+mar20 04:27 Started program from line 1
+
+mar20 04:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 04:27 Started program from line 1
+
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+mar20 04:27 rutina carga
+
+mar20 04:27 Started program from line 1
+mar20 04:27 rutina carga
+
+mar20 04:27 Cannot switch pages while in AUTO mode
+
+mar20 04:27 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+mar20 04:27 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/carga_test.ngc
+
+mar20 04:27 Started program from line 1
+
+mar20 04:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 04:28 Started program from line 1
+mar20 04:28 rutina carga
+
+mar20 04:28 Started program from line 1
+
+mar20 04:28 rutina carga
+mar20 04:28 Started program from line 1
+
+mar20 04:28 rutina carga
+
+mar20 04:28 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+mar20 04:28 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+
+mar20 04:28 Started program from line 1
+
+mar20 04:28 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 04:28 Started program from line 1
+mar20 04:28 rutina main
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:29:58 ---
+mar20 04:30 Machine OFF
+
+mar20 04:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 04:30 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:32:17 ---
+mar20 04:32 Machine OFF
+
+mar20 04:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 04:32 Machine ON
+
+mar20 04:32 Machine OFF
+
+mar20 04:32 Machine ON
+
+mar20 04:32 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:33:34 ---
+mar20 04:33 Machine OFF
+
+mar20 04:33 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 04:33 Machine ON
+
+mar20 04:33 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+mar20 04:33 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 04:34:06 ---
+mar20 04:34 Machine OFF
+
+mar20 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 04:34 Machine ON
+
+mar20 04:34 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+mar20 04:34 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/main_test.ngc
+
+mar20 04:34 Started program from line 1
+
+mar20 04:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 04:34 Started program from line 1
+mar20 04:34 rutina main
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:09:59 ---
+mar20 05:10 Machine OFF
+
+mar20 05:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:10 Machine ON
+mar20 05:10 Machine OFF
+
+mar20 05:10 Machine ON
+
+mar20 05:10 Machine OFF
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:11:50 ---
+mar20 05:11 Machine OFF
+
+mar20 05:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:11 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/soplador_test.ngc
+mar20 05:11 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/soplador_test.ngc
+
+mar20 05:12 Machine ON
+mar20 05:12 Machine OFF
+mar20 05:12 Machine ON
+
+mar20 05:12 Started program from line 1
+
+mar20 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 05:12 Started program from line 1
+mar20 05:12 rutina soplador
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:12:24 ---
+mar20 05:12 Machine OFF
+
+mar20 05:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:12 Machine ON
+
+mar20 05:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/soplador_test.ngc
+mar20 05:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/soplador_test.ngc
+
+mar20 05:12 Started program from line 1
+
+mar20 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+mar20 05:12 Started program from line 1
+mar20 05:12 rutina soplador
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:13:43 ---
+mar20 05:13 Machine OFF
+mar20 05:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:13 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:14:04 ---
+mar20 05:14 Machine OFF
+
+mar20 05:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:14:33 ---
+mar20 05:14 Machine OFF
+
+mar20 05:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:30:00 ---
+mar20 05:30 Machine OFF
+mar20 05:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:31:19 ---
+mar20 05:31 Machine OFF
+mar20 05:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:32:38 ---
+mar20 05:32 Machine OFF
+mar20 05:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:32 Machine ON
+
+mar20 05:33 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 05:33 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 05:33 Started program from line 1
+
+mar20 05:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:35:12 ---
+mar20 05:35 Machine OFF
+mar20 05:35 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:35 Machine ON
+
+mar20 05:35 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 05:35 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 05:35 Started program from line 1
+
+mar20 05:35 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/main.ngc
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:36:25 ---
+mar20 05:36 Machine OFF
+mar20 05:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:36 Machine ON
+
+mar20 05:36 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 05:36 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 05:36 Started program from line 1
+
+mar20 05:36 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 05:36 Started program from line 1
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:51:03 ---
+mar20 05:51 Machine OFF
+mar20 05:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:55 Machine ON
+
+mar20 05:55 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 05:55 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 05:56 Started program from line 1
+
+mar20 05:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+mar20 05:56 Started program from line 1
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:59:43 ---
+mar20 05:59 Machine OFF
+mar20 05:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 05:59 Machine ON
+
+mar20 06:01 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:01 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:01 Started program from line 1
+
+mar20 06:01  PRINT VARIABLES
+
+mar20 06:02  <_parking_enter_x_over_bars> = 350.000000
+
+mar20 06:02  <_parking_enter_z> = 1370.300000
+mar20 06:02  <_parking_aproximates_x> = 320.000000
+mar20 06:02  <_parking_enter_x_free> = 520.000000
+
+mar20 06:02  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:02  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:02  <_parking_gripper_down_z_calculated> = 1324.700000
+
+mar20 06:02  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:02  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:02  <_parking_gripper_up_z_calculated> = 1073.900000
+
+mar20 06:02  <_blower_enter_x> = 2300.000000
+mar20 06:02  <_blower_aproximates_x> = 2100.000000
+mar20 06:02  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+
+mar20 06:02  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:02  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:02  <_load_enter_x> = 450.000000
+
+mar20 06:02  <_load_aproximates_x> = 350.000000
+mar20 06:02  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:02  <_load_gripper_down_z_calculated> = 385.470000
+
+mar20 06:02  <_unload_enter_x> = 530.000000
+mar20 06:02  <_unload_aproximates_x> = 320.000000
+mar20 06:02  <_unload_enter_intermediate_x> = 350.000000
+
+mar20 06:02  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:02  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:02  <_unload_gripper_down_z_calculated> = 528.000000
+
+mar20 06:02  <_tumbler_enter_x> = 1160.000000
+mar20 06:02  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:02  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+
+mar20 06:02  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:02  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:02  <_tumbler_aproximates_up_x> = 1050.000000
+
+mar20 06:02  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:02  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:02  <_lathe_enter1_x> = 3110.000000
+
+mar20 06:02  <_lathe_enter1_y> = 233.200000
+mar20 06:02  <_lathe_enter1_z> = 300.200000
+mar20 06:02  <_lathe_enter2_y> = 150.200000
+
+mar20 06:02  <_lathe_enter2_z> = 490.200000
+mar20 06:02  <_lathe_enter3_z> = 59.600000
+mar20 06:02  <_lathe_gripper_down_aproximates_x> = 3000.300000
+
+mar20 06:02  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:02  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:02  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:02 Cannot switch pages while in AUTO mode
+
+mar20 06:02 Cannot switch pages while in AUTO mode
+
+mar20 06:02 Cannot switch pages while in AUTO mode
+
+mar20 06:02 Cannot switch pages while in AUTO mode
+
+mar20 06:03 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:03 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:03 Started program from line 1
+
+mar20 06:03 Started program from line 1
+
+mar20 06:03 Started program from line 1
+
+mar20 06:03 Started program from line 1
+
+mar20 06:04 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 06:04 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 06:04 Started program from line 1
+
+mar20 06:04  DEBUG
+
+mar20 06:04  30 seconds to end
+
+mar20 06:04 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:04 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:04 Started program from line 1
+
+mar20 06:04  PRINT VARIABLES
+mar20 06:04  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:04  <_parking_enter_z> = 1370.300000
+
+mar20 06:04  <_parking_aproximates_x> = 320.000000
+mar20 06:04  <_parking_enter_x_free> = 520.000000
+mar20 06:04  <_parking_gripper_down_unload_x_calculated> = 284.000000
+
+mar20 06:04  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:04  <_parking_gripper_up_unload_x_calculated> = 284.000000
+
+mar20 06:04  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:04  <_blower_enter_x> = 2300.000000
+
+mar20 06:04  <_blower_aproximates_x> = 2100.000000
+mar20 06:04  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:04  <_blower_gripper_down_load_x_calculated> = 2076.400000
+
+mar20 06:04  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:04  <_load_enter_x> = 450.000000
+mar20 06:04  <_load_aproximates_x> = 350.000000
+mar20 06:04  <_load_gripper_down_x_calculated> = 310.000000
+
+mar20 06:04  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:04  <_unload_enter_x> = 530.000000
+mar20 06:04  <_unload_aproximates_x> = 320.000000
+
+mar20 06:04  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:04  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:04  <_unload_gripper_down_x_calculated> = 300.400000
+
+mar20 06:04  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:04  <_tumbler_enter_x> = 1160.000000
+mar20 06:04  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+
+mar20 06:04  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:04  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:04  <_tumbler_aproximates_down_x> = 1050.000000
+
+mar20 06:04  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:04  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:04  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+
+mar20 06:04  <_lathe_enter1_x> = 3110.000000
+mar20 06:04  <_lathe_enter1_y> = 233.200000
+mar20 06:04  <_lathe_enter1_z> = 300.200000
+
+mar20 06:04  <_lathe_enter2_y> = 150.200000
+mar20 06:04  <_lathe_enter2_z> = 490.200000
+mar20 06:04  <_lathe_enter3_z> = 59.600000
+
+mar20 06:04  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:04  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:04  <_lathe_gripper_down_x_calculated> = 2914.300000
+
+mar20 06:04  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:04 Started program from line 1
+mar20 06:04  PRINT VARIABLES
+
+mar20 06:04  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:04  <_parking_enter_z> = 1370.300000
+mar20 06:04  <_parking_aproximates_x> = 320.000000
+
+mar20 06:04  <_parking_enter_x_free> = 520.000000
+mar20 06:04  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_down_load_x_calculated> = 281.000000
+
+mar20 06:04  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:04  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_up_load_x_calculated> = 281.000000
+
+mar20 06:04  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:04  <_blower_enter_x> = 2300.000000
+mar20 06:04  <_blower_aproximates_x> = 2100.000000
+mar20 06:04  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+
+mar20 06:05  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:05  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:05  <_load_enter_x> = 450.000000
+
+mar20 06:05  <_load_aproximates_x> = 350.000000
+mar20 06:05  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:05  <_load_gripper_down_z_calculated> = 385.470000
+
+mar20 06:05  <_unload_enter_x> = 530.000000
+mar20 06:05  <_unload_aproximates_x> = 320.000000
+mar20 06:05  <_unload_enter_intermediate_x> = 350.000000
+
+mar20 06:05  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:05  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:05  <_unload_gripper_down_z_calculated> = 528.000000
+
+mar20 06:05  <_tumbler_enter_x> = 1160.000000
+mar20 06:05  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:05  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+
+mar20 06:05  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:05  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:05  <_tumbler_aproximates_up_x> = 1050.000000
+
+mar20 06:05  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:05  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:05  <_lathe_enter1_x> = 3110.000000
+
+mar20 06:05  <_lathe_enter1_y> = 233.200000
+mar20 06:05  <_lathe_enter1_z> = 300.200000
+mar20 06:05  <_lathe_enter2_y> = 150.200000
+
+mar20 06:05  <_lathe_enter2_z> = 490.200000
+mar20 06:05  <_lathe_enter3_z> = 59.600000
+mar20 06:05  <_lathe_gripper_down_aproximates_x> = 3000.300000
+
+mar20 06:05  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:05  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:05  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:05 Started program from line 1
+mar20 06:05  PRINT VARIABLES
+
+mar20 06:05  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:05  <_parking_enter_z> = 1370.300000
+mar20 06:05  <_parking_aproximates_x> = 320.000000
+
+mar20 06:05  <_parking_enter_x_free> = 520.000000
+mar20 06:05  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:05  <_parking_gripper_down_load_x_calculated> = 281.000000
+
+mar20 06:05  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:05  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:05  <_parking_gripper_up_load_x_calculated> = 281.000000
+
+mar20 06:05  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:05  <_blower_enter_x> = 2300.000000
+mar20 06:05  <_blower_aproximates_x> = 2100.000000
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 05:59:43 ---
+mar20 05:59 Machine OFF
+mar20 05:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+mar20 05:59 Machine ON
+mar20 06:01 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:01 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:01 Started program from line 1
+mar20 06:01  PRINT VARIABLES
+mar20 06:02  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:02  <_parking_enter_z> = 1370.300000
+mar20 06:02  <_parking_aproximates_x> = 320.000000
+mar20 06:02  <_parking_enter_x_free> = 520.000000
+mar20 06:02  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:02  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:02  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:02  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:02  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:02  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:02  <_blower_enter_x> = 2300.000000
+mar20 06:02  <_blower_aproximates_x> = 2100.000000
+mar20 06:02  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:02  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:02  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:02  <_load_enter_x> = 450.000000
+mar20 06:02  <_load_aproximates_x> = 350.000000
+mar20 06:02  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:02  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:02  <_unload_enter_x> = 530.000000
+mar20 06:02  <_unload_aproximates_x> = 320.000000
+mar20 06:02  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:02  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:02  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:02  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:02  <_tumbler_enter_x> = 1160.000000
+mar20 06:02  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:02  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:02  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:02  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:02  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:02  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:02  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:02  <_lathe_enter1_x> = 3110.000000
+mar20 06:02  <_lathe_enter1_y> = 233.200000
+mar20 06:02  <_lathe_enter1_z> = 300.200000
+mar20 06:02  <_lathe_enter2_y> = 150.200000
+mar20 06:02  <_lathe_enter2_z> = 490.200000
+mar20 06:02  <_lathe_enter3_z> = 59.600000
+mar20 06:02  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:02  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:02  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:02  <_lathe_gripper_up_x_calculated> = 2916.600000
+mar20 06:02 Cannot switch pages while in AUTO mode
+mar20 06:02 Cannot switch pages while in AUTO mode
+mar20 06:02 Cannot switch pages while in AUTO mode
+mar20 06:02 Cannot switch pages while in AUTO mode
+mar20 06:03 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:03 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:03 Started program from line 1
+mar20 06:03 Started program from line 1
+mar20 06:03 Started program from line 1
+mar20 06:03 Started program from line 1
+mar20 06:04 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 06:04 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 06:04 Started program from line 1
+mar20 06:04  DEBUG
+mar20 06:04  30 seconds to end
+mar20 06:04 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:04 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:04 Started program from line 1
+mar20 06:04  PRINT VARIABLES
+mar20 06:04  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:04  <_parking_enter_z> = 1370.300000
+mar20 06:04  <_parking_aproximates_x> = 320.000000
+mar20 06:04  <_parking_enter_x_free> = 520.000000
+mar20 06:04  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:04  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:04  <_blower_enter_x> = 2300.000000
+mar20 06:04  <_blower_aproximates_x> = 2100.000000
+mar20 06:04  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:04  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:04  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:04  <_load_enter_x> = 450.000000
+mar20 06:04  <_load_aproximates_x> = 350.000000
+mar20 06:04  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:04  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:04  <_unload_enter_x> = 530.000000
+mar20 06:04  <_unload_aproximates_x> = 320.000000
+mar20 06:04  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:04  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:04  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:04  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:04  <_tumbler_enter_x> = 1160.000000
+mar20 06:04  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:04  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:04  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:04  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:04  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:04  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:04  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:04  <_lathe_enter1_x> = 3110.000000
+mar20 06:04  <_lathe_enter1_y> = 233.200000
+mar20 06:04  <_lathe_enter1_z> = 300.200000
+mar20 06:04  <_lathe_enter2_y> = 150.200000
+mar20 06:04  <_lathe_enter2_z> = 490.200000
+mar20 06:04  <_lathe_enter3_z> = 59.600000
+mar20 06:04  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:04  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:04  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:04  <_lathe_gripper_up_x_calculated> = 2916.600000
+mar20 06:04 Started program from line 1
+mar20 06:04  PRINT VARIABLES
+mar20 06:04  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:04  <_parking_enter_z> = 1370.300000
+mar20 06:04  <_parking_aproximates_x> = 320.000000
+mar20 06:04  <_parking_enter_x_free> = 520.000000
+mar20 06:04  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:04  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:04  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:04  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:04  <_blower_enter_x> = 2300.000000
+mar20 06:04  <_blower_aproximates_x> = 2100.000000
+mar20 06:04  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:05  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:05  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:05  <_load_enter_x> = 450.000000
+mar20 06:05  <_load_aproximates_x> = 350.000000
+mar20 06:05  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:05  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:05  <_unload_enter_x> = 530.000000
+mar20 06:05  <_unload_aproximates_x> = 320.000000
+mar20 06:05  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:05  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:05  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:05  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:05  <_tumbler_enter_x> = 1160.000000
+mar20 06:05  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:05  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:05  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:05  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:05  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:05  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:05  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:05  <_lathe_enter1_x> = 3110.000000
+mar20 06:05  <_lathe_enter1_y> = 233.200000
+mar20 06:05  <_lathe_enter1_z> = 300.200000
+mar20 06:05  <_lathe_enter2_y> = 150.200000
+mar20 06:05  <_lathe_enter2_z> = 490.200000
+mar20 06:05  <_lathe_enter3_z> = 59.600000
+mar20 06:05  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:05  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:05  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:05  <_lathe_gripper_up_x_calculated> = 2916.600000
+mar20 06:05 Started program from line 1
+mar20 06:05  PRINT VARIABLES
+mar20 06:05  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:05  <_parking_enter_z> = 1370.300000
+mar20 06:05  <_parking_aproximates_x> = 320.000000
+mar20 06:05  <_parking_enter_x_free> = 520.000000
+mar20 06:05  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 06:05  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:05  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:05  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 06:05  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:05  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:05  <_blower_enter_x> = 2300.000000
+mar20 06:05  <_blower_aproximates_x> = 2100.000000
+mar20 06:05  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:05  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 06:05  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:05  <_load_enter_x> = 450.000000
+mar20 06:05  <_load_aproximates_x> = 350.000000
+mar20 06:05  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:05  <_load_gripper_down_z_calculated> = 385.470000
+
+mar20 06:05  <_unload_enter_x> = 530.000000
+mar20 06:05  <_unload_aproximates_x> = 320.000000
+mar20 06:05  <_unload_enter_intermediate_x> = 350.000000
+
+mar20 06:05  <_unload_enter_intermediate_Z> = 652.000000
+mar20 06:05  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:05  <_unload_gripper_down_z_calculated> = 528.000000
+
+mar20 06:05  <_tumbler_enter_x> = 1160.000000
+mar20 06:05  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:05  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+
+mar20 06:05  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 06:05  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:05  <_tumbler_aproximates_up_x> = 1050.000000
+
+mar20 06:05  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 06:05  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:05  <_lathe_enter1_x> = 3110.000000
+
+mar20 06:05  <_lathe_enter1_y> = 233.200000
+mar20 06:05  <_lathe_enter1_z> = 300.200000
+mar20 06:05  <_lathe_enter2_y> = 150.200000
+
+mar20 06:05  <_lathe_enter2_z> = 490.200000
+mar20 06:05  <_lathe_enter3_z> = 59.600000
+mar20 06:05  <_lathe_gripper_down_aproximates_x> = 3000.300000
+
+mar20 06:05  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:05  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:05  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:05 Loaded program file : /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 06:05 Loaded file /../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 06:06 Started program from line 1
+
+mar20 06:06  DEBUG
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 06:06:51 ---
+mar20 06:06 Machine OFF
+
+mar20 06:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 06:06 Machine ON
+
+mar20 06:07 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:07 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07  PRINT VARIABLES
+mar20 06:07  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:07  <_parking_enter_z> = 1370.300000
+
+mar20 06:07  <_parking_aproximates_x> = 320.000000
+mar20 06:07  <_parking_enter_x_free> = 520.000000
+mar20 06:07  <_parking_gripper_down_unload_x_calculated> = 284.000000
+
+mar20 06:07  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:07  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:07  <_parking_gripper_up_unload_x_calculated> = 284.000000
+
+mar20 06:07  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:07  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:07  <_blower_enter_x> = 2300.000000
+
+mar20 06:07  <_blower_aproximates_x> = 2100.000000
+mar20 06:07  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:07  <_blower_gripper_down_load_x_calculated> = 2076.400000
+
+mar20 06:07  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:07  <_load_enter_x> = 450.000000
+mar20 06:07  <_load_aproximates_x> = 350.000000
+
+mar20 06:07  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:07  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:07  <_unload_enter_x> = 530.000000
+
+mar20 06:07  <_unload_aproximates_x> = 320.000000
+mar20 06:07  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:07  <_unload_enter_intermediate_Z> = 652.000000
+
+mar20 06:07  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:07  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:07  <_tumbler_enter_x> = 1160.000000
+
+mar20 06:07  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:07  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:07  <_tumbler_gripper_down_extracts> = 1022.000000
+
+mar20 06:07  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:07  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:07  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+
+mar20 06:07  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:07  <_lathe_enter1_x> = 3110.000000
+mar20 06:07  <_lathe_enter1_y> = 233.200000
+
+mar20 06:07  <_lathe_enter1_z> = 300.200000
+mar20 06:07  <_lathe_enter2_y> = 150.200000
+mar20 06:07  <_lathe_enter2_z> = 490.200000
+
+mar20 06:07  <_lathe_enter3_z> = 59.600000
+mar20 06:07  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:07  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 06:07  <_lathe_gripper_down_x_calculated> = 2914.300000
+
+mar20 06:07  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:07 Started program from line 1
+mar20 06:07  PRINT VARIABLES
+mar20 06:07  <_parking_enter_x_over_bars> = 350.000000
+mar20 06:07  <_parking_enter_z> = 1370.300000
+
+mar20 06:07  <_parking_aproximates_x> = 320.000000
+mar20 06:07  <_parking_enter_x_free> = 520.000000
+mar20 06:07  <_parking_gripper_down_unload_x_calculated> = 284.000000
+
+mar20 06:07  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 06:07  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 06:07  <_parking_gripper_up_unload_x_calculated> = 284.000000
+
+mar20 06:07  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 06:07  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 06:07  <_blower_enter_x> = 2300.000000
+
+mar20 06:07  <_blower_aproximates_x> = 2100.000000
+mar20 06:07  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 06:07  <_blower_gripper_down_load_x_calculated> = 2076.400000
+
+mar20 06:07  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 06:07  <_load_enter_x> = 450.000000
+mar20 06:07  <_load_aproximates_x> = 350.000000
+
+mar20 06:07  <_load_gripper_down_x_calculated> = 310.000000
+mar20 06:07  <_load_gripper_down_z_calculated> = 385.470000
+mar20 06:07  <_unload_enter_x> = 530.000000
+
+mar20 06:07  <_unload_aproximates_x> = 320.000000
+mar20 06:07  <_unload_enter_intermediate_x> = 350.000000
+mar20 06:07  <_unload_enter_intermediate_Z> = 652.000000
+
+mar20 06:07  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 06:07  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 06:07  <_tumbler_enter_x> = 1160.000000
+
+mar20 06:07  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 06:07  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 06:07  <_tumbler_gripper_down_extracts> = 1022.000000
+
+mar20 06:07  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 06:07  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 06:07  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+
+mar20 06:07  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 06:07  <_lathe_enter1_x> = 3110.000000
+mar20 06:07  <_lathe_enter1_y> = 233.200000
+
+mar20 06:07  <_lathe_enter1_z> = 300.200000
+mar20 06:07  <_lathe_enter2_y> = 150.200000
+mar20 06:07  <_lathe_enter2_z> = 490.200000
+
+mar20 06:07  <_lathe_enter3_z> = 59.600000
+mar20 06:07  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 06:07  <_lathe_gripper_up_aproximates_x> = 2999.600000
+
+mar20 06:07  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 06:07  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+mar20 06:07 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:07 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Started program from line 1
+
+mar20 06:07 Started program from line 1
+
+mar20 06:08 Started program from line 1
+
+mar20 06:08 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 06:08 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 06:08 Cannot switch pages while in AUTO mode
+
+mar20 06:09 Machine OFF
+mar20 06:09 movimiento detenido por entrada habilitada
+
+mar20 07:03 Machine ON
+
+mar20 07:03 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:03 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:03 Started program from line 1
+
+mar20 07:03 Started program from line 1
+
+mar20 07:04 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:04 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:04 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:04 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:04 Started program from line 1
+
+mar20 07:04 Started program from line 1
+
+mar20 07:04 Started program from line 1
+
+mar20 07:04 Started program from line 1
+
+mar20 07:04 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:04 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:05 Started program from line 1
+
+mar20 07:05 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:05 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:05 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:05 Started program from line 1
+
+mar20 07:06 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:06 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:06 Started program from line 1
+
+mar20 07:07 Cannot switch pages while in AUTO mode
+
+mar20 07:07 Started program from line 1
+
+mar20 07:07 Started program from line 1
+
+mar20 07:08 Started program from line 1
+
+mar20 07:08 Started program from line 1
+
+mar20 07:08 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:08 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:08 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:08 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:08 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:08 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:08 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:08 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:08 Started program from line 1
+
+mar20 07:08 Started program from line 1
+
+mar20 07:09 Started program from line 1
+
+mar20 07:09 Started program from line 1
+
+mar20 07:09 Started program from line 1
+
+mar20 07:09 Started program from line 1
+mar20 07:09 Started program from line 1
+
+mar20 07:09 Started program from line 1
+
+mar20 07:10 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:10 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:10 Started program from line 1
+
+mar20 07:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:10 Cannot switch pages while in AUTO mode
+
+mar20 07:10 Cannot switch pages while in AUTO mode
+
+mar20 07:10 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:10 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:10 Started program from line 1
+
+mar20 07:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:11 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:11 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:11 Cannot switch pages while in AUTO mode
+
+mar20 07:11 Cannot switch pages while in AUTO mode
+
+mar20 07:11 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/descarga_test.ngc
+mar20 07:11 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/descarga_test.ngc
+
+mar20 07:11 Started program from line 1
+
+mar20 07:11 Cannot switch pages while in AUTO mode
+
+mar20 07:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:12 Cannot switch pages while in AUTO mode
+
+mar20 07:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:12 Started program from line 1
+
+mar20 07:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:12 Started program from line 1
+
+mar20 07:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+mar20 07:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:13 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:13 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:13 Started program from line 1
+
+mar20 07:13 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:13 Started program from line 1
+mar20 07:13  DEBUG
+
+mar20 07:13 Started program from line 1
+mar20 07:13  DEBUG
+
+mar20 07:13 Cannot switch pages while in AUTO mode
+
+mar20 07:13 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:13 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:13 Started program from line 1
+
+mar20 07:13 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 07:13 Started program from line 1
+mar20 07:14  PRINT VARIABLES
+mar20 07:14  <_parking_enter_x_over_bars> = 350.000000
+
+mar20 07:14  <_parking_enter_z> = 1370.300000
+mar20 07:14  <_parking_aproximates_x> = 320.000000
+mar20 07:14  <_parking_enter_x_free> = 520.000000
+
+mar20 07:14  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 07:14  <_parking_gripper_down_load_x_calculated> = 281.000000
+mar20 07:14  <_parking_gripper_down_z_calculated> = 1324.700000
+
+mar20 07:14  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 07:14  <_parking_gripper_up_load_x_calculated> = 281.000000
+mar20 07:14  <_parking_gripper_up_z_calculated> = 1073.900000
+
+mar20 07:14  <_blower_enter_x> = 2300.000000
+mar20 07:14  <_blower_aproximates_x> = 2100.000000
+mar20 07:14  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+
+mar20 07:14  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 07:14  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+mar20 07:14  <_load_enter_x> = 450.000000
+
+mar20 07:14  <_load_aproximates_x> = 350.000000
+mar20 07:14  <_load_gripper_down_x_calculated> = 310.000000
+mar20 07:14  <_load_gripper_down_z_calculated> = 385.470000
+
+mar20 07:14  <_unload_enter_x> = 530.000000
+mar20 07:14  <_unload_aproximates_x> = 320.000000
+mar20 07:14  <_unload_enter_intermediate_x> = 350.000000
+
+mar20 07:14  <_unload_enter_intermediate_Z> = 652.000000
+mar20 07:14  <_unload_gripper_down_x_calculated> = 300.400000
+mar20 07:14  <_unload_gripper_down_z_calculated> = 528.000000
+
+mar20 07:14  <_tumbler_enter_x> = 1160.000000
+mar20 07:14  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+mar20 07:14  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+
+mar20 07:14  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 07:14  <_tumbler_aproximates_down_x> = 1050.000000
+mar20 07:14  <_tumbler_aproximates_up_x> = 1050.000000
+
+mar20 07:14  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 07:14  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+mar20 07:14  <_lathe_enter1_x> = 3110.000000
+
+mar20 07:14  <_lathe_enter1_y> = 233.200000
+mar20 07:14  <_lathe_enter1_z> = 300.200000
+mar20 07:14  <_lathe_enter2_y> = 150.200000
+
+mar20 07:14  <_lathe_enter2_z> = 490.200000
+mar20 07:14  <_lathe_enter3_z> = 59.600000
+mar20 07:14  <_lathe_gripper_down_aproximates_x> = 3000.300000
+
+mar20 07:14  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 07:14  <_lathe_gripper_down_x_calculated> = 2914.300000
+mar20 07:14  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 07:14:40 ---
+mar20 07:14 Machine OFF
+
+mar20 07:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 07:14 Machine ON
+
+mar20 07:14 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:14 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+mar20 07:14 Started program from line 1
+
+mar20 07:14  DEBUG
+
+mar20 07:15 Cannot switch pages while in AUTO mode
+
+mar20 07:15 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 07:15 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 07:15 Started program from line 1
+
+mar20 07:15  PRINT VARIABLES
+
+mar20 07:15  <_parking_enter_x_over_bars> = 350.000000
+mar20 07:15  <_parking_enter_z> = 1370.300000
+mar20 07:15  <_parking_aproximates_x> = 320.000000
+
+mar20 07:15  <_parking_enter_x_free> = 520.000000
+mar20 07:15  <_parking_gripper_down_unload_x_calculated> = 284.000000
+mar20 07:15  <_parking_gripper_down_load_x_calculated> = 281.000000
+
+mar20 07:15  <_parking_gripper_down_z_calculated> = 1324.700000
+mar20 07:15  <_parking_gripper_up_unload_x_calculated> = 284.000000
+mar20 07:15  <_parking_gripper_up_load_x_calculated> = 281.000000
+
+mar20 07:15  <_parking_gripper_up_z_calculated> = 1073.900000
+mar20 07:15  <_blower_enter_x> = 2300.000000
+mar20 07:15  <_blower_aproximates_x> = 2100.000000
+
+mar20 07:15  <_blower_gripper_down_unload_x_calculated> = 2079.400000
+mar20 07:15  <_blower_gripper_down_load_x_calculated> = 2076.400000
+mar20 07:15  <_blower_gripper_down_z_calculated_machined> = 1329.580000
+
+mar20 07:15  <_load_enter_x> = 450.000000
+mar20 07:15  <_load_aproximates_x> = 350.000000
+mar20 07:15  <_load_gripper_down_x_calculated> = 310.000000
+
+mar20 07:15  <_load_gripper_down_z_calculated> = 385.470000
+mar20 07:15  <_unload_enter_x> = 530.000000
+mar20 07:15  <_unload_aproximates_x> = 320.000000
+
+mar20 07:15  <_unload_enter_intermediate_x> = 350.000000
+mar20 07:15  <_unload_enter_intermediate_Z> = 652.000000
+mar20 07:15  <_unload_gripper_down_x_calculated> = 300.400000
+
+mar20 07:15  <_unload_gripper_down_z_calculated> = 528.000000
+mar20 07:15  <_tumbler_enter_x> = 1160.000000
+mar20 07:15  <_tumbler_gripper_down_unload_x_calculated> = 951.500000
+
+mar20 07:15  <_tumbler_gripper_down_load_x_calculated> = 951.500000
+mar20 07:15  <_tumbler_gripper_down_extracts> = 1022.000000
+mar20 07:15  <_tumbler_aproximates_down_x> = 1050.000000
+
+mar20 07:15  <_tumbler_aproximates_up_x> = 1050.000000
+mar20 07:15  <_tumbler_gripper_down_load_from_extract> = 1025.000000
+mar20 07:15  <_tumbler_gripper_up_load_from_extract> = 1025.000000
+
+mar20 07:15  <_lathe_enter1_x> = 3110.000000
+mar20 07:15  <_lathe_enter1_y> = 233.200000
+mar20 07:15  <_lathe_enter1_z> = 300.200000
+
+mar20 07:15  <_lathe_enter2_y> = 150.200000
+mar20 07:15  <_lathe_enter2_z> = 490.200000
+mar20 07:15  <_lathe_enter3_z> = 59.600000
+
+mar20 07:15  <_lathe_gripper_down_aproximates_x> = 3000.300000
+mar20 07:15  <_lathe_gripper_up_aproximates_x> = 2999.600000
+mar20 07:15  <_lathe_gripper_down_x_calculated> = 2914.300000
+
+mar20 07:15  <_lathe_gripper_up_x_calculated> = 2916.600000
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 07:15:48 ---
+mar20 07:15 Machine OFF
+
+mar20 07:15 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 09:02:08 ---
+mar20 09:02 Machine OFF
+mar20 09:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 09:02 Machine ON
+
+mar20 09:02  0.000000
+
+mar20 09:02 Machine OFF
+mar20 09:02 movimiento detenido por entrada habilitada
+
+mar20 09:47 Machine ON
+
+
+--- Qtvcp Screen Started on: mar, feb 20 2024 09:50:47 ---
+mar20 09:50 Machine OFF
+mar20 09:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mar20 09:50 Machine ON
+
+mar20 09:51 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 09:51 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+mar20 09:51 Started program from line 1
+
+mar20 09:51 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+mar20 09:51 Started program from line 1
+mar20 09:51  PRINT VARIABLES
+
+mar20 09:51  <_parking_plate_to_gripper_down_x> = 1.800000
+mar20 09:51  <_parking_gripper_down_enter_y> = 357.800000
+mar20 09:51  <_parking_gripper_down_z_reference> = 1333.700000
+
+mar20 09:51  <_parking_plate_to_gripper_up_x> = 0.900000
+mar20 09:51  <_parking_gripper_up_enter_y> = 356.800000
+mar20 09:51  <_parking_gripper_up_z_reference> = 1082.600000
+
+mar20 09:51  <_parking_enter_x_over_bars> = 353.800000
+mar20 09:51  <_parking_enter_z> = 1385.700000
+mar20 09:51  <_parking_aproximates_x> = 323.800000
+
+mar20 09:51  <_parking_enter_x_free> = 523.800000
+mar20 09:51  <_parking_gripper_down_unload_x_calculated> = 287.800000
+mar20 09:51  <_parking_gripper_down_load_x_calculated> = 284.800000
+
+mar20 09:51  <_parking_gripper_down_z_calculated> = 1340.100000
+mar20 09:51  <_parking_gripper_up_unload_x_calculated> = 286.900000
+mar20 09:51  <_parking_gripper_up_load_x_calculated> = 283.900000
+
+mar20 09:51  <_parking_gripper_up_z_calculated> = 1089.000000
+mar20 09:51  <_parking_gripper_down_x_meas_ref> = 275.000000
+mar20 09:51  <_parking_gripper_up_x_meas_ref> = 275.000000
+
+mar20 09:51  <_blower_plate_to_gripper_down_x> = 1800.300000
+mar20 09:51  <_blower_enter_y> = 354.500000
+mar20 09:51  <_blower_gripper_down_z_reference> = 1330.400000
+
+mar20 09:51  <_blower_enter_x> = 2301.300000
+mar20 09:51  <_blower_aproximates_x> = 2101.300000
+mar20 09:51  <_blower_gripper_down_unload_x_calculated> = 2080.700000
+
+mar20 09:51  <_blower_gripper_down_load_x_calculated> = 2077.700000
+mar20 09:51  <_blower_gripper_down_z_calculated_machined> = 1333.980000
+mar20 09:51  <_blower_gripper_down_x_meas_ref_machined> = 2074.400000
+
+mar20 09:51  <_load_plate_to_gripper_down_x> = 9.100000
+mar20 09:51  <_load_enter_y> = 164.900000
+mar20 09:51  <_load_gripper_down_z_reference> = 371.300000
+
+mar20 09:51  <_load_enter_x> = 432.100000
+mar20 09:51  <_load_aproximates_x> = 332.100000
+mar20 09:51  <_load_gripper_down_x_calculated> = 292.100000
+
+mar20 09:51  <_load_gripper_down_z_calculated> = 377.770000
+mar20 09:51  <_load_gripper_down_x_meas_ref> = 312.100000
+mar20 09:51  <_unload_plate_to_gripper_down_x> = 16.000000
+
+mar20 09:51  <_unload_enter_y> = 460.100000
+mar20 09:51  <_unload_gripper_down_z_reference> = 520.600000
+mar20 09:51  <_unload_enter_x> = 526.000000
+
+mar20 09:51  <_unload_aproximates_x> = 316.000000
+mar20 09:51  <_unload_enter_intermediate_x> = 346.000000
+mar20 09:51  <_unload_enter_intermediate_Z> = 648.200000
+
+mar20 09:51  <_unload_gripper_down_x_calculated> = 296.400000
+mar20 09:51  <_unload_gripper_down_z_calculated> = 524.200000
+mar20 09:51  <_tumbler_gripper_down_jaws_center_x> = 936.200000
+
+mar20 09:51  <_tumbler_enter_down_y> = 427.100000
+mar20 09:51  <_tumbler_gripper_down_z> = 1305.300000
+mar20 09:51  <_tumbler_gripper_up_jaws_center_x> = 936.600000
+
+mar20 09:51  <_tumbler_enter_up_y> = 425.900000
+mar20 09:51  <_tumbler_gripper_up_z> = 1054.100000
+mar20 09:51  <_tumbler_enter_x> = 1286.200000
+
+mar20 09:51  <_tumbler_gripper_down_unload_x_calculated> = 1077.700000
+mar20 09:51  <_tumbler_gripper_down_load_x_calculated> = 1077.700000
+mar20 09:51  <_tumbler_gripper_down_extracts> = 1148.200000
+
+mar20 09:51  <_tumbler_aproximates_down_x> = 1176.200000
+mar20 09:51  <_tumbler_aproximates_up_x> = 1176.600000
+mar20 09:51  <_tumbler_gripper_down_load_from_extract> = 1151.200000
+
+mar20 09:51  <_tumbler_gripper_up_load_from_extract> = 1151.600000
+mar20 09:51  <_tumbler_gripper_down_x_meas_ref> = 1025.000000
+mar20 09:51  <_tumbler_gripper_up_x_meas_ref> = 1021.300000
+
+mar20 09:51  <_lathe_chuck_front_to_gripper_down_x>  =  2517.800000
+mar20 09:51  <_lathe_gripper_down_center_y>  =  323.300000
+mar20 09:51  <_lathe_gripper_down_center_z>  =  279.600000
+
+mar20 09:51  <_lathe_chuck_front_to_gripper_up_x>  =  2518.200000
+mar20 09:51  <_lathe_gripper_up_center_y>  =  321.400000
+mar20 09:51  <_lathe_gripper_up_center_z>  =  28.300000
+
+mar20 09:51  <_lathe_enter1_x> = 3041.500000
+mar20 09:51  <_lathe_enter1_y> = 227.300000
+mar20 09:51  <_lathe_enter1_z> = 291.600000
+
+mar20 09:51  <_lathe_enter2_y> = 144.300000
+mar20 09:51  <_lathe_enter2_z> = 481.600000
+mar20 09:51  <_lathe_enter3_z> = 50.300000
+
+mar20 09:51  <_lathe_gripper_down_aproximates_x> = 2931.800000
+mar20 09:51  <_lathe_gripper_up_aproximates_x> = 2932.200000
+mar20 09:51  <_lathe_gripper_down_x_calculated> = 2845.800000
+
+mar20 09:51  <_lathe_gripper_up_x_calculated> = 2849.200000
+mar20 09:51  <_lathe_gripper_down_x_meas_ref> = 2955.600000
+
+mar20 09:51 Cannot switch pages while in AUTO mode
+
+mar20 09:52 Machine OFF
+

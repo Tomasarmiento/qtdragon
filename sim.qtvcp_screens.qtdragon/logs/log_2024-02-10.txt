@@ -1,0 +1,4141 @@
+--- Qtvcp Screen Started on: sáb, feb 10 2024 04:34:22 ---
+sáb10 04:34 Machine OFF
+
+sáb10 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+sáb10 04:34 Machine ON
+
+sáb10 04:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:36 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+sáb10 04:44 Started program from line 1
+
+sáb10 04:44  error eje Z fuera de posicion segura
+sáb10 04:44  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+
+sáb10 04:46 Started program from line 1
+
+sáb10 04:46  INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba
+
+sáb10 04:46 Cannot switch pages while in AUTO mode
+
+sáb10 04:46 Cannot switch pages while in AUTO mode
+
+sáb10 04:47 Started program from line 1
+
+sáb10 04:47  gripper down cota x medida 261.632111
+
+sáb10 04:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 6.367889 
+sáb10 04:47  EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN
+
+sáb10 04:49 Started program from line 1
+
+sáb10 04:49  error eje Y fuera de posicion segura
+sáb10 04:49  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+
+sáb10 04:50 Started program from line 1
+
+sáb10 04:50  CARGA gripper down - Cupla no presente en vertical de carga
+
+sáb10 04:51 Cannot switch pages while in AUTO mode
+
+sáb10 04:52 Cannot switch pages while in AUTO mode
+
+sáb10 04:52 Cannot switch pages while in AUTO mode
+
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+
+sáb10 04:53 Started program from line 1
+
+sáb10 04:53  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+
+sáb10 04:54 Started program from line 1
+
+sáb10 04:54  gripper down cota x medida 268.814423
+
+sáb10 04:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.814423 
+
+sáb10 04:54  *** PRESS SYSTEM LINK ***
+
+sáb10 04:54  *** PRESS RESUME 1 ***
+
+sáb10 04:54  *** CHECK HOME POSITION ***
+
+sáb10 04:54  *** PRESS RESUME 2 ***
+
+sáb10 04:55 Machine OFF
+sáb10 04:55 movimiento detenido por entrada habilitada
+
+sáb10 04:57 Cannot switch pages while in AUTO mode
+
+sáb10 04:57 Cannot switch pages while in AUTO mode
+
+sáb10 04:57 Cannot switch pages while in AUTO mode
+
+sáb10 04:57 Cannot switch pages while in AUTO mode
+
+sáb10 04:57 Machine ON
+
+sáb10 05:04 Must be in AUTO mode to run a program
+
+sáb10 05:12 Cannot switch pages while in AUTO mode
+
+sáb10 05:15 Cannot switch pages while in AUTO mode
+
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+
+sáb10 05:22 Started program from line 1
+
+sáb10 05:23  gripper down cota x medida 268.382843
+
+sáb10 05:23  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.382843 
+
+sáb10 05:23  *** PRESS SYSTEM LINK ***
+
+sáb10 05:23  *** PRESS RESUME 1 ***
+
+sáb10 05:23  *** CHECK HOME POSITION ***
+
+sáb10 05:23  *** PRESS RESUME 2 ***
+
+sáb10 05:24  gripper down cota x medida 268.854675
+
+sáb10 05:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.854675 
+
+sáb10 05:24  gripper up cota x medida 235.004120
+
+sáb10 05:24  PARKING UP TOMAR DIFERENCIA CON X REF = -1.004120 
+
+sáb10 05:24  *** PRESS SYSTEM LINK ***
+
+sáb10 05:27  *** PRESS RESUME 1 ***
+
+sáb10 05:27  *** CHECK HOME POSITION ***
+sáb10 05:27  *** PRESS RESUME 2 ***
+
+sáb10 05:27  gripper down cota x medida 2874.057861
+
+sáb10 05:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.457861 
+
+sáb10 05:28  gripper down cota x medida 931.285156
+
+sáb10 05:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.514844 
+
+sáb10 05:28  gripper up cota x medida 1025.150635
+
+sáb10 05:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649365 
+
+sáb10 05:28  *** PRESS SYSTEM LINK ***
+
+sáb10 05:30  *** PRESS RESUME 1 ***
+
+sáb10 05:31  *** CHECK HOME POSITION ***
+sáb10 05:31  *** PRESS RESUME 2 ***
+
+sáb10 05:31  gripper down cota x medida 2873.840332
+
+sáb10 05:31  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.240332 
+
+sáb10 05:32  gripper down cota x medida 931.345398
+
+sáb10 05:32  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454602 
+
+sáb10 05:32  gripper up cota x medida 1024.878662
+
+sáb10 05:32  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.921338 
+
+sáb10 05:32  *** PRESS SYSTEM LINK ***
+
+sáb10 05:35  *** PRESS RESUME 1 ***
+
+sáb10 05:35  *** CHECK HOME POSITION ***
+
+sáb10 05:35  *** PRESS RESUME 2 ***
+
+sáb10 05:35  gripper down cota x medida 2869.790527
+
+sáb10 05:35  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.809473 
+
+sáb10 05:36  gripper down cota x medida 2030.777100
+
+sáb10 05:36  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022900 
+
+sáb10 05:37  gripper down cota x medida 268.983063
+
+sáb10 05:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.983063 
+
+sáb10 05:37  gripper up cota x medida 235.017929
+
+sáb10 05:37  PARKING UP TOMAR DIFERENCIA CON X REF = -1.017929 
+
+sáb10 05:38  *** PRESS SYSTEM LINK ***
+
+sáb10 05:38  *** PRESS RESUME 1 ***
+
+sáb10 05:39  *** CHECK HOME POSITION ***
+sáb10 05:39  *** PRESS RESUME 2 ***
+
+sáb10 05:39  gripper down cota x medida 2869.750977
+
+sáb10 05:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.849023 
+
+sáb10 05:40  gripper down cota x medida 2030.764282
+
+sáb10 05:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035718 
+
+sáb10 05:41  gripper down cota x medida 269.236481
+
+sáb10 05:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.236481 
+
+sáb10 05:41  gripper up cota x medida 235.077728
+
+sáb10 05:41  PARKING UP TOMAR DIFERENCIA CON X REF = -1.077728 
+
+sáb10 05:41  *** PRESS SYSTEM LINK ***
+
+sáb10 05:42  *** PRESS RESUME 1 ***
+
+sáb10 05:43  *** CHECK HOME POSITION ***
+sáb10 05:43  *** PRESS RESUME 2 ***
+
+sáb10 05:43  gripper down cota x medida 2873.880127
+
+sáb10 05:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.280127 
+
+sáb10 05:44  gripper down cota x medida 931.324951
+
+sáb10 05:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.475049 
+
+sáb10 05:44  gripper up cota x medida 1025.103394
+
+sáb10 05:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696606 
+
+sáb10 05:45  *** PRESS SYSTEM LINK ***
+
+sáb10 05:45  *** PRESS RESUME 1 ***
+
+sáb10 05:48  *** CHECK HOME POSITION ***
+sáb10 05:48  *** PRESS RESUME 2 ***
+
+sáb10 05:48  gripper down cota x medida 2874.044678
+
+sáb10 05:48  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.444678 
+
+sáb10 05:49  gripper down cota x medida 931.298401
+
+sáb10 05:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.501599 
+
+sáb10 05:49  gripper up cota x medida 1024.978516
+
+sáb10 05:49  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.821484 
+
+sáb10 05:49  *** PRESS SYSTEM LINK ***
+
+sáb10 05:52  *** PRESS RESUME 1 ***
+
+sáb10 05:52  *** CHECK HOME POSITION ***
+
+sáb10 05:52  *** PRESS RESUME 2 ***
+
+sáb10 05:52  gripper down cota x medida 2869.863525
+
+sáb10 05:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736475 
+
+sáb10 05:53  gripper down cota x medida 2030.896729
+
+sáb10 05:53  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.903271 
+
+sáb10 05:54  gripper down cota x medida 268.766907
+
+sáb10 05:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.766907 
+
+sáb10 05:54  gripper up cota x medida 234.871216
+
+sáb10 05:54  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871216 
+
+sáb10 05:55  *** PRESS SYSTEM LINK ***
+
+sáb10 05:56  *** PRESS RESUME 1 ***
+
+sáb10 05:56  *** CHECK HOME POSITION ***
+
+sáb10 05:56  *** PRESS RESUME 2 ***
+
+sáb10 05:56  gripper down cota x medida 2869.817383
+
+sáb10 05:56  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782617 
+
+sáb10 05:57  gripper down cota x medida 2030.876953
+
+sáb10 05:57  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.923047 
+
+sáb10 05:58  *** PRESS SYSTEM LINK ***
+
+sáb10 05:59  *** PRESS RESUME 1 ***
+
+sáb10 06:00  *** CHECK HOME POSITION ***
+sáb10 06:00  *** PRESS RESUME 2 ***
+
+sáb10 06:00  gripper down cota x medida 2874.264648
+
+sáb10 06:00  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.664648 
+
+sáb10 06:00  gripper down cota x medida 931.345520
+
+sáb10 06:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454480 
+
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+
+sáb10 06:01  *** PRESS RESUME 1 ***
+
+sáb10 06:01  *** CHECK HOME POSITION ***
+
+sáb10 06:01  *** PRESS RESUME 2 ***
+
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+
+sáb10 06:04  *** PRESS RESUME 1 ***
+
+sáb10 06:04  *** CHECK HOME POSITION ***
+
+sáb10 06:04  *** PRESS RESUME 2 ***
+
+sáb10 06:04  gripper down cota x medida 2870.038086
+
+sáb10 06:04  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.561914 
+
+sáb10 06:05  gripper down cota x medida 2030.803833
+
+sáb10 06:05  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+
+sáb10 06:07 Cannot switch pages while in AUTO mode
+
+sáb10 07:46 Cannot switch pages while in AUTO mode
+
+sáb10 07:46 Started program from line 1
+
+sáb10 07:46  gripper down cota x medida 269.513794
+
+sáb10 07:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.513794 
+
+sáb10 07:47  *** PRESS SYSTEM LINK ***
+
+sáb10 07:47  *** PRESS RESUME 1 ***
+
+sáb10 07:47  *** CHECK HOME POSITION ***
+
+sáb10 07:49  *** PRESS RESUME 2 ***
+
+sáb10 07:49  gripper down cota x medida 268.908966
+
+sáb10 07:49  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.908966 
+
+sáb10 07:50  gripper up cota x medida 235.064484
+
+sáb10 07:50  PARKING UP TOMAR DIFERENCIA CON X REF = -1.064484 
+
+sáb10 07:50  *** PRESS SYSTEM LINK ***
+
+sáb10 07:54  *** PRESS RESUME 1 ***
+
+sáb10 07:54  *** CHECK HOME POSITION ***
+
+sáb10 07:54  *** PRESS RESUME 2 ***
+
+sáb10 07:54  gripper down cota x medida 2873.893555
+
+sáb10 07:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.293555 
+
+sáb10 07:55  gripper down cota x medida 931.544800
+
+sáb10 07:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.255200 
+
+sáb10 07:55  gripper up cota x medida 1025.010620
+
+sáb10 07:55  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.789380 
+
+--- Qtvcp Screen Started on: sáb, feb 10 2024 04:34:22 ---
+sáb10 04:34 Machine OFF
+sáb10 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+sáb10 04:34 Machine ON
+sáb10 04:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:36 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:44 Started program from line 1
+sáb10 04:44  error eje Z fuera de posicion segura
+sáb10 04:44  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:46 Started program from line 1
+sáb10 04:46  INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:47 Started program from line 1
+sáb10 04:47  gripper down cota x medida 261.632111
+sáb10 04:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 6.367889 
+sáb10 04:47  EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN
+sáb10 04:49 Started program from line 1
+sáb10 04:49  error eje Y fuera de posicion segura
+sáb10 04:49  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:50 Started program from line 1
+sáb10 04:50  CARGA gripper down - Cupla no presente en vertical de carga
+sáb10 04:51 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:53 Started program from line 1
+sáb10 04:53  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+sáb10 04:54 Started program from line 1
+sáb10 04:54  gripper down cota x medida 268.814423
+sáb10 04:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.814423 
+sáb10 04:54  *** PRESS SYSTEM LINK ***
+sáb10 04:54  *** PRESS RESUME 1 ***
+sáb10 04:54  *** CHECK HOME POSITION ***
+sáb10 04:54  *** PRESS RESUME 2 ***
+sáb10 04:55 Machine OFF
+sáb10 04:55 movimiento detenido por entrada habilitada
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Machine ON
+sáb10 05:04 Must be in AUTO mode to run a program
+sáb10 05:12 Cannot switch pages while in AUTO mode
+sáb10 05:15 Cannot switch pages while in AUTO mode
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Started program from line 1
+sáb10 05:23  gripper down cota x medida 268.382843
+sáb10 05:23  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.382843 
+sáb10 05:23  *** PRESS SYSTEM LINK ***
+sáb10 05:23  *** PRESS RESUME 1 ***
+sáb10 05:23  *** CHECK HOME POSITION ***
+sáb10 05:23  *** PRESS RESUME 2 ***
+sáb10 05:24  gripper down cota x medida 268.854675
+sáb10 05:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.854675 
+sáb10 05:24  gripper up cota x medida 235.004120
+sáb10 05:24  PARKING UP TOMAR DIFERENCIA CON X REF = -1.004120 
+sáb10 05:24  *** PRESS SYSTEM LINK ***
+sáb10 05:27  *** PRESS RESUME 1 ***
+sáb10 05:27  *** CHECK HOME POSITION ***
+sáb10 05:27  *** PRESS RESUME 2 ***
+sáb10 05:27  gripper down cota x medida 2874.057861
+sáb10 05:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.457861 
+sáb10 05:28  gripper down cota x medida 931.285156
+sáb10 05:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.514844 
+sáb10 05:28  gripper up cota x medida 1025.150635
+sáb10 05:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649365 
+sáb10 05:28  *** PRESS SYSTEM LINK ***
+sáb10 05:30  *** PRESS RESUME 1 ***
+sáb10 05:31  *** CHECK HOME POSITION ***
+sáb10 05:31  *** PRESS RESUME 2 ***
+sáb10 05:31  gripper down cota x medida 2873.840332
+sáb10 05:31  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.240332 
+sáb10 05:32  gripper down cota x medida 931.345398
+sáb10 05:32  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454602 
+sáb10 05:32  gripper up cota x medida 1024.878662
+sáb10 05:32  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.921338 
+sáb10 05:32  *** PRESS SYSTEM LINK ***
+sáb10 05:35  *** PRESS RESUME 1 ***
+sáb10 05:35  *** CHECK HOME POSITION ***
+sáb10 05:35  *** PRESS RESUME 2 ***
+sáb10 05:35  gripper down cota x medida 2869.790527
+sáb10 05:35  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.809473 
+sáb10 05:36  gripper down cota x medida 2030.777100
+sáb10 05:36  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022900 
+sáb10 05:37  gripper down cota x medida 268.983063
+sáb10 05:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.983063 
+sáb10 05:37  gripper up cota x medida 235.017929
+sáb10 05:37  PARKING UP TOMAR DIFERENCIA CON X REF = -1.017929 
+sáb10 05:38  *** PRESS SYSTEM LINK ***
+sáb10 05:38  *** PRESS RESUME 1 ***
+sáb10 05:39  *** CHECK HOME POSITION ***
+sáb10 05:39  *** PRESS RESUME 2 ***
+sáb10 05:39  gripper down cota x medida 2869.750977
+sáb10 05:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.849023 
+sáb10 05:40  gripper down cota x medida 2030.764282
+sáb10 05:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035718 
+sáb10 05:41  gripper down cota x medida 269.236481
+sáb10 05:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.236481 
+sáb10 05:41  gripper up cota x medida 235.077728
+sáb10 05:41  PARKING UP TOMAR DIFERENCIA CON X REF = -1.077728 
+sáb10 05:41  *** PRESS SYSTEM LINK ***
+sáb10 05:42  *** PRESS RESUME 1 ***
+sáb10 05:43  *** CHECK HOME POSITION ***
+sáb10 05:43  *** PRESS RESUME 2 ***
+sáb10 05:43  gripper down cota x medida 2873.880127
+sáb10 05:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.280127 
+sáb10 05:44  gripper down cota x medida 931.324951
+sáb10 05:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.475049 
+sáb10 05:44  gripper up cota x medida 1025.103394
+sáb10 05:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696606 
+sáb10 05:45  *** PRESS SYSTEM LINK ***
+sáb10 05:45  *** PRESS RESUME 1 ***
+sáb10 05:48  *** CHECK HOME POSITION ***
+sáb10 05:48  *** PRESS RESUME 2 ***
+sáb10 05:48  gripper down cota x medida 2874.044678
+sáb10 05:48  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.444678 
+sáb10 05:49  gripper down cota x medida 931.298401
+sáb10 05:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.501599 
+sáb10 05:49  gripper up cota x medida 1024.978516
+sáb10 05:49  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.821484 
+sáb10 05:49  *** PRESS SYSTEM LINK ***
+sáb10 05:52  *** PRESS RESUME 1 ***
+sáb10 05:52  *** CHECK HOME POSITION ***
+sáb10 05:52  *** PRESS RESUME 2 ***
+sáb10 05:52  gripper down cota x medida 2869.863525
+sáb10 05:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736475 
+sáb10 05:53  gripper down cota x medida 2030.896729
+sáb10 05:53  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.903271 
+sáb10 05:54  gripper down cota x medida 268.766907
+sáb10 05:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.766907 
+sáb10 05:54  gripper up cota x medida 234.871216
+sáb10 05:54  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871216 
+sáb10 05:55  *** PRESS SYSTEM LINK ***
+sáb10 05:56  *** PRESS RESUME 1 ***
+sáb10 05:56  *** CHECK HOME POSITION ***
+sáb10 05:56  *** PRESS RESUME 2 ***
+sáb10 05:56  gripper down cota x medida 2869.817383
+sáb10 05:56  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782617 
+sáb10 05:57  gripper down cota x medida 2030.876953
+sáb10 05:57  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.923047 
+sáb10 05:58  *** PRESS SYSTEM LINK ***
+sáb10 05:59  *** PRESS RESUME 1 ***
+sáb10 06:00  *** CHECK HOME POSITION ***
+sáb10 06:00  *** PRESS RESUME 2 ***
+sáb10 06:00  gripper down cota x medida 2874.264648
+sáb10 06:00  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.664648 
+sáb10 06:00  gripper down cota x medida 931.345520
+sáb10 06:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454480 
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:01  *** PRESS RESUME 1 ***
+sáb10 06:01  *** CHECK HOME POSITION ***
+sáb10 06:01  *** PRESS RESUME 2 ***
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:04  *** PRESS RESUME 1 ***
+sáb10 06:04  *** CHECK HOME POSITION ***
+sáb10 06:04  *** PRESS RESUME 2 ***
+sáb10 06:04  gripper down cota x medida 2870.038086
+sáb10 06:04  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.561914 
+sáb10 06:05  gripper down cota x medida 2030.803833
+sáb10 06:05  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 06:07 Cannot switch pages while in AUTO mode
+sáb10 07:46 Cannot switch pages while in AUTO mode
+sáb10 07:46 Started program from line 1
+sáb10 07:46  gripper down cota x medida 269.513794
+sáb10 07:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.513794 
+sáb10 07:47  *** PRESS SYSTEM LINK ***
+sáb10 07:47  *** PRESS RESUME 1 ***
+sáb10 07:47  *** CHECK HOME POSITION ***
+sáb10 07:49  *** PRESS RESUME 2 ***
+sáb10 07:49  gripper down cota x medida 268.908966
+sáb10 07:49  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.908966 
+sáb10 07:50  gripper up cota x medida 235.064484
+sáb10 07:50  PARKING UP TOMAR DIFERENCIA CON X REF = -1.064484 
+sáb10 07:50  *** PRESS SYSTEM LINK ***
+sáb10 07:54  *** PRESS RESUME 1 ***
+sáb10 07:54  *** CHECK HOME POSITION ***
+sáb10 07:54  *** PRESS RESUME 2 ***
+sáb10 07:54  gripper down cota x medida 2873.893555
+sáb10 07:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.293555 
+sáb10 07:55  gripper down cota x medida 931.544800
+sáb10 07:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.255200 
+sáb10 07:55  gripper up cota x medida 1025.010620
+sáb10 07:55  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.789380 
+sáb10 07:56  *** PRESS SYSTEM LINK ***
+sáb10 07:56  *** PRESS RESUME 1 ***
+
+sáb10 07:59  *** CHECK HOME POSITION ***
+sáb10 07:59  *** PRESS RESUME 2 ***
+
+sáb10 07:59  gripper down cota x medida 2874.111816
+
+sáb10 07:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.511816 
+
+sáb10 08:00  gripper down cota x medida 931.504639
+
+sáb10 08:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295361 
+
+sáb10 08:00  gripper up cota x medida 1025.149658
+
+sáb10 08:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.650342 
+
+sáb10 08:01  *** PRESS SYSTEM LINK ***
+
+sáb10 08:02  *** PRESS RESUME 1 ***
+
+sáb10 08:03  *** CHECK HOME POSITION ***
+sáb10 08:03  *** PRESS RESUME 2 ***
+
+sáb10 08:03  gripper down cota x medida 2869.691406
+
+sáb10 08:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.908594 
+
+sáb10 08:04  gripper down cota x medida 2030.997803
+
+sáb10 08:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802197 
+
+sáb10 08:04  gripper down cota x medida 268.976257
+
+sáb10 08:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.976257 
+
+sáb10 08:05  gripper up cota x medida 234.964127
+
+sáb10 08:05  PARKING UP TOMAR DIFERENCIA CON X REF = -0.964127 
+
+sáb10 08:05  *** PRESS SYSTEM LINK ***
+
+sáb10 08:08  *** PRESS RESUME 1 ***
+
+sáb10 08:08  *** CHECK HOME POSITION ***
+
+sáb10 08:08  *** PRESS RESUME 2 ***
+
+sáb10 08:08  gripper down cota x medida 2869.816650
+
+sáb10 08:08  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.783350 
+
+sáb10 08:09  gripper down cota x medida 2030.770630
+
+sáb10 08:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.029370 
+
+sáb10 08:10  *** PRESS SYSTEM LINK ***
+
+sáb10 08:12  *** PRESS RESUME 1 ***
+
+sáb10 08:12  *** CHECK HOME POSITION ***
+sáb10 08:12  *** PRESS RESUME 2 ***
+
+sáb10 08:12  gripper down cota x medida 2874.277832
+
+sáb10 08:12  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.677832 
+
+sáb10 08:13  gripper down cota x medida 931.438843
+
+sáb10 08:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.361157 
+
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+
+sáb10 08:13  *** CHECK HOME POSITION ***
+sáb10 08:13  *** PRESS RESUME 2 ***
+
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+
+sáb10 08:13  *** PRESS RESUME 1 ***
+
+sáb10 08:17  *** CHECK HOME POSITION ***
+sáb10 08:17  *** PRESS RESUME 2 ***
+
+sáb10 08:17  TORNO TOMAR GRU - Plato del torno no esta en posicion correcta
+
+sáb10 08:24 Eje y no esta en posicion
+
+sáb10 08:24 Eje y no esta en posicion
+
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+
+sáb10 08:26 Started program from line 1
+
+sáb10 08:26  gripper down cota x medida 269.002991
+
+sáb10 08:26  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.002991 
+
+sáb10 08:26  *** PRESS SYSTEM LINK ***
+sáb10 08:26  *** PRESS RESUME 1 ***
+
+sáb10 08:26  *** CHECK HOME POSITION ***
+sáb10 08:26  *** PRESS RESUME 2 ***
+
+sáb10 08:27  gripper down cota x medida 268.583893
+
+sáb10 08:27  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.583893 
+
+sáb10 08:27  gripper up cota x medida 234.612411
+
+sáb10 08:27  PARKING UP TOMAR DIFERENCIA CON X REF = -0.612411 
+
+sáb10 08:28  *** PRESS SYSTEM LINK ***
+
+sáb10 08:30  *** PRESS RESUME 1 ***
+
+sáb10 08:30  *** CHECK HOME POSITION ***
+
+sáb10 08:30  *** PRESS RESUME 2 ***
+
+sáb10 08:30  gripper down cota x medida 2873.860352
+
+sáb10 08:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+
+sáb10 08:31  gripper down cota x medida 931.318481
+
+sáb10 08:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.481519 
+
+sáb10 08:31  gripper up cota x medida 1025.076416
+
+sáb10 08:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.723584 
+
+sáb10 08:32  *** PRESS SYSTEM LINK ***
+
+sáb10 08:33  *** PRESS RESUME 1 ***
+
+sáb10 08:34  *** CHECK HOME POSITION ***
+
+sáb10 08:34  *** PRESS RESUME 2 ***
+
+sáb10 08:34  gripper down cota x medida 2874.078125
+
+sáb10 08:34  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.478125 
+
+sáb10 08:35  gripper down cota x medida 931.838989
+
+sáb10 08:35  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.961011 
+
+sáb10 08:35  gripper up cota x medida 1025.259766
+
+sáb10 08:35  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.540234 
+
+sáb10 08:35  *** PRESS SYSTEM LINK ***
+
+sáb10 08:37  *** PRESS RESUME 1 ***
+
+sáb10 08:37  *** CHECK HOME POSITION ***
+
+sáb10 08:37  *** PRESS RESUME 2 ***
+
+sáb10 08:38  gripper down cota x medida 2869.923828
+
+sáb10 08:38  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.676172 
+
+sáb10 08:39  gripper down cota x medida 2030.757324
+
+sáb10 08:39  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.042676 
+
+sáb10 08:39  gripper down cota x medida 268.875671
+
+sáb10 08:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.875671 
+
+sáb10 08:40  gripper up cota x medida 234.778854
+
+sáb10 08:40  PARKING UP TOMAR DIFERENCIA CON X REF = -0.778854 
+
+sáb10 08:40  *** PRESS SYSTEM LINK ***
+
+sáb10 08:41  *** PRESS RESUME 1 ***
+
+sáb10 08:42  *** CHECK HOME POSITION ***
+
+sáb10 08:42  *** PRESS RESUME 2 ***
+
+sáb10 08:42  gripper down cota x medida 2869.978271
+
+sáb10 08:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.621729 
+
+sáb10 08:43  gripper down cota x medida 2030.743774
+
+sáb10 08:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.056226 
+
+sáb10 08:43  gripper down cota x medida 268.841309
+
+sáb10 08:43  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.841309 
+
+sáb10 08:44  gripper up cota x medida 234.804840
+
+sáb10 08:44  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804840 
+
+sáb10 08:44  *** PRESS SYSTEM LINK ***
+
+sáb10 08:45  *** PRESS RESUME 1 ***
+
+sáb10 08:45  *** CHECK HOME POSITION ***
+sáb10 08:45  *** PRESS RESUME 2 ***
+
+sáb10 08:46  gripper down cota x medida 2874.150879
+
+sáb10 08:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.550879 
+
+sáb10 08:46  gripper down cota x medida 931.666382
+
+sáb10 08:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.133618 
+
+sáb10 08:47  gripper up cota x medida 1025.225342
+
+sáb10 08:47  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.574658 
+
+sáb10 08:47  *** PRESS SYSTEM LINK ***
+
+sáb10 08:49  *** PRESS RESUME 1 ***
+
+sáb10 08:49  *** CHECK HOME POSITION ***
+
+sáb10 08:49  *** PRESS RESUME 2 ***
+
+sáb10 08:50  gripper down cota x medida 2874.118896
+
+sáb10 08:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+
+sáb10 08:50  gripper down cota x medida 931.472168
+
+sáb10 08:50  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.327832 
+
+sáb10 08:51  gripper up cota x medida 1025.103271
+
+sáb10 08:51  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696729 
+
+sáb10 08:51  *** PRESS SYSTEM LINK ***
+
+sáb10 08:54  *** PRESS RESUME 1 ***
+
+sáb10 08:54  *** CHECK HOME POSITION ***
+
+sáb10 08:54  *** PRESS RESUME 2 ***
+
+sáb10 08:54  gripper down cota x medida 2869.917236
+
+sáb10 08:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+
+sáb10 08:55  gripper down cota x medida 2030.697021
+
+sáb10 08:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.102979 
+
+sáb10 08:56  gripper down cota x medida 268.255646
+
+sáb10 08:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.255646 
+
+sáb10 08:56  gripper up cota x medida 234.004791
+
+sáb10 08:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.004791 
+
+sáb10 08:56  *** PRESS SYSTEM LINK ***
+
+sáb10 08:58  *** PRESS RESUME 1 ***
+
+sáb10 08:58  *** CHECK HOME POSITION ***
+sáb10 08:58  *** PRESS RESUME 2 ***
+
+sáb10 08:59  gripper down cota x medida 2869.857178
+
+sáb10 08:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.742822 
+
+sáb10 09:00  gripper down cota x medida 2030.943970
+
+sáb10 09:00  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856030 
+
+sáb10 09:00  gripper down cota x medida 269.009460
+
+sáb10 09:00  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.009460 
+
+sáb10 09:01  gripper up cota x medida 235.084015
+
+sáb10 09:01  PARKING UP TOMAR DIFERENCIA CON X REF = -1.084015 
+
+sáb10 09:01  *** PRESS SYSTEM LINK ***
+
+sáb10 09:02  *** PRESS RESUME 1 ***
+
+sáb10 09:02  *** CHECK HOME POSITION ***
+
+sáb10 09:02  *** PRESS RESUME 2 ***
+
+sáb10 09:02  gripper down cota x medida 2874.125244
+
+sáb10 09:02  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+
+sáb10 09:03  gripper down cota x medida 931.604736
+
+sáb10 09:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.195264 
+
+sáb10 09:03  gripper up cota x medida 1025.011108
+
+sáb10 09:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.788892 
+
+sáb10 09:04  *** PRESS SYSTEM LINK ***
+
+sáb10 09:05  *** PRESS RESUME 1 ***
+
+sáb10 09:06  *** CHECK HOME POSITION ***
+
+sáb10 09:06  *** PRESS RESUME 2 ***
+
+sáb10 09:06  gripper down cota x medida 2874.177979
+
+sáb10 09:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.577979 
+
+sáb10 09:07  gripper down cota x medida 931.331726
+
+sáb10 09:07  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.468274 
+
+sáb10 09:07  gripper up cota x medida 1024.912964
+
+sáb10 09:07  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.887036 
+
+sáb10 09:07  *** PRESS SYSTEM LINK ***
+
+sáb10 09:09  *** PRESS RESUME 1 ***
+
+sáb10 09:09  *** CHECK HOME POSITION ***
+
+sáb10 09:09  *** PRESS RESUME 2 ***
+
+sáb10 09:09  gripper down cota x medida 2869.917236
+
+sáb10 09:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+
+sáb10 09:10  gripper down cota x medida 2030.897095
+
+sáb10 09:10  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.902905 
+
+sáb10 09:11  gripper down cota x medida 268.949310
+
+sáb10 09:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.949310 
+
+sáb10 09:11  gripper up cota x medida 234.804794
+
+sáb10 09:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804794 
+
+sáb10 09:11  *** PRESS SYSTEM LINK ***
+
+sáb10 09:12  *** PRESS RESUME 1 ***
+
+sáb10 09:12  *** CHECK HOME POSITION ***
+sáb10 09:12  *** PRESS RESUME 2 ***
+
+sáb10 09:13  gripper down cota x medida 2869.850342
+
+sáb10 09:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.749658 
+
+sáb10 09:14  gripper down cota x medida 2030.997681
+
+sáb10 09:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802319 
+
+sáb10 09:14  gripper down cota x medida 269.036133
+
+sáb10 09:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.036133 
+
+sáb10 09:15  gripper up cota x medida 234.930923
+
+sáb10 09:15  PARKING UP TOMAR DIFERENCIA CON X REF = -0.930923 
+
+sáb10 09:15  *** PRESS SYSTEM LINK ***
+
+sáb10 09:16  *** PRESS RESUME 1 ***
+
+sáb10 09:16  *** CHECK HOME POSITION ***
+sáb10 09:16  *** PRESS RESUME 2 ***
+
+sáb10 09:16  gripper down cota x medida 2874.159180
+
+sáb10 09:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.559180 
+
+sáb10 09:17  gripper down cota x medida 931.365967
+
+sáb10 09:17  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.434033 
+
+sáb10 09:17  gripper up cota x medida 1025.122803
+
+sáb10 09:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.677197 
+
+sáb10 09:17  *** PRESS SYSTEM LINK ***
+
+sáb10 09:19  *** PRESS RESUME 1 ***
+
+sáb10 09:19  *** CHECK HOME POSITION ***
+sáb10 09:19  *** PRESS RESUME 2 ***
+
+sáb10 09:19  gripper down cota x medida 2874.184570
+
+sáb10 09:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.584570 
+
+sáb10 09:20  gripper down cota x medida 931.391663
+
+sáb10 09:20  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.408337 
+
+sáb10 09:20  gripper up cota x medida 1025.043823
+
+sáb10 09:20  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.756177 
+
+sáb10 09:20  *** PRESS SYSTEM LINK ***
+
+sáb10 09:22  *** PRESS RESUME 1 ***
+
+sáb10 09:22  *** CHECK HOME POSITION ***
+
+sáb10 09:22  *** PRESS RESUME 2 ***
+
+sáb10 09:23  gripper down cota x medida 2869.924072
+
+sáb10 09:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675928 
+
+sáb10 09:23  gripper down cota x medida 2030.889893
+
+sáb10 09:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.910107 
+
+sáb10 09:24  gripper down cota x medida 268.963226
+
+sáb10 09:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.963226 
+
+sáb10 09:25  gripper up cota x medida 234.884521
+
+sáb10 09:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.884521 
+
+sáb10 09:25  *** PRESS SYSTEM LINK ***
+
+sáb10 09:26  *** PRESS RESUME 1 ***
+
+sáb10 09:26  *** CHECK HOME POSITION ***
+sáb10 09:26  *** PRESS RESUME 2 ***
+
+sáb10 09:26  gripper down cota x medida 2869.883789
+
+sáb10 09:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.716211 
+
+sáb10 09:27  gripper down cota x medida 2030.943481
+
+sáb10 09:27  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856519 
+
+sáb10 09:28  gripper down cota x medida 268.634888
+
+sáb10 09:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.634888 
+
+sáb10 09:28  gripper up cota x medida 234.491638
+
+sáb10 09:28  PARKING UP TOMAR DIFERENCIA CON X REF = -0.491638 
+
+sáb10 09:28  *** PRESS SYSTEM LINK ***
+
+sáb10 09:29  *** PRESS RESUME 1 ***
+
+sáb10 09:29  *** CHECK HOME POSITION ***
+
+sáb10 09:29  *** PRESS RESUME 2 ***
+
+sáb10 09:29  gripper down cota x medida 2874.198486
+
+sáb10 09:29  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.598486 
+
+sáb10 09:30  gripper down cota x medida 931.504517
+
+sáb10 09:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295483 
+
+sáb10 09:30  gripper up cota x medida 1025.096436
+
+sáb10 09:30  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.703564 
+
+sáb10 09:31  *** PRESS SYSTEM LINK ***
+
+sáb10 09:33  *** PRESS RESUME 1 ***
+
+sáb10 09:33  *** CHECK HOME POSITION ***
+
+sáb10 09:33  *** PRESS RESUME 2 ***
+
+sáb10 09:33  gripper down cota x medida 2874.205078
+
+sáb10 09:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+
+sáb10 09:34  gripper down cota x medida 931.431580
+
+sáb10 09:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.368420 
+
+sáb10 09:34  gripper up cota x medida 1025.143433
+
+sáb10 09:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.656567 
+
+sáb10 09:34  *** PRESS SYSTEM LINK ***
+
+sáb10 09:36  *** PRESS RESUME 1 ***
+
+sáb10 09:36  *** CHECK HOME POSITION ***
+sáb10 09:36  *** PRESS RESUME 2 ***
+
+sáb10 09:36  gripper down cota x medida 2869.977295
+
+sáb10 09:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.622705 
+
+sáb10 09:37  gripper down cota x medida 2030.984131
+
+sáb10 09:37  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.815869 
+
+sáb10 09:38  gripper down cota x medida 269.308716
+
+sáb10 09:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.308716 
+
+sáb10 09:38  gripper up cota x medida 234.997711
+
+sáb10 09:38  PARKING UP TOMAR DIFERENCIA CON X REF = -0.997711 
+
+sáb10 09:38  *** PRESS SYSTEM LINK ***
+
+sáb10 09:39  *** PRESS RESUME 1 ***
+
+sáb10 09:39  *** CHECK HOME POSITION ***
+
+sáb10 09:39  *** PRESS RESUME 2 ***
+
+sáb10 09:40  gripper down cota x medida 2869.911133
+
+sáb10 09:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.688867 
+
+sáb10 09:41  gripper down cota x medida 2030.977051
+
+--- Qtvcp Screen Started on: sáb, feb 10 2024 04:34:22 ---
+sáb10 04:34 Machine OFF
+sáb10 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+sáb10 04:34 Machine ON
+sáb10 04:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:36 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:44 Started program from line 1
+sáb10 04:44  error eje Z fuera de posicion segura
+sáb10 04:44  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:46 Started program from line 1
+sáb10 04:46  INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:47 Started program from line 1
+sáb10 04:47  gripper down cota x medida 261.632111
+sáb10 04:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 6.367889 
+sáb10 04:47  EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN
+sáb10 04:49 Started program from line 1
+sáb10 04:49  error eje Y fuera de posicion segura
+sáb10 04:49  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:50 Started program from line 1
+sáb10 04:50  CARGA gripper down - Cupla no presente en vertical de carga
+sáb10 04:51 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:53 Started program from line 1
+sáb10 04:53  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+sáb10 04:54 Started program from line 1
+sáb10 04:54  gripper down cota x medida 268.814423
+sáb10 04:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.814423 
+sáb10 04:54  *** PRESS SYSTEM LINK ***
+sáb10 04:54  *** PRESS RESUME 1 ***
+sáb10 04:54  *** CHECK HOME POSITION ***
+sáb10 04:54  *** PRESS RESUME 2 ***
+sáb10 04:55 Machine OFF
+sáb10 04:55 movimiento detenido por entrada habilitada
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Machine ON
+sáb10 05:04 Must be in AUTO mode to run a program
+sáb10 05:12 Cannot switch pages while in AUTO mode
+sáb10 05:15 Cannot switch pages while in AUTO mode
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Started program from line 1
+sáb10 05:23  gripper down cota x medida 268.382843
+sáb10 05:23  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.382843 
+sáb10 05:23  *** PRESS SYSTEM LINK ***
+sáb10 05:23  *** PRESS RESUME 1 ***
+sáb10 05:23  *** CHECK HOME POSITION ***
+sáb10 05:23  *** PRESS RESUME 2 ***
+sáb10 05:24  gripper down cota x medida 268.854675
+sáb10 05:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.854675 
+sáb10 05:24  gripper up cota x medida 235.004120
+sáb10 05:24  PARKING UP TOMAR DIFERENCIA CON X REF = -1.004120 
+sáb10 05:24  *** PRESS SYSTEM LINK ***
+sáb10 05:27  *** PRESS RESUME 1 ***
+sáb10 05:27  *** CHECK HOME POSITION ***
+sáb10 05:27  *** PRESS RESUME 2 ***
+sáb10 05:27  gripper down cota x medida 2874.057861
+sáb10 05:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.457861 
+sáb10 05:28  gripper down cota x medida 931.285156
+sáb10 05:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.514844 
+sáb10 05:28  gripper up cota x medida 1025.150635
+sáb10 05:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649365 
+sáb10 05:28  *** PRESS SYSTEM LINK ***
+sáb10 05:30  *** PRESS RESUME 1 ***
+sáb10 05:31  *** CHECK HOME POSITION ***
+sáb10 05:31  *** PRESS RESUME 2 ***
+sáb10 05:31  gripper down cota x medida 2873.840332
+sáb10 05:31  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.240332 
+sáb10 05:32  gripper down cota x medida 931.345398
+sáb10 05:32  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454602 
+sáb10 05:32  gripper up cota x medida 1024.878662
+sáb10 05:32  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.921338 
+sáb10 05:32  *** PRESS SYSTEM LINK ***
+sáb10 05:35  *** PRESS RESUME 1 ***
+sáb10 05:35  *** CHECK HOME POSITION ***
+sáb10 05:35  *** PRESS RESUME 2 ***
+sáb10 05:35  gripper down cota x medida 2869.790527
+sáb10 05:35  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.809473 
+sáb10 05:36  gripper down cota x medida 2030.777100
+sáb10 05:36  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022900 
+sáb10 05:37  gripper down cota x medida 268.983063
+sáb10 05:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.983063 
+sáb10 05:37  gripper up cota x medida 235.017929
+sáb10 05:37  PARKING UP TOMAR DIFERENCIA CON X REF = -1.017929 
+sáb10 05:38  *** PRESS SYSTEM LINK ***
+sáb10 05:38  *** PRESS RESUME 1 ***
+sáb10 05:39  *** CHECK HOME POSITION ***
+sáb10 05:39  *** PRESS RESUME 2 ***
+sáb10 05:39  gripper down cota x medida 2869.750977
+sáb10 05:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.849023 
+sáb10 05:40  gripper down cota x medida 2030.764282
+sáb10 05:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035718 
+sáb10 05:41  gripper down cota x medida 269.236481
+sáb10 05:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.236481 
+sáb10 05:41  gripper up cota x medida 235.077728
+sáb10 05:41  PARKING UP TOMAR DIFERENCIA CON X REF = -1.077728 
+sáb10 05:41  *** PRESS SYSTEM LINK ***
+sáb10 05:42  *** PRESS RESUME 1 ***
+sáb10 05:43  *** CHECK HOME POSITION ***
+sáb10 05:43  *** PRESS RESUME 2 ***
+sáb10 05:43  gripper down cota x medida 2873.880127
+sáb10 05:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.280127 
+sáb10 05:44  gripper down cota x medida 931.324951
+sáb10 05:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.475049 
+sáb10 05:44  gripper up cota x medida 1025.103394
+sáb10 05:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696606 
+sáb10 05:45  *** PRESS SYSTEM LINK ***
+sáb10 05:45  *** PRESS RESUME 1 ***
+sáb10 05:48  *** CHECK HOME POSITION ***
+sáb10 05:48  *** PRESS RESUME 2 ***
+sáb10 05:48  gripper down cota x medida 2874.044678
+sáb10 05:48  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.444678 
+sáb10 05:49  gripper down cota x medida 931.298401
+sáb10 05:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.501599 
+sáb10 05:49  gripper up cota x medida 1024.978516
+sáb10 05:49  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.821484 
+sáb10 05:49  *** PRESS SYSTEM LINK ***
+sáb10 05:52  *** PRESS RESUME 1 ***
+sáb10 05:52  *** CHECK HOME POSITION ***
+sáb10 05:52  *** PRESS RESUME 2 ***
+sáb10 05:52  gripper down cota x medida 2869.863525
+sáb10 05:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736475 
+sáb10 05:53  gripper down cota x medida 2030.896729
+sáb10 05:53  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.903271 
+sáb10 05:54  gripper down cota x medida 268.766907
+sáb10 05:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.766907 
+sáb10 05:54  gripper up cota x medida 234.871216
+sáb10 05:54  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871216 
+sáb10 05:55  *** PRESS SYSTEM LINK ***
+sáb10 05:56  *** PRESS RESUME 1 ***
+sáb10 05:56  *** CHECK HOME POSITION ***
+sáb10 05:56  *** PRESS RESUME 2 ***
+sáb10 05:56  gripper down cota x medida 2869.817383
+sáb10 05:56  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782617 
+sáb10 05:57  gripper down cota x medida 2030.876953
+sáb10 05:57  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.923047 
+sáb10 05:58  *** PRESS SYSTEM LINK ***
+sáb10 05:59  *** PRESS RESUME 1 ***
+sáb10 06:00  *** CHECK HOME POSITION ***
+sáb10 06:00  *** PRESS RESUME 2 ***
+sáb10 06:00  gripper down cota x medida 2874.264648
+sáb10 06:00  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.664648 
+sáb10 06:00  gripper down cota x medida 931.345520
+sáb10 06:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454480 
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:01  *** PRESS RESUME 1 ***
+sáb10 06:01  *** CHECK HOME POSITION ***
+sáb10 06:01  *** PRESS RESUME 2 ***
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:04  *** PRESS RESUME 1 ***
+sáb10 06:04  *** CHECK HOME POSITION ***
+sáb10 06:04  *** PRESS RESUME 2 ***
+sáb10 06:04  gripper down cota x medida 2870.038086
+sáb10 06:04  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.561914 
+sáb10 06:05  gripper down cota x medida 2030.803833
+sáb10 06:05  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 06:07 Cannot switch pages while in AUTO mode
+sáb10 07:46 Cannot switch pages while in AUTO mode
+sáb10 07:46 Started program from line 1
+sáb10 07:46  gripper down cota x medida 269.513794
+sáb10 07:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.513794 
+sáb10 07:47  *** PRESS SYSTEM LINK ***
+sáb10 07:47  *** PRESS RESUME 1 ***
+sáb10 07:47  *** CHECK HOME POSITION ***
+sáb10 07:49  *** PRESS RESUME 2 ***
+sáb10 07:49  gripper down cota x medida 268.908966
+sáb10 07:49  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.908966 
+sáb10 07:50  gripper up cota x medida 235.064484
+sáb10 07:50  PARKING UP TOMAR DIFERENCIA CON X REF = -1.064484 
+sáb10 07:50  *** PRESS SYSTEM LINK ***
+sáb10 07:54  *** PRESS RESUME 1 ***
+sáb10 07:54  *** CHECK HOME POSITION ***
+sáb10 07:54  *** PRESS RESUME 2 ***
+sáb10 07:54  gripper down cota x medida 2873.893555
+sáb10 07:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.293555 
+sáb10 07:55  gripper down cota x medida 931.544800
+sáb10 07:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.255200 
+sáb10 07:55  gripper up cota x medida 1025.010620
+sáb10 07:55  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.789380 
+sáb10 07:56  *** PRESS SYSTEM LINK ***
+sáb10 07:56  *** PRESS RESUME 1 ***
+sáb10 07:59  *** CHECK HOME POSITION ***
+sáb10 07:59  *** PRESS RESUME 2 ***
+sáb10 07:59  gripper down cota x medida 2874.111816
+sáb10 07:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.511816 
+sáb10 08:00  gripper down cota x medida 931.504639
+sáb10 08:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295361 
+sáb10 08:00  gripper up cota x medida 1025.149658
+sáb10 08:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.650342 
+sáb10 08:01  *** PRESS SYSTEM LINK ***
+sáb10 08:02  *** PRESS RESUME 1 ***
+sáb10 08:03  *** CHECK HOME POSITION ***
+sáb10 08:03  *** PRESS RESUME 2 ***
+sáb10 08:03  gripper down cota x medida 2869.691406
+sáb10 08:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.908594 
+sáb10 08:04  gripper down cota x medida 2030.997803
+sáb10 08:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802197 
+sáb10 08:04  gripper down cota x medida 268.976257
+sáb10 08:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.976257 
+sáb10 08:05  gripper up cota x medida 234.964127
+sáb10 08:05  PARKING UP TOMAR DIFERENCIA CON X REF = -0.964127 
+sáb10 08:05  *** PRESS SYSTEM LINK ***
+sáb10 08:08  *** PRESS RESUME 1 ***
+sáb10 08:08  *** CHECK HOME POSITION ***
+sáb10 08:08  *** PRESS RESUME 2 ***
+sáb10 08:08  gripper down cota x medida 2869.816650
+sáb10 08:08  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.783350 
+sáb10 08:09  gripper down cota x medida 2030.770630
+sáb10 08:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.029370 
+sáb10 08:10  *** PRESS SYSTEM LINK ***
+sáb10 08:12  *** PRESS RESUME 1 ***
+sáb10 08:12  *** CHECK HOME POSITION ***
+sáb10 08:12  *** PRESS RESUME 2 ***
+sáb10 08:12  gripper down cota x medida 2874.277832
+sáb10 08:12  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.677832 
+sáb10 08:13  gripper down cota x medida 931.438843
+sáb10 08:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.361157 
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:13  *** CHECK HOME POSITION ***
+sáb10 08:13  *** PRESS RESUME 2 ***
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:17  *** CHECK HOME POSITION ***
+sáb10 08:17  *** PRESS RESUME 2 ***
+sáb10 08:17  TORNO TOMAR GRU - Plato del torno no esta en posicion correcta
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:26 Started program from line 1
+sáb10 08:26  gripper down cota x medida 269.002991
+sáb10 08:26  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.002991 
+sáb10 08:26  *** PRESS SYSTEM LINK ***
+sáb10 08:26  *** PRESS RESUME 1 ***
+sáb10 08:26  *** CHECK HOME POSITION ***
+sáb10 08:26  *** PRESS RESUME 2 ***
+sáb10 08:27  gripper down cota x medida 268.583893
+sáb10 08:27  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.583893 
+sáb10 08:27  gripper up cota x medida 234.612411
+sáb10 08:27  PARKING UP TOMAR DIFERENCIA CON X REF = -0.612411 
+sáb10 08:28  *** PRESS SYSTEM LINK ***
+sáb10 08:30  *** PRESS RESUME 1 ***
+sáb10 08:30  *** CHECK HOME POSITION ***
+sáb10 08:30  *** PRESS RESUME 2 ***
+sáb10 08:30  gripper down cota x medida 2873.860352
+sáb10 08:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+sáb10 08:31  gripper down cota x medida 931.318481
+sáb10 08:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.481519 
+sáb10 08:31  gripper up cota x medida 1025.076416
+sáb10 08:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.723584 
+sáb10 08:32  *** PRESS SYSTEM LINK ***
+sáb10 08:33  *** PRESS RESUME 1 ***
+sáb10 08:34  *** CHECK HOME POSITION ***
+sáb10 08:34  *** PRESS RESUME 2 ***
+sáb10 08:34  gripper down cota x medida 2874.078125
+sáb10 08:34  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.478125 
+sáb10 08:35  gripper down cota x medida 931.838989
+sáb10 08:35  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.961011 
+sáb10 08:35  gripper up cota x medida 1025.259766
+sáb10 08:35  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.540234 
+sáb10 08:35  *** PRESS SYSTEM LINK ***
+sáb10 08:37  *** PRESS RESUME 1 ***
+sáb10 08:37  *** CHECK HOME POSITION ***
+sáb10 08:37  *** PRESS RESUME 2 ***
+sáb10 08:38  gripper down cota x medida 2869.923828
+sáb10 08:38  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.676172 
+sáb10 08:39  gripper down cota x medida 2030.757324
+sáb10 08:39  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.042676 
+sáb10 08:39  gripper down cota x medida 268.875671
+sáb10 08:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.875671 
+sáb10 08:40  gripper up cota x medida 234.778854
+sáb10 08:40  PARKING UP TOMAR DIFERENCIA CON X REF = -0.778854 
+sáb10 08:40  *** PRESS SYSTEM LINK ***
+sáb10 08:41  *** PRESS RESUME 1 ***
+sáb10 08:42  *** CHECK HOME POSITION ***
+sáb10 08:42  *** PRESS RESUME 2 ***
+sáb10 08:42  gripper down cota x medida 2869.978271
+sáb10 08:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.621729 
+sáb10 08:43  gripper down cota x medida 2030.743774
+sáb10 08:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.056226 
+sáb10 08:43  gripper down cota x medida 268.841309
+sáb10 08:43  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.841309 
+sáb10 08:44  gripper up cota x medida 234.804840
+sáb10 08:44  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804840 
+sáb10 08:44  *** PRESS SYSTEM LINK ***
+sáb10 08:45  *** PRESS RESUME 1 ***
+sáb10 08:45  *** CHECK HOME POSITION ***
+sáb10 08:45  *** PRESS RESUME 2 ***
+sáb10 08:46  gripper down cota x medida 2874.150879
+sáb10 08:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.550879 
+sáb10 08:46  gripper down cota x medida 931.666382
+sáb10 08:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.133618 
+sáb10 08:47  gripper up cota x medida 1025.225342
+sáb10 08:47  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.574658 
+sáb10 08:47  *** PRESS SYSTEM LINK ***
+sáb10 08:49  *** PRESS RESUME 1 ***
+sáb10 08:49  *** CHECK HOME POSITION ***
+sáb10 08:49  *** PRESS RESUME 2 ***
+sáb10 08:50  gripper down cota x medida 2874.118896
+sáb10 08:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+sáb10 08:50  gripper down cota x medida 931.472168
+sáb10 08:50  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.327832 
+sáb10 08:51  gripper up cota x medida 1025.103271
+sáb10 08:51  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696729 
+sáb10 08:51  *** PRESS SYSTEM LINK ***
+sáb10 08:54  *** PRESS RESUME 1 ***
+sáb10 08:54  *** CHECK HOME POSITION ***
+sáb10 08:54  *** PRESS RESUME 2 ***
+sáb10 08:54  gripper down cota x medida 2869.917236
+sáb10 08:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 08:55  gripper down cota x medida 2030.697021
+sáb10 08:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.102979 
+sáb10 08:56  gripper down cota x medida 268.255646
+sáb10 08:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.255646 
+sáb10 08:56  gripper up cota x medida 234.004791
+sáb10 08:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.004791 
+sáb10 08:56  *** PRESS SYSTEM LINK ***
+sáb10 08:58  *** PRESS RESUME 1 ***
+sáb10 08:58  *** CHECK HOME POSITION ***
+sáb10 08:58  *** PRESS RESUME 2 ***
+sáb10 08:59  gripper down cota x medida 2869.857178
+sáb10 08:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.742822 
+sáb10 09:00  gripper down cota x medida 2030.943970
+sáb10 09:00  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856030 
+sáb10 09:00  gripper down cota x medida 269.009460
+sáb10 09:00  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.009460 
+sáb10 09:01  gripper up cota x medida 235.084015
+sáb10 09:01  PARKING UP TOMAR DIFERENCIA CON X REF = -1.084015 
+sáb10 09:01  *** PRESS SYSTEM LINK ***
+sáb10 09:02  *** PRESS RESUME 1 ***
+sáb10 09:02  *** CHECK HOME POSITION ***
+sáb10 09:02  *** PRESS RESUME 2 ***
+sáb10 09:02  gripper down cota x medida 2874.125244
+sáb10 09:02  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+sáb10 09:03  gripper down cota x medida 931.604736
+sáb10 09:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.195264 
+sáb10 09:03  gripper up cota x medida 1025.011108
+sáb10 09:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.788892 
+sáb10 09:04  *** PRESS SYSTEM LINK ***
+sáb10 09:05  *** PRESS RESUME 1 ***
+sáb10 09:06  *** CHECK HOME POSITION ***
+sáb10 09:06  *** PRESS RESUME 2 ***
+sáb10 09:06  gripper down cota x medida 2874.177979
+sáb10 09:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.577979 
+sáb10 09:07  gripper down cota x medida 931.331726
+sáb10 09:07  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.468274 
+sáb10 09:07  gripper up cota x medida 1024.912964
+sáb10 09:07  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.887036 
+sáb10 09:07  *** PRESS SYSTEM LINK ***
+sáb10 09:09  *** PRESS RESUME 1 ***
+sáb10 09:09  *** CHECK HOME POSITION ***
+sáb10 09:09  *** PRESS RESUME 2 ***
+sáb10 09:09  gripper down cota x medida 2869.917236
+sáb10 09:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 09:10  gripper down cota x medida 2030.897095
+sáb10 09:10  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.902905 
+sáb10 09:11  gripper down cota x medida 268.949310
+sáb10 09:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.949310 
+sáb10 09:11  gripper up cota x medida 234.804794
+sáb10 09:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804794 
+sáb10 09:11  *** PRESS SYSTEM LINK ***
+sáb10 09:12  *** PRESS RESUME 1 ***
+sáb10 09:12  *** CHECK HOME POSITION ***
+sáb10 09:12  *** PRESS RESUME 2 ***
+sáb10 09:13  gripper down cota x medida 2869.850342
+sáb10 09:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.749658 
+sáb10 09:14  gripper down cota x medida 2030.997681
+sáb10 09:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802319 
+sáb10 09:14  gripper down cota x medida 269.036133
+sáb10 09:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.036133 
+sáb10 09:15  gripper up cota x medida 234.930923
+sáb10 09:15  PARKING UP TOMAR DIFERENCIA CON X REF = -0.930923 
+sáb10 09:15  *** PRESS SYSTEM LINK ***
+sáb10 09:16  *** PRESS RESUME 1 ***
+sáb10 09:16  *** CHECK HOME POSITION ***
+sáb10 09:16  *** PRESS RESUME 2 ***
+sáb10 09:16  gripper down cota x medida 2874.159180
+sáb10 09:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.559180 
+sáb10 09:17  gripper down cota x medida 931.365967
+sáb10 09:17  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.434033 
+sáb10 09:17  gripper up cota x medida 1025.122803
+sáb10 09:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.677197 
+sáb10 09:17  *** PRESS SYSTEM LINK ***
+sáb10 09:19  *** PRESS RESUME 1 ***
+sáb10 09:19  *** CHECK HOME POSITION ***
+sáb10 09:19  *** PRESS RESUME 2 ***
+sáb10 09:19  gripper down cota x medida 2874.184570
+sáb10 09:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.584570 
+sáb10 09:20  gripper down cota x medida 931.391663
+sáb10 09:20  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.408337 
+sáb10 09:20  gripper up cota x medida 1025.043823
+sáb10 09:20  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.756177 
+sáb10 09:20  *** PRESS SYSTEM LINK ***
+sáb10 09:22  *** PRESS RESUME 1 ***
+sáb10 09:22  *** CHECK HOME POSITION ***
+sáb10 09:22  *** PRESS RESUME 2 ***
+sáb10 09:23  gripper down cota x medida 2869.924072
+sáb10 09:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675928 
+sáb10 09:23  gripper down cota x medida 2030.889893
+sáb10 09:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.910107 
+sáb10 09:24  gripper down cota x medida 268.963226
+sáb10 09:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.963226 
+sáb10 09:25  gripper up cota x medida 234.884521
+sáb10 09:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.884521 
+sáb10 09:25  *** PRESS SYSTEM LINK ***
+sáb10 09:26  *** PRESS RESUME 1 ***
+sáb10 09:26  *** CHECK HOME POSITION ***
+sáb10 09:26  *** PRESS RESUME 2 ***
+sáb10 09:26  gripper down cota x medida 2869.883789
+sáb10 09:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.716211 
+sáb10 09:27  gripper down cota x medida 2030.943481
+sáb10 09:27  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856519 
+sáb10 09:28  gripper down cota x medida 268.634888
+sáb10 09:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.634888 
+sáb10 09:28  gripper up cota x medida 234.491638
+sáb10 09:28  PARKING UP TOMAR DIFERENCIA CON X REF = -0.491638 
+sáb10 09:28  *** PRESS SYSTEM LINK ***
+sáb10 09:29  *** PRESS RESUME 1 ***
+sáb10 09:29  *** CHECK HOME POSITION ***
+sáb10 09:29  *** PRESS RESUME 2 ***
+sáb10 09:29  gripper down cota x medida 2874.198486
+sáb10 09:29  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.598486 
+sáb10 09:30  gripper down cota x medida 931.504517
+sáb10 09:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295483 
+sáb10 09:30  gripper up cota x medida 1025.096436
+sáb10 09:30  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.703564 
+sáb10 09:31  *** PRESS SYSTEM LINK ***
+sáb10 09:33  *** PRESS RESUME 1 ***
+sáb10 09:33  *** CHECK HOME POSITION ***
+sáb10 09:33  *** PRESS RESUME 2 ***
+sáb10 09:33  gripper down cota x medida 2874.205078
+sáb10 09:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+sáb10 09:34  gripper down cota x medida 931.431580
+sáb10 09:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.368420 
+sáb10 09:34  gripper up cota x medida 1025.143433
+sáb10 09:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.656567 
+sáb10 09:34  *** PRESS SYSTEM LINK ***
+sáb10 09:36  *** PRESS RESUME 1 ***
+sáb10 09:36  *** CHECK HOME POSITION ***
+sáb10 09:36  *** PRESS RESUME 2 ***
+sáb10 09:36  gripper down cota x medida 2869.977295
+sáb10 09:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.622705 
+sáb10 09:37  gripper down cota x medida 2030.984131
+sáb10 09:37  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.815869 
+sáb10 09:38  gripper down cota x medida 269.308716
+sáb10 09:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.308716 
+sáb10 09:38  gripper up cota x medida 234.997711
+sáb10 09:38  PARKING UP TOMAR DIFERENCIA CON X REF = -0.997711 
+sáb10 09:38  *** PRESS SYSTEM LINK ***
+sáb10 09:39  *** PRESS RESUME 1 ***
+sáb10 09:39  *** CHECK HOME POSITION ***
+sáb10 09:39  *** PRESS RESUME 2 ***
+sáb10 09:40  gripper down cota x medida 2869.911133
+sáb10 09:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.688867 
+sáb10 09:41  gripper down cota x medida 2030.977051
+sáb10 09:41  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.822949 
+
+sáb10 09:41  gripper down cota x medida 268.889465
+
+sáb10 09:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.889465 
+
+sáb10 09:42  gripper up cota x medida 234.871552
+
+sáb10 09:42  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871552 
+
+sáb10 09:42  *** PRESS SYSTEM LINK ***
+
+sáb10 09:43  *** PRESS RESUME 1 ***
+
+sáb10 09:43  *** CHECK HOME POSITION ***
+
+sáb10 09:43  *** PRESS RESUME 2 ***
+
+sáb10 09:43  gripper down cota x medida 2873.919434
+
+sáb10 09:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.319434 
+
+sáb10 09:44  gripper down cota x medida 931.612244
+
+sáb10 09:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.187756 
+
+sáb10 09:44  gripper up cota x medida 1025.123169
+
+sáb10 09:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.676831 
+
+sáb10 09:44  *** PRESS SYSTEM LINK ***
+
+sáb10 09:46  *** PRESS RESUME 1 ***
+
+sáb10 09:46  *** CHECK HOME POSITION ***
+
+sáb10 09:46  *** PRESS RESUME 2 ***
+
+sáb10 09:46  gripper down cota x medida 2874.169189
+
+sáb10 09:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.569189 
+
+sáb10 09:47  gripper down cota x medida 931.618835
+
+sáb10 09:47  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.181165 
+
+sáb10 09:48  gripper up cota x medida 1025.110229
+
+sáb10 09:48  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.689771 
+
+sáb10 09:48  *** PRESS SYSTEM LINK ***
+
+sáb10 09:50  *** PRESS RESUME 1 ***
+
+sáb10 09:50  *** CHECK HOME POSITION ***
+
+sáb10 09:50  *** PRESS RESUME 2 ***
+
+sáb10 09:50  gripper down cota x medida 2869.950928
+
+sáb10 09:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.649072 
+
+sáb10 09:51  gripper down cota x medida 2030.803833
+
+sáb10 09:51  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+
+sáb10 09:52  gripper down cota x medida 267.976624
+
+sáb10 09:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.023376 
+
+sáb10 09:52  gripper up cota x medida 233.617844
+
+sáb10 09:52  PARKING UP TOMAR DIFERENCIA CON X REF = 0.382156 
+
+sáb10 09:52  *** PRESS SYSTEM LINK ***
+
+sáb10 09:53  *** PRESS RESUME 1 ***
+
+sáb10 09:53  *** CHECK HOME POSITION ***
+
+sáb10 09:53  *** PRESS RESUME 2 ***
+
+sáb10 09:53  gripper down cota x medida 2869.863770
+
+sáb10 09:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736230 
+
+sáb10 09:54  gripper down cota x medida 2030.837280
+
+sáb10 09:54  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.962720 
+
+sáb10 09:55  gripper down cota x medida 269.230652
+
+sáb10 09:55  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.230652 
+
+sáb10 09:55  gripper up cota x medida 234.978119
+
+sáb10 09:55  PARKING UP TOMAR DIFERENCIA CON X REF = -0.978119 
+
+sáb10 09:56  *** PRESS SYSTEM LINK ***
+
+sáb10 09:56  *** PRESS RESUME 1 ***
+
+sáb10 09:57  *** CHECK HOME POSITION ***
+
+sáb10 09:57  *** PRESS RESUME 2 ***
+
+sáb10 09:57  gripper down cota x medida 2874.024414
+
+sáb10 09:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424414 
+
+sáb10 09:58  gripper down cota x medida 931.798218
+
+sáb10 09:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.001782 
+
+sáb10 09:58  gripper up cota x medida 1024.971558
+
+sáb10 09:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.828442 
+
+sáb10 09:58  *** PRESS SYSTEM LINK ***
+
+sáb10 10:00  *** PRESS RESUME 1 ***
+
+sáb10 10:00  *** CHECK HOME POSITION ***
+
+sáb10 10:00  *** PRESS RESUME 2 ***
+
+sáb10 10:00  gripper down cota x medida 2874.191650
+
+sáb10 10:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.591650 
+
+sáb10 10:01  gripper down cota x medida 931.451477
+
+sáb10 10:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.348523 
+
+sáb10 10:01  gripper up cota x medida 1025.150269
+
+sáb10 10:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649731 
+
+sáb10 10:02  *** PRESS SYSTEM LINK ***
+
+sáb10 10:05  *** PRESS RESUME 1 ***
+
+sáb10 10:05  *** CHECK HOME POSITION ***
+
+sáb10 10:05  *** PRESS RESUME 2 ***
+
+sáb10 10:05  gripper down cota x medida 2869.899902
+
+sáb10 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.700098 
+
+sáb10 10:06  gripper down cota x medida 2030.764038
+
+sáb10 10:06  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035962 
+
+sáb10 10:07  gripper down cota x medida 268.215759
+
+sáb10 10:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215759 
+
+sáb10 10:07  gripper up cota x medida 234.211197
+
+sáb10 10:07  PARKING UP TOMAR DIFERENCIA CON X REF = -0.211197 
+
+sáb10 10:08  *** PRESS SYSTEM LINK ***
+
+sáb10 10:08  *** PRESS RESUME 1 ***
+
+sáb10 10:08  *** CHECK HOME POSITION ***
+
+sáb10 10:08  *** PRESS RESUME 2 ***
+
+sáb10 10:09  gripper down cota x medida 2869.836914
+
+sáb10 10:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.763086 
+
+sáb10 10:09  gripper down cota x medida 2030.964478
+
+sáb10 10:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.835522 
+
+sáb10 10:10  gripper down cota x medida 268.288910
+
+sáb10 10:10  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.288910 
+
+sáb10 10:11  gripper up cota x medida 234.311325
+
+sáb10 10:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.311325 
+
+sáb10 10:11  *** PRESS SYSTEM LINK ***
+
+sáb10 10:12  *** PRESS RESUME 1 ***
+
+sáb10 10:12  *** CHECK HOME POSITION ***
+
+sáb10 10:12  *** PRESS RESUME 2 ***
+
+sáb10 10:12  gripper down cota x medida 2874.125244
+
+sáb10 10:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+
+sáb10 10:13  gripper down cota x medida 930.829346
+
+sáb10 10:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.970654 
+
+sáb10 10:13  gripper up cota x medida 1023.640015
+
+sáb10 10:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.159985 
+
+sáb10 10:13  *** PRESS SYSTEM LINK ***
+
+sáb10 10:15  *** PRESS RESUME 1 ***
+
+sáb10 10:15  *** CHECK HOME POSITION ***
+
+sáb10 10:15  *** PRESS RESUME 2 ***
+
+sáb10 10:16  gripper down cota x medida 2874.211670
+
+sáb10 10:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.611670 
+
+sáb10 10:16  gripper down cota x medida 932.063660
+
+sáb10 10:16  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.736340 
+
+sáb10 10:17  gripper up cota x medida 1024.286499
+
+sáb10 10:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.513501 
+
+sáb10 10:17  *** PRESS SYSTEM LINK ***
+
+sáb10 10:18  *** PRESS RESUME 1 ***
+
+sáb10 10:19  *** CHECK HOME POSITION ***
+
+sáb10 10:19  *** PRESS RESUME 2 ***
+
+sáb10 10:19  gripper down cota x medida 2869.890381
+
+sáb10 10:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.709619 
+
+sáb10 10:20  gripper down cota x medida 2030.856689
+
+sáb10 10:20  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.943311 
+
+sáb10 10:21  gripper down cota x medida 268.142975
+
+sáb10 10:21  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.142975 
+
+sáb10 10:21  gripper up cota x medida 234.138199
+
+sáb10 10:21  PARKING UP TOMAR DIFERENCIA CON X REF = -0.138199 
+
+sáb10 10:22  *** PRESS SYSTEM LINK ***
+
+sáb10 10:22  *** PRESS RESUME 1 ***
+
+sáb10 10:23  *** CHECK HOME POSITION ***
+
+sáb10 10:23  *** PRESS RESUME 2 ***
+
+sáb10 10:23  gripper down cota x medida 2869.817139
+
+sáb10 10:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782861 
+
+sáb10 10:24  gripper down cota x medida 2030.755005
+
+sáb10 10:24  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.044995 
+
+sáb10 10:24  gripper down cota x medida 268.215485
+
+sáb10 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215485 
+
+sáb10 10:25  gripper up cota x medida 234.184433
+
+sáb10 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184433 
+
+sáb10 10:25  *** PRESS SYSTEM LINK ***
+
+sáb10 10:26  *** PRESS RESUME 1 ***
+
+sáb10 10:26  *** CHECK HOME POSITION ***
+
+sáb10 10:26  *** PRESS RESUME 2 ***
+
+sáb10 10:26  gripper down cota x medida 2874.017578
+
+sáb10 10:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.417578 
+
+sáb10 10:27  gripper down cota x medida 930.957520
+
+sáb10 10:27  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.842480 
+
+sáb10 10:27  gripper up cota x medida 1023.706299
+
+sáb10 10:27  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.093701 
+
+sáb10 10:28  *** PRESS SYSTEM LINK ***
+
+sáb10 10:29  *** PRESS RESUME 1 ***
+
+sáb10 10:29  *** CHECK HOME POSITION ***
+
+sáb10 10:29  *** PRESS RESUME 2 ***
+
+sáb10 10:30  gripper down cota x medida 2874.038086
+
+sáb10 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.438086 
+
+sáb10 10:30  gripper down cota x medida 932.170837
+
+sáb10 10:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.629163 
+
+sáb10 10:31  gripper up cota x medida 1023.412170
+
+sáb10 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.387830 
+
+sáb10 10:31  *** PRESS SYSTEM LINK ***
+
+sáb10 10:33  *** PRESS RESUME 1 ***
+
+sáb10 10:33  *** CHECK HOME POSITION ***
+
+sáb10 10:33  *** PRESS RESUME 2 ***
+
+sáb10 10:33  gripper down cota x medida 2869.915527
+
+sáb10 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.684473 
+
+sáb10 10:34  gripper down cota x medida 2030.883667
+
+sáb10 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.916333 
+
+sáb10 10:35  gripper down cota x medida 268.209259
+
+sáb10 10:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.209259 
+
+sáb10 10:35  gripper up cota x medida 234.184174
+
+sáb10 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184174 
+
+sáb10 10:35  *** PRESS SYSTEM LINK ***
+
+sáb10 10:36  *** PRESS RESUME 1 ***
+
+sáb10 10:37  *** CHECK HOME POSITION ***
+
+sáb10 10:37  *** PRESS RESUME 2 ***
+
+sáb10 10:37  gripper down cota x medida 2869.870850
+
+sáb10 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.729150 
+
+sáb10 10:38  gripper down cota x medida 2030.744019
+
+sáb10 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.055981 
+
+sáb10 10:39  gripper down cota x medida 268.315948
+
+sáb10 10:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.315948 
+
+sáb10 10:39  gripper up cota x medida 234.404922
+
+sáb10 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = -0.404922 
+
+sáb10 10:39  *** PRESS SYSTEM LINK ***
+
+sáb10 10:40  *** PRESS RESUME 1 ***
+
+sáb10 10:41  *** CHECK HOME POSITION ***
+
+sáb10 10:41  *** PRESS RESUME 2 ***
+
+sáb10 10:42  gripper down cota x medida 2874.205078
+
+sáb10 10:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+
+sáb10 10:42  gripper down cota x medida 931.907166
+
+sáb10 10:42  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.892834 
+
+sáb10 10:43  gripper up cota x medida 1024.906128
+
+sáb10 10:43  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.893872 
+
+sáb10 10:43  *** PRESS SYSTEM LINK ***
+
+sáb10 10:45  *** PRESS RESUME 1 ***
+
+sáb10 10:45  *** CHECK HOME POSITION ***
+
+sáb10 10:45  *** PRESS RESUME 2 ***
+
+sáb10 10:45  gripper down cota x medida 2874.104980
+
+sáb10 10:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.504980 
+
+sáb10 10:46  gripper down cota x medida 930.471191
+
+sáb10 10:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.328809 
+
+sáb10 10:46  gripper up cota x medida 1023.626892
+
+sáb10 10:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.173108 
+
+sáb10 10:46  *** PRESS SYSTEM LINK ***
+
+sáb10 10:48  *** PRESS RESUME 1 ***
+
+sáb10 10:49  *** CHECK HOME POSITION ***
+
+sáb10 10:49  *** PRESS RESUME 2 ***
+
+sáb10 10:49  gripper down cota x medida 2869.910645
+
+sáb10 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.689355 
+
+sáb10 10:50  gripper down cota x medida 2030.557251
+
+sáb10 10:50  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.242749 
+
+sáb10 10:50  gripper down cota x medida 268.362488
+
+sáb10 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.362488 
+
+sáb10 10:51  gripper up cota x medida 234.498795
+
+sáb10 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = -0.498795 
+
+sáb10 10:51  *** PRESS SYSTEM LINK ***
+
+sáb10 10:54  *** PRESS RESUME 1 ***
+
+sáb10 10:54  *** CHECK HOME POSITION ***
+
+sáb10 10:54  *** PRESS RESUME 2 ***
+
+sáb10 10:54  gripper down cota x medida 2869.924316
+
+sáb10 10:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675684 
+
+sáb10 10:55  gripper down cota x medida 2030.764404
+
+sáb10 10:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035596 
+
+sáb10 10:56  gripper down cota x medida 268.262756
+
+sáb10 10:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.262756 
+
+sáb10 10:56  gripper up cota x medida 234.344955
+
+sáb10 10:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.344955 
+
+sáb10 10:57  *** PRESS SYSTEM LINK ***
+
+sáb10 10:57  *** PRESS RESUME 1 ***
+
+sáb10 10:58  *** CHECK HOME POSITION ***
+
+sáb10 10:58  *** PRESS RESUME 2 ***
+
+sáb10 10:59  gripper down cota x medida 2874.024170
+
+sáb10 10:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424170 
+
+sáb10 10:59  gripper down cota x medida 930.504639
+
+sáb10 10:59  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.295361 
+
+sáb10 11:00  gripper up cota x medida 1024.161133
+
+sáb10 11:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.638867 
+
+sáb10 11:00  *** PRESS SYSTEM LINK ***
+
+sáb10 11:01  *** PRESS RESUME 1 ***
+
+sáb10 11:02  *** CHECK HOME POSITION ***
+
+sáb10 11:02  *** PRESS RESUME 2 ***
+
+sáb10 11:03  gripper down cota x medida 2874.118896
+
+sáb10 11:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+
+sáb10 11:03  gripper down cota x medida 930.558105
+
+sáb10 11:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.241895 
+
+sáb10 11:04  gripper up cota x medida 1025.037598
+
+sáb10 11:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.762402 
+
+sáb10 11:04  *** PRESS SYSTEM LINK ***
+
+sáb10 11:05  *** PRESS RESUME 1 ***
+
+sáb10 11:06  *** CHECK HOME POSITION ***
+
+sáb10 11:06  *** PRESS RESUME 2 ***
+
+sáb10 11:07  gripper down cota x medida 2869.930908
+
+sáb10 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.669092 
+
+sáb10 11:08  gripper down cota x medida 2030.777588
+
+sáb10 11:08  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022412 
+
+sáb10 11:08  gripper down cota x medida 268.346771
+
+sáb10 11:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.346771 
+
+sáb10 11:09  gripper up cota x medida 234.399017
+
+sáb10 11:09  PARKING UP TOMAR DIFERENCIA CON X REF = -0.399017 
+
+sáb10 11:09  *** PRESS SYSTEM LINK ***
+
+sáb10 11:11  *** PRESS RESUME 1 ***
+
+sáb10 11:11  *** CHECK HOME POSITION ***
+
+sáb10 11:11  *** PRESS RESUME 2 ***
+
+sáb10 11:11  gripper down cota x medida 2869.777344
+
+sáb10 11:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.822656 
+
+sáb10 11:12  gripper down cota x medida 2030.703857
+
+sáb10 11:12  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.096143 
+
+sáb10 11:13  gripper down cota x medida 268.681305
+
+sáb10 11:13  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.681305 
+
+sáb10 11:13  gripper up cota x medida 234.377853
+
+sáb10 11:13  PARKING UP TOMAR DIFERENCIA CON X REF = -0.377853 
+
+sáb10 11:13  *** PRESS SYSTEM LINK ***
+
+--- Qtvcp Screen Started on: sáb, feb 10 2024 04:34:22 ---
+sáb10 04:34 Machine OFF
+sáb10 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+sáb10 04:34 Machine ON
+sáb10 04:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:36 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:44 Started program from line 1
+sáb10 04:44  error eje Z fuera de posicion segura
+sáb10 04:44  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:46 Started program from line 1
+sáb10 04:46  INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:47 Started program from line 1
+sáb10 04:47  gripper down cota x medida 261.632111
+sáb10 04:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 6.367889 
+sáb10 04:47  EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN
+sáb10 04:49 Started program from line 1
+sáb10 04:49  error eje Y fuera de posicion segura
+sáb10 04:49  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:50 Started program from line 1
+sáb10 04:50  CARGA gripper down - Cupla no presente en vertical de carga
+sáb10 04:51 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:53 Started program from line 1
+sáb10 04:53  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+sáb10 04:54 Started program from line 1
+sáb10 04:54  gripper down cota x medida 268.814423
+sáb10 04:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.814423 
+sáb10 04:54  *** PRESS SYSTEM LINK ***
+sáb10 04:54  *** PRESS RESUME 1 ***
+sáb10 04:54  *** CHECK HOME POSITION ***
+sáb10 04:54  *** PRESS RESUME 2 ***
+sáb10 04:55 Machine OFF
+sáb10 04:55 movimiento detenido por entrada habilitada
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Machine ON
+sáb10 05:04 Must be in AUTO mode to run a program
+sáb10 05:12 Cannot switch pages while in AUTO mode
+sáb10 05:15 Cannot switch pages while in AUTO mode
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Started program from line 1
+sáb10 05:23  gripper down cota x medida 268.382843
+sáb10 05:23  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.382843 
+sáb10 05:23  *** PRESS SYSTEM LINK ***
+sáb10 05:23  *** PRESS RESUME 1 ***
+sáb10 05:23  *** CHECK HOME POSITION ***
+sáb10 05:23  *** PRESS RESUME 2 ***
+sáb10 05:24  gripper down cota x medida 268.854675
+sáb10 05:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.854675 
+sáb10 05:24  gripper up cota x medida 235.004120
+sáb10 05:24  PARKING UP TOMAR DIFERENCIA CON X REF = -1.004120 
+sáb10 05:24  *** PRESS SYSTEM LINK ***
+sáb10 05:27  *** PRESS RESUME 1 ***
+sáb10 05:27  *** CHECK HOME POSITION ***
+sáb10 05:27  *** PRESS RESUME 2 ***
+sáb10 05:27  gripper down cota x medida 2874.057861
+sáb10 05:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.457861 
+sáb10 05:28  gripper down cota x medida 931.285156
+sáb10 05:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.514844 
+sáb10 05:28  gripper up cota x medida 1025.150635
+sáb10 05:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649365 
+sáb10 05:28  *** PRESS SYSTEM LINK ***
+sáb10 05:30  *** PRESS RESUME 1 ***
+sáb10 05:31  *** CHECK HOME POSITION ***
+sáb10 05:31  *** PRESS RESUME 2 ***
+sáb10 05:31  gripper down cota x medida 2873.840332
+sáb10 05:31  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.240332 
+sáb10 05:32  gripper down cota x medida 931.345398
+sáb10 05:32  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454602 
+sáb10 05:32  gripper up cota x medida 1024.878662
+sáb10 05:32  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.921338 
+sáb10 05:32  *** PRESS SYSTEM LINK ***
+sáb10 05:35  *** PRESS RESUME 1 ***
+sáb10 05:35  *** CHECK HOME POSITION ***
+sáb10 05:35  *** PRESS RESUME 2 ***
+sáb10 05:35  gripper down cota x medida 2869.790527
+sáb10 05:35  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.809473 
+sáb10 05:36  gripper down cota x medida 2030.777100
+sáb10 05:36  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022900 
+sáb10 05:37  gripper down cota x medida 268.983063
+sáb10 05:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.983063 
+sáb10 05:37  gripper up cota x medida 235.017929
+sáb10 05:37  PARKING UP TOMAR DIFERENCIA CON X REF = -1.017929 
+sáb10 05:38  *** PRESS SYSTEM LINK ***
+sáb10 05:38  *** PRESS RESUME 1 ***
+sáb10 05:39  *** CHECK HOME POSITION ***
+sáb10 05:39  *** PRESS RESUME 2 ***
+sáb10 05:39  gripper down cota x medida 2869.750977
+sáb10 05:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.849023 
+sáb10 05:40  gripper down cota x medida 2030.764282
+sáb10 05:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035718 
+sáb10 05:41  gripper down cota x medida 269.236481
+sáb10 05:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.236481 
+sáb10 05:41  gripper up cota x medida 235.077728
+sáb10 05:41  PARKING UP TOMAR DIFERENCIA CON X REF = -1.077728 
+sáb10 05:41  *** PRESS SYSTEM LINK ***
+sáb10 05:42  *** PRESS RESUME 1 ***
+sáb10 05:43  *** CHECK HOME POSITION ***
+sáb10 05:43  *** PRESS RESUME 2 ***
+sáb10 05:43  gripper down cota x medida 2873.880127
+sáb10 05:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.280127 
+sáb10 05:44  gripper down cota x medida 931.324951
+sáb10 05:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.475049 
+sáb10 05:44  gripper up cota x medida 1025.103394
+sáb10 05:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696606 
+sáb10 05:45  *** PRESS SYSTEM LINK ***
+sáb10 05:45  *** PRESS RESUME 1 ***
+sáb10 05:48  *** CHECK HOME POSITION ***
+sáb10 05:48  *** PRESS RESUME 2 ***
+sáb10 05:48  gripper down cota x medida 2874.044678
+sáb10 05:48  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.444678 
+sáb10 05:49  gripper down cota x medida 931.298401
+sáb10 05:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.501599 
+sáb10 05:49  gripper up cota x medida 1024.978516
+sáb10 05:49  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.821484 
+sáb10 05:49  *** PRESS SYSTEM LINK ***
+sáb10 05:52  *** PRESS RESUME 1 ***
+sáb10 05:52  *** CHECK HOME POSITION ***
+sáb10 05:52  *** PRESS RESUME 2 ***
+sáb10 05:52  gripper down cota x medida 2869.863525
+sáb10 05:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736475 
+sáb10 05:53  gripper down cota x medida 2030.896729
+sáb10 05:53  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.903271 
+sáb10 05:54  gripper down cota x medida 268.766907
+sáb10 05:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.766907 
+sáb10 05:54  gripper up cota x medida 234.871216
+sáb10 05:54  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871216 
+sáb10 05:55  *** PRESS SYSTEM LINK ***
+sáb10 05:56  *** PRESS RESUME 1 ***
+sáb10 05:56  *** CHECK HOME POSITION ***
+sáb10 05:56  *** PRESS RESUME 2 ***
+sáb10 05:56  gripper down cota x medida 2869.817383
+sáb10 05:56  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782617 
+sáb10 05:57  gripper down cota x medida 2030.876953
+sáb10 05:57  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.923047 
+sáb10 05:58  *** PRESS SYSTEM LINK ***
+sáb10 05:59  *** PRESS RESUME 1 ***
+sáb10 06:00  *** CHECK HOME POSITION ***
+sáb10 06:00  *** PRESS RESUME 2 ***
+sáb10 06:00  gripper down cota x medida 2874.264648
+sáb10 06:00  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.664648 
+sáb10 06:00  gripper down cota x medida 931.345520
+sáb10 06:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454480 
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:01  *** PRESS RESUME 1 ***
+sáb10 06:01  *** CHECK HOME POSITION ***
+sáb10 06:01  *** PRESS RESUME 2 ***
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:04  *** PRESS RESUME 1 ***
+sáb10 06:04  *** CHECK HOME POSITION ***
+sáb10 06:04  *** PRESS RESUME 2 ***
+sáb10 06:04  gripper down cota x medida 2870.038086
+sáb10 06:04  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.561914 
+sáb10 06:05  gripper down cota x medida 2030.803833
+sáb10 06:05  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 06:07 Cannot switch pages while in AUTO mode
+sáb10 07:46 Cannot switch pages while in AUTO mode
+sáb10 07:46 Started program from line 1
+sáb10 07:46  gripper down cota x medida 269.513794
+sáb10 07:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.513794 
+sáb10 07:47  *** PRESS SYSTEM LINK ***
+sáb10 07:47  *** PRESS RESUME 1 ***
+sáb10 07:47  *** CHECK HOME POSITION ***
+sáb10 07:49  *** PRESS RESUME 2 ***
+sáb10 07:49  gripper down cota x medida 268.908966
+sáb10 07:49  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.908966 
+sáb10 07:50  gripper up cota x medida 235.064484
+sáb10 07:50  PARKING UP TOMAR DIFERENCIA CON X REF = -1.064484 
+sáb10 07:50  *** PRESS SYSTEM LINK ***
+sáb10 07:54  *** PRESS RESUME 1 ***
+sáb10 07:54  *** CHECK HOME POSITION ***
+sáb10 07:54  *** PRESS RESUME 2 ***
+sáb10 07:54  gripper down cota x medida 2873.893555
+sáb10 07:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.293555 
+sáb10 07:55  gripper down cota x medida 931.544800
+sáb10 07:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.255200 
+sáb10 07:55  gripper up cota x medida 1025.010620
+sáb10 07:55  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.789380 
+sáb10 07:56  *** PRESS SYSTEM LINK ***
+sáb10 07:56  *** PRESS RESUME 1 ***
+sáb10 07:59  *** CHECK HOME POSITION ***
+sáb10 07:59  *** PRESS RESUME 2 ***
+sáb10 07:59  gripper down cota x medida 2874.111816
+sáb10 07:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.511816 
+sáb10 08:00  gripper down cota x medida 931.504639
+sáb10 08:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295361 
+sáb10 08:00  gripper up cota x medida 1025.149658
+sáb10 08:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.650342 
+sáb10 08:01  *** PRESS SYSTEM LINK ***
+sáb10 08:02  *** PRESS RESUME 1 ***
+sáb10 08:03  *** CHECK HOME POSITION ***
+sáb10 08:03  *** PRESS RESUME 2 ***
+sáb10 08:03  gripper down cota x medida 2869.691406
+sáb10 08:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.908594 
+sáb10 08:04  gripper down cota x medida 2030.997803
+sáb10 08:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802197 
+sáb10 08:04  gripper down cota x medida 268.976257
+sáb10 08:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.976257 
+sáb10 08:05  gripper up cota x medida 234.964127
+sáb10 08:05  PARKING UP TOMAR DIFERENCIA CON X REF = -0.964127 
+sáb10 08:05  *** PRESS SYSTEM LINK ***
+sáb10 08:08  *** PRESS RESUME 1 ***
+sáb10 08:08  *** CHECK HOME POSITION ***
+sáb10 08:08  *** PRESS RESUME 2 ***
+sáb10 08:08  gripper down cota x medida 2869.816650
+sáb10 08:08  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.783350 
+sáb10 08:09  gripper down cota x medida 2030.770630
+sáb10 08:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.029370 
+sáb10 08:10  *** PRESS SYSTEM LINK ***
+sáb10 08:12  *** PRESS RESUME 1 ***
+sáb10 08:12  *** CHECK HOME POSITION ***
+sáb10 08:12  *** PRESS RESUME 2 ***
+sáb10 08:12  gripper down cota x medida 2874.277832
+sáb10 08:12  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.677832 
+sáb10 08:13  gripper down cota x medida 931.438843
+sáb10 08:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.361157 
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:13  *** CHECK HOME POSITION ***
+sáb10 08:13  *** PRESS RESUME 2 ***
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:17  *** CHECK HOME POSITION ***
+sáb10 08:17  *** PRESS RESUME 2 ***
+sáb10 08:17  TORNO TOMAR GRU - Plato del torno no esta en posicion correcta
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:26 Started program from line 1
+sáb10 08:26  gripper down cota x medida 269.002991
+sáb10 08:26  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.002991 
+sáb10 08:26  *** PRESS SYSTEM LINK ***
+sáb10 08:26  *** PRESS RESUME 1 ***
+sáb10 08:26  *** CHECK HOME POSITION ***
+sáb10 08:26  *** PRESS RESUME 2 ***
+sáb10 08:27  gripper down cota x medida 268.583893
+sáb10 08:27  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.583893 
+sáb10 08:27  gripper up cota x medida 234.612411
+sáb10 08:27  PARKING UP TOMAR DIFERENCIA CON X REF = -0.612411 
+sáb10 08:28  *** PRESS SYSTEM LINK ***
+sáb10 08:30  *** PRESS RESUME 1 ***
+sáb10 08:30  *** CHECK HOME POSITION ***
+sáb10 08:30  *** PRESS RESUME 2 ***
+sáb10 08:30  gripper down cota x medida 2873.860352
+sáb10 08:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+sáb10 08:31  gripper down cota x medida 931.318481
+sáb10 08:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.481519 
+sáb10 08:31  gripper up cota x medida 1025.076416
+sáb10 08:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.723584 
+sáb10 08:32  *** PRESS SYSTEM LINK ***
+sáb10 08:33  *** PRESS RESUME 1 ***
+sáb10 08:34  *** CHECK HOME POSITION ***
+sáb10 08:34  *** PRESS RESUME 2 ***
+sáb10 08:34  gripper down cota x medida 2874.078125
+sáb10 08:34  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.478125 
+sáb10 08:35  gripper down cota x medida 931.838989
+sáb10 08:35  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.961011 
+sáb10 08:35  gripper up cota x medida 1025.259766
+sáb10 08:35  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.540234 
+sáb10 08:35  *** PRESS SYSTEM LINK ***
+sáb10 08:37  *** PRESS RESUME 1 ***
+sáb10 08:37  *** CHECK HOME POSITION ***
+sáb10 08:37  *** PRESS RESUME 2 ***
+sáb10 08:38  gripper down cota x medida 2869.923828
+sáb10 08:38  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.676172 
+sáb10 08:39  gripper down cota x medida 2030.757324
+sáb10 08:39  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.042676 
+sáb10 08:39  gripper down cota x medida 268.875671
+sáb10 08:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.875671 
+sáb10 08:40  gripper up cota x medida 234.778854
+sáb10 08:40  PARKING UP TOMAR DIFERENCIA CON X REF = -0.778854 
+sáb10 08:40  *** PRESS SYSTEM LINK ***
+sáb10 08:41  *** PRESS RESUME 1 ***
+sáb10 08:42  *** CHECK HOME POSITION ***
+sáb10 08:42  *** PRESS RESUME 2 ***
+sáb10 08:42  gripper down cota x medida 2869.978271
+sáb10 08:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.621729 
+sáb10 08:43  gripper down cota x medida 2030.743774
+sáb10 08:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.056226 
+sáb10 08:43  gripper down cota x medida 268.841309
+sáb10 08:43  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.841309 
+sáb10 08:44  gripper up cota x medida 234.804840
+sáb10 08:44  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804840 
+sáb10 08:44  *** PRESS SYSTEM LINK ***
+sáb10 08:45  *** PRESS RESUME 1 ***
+sáb10 08:45  *** CHECK HOME POSITION ***
+sáb10 08:45  *** PRESS RESUME 2 ***
+sáb10 08:46  gripper down cota x medida 2874.150879
+sáb10 08:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.550879 
+sáb10 08:46  gripper down cota x medida 931.666382
+sáb10 08:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.133618 
+sáb10 08:47  gripper up cota x medida 1025.225342
+sáb10 08:47  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.574658 
+sáb10 08:47  *** PRESS SYSTEM LINK ***
+sáb10 08:49  *** PRESS RESUME 1 ***
+sáb10 08:49  *** CHECK HOME POSITION ***
+sáb10 08:49  *** PRESS RESUME 2 ***
+sáb10 08:50  gripper down cota x medida 2874.118896
+sáb10 08:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+sáb10 08:50  gripper down cota x medida 931.472168
+sáb10 08:50  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.327832 
+sáb10 08:51  gripper up cota x medida 1025.103271
+sáb10 08:51  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696729 
+sáb10 08:51  *** PRESS SYSTEM LINK ***
+sáb10 08:54  *** PRESS RESUME 1 ***
+sáb10 08:54  *** CHECK HOME POSITION ***
+sáb10 08:54  *** PRESS RESUME 2 ***
+sáb10 08:54  gripper down cota x medida 2869.917236
+sáb10 08:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 08:55  gripper down cota x medida 2030.697021
+sáb10 08:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.102979 
+sáb10 08:56  gripper down cota x medida 268.255646
+sáb10 08:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.255646 
+sáb10 08:56  gripper up cota x medida 234.004791
+sáb10 08:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.004791 
+sáb10 08:56  *** PRESS SYSTEM LINK ***
+sáb10 08:58  *** PRESS RESUME 1 ***
+sáb10 08:58  *** CHECK HOME POSITION ***
+sáb10 08:58  *** PRESS RESUME 2 ***
+sáb10 08:59  gripper down cota x medida 2869.857178
+sáb10 08:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.742822 
+sáb10 09:00  gripper down cota x medida 2030.943970
+sáb10 09:00  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856030 
+sáb10 09:00  gripper down cota x medida 269.009460
+sáb10 09:00  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.009460 
+sáb10 09:01  gripper up cota x medida 235.084015
+sáb10 09:01  PARKING UP TOMAR DIFERENCIA CON X REF = -1.084015 
+sáb10 09:01  *** PRESS SYSTEM LINK ***
+sáb10 09:02  *** PRESS RESUME 1 ***
+sáb10 09:02  *** CHECK HOME POSITION ***
+sáb10 09:02  *** PRESS RESUME 2 ***
+sáb10 09:02  gripper down cota x medida 2874.125244
+sáb10 09:02  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+sáb10 09:03  gripper down cota x medida 931.604736
+sáb10 09:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.195264 
+sáb10 09:03  gripper up cota x medida 1025.011108
+sáb10 09:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.788892 
+sáb10 09:04  *** PRESS SYSTEM LINK ***
+sáb10 09:05  *** PRESS RESUME 1 ***
+sáb10 09:06  *** CHECK HOME POSITION ***
+sáb10 09:06  *** PRESS RESUME 2 ***
+sáb10 09:06  gripper down cota x medida 2874.177979
+sáb10 09:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.577979 
+sáb10 09:07  gripper down cota x medida 931.331726
+sáb10 09:07  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.468274 
+sáb10 09:07  gripper up cota x medida 1024.912964
+sáb10 09:07  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.887036 
+sáb10 09:07  *** PRESS SYSTEM LINK ***
+sáb10 09:09  *** PRESS RESUME 1 ***
+sáb10 09:09  *** CHECK HOME POSITION ***
+sáb10 09:09  *** PRESS RESUME 2 ***
+sáb10 09:09  gripper down cota x medida 2869.917236
+sáb10 09:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 09:10  gripper down cota x medida 2030.897095
+sáb10 09:10  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.902905 
+sáb10 09:11  gripper down cota x medida 268.949310
+sáb10 09:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.949310 
+sáb10 09:11  gripper up cota x medida 234.804794
+sáb10 09:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804794 
+sáb10 09:11  *** PRESS SYSTEM LINK ***
+sáb10 09:12  *** PRESS RESUME 1 ***
+sáb10 09:12  *** CHECK HOME POSITION ***
+sáb10 09:12  *** PRESS RESUME 2 ***
+sáb10 09:13  gripper down cota x medida 2869.850342
+sáb10 09:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.749658 
+sáb10 09:14  gripper down cota x medida 2030.997681
+sáb10 09:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802319 
+sáb10 09:14  gripper down cota x medida 269.036133
+sáb10 09:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.036133 
+sáb10 09:15  gripper up cota x medida 234.930923
+sáb10 09:15  PARKING UP TOMAR DIFERENCIA CON X REF = -0.930923 
+sáb10 09:15  *** PRESS SYSTEM LINK ***
+sáb10 09:16  *** PRESS RESUME 1 ***
+sáb10 09:16  *** CHECK HOME POSITION ***
+sáb10 09:16  *** PRESS RESUME 2 ***
+sáb10 09:16  gripper down cota x medida 2874.159180
+sáb10 09:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.559180 
+sáb10 09:17  gripper down cota x medida 931.365967
+sáb10 09:17  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.434033 
+sáb10 09:17  gripper up cota x medida 1025.122803
+sáb10 09:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.677197 
+sáb10 09:17  *** PRESS SYSTEM LINK ***
+sáb10 09:19  *** PRESS RESUME 1 ***
+sáb10 09:19  *** CHECK HOME POSITION ***
+sáb10 09:19  *** PRESS RESUME 2 ***
+sáb10 09:19  gripper down cota x medida 2874.184570
+sáb10 09:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.584570 
+sáb10 09:20  gripper down cota x medida 931.391663
+sáb10 09:20  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.408337 
+sáb10 09:20  gripper up cota x medida 1025.043823
+sáb10 09:20  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.756177 
+sáb10 09:20  *** PRESS SYSTEM LINK ***
+sáb10 09:22  *** PRESS RESUME 1 ***
+sáb10 09:22  *** CHECK HOME POSITION ***
+sáb10 09:22  *** PRESS RESUME 2 ***
+sáb10 09:23  gripper down cota x medida 2869.924072
+sáb10 09:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675928 
+sáb10 09:23  gripper down cota x medida 2030.889893
+sáb10 09:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.910107 
+sáb10 09:24  gripper down cota x medida 268.963226
+sáb10 09:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.963226 
+sáb10 09:25  gripper up cota x medida 234.884521
+sáb10 09:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.884521 
+sáb10 09:25  *** PRESS SYSTEM LINK ***
+sáb10 09:26  *** PRESS RESUME 1 ***
+sáb10 09:26  *** CHECK HOME POSITION ***
+sáb10 09:26  *** PRESS RESUME 2 ***
+sáb10 09:26  gripper down cota x medida 2869.883789
+sáb10 09:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.716211 
+sáb10 09:27  gripper down cota x medida 2030.943481
+sáb10 09:27  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856519 
+sáb10 09:28  gripper down cota x medida 268.634888
+sáb10 09:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.634888 
+sáb10 09:28  gripper up cota x medida 234.491638
+sáb10 09:28  PARKING UP TOMAR DIFERENCIA CON X REF = -0.491638 
+sáb10 09:28  *** PRESS SYSTEM LINK ***
+sáb10 09:29  *** PRESS RESUME 1 ***
+sáb10 09:29  *** CHECK HOME POSITION ***
+sáb10 09:29  *** PRESS RESUME 2 ***
+sáb10 09:29  gripper down cota x medida 2874.198486
+sáb10 09:29  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.598486 
+sáb10 09:30  gripper down cota x medida 931.504517
+sáb10 09:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295483 
+sáb10 09:30  gripper up cota x medida 1025.096436
+sáb10 09:30  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.703564 
+sáb10 09:31  *** PRESS SYSTEM LINK ***
+sáb10 09:33  *** PRESS RESUME 1 ***
+sáb10 09:33  *** CHECK HOME POSITION ***
+sáb10 09:33  *** PRESS RESUME 2 ***
+sáb10 09:33  gripper down cota x medida 2874.205078
+sáb10 09:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+sáb10 09:34  gripper down cota x medida 931.431580
+sáb10 09:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.368420 
+sáb10 09:34  gripper up cota x medida 1025.143433
+sáb10 09:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.656567 
+sáb10 09:34  *** PRESS SYSTEM LINK ***
+sáb10 09:36  *** PRESS RESUME 1 ***
+sáb10 09:36  *** CHECK HOME POSITION ***
+sáb10 09:36  *** PRESS RESUME 2 ***
+sáb10 09:36  gripper down cota x medida 2869.977295
+sáb10 09:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.622705 
+sáb10 09:37  gripper down cota x medida 2030.984131
+sáb10 09:37  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.815869 
+sáb10 09:38  gripper down cota x medida 269.308716
+sáb10 09:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.308716 
+sáb10 09:38  gripper up cota x medida 234.997711
+sáb10 09:38  PARKING UP TOMAR DIFERENCIA CON X REF = -0.997711 
+sáb10 09:38  *** PRESS SYSTEM LINK ***
+sáb10 09:39  *** PRESS RESUME 1 ***
+sáb10 09:39  *** CHECK HOME POSITION ***
+sáb10 09:39  *** PRESS RESUME 2 ***
+sáb10 09:40  gripper down cota x medida 2869.911133
+sáb10 09:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.688867 
+sáb10 09:41  gripper down cota x medida 2030.977051
+sáb10 09:41  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.822949 
+sáb10 09:41  gripper down cota x medida 268.889465
+sáb10 09:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.889465 
+sáb10 09:42  gripper up cota x medida 234.871552
+sáb10 09:42  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871552 
+sáb10 09:42  *** PRESS SYSTEM LINK ***
+sáb10 09:43  *** PRESS RESUME 1 ***
+sáb10 09:43  *** CHECK HOME POSITION ***
+sáb10 09:43  *** PRESS RESUME 2 ***
+sáb10 09:43  gripper down cota x medida 2873.919434
+sáb10 09:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.319434 
+sáb10 09:44  gripper down cota x medida 931.612244
+sáb10 09:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.187756 
+sáb10 09:44  gripper up cota x medida 1025.123169
+sáb10 09:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.676831 
+sáb10 09:44  *** PRESS SYSTEM LINK ***
+sáb10 09:46  *** PRESS RESUME 1 ***
+sáb10 09:46  *** CHECK HOME POSITION ***
+sáb10 09:46  *** PRESS RESUME 2 ***
+sáb10 09:46  gripper down cota x medida 2874.169189
+sáb10 09:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.569189 
+sáb10 09:47  gripper down cota x medida 931.618835
+sáb10 09:47  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.181165 
+sáb10 09:48  gripper up cota x medida 1025.110229
+sáb10 09:48  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.689771 
+sáb10 09:48  *** PRESS SYSTEM LINK ***
+sáb10 09:50  *** PRESS RESUME 1 ***
+sáb10 09:50  *** CHECK HOME POSITION ***
+sáb10 09:50  *** PRESS RESUME 2 ***
+sáb10 09:50  gripper down cota x medida 2869.950928
+sáb10 09:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.649072 
+sáb10 09:51  gripper down cota x medida 2030.803833
+sáb10 09:51  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 09:52  gripper down cota x medida 267.976624
+sáb10 09:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.023376 
+sáb10 09:52  gripper up cota x medida 233.617844
+sáb10 09:52  PARKING UP TOMAR DIFERENCIA CON X REF = 0.382156 
+sáb10 09:52  *** PRESS SYSTEM LINK ***
+sáb10 09:53  *** PRESS RESUME 1 ***
+sáb10 09:53  *** CHECK HOME POSITION ***
+sáb10 09:53  *** PRESS RESUME 2 ***
+sáb10 09:53  gripper down cota x medida 2869.863770
+sáb10 09:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736230 
+sáb10 09:54  gripper down cota x medida 2030.837280
+sáb10 09:54  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.962720 
+sáb10 09:55  gripper down cota x medida 269.230652
+sáb10 09:55  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.230652 
+sáb10 09:55  gripper up cota x medida 234.978119
+sáb10 09:55  PARKING UP TOMAR DIFERENCIA CON X REF = -0.978119 
+sáb10 09:56  *** PRESS SYSTEM LINK ***
+sáb10 09:56  *** PRESS RESUME 1 ***
+sáb10 09:57  *** CHECK HOME POSITION ***
+sáb10 09:57  *** PRESS RESUME 2 ***
+sáb10 09:57  gripper down cota x medida 2874.024414
+sáb10 09:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424414 
+sáb10 09:58  gripper down cota x medida 931.798218
+sáb10 09:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.001782 
+sáb10 09:58  gripper up cota x medida 1024.971558
+sáb10 09:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.828442 
+sáb10 09:58  *** PRESS SYSTEM LINK ***
+sáb10 10:00  *** PRESS RESUME 1 ***
+sáb10 10:00  *** CHECK HOME POSITION ***
+sáb10 10:00  *** PRESS RESUME 2 ***
+sáb10 10:00  gripper down cota x medida 2874.191650
+sáb10 10:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.591650 
+sáb10 10:01  gripper down cota x medida 931.451477
+sáb10 10:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.348523 
+sáb10 10:01  gripper up cota x medida 1025.150269
+sáb10 10:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649731 
+sáb10 10:02  *** PRESS SYSTEM LINK ***
+sáb10 10:05  *** PRESS RESUME 1 ***
+sáb10 10:05  *** CHECK HOME POSITION ***
+sáb10 10:05  *** PRESS RESUME 2 ***
+sáb10 10:05  gripper down cota x medida 2869.899902
+sáb10 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.700098 
+sáb10 10:06  gripper down cota x medida 2030.764038
+sáb10 10:06  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035962 
+sáb10 10:07  gripper down cota x medida 268.215759
+sáb10 10:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215759 
+sáb10 10:07  gripper up cota x medida 234.211197
+sáb10 10:07  PARKING UP TOMAR DIFERENCIA CON X REF = -0.211197 
+sáb10 10:08  *** PRESS SYSTEM LINK ***
+sáb10 10:08  *** PRESS RESUME 1 ***
+sáb10 10:08  *** CHECK HOME POSITION ***
+sáb10 10:08  *** PRESS RESUME 2 ***
+sáb10 10:09  gripper down cota x medida 2869.836914
+sáb10 10:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.763086 
+sáb10 10:09  gripper down cota x medida 2030.964478
+sáb10 10:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.835522 
+sáb10 10:10  gripper down cota x medida 268.288910
+sáb10 10:10  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.288910 
+sáb10 10:11  gripper up cota x medida 234.311325
+sáb10 10:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.311325 
+sáb10 10:11  *** PRESS SYSTEM LINK ***
+sáb10 10:12  *** PRESS RESUME 1 ***
+sáb10 10:12  *** CHECK HOME POSITION ***
+sáb10 10:12  *** PRESS RESUME 2 ***
+sáb10 10:12  gripper down cota x medida 2874.125244
+sáb10 10:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+sáb10 10:13  gripper down cota x medida 930.829346
+sáb10 10:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.970654 
+sáb10 10:13  gripper up cota x medida 1023.640015
+sáb10 10:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.159985 
+sáb10 10:13  *** PRESS SYSTEM LINK ***
+sáb10 10:15  *** PRESS RESUME 1 ***
+sáb10 10:15  *** CHECK HOME POSITION ***
+sáb10 10:15  *** PRESS RESUME 2 ***
+sáb10 10:16  gripper down cota x medida 2874.211670
+sáb10 10:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.611670 
+sáb10 10:16  gripper down cota x medida 932.063660
+sáb10 10:16  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.736340 
+sáb10 10:17  gripper up cota x medida 1024.286499
+sáb10 10:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.513501 
+sáb10 10:17  *** PRESS SYSTEM LINK ***
+sáb10 10:18  *** PRESS RESUME 1 ***
+sáb10 10:19  *** CHECK HOME POSITION ***
+sáb10 10:19  *** PRESS RESUME 2 ***
+sáb10 10:19  gripper down cota x medida 2869.890381
+sáb10 10:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.709619 
+sáb10 10:20  gripper down cota x medida 2030.856689
+sáb10 10:20  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.943311 
+sáb10 10:21  gripper down cota x medida 268.142975
+sáb10 10:21  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.142975 
+sáb10 10:21  gripper up cota x medida 234.138199
+sáb10 10:21  PARKING UP TOMAR DIFERENCIA CON X REF = -0.138199 
+sáb10 10:22  *** PRESS SYSTEM LINK ***
+sáb10 10:22  *** PRESS RESUME 1 ***
+sáb10 10:23  *** CHECK HOME POSITION ***
+sáb10 10:23  *** PRESS RESUME 2 ***
+sáb10 10:23  gripper down cota x medida 2869.817139
+sáb10 10:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782861 
+sáb10 10:24  gripper down cota x medida 2030.755005
+sáb10 10:24  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.044995 
+sáb10 10:24  gripper down cota x medida 268.215485
+sáb10 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215485 
+sáb10 10:25  gripper up cota x medida 234.184433
+sáb10 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184433 
+sáb10 10:25  *** PRESS SYSTEM LINK ***
+sáb10 10:26  *** PRESS RESUME 1 ***
+sáb10 10:26  *** CHECK HOME POSITION ***
+sáb10 10:26  *** PRESS RESUME 2 ***
+sáb10 10:26  gripper down cota x medida 2874.017578
+sáb10 10:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.417578 
+sáb10 10:27  gripper down cota x medida 930.957520
+sáb10 10:27  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.842480 
+sáb10 10:27  gripper up cota x medida 1023.706299
+sáb10 10:27  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.093701 
+sáb10 10:28  *** PRESS SYSTEM LINK ***
+sáb10 10:29  *** PRESS RESUME 1 ***
+sáb10 10:29  *** CHECK HOME POSITION ***
+sáb10 10:29  *** PRESS RESUME 2 ***
+sáb10 10:30  gripper down cota x medida 2874.038086
+sáb10 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.438086 
+sáb10 10:30  gripper down cota x medida 932.170837
+sáb10 10:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.629163 
+sáb10 10:31  gripper up cota x medida 1023.412170
+sáb10 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.387830 
+sáb10 10:31  *** PRESS SYSTEM LINK ***
+sáb10 10:33  *** PRESS RESUME 1 ***
+sáb10 10:33  *** CHECK HOME POSITION ***
+sáb10 10:33  *** PRESS RESUME 2 ***
+sáb10 10:33  gripper down cota x medida 2869.915527
+sáb10 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.684473 
+sáb10 10:34  gripper down cota x medida 2030.883667
+sáb10 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.916333 
+sáb10 10:35  gripper down cota x medida 268.209259
+sáb10 10:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.209259 
+sáb10 10:35  gripper up cota x medida 234.184174
+sáb10 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184174 
+sáb10 10:35  *** PRESS SYSTEM LINK ***
+sáb10 10:36  *** PRESS RESUME 1 ***
+sáb10 10:37  *** CHECK HOME POSITION ***
+sáb10 10:37  *** PRESS RESUME 2 ***
+sáb10 10:37  gripper down cota x medida 2869.870850
+sáb10 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.729150 
+sáb10 10:38  gripper down cota x medida 2030.744019
+sáb10 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.055981 
+sáb10 10:39  gripper down cota x medida 268.315948
+sáb10 10:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.315948 
+sáb10 10:39  gripper up cota x medida 234.404922
+sáb10 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = -0.404922 
+sáb10 10:39  *** PRESS SYSTEM LINK ***
+sáb10 10:40  *** PRESS RESUME 1 ***
+sáb10 10:41  *** CHECK HOME POSITION ***
+sáb10 10:41  *** PRESS RESUME 2 ***
+sáb10 10:42  gripper down cota x medida 2874.205078
+sáb10 10:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+sáb10 10:42  gripper down cota x medida 931.907166
+sáb10 10:42  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.892834 
+sáb10 10:43  gripper up cota x medida 1024.906128
+sáb10 10:43  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.893872 
+sáb10 10:43  *** PRESS SYSTEM LINK ***
+sáb10 10:45  *** PRESS RESUME 1 ***
+sáb10 10:45  *** CHECK HOME POSITION ***
+sáb10 10:45  *** PRESS RESUME 2 ***
+sáb10 10:45  gripper down cota x medida 2874.104980
+sáb10 10:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.504980 
+sáb10 10:46  gripper down cota x medida 930.471191
+sáb10 10:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.328809 
+sáb10 10:46  gripper up cota x medida 1023.626892
+sáb10 10:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.173108 
+sáb10 10:46  *** PRESS SYSTEM LINK ***
+sáb10 10:48  *** PRESS RESUME 1 ***
+sáb10 10:49  *** CHECK HOME POSITION ***
+sáb10 10:49  *** PRESS RESUME 2 ***
+sáb10 10:49  gripper down cota x medida 2869.910645
+sáb10 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.689355 
+sáb10 10:50  gripper down cota x medida 2030.557251
+sáb10 10:50  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.242749 
+sáb10 10:50  gripper down cota x medida 268.362488
+sáb10 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.362488 
+sáb10 10:51  gripper up cota x medida 234.498795
+sáb10 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = -0.498795 
+sáb10 10:51  *** PRESS SYSTEM LINK ***
+sáb10 10:54  *** PRESS RESUME 1 ***
+sáb10 10:54  *** CHECK HOME POSITION ***
+sáb10 10:54  *** PRESS RESUME 2 ***
+sáb10 10:54  gripper down cota x medida 2869.924316
+sáb10 10:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675684 
+sáb10 10:55  gripper down cota x medida 2030.764404
+sáb10 10:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035596 
+sáb10 10:56  gripper down cota x medida 268.262756
+sáb10 10:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.262756 
+sáb10 10:56  gripper up cota x medida 234.344955
+sáb10 10:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.344955 
+sáb10 10:57  *** PRESS SYSTEM LINK ***
+sáb10 10:57  *** PRESS RESUME 1 ***
+sáb10 10:58  *** CHECK HOME POSITION ***
+sáb10 10:58  *** PRESS RESUME 2 ***
+sáb10 10:59  gripper down cota x medida 2874.024170
+sáb10 10:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424170 
+sáb10 10:59  gripper down cota x medida 930.504639
+sáb10 10:59  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.295361 
+sáb10 11:00  gripper up cota x medida 1024.161133
+sáb10 11:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.638867 
+sáb10 11:00  *** PRESS SYSTEM LINK ***
+sáb10 11:01  *** PRESS RESUME 1 ***
+sáb10 11:02  *** CHECK HOME POSITION ***
+sáb10 11:02  *** PRESS RESUME 2 ***
+sáb10 11:03  gripper down cota x medida 2874.118896
+sáb10 11:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+sáb10 11:03  gripper down cota x medida 930.558105
+sáb10 11:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.241895 
+sáb10 11:04  gripper up cota x medida 1025.037598
+sáb10 11:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.762402 
+sáb10 11:04  *** PRESS SYSTEM LINK ***
+sáb10 11:05  *** PRESS RESUME 1 ***
+sáb10 11:06  *** CHECK HOME POSITION ***
+sáb10 11:06  *** PRESS RESUME 2 ***
+sáb10 11:07  gripper down cota x medida 2869.930908
+sáb10 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.669092 
+sáb10 11:08  gripper down cota x medida 2030.777588
+sáb10 11:08  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022412 
+sáb10 11:08  gripper down cota x medida 268.346771
+sáb10 11:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.346771 
+sáb10 11:09  gripper up cota x medida 234.399017
+sáb10 11:09  PARKING UP TOMAR DIFERENCIA CON X REF = -0.399017 
+sáb10 11:09  *** PRESS SYSTEM LINK ***
+sáb10 11:11  *** PRESS RESUME 1 ***
+sáb10 11:11  *** CHECK HOME POSITION ***
+sáb10 11:11  *** PRESS RESUME 2 ***
+sáb10 11:11  gripper down cota x medida 2869.777344
+sáb10 11:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.822656 
+sáb10 11:12  gripper down cota x medida 2030.703857
+sáb10 11:12  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.096143 
+sáb10 11:13  gripper down cota x medida 268.681305
+sáb10 11:13  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.681305 
+sáb10 11:13  gripper up cota x medida 234.377853
+sáb10 11:13  PARKING UP TOMAR DIFERENCIA CON X REF = -0.377853 
+sáb10 11:13  *** PRESS SYSTEM LINK ***
+sáb10 11:14  *** PRESS RESUME 1 ***
+
+sáb10 11:15  *** CHECK HOME POSITION ***
+
+sáb10 11:15  *** PRESS RESUME 2 ***
+
+sáb10 11:15  gripper down cota x medida 2873.860352
+
+sáb10 11:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+
+sáb10 11:16  gripper down cota x medida 930.896179
+
+sáb10 11:16  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.903821 
+
+sáb10 11:16  gripper up cota x medida 1024.892334
+
+sáb10 11:16  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.907666 
+
+sáb10 11:16  *** PRESS SYSTEM LINK ***
+
+sáb10 11:16  *** PRESS RESUME 1 ***
+
+--- Qtvcp Screen Started on: sáb, feb 10 2024 04:34:22 ---
+sáb10 04:34 Machine OFF
+sáb10 04:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+sáb10 04:34 Machine ON
+sáb10 04:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:36 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 04:44 Started program from line 1
+sáb10 04:44  error eje Z fuera de posicion segura
+sáb10 04:44  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:46 Started program from line 1
+sáb10 04:46  INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:46 Cannot switch pages while in AUTO mode
+sáb10 04:47 Started program from line 1
+sáb10 04:47  gripper down cota x medida 261.632111
+sáb10 04:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 6.367889 
+sáb10 04:47  EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN
+sáb10 04:49 Started program from line 1
+sáb10 04:49  error eje Y fuera de posicion segura
+sáb10 04:49  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+sáb10 04:50 Started program from line 1
+sáb10 04:50  CARGA gripper down - Cupla no presente en vertical de carga
+sáb10 04:51 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Cannot switch pages while in AUTO mode
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de pateador
+sáb10 04:52 Cupla no presente en pateador
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 anulada activa
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de soplador
+sáb10 04:52 Flag de comenzar rutina soplado no esta encendido
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de descarga
+sáb10 04:52 Cupla no presente en descarga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 Error en condiciones iniciales de carga
+sáb10 04:52 Gantry no esta en estado 2 (programa en automatico)
+sáb10 04:52 No esta en play el programa de automatico
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:52 --------------------------------------------------------------------------------------
+sáb10 04:53 Started program from line 1
+sáb10 04:53  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+sáb10 04:54 Started program from line 1
+sáb10 04:54  gripper down cota x medida 268.814423
+sáb10 04:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.814423 
+sáb10 04:54  *** PRESS SYSTEM LINK ***
+sáb10 04:54  *** PRESS RESUME 1 ***
+sáb10 04:54  *** CHECK HOME POSITION ***
+sáb10 04:54  *** PRESS RESUME 2 ***
+sáb10 04:55 Machine OFF
+sáb10 04:55 movimiento detenido por entrada habilitada
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Cannot switch pages while in AUTO mode
+sáb10 04:57 Machine ON
+sáb10 05:04 Must be in AUTO mode to run a program
+sáb10 05:12 Cannot switch pages while in AUTO mode
+sáb10 05:15 Cannot switch pages while in AUTO mode
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded program file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/program_not_od.ngc
+sáb10 05:22 Started program from line 1
+sáb10 05:23  gripper down cota x medida 268.382843
+sáb10 05:23  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.382843 
+sáb10 05:23  *** PRESS SYSTEM LINK ***
+sáb10 05:23  *** PRESS RESUME 1 ***
+sáb10 05:23  *** CHECK HOME POSITION ***
+sáb10 05:23  *** PRESS RESUME 2 ***
+sáb10 05:24  gripper down cota x medida 268.854675
+sáb10 05:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.854675 
+sáb10 05:24  gripper up cota x medida 235.004120
+sáb10 05:24  PARKING UP TOMAR DIFERENCIA CON X REF = -1.004120 
+sáb10 05:24  *** PRESS SYSTEM LINK ***
+sáb10 05:27  *** PRESS RESUME 1 ***
+sáb10 05:27  *** CHECK HOME POSITION ***
+sáb10 05:27  *** PRESS RESUME 2 ***
+sáb10 05:27  gripper down cota x medida 2874.057861
+sáb10 05:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.457861 
+sáb10 05:28  gripper down cota x medida 931.285156
+sáb10 05:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.514844 
+sáb10 05:28  gripper up cota x medida 1025.150635
+sáb10 05:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649365 
+sáb10 05:28  *** PRESS SYSTEM LINK ***
+sáb10 05:30  *** PRESS RESUME 1 ***
+sáb10 05:31  *** CHECK HOME POSITION ***
+sáb10 05:31  *** PRESS RESUME 2 ***
+sáb10 05:31  gripper down cota x medida 2873.840332
+sáb10 05:31  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.240332 
+sáb10 05:32  gripper down cota x medida 931.345398
+sáb10 05:32  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454602 
+sáb10 05:32  gripper up cota x medida 1024.878662
+sáb10 05:32  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.921338 
+sáb10 05:32  *** PRESS SYSTEM LINK ***
+sáb10 05:35  *** PRESS RESUME 1 ***
+sáb10 05:35  *** CHECK HOME POSITION ***
+sáb10 05:35  *** PRESS RESUME 2 ***
+sáb10 05:35  gripper down cota x medida 2869.790527
+sáb10 05:35  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.809473 
+sáb10 05:36  gripper down cota x medida 2030.777100
+sáb10 05:36  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022900 
+sáb10 05:37  gripper down cota x medida 268.983063
+sáb10 05:37  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.983063 
+sáb10 05:37  gripper up cota x medida 235.017929
+sáb10 05:37  PARKING UP TOMAR DIFERENCIA CON X REF = -1.017929 
+sáb10 05:38  *** PRESS SYSTEM LINK ***
+sáb10 05:38  *** PRESS RESUME 1 ***
+sáb10 05:39  *** CHECK HOME POSITION ***
+sáb10 05:39  *** PRESS RESUME 2 ***
+sáb10 05:39  gripper down cota x medida 2869.750977
+sáb10 05:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.849023 
+sáb10 05:40  gripper down cota x medida 2030.764282
+sáb10 05:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035718 
+sáb10 05:41  gripper down cota x medida 269.236481
+sáb10 05:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.236481 
+sáb10 05:41  gripper up cota x medida 235.077728
+sáb10 05:41  PARKING UP TOMAR DIFERENCIA CON X REF = -1.077728 
+sáb10 05:41  *** PRESS SYSTEM LINK ***
+sáb10 05:42  *** PRESS RESUME 1 ***
+sáb10 05:43  *** CHECK HOME POSITION ***
+sáb10 05:43  *** PRESS RESUME 2 ***
+sáb10 05:43  gripper down cota x medida 2873.880127
+sáb10 05:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.280127 
+sáb10 05:44  gripper down cota x medida 931.324951
+sáb10 05:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.475049 
+sáb10 05:44  gripper up cota x medida 1025.103394
+sáb10 05:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696606 
+sáb10 05:45  *** PRESS SYSTEM LINK ***
+sáb10 05:45  *** PRESS RESUME 1 ***
+sáb10 05:48  *** CHECK HOME POSITION ***
+sáb10 05:48  *** PRESS RESUME 2 ***
+sáb10 05:48  gripper down cota x medida 2874.044678
+sáb10 05:48  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.444678 
+sáb10 05:49  gripper down cota x medida 931.298401
+sáb10 05:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.501599 
+sáb10 05:49  gripper up cota x medida 1024.978516
+sáb10 05:49  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.821484 
+sáb10 05:49  *** PRESS SYSTEM LINK ***
+sáb10 05:52  *** PRESS RESUME 1 ***
+sáb10 05:52  *** CHECK HOME POSITION ***
+sáb10 05:52  *** PRESS RESUME 2 ***
+sáb10 05:52  gripper down cota x medida 2869.863525
+sáb10 05:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736475 
+sáb10 05:53  gripper down cota x medida 2030.896729
+sáb10 05:53  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.903271 
+sáb10 05:54  gripper down cota x medida 268.766907
+sáb10 05:54  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.766907 
+sáb10 05:54  gripper up cota x medida 234.871216
+sáb10 05:54  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871216 
+sáb10 05:55  *** PRESS SYSTEM LINK ***
+sáb10 05:56  *** PRESS RESUME 1 ***
+sáb10 05:56  *** CHECK HOME POSITION ***
+sáb10 05:56  *** PRESS RESUME 2 ***
+sáb10 05:56  gripper down cota x medida 2869.817383
+sáb10 05:56  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782617 
+sáb10 05:57  gripper down cota x medida 2030.876953
+sáb10 05:57  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.923047 
+sáb10 05:58  *** PRESS SYSTEM LINK ***
+sáb10 05:59  *** PRESS RESUME 1 ***
+sáb10 06:00  *** CHECK HOME POSITION ***
+sáb10 06:00  *** PRESS RESUME 2 ***
+sáb10 06:00  gripper down cota x medida 2874.264648
+sáb10 06:00  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.664648 
+sáb10 06:00  gripper down cota x medida 931.345520
+sáb10 06:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.454480 
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:01  *** PRESS RESUME 1 ***
+sáb10 06:01  *** CHECK HOME POSITION ***
+sáb10 06:01  *** PRESS RESUME 2 ***
+sáb10 06:01  *** PRESS SYSTEM LINK ***
+sáb10 06:04  *** PRESS RESUME 1 ***
+sáb10 06:04  *** CHECK HOME POSITION ***
+sáb10 06:04  *** PRESS RESUME 2 ***
+sáb10 06:04  gripper down cota x medida 2870.038086
+sáb10 06:04  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.561914 
+sáb10 06:05  gripper down cota x medida 2030.803833
+sáb10 06:05  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 06:07 Cannot switch pages while in AUTO mode
+sáb10 07:46 Cannot switch pages while in AUTO mode
+sáb10 07:46 Started program from line 1
+sáb10 07:46  gripper down cota x medida 269.513794
+sáb10 07:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.513794 
+sáb10 07:47  *** PRESS SYSTEM LINK ***
+sáb10 07:47  *** PRESS RESUME 1 ***
+sáb10 07:47  *** CHECK HOME POSITION ***
+sáb10 07:49  *** PRESS RESUME 2 ***
+sáb10 07:49  gripper down cota x medida 268.908966
+sáb10 07:49  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.908966 
+sáb10 07:50  gripper up cota x medida 235.064484
+sáb10 07:50  PARKING UP TOMAR DIFERENCIA CON X REF = -1.064484 
+sáb10 07:50  *** PRESS SYSTEM LINK ***
+sáb10 07:54  *** PRESS RESUME 1 ***
+sáb10 07:54  *** CHECK HOME POSITION ***
+sáb10 07:54  *** PRESS RESUME 2 ***
+sáb10 07:54  gripper down cota x medida 2873.893555
+sáb10 07:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.293555 
+sáb10 07:55  gripper down cota x medida 931.544800
+sáb10 07:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.255200 
+sáb10 07:55  gripper up cota x medida 1025.010620
+sáb10 07:55  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.789380 
+sáb10 07:56  *** PRESS SYSTEM LINK ***
+sáb10 07:56  *** PRESS RESUME 1 ***
+sáb10 07:59  *** CHECK HOME POSITION ***
+sáb10 07:59  *** PRESS RESUME 2 ***
+sáb10 07:59  gripper down cota x medida 2874.111816
+sáb10 07:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.511816 
+sáb10 08:00  gripper down cota x medida 931.504639
+sáb10 08:00  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295361 
+sáb10 08:00  gripper up cota x medida 1025.149658
+sáb10 08:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.650342 
+sáb10 08:01  *** PRESS SYSTEM LINK ***
+sáb10 08:02  *** PRESS RESUME 1 ***
+sáb10 08:03  *** CHECK HOME POSITION ***
+sáb10 08:03  *** PRESS RESUME 2 ***
+sáb10 08:03  gripper down cota x medida 2869.691406
+sáb10 08:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.908594 
+sáb10 08:04  gripper down cota x medida 2030.997803
+sáb10 08:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802197 
+sáb10 08:04  gripper down cota x medida 268.976257
+sáb10 08:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.976257 
+sáb10 08:05  gripper up cota x medida 234.964127
+sáb10 08:05  PARKING UP TOMAR DIFERENCIA CON X REF = -0.964127 
+sáb10 08:05  *** PRESS SYSTEM LINK ***
+sáb10 08:08  *** PRESS RESUME 1 ***
+sáb10 08:08  *** CHECK HOME POSITION ***
+sáb10 08:08  *** PRESS RESUME 2 ***
+sáb10 08:08  gripper down cota x medida 2869.816650
+sáb10 08:08  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.783350 
+sáb10 08:09  gripper down cota x medida 2030.770630
+sáb10 08:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.029370 
+sáb10 08:10  *** PRESS SYSTEM LINK ***
+sáb10 08:12  *** PRESS RESUME 1 ***
+sáb10 08:12  *** CHECK HOME POSITION ***
+sáb10 08:12  *** PRESS RESUME 2 ***
+sáb10 08:12  gripper down cota x medida 2874.277832
+sáb10 08:12  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.677832 
+sáb10 08:13  gripper down cota x medida 931.438843
+sáb10 08:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.361157 
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:13  *** CHECK HOME POSITION ***
+sáb10 08:13  *** PRESS RESUME 2 ***
+sáb10 08:13  *** PRESS SYSTEM LINK ***
+sáb10 08:13  *** PRESS RESUME 1 ***
+sáb10 08:17  *** CHECK HOME POSITION ***
+sáb10 08:17  *** PRESS RESUME 2 ***
+sáb10 08:17  TORNO TOMAR GRU - Plato del torno no esta en posicion correcta
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:24 Eje y no esta en posicion
+sáb10 08:26 Started program from line 1
+sáb10 08:26  gripper down cota x medida 269.002991
+sáb10 08:26  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.002991 
+sáb10 08:26  *** PRESS SYSTEM LINK ***
+sáb10 08:26  *** PRESS RESUME 1 ***
+sáb10 08:26  *** CHECK HOME POSITION ***
+sáb10 08:26  *** PRESS RESUME 2 ***
+sáb10 08:27  gripper down cota x medida 268.583893
+sáb10 08:27  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.583893 
+sáb10 08:27  gripper up cota x medida 234.612411
+sáb10 08:27  PARKING UP TOMAR DIFERENCIA CON X REF = -0.612411 
+sáb10 08:28  *** PRESS SYSTEM LINK ***
+sáb10 08:30  *** PRESS RESUME 1 ***
+sáb10 08:30  *** CHECK HOME POSITION ***
+sáb10 08:30  *** PRESS RESUME 2 ***
+sáb10 08:30  gripper down cota x medida 2873.860352
+sáb10 08:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+sáb10 08:31  gripper down cota x medida 931.318481
+sáb10 08:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.481519 
+sáb10 08:31  gripper up cota x medida 1025.076416
+sáb10 08:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.723584 
+sáb10 08:32  *** PRESS SYSTEM LINK ***
+sáb10 08:33  *** PRESS RESUME 1 ***
+sáb10 08:34  *** CHECK HOME POSITION ***
+sáb10 08:34  *** PRESS RESUME 2 ***
+sáb10 08:34  gripper down cota x medida 2874.078125
+sáb10 08:34  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.478125 
+sáb10 08:35  gripper down cota x medida 931.838989
+sáb10 08:35  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.961011 
+sáb10 08:35  gripper up cota x medida 1025.259766
+sáb10 08:35  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.540234 
+sáb10 08:35  *** PRESS SYSTEM LINK ***
+sáb10 08:37  *** PRESS RESUME 1 ***
+sáb10 08:37  *** CHECK HOME POSITION ***
+sáb10 08:37  *** PRESS RESUME 2 ***
+sáb10 08:38  gripper down cota x medida 2869.923828
+sáb10 08:38  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.676172 
+sáb10 08:39  gripper down cota x medida 2030.757324
+sáb10 08:39  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.042676 
+sáb10 08:39  gripper down cota x medida 268.875671
+sáb10 08:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.875671 
+sáb10 08:40  gripper up cota x medida 234.778854
+sáb10 08:40  PARKING UP TOMAR DIFERENCIA CON X REF = -0.778854 
+sáb10 08:40  *** PRESS SYSTEM LINK ***
+sáb10 08:41  *** PRESS RESUME 1 ***
+sáb10 08:42  *** CHECK HOME POSITION ***
+sáb10 08:42  *** PRESS RESUME 2 ***
+sáb10 08:42  gripper down cota x medida 2869.978271
+sáb10 08:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.621729 
+sáb10 08:43  gripper down cota x medida 2030.743774
+sáb10 08:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.056226 
+sáb10 08:43  gripper down cota x medida 268.841309
+sáb10 08:43  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.841309 
+sáb10 08:44  gripper up cota x medida 234.804840
+sáb10 08:44  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804840 
+sáb10 08:44  *** PRESS SYSTEM LINK ***
+sáb10 08:45  *** PRESS RESUME 1 ***
+sáb10 08:45  *** CHECK HOME POSITION ***
+sáb10 08:45  *** PRESS RESUME 2 ***
+sáb10 08:46  gripper down cota x medida 2874.150879
+sáb10 08:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.550879 
+sáb10 08:46  gripper down cota x medida 931.666382
+sáb10 08:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.133618 
+sáb10 08:47  gripper up cota x medida 1025.225342
+sáb10 08:47  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.574658 
+sáb10 08:47  *** PRESS SYSTEM LINK ***
+sáb10 08:49  *** PRESS RESUME 1 ***
+sáb10 08:49  *** CHECK HOME POSITION ***
+sáb10 08:49  *** PRESS RESUME 2 ***
+sáb10 08:50  gripper down cota x medida 2874.118896
+sáb10 08:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+sáb10 08:50  gripper down cota x medida 931.472168
+sáb10 08:50  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.327832 
+sáb10 08:51  gripper up cota x medida 1025.103271
+sáb10 08:51  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.696729 
+sáb10 08:51  *** PRESS SYSTEM LINK ***
+sáb10 08:54  *** PRESS RESUME 1 ***
+sáb10 08:54  *** CHECK HOME POSITION ***
+sáb10 08:54  *** PRESS RESUME 2 ***
+sáb10 08:54  gripper down cota x medida 2869.917236
+sáb10 08:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 08:55  gripper down cota x medida 2030.697021
+sáb10 08:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.102979 
+sáb10 08:56  gripper down cota x medida 268.255646
+sáb10 08:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.255646 
+sáb10 08:56  gripper up cota x medida 234.004791
+sáb10 08:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.004791 
+sáb10 08:56  *** PRESS SYSTEM LINK ***
+sáb10 08:58  *** PRESS RESUME 1 ***
+sáb10 08:58  *** CHECK HOME POSITION ***
+sáb10 08:58  *** PRESS RESUME 2 ***
+sáb10 08:59  gripper down cota x medida 2869.857178
+sáb10 08:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.742822 
+sáb10 09:00  gripper down cota x medida 2030.943970
+sáb10 09:00  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856030 
+sáb10 09:00  gripper down cota x medida 269.009460
+sáb10 09:00  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.009460 
+sáb10 09:01  gripper up cota x medida 235.084015
+sáb10 09:01  PARKING UP TOMAR DIFERENCIA CON X REF = -1.084015 
+sáb10 09:01  *** PRESS SYSTEM LINK ***
+sáb10 09:02  *** PRESS RESUME 1 ***
+sáb10 09:02  *** CHECK HOME POSITION ***
+sáb10 09:02  *** PRESS RESUME 2 ***
+sáb10 09:02  gripper down cota x medida 2874.125244
+sáb10 09:02  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+sáb10 09:03  gripper down cota x medida 931.604736
+sáb10 09:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.195264 
+sáb10 09:03  gripper up cota x medida 1025.011108
+sáb10 09:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.788892 
+sáb10 09:04  *** PRESS SYSTEM LINK ***
+sáb10 09:05  *** PRESS RESUME 1 ***
+sáb10 09:06  *** CHECK HOME POSITION ***
+sáb10 09:06  *** PRESS RESUME 2 ***
+sáb10 09:06  gripper down cota x medida 2874.177979
+sáb10 09:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.577979 
+sáb10 09:07  gripper down cota x medida 931.331726
+sáb10 09:07  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.468274 
+sáb10 09:07  gripper up cota x medida 1024.912964
+sáb10 09:07  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.887036 
+sáb10 09:07  *** PRESS SYSTEM LINK ***
+sáb10 09:09  *** PRESS RESUME 1 ***
+sáb10 09:09  *** CHECK HOME POSITION ***
+sáb10 09:09  *** PRESS RESUME 2 ***
+sáb10 09:09  gripper down cota x medida 2869.917236
+sáb10 09:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+sáb10 09:10  gripper down cota x medida 2030.897095
+sáb10 09:10  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.902905 
+sáb10 09:11  gripper down cota x medida 268.949310
+sáb10 09:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.949310 
+sáb10 09:11  gripper up cota x medida 234.804794
+sáb10 09:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.804794 
+sáb10 09:11  *** PRESS SYSTEM LINK ***
+sáb10 09:12  *** PRESS RESUME 1 ***
+sáb10 09:12  *** CHECK HOME POSITION ***
+sáb10 09:12  *** PRESS RESUME 2 ***
+sáb10 09:13  gripper down cota x medida 2869.850342
+sáb10 09:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.749658 
+sáb10 09:14  gripper down cota x medida 2030.997681
+sáb10 09:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.802319 
+sáb10 09:14  gripper down cota x medida 269.036133
+sáb10 09:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.036133 
+sáb10 09:15  gripper up cota x medida 234.930923
+sáb10 09:15  PARKING UP TOMAR DIFERENCIA CON X REF = -0.930923 
+sáb10 09:15  *** PRESS SYSTEM LINK ***
+sáb10 09:16  *** PRESS RESUME 1 ***
+sáb10 09:16  *** CHECK HOME POSITION ***
+sáb10 09:16  *** PRESS RESUME 2 ***
+sáb10 09:16  gripper down cota x medida 2874.159180
+sáb10 09:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.559180 
+sáb10 09:17  gripper down cota x medida 931.365967
+sáb10 09:17  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.434033 
+sáb10 09:17  gripper up cota x medida 1025.122803
+sáb10 09:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.677197 
+sáb10 09:17  *** PRESS SYSTEM LINK ***
+sáb10 09:19  *** PRESS RESUME 1 ***
+sáb10 09:19  *** CHECK HOME POSITION ***
+sáb10 09:19  *** PRESS RESUME 2 ***
+sáb10 09:19  gripper down cota x medida 2874.184570
+sáb10 09:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.584570 
+sáb10 09:20  gripper down cota x medida 931.391663
+sáb10 09:20  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.408337 
+sáb10 09:20  gripper up cota x medida 1025.043823
+sáb10 09:20  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.756177 
+sáb10 09:20  *** PRESS SYSTEM LINK ***
+sáb10 09:22  *** PRESS RESUME 1 ***
+sáb10 09:22  *** CHECK HOME POSITION ***
+sáb10 09:22  *** PRESS RESUME 2 ***
+sáb10 09:23  gripper down cota x medida 2869.924072
+sáb10 09:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675928 
+sáb10 09:23  gripper down cota x medida 2030.889893
+sáb10 09:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.910107 
+sáb10 09:24  gripper down cota x medida 268.963226
+sáb10 09:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.963226 
+sáb10 09:25  gripper up cota x medida 234.884521
+sáb10 09:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.884521 
+sáb10 09:25  *** PRESS SYSTEM LINK ***
+sáb10 09:26  *** PRESS RESUME 1 ***
+sáb10 09:26  *** CHECK HOME POSITION ***
+sáb10 09:26  *** PRESS RESUME 2 ***
+sáb10 09:26  gripper down cota x medida 2869.883789
+sáb10 09:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.716211 
+sáb10 09:27  gripper down cota x medida 2030.943481
+sáb10 09:27  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.856519 
+sáb10 09:28  gripper down cota x medida 268.634888
+sáb10 09:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.634888 
+sáb10 09:28  gripper up cota x medida 234.491638
+sáb10 09:28  PARKING UP TOMAR DIFERENCIA CON X REF = -0.491638 
+sáb10 09:28  *** PRESS SYSTEM LINK ***
+sáb10 09:29  *** PRESS RESUME 1 ***
+sáb10 09:29  *** CHECK HOME POSITION ***
+sáb10 09:29  *** PRESS RESUME 2 ***
+sáb10 09:29  gripper down cota x medida 2874.198486
+sáb10 09:29  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.598486 
+sáb10 09:30  gripper down cota x medida 931.504517
+sáb10 09:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.295483 
+sáb10 09:30  gripper up cota x medida 1025.096436
+sáb10 09:30  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.703564 
+sáb10 09:31  *** PRESS SYSTEM LINK ***
+sáb10 09:33  *** PRESS RESUME 1 ***
+sáb10 09:33  *** CHECK HOME POSITION ***
+sáb10 09:33  *** PRESS RESUME 2 ***
+sáb10 09:33  gripper down cota x medida 2874.205078
+sáb10 09:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+sáb10 09:34  gripper down cota x medida 931.431580
+sáb10 09:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.368420 
+sáb10 09:34  gripper up cota x medida 1025.143433
+sáb10 09:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.656567 
+sáb10 09:34  *** PRESS SYSTEM LINK ***
+sáb10 09:36  *** PRESS RESUME 1 ***
+sáb10 09:36  *** CHECK HOME POSITION ***
+sáb10 09:36  *** PRESS RESUME 2 ***
+sáb10 09:36  gripper down cota x medida 2869.977295
+sáb10 09:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.622705 
+sáb10 09:37  gripper down cota x medida 2030.984131
+sáb10 09:37  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.815869 
+sáb10 09:38  gripper down cota x medida 269.308716
+sáb10 09:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.308716 
+sáb10 09:38  gripper up cota x medida 234.997711
+sáb10 09:38  PARKING UP TOMAR DIFERENCIA CON X REF = -0.997711 
+sáb10 09:38  *** PRESS SYSTEM LINK ***
+sáb10 09:39  *** PRESS RESUME 1 ***
+sáb10 09:39  *** CHECK HOME POSITION ***
+sáb10 09:39  *** PRESS RESUME 2 ***
+sáb10 09:40  gripper down cota x medida 2869.911133
+sáb10 09:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.688867 
+sáb10 09:41  gripper down cota x medida 2030.977051
+sáb10 09:41  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.822949 
+sáb10 09:41  gripper down cota x medida 268.889465
+sáb10 09:41  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.889465 
+sáb10 09:42  gripper up cota x medida 234.871552
+sáb10 09:42  PARKING UP TOMAR DIFERENCIA CON X REF = -0.871552 
+sáb10 09:42  *** PRESS SYSTEM LINK ***
+sáb10 09:43  *** PRESS RESUME 1 ***
+sáb10 09:43  *** CHECK HOME POSITION ***
+sáb10 09:43  *** PRESS RESUME 2 ***
+sáb10 09:43  gripper down cota x medida 2873.919434
+sáb10 09:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.319434 
+sáb10 09:44  gripper down cota x medida 931.612244
+sáb10 09:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.187756 
+sáb10 09:44  gripper up cota x medida 1025.123169
+sáb10 09:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.676831 
+sáb10 09:44  *** PRESS SYSTEM LINK ***
+sáb10 09:46  *** PRESS RESUME 1 ***
+sáb10 09:46  *** CHECK HOME POSITION ***
+sáb10 09:46  *** PRESS RESUME 2 ***
+sáb10 09:46  gripper down cota x medida 2874.169189
+sáb10 09:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.569189 
+sáb10 09:47  gripper down cota x medida 931.618835
+sáb10 09:47  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.181165 
+sáb10 09:48  gripper up cota x medida 1025.110229
+sáb10 09:48  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.689771 
+sáb10 09:48  *** PRESS SYSTEM LINK ***
+sáb10 09:50  *** PRESS RESUME 1 ***
+sáb10 09:50  *** CHECK HOME POSITION ***
+sáb10 09:50  *** PRESS RESUME 2 ***
+sáb10 09:50  gripper down cota x medida 2869.950928
+sáb10 09:50  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.649072 
+sáb10 09:51  gripper down cota x medida 2030.803833
+sáb10 09:51  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.996167 
+sáb10 09:52  gripper down cota x medida 267.976624
+sáb10 09:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 0.023376 
+sáb10 09:52  gripper up cota x medida 233.617844
+sáb10 09:52  PARKING UP TOMAR DIFERENCIA CON X REF = 0.382156 
+sáb10 09:52  *** PRESS SYSTEM LINK ***
+sáb10 09:53  *** PRESS RESUME 1 ***
+sáb10 09:53  *** CHECK HOME POSITION ***
+sáb10 09:53  *** PRESS RESUME 2 ***
+sáb10 09:53  gripper down cota x medida 2869.863770
+sáb10 09:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.736230 
+sáb10 09:54  gripper down cota x medida 2030.837280
+sáb10 09:54  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.962720 
+sáb10 09:55  gripper down cota x medida 269.230652
+sáb10 09:55  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -1.230652 
+sáb10 09:55  gripper up cota x medida 234.978119
+sáb10 09:55  PARKING UP TOMAR DIFERENCIA CON X REF = -0.978119 
+sáb10 09:56  *** PRESS SYSTEM LINK ***
+sáb10 09:56  *** PRESS RESUME 1 ***
+sáb10 09:57  *** CHECK HOME POSITION ***
+sáb10 09:57  *** PRESS RESUME 2 ***
+sáb10 09:57  gripper down cota x medida 2874.024414
+sáb10 09:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424414 
+sáb10 09:58  gripper down cota x medida 931.798218
+sáb10 09:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.001782 
+sáb10 09:58  gripper up cota x medida 1024.971558
+sáb10 09:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.828442 
+sáb10 09:58  *** PRESS SYSTEM LINK ***
+sáb10 10:00  *** PRESS RESUME 1 ***
+sáb10 10:00  *** CHECK HOME POSITION ***
+sáb10 10:00  *** PRESS RESUME 2 ***
+sáb10 10:00  gripper down cota x medida 2874.191650
+sáb10 10:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.591650 
+sáb10 10:01  gripper down cota x medida 931.451477
+sáb10 10:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.348523 
+sáb10 10:01  gripper up cota x medida 1025.150269
+sáb10 10:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.649731 
+sáb10 10:02  *** PRESS SYSTEM LINK ***
+sáb10 10:05  *** PRESS RESUME 1 ***
+sáb10 10:05  *** CHECK HOME POSITION ***
+sáb10 10:05  *** PRESS RESUME 2 ***
+sáb10 10:05  gripper down cota x medida 2869.899902
+sáb10 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.700098 
+sáb10 10:06  gripper down cota x medida 2030.764038
+sáb10 10:06  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035962 
+sáb10 10:07  gripper down cota x medida 268.215759
+sáb10 10:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215759 
+sáb10 10:07  gripper up cota x medida 234.211197
+sáb10 10:07  PARKING UP TOMAR DIFERENCIA CON X REF = -0.211197 
+sáb10 10:08  *** PRESS SYSTEM LINK ***
+sáb10 10:08  *** PRESS RESUME 1 ***
+sáb10 10:08  *** CHECK HOME POSITION ***
+sáb10 10:08  *** PRESS RESUME 2 ***
+sáb10 10:09  gripper down cota x medida 2869.836914
+sáb10 10:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.763086 
+sáb10 10:09  gripper down cota x medida 2030.964478
+sáb10 10:09  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.835522 
+sáb10 10:10  gripper down cota x medida 268.288910
+sáb10 10:10  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.288910 
+sáb10 10:11  gripper up cota x medida 234.311325
+sáb10 10:11  PARKING UP TOMAR DIFERENCIA CON X REF = -0.311325 
+sáb10 10:11  *** PRESS SYSTEM LINK ***
+sáb10 10:12  *** PRESS RESUME 1 ***
+sáb10 10:12  *** CHECK HOME POSITION ***
+sáb10 10:12  *** PRESS RESUME 2 ***
+sáb10 10:12  gripper down cota x medida 2874.125244
+sáb10 10:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.525244 
+sáb10 10:13  gripper down cota x medida 930.829346
+sáb10 10:13  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.970654 
+sáb10 10:13  gripper up cota x medida 1023.640015
+sáb10 10:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.159985 
+sáb10 10:13  *** PRESS SYSTEM LINK ***
+sáb10 10:15  *** PRESS RESUME 1 ***
+sáb10 10:15  *** CHECK HOME POSITION ***
+sáb10 10:15  *** PRESS RESUME 2 ***
+sáb10 10:16  gripper down cota x medida 2874.211670
+sáb10 10:16  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.611670 
+sáb10 10:16  gripper down cota x medida 932.063660
+sáb10 10:16  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.736340 
+sáb10 10:17  gripper up cota x medida 1024.286499
+sáb10 10:17  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.513501 
+sáb10 10:17  *** PRESS SYSTEM LINK ***
+sáb10 10:18  *** PRESS RESUME 1 ***
+sáb10 10:19  *** CHECK HOME POSITION ***
+sáb10 10:19  *** PRESS RESUME 2 ***
+sáb10 10:19  gripper down cota x medida 2869.890381
+sáb10 10:19  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.709619 
+sáb10 10:20  gripper down cota x medida 2030.856689
+sáb10 10:20  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.943311 
+sáb10 10:21  gripper down cota x medida 268.142975
+sáb10 10:21  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.142975 
+sáb10 10:21  gripper up cota x medida 234.138199
+sáb10 10:21  PARKING UP TOMAR DIFERENCIA CON X REF = -0.138199 
+sáb10 10:22  *** PRESS SYSTEM LINK ***
+sáb10 10:22  *** PRESS RESUME 1 ***
+sáb10 10:23  *** CHECK HOME POSITION ***
+sáb10 10:23  *** PRESS RESUME 2 ***
+sáb10 10:23  gripper down cota x medida 2869.817139
+sáb10 10:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.782861 
+sáb10 10:24  gripper down cota x medida 2030.755005
+sáb10 10:24  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.044995 
+sáb10 10:24  gripper down cota x medida 268.215485
+sáb10 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.215485 
+sáb10 10:25  gripper up cota x medida 234.184433
+sáb10 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184433 
+sáb10 10:25  *** PRESS SYSTEM LINK ***
+sáb10 10:26  *** PRESS RESUME 1 ***
+sáb10 10:26  *** CHECK HOME POSITION ***
+sáb10 10:26  *** PRESS RESUME 2 ***
+sáb10 10:26  gripper down cota x medida 2874.017578
+sáb10 10:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.417578 
+sáb10 10:27  gripper down cota x medida 930.957520
+sáb10 10:27  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.842480 
+sáb10 10:27  gripper up cota x medida 1023.706299
+sáb10 10:27  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.093701 
+sáb10 10:28  *** PRESS SYSTEM LINK ***
+sáb10 10:29  *** PRESS RESUME 1 ***
+sáb10 10:29  *** CHECK HOME POSITION ***
+sáb10 10:29  *** PRESS RESUME 2 ***
+sáb10 10:30  gripper down cota x medida 2874.038086
+sáb10 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.438086 
+sáb10 10:30  gripper down cota x medida 932.170837
+sáb10 10:30  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.629163 
+sáb10 10:31  gripper up cota x medida 1023.412170
+sáb10 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.387830 
+sáb10 10:31  *** PRESS SYSTEM LINK ***
+sáb10 10:33  *** PRESS RESUME 1 ***
+sáb10 10:33  *** CHECK HOME POSITION ***
+sáb10 10:33  *** PRESS RESUME 2 ***
+sáb10 10:33  gripper down cota x medida 2869.915527
+sáb10 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.684473 
+sáb10 10:34  gripper down cota x medida 2030.883667
+sáb10 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.916333 
+sáb10 10:35  gripper down cota x medida 268.209259
+sáb10 10:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.209259 
+sáb10 10:35  gripper up cota x medida 234.184174
+sáb10 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = -0.184174 
+sáb10 10:35  *** PRESS SYSTEM LINK ***
+sáb10 10:36  *** PRESS RESUME 1 ***
+sáb10 10:37  *** CHECK HOME POSITION ***
+sáb10 10:37  *** PRESS RESUME 2 ***
+sáb10 10:37  gripper down cota x medida 2869.870850
+sáb10 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.729150 
+sáb10 10:38  gripper down cota x medida 2030.744019
+sáb10 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.055981 
+sáb10 10:39  gripper down cota x medida 268.315948
+sáb10 10:39  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.315948 
+sáb10 10:39  gripper up cota x medida 234.404922
+sáb10 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = -0.404922 
+sáb10 10:39  *** PRESS SYSTEM LINK ***
+sáb10 10:40  *** PRESS RESUME 1 ***
+sáb10 10:41  *** CHECK HOME POSITION ***
+sáb10 10:41  *** PRESS RESUME 2 ***
+sáb10 10:42  gripper down cota x medida 2874.205078
+sáb10 10:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.605078 
+sáb10 10:42  gripper down cota x medida 931.907166
+sáb10 10:42  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 0.892834 
+sáb10 10:43  gripper up cota x medida 1024.906128
+sáb10 10:43  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.893872 
+sáb10 10:43  *** PRESS SYSTEM LINK ***
+sáb10 10:45  *** PRESS RESUME 1 ***
+sáb10 10:45  *** CHECK HOME POSITION ***
+sáb10 10:45  *** PRESS RESUME 2 ***
+sáb10 10:45  gripper down cota x medida 2874.104980
+sáb10 10:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.504980 
+sáb10 10:46  gripper down cota x medida 930.471191
+sáb10 10:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.328809 
+sáb10 10:46  gripper up cota x medida 1023.626892
+sáb10 10:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 4.173108 
+sáb10 10:46  *** PRESS SYSTEM LINK ***
+sáb10 10:48  *** PRESS RESUME 1 ***
+sáb10 10:49  *** CHECK HOME POSITION ***
+sáb10 10:49  *** PRESS RESUME 2 ***
+sáb10 10:49  gripper down cota x medida 2869.910645
+sáb10 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.689355 
+sáb10 10:50  gripper down cota x medida 2030.557251
+sáb10 10:50  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.242749 
+sáb10 10:50  gripper down cota x medida 268.362488
+sáb10 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.362488 
+sáb10 10:51  gripper up cota x medida 234.498795
+sáb10 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = -0.498795 
+sáb10 10:51  *** PRESS SYSTEM LINK ***
+sáb10 10:54  *** PRESS RESUME 1 ***
+sáb10 10:54  *** CHECK HOME POSITION ***
+sáb10 10:54  *** PRESS RESUME 2 ***
+sáb10 10:54  gripper down cota x medida 2869.924316
+sáb10 10:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.675684 
+sáb10 10:55  gripper down cota x medida 2030.764404
+sáb10 10:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.035596 
+sáb10 10:56  gripper down cota x medida 268.262756
+sáb10 10:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.262756 
+sáb10 10:56  gripper up cota x medida 234.344955
+sáb10 10:56  PARKING UP TOMAR DIFERENCIA CON X REF = -0.344955 
+sáb10 10:57  *** PRESS SYSTEM LINK ***
+sáb10 10:57  *** PRESS RESUME 1 ***
+sáb10 10:58  *** CHECK HOME POSITION ***
+sáb10 10:58  *** PRESS RESUME 2 ***
+sáb10 10:59  gripper down cota x medida 2874.024170
+sáb10 10:59  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.424170 
+sáb10 10:59  gripper down cota x medida 930.504639
+sáb10 10:59  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.295361 
+sáb10 11:00  gripper up cota x medida 1024.161133
+sáb10 11:00  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.638867 
+sáb10 11:00  *** PRESS SYSTEM LINK ***
+sáb10 11:01  *** PRESS RESUME 1 ***
+sáb10 11:02  *** CHECK HOME POSITION ***
+sáb10 11:02  *** PRESS RESUME 2 ***
+sáb10 11:03  gripper down cota x medida 2874.118896
+sáb10 11:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.518896 
+sáb10 11:03  gripper down cota x medida 930.558105
+sáb10 11:03  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.241895 
+sáb10 11:04  gripper up cota x medida 1025.037598
+sáb10 11:04  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.762402 
+sáb10 11:04  *** PRESS SYSTEM LINK ***
+sáb10 11:05  *** PRESS RESUME 1 ***
+sáb10 11:06  *** CHECK HOME POSITION ***
+sáb10 11:06  *** PRESS RESUME 2 ***
+sáb10 11:07  gripper down cota x medida 2869.930908
+sáb10 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.669092 
+sáb10 11:08  gripper down cota x medida 2030.777588
+sáb10 11:08  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.022412 
+sáb10 11:08  gripper down cota x medida 268.346771
+sáb10 11:08  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.346771 
+sáb10 11:09  gripper up cota x medida 234.399017
+sáb10 11:09  PARKING UP TOMAR DIFERENCIA CON X REF = -0.399017 
+sáb10 11:09  *** PRESS SYSTEM LINK ***
+sáb10 11:11  *** PRESS RESUME 1 ***
+sáb10 11:11  *** CHECK HOME POSITION ***
+sáb10 11:11  *** PRESS RESUME 2 ***
+sáb10 11:11  gripper down cota x medida 2869.777344
+sáb10 11:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.822656 
+sáb10 11:12  gripper down cota x medida 2030.703857
+sáb10 11:12  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.096143 
+sáb10 11:13  gripper down cota x medida 268.681305
+sáb10 11:13  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.681305 
+sáb10 11:13  gripper up cota x medida 234.377853
+sáb10 11:13  PARKING UP TOMAR DIFERENCIA CON X REF = -0.377853 
+sáb10 11:13  *** PRESS SYSTEM LINK ***
+sáb10 11:14  *** PRESS RESUME 1 ***
+sáb10 11:15  *** CHECK HOME POSITION ***
+sáb10 11:15  *** PRESS RESUME 2 ***
+sáb10 11:15  gripper down cota x medida 2873.860352
+sáb10 11:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.260352 
+sáb10 11:16  gripper down cota x medida 930.896179
+sáb10 11:16  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.903821 
+sáb10 11:16  gripper up cota x medida 1024.892334
+sáb10 11:16  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 2.907666 
+sáb10 11:16  *** PRESS SYSTEM LINK ***
+sáb10 11:16  *** PRESS RESUME 1 ***
+sáb10 11:23  *** CHECK HOME POSITION ***
+
+sáb10 11:23  *** PRESS RESUME 2 ***
+
+sáb10 11:23  gripper down cota x medida 2874.098145
+
+sáb10 11:23  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -1.498145 
+
+sáb10 11:24  gripper down cota x medida 930.998108
+
+sáb10 11:24  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 1.801892 
+
+sáb10 11:24  gripper up cota x medida 1024.286377
+
+sáb10 11:24  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 3.513623 
+
+sáb10 11:24  *** PRESS SYSTEM LINK ***
+
+sáb10 11:26  *** PRESS RESUME 1 ***
+
+sáb10 11:26  *** CHECK HOME POSITION ***
+
+sáb10 11:26  *** PRESS RESUME 2 ***
+
+sáb10 11:26  gripper down cota x medida 2869.917236
+
+sáb10 11:26  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.682764 
+
+sáb10 11:27  gripper down cota x medida 2030.983765
+
+sáb10 11:27  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.816235 
+
+sáb10 11:28  gripper down cota x medida 268.156189
+
+sáb10 11:28  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = -0.156189 
+
+sáb10 11:28  gripper up cota x medida 234.250641
+
+sáb10 11:28  PARKING UP TOMAR DIFERENCIA CON X REF = -0.250641 
+
+sáb10 11:29  *** PRESS SYSTEM LINK ***
+
+sáb10 11:29  *** PRESS RESUME 1 ***
+
+sáb10 11:29  *** CHECK HOME POSITION ***
+
+sáb10 11:29  *** PRESS RESUME 2 ***
+
+sáb10 11:30  gripper down cota x medida 2869.737793
+
+sáb10 11:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 2.862207 
+
+sáb10 11:31  gripper down cota x medida 2030.810669
+
+sáb10 11:31  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 3.989331 
+
+sáb10 11:31  *** PRESS SYSTEM LINK ***
+
+sáb10 11:33  *** PRESS RESUME 1 ***
+
+sáb10 11:33  *** CHECK HOME POSITION ***
+
+sáb10 11:33  *** PRESS RESUME 2 ***
+
+sáb10 11:33  gripper down cota x medida 2874.291016
+
+sáb10 11:33  TORNO TOMAR GRU DIFERENCIA CON X REF = -1.691016 
+
+sáb10 11:34  gripper down cota x medida 930.722290
+
+sáb10 11:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 2.077710 
+
+sáb10 11:34  *** PRESS SYSTEM LINK ***
+
+sáb10 11:34  *** PRESS RESUME 1 ***
+
+sáb10 11:34  *** CHECK HOME POSITION ***
+
+sáb10 11:34  *** PRESS RESUME 2 ***
+
+sáb10 11:35  *** PRESS SYSTEM LINK ***
+
+sáb10 11:35  *** PRESS RESUME 1 ***
+
+sáb10 11:38  *** CHECK HOME POSITION ***
+
+sáb10 11:38  *** PRESS RESUME 2 ***
+
+sáb10 11:38  gripper down cota x medida 2870.031738
+
+sáb10 11:38  TORNO TOMAR GRU DIFERENCIA CON X REF = 2.568262 
+
+sáb10 11:39  gripper down cota x medida 2030.684448
+
+sáb10 11:39  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 4.115552 
+

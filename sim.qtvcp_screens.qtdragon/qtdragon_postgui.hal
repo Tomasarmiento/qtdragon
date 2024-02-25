@@ -28,6 +28,10 @@
 #net cal_offset       motion.analog-out-12 => qtdragon.cal_offset
 ########################################################################
 
+# Board
+net ctrlConnected <= qtdragon.ctrlConnected
+#===========================================================
+
 # Axes
 #===========================================================
 #net posMode <= pyvcp.positionMode
@@ -107,8 +111,8 @@ net z-positiveTorqueLimit => qtdragon.z_positiveTorqueLimit
 net SEN_bc_pc => qtdragon.SEN_bc_pc
 net SEN_bc_up => qtdragon.SEN_bc_up
 net SEN_bc_down => qtdragon.SEN_bc_down
-net SEN_bc_frw => qtdragon.SEN_bc_frw
-net SEN_bc_bkw => qtdragon.SEN_bc_bkw
+net SEN_bc_rtc => qtdragon.SEN_bc_rtc
+net SEN_bc_ext => qtdragon.SEN_bc_ext
 
 #botones accionamientos
 net EV_bc_up <= qtdragon.EV_bc_up
@@ -124,8 +128,8 @@ net SEN_bd_pc => qtdragon.SEN_bd_pc
 net SEN_bd_full => qtdragon.SEN_bd_full => qtdragon.SEN_bd_full_4
 net SEN_bd_up => qtdragon.SEN_bd_up
 net SEN_bd_down => qtdragon.SEN_bd_down
-net SEN_bd_frw => qtdragon.SEN_bd_frw
-net SEN_bd_bkw => qtdragon.SEN_bd_bkw
+net SEN_bd_rtc => qtdragon.SEN_bd_rtc
+net SEN_bd_ext => qtdragon.SEN_bd_ext
 
 #botones accionamientos
 net EV_bd_up <= qtdragon.EV_bd_up
@@ -201,6 +205,18 @@ net remote_EV_gr_u_closed <= halui.mdi-command-06 halui.mdi-command-07 <= qtdrag
 net probe => qtdragon.hal_led_probe
 net soft_limit => qtdragon.led_eoffset_limit
 
+#estos pines actualizan la posicion en el pin para saber si el gantry esta ofm(out of machine)
+net x-posRef => qtdragon.x-posRef
+net z-posRef => qtdragon.z-posRef
+
+#pin para controlar subrutinas
+net GAN_subroutine_master_out <= motion.analog-out-01 <= qtdragon.GAN_subroutine_master_in
+net GAN_subroutine_master_in => motion.analog-in-01 => qtdragon.GAN_subroutine_master_out
+
+#RI_tor_sl_confirm
+net CTRL_sl_writeg => qtdragon.CTRL_sl_writeg
+net CTRL_sl_wasdown => qtdragon.CTRL_sl_wasdown
+
 #########################################################################
 
 #pateador
@@ -217,12 +233,15 @@ net EV_pat_bkw => qtdragon.EV_pat_bkw
 net EV_pat_down => qtdragon.EV_pat_down
 net EV_pat_up => qtdragon.EV_pat_up
 
+#boton de entrada
+net NB_pat_kick => qtdragon.NB_pat_kick #normal button
+
 #########################################################################
 
 #torno
 #leds
-net SEN_tor_gate_open => qtdragon.SEN_tor_gate_open
-net SEN_tor_gate_closed => qtdragon.SEN_tor_gate_closed
+net SEN_tor_gate_open => qtdragon.SEN_tor_gate_open => qtdragon.SEN_tor_gate_open_5
+net SEN_tor_gate_closed => qtdragon.SEN_tor_gate_closed => qtdragon.SEN_tor_gate_closed_3
 
 #estado de torno
 net RI_tor_cc_confirm => qtdragon.RI_tor_cc_confirm #chuck clamp
@@ -231,7 +250,7 @@ net RI_tor_so1_confirm => qtdragon.RI_tor_so1_confirm #spindle orientation 1
 net RI_tor_so2_confirm => qtdragon.RI_tor_so2_confirm #spindle orientation 2
 net RI_tor_ep_confirm => qtdragon.RI_tor_ep_confirm #end program - CYCLE COMPLETE
 net RI_tor_home_confirm => qtdragon.RI_tor_home_confirm
-net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm
+net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm_2
 net RI_tor_alarm_confirm => qtdragon.RI_tor_alarm_confirm
 net RI_tor_cstop_confirm => qtdragon.RI_tor_cstop_confirm
 net RI_tor_m180_confirm => qtdragon.RI_tor_m180_confirm
@@ -266,10 +285,21 @@ net CTRL_ch_ce => motion.digital-in-29 => qtdragon.CTRL_ch_ce
 net CTRL_ch_od => motion.digital-in-35 => qtdragon.LED_ch_od => qtdragon.CTRL_ch_od
 net CTRL_ch_of => motion.digital-out-53 => qtdragon.CTRL_ch_of #operation finished
 
-net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master => motion.digital-in-62
+net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master => motion.digital-in-62 #=> motion.digital-out-54
 
 net CTRL_end_cycle => motion.digital-in-49 => qtdragon.CTRL_end_cycle => qtdragon.LED_end_cycle
 
-net x-posRef => qtdragon.x-posRef
-net z-posRef => qtdragon.z-posRef
+########################################################################
+
+#tablero
+#leds
+#net SEN_presure <= qtdragon.SEN_presure
+
+#baliza
+net BAL_red <= qtdragon.BAL_red
+net BAL_yellow <= qtdragon.BAL_yellow
+net BAL_green <= qtdragon.BAL_green
+
+
+
 

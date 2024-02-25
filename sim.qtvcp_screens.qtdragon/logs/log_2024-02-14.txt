@@ -1,0 +1,152 @@
+--- Qtvcp Screen Started on: mié, feb 14 2024 02:36:27 ---
+mié14 02:36 Machine OFF
+
+mié14 02:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié14 02:36 Machine ON
+
+mié14 02:36 Loaded program file : /home/rexroth/linuxcnc/nc_files/test_auto.ngc
+mié14 02:36 Loaded file /home/rexroth/linuxcnc/nc_files/test_auto.ngc
+
+mié14 02:37 Machine OFF
+mié14 02:37 Machine ON
+
+mié14 02:39 Loaded program file : /../../../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/BORRAR/test01.ngc
+mié14 02:39 Loaded file /../../../usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/BORRAR/test01.ngc
+
+mié14 02:40 Started program from line 1
+
+mié14 02:40 Cannot switch pages while in AUTO mode
+
+mié14 02:40 Cannot switch pages while in AUTO mode
+
+mié14 02:40 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: mié, feb 14 2024 02:41:28 ---
+mié14 02:41 Machine OFF
+
+mié14 02:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié14 02:41 Machine ON
+
+mié14 02:41 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+mié14 02:41 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+
+mié14 02:41 Started program from line 1
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:41 Cannot switch pages while in AUTO mode
+mié14 02:41 Cannot switch pages while in AUTO mode
+
+mié14 02:42 Started program from line 1
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:43 Cannot switch pages while in AUTO mode
+
+mié14 02:48 Cannot switch pages while in AUTO mode
+
+mié14 02:48 Cannot switch pages while in AUTO mode
+
+mié14 02:48 Cannot switch pages while in AUTO mode
+
+mié14 02:48 Cannot switch pages while in AUTO mode
+
+mié14 02:48 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: mié, feb 14 2024 02:49:21 ---
+mié14 02:49 Machine OFF
+
+mié14 02:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié14 02:49 Machine ON
+
+mié14 02:49 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+mié14 02:49 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+
+mié14 02:49 Started program from line 1
+
+mié14 02:49 Cannot switch pages while in AUTO mode
+
+mié14 02:49 Cannot switch pages while in AUTO mode
+
+
+--- Qtvcp Screen Started on: mié, feb 14 2024 02:50:13 ---
+mié14 02:50 Machine OFF
+
+mié14 02:50 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié14 02:50 Machine ON
+
+mié14 02:50 Loaded program file : /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+mié14 02:50 Loaded file /home/rexroth/linuxcnc/nc_files/examples/000 ngc/BORRAR/test01.ngc
+
+mié14 02:50 Started program from line 1
+
+mié14 02:50 Cannot switch pages while in AUTO mode
+
+mié14 02:50 Cannot switch pages while in AUTO mode
+
+mié14 02:50 Cannot switch pages while in AUTO mode
+
+mié14 02:50 Cannot switch pages while in AUTO mode
+
+mié14 02:50 Cannot switch pages while in AUTO mode
+
+mié14 02:50 Machine OFF
+mié14 02:50 movimiento detenido por entrada habilitada
+
+mié14 02:51 Machine ON
+
+mié14 04:56 Machine OFF
+mié14 04:56 movimiento detenido por entrada habilitada
+
+mié14 09:20 Machine ON
+
+
+--- Qtvcp Screen Started on: mié, feb 14 2024 09:22:07 ---
+mié14 09:22 Machine OFF
+
+mié14 09:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+mié14 09:22 Machine ON
+
+mié14 09:22 Machine OFF
+mié14 09:22 movimiento detenido por entrada habilitada
+

@@ -72,6 +72,8 @@ net resetFaults => coenet.ResetFaults
 
 net gcodeVelocity motion.requested-vel
 
+net ctrlConnected => coenet.Connected
+
 # Joints
 ################################################################################
 
@@ -299,8 +301,8 @@ net z-positiveTorqueLimit <= coenet.Z-positiveTorqueLimit
 net SEN_bc_pc => coenet.DigIn-107 <= motion.digital-in-07
 net SEN_bc_down => coenet.DigIn-109 <= motion.digital-in-09
 net SEN_bc_up => coenet.DigIn-106 <= motion.digital-in-06
-net SEN_bc_frw => coenet.DigIn-125 <= motion.digital-in-36
-net SEN_bc_bkw => coenet.DigIn-124 <= motion.digital-in-37
+net SEN_bc_rtc => coenet.DigIn-125 #<= motion.digital-in-36
+net SEN_bc_ext => coenet.DigIn-126 #<= motion.digital-in-37
 
 #botones accionamientos
 net EV_bc_up <= coenet.DigOutCmd-110 #<= motion.digital-out-10
@@ -317,8 +319,8 @@ net SEN_bd_pc_nc => not.3.out
 net SEN_bd_full => coenet.DigIn-101 <= motion.digital-in-01
 net SEN_bd_up => coenet.DigIn-105 <= motion.digital-in-05
 net SEN_bd_down => coenet.DigIn-104 <= motion.digital-in-04
-net SEN_bd_frw => coenet.DigIn-122 <= motion.digital-in-38
-net SEN_bd_bkw => coenet.DigIn-123 <= motion.digital-in-39
+net SEN_bd_rtc => coenet.DigIn-124 <= motion.digital-in-38
+net SEN_bd_ext => coenet.DigIn-123 <= motion.digital-in-39
 
 #botones accionamientos
 net EV_bd_up <= coenet.DigOutCmd-111 #<= motion.digital-out-11
@@ -332,7 +334,7 @@ net EV_bd_bkw <= coenet.DigOutCmd-121 #<= motion.digital-out-09
 #leds
 net SEN_seg_pc => coenet.DigIn-103 #<= motion.digital-in-03
 net SEN_seg_overturn => coenet.DigIn-102 #<= motion.digital-in-02
-net SEN_seg_idle => coenet.DigIn-108 #<= motion.digital-in-08
+net SEN_seg_idle => coenet.DigIn-108 <= motion.digital-in-08
 
 #botones accionamientos
 net EV_seg_overturn <= coenet.DigOutCmd-108 #<= motion.digital-out-08
@@ -394,8 +396,11 @@ net probe => motion.probe-input <= or2.0.out
 net CTRL_gantry_probe_selecd => motion.digital-out-59 <= and2.0.in1
 net CTRL_gantry_probe_selecu => motion.digital-out-58 <= and2.1.in1
 
+#RI_tor_sl_confirm
+net CTRL_sl_writeg => motion.digital-out-56
+net CTRL_sl_wasdown => motion.digital-in-56
+
 #axis soft limit
-#+++++ qué es y qué hace acá ???? +++++
 net soft_limit => motion.on-soft-limit
 
 #botones accionamientos
@@ -426,6 +431,9 @@ net EV_pat_frw => coenet.DigOutCmd-116 #<= motion.digital-in-32
 net EV_pat_bkw => coenet.DigOutCmd-117 #<= motion.digital-in-31
 net EV_pat_down => coenet.DigOutCmd-118 #<= motion.digital-in-30
 net EV_pat_up => coenet.DigOutCmd-119 #<= motion.digital-in-29
+
+#boton de entrada
+net NB_pat_kick => coenet.DigIn-013 #normal button
 
 ########################################################################
 
@@ -482,3 +490,13 @@ net cncMotionEnabled <= and2.3.in1
 
 net cmd_home_all => halui.home-all <= and2.3.out
 
+########################################################################
+
+#tablero
+#leds
+#net SEN_presure => coenet.DigIn-121 <= motion.digital-in-53
+
+#baliza
+net BAL_red <= coenet.DigOutCmd-017 <= motion.digital-out-27
+net BAL_yellow <= coenet.DigOutCmd-015 <= motion.digital-out-25
+net BAL_green <= coenet.DigOutCmd-016 <= motion.digital-out-26

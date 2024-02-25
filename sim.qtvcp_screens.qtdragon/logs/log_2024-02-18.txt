@@ -1,0 +1,1148 @@
+--- Qtvcp Screen Started on: dom, feb 18 2024 02:58:49 ---
+dom18 02:58 Machine OFF
+
+dom18 02:59 KICKER error - init conditions
+dom18 02:59 Coupling not present in kicker
+dom18 02:59 Kicker is not down
+dom18 02:59 Coupling kick button not pressed
+dom18 02:59 --------------------------------------------------------------------------------------
+dom18 02:59 BLOWER error - init conditions
+dom18 02:59 Start blowing routine flag is not turned on
+dom18 02:59 Gantry is not in state 2 (automatic program)
+dom18 02:59 The automatic program is not in play
+dom18 02:59 --------------------------------------------------------------------------------------
+dom18 02:59 UNLOAD error - init conditions
+dom18 02:59 Discharge full
+dom18 02:59 Gantry is not in state 2 (automatic program)
+dom18 02:59 The automatic program is not in play
+dom18 02:59 --------------------------------------------------------------------------------------
+dom18 02:59 LOAD error - init conditions
+dom18 02:59 Segregator not present on the loading side
+dom18 02:59 Coupling not present in segregator
+dom18 02:59 Gantry is not in state 2 (automatic program)
+dom18 02:59 The automatic program is not in play
+dom18 02:59 --------------------------------------------------------------------------------------
+dom18 02:59 --------------------------------------------------------------------------------------
+dom18 02:59 --------------------------------------------------------------------------------------
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:00:02 ---
+dom18 03:00 Machine OFF
+
+dom18 03:00 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 03:12 Machine ON
+
+dom18 03:12 Machine OFF
+
+dom18 03:12 Machine ON
+
+dom18 03:12 Machine OFF
+
+dom18 03:12 Machine ON
+
+dom18 03:12 Machine OFF
+
+dom18 03:12 Machine ON
+
+dom18 03:12 Machine OFF
+
+dom18 03:16 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:28:17 ---
+dom18 03:28 Machine OFF
+
+dom18 03:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 03:28 Cannot switch pages while in AUTO mode
+
+dom18 03:28 Cannot switch pages while in AUTO mode
+
+dom18 03:28 Machine ON
+dom18 03:28 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:30:08 ---
+dom18 03:30 Machine OFF
+
+dom18 03:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 03:31 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:34:47 ---
+dom18 03:34 Machine OFF
+
+dom18 03:34 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:36:00 ---
+dom18 03:36 Machine OFF
+
+dom18 03:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 03:46:25 ---
+dom18 03:46 Machine OFF
+
+dom18 03:46 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 03:47 Machine ON
+
+dom18 03:47 Machine OFF
+
+dom18 03:47 Machine ON
+
+dom18 03:47 Machine OFF
+
+dom18 03:47 Machine ON
+
+dom18 03:47 Machine OFF
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:07:52 ---
+dom18 04:07 Machine OFF
+
+dom18 04:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:08:43 ---
+dom18 04:08 Machine OFF
+
+dom18 04:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:10:56 ---
+dom18 04:10 Machine OFF
+
+dom18 04:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:11:41 ---
+dom18 04:11 Machine OFF
+
+dom18 04:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 04:11 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:12:32 ---
+dom18 04:12 Machine OFF
+
+dom18 04:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 04:19 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:23:37 ---
+dom18 04:23 Machine OFF
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:28:58 ---
+dom18 04:29 Machine OFF
+
+dom18 04:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:30:52 ---
+dom18 04:30 Machine OFF
+
+dom18 04:30 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:31:48 ---
+dom18 04:31 Machine OFF
+
+dom18 04:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:32:33 ---
+dom18 04:32 Machine OFF
+
+dom18 04:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 04:32 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:37:24 ---
+dom18 04:37 Machine OFF
+
+dom18 04:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:40:44 ---
+dom18 04:40 Machine OFF
+
+dom18 04:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 04:40 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 04:45:37 ---
+dom18 04:45 Machine OFF
+
+dom18 04:45 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:10:33 ---
+dom18 05:10 Machine OFF
+
+dom18 05:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:11:00 ---
+dom18 05:11 Machine OFF
+
+dom18 05:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:14:32 ---
+dom18 05:14 Machine OFF
+
+dom18 05:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:14 Machine ON
+
+dom18 05:21 Machine OFF
+
+dom18 05:21 Machine ON
+
+dom18 05:21 Machine OFF
+dom18 05:21 Machine ON
+
+dom18 05:21 Machine OFF
+
+dom18 05:21 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:22:53 ---
+dom18 05:22 Machine OFF
+
+dom18 05:22 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:24:06 ---
+dom18 05:24 Machine OFF
+
+dom18 05:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:25:31 ---
+dom18 05:25 Machine OFF
+
+dom18 05:25 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:28:44 ---
+dom18 05:28 Machine OFF
+
+dom18 05:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:29 Machine ON
+
+dom18 05:36 Machine OFF
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:41:31 ---
+dom18 05:41 Machine OFF
+
+dom18 05:41 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:42 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:42:45 ---
+dom18 05:42 Machine OFF
+
+dom18 05:43 Machine ON
+
+dom18 05:43 Machine OFF
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:43:38 ---
+dom18 05:43 Machine OFF
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:43:38 ---
+dom18 05:43 Machine OFF
+dom18 05:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:44:51 ---
+dom18 05:44 Machine OFF
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:44:51 ---
+dom18 05:44 Machine OFF
+dom18 05:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:45 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:47:48 ---
+dom18 05:47 Machine OFF
+
+dom18 05:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:47 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 05:53:23 ---
+dom18 05:53 Machine OFF
+
+dom18 05:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 05:53 Machine ON
+
+dom18 06:03 KICKER error - init conditions
+dom18 06:03 Coupling not present in kicker
+dom18 06:03 Kicker is not down
+dom18 06:03 Coupling kick button not pressed
+dom18 06:03 --------------------------------------------------------------------------------------
+dom18 06:03 BLOWER error - init conditions
+dom18 06:03 Start blowing routine flag is not turned on
+dom18 06:03 Gantry is not in state 2 (automatic program)
+dom18 06:03 The automatic program is not in play
+dom18 06:03 --------------------------------------------------------------------------------------
+dom18 06:03 UNLOAD error - init conditions
+dom18 06:03 Discharge full
+dom18 06:03 Gantry is not in state 2 (automatic program)
+dom18 06:03 The automatic program is not in play
+dom18 06:03 --------------------------------------------------------------------------------------
+dom18 06:03 LOAD error - init conditions
+dom18 06:03 Coupling not present in segregator
+dom18 06:03 Gantry is not in state 2 (automatic program)
+dom18 06:03 The automatic program is not in play
+dom18 06:03 --------------------------------------------------------------------------------------
+dom18 06:03 --------------------------------------------------------------------------------------
+dom18 06:03 --------------------------------------------------------------------------------------
+
+dom18 06:16 Machine OFF
+dom18 06:16 movimiento detenido por entrada habilitada
+
+dom18 07:05 Machine ON
+
+dom18 07:05 Machine OFF
+
+dom18 07:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 07:52:31 ---
+dom18 07:52 Machine OFF
+
+dom18 07:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 07:53:29 ---
+dom18 07:53 Machine OFF
+
+dom18 07:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 07:55:17 ---
+dom18 07:55 Machine OFF
+
+dom18 07:55 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 08:02 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:32:55 ---
+dom18 08:32 Machine OFF
+
+dom18 08:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom18 08:34 Machine ON
+
+dom18 08:34  0.000000
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:37:05 ---
+dom18 08:37 Machine OFF
+
+dom18 08:37 Machine ON
+
+dom18 08:37  0.000000
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:37:49 ---
+dom18 08:37 Machine OFF
+
+dom18 08:37 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 08:38 Machine ON
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:38  0.000000
+
+dom18 08:45  "test"
+
+dom18 08:45  "test"
+
+dom18 08:45  0.000000
+
+dom18 08:45  0.000000
+
+dom18 08:45  0.000000
+
+dom18 08:46  0.000000
+
+dom18 08:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:49:49 ---
+dom18 08:49 Machine OFF
+
+dom18 08:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:54:12 ---
+dom18 08:54 Machine OFF
+
+dom18 08:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:56:27 ---
+dom18 08:56 Machine OFF
+
+dom18 08:56 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:58:41 ---
+dom18 08:58 Machine OFF
+
+dom18 08:58 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 08:59:37 ---
+dom18 08:59 Machine OFF
+
+dom18 08:59 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:01:55 ---
+dom18 09:01 Machine OFF
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:08:27 ---
+dom18 09:08 Machine OFF
+
+dom18 09:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:08 Machine ON
+
+dom18 09:09 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:09 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:09 Started program from line 1
+dom18 09:09 formato de número incorrecto (conversión fallida) analizando ''
+
+dom18 09:09 Started program from line 1
+dom18 09:09 formato de número incorrecto (conversión fallida) analizando ''
+
+dom18 09:10 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:10 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:10 Started program from line 1
+
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:10 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:10 Started program from line 1
+
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:10 Started program from line 1
+
+dom18 09:10 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:12 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:12 Started program from line 1
+dom18 09:12 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:12 Started program from line 1
+dom18 09:12 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:12 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:12 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:12 Started program from line 1
+
+dom18 09:12 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:13 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+dom18 09:13 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:13 No se puede abrir el archivo </usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc>
+dom18 09:13 no se puede abrir /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/1.ngc
+
+dom18 09:13 Cannot switch pages while in AUTO mode
+
+dom18 09:13 Cannot switch pages while in AUTO mode
+
+dom18 09:14 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:14 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:14 Started program from line 1
+
+dom18 09:14 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:14 Started program from line 1
+
+dom18 09:14 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:14 Started program from line 1
+dom18 09:14 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<2> desde línea: 2
+
+dom18 09:14 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:14 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:14 Started program from line 1
+dom18 09:14 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<200> desde línea: 2
+
+dom18 09:14 Started program from line 1
+dom18 09:14 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<200> desde línea: 2
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:14:50 ---
+dom18 09:14 Machine OFF
+
+dom18 09:14 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:15 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:15 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:15 Machine ON
+dom18 09:15 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom18 09:15 Machine OFF
+dom18 09:15 Machine ON
+
+dom18 09:15 Started program from line 1
+dom18 09:15 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<200> desde línea: 2
+
+dom18 09:20 Cannot switch pages while in AUTO mode
+
+dom18 09:20 Cannot switch pages while in AUTO mode
+
+dom18 09:20 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:20 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:20 Started program from line 1
+dom18 09:20 3
+
+dom18 09:20 Started program from line 1
+dom18 09:20 3
+
+dom18 09:20 Started program from line 1
+dom18 09:20 3
+
+dom18 09:20 Started program from line 1
+dom18 09:20 3
+
+dom18 09:20 Started program from line 1
+dom18 09:20 3
+
+dom18 09:21 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:21 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:21 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Cannot switch pages while in AUTO mode
+
+dom18 09:21 Cannot switch pages while in AUTO mode
+
+dom18 09:21 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:21 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+dom18 09:21 Started program from line 1
+
+dom18 09:21 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/200.ngc
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Started program from line 1
+dom18 09:22 Started program from line 1
+
+dom18 09:22 Cannot switch pages while in AUTO mode
+
+dom18 09:22 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:22 Started program from line 1
+dom18 09:22 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<200> desde línea: 2
+
+dom18 09:22 Started program from line 1
+dom18 09:22 EOF en el archivo:/usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc buscando palabra o: o<200> desde línea: 2
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:24:00 ---
+dom18 09:24 Machine OFF
+
+dom18 09:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:24 Machine ON
+dom18 09:24 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom18 09:24 Machine OFF
+dom18 09:24 Machine ON
+
+dom18 09:24 Must be in AUTO mode to run a program
+
+dom18 09:24 Started program from line 1
+dom18 09:24 3
+dom18 09:24 3
+
+dom18 09:24 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:24 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:24 Started program from line 1
+dom18 09:24 2
+
+dom18 09:24 3
+
+dom18 09:25 Started program from line 1
+dom18 09:25 2
+dom18 09:25 3
+
+dom18 09:25 Started program from line 1
+dom18 09:25 2
+dom18 09:25 3
+
+dom18 09:25 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Started program from line 1
+dom18 09:25 1
+dom18 09:25 3
+
+dom18 09:25 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:25 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Started program from line 1
+dom18 09:25 1
+
+dom18 09:25 2
+dom18 09:25 3
+
+dom18 09:25 Started program from line 1
+dom18 09:25 1
+
+dom18 09:25 2
+dom18 09:25 3
+
+dom18 09:25 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Loaded program file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:25 Started program from line 1
+dom18 09:25 1
+dom18 09:25 "200 JAJA"
+
+dom18 09:25 3
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:51:43 ---
+dom18 09:51 Machine OFF
+
+dom18 09:51 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:51 Machine ON
+
+dom18 09:51 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:51 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:51 Machine OFF
+dom18 09:51 Machine ON
+
+dom18 09:51 Started program from line 1
+
+dom18 09:51 1
+dom18 09:51 2
+dom18 09:52 3
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:52:34 ---
+dom18 09:52 Machine OFF
+
+dom18 09:52 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:52 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:52 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:53 Machine ON
+
+dom18 09:53 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom18 09:53 Machine OFF
+dom18 09:53 Machine ON
+
+dom18 09:53 Started program from line 1
+dom18 09:53 1
+
+dom18 09:53 2
+dom18 09:53 3
+
+dom18 09:53 Started program from line 1
+
+dom18 09:53 1
+dom18 09:53 2
+dom18 09:53 3
+
+dom18 09:53 Started program from line 1
+dom18 09:53 1
+
+dom18 09:53 2
+dom18 09:53 3
+
+
+--- Qtvcp Screen Started on: dom, feb 18 2024 09:53:43 ---
+dom18 09:53 Machine OFF
+
+dom18 09:53 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom18 09:53 Machine ON
+
+dom18 09:54 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:54 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:54 Started program from line 1
+dom18 09:54 1
+
+dom18 09:54 2
+dom18 09:54 3
+
+dom18 09:54 Cannot switch pages while in AUTO mode
+
+dom18 09:54 Cannot switch pages while in AUTO mode
+
+dom18 09:57 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom18 09:57 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 09:57 Started program from line 1
+
+dom18 09:57 1
+dom18 09:57 2
+dom18 09:57 3
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:09 Cannot switch pages while in AUTO mode
+
+dom18 10:16 Started program from line 1
+
+dom18 10:16 1
+dom18 10:16 2
+dom18 10:16 3
+
+dom18 10:18 Cannot switch pages while in AUTO mode
+
+dom18 10:18 Cannot switch pages while in AUTO mode
+
+dom18 10:18 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Cannot switch pages while in AUTO mode
+
+dom18 10:19 Machine OFF
+
+dom18 10:19 Machine ON
+
+dom18 10:24 Started program from line 1
+dom18 10:24 1
+
+dom18 10:24 2
+dom18 10:24 3
+
+dom18 10:42 Started program from line 1
+dom18 10:42 1
+dom18 10:42 2
+
+dom18 10:42 3
+
+dom18 10:42 Started program from line 1
+
+dom18 10:42 1
+dom18 10:42 2
+dom18 10:42 3
+
+dom18 10:43 Cannot switch pages while in AUTO mode
+
+dom18 10:43 Cannot switch pages while in AUTO mode
+
+dom18 10:43 Cannot switch pages while in AUTO mode
+
+dom18 10:43 Cannot switch pages while in AUTO mode
+
+dom18 10:50 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 10:50 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+
+dom18 10:50 Started program from line 1
+dom18 10:50 1
+dom18 10:50 2
+
+dom18 10:50 3
+

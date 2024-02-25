@@ -1,0 +1,167 @@
+
+o<parameters10> SUB
+
+;(**********************************************************************)
+;(***** MEASURED POSITION POINTS                                   *****)
+;(**********************************************************************)
+
+;MEASURED POSITION POINTS - START
+
+    ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
+
+    #<_load_plate_to_gripper_down_x>= 9.1
+    #<_load_enter_y>= 164.9
+    #<_load_gripper_down_z_reference>= 371.3
+
+    #<_unload_plate_to_gripper_down_x>= 16
+    #<_unload_enter_y>= 460.1
+    #<_unload_gripper_down_z_reference>= 520.6
+
+    #<_parking_plate_to_gripper_up_x>= 0.9
+    #<_parking_gripper_up_enter_y>= 356.8
+    #<_parking_gripper_up_z_reference>= 1082.6
+
+    #<_parking_plate_to_gripper_down_x>= 1.8
+    #<_parking_gripper_down_enter_y>= 356.8
+    #<_parking_gripper_down_z_reference>= 1333.7
+
+    #<_tumbler_gripper_up_jaws_center_x>= 816.6
+    #<_tumbler_enter_up_y>= 425.9
+    #<_tumbler_gripper_up_z>= 1054.1
+
+    #<_tumbler_gripper_down_jaws_center_x>= 816.2
+    #<_tumbler_enter_down_y>= 427.1
+    #<_tumbler_gripper_down_z>= 1305.3
+
+    #<_blower_plate_to_gripper_down_x>= 1800.3
+    #<_blower_enter_y>= 354.5
+    #<_blower_gripper_down_z_reference>= 1331.4
+
+    #<_lathe_chuck_front_to_gripper_up_x>= 2518.2
+    #<_lathe_gripper_up_center_y>= 321.4
+    #<_lathe_gripper_up_center_z>= 28.3
+
+    #<_lathe_chuck_front_to_gripper_down_x>= 2517.8
+    #<_lathe_gripper_down_center_y>= 323.3
+    #<_lathe_gripper_down_center_z>= 279.6
+    
+;MEASURED POSITION POINTS - END
+
+;MEASURED POSITION POINTS explanation - START
+
+    ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
+
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+
+    ;#<_parking_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_parking_gripper_down_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_parking_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+
+    ;#<_parking_plate_to_gripper_up_x> = with gripper up - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_parking_gripper_up_enter_y> = with gripper up - is at the center of the unit in the Y coordinate
+    ;#<_parking_gripper_up_z_reference> = with gripper up - is at the center of the reference coupling installed in the unit, the Z coordinate
+
+
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
+
+    ;#<_blower_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_blower_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_blower_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+    
+
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
+
+    ;#<_load_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)    
+    ;#<_load_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_load_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+
+
+    ; ********** Unload gripper_down ********** 
+    ; (machined couplings) 
+    
+    ;#<_unload_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_unload_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_unload_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+ 
+
+    ; ********** Tumbler  ********** 
+    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
+    
+    ;#<_tumbler_gripper_down_jaws_center_x> = with gripper down - is the X coordinate of the unit center (as if the gripper sheetmetal with compressed springs would be at the center of the jaws thickness)
+    ;#<_tumbler_enter_down_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_tumbler_gripper_down_z> = with gripper down - is at the center of the unit in the Z coordinate
+
+    ;#<_tumbler_gripper_up_jaws_center_x> = with gripper up - is the X coordinate of the unit center (as if the gripper sheetmetal with compressed springs would be at the center of the jaws thickness)
+    ;#<_tumbler_enter_up_y> = with gripper up - is at the center of the unit in the Y coordinate
+    ;#<_tumbler_gripper_up_z> = with gripper up - is at the center of the unit in the Z coordinate
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    ; *** REVIEW
+
+    ;#<_lathe_chuck_front_to_gripper_down_x> = with gripper down - is the X coordinate of the front of the chuck (as if the gripper sheetmetal with compressed springs would be there)
+    ;#<_lathe_gripper_down_center_y> = with gripper down - is at the center of the lathe chuck in the Y coordinate
+    ;#<_lathe_gripper_down_center_z> = with gripper down - is at the center of the lathe chuck in the Z coordinate
+
+    ;#<_lathe_chuck_front_to_gripper_up_x> = with gripper up - is the coordinate of the front of the chuck (as if the gripper sheetmetal with compressed springs would be there)
+    ;#<_lathe_gripper_up_center_y> = with gripper up - is at the center of the lathe chuck in the Y coordinate
+    ;#<_lathe_gripper_up_center_z> = with gripper up - is at the center of the lathe chuck in the Z coordinate
+
+;MEASURED POSITION POINTS explanation - END
+
+;DIMENSIONS TAKEN BY THE GANTRY - START
+
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+
+    #<_parking_gripper_down_x_meas_ref>=[-8 + #<_raw_coupling_length>] ; the numeric value in this equation should be similar to _parking_plate_to_gripper_down_x
+    #<_parking_gripper_up_x_meas_ref>=[-8 + #<_raw_coupling_length>] ; the numeric value in this equation should be similar to _parking_plate_to_gripper_up_x
+    ; the numeric value in the equation is the coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ; this dimension should be adjusted according measuring results
+
+
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
+
+    #<_blower_gripper_down_x_meas_ref_machined>=[1797 + #<_final_coupling_length>]
+    ; the value is the coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ; the numeric value in this equation should be similar to _blower_plate_to_gripper_down_x
+    ; this dimension should be adjusted according a measuring results
+
+
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
+
+    #<_load_gripper_down_x_meas_ref>=[29.1 + #<_raw_coupling_length>]
+    ; the value is the coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ; the numeric value in this equation should be similar to _load_plate_to_gripper_down_x
+    ; this dimension should be adjusted according a measuring results
+
+
+    ; ********** Tumbler  ********** 
+    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
+    
+    #<_tumbler_gripper_down_x_meas_ref>=1025 ;this dimension should be similar to _tumbler_gripper_down_load_from_extract
+    #<_tumbler_gripper_up_x_meas_ref>=1021.3 ;this dimension should be similar to _tumbler_gripper_up_load_from_extract
+    ;this dimensions should be adjusted according a measuring results
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    ; *** REVIEW
+
+    #<_lathe_gripper_down_x_meas_ref>=[2627.6 + #<_lathe_axial_stopper> + #<_raw_coupling_length>]
+    ; the numeric value in this equation should be similar to _lathe_chuck_front_to_gripper_down_x
+    ; this dimension should be adjusted according a measuring results
+    
+;DIMENSIONS TAKEN BY THE GANTRY - END
+
+o<parameters10> ENDSUB

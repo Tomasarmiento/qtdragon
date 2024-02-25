@@ -1,773 +1,1533 @@
+;
+
+
 (**********************************************************************)
-(***** TABLA DE CALCULOS                                          *****)
+(***** CALCULATIONS BASED ON COUPLING DIMENSIONS                  *****)
 (**********************************************************************)
 
-;NOT OD
+;CALCULATIONS BASED ON COUPLING DIMENSIONS - START
+
+    ;**** VALUES LOADED BY THE OPERATOR FROM DE PANEL ****
+    #<_od_raw_diameter>= 666
+    #<_od_machined_diameter>= 666
+    #<_id_diameter>= 666
+
+    #<_raw_coupling_length>= 666
+    #<_op10_coupling_length>= 666
+    #<_final_coupling_length>= 666
+
+    #<_lathe_axial_stopper>= 666
 
 
 
-;**** VALORES CARGADOS EN EL PANEL, Y QUE SE PASAN AL CODIGO G ****
-#<_diametro_bruto>= 123.5
-#<_diametro_torneado>= 123.5
-#<_diametro_interno>= 100
-
-#<_largo_bruto>= 243
-#<_largo_op10>= 243
-#<_largo_torneado>= 243
+    ;**** VALUES OF DE COUPLING USED AS MASTER (TO OBTAIN THE FIRST DIMENSIONS) ****
+    ; IN THIS CASE THE COUPLING WAS OF D148.4 x L 240 ****
+    #<_reference_diameter>= 148.4 
+    #<_reference_length>= 240 
 
 
 
-;**** VALORES DE CUPLA DE REFERENCIA, EN ESTE CASO D148.4 x L 240 ****
-#<_diametro_referencia>= 148.4 
-#<_largo_referencia>= 240 
+    ;**** "PS" REFERS TO PARKING (USES RAW DIAMETER) & BLOWER (USES RAW & FINAL DIAMETER) ****
+
+    ;VALUE OBTAINED BY THE CALCULATIONS OF THE EXCEL FILE, WITH THE INPUT DIMENSIONS OF THE REFERENCE COUPLING
+    ; IN THIS CASE THE COUPLING WAS OF D148.4 x L 240
+    #<_d_reference_height_ps>= 70.83
+
+    ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
+    #<_d_raw_height_ps>= 341.862911121
+    #<_d_machined_height_ps>= 341.862911121
+
+    ;DIAMETER CORRECTIONS
+    #<_d_raw_height_correction_ps>= [#<_d_raw_height_ps>-#<_d_reference_height_ps>] ;correction when raw diameter is used
+    #<_d_machined_height_correction_ps>= [#<_d_machined_height_ps>-#<_d_reference_height_ps>] ;correction when machined diameter is used
 
 
 
-;**** CORRECCIONES DE LARGO ****
-#<_correccion_largo_bruto>= [#<_largo_bruto>-#<_largo_referencia>] 
-#<_correccion_largo_torneado>= [#<_largo_torneado>-#<_largo_referencia>] 
+    ;**** "CD" REFERS TO LOAD (USES RAW DIAMETER) & UNLOAD (USES FINAL DIAMETER) ****
+
+    ;VALUE OBTAINED BY THE CALCULATIONS OF THE EXCEL FILE, WITH THE INPUT DIMENSIONS OF THE REFERENCE COUPLING
+    ; IN THIS CASE THE COUPLING WAS OF D148.4 x L 240
+    #<_d_reference_height_cd>= 90.58
+
+    ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
+    #<_d_raw_height_cd>= 406.517938058
+    #<_d_machined_height_cd>= 406.517938058
+
+    ;DIAMETER CORRECTIONS
+    #<_d_raw_height_correction_cd>= [#<_d_raw_height_cd>-#<_d_reference_height_cd>] ;correction when raw diameter is used
+    #<_d_machined_height_correction_cd>= [#<_d_machined_height_cd>-#<_d_reference_height_cd>] ;correction when machined diameter is used
+
+;CALCULATIONS BASED ON COUPLING DIMENSIONS - END
 
 
 
-;**** PS ES PARKING (usa d bruto) Y SOPLADOR (usa d bruto y torneado) ****
 
-;VALOR TOMADO DEL EXCEL CON LOS DATOS DE LA CUPLA DE REFERENCIA, EN ESTE CASO D148.4 x L 240
-#<_d_referencia_altura_ps>= 70.83
+o<call_parameters> CALL
 
-;VALORES CALCULADOS Y ESCRITOS POR EL PYTHON EN BASE A LOS DATOS CARGADOS POR PANEL 
-#<_d_bruto_altura_ps>= 54.8913699957
-#<_d_torneado_altura_ps>= 54.8913699957
+;MEASURED POSITION POINTS explanation - START
 
-;CORRECCIONES DE DIAMETRO
-#<_d_bruto_correccion_altura_ps>= [#<_d_bruto_altura_ps>-#<_d_referencia_altura_ps>] ;correccion para cuando incide el d bruto
-#<_d_torneado_correccion_altura_ps>= [#<_d_torneado_altura_ps>-#<_d_referencia_altura_ps>] ;correccion para cuando incide el d torn
+    ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
+
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+
+    ;#<_parking_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_parking_gripper_down_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_parking_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+
+    ;#<_parking_plate_to_gripper_up_x> = with gripper up - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_parking_gripper_up_enter_y> = with gripper up - is at the center of the unit in the Y coordinate
+    ;#<_parking_gripper_up_z_reference> = with gripper up - is at the center of the reference coupling installed in the unit, the Z coordinate
 
 
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
 
-;**** CD ES CARGA (usa d bruto) Y DESCARGA (usa d torneado) ****
+    ;#<_blower_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_blower_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_blower_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+    
 
-;VALOR TOMADO DEL EXCEL CON LOS DATOS DE LA CUPLA DE REFERENCIA, EN ESTE CASO D148.4 x L 240
-#<_d_referencia_altura_cd>= 90.58
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
 
-;VALORES CALCULADOS Y ESCRITOS POR EL PYTHON EN BASE A LOS DATOS CARGADOS POR PANEL
-#<_d_bruto_altura_cd>= 75.382830856
-#<_d_torneado_altura_cd>= 75.382830856
+    ;#<_load_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)    
+    ;#<_load_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_load_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
 
-;CORRECCIONES DE DIAMETRO
-#<_d_bruto_correccion_altura_cd>= [#<_d_bruto_altura_cd>-#<_d_referencia_altura_cd>] ;correccion para cuando incide el d bruto
-#<_d_torneado_correccion_altura_cd>= [#<_d_torneado_altura_cd>-#<_d_referencia_altura_cd>] ;correccion para cuando incide el d torn
+
+    ; ********** Unload gripper_down ********** 
+    ; (machined couplings) 
+    
+    ;#<_unload_plate_to_gripper_down_x> = with gripper down - is the X coordinate of the unit stop plate (as if the gripper sheetmetal with compressed springs would be at the plate)
+    ;#<_unload_enter_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_unload_gripper_down_z_reference> = with gripper down - is at the center of the reference coupling installed in the unit, the Z coordinate
+ 
+
+    ; ********** Tumbler  ********** 
+    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
+    
+    ;#<_tumbler_gripper_down_jaws_center_x> = with gripper down - is the X coordinate of the unit center (as if the gripper sheetmetal with compressed springs would be at the center of the jaws thickness)
+    ;#<_tumbler_enter_down_y> = with gripper down - is at the center of the unit in the Y coordinate
+    ;#<_tumbler_gripper_down_z> = with gripper down - is at the center of the unit in the Z coordinate
+
+    ;#<_tumbler_gripper_up_jaws_center_x> = with gripper up - is the X coordinate of the unit center (as if the gripper sheetmetal with compressed springs would be at the center of the jaws thickness)
+    ;#<_tumbler_enter_up_y> = with gripper up - is at the center of the unit in the Y coordinate
+    ;#<_tumbler_gripper_up_z> = with gripper up - is at the center of the unit in the Z coordinate
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    ; *** REVIEW
+
+    ;#<_lathe_chuck_front_to_gripper_down_x> = with gripper down - is the X coordinate of the front of the chuck as if the gripper sheetmetal with compressed springs would be there with 3mm of light
+    ;#<_lathe_gripper_down_center_y> = with gripper down - is at the center of the lathe chuck in the Y coordinate
+    ;#<_lathe_gripper_down_center_z> = with gripper down - is at the center of the lathe chuck in the Z coordinate
+
+    ;#<_lathe_chuck_front_to_gripper_up_x> = with gripper up - is the coordinate of the front of the chuck as if the gripper sheetmetal with compressed springs would be there with 3mm of light
+    ;#<_lathe_gripper_up_center_y> = with gripper up - is at the center of the lathe chuck in the Y coordinate
+    ;#<_lathe_gripper_up_center_z> = with gripper up - is at the center of the lathe chuck in the Z coordinate
+
+;MEASURED POSITION POINTS explanation - END
+
+
 
 
 ;(**********************************************************************)
-;(***** TABLA DE POSICIONES                                        *****)
+;(***** DEFINED POSITIONS & DIMENSIONS                             *****)
 ;(**********************************************************************)
 
+;DEFINED POSITIONS & DIMENSIONS - START
 
-
-; ********** posicion segura **********
-#<_y-pos-segura> = 0
-#<_z-pos-segura> = 1350
-
-
-
-; ********** medicion **********
-#<_offset_luego_medir> = 4
-#<_limite_medicion> = 12
+    ; ********** SERVICE POSITION **********
+    #<_x_service_position> = 1000
+    #<_y_service_position> = 0
+    #<_z_service_position> = 750
 
 
 
-; ********** Parking gripper_down y gripper_up ********** 
-;(maneja cuplas en bruto)
-#<_parking_aproxima_x>=320
-#<_parking_gripper_down_dejar_x_calculado>=[232 + #<_correccion_largo_bruto>]
-#<_parking_gripper_down_tomar_x_calculado>=[232 + #<_correccion_largo_bruto>]
-#<_parking_gripper_up_tomar_x_calculado>=[237 + #<_correccion_largo_bruto>]
-#<_parking_gripper_down_z_calculado>=[1318.3 + #<_d_bruto_correccion_altura_ps>]
-#<_parking_gripper_up_z_calculado>=[1067.5 + #<_d_bruto_correccion_altura_ps>]
-#<_parking_ingreso_x>=350
-#<_parking_cambio_up_x>=520
-#<_parking_gripper_down_ingreso_y>=372.2
-#<_parking_gripper_up_ingreso_y>=370.5
-#<_parking_offset_x_medicion>=4
-#<_parking_z_offset>=8
-
-;control de largos up (se completa con las primeras mediciones, y el error resultante)
-#<_parking_gripper_up_x_med_ref>=[231 + #<_correccion_largo_bruto>]
-#<_parking_gripper_up_x_error_admisible>=6
-
-;control de largos up (se completa con las primeras mediciones, y el error resultante)
-#<_parking_gripper_down_x_med_ref>=[230 + #<_correccion_largo_bruto>]
-#<_parking_gripper_down_x_error_admisible>=6
+    ; ********** SAFE POSITION **********
+    #<_y_secure_position> = 0
+    #<_z_secure_position> = 1350
 
 
 
-; ********** Soplador gripper_down ********** 
-;(maneja cuplas torneadas)
-
-#<_soplador_aproxima_x>=2100
-#<_soplador_gripper_down_dejar_x_calculado>=[2035 + #<_correccion_largo_torneado>]
-#<_soplador_gripper_down_tomar_x_calculado>=[2033 + #<_correccion_largo_torneado>]
-#<_soplador_gripper_down_z_calculado_torneado>=[1326 + #<_d_torneado_correccion_altura_ps>]
-#<_soplador_ingreso_x>=2300
-#<_soplador_ingreso_y>=371.1
-#<_soplador_offset_x_medicion>=4
-#<_soplador_z_offset>=8
-
-;control de largos up (se completa con las primeras mediciones, y el error resultante)
-#<_soplador_gripper_down_x_med_ref_torneado>=[2031.8 + #<_correccion_largo_torneado>]
-#<_soplador_gripper_down_x_error_admisible>=6
+    ; ********** MEASURING **********
+    #<_offset_after_measuring> = 4
+    #<_measuring_limit> = 20
 
 
 
-; ********** Carga Gripper down **********
-;(maneja cuplas en bruto)
-#<_carga_aproxima_x>=350 
-#<_carga_gripper_down_x_calculado>=[263 + #<_correccion_largo_bruto>] 
-#<_carga_gripper_down_z_calculado>=[379 + #<_d_bruto_correccion_altura_cd>] ;siempre usa D BRUTO
-#<_carga_ingreso_x>=400
-#<_carga_ingreso_y>=168.6 ;todos los ingresos y ya son centrados
-#<_carga_offset_x_medicion>=4
-#<_carga_z_offset>=5
+    ; ********** UNLOAD **********
+    #<_unload_light>=3
 
-;control de largos up (se completa con las primeras mediciones, y el error resultante)
-#<_carga_gripper_down_x_med_ref>=[265 + #<_correccion_largo_bruto>]
-#<_carga_gripper_down_x_error_admisible>=6
+
+    
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+    #<_parking_offset_x_measuring>=4
+    #<_parking_z_offset>=8
+    #<_parking_gripper_up_x_error_accepted>=6
+    #<_parking_gripper_down_x_error_accepted>=6
 
 
 
-; ********** Descarga gripper_down ********** 
-;(maneja cuplas torneadas)
-#<_descarga_aproxima_x>=320
-#<_descarga_gripper_down_x_calculado>=[255 + 2 + #<_correccion_largo_torneado>]
-#<_descarga_gripper_down_z_calculado>=[522.4 + #<_d_torneado_correccion_altura_cd>]
-#<_descarga_ingreso_x>=530
-#<_descarga_ingreso_intermedio_x>=350
-#<_descarga_ingreso_intermedio_Z>=650
-#<_descarga_ingreso_y>=454.5
-#<_descarga_z_offset>=5
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
+    #<_blower_offset_x_measuring>=4
+    #<_blower_z_offset>=6
+    #<_blower_gripper_down_x_error_accepted>=6
 
 
 
-; ********** Volteador gripper_down ********** 
-;(suponemos maneja cuplas en bruto porque es el diámetro mayor)
-
-#<_volteador_gripper_down_extrae>=1022
-;esta cota es la medida que se extrae hacia un extremo la cupla
-;las extrae siempre a la misma medida que es lo máximo que se puede extraer la cupla más corta
-;con eso ya alcanza para tomarlo con gripper up
-;es: (valor X con gripper en centro volteador) + (largo cupla + corta) - (espesor mordaza volt / 2)
-;es: 809+230-17=1022
-
-#<_volteador_aproxima_down_x>=1050 ;ponemos valor cota extrae + plus
-#<_volteador_aproxima_up_x>=1050 ;ponemos valor cota extrae + plus
-
-#<_volteador_gripper_down_dejar_x_calculado>=[931 + #<_correccion_largo_bruto> / 2] 
-;con la cupla tomada por gripper, venciendo resortes chapa, la deja en el centro del volteador
-
-#<_volteador_gripper_down_tomar_x_calculado>=[931 + #<_correccion_largo_bruto> / 2] 
-;en el extremo de la cupla que está a la mitad del volteador, se arrima hasta apoyar la chapa a 2mm del sensor
-
-#<_volteador_gripper_up_tomar_x_calculado>=[1025 + #<_correccion_largo_bruto>]
-;en el extremo de la cupla que está extraida (COTA EXTRAE), se arrima hasta apoyar la chapa a 2mm del sensor
-;la correccion no es /2 porque es una cota fija donde esta la cupla, la de extrae
-
-#<_volteador_gripper_down_z>=1296.8
-#<_volteador_gripper_up_z>=1046
-#<_volteador_ingreso_x>=1150
-#<_volteador_ingreso_down_y>=441
-#<_volteador_ingreso_up_y>=439.1
-#<_volteador_offset_x_medicion>=4
-
-;control de largos (se completa con las primeras mediciones, y el error resultante)
-#<_volteador_gripper_down_x_med_ref>=[929.8 + #<_correccion_largo_bruto>]
-#<_volteador_gripper_up_x_med_ref>=[1024.8 + #<_correccion_largo_bruto>]
-#<_volteador_x_error_admisible>=6
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
+    #<_load_offset_x_measuring>=4
+    #<_load_z_offset>=5
+    #<_load_gripper_down_x_error_accepted>=6
 
 
 
-; ********** Torno **********
-; *** REVISAR
-; AGREGAR COMPENSACIONES POR VARIACION DE LARGO ENTRE RAW MATERIAL - OP10 - OP20 ****
+    ; ********** Unload gripper_down ********** 
+    ; (machined couplings)
+    #<_unload_z_offset>=5
 
-#<_torno_gripper_down_aproxima_x>=3000
-#<_torno_gripper_down_centro_y>=329.2
-#<_torno_gripper_down_centro_z>=288.2
-#<_torno_gripper_down_x_calculado>=[2851.3 + #<_correccion_largo_bruto>]
 
-#<_torno_gripper_up_aproxima_x>=3000
-#<_torno_gripper_up_centro_y>=326.8
-#<_torno_gripper_up_centro_z>=37.6
-#<_torno_gripper_up_x_calculado>=[2850.6 + #<_correccion_largo_bruto>]
 
-#<_torno_ingreso1_x>=3110
-#<_torno_ingreso1_y>=233
-#<_torno_ingreso1_z>=300
-#<_torno_ingreso2_y>=150
-#<_torno_ingreso2_z>=490
-#<_torno_ingreso3_z>=60
-#<_torno_offset_x_medicion>=4
+    ; ********** Tumbler  ********** 
+    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
+    #<_tumbler_offset_x_measuring>=10
+    #<_tumbler_x_error_accepted>=6
+    #<_tumbler_x_displacement>=20
 
-;control de largos (se completa con las primeras mediciones, y el error resultante)
-#<_torno_gripper_down_x_med_ref>=[2849.6 + #<_correccion_largo_bruto>]
-#<_torno_gripper_down_x_error_admisible>=6
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    #<_lathe_offset_x_measuring>=6
+    #<_lathe_gripper_down_x_error_accepted>=6
+
+;DEFINED POSITIONS & DIMENSIONS - END
+
+
+
+
+;(**********************************************************************)
+;(***** RELATIVE POSITION POINTS                                   *****)
+;(**********************************************************************)
+
+;RELATIVE POSITION POINTS - START
+
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+
+    #<_parking_enter_x_over_bars>=[#<_parking_plate_to_gripper_down_x> + 352]
+    #<_parking_enter_z>=[#<_parking_gripper_down_z_reference> + 52]
+
+    #<_parking_aproximates_x>=[#<_parking_plate_to_gripper_down_x> + 322]
+
+    #<_parking_enter_x_free>=[#<_parking_plate_to_gripper_down_x> + 522]
+    
+    #<_parking_gripper_down_unload_x_calculated>=[#<_parking_plate_to_gripper_down_x> + #<_unload_light> + #<_raw_coupling_length>]
+    #<_parking_gripper_down_load_x_calculated>=[#<_parking_plate_to_gripper_down_x> + #<_raw_coupling_length>]
+    #<_parking_gripper_down_z_calculated>=[#<_parking_gripper_down_z_reference> + #<_d_raw_height_correction_ps>]
+    
+    #<_parking_gripper_up_unload_x_calculated>=[#<_parking_plate_to_gripper_up_x> + #<_unload_light> + #<_raw_coupling_length>]
+    #<_parking_gripper_up_load_x_calculated>=[#<_parking_plate_to_gripper_up_x> + #<_raw_coupling_length>]
+    #<_parking_gripper_up_z_calculated>=[#<_parking_gripper_up_z_reference> + #<_d_raw_height_correction_ps>]
+
+
+
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
+
+    #<_blower_enter_x>=[#<_blower_plate_to_gripper_down_x> + 511]
+
+    #<_blower_aproximates_x>=[#<_blower_plate_to_gripper_down_x> + 301]
+    
+    #<_blower_gripper_down_unload_x_calculated>=[#<_blower_plate_to_gripper_down_x> + #<_unload_light> + #<_final_coupling_length>]
+    #<_blower_gripper_down_load_x_calculated>=[#<_blower_plate_to_gripper_down_x> + #<_final_coupling_length>]
+    #<_blower_gripper_down_z_calculated_machined>=[#<_blower_gripper_down_z_reference> + #<_d_machined_height_correction_ps>]
+
+
+
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
+
+    #<_load_enter_x>=[#<_load_plate_to_gripper_down_x> + 423]
+    
+    #<_load_aproximates_x>=[#<_load_plate_to_gripper_down_x> + 323] 
+
+    #<_load_gripper_down_x_calculated>=[#<_load_plate_to_gripper_down_x> + #<_raw_coupling_length>] 
+    #<_load_gripper_down_z_calculated>=[#<_load_gripper_down_z_reference> + #<_d_raw_height_correction_cd>]
+
+
+
+    ; ********** Unload gripper_down ********** 
+    ; (machined couplings)
+
+    #<_unload_enter_x>=[#<_unload_plate_to_gripper_down_x> + 510]
+
+    #<_unload_aproximates_x>=[#<_unload_plate_to_gripper_down_x> + 300]
+
+    #<_unload_enter_intermediate_x>=[#<_unload_plate_to_gripper_down_x> + 330]
+    #<_unload_enter_intermediate_Z>=[#<_unload_gripper_down_z_reference> + 127.6]
+
+    #<_unload_gripper_down_x_calculated>=[#<_unload_plate_to_gripper_down_x> + #<_unload_light> + #<_final_coupling_length>]
+    #<_unload_gripper_down_z_calculated>=[#<_unload_gripper_down_z_reference> + #<_d_machined_height_correction_cd>] ;always uses machined diameter
+
+
+    ; ********** Tumbler  ********** 
+    ;this center (Y & Z coordinates) does not change with the couplings diameter
+    
+    #<_tumbler_enter_x>=[#<_tumbler_gripper_down_jaws_center_x> + 350]
+
+    #<_tumbler_gripper_down_unload_x_calculated>=[#<_tumbler_gripper_down_jaws_center_x> + #<_raw_coupling_length> / 2] ;the coupling loaded in the gripper, compressing gripper springs, it must be at the center of the tumbler
+    
+    #<_tumbler_gripper_down_load_x_calculated>=[#<_tumbler_gripper_down_jaws_center_x> + #<_raw_coupling_length> / 2] ;the coupling is at the center of the tumbler, and the Gantry aproximates until leaving 2mm gap between the plate and the sensor
+
+    #<_tumbler_gripper_down_extracts>=[#<_tumbler_gripper_down_jaws_center_x> + 212]
+    ;this dimension is the measurement that the coupling is extracted towards one end
+    ;it always extracts them to the same dimension which is the maximum that the shortest coupling can be extracted
+    ;thats enough to load it with gripper up
+    ;it is: (X value with gripper at the center of the tumbler) + (shortest coupling length) - (thickness of tumbler jaws / 2)
+    ;it is: 809+230-17=1022
+
+    #<_tumbler_aproximates_down_x>=[#<_tumbler_gripper_down_jaws_center_x> + 240] ;we use extract X value + plus
+
+    #<_tumbler_aproximates_up_x>=[#<_tumbler_gripper_up_jaws_center_x> + 240] ;we use extract X value + plus
+
+    #<_tumbler_gripper_down_load_from_extract>=[#<_tumbler_gripper_down_jaws_center_x> + 215]
+    ;from the previously extended end of the coupling (_tumbler_gripper_down_extracts), the Gantry aproximates until leaving 2mm gap between the plate and the sensor
+    ;there is no length correction, because the dimension does not change with the couplng length variation, it is a fix dimension
+    ;*** This value must be almost the same than _tumbler_gripper_down_extracts ***
+
+    #<_tumbler_gripper_up_load_from_extract>=[#<_tumbler_gripper_up_jaws_center_x> + 215]
+    ;from the previously extended end of the coupling (_tumbler_gripper_down_extracts), the Gantry aproximates until leaving 2mm gap between the plate and the sensor
+    ;there is no length correction, because the dimension does not change with the couplng length variation, it is a fix dimension
+    ;*** This value must be almost the same than _tumbler_gripper_down_extracts ***
+
+
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    ; *** REVIEW
+
+    #<_lathe_enter1_x>=[#<_lathe_chuck_front_to_gripper_down_x> + 523.7]
+    #<_lathe_enter1_y>=[#<_lathe_gripper_down_center_y> - 96]
+    #<_lathe_enter1_z>=[#<_lathe_gripper_down_center_z> + 12]
+
+    #<_lathe_enter2_y>=[#<_lathe_gripper_down_center_y> - 179]
+    #<_lathe_enter2_z>=[#<_lathe_gripper_down_center_z> + 202]
+
+    #<_lathe_enter3_z>=[#<_lathe_gripper_up_center_z>+22]
+
+    #<_lathe_gripper_down_aproximates_x>=[#<_lathe_chuck_front_to_gripper_down_x> + 414]
+    #<_lathe_gripper_up_aproximates_x>=[#<_lathe_chuck_front_to_gripper_up_x> + 414]
+
+    #<_lathe_gripper_down_x_calculated>=[#<_lathe_chuck_front_to_gripper_down_x> + #<_lathe_axial_stopper> + #<_raw_coupling_length>]
+    #<_lathe_gripper_up_x_calculated>=[#<_lathe_chuck_front_to_gripper_up_x> + #<_lathe_axial_stopper> + #<_unload_light> + #<_raw_coupling_length>]
+
+;RELATIVE POSITION POINTS - END
+
 
 
 
 (**********************************************************************)
-(***** TABLA DE VELOCIDADES                                       *****)
+(***** VELOCITIES                                                 *****)
 (**********************************************************************)
 
-;#<_VEL_RAPIDA>=35000
-;#<_VEL_MEDIA>=15000
-;#<_VEL_LENTA>=3000
-;#<_VEL_RTN_MEDIR>=400
-#<_VEL_RAPIDA>=35000
-#<_VEL_MEDIA>=15000
-#<_VEL_LENTA>=3000
-#<_VEL_RTN_MEDIR>=400
+#<_VEL_FAST>=35000
+#<_VEL_MEDIUM>=15000
+#<_VEL_SLOW>=3000
+#<_VEL_RTN_MEAS>=400
+
+
+
+
 
 (**********************************************************************)
-(***** ENCABEZADO                                                 *****)
+(***** HEADING                                                    *****)
 (**********************************************************************)
 
-G10 L2 P1 X0 Y0 Z0 ;offset a G54
+G10 L2 P1 X0 Y0 Z0 ;offset G54
 G90 ;absolute distance
 G54 ;zero
 G64 P1 ;path blending(cont)
-;M68 E0 Q30 ;cambia aceleracion X
-;M68 E1 Q20 ;cambia aceleracion Y
-;M68 E2 Q10 ;cambia aceleracion Z
-
-
-
-
-(**********************************************************************)
-(***** PROGRAMA TESTS                                             *****)
-(**********************************************************************)
-
-o800 CALL ;condiciones inciales
-
-o1300 CALL ;RUTINA CARGA gripper down
-o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;o2200 CALL ; **** OP10 ****
-
-o1300 CALL ;RUTINA CARGA gripper down
-o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
-o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;o2200 CALL ; **** OP10 ****
-
-o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;o2150 CALL ; ----- OP20 -----
-
-o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;o2150 CALL ; ----- OP20 -----
-o1200 CALL ;soplador dejar down
-o1250 CALL ;soplador tomar down
-o1350 CALL ;RUTINA DESCARGA gripper down
-
-o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
-o1200 CALL ;soplador dejar down
-o1250 CALL ;soplador tomar down
-o1350 CALL ;RUTINA DESCARGA gripper down
-
-G4 P30
-
-M02
-
-
+;M68 E0 Q30 ;change acceleration X
+;M68 E1 Q20 ;change acceleration Y
+;M68 E2 Q10 ;change acceleration Z
 
 
 
 (**********************************************************************)
-(***** PROGRAMA COMPLETO                                          *****)
+(***************            PROGRAM SELECTOR            ***************)
 (**********************************************************************)
 
-;o800 CALL ;condiciones inciales
-;
-;o1300 CALL ;RUTINA CARGA gripper down
-;o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;;o2200 CALL ; **** OP10 ****
-;
-;#<_terminar> = 0
-;
-;o500 WHILE [#<_terminar> LT 10000]
-;
-;    o1300 CALL ;RUTINA CARGA gripper down
-;    o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
-;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;;    o2200 CALL ; **** OP10 ****
-;
-;    o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;;    o2150 CALL ; ----- OP20 -----
-;
-;    o1400 CALL ;RUTINA VOLTEADOR gripper down - sale up
-;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;;    o2150 CALL ; ----- OP20 -----
-;
-;    o1200 CALL ;soplador dejar down
-;    o1250 CALL ;soplador tomar down
-;    o1350 CALL ;RUTINA DESCARGA gripper down
-;    o1300 CALL ;RUTINA CARGA gripper down
-;    o2100 CALL ;PARKING - DEJAR DOWN - TOMAR UP
-;    o3200 CALL ;RUTINA TORNO MEDIO gripper down TOMAR / gripper up DEJAR
-;;    o2200 CALL ; **** OP10 ****
-;
-;    o1200 CALL ;soplador dejar down
-;    o1250 CALL ;soplador tomar down
-;    o1350 CALL ;RUTINA DESCARGA gripper down
-;
-;    #<_terminar> = [#<_terminar> + 1]
-;
-;    ;VERIFICAR Señal LAST CYCLE
-;    M66 Pxx L3 Q0.1	;poner número de entrada
-;    o116 IF [#5399 EQ 1]
-;        #<_terminar> = 10001
-;    o116 ENDIF
-;
-;o500 ENDWHILE
-;
-;o10 IF [#<_terminar> GT 10000]
-;    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
-;    O1500 CALL ;RUTINA VOLTEADOR gripper down - sale down
-;    o3000 CALL ;RUTINA TORNO INICIA - gripper down DEJAR
-;;    o2150 CALL ; ----- OP20 -----
-;
-;    o3400 CALL ;RUTINA TORNO TERMINA - gripper down TOMAR
-;    o1200 CALL ;soplador dejar down
-;    o1250 CALL ;soplador tomar down
-;    o1350 CALL ;RUTINA DESCARGA gripper down
-;    M02
-;o10 ENDIF
+;Program Selector
 
-M02
+    m66 e01 l0 
+
+    o430 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRINTING_VARIABLES> ] ;PRINT VARIABLES
+        (debug, PRINT VARIABLES)
+        ;(log, )
+        M100 P180
+        o180 CALL
+        M02
+    o430 ENDIF
+
+    o435 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]DEBUGGING> ] ;DEBUG
+        (debug, DEBUG)
+        ;(log, )
+        M100 P190
+        o190 CALL
+        M02
+    o435 ENDIF
+
+    o450 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_PARKING> ] ;UNLOAD PARKING
+        (debug, UNLOAD PARKING)
+        ;(log, )
+        M100 P220
+        o220 CALL
+        M02
+    o450 ENDIF
+
+    o460 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_BLOWER> ] ;UNLOAD BLOWER
+        (debug, UNLOAD BLOWER)
+        ;(log, )
+        M100 P250
+        o250 CALL
+        M02
+    o460 ENDIF
+
+    o475 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_LATHE> ] ;UNLOAD LATHE
+        (debug, UNLOAD LATHE)
+        ;(log, )
+        M100 P270
+        o270 CALL
+        M02
+    o475 ENDIF
+
+    o500 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_TUMBLER_BEFORE_TURNING> ] ;UNLOAD TUMBLER BEFORE TURNING
+        (debug, UNLOAD TUMBLER BEFORE TURNING)
+        ;(log, )
+        M100 P300
+        o300 CALL
+        M02
+    o500 ENDIF
+
+    o505 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_TUMBLER_AFTER_TURNED> ] ;UNLOAD TUMBLER AFTER TURNED
+        (debug, UNLOAD TUMBLER AFTER TURNED)
+        ;(log, )
+        M100 P310
+        o310 CALL
+        M02
+    o505 ENDIF
+
+    o525 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_GRIPPER_UP> ] ;UNLOAD GRIPPER UP
+        (debug, UNLOAD GRIPPER UP)
+        ;(log, )
+        M100 P320
+        o320 CALL
+        M02
+    o525 ENDIF
+
+    o550 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]UNLOAD_GRIPPER_DOWN> ] ;UNLOAD GRIPPER DOWN
+        (debug, UNLOAD GRIPPER DOWN)
+        ;(log, )
+        M100 P350
+        o350 CALL
+        M02
+    o550 ENDIF
+
+    o575 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]SERVICE_POSITION> ] ;SERVICE POS
+        (debug, SERVICE POS)
+        ;(log, )
+        M100 P370
+        o370 CALL
+        M02
+    o575 ENDIF
+    
+    ;********************
+    ;**** PRODUCTION ****
+    ;********************
+
+    o440 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP0>] ;PRODUCTION step 0 CONDITION Gantry empty / Lathe empty
+        (debug, PRODUCTION step 0)
+        ;(log, )
+        #<_step>=0
+        M100 P4000
+        o400 CALL
+        M02
+    o440 ENDIF
+    
+    o441 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP1>] ;PRODUCTION step 1 CONDITION Gantry RAW MATERIAL GR UP / Lathe empty
+        (debug, PRODUCTION step 1)
+        ;(log, )  
+        #<_step>=1
+        M100 P4001
+        o400 CALL
+        M02
+    o441 ENDIF
+
+    o442 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP2>] ;PRODUCTION step 2 CONDITION Gantry empty /Lathe OP10
+        (debug, PRODUCTION step 2)
+        ;(log, )  
+        #<_step>=2
+        M100 P4002
+        o400 CALL
+        M02
+    o442 ENDIF
+
+    o443 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP3>] ;PRODUCTION step 3 CONDITION Gantry RAW MATERIAL GR UP /Lathe OP10
+        (debug, PRODUCTION step 3)
+        ;(log, )    
+        #<_step>=3    
+        M100 P4003
+        o400 CALL
+        M02
+    o443 ENDIF
+
+    o444 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP4>] ;PRODUCTION step 4 CONDITION Gantry OP10 TURNED GR UP / Lathe OP10
+        (debug, PRODUCTION step 4)
+        ;(log, )     
+        #<_step>=4   
+        M100 P4004
+        o400 CALL
+        M02
+    o444 ENDIF
+
+    o445 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP5>] ;PRODUCTION step 5 CONDITION Gantry OP10 TURNED GR UP / Lathe OP20 
+        (debug, PRODUCTION step 5)
+        ;(log, )
+        #<_step>=5
+        M100 P4005
+        o400 CALL
+        M02
+    o445 ENDIF
+
+    o446 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]PRODUCTION_STEP6>] ;PRODUCTION step 6 CONDITION Gantry RAW MATERIAL GR UP / Lathe OP20
+        (debug, PRODUCTION step 6)
+        ;(log, )  
+        #<_step>=6
+        M100 P4006
+        o400 CALL
+        M02
+    o446 ENDIF
+
+    (debug, *** NO SELECTION FOUND ***)
+    M02
+
+;END
 
 
-;(**********************************************************************)
-;(***** INICIALIZACION CHEQUEOS                                    *****)
-;(**********************************************************************)
 
-o800 SUB
-; FLAGS A SETEAR
+(**********************************************************************)
+(***** DEBUG                                                      *****)
+(**********************************************************************)
+
+o190 SUB ; routines for debugging
+    ;o800 CALL ;initializations
+    ;o801 CALL ;checkings
+    ;o1300 CALL ;LOAD gripper down
+    ;o1200 CALL ;blower gripper down leaves
+    ;o1250 CALL ;blower gripper down grabs
+    ;o2100 CALL ;PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB
+    ;o1100 CALL ;PARKING gripper up LEAVE
+    ;o1050 CALL ;PARKING gripper down GRAB 
+    ;o1500 CALL ;TUMBLER gripper start down - ends down
+    ;o1350 CALL ;UNLOAD gripper down
+    ;o1400 CALL ;TUMBLER gripper start down - ends up
+    ;o3500 CALL ;TUMBLER gripper down grabs BEFORE TURNING
+    ;o3550 CALL ;TUMBLER gripper down grabs AFTER TURNED
+    ;o2150 CALL ; ----- OP20 -----
+    ;o2200 CALL ; **** OP10 ****
+    ;o3000 CALL ;LATHE STARTS - gripper down leaves coupling
+    ;o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
+    ;o3400 CALL ;LATHE ENDS - gripper down GRABS
+    (debug, 30 seconds to end)
+    G4 P30
+    M02
+
+o190 ENDSUB
+
+
+
+(**********************************************************************)
+(***** PRODUCTION PROGRAM WITH STEPS                              *****)
+(**********************************************************************)
  
-    ;pone en 1 el flag - CTRL_ch_of - okuma #operation finished
-    ;PARA QUE NO ARRANQUE OKUMA ENTRAR
-    M64 P53
-    
-    ;SENSOR PUERTA CERRADA
-    M66 P19 L3 Q0.1
-    o126 IF [#5399 EQ -1]
-        (debug, INIT TORNO - SENSOR PUERTA CERRADA NO ACCIONADO)
-        ;(log, )
-        M02
-    o126 ENDIF
-    
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
-    M65 P53
+o400 SUB
 
-    ;Flag 01 Gantry en carga en 0
-    M65 P63
+    o800 CALL ;initializations
+    o801 CALL ;checkings
+    M100 P1
 
-    ;Flag 02 Gantry en descarga en 0
-    M65 P62
+    ;*** STEP 0 - gantry empty / lathe empty ***
+    o600 IF [#<_step> EQ 0]
+        (debug, STEP 0 - gantry empty-lathe empty)
 
-    ;Flag 03 de accionar soplado en 0
-    M65 P60
-
-    ;Flag de NO accionar rutina python de soplado en 0 
-    M65 P61
-
-    ;Flag para medir con gripper down en 0
-    M65 P59 
-
-    ;Flag para medir con gripper up en 0
-    M65 P58
-
-    ;Señal 04 Robot fuera de torno en 1
-    ;ROBOT/LOADER OUT OF MACHINE AREA=1
-    ;M64 P48 
-    ;SE SETEA AUTOMÁTICO, desde el HAL, CUANDO EL GANTRY SALE DE Z POS SEGURA
-
-    ;SETEAR señal de robot loader alarm 1 (que es ok porque es NC)
-    ;M64 P39
-    ;SE SETEA AUTOMÁTICO, desde el HAL, CUANDO SE PRESIONA LA EMERGENCIA DEL GANTRY O TENEMOS ESTOP
-    ;*** REVISAR
-    ;VERIFICAR SI HAY UN MODO DE EMERGENCIA QUE PODEMOS SETERA DESDE ERRORES DEL CODIGO G
-
-    ;SETEAR señal de CYCLE START en 0
-    M65 P50
-
-    ;SETEAR señal de request answer en 0 (MFIN=0)
-    M65 P52
-   
-    ;SETEAR LOADER SYSTEM LINK/AUTO MODE=1
-    ;ya esta ligada a gantry en automatico
-
-    ;SETEAR señal de chuck clamp en 0
-    M65 P43
-
-    ;SETEAR señal de chuck unclamp en 0
-    M65 P44
-
-    ;SETEAR señal de spindle orientation 1 en 0
-    M65 P46
-
-    ;SETEAR señal de spindle orientation 2 en 0
-    M65 P47
-
-    G4 P5
-
-; VERIFICA ENTRADAS Y POSICIONES, sino error
-
-    ;POSICION SEGURA
-    #5399 = 0
-    o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
-    o100 IF [#5399 EQ -1]
-        (debug, INIT - CARGA gripper down - No en posición segura Y/Z para comenzar)
-        ;(log, )
-        M02
-    o100 ENDIF
-
-    ;Carga - Vertical - sensor de neumático arriba
-    M66 P06 L3 Q0.1 ; espera tiempo de rutina de carga
-    o101 IF [#5399 EQ -1]
-        (debug, INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba)
-        ;(log, )
-        M02
-    o101 ENDIF
-
-    ;Descarga - SENSOR DE VERTICAL DE DESCARGA ARRIBA y SENSOR DE CUPLA NO PRESENTE EN VERTICAL DE DESCARGA
-    M66 P05 L3 Q0.1
-    o103 IF [#5399 EQ -1]
-        (debug, INIT - DESCARGA gripper down - Neumatico vertical de descarga no esta arriba)
-        ;(log, )
-        M02
-    o103 ENDIF
-
-    M66 P15 L3 Q0.1 ; n/c
-    o104 IF [#5399 EQ -1]
-        (debug, INIT - DESCARGA gripper down - Cupla presente en vertical)
-        ;(log, )
-        M02
-    o104 ENDIF
-
-    ;Descarga - Sensor de descarga completa no accionado (NC)
-    M66 P01 L3 Q0.1 ; espera tiempo de rutina de descarga
-    o105 IF [#5399 EQ -1]
-        (debug, INIT - Bancal de descarga lleno)
-        ;(log, )
-        M02
-    o105 ENDIF
-
-    ;Soplado - Sensor de neumático en puerta abierta
-    M66 P17 L3 Q0.1		(thctab.CTRL_blw_er | end routine python)
-    o106 IF [#5399 EQ -1]
-        (debug, INIT - SOPLADOR DOWN DEJAR - Puerta no esta abierta)
-        ;(log, )
-        M02
-    o106 ENDIF
-
-    ;Soplado - EV de soplado en 0
-    M66 P28 L4 Q0.1
-    o107 IF [#5399 EQ -1]
-        (debug, INIT - SOPLADOR DOWN DEJAR - Soplador de aire encendido)
-        ;(log, )
-        M02
-    o107 ENDIF
-
-    ;Soplado - Sensor de cupla - cupla debe NO estar presente
-    M66 P16 L4 Q0.1
-    o108 IF [#5399 EQ -1]
-        (debug, INIT - SOPLADOR DOWN DEJAR - Cupla presente en soplador)
-        ;(log, )
-        M02
-    o108 ENDIF
-
-    ;Parking - Sensor de cupla - NO debe haber cupla
-    M66 P14 L3 Q0.1
-    o109 IF [#5399 EQ -1]
-        (debug, INIT - Parking - Cupla presente en parking)
-        ;(log, )
-        M02
-    o109 ENDIF
-    
-    ;Volteador - VERIFICAR SENSOR MORDAZA ABIERTA
-    M66 P13 L3 Q0.1
-    o110 IF [#5399 EQ -1]
-        (debug, INIT - Volteador - Mordaza cerrada)
-        ;(log, )
-        M02
-    o110 ENDIF
-
-    ;Volteador - VERIFICAR SENSOR GIRADOR EN 0 GRADOS
-    M66 P10 L3 Q0.1
-    o111 IF [#5399 EQ -1]
-        (debug, INIT - Volteador - Girador no en posicion 0 grados)
-        ;(log, )
-        M02
-    o111 ENDIF
-
-    ;gripper_down - Sensor de mordaza abierta
-    M66 P25 L3 Q0.1		(Chequea la senal de mordaza abierta)
-    o112 IF [#5399 EQ -1]
-        (debug, INIT - ERROR: gripper abajo no abierto)
-        ;(log, )
-        M02
-    o112 ENDIF
+        (debug, 0 - checkings step 0)
+        o802 CALL ;checkings step 0
         
-    ;gripper_down - Sensor de cupla NO presente
-    M66 P21 L3 Q0.1
-    o113 IF [#5399 EQ -1]
-        (debug, INIT - Cupla presente en gripper de abajo)
-        ;(log, )
-        M02
-    o113 ENDIF
+        (debug, 0 - LOAD gripper down)
+        o1300 CALL ;LOAD gripper down      
+        
+        #<_step>=1
+    o600 ENDIF
 
-    ;gripper_up - Sensor de mordaza abierta
-    M66 P26 L3 Q0.1		(Chequea la senal de mordaza abierta)
-    o114 IF [#5399 EQ -1]
-        (debug, INIT - ERROR: gripper arriba no abierto)
-        ;(log, )
-        M02
-    o114 ENDIF
+    ;*** STEP 1 - gantry raw / lathe empty ***
+    o601 IF [#<_step> EQ 1]
+        (debug, STEP 1 - gantry raw-lathe empty)
 
-    ;gripper_up - Sensor de cupla NO presente
-    M66 P22 L3 Q0.1
-    o115 IF [#5399 EQ -1]
-        (debug, INIT - Parking gripper down - Cupla presente en gripper de abajo - rutina up dejar)
-        ;(log, )
-        M02
-    o115 ENDIF
+        (debug, 1 - checkings step 1)
+        o803 CALL ;checkings step 1
+        
+        (debug, 1 - LATHE STARTS - gripper down leaves coupling)
+        o3000 CALL ;LATHE STARTS - gripper down leaves coupling
+        o2200 CALL ; **** OP10 ****
+        
+        #<_step>=2
+    o601 ENDIF
 
-    
-    
-    ;Señal 02 torno en nc alarma en 1
-    M66 P46 L3 Q0.1	
-    o118 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma se encuentra en alarma)
-        ;(log, )
-        M02
-    o118 ENDIF
+    ;*** STEP 2 - gantry empty / lathe op10 ***
+    o602 IF [#<_step> EQ 2]
+        (debug, STEP 2 - gantry empty-lathe op10)
+        
+        (debug, 2 - checkings step 2)
+        o804 CALL ;checkings step 2
+        
+        (debug, 2 - LOAD gripper down)
+        o1300 CALL ;LOAD gripper down
+        
+        (debug, 2 - PARKING - DOWN LEAVES - UP GRABS)
+        o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
+        
+        #<_step>=3
+    o602 ENDIF
 
-    ;CYCLE COMPLETE EN 1
-    M66 P47 L3 Q0.1
-    o119 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma no finalizo el ciclo)
-        ;(log, )
-        M02
-    o119 ENDIF
+    #<_end> = 0
+    o604 WHILE [#<_end> EQ 0]
 
-    ;MACHINE HOME POSITION EN 1
-    ;M66 P48 L3 Q0.1
-    ;o120 IF [#5399 EQ -1]
-    ;    (debug, INIT TORNO - Okuma señal de machine home position no esta prendida)
-    ;    ;(log, )
-    ;    M02
-    ;o120 ENDIF
-    ;no va porque arrancamos con puerta cerrada
+        ;*** STEP 3 -  gantry raw up / lathe op10 ***
+        o606 IF [#<_step> EQ 3]
+            (debug, STEP 3 -  gantry raw up / lathe op10)
 
-    ;CYCLE STOP REQUEST EN 1
-    M66 P50 L3 Q0.1
-    o121 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma cycle stop activado)
-        ;(log, )
-        M02
-    o121 ENDIF
+            (debug, 3 - checkings step 3 to 6)
+            o806 CALL ;checkings step 3 to 6
+            
+            (debug, 3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
+            o3200 CALL ;LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+            o2200 CALL ; **** OP10 ****
 
-    ;REQUEST 1 (M180) EN 0
-    M66 P51 L4 Q0.1
-    o122 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma señal de m180 prendida)
-        ;(log, )
-        M02
-    o122 ENDIF
+            (debug, 3 - TUMBLER enter gripper down - exit gripper up)
+            ;o1400 CALL ;TUMBLER enter gripper down - exit gripper up
+            o1500 CALL ;TUMBLER gripper start down - ends down
+            o2100 CALL ;PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB
 
-    ;REQUEST 2 (M181) EN 0
-    M66 P52 L4 Q0.1
-    o123 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma señal de m181 prendida)
-        ;(log, )
-        M02
-    o123 ENDIF
+            #<_step>=4
+        o606 ENDIF
+        
+        ;*** STEP 4 - gantry op10T up / lathe op10 ***
+        o608 IF [#<_step> EQ 4]
+            (debug, STEP 4 - gantry op10T up / lathe op10)
 
-    ;VERIFICAR PLATO DEL TORNO ABIERTO (la setea el torno, y la lee el Python / Código G)
-    M66 P43 L3 Q0.1
-    o124 IF [#5399 EQ -1]
-        (debug, INIT TORNO - Okuma plato no esta abierto)
-        ;(log, )
-        M02
-    o124 ENDIF
+            (debug, 4 - checkings step 3 to 6)
+            o806 CALL ;checkings step 3 to 6
+            
+            (debug, 4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
+            o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
+            o2150 CALL ; ----- OP20 -----
+            
+            (debug, 4 - TUMBLER enter gripper down - exit gripper up)
+            ;o1400 CALL ;TUMBLER enter gripper down - exit gripper up
+            o1500 CALL ;TUMBLER gripper start down - ends down
+            o2100 CALL ;PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB            
 
-    ;Flag 58 de Gantry puede ingresar en 0 (la setea el Python, y la lee el Código G)
-    ;M66 P29 L4 Q0.1
-    ;o125 IF [#5399 EQ -1]
-    ;    (debug, INIT gantry - flag de gantry puede ingresar no esta apagado)
-    ;    ;(log, )
-    ;    M02
-    ;o125 ENDIF
-    ;no se pone porque la rutina Okuma Entrar se ejecuta al principio
+            #<_step>=5
+        o608 ENDIF
 
-    ;VERIFICAR RUTINA DE PYTHON EN 1
-    M66 P63 L3 Q0.1
-    o127 IF [#5399 EQ -1]
-        (debug, INIT PYTHON - Rutina master no esta corriendo)
-        ;(log, )
-        M02
-    o127 ENDIF
+        ;*** STEP 5 - gantry op10T up / lathe op20 ***
+        o610 IF [#<_step> EQ 5]
+            (debug, STEP 5 - gantry op10T up / lathe op20)
 
-o800 ENDSUB
+            (debug, 5 - checkings step 3 to 6)
+            o806 CALL ;checkings step 3 to 6
 
+            (debug, 5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
+            o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
+            o2150 CALL ; ----- OP20 -----
 
+            (debug, 5 - BLOWER)
+            o1200 CALL ;blower gripper down leaves
+            o1250 CALL ;blower gripper down grabs
+            
+            (debug, 5 - UNLOAD gripper down)
+            o1350 CALL ;UNLOAD gripper down
+            
+            (debug, 5 - LOAD gripper down)
+            o1300 CALL ;LOAD gripper down
+            
+            (debug, 5 - PARKING - DOWN LEAVES - UP GRABS)
+            o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
 
+            #<_step>=6
+        o610 ENDIF
 
+        ;*** STEP 6 - gantry raw up / lathe op20 ***
+        o612 IF [#<_step> EQ 6]
+            (debug, STEP 6 - gantry raw up-lathe op20)
+            
+            (debug, 6 - checkings step 3 to 6)
+            o806 CALL ;checkings step 3 to 6
 
+            (debug, 6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
+            o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
+            o2200 CALL ; **** OP10 ****
+            
+            (debug, 6 - BLOWER)
+            o1200 CALL ;blower gripper down leaves
+            o1250 CALL ;blower gripper down grabs
+
+            (debug, 6 - UNLOAD gripper down)
+            o1350 CALL ;UNLOAD gripper down
+
+            ;LAST CYCLE signal
+            M66 P49 L3 Q0.1	
+            o614 IF [#5399 EQ 1] ; LAST CYCLE ON
+                (debug, Last Cycle - gantry raw up-lathe op20)
+
+                (debug, Last Cycle - LATHE ENDS - gripper down GRABS)
+                o3400 CALL ;LATHE ENDS - gripper down GRABS
+
+                (debug, Last Cycle - TUMBLER enter gripper down  - exit gripper down)
+                O1500 CALL ;TUMBLER enter gripper down  - exit gripper down
+
+                (debug, Last Cycle - LATHE STARTS - gripper down leaves coupling)
+                o3000 CALL ;LATHE STARTS - gripper down leaves coupling
+                o2150 CALL ; ----- OP20 -----
+
+                (debug, Last Cycle - LATHE ENDS - gripper down GRABS)
+                o3400 CALL ;LATHE ENDS - gripper down GRABS
+
+                (debug, Last Cycle - BLOWER)
+                o1200 CALL ;blower gripper down leaves
+                o1250 CALL ;blower gripper down grabs
+
+                (debug, Last Cycle - UNLOAD gripper down)
+                o1350 CALL ;UNLOAD gripper down
+
+                #<_step>=1
+                #<_end>=1
+                (debug, 30 seconds to end)
+                G4 P30
+                M02            
+
+            o614 ELSE ; LAST CYCLE OFF
+                (debug, STEP 6 Continues - gantry raw up-lathe op20)
+
+                (debug, 6 - LOAD gripper down)
+                o1300 CALL ;LOAD gripper down
+
+                (debug, 6 - PARKING - DOWN LEAVES - UP GRABS)
+                o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
+
+                #<_step>=3
+                #<_end>=0
+            o614 ENDIF
+
+        o612 ENDIF
+
+    o604 ENDWHILE
+
+    M02
+
+o400 ENDSUB
 
 
 
 (**********************************************************************)
-(***** PARKING - DEJAR DOWN - TOMAR UP                            *****)
+(***** OTHER PARTIAL PROGRAMS                                     *****)
 (**********************************************************************)
 
-o2100 SUB
+;PARTIAL PROGRAMS
 
-    ;VERIFICAR POSICION SEGURA
+    ;PRINT PARAMETERS
+    o180 SUB
+        (debug, <_parking_plate_to_gripper_down_x> = #<_parking_plate_to_gripper_down_x>)
+        (debug, <_parking_gripper_down_enter_y> = #<_parking_gripper_down_enter_y>)
+        (debug, <_parking_gripper_down_z_reference> = #<_parking_gripper_down_z_reference>)
+        (debug, <_parking_plate_to_gripper_up_x> = #<_parking_plate_to_gripper_up_x>)
+        (debug, <_parking_gripper_up_enter_y> = #<_parking_gripper_up_enter_y>)
+        (debug, <_parking_gripper_up_z_reference> = #<_parking_gripper_up_z_reference>)
+        (debug, <_parking_enter_x_over_bars> = #<_parking_enter_x_over_bars>)
+        (debug, <_parking_enter_z> = #<_parking_enter_z>)
+        (debug, <_parking_aproximates_x> = #<_parking_aproximates_x>)
+        (debug, <_parking_enter_x_free> = #<_parking_enter_x_free>)
+        (debug, <_parking_gripper_down_unload_x_calculated> = #<_parking_gripper_down_unload_x_calculated>)
+        (debug, <_parking_gripper_down_load_x_calculated> = #<_parking_gripper_down_load_x_calculated>)
+        (debug, <_parking_gripper_down_z_calculated> = #<_parking_gripper_down_z_calculated>)
+        (debug, <_parking_gripper_up_unload_x_calculated> = #<_parking_gripper_up_unload_x_calculated>)
+        (debug, <_parking_gripper_up_load_x_calculated> = #<_parking_gripper_up_load_x_calculated>)
+        (debug, <_parking_gripper_up_z_calculated> = #<_parking_gripper_up_z_calculated>)
+        (debug, <_parking_gripper_down_x_meas_ref> = #<_parking_gripper_down_x_meas_ref>)
+        (debug, <_parking_gripper_up_x_meas_ref> = #<_parking_gripper_up_x_meas_ref>)
+
+        (debug, <_blower_plate_to_gripper_down_x> = #<_blower_plate_to_gripper_down_x>)
+        (debug, <_blower_enter_y> = #<_blower_enter_y>)
+        (debug, <_blower_gripper_down_z_reference> = #<_blower_gripper_down_z_reference>)
+        (debug, <_blower_enter_x> = #<_blower_enter_x>)
+        (debug, <_blower_aproximates_x> = #<_blower_aproximates_x>)
+        (debug, <_blower_gripper_down_unload_x_calculated> = #<_blower_gripper_down_unload_x_calculated>)
+        (debug, <_blower_gripper_down_load_x_calculated> = #<_blower_gripper_down_load_x_calculated>)
+        (debug, <_blower_gripper_down_z_calculated_machined> = #<_blower_gripper_down_z_calculated_machined>)
+        (debug, <_blower_gripper_down_x_meas_ref_machined> = #<_blower_gripper_down_x_meas_ref_machined>)
+
+        (debug, <_load_plate_to_gripper_down_x> = #<_load_plate_to_gripper_down_x>)
+        (debug, <_load_enter_y> = #<_load_enter_y>)
+        (debug, <_load_gripper_down_z_reference> = #<_load_gripper_down_z_reference>)
+        (debug, <_load_enter_x> = #<_load_enter_x>)
+        (debug, <_load_aproximates_x> = #<_load_aproximates_x>)
+        (debug, <_load_gripper_down_x_calculated> = #<_load_gripper_down_x_calculated>)
+        (debug, <_load_gripper_down_z_calculated> = #<_load_gripper_down_z_calculated>)
+        (debug, <_load_gripper_down_x_meas_ref> = #<_load_gripper_down_x_meas_ref>)
+
+        (debug, <_unload_plate_to_gripper_down_x> = #<_unload_plate_to_gripper_down_x>)
+        (debug, <_unload_enter_y> = #<_unload_enter_y>)
+        (debug, <_unload_gripper_down_z_reference> = #<_unload_gripper_down_z_reference>)
+        (debug, <_unload_enter_x> = #<_unload_enter_x>)
+        (debug, <_unload_aproximates_x> = #<_unload_aproximates_x>)
+        (debug, <_unload_enter_intermediate_x> = #<_unload_enter_intermediate_x>)
+        (debug, <_unload_enter_intermediate_Z> = #<_unload_enter_intermediate_Z>)
+        (debug, <_unload_gripper_down_x_calculated> = #<_unload_gripper_down_x_calculated>)
+        (debug, <_unload_gripper_down_z_calculated> = #<_unload_gripper_down_z_calculated>)
+
+        (debug, <_tumbler_gripper_down_jaws_center_x> = #<_tumbler_gripper_down_jaws_center_x>)
+        (debug, <_tumbler_enter_down_y> = #<_tumbler_enter_down_y>)
+        (debug, <_tumbler_gripper_down_z> = #<_tumbler_gripper_down_z>)
+        (debug, <_tumbler_gripper_up_jaws_center_x> = #<_tumbler_gripper_up_jaws_center_x>)
+        (debug, <_tumbler_enter_up_y> = #<_tumbler_enter_up_y>)
+        (debug, <_tumbler_gripper_up_z> = #<_tumbler_gripper_up_z>)
+        (debug, <_tumbler_enter_x> = #<_tumbler_enter_x>)
+        (debug, <_tumbler_gripper_down_unload_x_calculated> = #<_tumbler_gripper_down_unload_x_calculated>)
+        (debug, <_tumbler_gripper_down_load_x_calculated> = #<_tumbler_gripper_down_load_x_calculated>)
+        (debug, <_tumbler_gripper_down_extracts> = #<_tumbler_gripper_down_extracts>)
+        (debug, <_tumbler_aproximates_down_x> = #<_tumbler_aproximates_down_x>)
+        (debug, <_tumbler_aproximates_up_x> = #<_tumbler_aproximates_up_x>)
+        (debug, <_tumbler_gripper_down_load_from_extract> = #<_tumbler_gripper_down_load_from_extract>)
+        (debug, <_tumbler_gripper_up_load_from_extract> = #<_tumbler_gripper_up_load_from_extract>)
+        (debug, <_tumbler_gripper_down_x_meas_ref> = #<_tumbler_gripper_down_x_meas_ref>)
+        (debug, <_tumbler_gripper_up_x_meas_ref> = #<_tumbler_gripper_up_x_meas_ref>)
+
+        (debug, <_lathe_chuck_front_to_gripper_down_x>  =  #<_lathe_chuck_front_to_gripper_down_x>)
+        (debug, <_lathe_gripper_down_center_y>  =  #<_lathe_gripper_down_center_y>)
+        (debug, <_lathe_gripper_down_center_z>  =  #<_lathe_gripper_down_center_z>)
+        (debug, <_lathe_chuck_front_to_gripper_up_x>  =  #<_lathe_chuck_front_to_gripper_up_x>)
+        (debug, <_lathe_gripper_up_center_y>  =  #<_lathe_gripper_up_center_y>)
+        (debug, <_lathe_gripper_up_center_z>  =  #<_lathe_gripper_up_center_z>)
+        (debug, <_lathe_enter1_x> = #<_lathe_enter1_x>)
+        (debug, <_lathe_enter1_y> = #<_lathe_enter1_y>)
+        (debug, <_lathe_enter1_z> = #<_lathe_enter1_z>)
+        (debug, <_lathe_enter2_y> = #<_lathe_enter2_y>)
+        (debug, <_lathe_enter2_z> = #<_lathe_enter2_z>)
+        (debug, <_lathe_enter3_z> = #<_lathe_enter3_z>)
+        (debug, <_lathe_gripper_down_aproximates_x> = #<_lathe_gripper_down_aproximates_x>)
+        (debug, <_lathe_gripper_up_aproximates_x> = #<_lathe_gripper_up_aproximates_x>)
+        (debug, <_lathe_gripper_down_x_calculated> = #<_lathe_gripper_down_x_calculated>)
+        (debug, <_lathe_gripper_up_x_calculated> = #<_lathe_gripper_up_x_calculated>)
+        (debug, <_lathe_gripper_down_x_meas_ref> = #<_lathe_gripper_down_x_meas_ref>)
+
+        M02
+    o180 ENDSUB
+
+    ;UNLOAD PARKING
+    o220 SUB
+        o1050 CALL ; PARKING gripper down GRAB
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o220 ENDSUB
+
+    ;UNLOAD BLOWER
+    o250 SUB
+        o1250 CALL ; BLOWER GRIPPER DOWN GRAB
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o250 ENDSUB
+
+    ;UNLOAD LATHE
+    o270 SUB
+        o3400 CALL ; LATHE ENDS
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o270 ENDSUB
+
+    ;UNLOAD TUMBLER BEFORE TURNING
+    o300 SUB
+        o3500 CALL ; TUMBLER gripper down grabs BEFORE TURNING
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o300 ENDSUB
+
+    ;UNLOAD TUMBLER AFTER TURNED
+    o310 SUB
+        o3550 CALL ; TUMBLER gripper down grabs AFTER TURNED
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o310 ENDSUB
+
+    ;UNLOAD GRIPPER UP
+    o320 SUB
+        o1100 CALL ; PARKING gripper up LEAVE 
+        o1050 CALL ; PARKING gripper down GRAB
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o320 ENDSUB
+
+    ;UNLOAD GRIPPER DOWN
+    o350 SUB
+        o1350 CALL ; UNLOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o350 ENDSUB
+
+    ;SERVICE POS
+    o370 SUB
+
+        ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o2105 IF [#5399 EQ -1]
-            (debug, PARKING- No en posición segura Y/Z para comenzar - rutina down dejar)
+            (debug, SERVICE POS - Gantry not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o2105 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - no debe haber cupla
+        G1 y#<_y_service_position>	        F#<_VEL_FAST>
+        G1 x#<_x_service_position>	        F#<_VEL_FAST>
+        G1 z#<_z_service_position>	        F#<_VEL_FAST>
+
+        M02
+    o370 ENDSUB
+
+;END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;(**********************************************************************)
+;(***** I/Os INITIALIZATION AND CHECKING                           *****)
+;(**********************************************************************)
+
+;INITIALIZATION SUBS
+
+    o800 SUB ;FLAGS TO SET AT PRODUCTION ALL STEPS
+            
+        ;Flag 01 - Gantry in Load Routine to 0
+        M65 P63
+
+        ;Flag 02 - Gantry in UnLoad Routine to 0
+        M65 P62
+
+        ;Flag 03 - start blower to 0
+        M65 P60
+
+        ;Flag do NOT start blower python routine to 0 
+        M65 P61
+
+        ;Flag to measure with gripper down to 0
+        M65 P59 
+
+        ;Flag to measure with gripper up to 0
+        M65 P58
+
+        ;SET signal CYCLE START to 0
+        M65 P50
+
+        ;SET signal request answer to 0 (MFIN=0)
+        M65 P52
+    
+        ;SET signal chuck clamp to 0
+        M65 P43
+
+        ;SET signal chuck unclamp to 0
+        M65 P44
+
+        ;SET signal spindle orientation 1 to 0
+        M65 P46
+
+        ;SET signal spindle orientation 2 to 0
+        M65 P47
+
+        ;CTRL_ch_of - okuma #operation finished - set 0
+        M65 P53
+
+        ;MOON ROOF signals to 0
+        M65 P13
+        M65 P14
+
+        G4 P1
+    o800 ENDSUB
+
+
+    o801 SUB ;FLAGS TO REVIEW AT PRODUCTION ALL STEPS
+
+        ;SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o100 IF [#5399 EQ -1]
+                (debug, INIT - Gantry not in Safe Position Y/Z coordinates)
+                ;(log, )
+                M02
+            o100 ENDIF
+
+        ;LOAD - Check sensor of vertical pneumatic up
+            ;no tiene sentido porque puede estar abajo cargando
+            ;M66 P06 L3 Q0.1
+            ;o101 IF [#5399 EQ -1]
+            ;    (debug, INIT - LOAD gripper down - Vertical Pneumatic is not up)
+            ;    ;(log, )
+            ;    M02
+            ;o101 ENDIF
+
+        ;LOAD - Check sensor of dumping pneumatic in load or idle position
+            M66 P08 L3 Q0.1
+            o102 IF [#5399 EQ -1]
+                (debug, INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position)
+                ;(log, )
+                M02
+            o102 ENDIF
+
+        ;UNLOAD - Check sensor of vertical pneumatic up
+            M66 P05 L3 Q0.1
+            o103 IF [#5399 EQ -1]
+                (debug, INIT - UNLOAD gripper down - Vertical Pneumatic is not up)
+                ;(log, )
+                M02
+            o103 ENDIF
+
+        ;UNLOAD -  Sensor of Coupling present in vertical - MUST BE NOT PRESENT
+            M66 P15 L3 Q0.1 ; n/c
+            o104 IF [#5399 EQ -1]
+                (debug, INIT - UNLOAD gripper down - Coupling present in vertical)
+                ;(log, )
+                M02
+            o104 ENDIF
+
+        ;UNLOAD - Sensor of Unload Conveyor Complete - MUST BE NOT COMPLETE
+            M66 P01 L3 Q0.1 
+            o105 IF [#5399 EQ -1]
+                (debug, INIT - Unload Conveyor is full)
+                ;(log, )
+                M02
+            o105 ENDIF
+
+        ;BLOWER - Open door sensor
+            M66 P17 L3 Q0.1		
+            o106 IF [#5399 EQ -1]
+                (debug, INIT - BLOWER GRIPPER DOWN LEAVE - Door not opened)
+                ;(log, )
+                M02
+            o106 ENDIF
+
+        ;BLOWER - Blower air valve closed
+            M66 P28 L4 Q0.1
+            o107 IF [#5399 EQ -1]
+                (debug, INIT - BLOWER GRIPPER DOWN LEAVE - Blower air valve opened)
+                ;(log, )
+                M02
+            o107 ENDIF
+
+        ;BLOWER - Coupling Presence Sensor - coupling must not be present
+            M66 P16 L4 Q0.1
+            o108 IF [#5399 EQ -1]
+                (debug, INIT - BLOWER GRIPPER DOWN LEAVE - Coupling Present error)
+                ;(log, )
+                M02
+            o108 ENDIF
+
+        ;PARKING - Coupling Presence Sensor - coupling must not be present
+            M66 P14 L3 Q0.1
+            o109 IF [#5399 EQ -1]
+                (debug, INIT - Parking - Present Coupling error)
+                ;(log, )
+                M02
+            o109 ENDIF
+        
+        ;TUMBLER - Open Jaws Sensor
+            M66 P13 L3 Q0.1
+            o110 IF [#5399 EQ -1]
+                (debug, INIT - Tumbler - Jaws are closed)
+                ;(log, )
+                M02
+            o110 ENDIF
+
+        ;TUMBLER - VERIFY SENSOR ROTATOR IN 0 DEGREES 
+            M66 P10 L3 Q0.1
+            o111 IF [#5399 EQ -1]
+                (debug, INIT - Tumbler - Tumbler rotator not in 0 degrees)
+                ;(log, )
+                M02
+            o111 ENDIF
+        
+        ;LATHE - Signal lathe in alarm - no_alarm=1 (n/c)
+            M66 P46 L3 Q0.1	
+            o118 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Okuma has an alarm)
+                ;(log, )
+                M02
+            o118 ENDIF
+
+        ;LATHE - CYCLE COMPLETE EN 1
+            M66 P47 L3 Q0.1
+            o119 IF [#5399 EQ -1]
+                (debug, INIT LATHE -Error - Okuma has no Cyle Complete)
+                ;(log, )
+                M02
+            o119 ENDIF
+
+        ;LATHE - CYCLE STOP REQUEST EN 1
+            M66 P50 L3 Q0.1
+            o121 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Error - Okuma cycle stop activated)
+                ;(log, )
+                M02
+            o121 ENDIF
+
+        ;LATHE - REQUEST 1 (M180) = 0
+            M66 P51 L4 Q0.1
+            o122 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Okuma signal m180 is on)
+                ;(log, )
+                M02
+            o122 ENDIF
+
+        ;LATHE - REQUEST 2 (M181) = 0
+            M66 P52 L4 Q0.1
+            o123 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Okuma signal m180 is on)
+                ;(log, )
+                M02
+            o123 ENDIF
+
+        ;MASTER - VERIFY ROUTINE RUNNING
+            M66 P62 L3 Q0.1
+            o127 IF [#5399 EQ -1]
+                (debug, INIT PYTHON ROUTINE not running)
+                ;(log, )
+                M02
+            o127 ENDIF
+
+        ;LAST CYCLE - signal is 0
+            M66 P49 L4 Q1	
+            o128 IF [#5399 EQ -1]
+                (debug, INIT PYTHON - LAST CYCLE signal is 1)
+                ;(log, )
+                M02
+            o128 ENDIF
+
+        ;OPEN MOON ROOF
+            M64 P13
+            M65 P14
+
+        ;VERIFY MOON ROOF OPEN SENSOR
+            M66 P20 L3 Q10
+            o129 IF [#5399 EQ -1]
+                (debug, INIT - Moon Roof Open Sensor not present)
+                ;(log, )
+                M02
+            o129 ENDIF
+        
+        ;MOON ROOF signals to 0
+        M65 P13
+        M65 P14
+
+        (debug, INIT - WAIT UNTILL HOME POSITION)
+
+        ;VERIFY Signal Machine Home position ON
+            M66 P48 L3 Q5
+
+            o131 while [#5399 EQ -1]
+                ;Machine Home position ON
+                M100 P48
+                M66 P48 L3 Q1
+            o131 endwhile
+        
+    o801 ENDSUB
+
+
+    o802 SUB ;FLAGS TO REVIEW AT PRODUCTION STEP 0 (GRD empty - GRU empty - Chuck Open)
+
+        ;gripper_down - Open Jaws Sensor
+            M66 P25 L3 Q0.1		(Checks Open Jaws Sensor)
+            o112 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper down Open Jaws error)
+                ;(log, )
+                M02
+            o112 ENDIF
+            
+        ;gripper_down - Coupling Presence Sensor - must be NOT present
+            M66 P21 L3 Q0.1
+            o113 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Down - Present Coupling error in Gripper Down)
+                ;(log, )
+                M02
+            o113 ENDIF
+
+        ;gripper_up - Open Jaws Sensor
+            M66 P26 L3 Q0.1		(Checks Open Jaws Sensor)
+            o114 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper up Open Jaws error)
+                ;(log, )
+                M02
+            o114 ENDIF
+
+        ;gripper_up - Coupling Presence Sensor - must be NOT present
+            M66 P22 L3 Q0.1
+            o115 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Up - Present Coupling error in Gripper UP)
+                ;(log, )
+                M02
+            o115 ENDIF
+        
+        ;LATHE - chuck open confirmation signal
+            M66 P43 L3 Q0.1
+            o124 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Okuma chuck with no open confirmation signal)
+                ;(log, )
+                M02
+            o124 ENDIF
+            
+    o802 ENDSUB
+
+    o803 SUB ;FLAGS TO REVIEW AT PRODUCTION STEP 1 (GRD raw - GRU empty - Chuck Open)
+
+        ;gripper_down - Coupling Presence Sensor - must be present
+            M66 P21 L4 Q0.1
+            o150 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Down - Coupling not present in gripper down)
+                ;(log, )
+                M02
+            o150 ENDIF
+
+        ;gripper_up - Open Jaws Sensor
+            M66 P26 L3 Q0.1		(Checks Open Jaws Sensor)
+            o152 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper up Open Jaws error)
+                ;(log, )
+                M02
+            o152 ENDIF
+
+        ;gripper_up - Coupling Presence Sensor - must NOT be present
+            M66 P22 L3 Q0.1
+            o153 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Up - Present Coupling error in Gripper UP)
+                ;(log, )
+                M02
+            o153 ENDIF
+        
+        ;LATHE - chuck open confirmation signal
+            M66 P43 L3 Q0.1
+            o154 IF [#5399 EQ -1]
+                (debug, INIT LATHE - Okuma chuck with no open confirmation signal)
+                ;(log, )
+                M02
+            o154 ENDIF
+            
+    o803 ENDSUB
+
+    o804 SUB ;FLAGS TO REVIEW AT PRODUCTION STEP 2 (GRD empty - GRU empty - Chuck Closed)
+
+        ;gripper_down - Open Jaws Sensor
+            M66 P25 L3 Q0.1		(Checks Open Jaws Sensor)
+            o130 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper down Open Jaws error)
+                ;(log, )
+                M02
+            o130 ENDIF
+            
+        ;gripper_down - Coupling Presence Sensor - must be NOT present
+            M66 P21 L3 Q0.1
+            o132 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Down - Present Coupling error in Gripper Down)
+                ;(log, )
+                M02
+            o132 ENDIF
+
+        ;gripper_up - Open Jaws Sensor
+            M66 P26 L3 Q0.1		(Checks Open Jaws Sensor)
+            o134 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper up Open Jaws error)
+                ;(log, )
+                M02
+            o134 ENDIF
+
+        ;gripper_up - Coupling Presence Sensor - must be NOT present
+            M66 P22 L3 Q0.1
+            o136 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Up - Present Coupling error in Gripper UP)
+                ;(log, )
+                M02
+            o136 ENDIF
+        
+        ;Close Chuck Confirmation
+            M66 P42 L3 Q10	
+            o138 IF [#5399 EQ -1]
+                (debug, INIT - NO Close Chuck Confirmation)
+                ;(log, )
+                M02
+            o138 ENDIF
+
+    o804 ENDSUB
+
+    o806 SUB ;FLAGS TO REVIEW AT PRODUCTION STEP 3 TO 6 (GRD empty - GRU with part - Chuck Closed)
+
+        ;gripper_down - Open Jaws Sensor
+            M66 P25 L3 Q0.1		(Checks Open Jaws Sensor)
+            o140 IF [#5399 EQ -1]
+                (debug, INIT - ERROR: gripper down Open Jaws error)
+                ;(log, )
+                M02
+            o140 ENDIF
+            
+        ;gripper_down - Coupling Presence Sensor - must be NOT present
+            M66 P21 L3 Q0.1
+            o142 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Down - Present Coupling error in Gripper Down)
+                ;(log, )
+                M02
+            o142 ENDIF
+
+        
+        ;gripper_up - Coupling Presence Sensor - must be present
+            M66 P22 L4 Q0.1
+            o144 IF [#5399 EQ -1]
+                (debug, INIT - Gripper Up - NOT Present Coupling in Gripper UP)
+                ;(log, )
+                M02
+            o144 ENDIF
+
+        ;Close Chuck Confirmation
+            M66 P42 L3 Q10	
+            o146 IF [#5399 EQ -1]
+                (debug, INIT - NO Close Chuck Confirmation)
+                ;(log, )
+                M02
+            o146 ENDIF    
+
+    o806 ENDSUB
+
+;END
+
+
+
+
+
+
+
+
+
+
+
+
+
+(**********************************************************************)
+(***** ROUTINE PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB     *****)
+(**********************************************************************)
+
+o2100 SUB
+
+    ;VERIFY SAFE POSITION
+        #5399 = 0
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+        o2105 IF [#5399 EQ -1]
+            (debug, PARKING - Gantry not in Safe Position Y/Z coordinates)
+            ;(log, )
+            M02
+        o2105 ENDIF
+
+    ;VERIFY TUMBLER - Open Jaws Sensor
+        M66 P13 L3 Q0.1
+        o2106 IF [#5399 EQ -1]
+            (debug, PARKING - Tumbler Jaws are closed)
+            ;(log, )
+            M02
+        o2106 ENDIF
+
+    ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
+    ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
+        M66 P10 L3 Q0.1
+        o2107 IF [#5399 EQ -1]
+            (debug, PARKING - Tumbler rotator not in 0 degrees)
+            ;(log, )
+            M02
+        o2107 ENDIF
+
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o2108 IF [#5399 EQ -1]
+            (debug, PARKING - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o2108 ENDIF
+
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - the coupling must not be present
         M66 P14 L3 Q0.1
         o2110 IF [#5399 EQ -1]
-            (debug, Parking - Cupla presente - rutina down dejar)
+            (debug, PARKING - Present Coupling Error - It must be empty)
             ;(log, )
             M02
         o2110 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - MUST BE PRESENT
         M66 P21 L4 Q0.1
         o2115 IF [#5399 EQ -1]
-            (debug, Parking gripper down - Cupla no presente en gripper de abajo - rutina down dejar)
+            (debug, PARKING - ERROR Coupling not present in gripper down)
             ;(log, )
             M02
         o2115 ENDIF
 
-    G1 x#<_parking_ingreso_x>	F#<_VEL_RAPIDA>
-    G1 y#<_parking_gripper_down_ingreso_y>	F#<_VEL_RAPIDA>
+    G1 z#<_parking_enter_z>	F#<_VEL_FAST>
+    G1 x#<_parking_enter_x_over_bars>	F#<_VEL_FAST>
+    G1 y#<_parking_gripper_down_enter_y>	F#<_VEL_FAST>
     
-    G1 z[#<_parking_gripper_down_z_calculado>+#<_parking_z_offset>] F#<_VEL_RAPIDA>
+    G1 z[#<_parking_gripper_down_z_calculated>+#<_parking_z_offset>] F#<_VEL_FAST>
     
-    G1 x#<_parking_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_parking_aproximates_x>	F#<_VEL_MEDIUM>
     
-    G1 x#<_parking_gripper_down_dejar_x_calculado>	F#<_VEL_LENTA>
+    G1 x#<_parking_gripper_down_unload_x_calculated>	F#<_VEL_SLOW>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - debe haber cupla
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - coupling must be present in parking
         M66 P14 L4 Q0.1
         o2120 IF [#5399 EQ -1]
-            (debug, Parking - Cupla no presente - rutina down dejar)
+            (debug, PARKING - Coupling not present in parking)
             ;(log, )
             M02
         o2120 ENDIF
 
-    ;SUBRUTINA DE ABRIR gripper down
-        o1700 CALL ;abrir gripper down
+    ;SUBROUTINE open gripper down
+        o1700 CALL ;open gripper down
             o2125 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA PARKING DOWN DEJAR)
+                (debug, PARKING - ERROR IN ROUTINE GRIPPER DOWN OPEN)
                 ;(log, )
                 M02
             o2125 ENDIF  
 
-    G1 x#<_parking_cambio_up_x>	F#<_VEL_RAPIDA>
+    G1 x#<_parking_enter_x_free>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - debe haber cupla
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - coupling must be present in parking
         M66 P14 L4 Q0.1
         o2130 IF [#5399 EQ -1]
-            (debug, Parking - Cupla no presente - rutina down dejar)
+            (debug, PARKING - Coupling not present in parking)
             ;(log, )
             M02
         o2130 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA NO PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - coupling must NOT be present
         M66 P21 L3 Q0.1
         o2135 IF [#5399 EQ -1]
-            (debug, Parking gripper down - Cupla presente en gripper de abajo - rutina down dejar)
+            (debug, PARKING - ERROR - Coupling present in gripper down)
             ;(log, )
             M02
         o2135 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper up - sino error
+    ;VERIFY GRIPPER UP COUPLING PRESENCE SENSOR - must NOT be present
         M66 P22 L3 Q0.1
         o2140 IF [#5399 EQ -1]
-            (debug, Parking gripper up - Cupla presente en gripper de arriba - rutina up tomar)
+            (debug, PARKING - ERROR - Coupling present in gripper UP)
             ;(log, )
             M02
         o2140 ENDIF
 
-    ;ABRIR GRIPPER DE ARRIBA, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
-        o1750 CALL ;abrir gripper up
+        ;OPEN GRIPPER UP, ALSO CHECKS SENSOR FOR JAWS OPENED
+        o1750 CALL ;OPEN GRIPPER UP
             o2145 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA PARKING up TOMAR)
+                (debug, PARKING - ERROR - OPEN GRIPPER UP ROUTINE)
                 ;(log, )
                 M02
             o2145 ENDIF
 
-    G1 y#<_parking_gripper_up_ingreso_y>	F#<_VEL_RAPIDA>
+    G1 y#<_parking_gripper_up_enter_y>	F#<_VEL_FAST>
     
-    G1 z#<_parking_gripper_up_z_calculado>	F#<_VEL_RAPIDA>
+    G1 z#<_parking_gripper_up_z_calculated>	F#<_VEL_FAST>
     
-    G1 x#<_parking_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_parking_enter_x_over_bars>	F#<_VEL_FAST>
 
-    G1 x#<_parking_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_parking_aproximates_x>	F#<_VEL_MEDIUM>
     
-    G1 x[#<_parking_gripper_up_tomar_x_calculado>+#<_parking_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x[#<_parking_gripper_up_load_x_calculated>+#<_parking_offset_x_measuring>]	F#<_VEL_SLOW>
     
-    ;SUBRUTINA DE MEDICION gripper up
-        o1650 CALL ;mide presencia cupla gripper up
+    ;GRIPPER UP MEASURING ROUTINE
+        o1650 CALL ;measuring routine gripper up
             o2150 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA PARKING up TOMAR)
+                (debug, PARKING - ERROR IN MEASURING GRIPPER UP ROUTINE)
                 ;(log, )
                 M02
             o2150 ENDIF
-            #<_parking_gripper_up_x_error> = [#<_parking_gripper_up_x_med_ref>-#<_gripper_up_cota_x_med>]
-            (debug, PARKING UP TOMAR DIFERENCIA CON X REF = #<_parking_gripper_up_x_error> )
+            #<_parking_gripper_up_x_error> = [#<_parking_gripper_up_x_meas_ref>-#<_gripper_up_value_measure>]
+            (debug, PARKING GRIPPER UP - MEASURE DIF VS REF = #<_parking_gripper_up_x_error> )
             ;(log, )
-            o2155 IF [ABS[#<_parking_gripper_up_x_error>] GT #<_parking_gripper_up_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA PARKING UP TOMAR)
+            o2155 IF [ABS[#<_parking_gripper_up_x_error>] GT #<_parking_gripper_up_x_error_accepted>]
+                (debug, PARKING gripper up - measurement length exceeded)
                 ;(log, )
-                M02
+                ;M02
             o2155 ENDIF
 
-    ;SUBRUTINA CERRAR gripper up CON PIEZA, VERIFICAR gripper up SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
+    ;SUBROUTINE CLOSE GRIPPER UP WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
         o1950 CALL ;cerrar pieza gripper up
             o2160 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA PARKING UP TOMAR)
+                (debug, PARKING - ERROR IN CLOSING GRIPPER UP WITH COUPLING)
                 ;(log, )
                 M02
             o2160 ENDIF
 
-    ;hace una diagonal en X y Z
-    G1 x#<_parking_ingreso_x> z[#<_parking_gripper_up_z_calculado>+#<_parking_z_offset>]	F#<_VEL_RAPIDA>
+    ;describes diagonal movement in X & Z
+    G1 x#<_parking_enter_x_over_bars> z[#<_parking_gripper_up_z_calculated>+#<_parking_z_offset>]	F#<_VEL_FAST>
     
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
     
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN PARKING - NO debe haber cupla
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - coupling must not be present
         M66 P14 L3 Q0.1
         o2165 IF [#5399 EQ -1]
-            (debug, Parking - Cupla presente parking - rutina up tomar)
+            (debug, Parking - Present coupling in Parking)
             ;(log, )
             M02
         o2165 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper up - sino error
+    ;VERIFY GRIPPER UP COUPLING PRESENCE SENSOR - coupling must be present
         M66 P22 L4 Q0.1
         o2170 IF [#5399 EQ -1]
-            (debug, Parking - Cupla no presente en gripper - rutina up tomar)
+            (debug, Parking - Coupling not present in Gripper Up)
             ;(log, )
             M02
         o2170 ENDIF
@@ -776,285 +1536,533 @@ o2100 ENDSUB
 
 
 
+(**********************************************************************)
+(***** ROUTINE PARKING gripper down GRAB                          *****)
+(***** MIDE                                                       *****)
+(**********************************************************************)
+
+o1050 SUB
+    
+    ;VERIFY SAFE POSITION
+        #5399 = 0
+        o2000 CALL ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+        o1051 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD -  Gantry not in Safe Position Y/Z coordinates)
+            ;(log, )
+            M02
+        o1051 ENDIF
+
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1052 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1052 ENDIF
+
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - the coupling must be present
+        M66 P14 L4 Q0.1
+        o1055 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - Present Coupling Error - must be present)
+            ;(log, )
+            M02
+        o1055 ENDIF
+
+    ;VERIFY TUMBLER - Open Jaws Sensor
+        M66 P13 L3 Q0.1
+        o1056 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - Tumbler Jaws are closed)
+            ;(log, )
+            M02
+        o1056 ENDIF
+
+    ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
+    ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
+        M66 P10 L3 Q0.1
+        o1057 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - Tumbler rotator not in 0 degrees)
+            ;(log, )
+            M02
+        o1057 ENDIF
+
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - MUST NOT BE PRESENT
+        M66 P21 L3 Q0.1
+        o1060 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - ERROR Coupling present in gripper down)
+            ;(log, )
+            M02
+        o1060 ENDIF
+
+    ;SUBROUTINE open gripper down
+        o1700 CALL ;open gripper down
+            o1065 IF [#5399 EQ -1]
+                (debug, Parking Grab GRD - ERROR IN ROUTINE GRIPPER DOWN OPEN)
+                ;(log, )
+                M02
+            o1065 ENDIF
+
+    G1 x#<_parking_enter_x_free>	F#<_VEL_FAST>
+
+    G1 z#<_parking_enter_z>	F#<_VEL_FAST>
+    G1 y#<_parking_gripper_down_enter_y>	F#<_VEL_FAST>
+    
+    G1 z#<_parking_gripper_down_z_calculated>	F#<_VEL_FAST>
+    
+    G1 x#<_parking_aproximates_x>	F#<_VEL_MEDIUM>
+    
+    G1 x[#<_parking_gripper_down_load_x_calculated>+#<_parking_offset_x_measuring>]	F#<_VEL_SLOW>
+
+    ;SUBROUTINE MEASURING GRIPPER DOWN
+        o1600 CALL ;measuring routine gripper down
+            o1070 IF [#5399 EQ -1]
+                (debug, Parking Grab GRD - ERROR IN MEASURING ROUTINE)
+                ;(log, )
+                M02
+            o1070 ENDIF
+            #<_parking_gripper_down_x_error> = [#<_parking_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug,  Parking Grab GRD - MEASURE DIF VS REF = #<_parking_gripper_down_x_error> )
+            ;(log, )
+            o1071 IF [ABS[#<_parking_gripper_down_x_error>] GT #<_parking_gripper_down_x_error_accepted>]
+                (debug,  Parking Grab GRD - measurement length exceeded)
+                ;(log, )
+                ;M02
+            o1071 ENDIF
+    
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o1075 IF [#5399 EQ -1]
+                (debug,  Parking Grab GRD - close gripper with coupling error)
+                ;(log, )
+                M02
+            o1075 ENDIF
+    
+    ;describes diagonal movement in X & Z
+    G1 x#<_parking_enter_x_free> z[#<_parking_gripper_down_z_calculated>+#<_parking_z_offset>]	F#<_VEL_FAST>
+    
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    ;Parking Coupling Presence Sensor - coupling must not be present
+        M66 P14 L3 Q0.1
+        o1080 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - Present coupling in parking)
+            ;(log, )
+            M02
+        o1080 ENDIF
+        
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - coupling must be present
+        M66 P21 L4 Q0.1
+        o1085 IF [#5399 EQ -1]
+            (debug, Parking Grab GRD - Coupling not present in Gripper down)
+            ;(log, )
+            M02
+        o1085 ENDIF
+    
+o1050 ENDSUB
+
+
+
+(**********************************************************************)
+(***** ROUTINE PARKING gripper up LEAVE                           *****)
+(**********************************************************************)
+
+o1100 SUB
+    
+    ;VERIFY SAFE POSITION
+        #5399 = 0
+        o2000 CALL ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+        o1105 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU- Gantry not in Safe Position Y/Z coordinates)
+            ;(log, )
+            M02
+        o1105 ENDIF
+
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1106 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1106 ENDIF
+
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - the coupling must not be present
+        M66 P14 L3 Q0.1
+        o1110 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - Present Coupling Error - It must be empty)
+            ;(log, )
+            M02
+        o1110 ENDIF
+
+    ;VERIFY TUMBLER - Open Jaws Sensor
+        M66 P13 L3 Q0.1
+        o1111 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - Tumbler Jaws are closed)
+            ;(log, )
+            M02
+        o1111 ENDIF
+
+    ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
+    ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
+        M66 P10 L3 Q0.1
+        o1112 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU  - Tumbler rotator not in 0 degrees)
+            ;(log, )
+            M02
+        o1112 ENDIF
+
+    ;VERIFY GRIPPER UP COUPLING PRESENCE SENSOR - coupling must be present
+        M66 P22 L4 Q0.1
+        o1115 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - Coupling not present in Gripper Up)
+            ;(log, )
+            M02
+        o1115 ENDIF
+    
+    G1 z#<_parking_enter_z>	F#<_VEL_FAST>
+    G1 x#<_parking_enter_x_over_bars>	F#<_VEL_FAST>
+    G1 y#<_parking_gripper_up_enter_y>	F#<_VEL_FAST>
+    
+    G1 z[#<_parking_gripper_up_z_calculated>+#<_parking_z_offset>]	F#<_VEL_FAST>
+    
+    G1 x#<_parking_aproximates_x>	F#<_VEL_MEDIUM>
+    
+    G1 x#<_parking_gripper_up_unload_x_calculated>	F#<_VEL_SLOW>
+    
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - the coupling must be present
+        M66 P14 L4 Q0.1
+        o1120 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - Present Coupling Error - the coupling must be present)
+            ;(log, )
+            M02
+        o1120 ENDIF
+    
+    ;OPEN GRIPPER UP, ALSO CHECKS SENSOR FOR JAWS OPENED
+        o1750 CALL ;OPEN GRIPPER UP
+            o1125 IF [#5399 EQ -1]
+                (debug, PARKING Leave GRU - ERROR - OPEN GRIPPER UP ROUTINE)
+                ;(log, )
+                M02
+            o1125 ENDIF
+    
+    G1 x#<_parking_enter_x_free>	F#<_VEL_FAST>
+    
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    ;VERIFY PARKING COUPLING PRESENCE SENSOR - the coupling must be present
+        M66 P14 L4 Q0.1
+        o1130 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - Present Coupling Error - the coupling must be present)
+            ;(log, )
+            M02
+        o1130 ENDIF
+
+    ;VERIFY GRIPPER UP COUPLING PRESENCE SENSOR - must NOT be present
+        M66 P22 L3 Q0.1
+        o1135 IF [#5399 EQ -1]
+            (debug, PARKING Leave GRU - ERROR - Coupling present in gripper UP)
+            ;(log, )
+            M02
+        o1135 ENDIF
+    
+    
+o1100 ENDSUB
+
+
+
+
+
 
 
 
 
 
 (**********************************************************************)
-(***** RUTINA SOPLADOR GRIPPER DOWN DEJAR                         *****)
+(***** ROUTINE BLOWER GRIPPER DOWN LEAVE                          *****)
 (**********************************************************************)
 
 o1200 SUB
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1201 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR- No en posición segura Y/Z para comenzar)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o1201 ENDIF
-    
-    ;paso 10 verifica flag soplado concluido en 0
+
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1202 IF [#5399 EQ -1]
+            (debug, BLOWER GRIPPER DOWN LEAVE - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1202 ENDIF
+
+    ;VERIFY Flag Blower Cloncluded in 0
         M66 P27 L4 Q10		(thctab.CTRL_blw_er | end routine python)
         o1205 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Soplado con exceso de demora)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Flag Blower Conluded should be 0)
             ;(log, )
             M02
         o1205 ENDIF
     
-    ;paso 20 verifica sensor de puerta abierta
+    ;VERIFY Blower open door sensor
         M66 P17 L3 Q0.1
         o1210 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Puerta no esta abierta)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Door not opened)
             ;(log, )
             M02
         o1210 ENDIF
 
-    ;paso 30 verifica sensor de cupla presente - cupla debe NO estar presente
+    ;VERIFY Blower present coupling sensor - coupling must not be present
         M66 P16 L4 Q0.1
         o1215 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Cupla presente en soplador)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Coupling present in Blower)
             ;(log, )
             M02
         o1215 ENDIF
 
-    ;paso 40 verifica soplador de aire apagado
+    ;VERIFY Blower Air Valve Closed
         M66 P28 L4 Q0.1
         o1220 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Soplador de aire encendido)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Blower air valve opened)
             ;(log, )
             M02
         o1220 ENDIF
 
-    ;paso 50 verifica presencia de cupla en gripper gripper down
+    ;VERIFY GRIPPER DOWN present coupling sensor - coupling must be present
         M66 P21 L4 Q0.1
         o1225 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Cupla no presente en gripper de abajo)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Coupling NOT present in Gripper Down)
             ;(log, )
             M02
         o1225 ENDIF
 
-    ;SUBRUTINA DE CERRAR gripper up
+    ;SUBROUTINE CLOSE GRIPPER UP
         o1850 CALL
             o1226 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA SOPLADOR DOWN DEJAR)
+                (debug, BLOWER GRIPPER DOWN LEAVE - ERROR IN ROUTINE CLOSE GRIPPER UP)
                 ;(log, )
                 M02
             o1226 ENDIF
 
-    ;SETEAR Flag 03 de accionar soplado en 0
+    ;Flag 03 - start blower to 0
         M65 P60
 
-    ;SETEAR Flag de NO accionar rutina python de soplado en 1
+    ;Flag do NOT start blower python routine to 1
         M64 P61
     
 
-    G1 x#<_soplador_ingreso_x>	F#<_VEL_RAPIDA>
-    G1 y#<_soplador_ingreso_y>	F#<_VEL_RAPIDA>
+    G1 x#<_blower_enter_x>	F#<_VEL_FAST>
+    G1 y#<_blower_enter_y>	F#<_VEL_FAST>
 
-    G1 z[#<_soplador_gripper_down_z_calculado_torneado>+#<_soplador_z_offset>]	F#<_VEL_RAPIDA>
+    G1 z[#<_blower_gripper_down_z_calculated_machined>+#<_blower_z_offset>]	F#<_VEL_FAST>
 
-    G1 x#<_soplador_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_blower_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x#<_soplador_gripper_down_dejar_x_calculado>	F#<_VEL_LENTA>
+    G1 x#<_blower_gripper_down_unload_x_calculated>	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
             o1231 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA SOPLADOR DOWN DEJAR)
+                (debug, BLOWER GRIPPER DOWN LEAVE - ERROR ROUTINE OPEN GRIPPER DOWN)
                 ;(log, )
                 M02
             o1231 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN SOPLADOR - cupla debe estar presente
+    ;VERIFY Blower present coupling sensor - coupling must not be present
         M66 P16 L3 Q0.1
         o1230 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Cupla no presente en soplador)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Coupling NOT present in Blower)
             ;(log, )
             M02
         o1230 ENDIF
 
-    G1 x#<_soplador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_blower_enter_x>	F#<_VEL_FAST>
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN SOPLADOR - cupla debe estar presente
+    ;VERIFY Blower present coupling sensor - coupling must be present
         M66 P16 L3 Q0.1
         o1235 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Cupla no presente en soplador)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Coupling NOT Present)
             ;(log, )
             M02
         o1235 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA NO PRESENTE EN GRIPPER DOWN - sino error
+    ;VERIFY GRIPPER DOWN present coupling sensor - coupling must NOT be present
         M66 P21 L3 Q0.1
         o1240 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN DEJAR - Cupla presente en gripper de abajo)
+            (debug, BLOWER GRIPPER DOWN LEAVE - Present Coupling in Gripper Down)
             ;(log, )
             M02
         o1240 ENDIF
 
-    ;SETEAR Flag 03 de accionar soplado en 1
+    ;Flag 03 - start blower to 1
         M64 P60
 
-    ;SETEAR Flag de NO accionar rutina python de soplado en 0
+    ;Flag do NOT start blower python routine to 0
         M65 P61
 
 o1200 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA SOPLADOR GRIPPER DOWN TOMAR                         *****)
-(***** MIDE                                                       *****)
+(***** ROUTINE BLOWER GRIPPER DOWN GRAB                           *****)
+(***** MEASURE                                                    *****)
 (**********************************************************************)
 
 o1250 SUB
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1251 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - No en posición segura Y/Z para comenzar)
+            (debug, BLOWER GRIPPER DOWN GRAB - Not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o1251 ENDIF
 
-    ;VERIFICAR Flag 55 de soplado concluido en 1 (lo setea el Python, y lo lee el código G)
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1252 IF [#5399 EQ -1]
+            (debug, BLOWER GRIPPER DOWN GRAB - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1252 ENDIF
+
+    ;;VERIFY Flag Blower Cloncluded in 1
         M66 P27 L3 Q40
         o1270 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Soplado con exceso de demora)
+            (debug, BLOWER GRIPPER DOWN GRAB - Blower not conluded)
             ;(log, )
             M02
         o1270 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN SOPLADOR - cupla debe estar presente
+    ;VERIFY Blower present coupling sensor - coupling must be present
         M66 P16 L3 Q0.1
         o1255 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Cupla no presente en soplador)
+            (debug, BLOWER GRIPPER DOWN GRAB  - Coupling is not present)
             ;(log, )
             M02
         o1255 ENDIF
 
-    ;VERIFICAR SENSOR DE NEUMÁTICO EN PUERTA ABIERTA
+    ;VERIFY Blower open door sensor
         M66 P17 L3 Q0.1		(thctab.CTRL_blw_er | end routine python)
         o1260 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Puerta no esta abierta)
+            (debug, BLOWER GRIPPER DOWN GRAB - Door not opened)
             ;(log, )
             M02
         o1260 ENDIF
 
-    ;VERIFICAR EV DE SOPLADO APAGADA
+    ;VERIFY Blower Air Valve Closed
         M66 P28 L4 Q0.1
         o1265 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Soplador de aire encendido)
+            (debug, BLOWER GRIPPER DOWN GRAB - Blower air valve opened)
             ;(log, )
             M02
         o1265 ENDIF
 
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;OPEN gripper down
             o1266 IF [#5399 EQ -1]
-            (debug, ERROR EN RUTINA SOPLADOR DOWN TOMAR)
+            (debug, BLOWER GRIPPER DOWN GRAB - ERROR EN ROUTINE OPEN GRIPPER DOWN)
             ;(log, )
             M02
             o1266 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA NO PRESENTE EN GRIPPER gripper up - sino error
+    ;VERIFY COUPLING NOT PRESENT IN GRIPPER UP - must NOT be present
         M66 P22 L3 Q0.1
         o1275 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Cupla presente en gripper superior)
+            (debug, BLOWER GRIPPER DOWN GRAB - Error Present Coupling in Gripper Up)
             ;(log, )
             M02
         o1275 ENDIF
 
-    ;SUBRUTINA DE CERRAR gripper up
-        o1850 CALL ;cerrar gripper up
+    ;SUBROUTINE CLOSE GRIPPER UP
+        o1850 CALL ;close gripper up
             o1276 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA SOPLADOR DOWN TOMAR)
+                (debug, BLOWER GRIPPER DOWN GRAB - ERROR IN ROUTINE CLOSE GRIPPER UP)
                 ;(log, )
                 M02
             o1276 ENDIF
 
-    G1 x#<_soplador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_blower_enter_x>	F#<_VEL_FAST>
 
-    ;SETEAR Flag de NO accionar rutina python de soplado en 1
+    ;Flag do NOT start blower python routine to 1
         M64 P61
 
-    G1 y#<_soplador_ingreso_y>	F#<_VEL_RAPIDA>
+    G1 y#<_blower_enter_y>	F#<_VEL_FAST>
 
-    G1 z#<_soplador_gripper_down_z_calculado_torneado>	F#<_VEL_RAPIDA>
+    G1 z#<_blower_gripper_down_z_calculated_machined>	F#<_VEL_FAST>
 
-    G1 x#<_soplador_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_blower_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x[#<_soplador_gripper_down_tomar_x_calculado>+#<_soplador_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x[#<_blower_gripper_down_load_x_calculated>+#<_blower_offset_x_measuring>]	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
+    ;SUBROUTINE MEASURING GRIPPER DOWN
+        o1600 CALL ;measuring routine gripper down
             o1277 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA SOPLADOR DOWN TOMAR)
+                (debug, BLOWER GRIPPER DOWN GRAB - ERROR IN MEASURING ROUTINE)
                 ;(log, )
                 M02
             o1277 ENDIF
-            #<_soplador_gripper_down_x_error> = [#<_soplador_gripper_down_x_med_ref_torneado>-#<_gripper_down_cota_x_med>]
-            (debug, SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = #<_soplador_gripper_down_x_error> )
+            #<_blower_gripper_down_x_error> = [#<_blower_gripper_down_x_meas_ref_machined>-#<_gripper_down_value_measure>]
+            (debug, BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = #<_blower_gripper_down_x_error> )
             ;(log, )
-            o1071 IF [ABS[#<_soplador_gripper_down_x_error>] GT #<_soplador_gripper_down_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA SOPLADOR DOWN TOMAR)
+            o1278 IF [ABS[#<_blower_gripper_down_x_error>] GT #<_blower_gripper_down_x_error_accepted>]
+                (debug, BLOWER GRIPPER DOWN GRAB - measurement length exceeded)
                 ;(log, )
-                M02
-            o1071 ENDIF
-
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
-            o1278 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA SOPLADOR DOWN TOMAR)
-                ;(log, )
-                M02
+                ;M02
             o1278 ENDIF
 
-    G1 x#<_soplador_ingreso_x> z[#<_soplador_gripper_down_z_calculado_torneado>+#<_soplador_z_offset>] 	F#<_VEL_RAPIDA>
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o1279 IF [#5399 EQ -1]
+                (debug, BLOWER GRIPPER DOWN GRAB - close gripper with coupling error)
+                ;(log, )
+                M02
+            o1279 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 x#<_blower_enter_x> z[#<_blower_gripper_down_z_calculated_machined>+#<_blower_z_offset>] 	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN SOPLADOR - cupla debe NO estar presente
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    ;VERIFY Blower present coupling sensor - coupling must not be present
         M66 P16 L4 Q0.1
         o1280 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Cupla presente en soplador)
+            (debug, BLOWER GRIPPER DOWN GRAB - Error Coupling is Present)
             ;(log, )
             M02
         o1280 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN present coupling sensor - coupling must be present
         M66 P21 L4 Q0.1
         o1285 IF [#5399 EQ -1]
-            (debug, SOPLADOR DOWN TOMAR - Cupla no presente en gripper de abajo)
+            (debug, BLOWER GRIPPER DOWN GRAB - NOT Present Coupling in Gripper Down)
             ;(log, )
             M02
         o1285 ENDIF
 
-    ;SETEAR Flag 03 de accionar soplado en 0
+    ;Flag 03 - start blower to 0
         M65 P60
 
-    ;SETEAR Flag de NO accionar rutina python de soplado en 0
+    ;Flag do NOT start blower python routine to 0
         M65 P61
 
-    ;ABRIR GRIPPER DE ARRIBA, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
-    ;    o1750 CALL ;abrir gripper up
-    ;        o1286 IF [#5399 EQ -1]
-    ;            (debug, ERROR EN RUTINA SOPLADOR - rutina tomar)
-    ;            ;(log, )
-    ;            M02
-    ;        o1286 ENDIF
-    ;no uso este esquema porque espera que abra para terminar la rutina
-    
-    ;ABRIR GRIPPER DE ARRIBA
-    ;solo doy la orden y sigo a la proxima rutina
-    M65 P23
-    M64 P24
+    ;OPEN GRIPPER UP, ALSO CHECKS SENSOR FOR JAWS OPENED
+        o1750 CALL ;OPEN GRIPPER UP
+            o1286 IF [#5399 EQ -1]
+                (debug, BLOWER GRIPPER DOWN GRAB - ERROR ROUTINE GRIPPER UP OPEN)
+                ;(log, )
+                M02
+            o1286 ENDIF
+    ;With this last step, the Gantry stays freezed until reads the sensor of opened jaws...
+ 
 
 o1250 ENDSUB
 
@@ -1064,233 +2072,308 @@ o1250 ENDSUB
 
 
 
+
+
+
 (**********************************************************************)
-(***** RUTINA CARGA gripper down                                  *****)
-(***** MIDE                                                       *****)
+(***** ROUTINE LOAD gripper down                                  *****)
+(***** MEASURE                                                    *****)
 (**********************************************************************)
 
 o1300 SUB
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1301 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - No en posición segura Y/Z para comenzar)
+            (debug, LOAD gripper down - Not in safe position, Y/Z coordinates)
             ;(log, )
             M02
         o1301 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper down - sino error
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER DOWN - gripper must be empty
         M66 P21 L3 Q0.1
         o1302 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Cupla presente en gripper de abajo)
+            (debug, LOAD gripper down - Present Coupling in Gripper Down)
             ;(log, )
             M02
         o1302 ENDIF
 
-    ;VERIFICAR SENSOR MORDAZA ABIERTA EN VOLTEADOR - sino error
+    ;VERIFY TUMBLER - Open Jaws Sensor
         M66 P13 L3 Q0.1
         o1303 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Mordaza cerrada)
+            (debug, LOAD gripper down - Error in Routin to open Tumbler Jaws)
             ;(log, )
             M02
         o1303 ENDIF
 
-    ;VERIFICAR SENSOR GIRADOR EN 0 GRADOS - sino error
+    ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
+    ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
         M66 P10 L3 Q0.1
         o1304 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Girador no en posicion 0 grados)
+            (debug, LOAD gripper down - Tumbler rotator not in 0 degrees)
             ;(log, )
             M02
         o1304 ENDIF
 
-    ;Parking Sensor de cupla - NO debe haber cupla
+    ;VERIFY Parking - Coupling Presence Sensor - coupling must not be present
         M66 P14 L3 Q0.1
         o1305 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Cupla presente en parking)
+            (debug, LOAD gripper down - Parking - Present coupling)
             ;(log, )
             M02
         o1305 ENDIF
 
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
-            o1306 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA CARGA gripper down)
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1306 IF [#5399 EQ -1]
+            (debug, LOAD gripper down - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1306 ENDIF
+
+    ;LOAD - Check sensor of dumping pneumatic in load or idle position
+    ;    M66 P08 L3 Q0.1
+    ;    o1307 IF [#5399 EQ -1]
+    ;        (debug, LOAD gripper down - Dumping pneumatic NOT in load or idle position)
+    ;        ;(log, )
+    ;        M02
+    ;    o1307 ENDIF
+
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
+            o1308 IF [#5399 EQ -1]
+                (debug, LOAD gripper down - Gripper open routine error)
                 ;(log, )
                 M02
-            o1306 ENDIF
+            o1308 ENDIF
 
-    G1 x#<_carga_ingreso_x>	F#<_VEL_RAPIDA>
-    G1 y#<_carga_ingreso_y>	F#<_VEL_RAPIDA>
+    G1 x#<_load_enter_x>	F#<_VEL_FAST>
+    G1 y#<_load_enter_y>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE VERTICAL DE CARGA ARRIBA y SENSOR DE CUPLA PRESENTE EN VERTICAL DE CARGA - sino esperar
-        M66 P06 L3 Q10 ; espera tiempo de rutina de carga
+    ;VERIFY LOAD PRESENT COUPLING SENSOR
+        M66 P07 L3 Q1 ; n/o
+
+        o3031 while [#5399 EQ -1]
+            ;VERIFY LOAD PRESENT COUPLING SENSOR
+            M100 P13001 ; *** WAIT UNTILL THERE IS COUPLING TO LOAD ***
+            M66 P07 L3 Q1 ; n/o
+        o3031 endwhile
+
+    ;VERIFY LOAD VERTICAL PNEUMATIC IS UP 
+        M66 P06 L3 Q1
         o1310 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Neumatico vertical de carga no esta arriba)
+            (debug, LOAD gripper down - Vertical Pneumatic is not up)
             ;(log, )
             M02
         o1310 ENDIF
 
-        M66 P07 L3 Q1 ; n/o
-        o1315 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Cupla no presente en vertical de carga)
-            ;(log, )
-            M02
-        o1315 ENDIF
+    ;VERIFY LOAD PRESENT COUPLING SENSOR
+    ;    M66 P07 L3 Q1 ; n/o
+    ;    o1315 IF [#5399 EQ -1]
+    ;        (debug, LOAD gripper down - Coupling not present in load pneumatic vertical)
+    ;        ;(log, )
+    ;        M02
+    ;    o1315 ENDIF
 
-    G1 z#<_carga_gripper_down_z_calculado>	F#<_VEL_RAPIDA>
+    G1 z#<_load_gripper_down_z_calculated>	F#<_VEL_FAST>
 
-    ;SETEAR Flag 01 Gantry en carga en 1
+    ;SET Flag 01 Gantry in Load Routine to 1
        M64 P63
 
-    G1 x#<_carga_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_load_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x[#<_carga_gripper_down_x_calculado>+#<_carga_offset_x_medicion>]   F#<_VEL_LENTA>
+    G1 x[#<_load_gripper_down_x_calculated>+#<_load_offset_x_measuring>]   F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
+    G4 P1
+
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
             o1316 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA CARGA GRIPPER DOWN)
+                (debug, LOAD GRIPPER DOWN - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
                 ;(log, )
                 M02
             o1316 ENDIF
-            #<_carga_gripper_down_x_error> = [#<_carga_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
-            (debug, CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = #<_carga_gripper_down_x_error> )
+            #<_load_gripper_down_x_error> = [#<_load_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug, LOAD GRIPPER DOWN - MEASURE DIF VS REF = #<_load_gripper_down_x_error> )
             ;(log, )
-            o1317 IF [ABS[#<_carga_gripper_down_x_error>] GT #<_carga_gripper_down_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA CARGA GRIPPER DOWN)
+            o1317 IF [ABS[#<_load_gripper_down_x_error>] GT #<_load_gripper_down_x_error_accepted>]
+                (debug, LOAD GRIPPER DOWN - measurement length exceeded error)
                 ;(log, )
-                M02
+                ;M02
             o1317 ENDIF            
 
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
             o1318 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA CARGA gripper down)
+                (debug, LOAD GRIPPER DOWN - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
                 ;(log, )
                 M02
             o1318 ENDIF
 
-    G1 z[#<_carga_gripper_down_z_calculado>+#<_carga_z_offset>] F#<_VEL_RAPIDA>
+    G1 z[#<_load_gripper_down_z_calculated>+#<_load_z_offset>] F#<_VEL_FAST>
 
-    G1 x#<_carga_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_load_enter_x>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA no PRESENTE EN VERTICAL DE CARGA - sino error
+    ;VERIFY LOAD VERTICAL COUPLING PRESENCE SENSOR - coupling must not be present
         M66 P07 L4 Q0.1
         o1320 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Cupla presente en bancal carga)
+            (debug, LOAD gripper down - Present coupling in Load Vertcal Pneumatic)
             ;(log, )
             M02
         o1320 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - coupling must be present
         M66 P21 L4 Q0.1
         o1325 IF [#5399 EQ -1]
-            (debug, CARGA gripper down - Cupla no presente en gripper de abajo)
+            (debug, LOAD gripper down - Coupling not present in Gripper down)
             ;(log, )
             M02
         o1325 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
 
-    ;SETEAR Flag 01 Gantry en carga en 0
+    ;SET Flag 01 Gantry in Load Routine to 0
         M65 P63
 
 o1300 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA DESCARGA gripper down                               *****)
+(***** ROUTINE UNLOAD gripper down                                *****)
 (**********************************************************************)
 
 o1350 SUB
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1351 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - No en posición segura Y/Z para comenzar)
+            (debug, UNLOAD gripper down - Not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o1351 ENDIF
-            
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1352 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1352 ENDIF
+
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER DOWN - gripper must be with a coupling
         M66 P21 L4 Q0.1
         o1355 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Cupla no presente en gripper de abajo)
+            (debug, UNLOAD gripper down - not Present Coupling in Gripper Down)
             ;(log, )
             M02
         o1355 ENDIF
 
-    G1 x#<_descarga_ingreso_x>	F#<_VEL_RAPIDA>
-    G1 y#<_descarga_ingreso_y>	F#<_VEL_RAPIDA>
-
-    G1 z#<_descarga_ingreso_intermedio_z>	F#<_VEL_RAPIDA>
-    G1 x#<_descarga_ingreso_intermedio_x>	F#<_VEL_RAPIDA>
-
-    G1 z[#<_descarga_gripper_down_z_calculado>+#<_descarga_z_offset>]	F#<_VEL_RAPIDA>
-
-    ;VERIFICAR SENSOR DE VERTICAL DE DESCARGA ARRIBA y SENSOR DE CUPLA NO PRESENTE EN VERTICAL DE DESCARGA - sino esperar
-        M66 P05 L3 Q10 ; espera tiempo de rutina de descarga
-        o1360 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Neumatico vertical de carga no esta arriba)
+    ;TUMBLER - Open Jaws Sensor
+        M66 P13 L3 Q0.1
+        o1356 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - Error in Routin to open Tumbler Jaws)
             ;(log, )
             M02
-        o1360 ENDIF
+        o1356 ENDIF
 
+    ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
+    ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
+        M66 P10 L3 Q10
+        o1357 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - Tumbler rotator not in 0 degrees)
+            ;(log, )
+            M02
+        o1357 ENDIF
+
+    ;Parking - Coupling Presence Sensor - coupling must not be present
+        M66 P14 L3 Q0.1
+        o1358 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - Present coupling in parking)
+            ;(log, )
+            M02
+        o1358 ENDIF
+
+    G1 x#<_unload_enter_x>	F#<_VEL_FAST>
+    G1 y#<_unload_enter_y>	F#<_VEL_FAST>
+
+    ;VERIFY - If unload Conveyor is full
+        M66 P01 L3 Q1 ; n/o
+
+        o3031 while [#5399 EQ -1]
+            ;VERIFY - If unload Conveyor is full
+            M100 P13501 ; *** WAIT UNTILL OPERATOR UNLOAD PARTS FROM CONVEYOR ***
+            M66 P01 L3 Q1 ; n/o
+        o3031 endwhile
+
+    G1 z#<_unload_enter_intermediate_z>	F#<_VEL_FAST>
+    G1 x#<_unload_enter_intermediate_x>	F#<_VEL_FAST>
+
+    G1 z[#<_unload_gripper_down_z_calculated>+#<_unload_z_offset>]	F#<_VEL_FAST>
+
+    ;VERIFY UNLOAD VERTICAL PNEUMATIC IS UP 
+        M66 P05 L3 Q10 ; waits unload routine time
+        o1360 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - Vertical Pneumatic is not up)
+            ;(log, )
+            M02
+        o1360 ENDIF  
+
+    ;VERIFY UNLOAD PRESENT COUPLING SENSOR IN VERTICAL PNEUMATIC - has to be empty
         M66 P15 L3 Q1 ; n/c
         o1365 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Cupla presente en vertical)
+            (debug, UNLOAD gripper down - Coupling present in vertical)
             ;(log, )
             M02
         o1365 ENDIF
 
-    ;SETEAR Flag 02 Gantry en descarga en 1 
+    ;SET Flag 02 Gantry in UnLoad Routine to 1 
         M64 P62
 
-    G1 x#<_descarga_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_unload_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x#<_descarga_gripper_down_x_calculado>	F#<_VEL_LENTA>
+    G1 x#<_unload_gripper_down_x_calculated>	F#<_VEL_SLOW>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN DESCARGA - sino error
+    ;VERIFY UNLOAD PRESENT COUPLING SENSOR IN VERTICAL PNEUMATIC - has to be with coupling
         M66 P15 L4 Q0.1 ; n/c
         o1370 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Cupla no presente)
+            (debug, UNLOAD gripper down - Coupling not present in vertical)
             ;(log, )
             M02
         o1370 ENDIF
 
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL  ;open gripper down
             o1371 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA DESCARGA gripper down)
+                (debug, UNLOAD gripper down - Gripper open routine error)
                 ;(log, )
                 M02
             o1371 ENDIF
 
-    G1 x#<_descarga_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_unload_enter_x>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN DESCARGA - sino error
+    ;VERIFY UNLOAD PRESENT COUPLING SENSOR IN VERTICAL PNEUMATIC - has to be with coupling
         M66 P15 L4 Q0.1 ; n/c
         o1375 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Cupla no presente)
+            (debug, UNLOAD gripper down - Coupling not present in vertical)
             ;(log, )
             M02
         o1375 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA NO PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN COUPLING PRESENCE SENSOR - coupling must NOT be present
         M66 P21 L3 Q0.1
         o1380 IF [#5399 EQ -1]
-            (debug, DESCARGA gripper down - Cupla presente en gripper de abajo)
+            (debug, UNLOAD gripper down - Coupling present in Gripper down)
             ;(log, )
             M02
         o1380 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
 
-    ;SETEAR Flag 02 Gantry en descarga en 0
+    ;SET Flag 02 Gantry in UnLoad Routine to 0
         M65 P62
 
 o1350 ENDSUB
@@ -1301,971 +2384,1420 @@ o1350 ENDSUB
 
 
 
+
+
 (**********************************************************************)
-(***** RUTINA VOLTEADOR gripper down - sale up                    *****)
-(***** MIDE                                                       *****)
+(***** ROUTINE TUMBLER gripper start down - ends up               *****)
+(***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o1400 SUB
+o1400 SUB ;ROUTINE TUMBLER gripper start down - ends up
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1401 IF [#5399 EQ -1]
-            (debug, Volteador - No en posición segura Y/Z para comenzar)
+            (debug, Tumbler down/up - Not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o1401 ENDIF
 
-    ;VERIFICAR SENSOR MORDAZA ABIERTA EN VOLTEADOR - sino error
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1402 IF [#5399 EQ -1]
+            (debug, Tumbler down/up - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1402 ENDIF
+
+    ;TUMBLER - Open Jaws Sensor
         M66 P13 L3 Q0.1
         o1405 IF [#5399 EQ -1]
-            (debug, Volteador - Mordaza cerrada)
+            (debug, Tumbler down/up - Jaws are not opened)
             ;(log, )
             M02
         o1405 ENDIF
     
-    ;VERIFICAR SENSOR GIRADOR EN 0 GRADOS - sino error
+    ;VERIFY SENSOR ROTATOR IN 0 DEGREES
         M66 P10 L3 Q0.1
         o1410 IF [#5399 EQ -1]
-            (debug, Volteador - Girador no en posicion 0 grados)
+            (debug, Tumbler down/up - Rotator not in 0 degrees)
             ;(log, )
             M02
         o1410 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must have coupling
         M66 P21 L4 Q0.1
         o1415 IF [#5399 EQ -1]
-            (debug, Volteador - Cupla no presente en gripper de abajo)
+            (debug, Tumbler down/up - Gripper Down - Coupling not present)
             ;(log, )
             M02
         o1415 ENDIF
 
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    G1 y#<_volteador_ingreso_down_y>	F#<_VEL_RAPIDA>
+    G1 y#<_tumbler_enter_down_y>	F#<_VEL_FAST>
 
-    G1 z#<_volteador_gripper_down_z>	F#<_VEL_RAPIDA>
+    G1 z#<_tumbler_gripper_down_z>	F#<_VEL_FAST>
 
-    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
 
-    G1 x#<_volteador_gripper_down_dejar_x_calculado>	F#<_VEL_MEDIA>
+    G1 x[#<_tumbler_gripper_down_unload_x_calculated>+#<_tumbler_x_displacement>]	F#<_VEL_MEDIUM>
 
-    ;CERRAR MORDAZAS VOLTEADOR
+    ;CLOSE TUMBLER JAWS
         M64 P04
         M65 P03
         
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA Y CERRADA EN 0 - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
         G04 p3
 
-        M66 P13 L4 Q0.1 (Chequea la senal de mordaza no abierta)
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
         o1420 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down/up - ERROR IN CLOSING JAWS WITH COUPLING - opened)
             ;(log, )
             M02
         o1420 ENDIF
 
-        M66 P12 L4 Q0.1 (Chequea la senal de mordaza no cerrada)
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
         o1425 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down/up - ERROR IN CLOSING JAWS WITH COUPLING - closed)
             ;(log, )
             M02
         o1425 ENDIF
    
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
             o1431 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR)
+                (debug, Tumbler down/up - Gripper Down open routine error)
                 ;(log, )
                 M02
             o1431 ENDIF
 
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    ;GIRAR VOLTEADOR A 180 GRADOS
+    ;ROTATE TUMBLER 180 DEGREES
         M64 P01
         M65 P02
 
-    ;VERIFICAR SENSOR GIRADOR EN 180 GRADOS - sino error
-        M66 P11 L3 Q5
+    ;VERIFY SENSOR ROTATOR IN 180 DEGREES
+        M66 P11 L3 Q10
         o1435 IF [#5399 EQ -1]
-            (debug, Volteador - Girador no en 180 posicion correcta)
+            (debug, Tumbler down/up - Rotator not in 180 degrees)
             ;(log, )
             M02
         o1435 ENDIF
 
-    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
 
-    G1 x[#<_volteador_gripper_down_tomar_x_calculado>+#<_volteador_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x#<_tumbler_gripper_down_load_x_calculated>	F#<_VEL_SLOW>
+    ;it goes to grab the coupling at the dimension if it would be turned by the middle of the coupling length
+    ;but it turned with an offset off _tumbler_x_displacement, so the coupling wont be at the end of the gripper compressing the springs
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
-            o1436 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR GRIPER DOWN)
-                ;(log, )
-                M02
-            o1436 ENDIF
-            #<_volteador_gripper_down_x_error> = [#<_volteador_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
-            (debug, VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = #<_volteador_gripper_down_x_error> )
+    ;SUBROUTINE CLOSE GRD WITH COUPLING, NO PRESSING SHEETMETAL, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+    o1925 CALL  ;close gripper down with coupling
+        o1438 IF [#5399 EQ -1]
+            (debug, Tumbler down/up - ERROR CLOSING GRD WITH COUPLING, NO PRESSING SHEETMETAL)
             ;(log, )
-            o1437 IF [ABS[#<_volteador_gripper_down_x_error>] GT #<_volteador_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN)
-                ;(log, )
-                M02
-            o1437 ENDIF
+            M02
+        o1438 ENDIF
 
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
-            o1438 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR)
-                ;(log, )
-                M02
-            o1438 ENDIF
-
-    ;ABRIR MORDAZAS VOLTEADOR
+    ;OPEN TUMBLER JAWS
         M64 P03
         M65 P04
     
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA DEL VOLTEADOR - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
         M66 P13 L3 Q5
         o1440 IF [#5399 EQ -1]
-            (debug, Volteador - Mordazas no estan abiertas)
+            (debug, Tumbler down/up - Jaws are not opened)
             ;(log, )
             M02
         o1440 ENDIF
 
-    ; ************ DIFERENCIA ************
+    ; ************ OFFSET FROM CENTER ************
 
-    G1 x#<_volteador_gripper_down_extrae>	F#<_VEL_RAPIDA>
+    G1 x[#<_tumbler_gripper_down_extracts>+#<_tumbler_x_displacement>]	F#<_VEL_FAST>
+    ;to extract the coupling enda face to the point _tumbler_gripper_down_extracts 
+    ;has to move with the plus off the previous offset that it was left before: _tumbler_x_displacement
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
-        M66 P21 L4 Q0.1
-        o1445 IF [#5399 EQ -1]
-            (debug, Volteador - Cupla no presente en gripper de abajo)
-            ;(log, )
-            M02
-        o1445 ENDIF
-
-    ;CERRAR MORDAZAS VOLTEADOR
+    ;CLOSE TUMBLER JAW
         M64 P04
         M65 P03
         
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA Y CERRADA EN 0 - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
         G04 p3
 
-        M66 P13 L4 Q0.1 (Chequea la senal de mordaza no abierta)
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
         o1450 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down/up - ERROR IN CLOSING JAWS WITH COUPLING - opened)
             ;(log, )
             M02
         o1450 ENDIF
 
-        M66 P12 L4 Q0.1 (Chequea la senal de mordaza no cerrada)
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
         o1455 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down/up - ERROR IN CLOSING JAWS WITH COUPLING - closed)
             ;(log, )
             M02
         o1455 ENDIF
 
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
             o1456 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR)
+                (debug, Tumbler down/up - Gripper Down open routine error)
                 ;(log, )
                 M02
             o1456 ENDIF
     
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    G1 y#<_volteador_ingreso_up_y>	F#<_VEL_RAPIDA>
+    G1 y#<_tumbler_enter_up_y>	F#<_VEL_FAST>
 
-    G1 z#<_volteador_gripper_up_z>	F#<_VEL_RAPIDA>
+    G1 z#<_tumbler_gripper_up_z>	F#<_VEL_FAST>
 
-    G1 x#<_volteador_aproxima_up_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_aproximates_up_x>	F#<_VEL_FAST>
 
-    G1 x[#<_volteador_gripper_up_tomar_x_calculado>+#<_volteador_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x[#<_tumbler_gripper_up_load_from_extract>+#<_tumbler_offset_x_measuring>]	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE MEDICION gripper up
-        o1650 CALL ;mide presencia cupla gripper up
+    ;GRIPPER UP MEASURING ROUTINE
+        o1650 CALL  ;measuring routine gripper up
             o1460 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR up TOMAR)
+                (debug, Tumbler down/up - ERROR IN MEASURING GRIPPER UP ROUTINE)
                 ;(log, )
                 M02
             o1460 ENDIF
-            #<_volteador_gripper_up_x_error> = [#<_volteador_gripper_up_x_med_ref>-#<_gripper_up_cota_x_med>]
-            (debug, VOLTEADOR UP TOMAR DIFERENCIA CON X REF = #<_volteador_gripper_up_x_error> )
+            #<_tumbler_gripper_up_x_error> = [#<_tumbler_gripper_up_x_meas_ref>-#<_gripper_up_value_measure>]
+            (debug, Tumbler down/up - MEASURE DIF VS REF = #<_tumbler_gripper_up_x_error> )
             ;(log, )
-            o1465 IF [ABS[#<_volteador_gripper_up_x_error>] GT #<_volteador_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR)
+            o1465 IF [ABS[#<_tumbler_gripper_up_x_error>] GT #<_tumbler_x_error_accepted>]
+                (debug, Tumbler down/up - measurement length exceeded error)
                 ;(log, )
                 ;M02
             o1465 ENDIF    
 
-    ;SUBRUTINA CERRAR gripper up CON PIEZA, VERIFICAR gripper up SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
+    ;SUBROUTINE CERRAR gripper up CON PIEZA, VERIFY gripper up SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
         o1950 CALL ;cerrar pieza gripper up
             o1467 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR UP TOMAR)
+                (debug, ERROR EN ROUTINE TUMBLER UP GRAB)
                 ;(log, )
                 M02
             o1467 ENDIF
 
-    ;ABRIR MORDAZAS VOLTEADOR
+    ;OPEN TUMBLER JAWS
         M64 P03
         M65 P04
     
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA DEL VOLTEADOR - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
         M66 P13 L3 Q5
         o1469 IF [#5399 EQ -1]
-            (debug, Volteador - Mordazas no estan abiertas)
+            (debug, Tumbler down/up - Jaws are not opened)
             ;(log, )
             M02
         o1469 ENDIF
 
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper up - sino error
+    ;VERIFY GRIPPER UP SENSOR PRESENT COUPLING - must have coupling
         M66 P22 L4 Q0.1
         o1472 IF [#5399 EQ -1]
-            (debug, VOLTEADOR - Cupla no presente en gripper - rutina up tomar)
+            (debug, Tumbler down/up - Gripper Up - Coupling not present)
             ;(log, )
             M02
         o1472 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
 
-    ;GIRAR VOLTEADOR A 0 GRADOS
+    ;ROTATE TUMBLER 0 DEGREES
         M64 P02
         M65 P01
-    ;(VERIFICA SENSOR EN LA PRÓXIMA EJECUCIÓN DE LA RUTINA)
+    ;(NEXT CYCLE VERIFIES THE SENSORS)
 
 o1400 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA VOLTEADOR gripper down - sale down                  *****)
-(***** MIDE                                                       *****)
+(***** ROUTINE TUMBLER gripper start down - ends down             *****)
+(***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o1500 SUB
+o1500 SUB ;ROUTINE TUMBLER gripper start down - ends down
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
         o1551 IF [#5399 EQ -1]
-            (debug, Volteador - No en posición segura Y/Z para comenzar)
+            (debug, Tumbler down - Not in Safe Position Y/Z coordinates)
             ;(log, )
             M02
         o1551 ENDIF
 
-    ;VERIFICAR SENSOR MORDAZA ABIERTA EN VOLTEADOR - sino error
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o1552 IF [#5399 EQ -1]
+            (debug, Tumbler down - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o1552 ENDIF
+
+    ;TUMBLER - Open Jaws Sensor
         M66 P13 L3 Q0.1
         o1555 IF [#5399 EQ -1]
-            (debug, Volteador - Mordaza cerrada)
+            (debug, Tumbler down - Jaws are not opened)
             ;(log, )
             M02
         o1555 ENDIF
     
-    ;VERIFICAR SENSOR GIRADOR EN 0 GRADOS - sino error
+    ;VERIFY SENSOR ROTATOR IN 0 DEGREES
         M66 P10 L3 Q0.1
         o1560 IF [#5399 EQ -1]
-            (debug, Volteador - Girador no en posicion 0 grados)
+            (debug, Tumbler down - Rotator not in 0 degrees)
             ;(log, )
             M02
         o1560 ENDIF
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must have coupling
         M66 P21 L4 Q0.1
         o1565 IF [#5399 EQ -1]
-            (debug, Volteador - Cupla no presente en gripper de abajo)
+            (debug, Tumbler down - Gripper Down - Coupling not present)
             ;(log, )
             M02
         o1565 ENDIF
 
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    G1 y#<_volteador_ingreso_down_y>	F#<_VEL_RAPIDA>
+    G1 y#<_tumbler_enter_down_y>	F#<_VEL_FAST>
 
-    G1 z#<_volteador_gripper_down_z>	F#<_VEL_RAPIDA>
+    G1 z#<_tumbler_gripper_down_z>	F#<_VEL_FAST>
 
-    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
 
-    G1 x#<_volteador_gripper_down_dejar_x_calculado>	F#<_VEL_MEDIA>
+    G1 x[#<_tumbler_gripper_down_unload_x_calculated>+#<_tumbler_x_displacement>]	F#<_VEL_MEDIUM>
 
-    ;CERRAR MORDAZAS VOLTEADOR
+    ;CLOSE TUMBLER JAWS
         M64 P04
         M65 P03
         
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA Y CERRADA EN 0 - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
         G04 p3
 
-        M66 P13 L4 Q0.1 (Chequea la senal de mordaza no abierta)
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
         o1570 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down - ERROR IN CLOSING JAWS WITH COUPLING - opened)
             ;(log, )
             M02
         o1570 ENDIF
 
-        M66 P12 L4 Q0.1 (Chequea la senal de mordaza no cerrada)
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
         o1575 IF [#5399 EQ -1]
-            (debug, Volteador - Cierre con pieza volteador error en mordaza)
+            (debug, Tumbler down/up - ERROR IN CLOSING JAWS WITH COUPLING - closed)
             ;(log, )
             M02
         o1575 ENDIF
    
-    ;SUBRUTINA DE ABRIR DOWN
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
             o1581 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR)
+                (debug, Tumbler down - Gripper Down open routine error)
                 ;(log, )
                 M02
             o1581 ENDIF
 
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
 
-    ;GIRAR VOLTEADOR A 180 GRADOS
+    ;ROTATE TUMBLER 180 DEGREES
         M64 P01
         M65 P02
 
-    ;VERIFICAR SENSOR GIRADOR EN 180 GRADOS - sino error
-        M66 P11 L3 Q5
+    ;VERIFY SENSOR ROTATOR IN 180 DEGREES
+        M66 P11 L3 Q10
         o1585 IF [#5399 EQ -1]
-            (debug, Volteador - Girador no en 180 posicion correcta)
+            (debug, Tumbler down - Rotator not in 180 degrees)
             ;(log, )
             M02
         o1585 ENDIF
 
-    G1 x#<_volteador_aproxima_down_x>	F#<_VEL_RAPIDA>
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
 
-    G1 x[#<_volteador_gripper_down_tomar_x_calculado>+#<_volteador_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x#<_tumbler_gripper_down_load_x_calculated>	F#<_VEL_SLOW>
+    ;it goes to grab the coupling at the dimension if it would be turned by the middle of the coupling length
+    ;but it turned with an offset off _tumbler_x_displacement, so the coupling wont be at the end of the gripper compressing the springs
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
-            o1586 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR GRIPER DOWN)
-                ;(log, )
-                M02
-            o1586 ENDIF
-            #<_volteador_gripper_down_x_error> = [#<_volteador_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
-            (debug, VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = #<_volteador_gripper_down_x_error> )
+    ;SUBROUTINE CLOSE GRD WITH COUPLING, NO PRESSING SHEETMETAL, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+    o1925 CALL  ;close gripper down with coupling
+        o1588 IF [#5399 EQ -1]
+            (debug, Tumbler down - ERROR CLOSING GRD WITH COUPLING, NO PRESSING SHEETMETAL)
             ;(log, )
-            o1587 IF [ABS[#<_volteador_gripper_down_x_error>] GT #<_volteador_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN)
-                ;(log, )
-                M02
-            o1587 ENDIF
+            M02
+        o1588 ENDIF
 
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
-            o1588 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA VOLTEADOR)
-                ;(log, )
-                M02
-            o1588 ENDIF
-
-    ;ABRIR MORDAZAS VOLTEADOR
+    ;OPEN TUMBLER JAWS
         M64 P03
         M65 P04
     
-    ;VERIFICAR SENSORES DE MORDAZA ABIERTA DEL VOLTEADOR - sino error
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
         M66 P13 L3 Q5
         o1590 IF [#5399 EQ -1]
-            (debug, Volteador - Mordazas no estan abiertas)
+            (debug, Tumbler down - Jaws are not opened)
             ;(log, )
             M02
         o1590 ENDIF
-   
-    G1 x#<_volteador_ingreso_x>	F#<_VEL_RAPIDA>
+    
+    ; ************ OFFSET FROM CENTER ************
 
-    ;VERIFICAR SENSOR DE CUPLA PRESENTE EN gripper down - sino error
-        M66 P21 L4 Q0.1
-        o1595 IF [#5399 EQ -1]
-            (debug, Volteador - Cupla no presente en gripper de abajo)
+    G1 x[#<_tumbler_gripper_down_extracts>+#<_tumbler_x_displacement>]	F#<_VEL_FAST>
+    ;to extract the coupling end face to the point _tumbler_gripper_down_extracts 
+    ;has to move with the plus off the previous offset that it was left before: _tumbler_x_displacement
+
+    ;CLOSE TUMBLER JAW
+        M64 P04
+        M65 P03
+        
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        G04 p3
+
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
+        o1591 IF [#5399 EQ -1]
+            (debug, Tumbler down - ERROR IN CLOSING JAWS WITH COUPLING - opened)
             ;(log, )
             M02
-        o1595 ENDIF
+        o1591 ENDIF
 
-    G1 z#<_z-pos-segura>	        F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura>	        F#<_VEL_RAPIDA>
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
+        o1592 IF [#5399 EQ -1]
+            (debug, Tumbler down - ERROR IN CLOSING JAWS WITH COUPLING - closed)
+            ;(log, )
+            M02
+        o1592 ENDIF
 
-    ;GIRAR VOLTEADOR A 0 GRADOS
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
+            o1593 IF [#5399 EQ -1]
+                (debug, Tumbler down - Gripper Down open routine error)
+                ;(log, )
+                M02
+            o1593 ENDIF
+
+    G1 x[#<_tumbler_gripper_down_load_from_extract>+#<_tumbler_offset_x_measuring>]	F#<_VEL_SLOW>
+    
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
+            o1594 IF [#5399 EQ -1]
+                (debug, Tumbler down - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
+                ;(log, )
+                M02
+            o1594 ENDIF
+            #<_tumbler_gripper_down_x_error> = [#<_tumbler_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug, Tumbler down - MEASURE DIF VS REF = #<_tumbler_gripper_down_x_error> )
+            ;(log, )
+            o1595 IF [ABS[#<_tumbler_gripper_down_x_error>] GT #<_tumbler_x_error_accepted>]
+                (debug, Tumbler down - measurement length exceeded error)
+                ;(log, )
+                ;M02
+            o1595 ENDIF
+
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o1596 IF [#5399 EQ -1]
+                (debug, Tumbler down - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
+                ;(log, )
+                M02
+            o1596 ENDIF
+
+    ;OPEN TUMBLER JAWS
+        M64 P03
+        M65 P04
+    
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
+        M66 P13 L3 Q5
+        o1597 IF [#5399 EQ -1]
+            (debug, Tumbler down/up - Jaws are not opened)
+            ;(log, )
+            M02
+        o1597 ENDIF
+
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
+
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must have coupling
+        M66 P21 L4 Q0.1
+        o1598 IF [#5399 EQ -1]
+            (debug, Tumbler down - Gripper Down - Coupling not present)
+            ;(log, )
+            M02
+        o1598 ENDIF
+
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    ;ROTATE TUMBLER 0 DEGREES
         M64 P02
         M65 P01
-    ;(VERIFICA SENSOR EN LA PRÓXIMA EJECUCIÓN DE LA RUTINA)
+    ;(NEXT CYCLE VERIFIES THE SENSORS)
 
 o1500 ENDSUB
 
 
+(**********************************************************************)
+(***** ROUTINE TUMBLER gripper down grabs BEFORE TURNING          *****)
+(***** MEASURE                                                    *****)
+(**********************************************************************)
+
+o3500 SUB ;ROUTINE TUMBLER gripper down grabs BEFORE TURNING
+
+    #<_measuring_limit> = 40 ;we increase this limit
+
+    ;VERIFY SAFE POSITION
+        #5399 = 0
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+        o3502 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Not in Safe Position Y/Z coordinates)
+            ;(log, )
+            M02
+        o3502 ENDIF
+ 
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o3504 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o3504 ENDIF
+
+    ;VERIFY SENSOR ROTATOR IN 0 DEGREES
+        M66 P10 L3 Q0.1
+        o3506 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Rotator not in 0 degrees)
+            ;(log, )
+            M02
+        o3506 ENDIF
+
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        G04 p3
+
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
+        o3508 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - ERROR IN CLOSING JAWS WITH COUPLING - opened)
+            ;(log, )
+            M02
+        o3508 ENDIF
+
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
+        o3510 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - ERROR IN CLOSING JAWS WITH COUPLING - closed)
+            ;(log, )
+            M02
+        o3510 ENDIF
+
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must NOT have coupling
+        M66 P21 L3 Q0.1
+        o3512 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Gripper Down - Coupling present)
+            ;(log, )
+            M02
+        o3512 ENDIF
+
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
+            o3514 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - Gripper Down open routine error)
+                ;(log, )
+                M02
+            o3514 ENDIF
+   
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
+
+    G1 y#<_tumbler_enter_down_y>	F#<_VEL_FAST>
+
+    G1 z#<_tumbler_gripper_down_z>	F#<_VEL_FAST>
+
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
+
+    G1 x[#<_tumbler_gripper_down_load_x_calculated>+#<_tumbler_x_displacement>+#<_tumbler_offset_x_measuring>]	F#<_VEL_SLOW>
+
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
+            o3516 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
+                ;(log, )
+                M02
+            o3516 ENDIF
+            #<_tumbler_gripper_down_x_error> = [#<_tumbler_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug, Tumbler down - MEASURE DIF VS REF = #<_tumbler_gripper_down_x_error> )
+            ;(log, )
+            o3518 IF [ABS[#<_tumbler_gripper_down_x_error>] GT #<_tumbler_x_error_accepted>]
+                (debug, Tumbler down grabs - measurement length exceeded error)
+                ;(log, )
+                ;M02
+            o3518 ENDIF
+
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o3520 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
+                ;(log, )
+                M02
+            o3520 ENDIF
+
+    ;OPEN TUMBLER JAWS
+        M64 P03
+        M65 P04
+    
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
+        M66 P13 L3 Q5
+        o3522 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Jaws are not opened)
+            ;(log, )
+            M02
+        o3522 ENDIF
+   
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
+
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must have coupling
+        M66 P21 L4 Q0.1
+        o3524 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Gripper Down - Coupling not present)
+            ;(log, )
+            M02
+        o3524 ENDIF
+
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    #<_measuring_limit> = 20 ;we put it back to normal
+
+o3500 ENDSUB
+
+
+(**********************************************************************)
+(***** ROUTINE TUMBLER gripper down grabs AFTER TURNED            *****)
+(***** MEASURE                                                    *****)
+(**********************************************************************)
+
+o3550 SUB ;ROUTINE TUMBLER gripper down grabs AFTER TURNED
+
+    #<_measuring_limit> = 40 ;we increase this limit
+
+    ;VERIFY SAFE POSITION
+        #5399 = 0
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+        o3552 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Not in Safe Position Y/Z coordinates)
+            ;(log, )
+            M02
+        o3552 ENDIF
+ 
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o3554 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o3554 ENDIF
+
+    ;VERIFY SENSOR ROTATOR IN 180 DEGREES
+        M66 P11 L3 Q0.1
+        o3556 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Rotator not in 180 degrees)
+            ;(log, )
+            M02
+        o3556 ENDIF
+
+    ;VERIFY TUMBLER SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        G04 p3
+
+        M66 P13 L4 Q0.1 (Check signal of Jaws not opened)
+        o3558 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - ERROR IN CLOSING JAWS WITH COUPLING - opened)
+            ;(log, )
+            M02
+        o3558 ENDIF
+
+        M66 P12 L4 Q0.1 (Check signal of Jaws not closed)
+        o3560 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - ERROR IN CLOSING JAWS WITH COUPLING - closed)
+            ;(log, )
+            M02
+        o3560 ENDIF
+
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must NOT have coupling
+        M66 P21 L3 Q0.1
+        o3562 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Gripper Down - Coupling present)
+            ;(log, )
+            M02
+        o3562 ENDIF
+
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
+            o3564 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - Gripper Down open routine error)
+                ;(log, )
+                M02
+            o3564 ENDIF
+   
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
+
+    G1 y#<_tumbler_enter_down_y>	F#<_VEL_FAST>
+
+    G1 z#<_tumbler_gripper_down_z>	F#<_VEL_FAST>
+
+    G1 x#<_tumbler_aproximates_down_x>	F#<_VEL_FAST>
+
+    G1 x[#<_tumbler_gripper_down_load_from_extract>+#<_tumbler_offset_x_measuring>]	F#<_VEL_SLOW>
+
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
+            o3566 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
+                ;(log, )
+                M02
+            o3566 ENDIF
+            #<_tumbler_gripper_down_x_error> = [#<_tumbler_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug, Tumbler down - MEASURE DIF VS REF = #<_tumbler_gripper_down_x_error> )
+            ;(log, )
+            o3518 IF [ABS[#<_tumbler_gripper_down_x_error>] GT #<_tumbler_x_error_accepted>]
+                (debug, Tumbler down grabs - measurement length exceeded error)
+                ;(log, )
+                ;M02
+            o3518 ENDIF
+
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o3570 IF [#5399 EQ -1]
+                (debug, Tumbler down grabs - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
+                ;(log, )
+                M02
+            o3570 ENDIF
+
+    ;OPEN TUMBLER JAWS
+        M64 P03
+        M65 P04
+    
+    ;VERIFY TUMBLER SENSORS JAWS OPEN
+        M66 P13 L3 Q5
+        o3572 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Jaws are not opened)
+            ;(log, )
+            M02
+        o3572 ENDIF
+   
+    G1 x#<_tumbler_enter_x>	F#<_VEL_FAST>
+
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must have coupling
+        M66 P21 L4 Q0.1
+        o3574 IF [#5399 EQ -1]
+            (debug, Tumbler down grabs - Gripper Down - Coupling not present)
+            ;(log, )
+            M02
+        o3574 ENDIF
+
+    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+    #<_measuring_limit> = 20 ;we put it back to normal
+
+o3550 ENDSUB
+
+
+
+
+
 
 
 
 
 
 (**********************************************************************)
-(***** RUTINA TORNO                                               *****)
+(***** ROUTINE LATHE                                              *****)
 (**********************************************************************)
 
-(***********************************************************************)
-(***** RUTINA TORNO INICIA - gripper down DEJAR                    *****)
-(***** DEJA LA PIEZA CON GRIPPER DOWN)                             *****)
-(***********************************************************************)
+(**********************************************************************)
+(***** ROUTINE LATHE START - gri down LEAVE / gri up EMPTY        *****)
+(*****                                                            *****)
+(**********************************************************************)
 
 o3000 SUB
 
-  ;SETEAR señal de chuck clamp en 0
+    ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY M180=1
+    ;M66 P51 L3 Q5.0 ; wait for the M code relay
+    ;o3004 while [#5399 EQ -1]
+    ;    ;VERIFY M180=1
+    ;    M100 P2
+    ;    M66 P51 L3 Q1 ; wait for the M code relay
+    ;o3004 endwhile
+
+    M64 P52 ; MFIN=1
+
+    ;SET signal chuck clamp to 0
     M65 P43
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
 
-    ;SETEAR señal de spindle orientation 2 en 0
+    ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
             o3005 IF [#5399 EQ -1]
-                (debug, TORNO INICIA - No en posición segura Y/Z para comenzar)
+                (debug, LATHE START - Not in Safe Position Y/Z coordinates)
                 ;(log, )
                 M02
             o3005 ENDIF
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o3006 IF [#5399 EQ -1]
+            (debug, LATHE START - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o3006 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA PRESENTE EN gripper down - sino error
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
+
+    M65 P52 ; MFIN=0
+
+    ;Verify Coupling Present in Gripper Down - must have coupling
         M66 P21 L4 Q0.1
         o3010 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Cupla no presente en gripper de abajo)
+            (debug, LATHE START - Coupling not present in Gripper Down)
             ;(log, )
             M02
         o3010 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper up - sino error
+    ;Verify Coupling NOT Present in Gripper Up - must NOT be present
         M66 P22 L3 Q0.1
         o3015 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Cupla presente en gripper de arriba)
+            (debug, LATHE START - Error Coupling present in Gripper Up)
             ;(log, )
             M02
         o3015 ENDIF
 
-    ;SYSTEM LINK MODE PRENDIDO
-    M66 P55 L3 Q0.1
+    (debug, *** WAIT UNTILL PRESS SYSTEM LINK 1 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
 
     o3016 while [#5399 EQ -1]
-        ;SYSTEM LINK MODE PRENDIDO
+        ;SYSTEM LINK MODE ON
+        M100 P55
         M66 P55 L3 Q1
     o3016 endwhile
 
-    M0 ;
-
-    ;ABRIR TECHO
+    ;OPEN MOON ROOF
     M64 P13
     M65 P14
 
-    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
+    ;VERIFY MOON ROOF OPEN SENSOR
         M66 P20 L3 Q10
         o3030 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Puerta del techo del okuma no esta abierta)
+            (debug, LATHE START - Moon Roof Open Sensor not present)
             ;(log, )
             M02
         o3030 ENDIF
 
-    ;VERIFICAR Señal 05 Machine zero position en 1 - sino error
-        M66 P48 L3 Q10	;cambiar entrada a mirar - RI_tor_home_confirm
-        o3025 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Okuma no se encuentra en home)
-            ;(log, )
-            M02
-        o3025 ENDIF
+    ;MOON ROOF signals to 0
+        M65 P13
+        M65 P14
 
-    ;SALIDA PARA ABRIR PLATO
+    (debug, *** WAIT UNTILL HOME POSITION ***)
+
+    ;VERIFY Signal Machine Home position ON
+        M66 P48 L3 Q5
+
+        o3031 while [#5399 EQ -1]
+            ;Machine Home position ON
+            M100 P48
+            M66 P48 L3 Q1
+        o3031 endwhile
+
+    (debug, *** WAIT UNTILL PRESS SYSTEM LINK 2 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
+
+    o3032 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE ON
+        M100 P55
+        M66 P55 L3 Q1
+    o3032 endwhile
+
+    G4 P1
+
+    ;SET Open Chuck
         M64 P44
 
-    ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
-        M64 P46 
+    ;SET Spindle Orientation 1 ON
+        M64 P46
 
-    G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
+    G1 z#<_lathe_enter1_z>	F#<_VEL_FAST>
 
-    ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
+    ;Spindle Orientation 1 Confirmation
         M66 P45 L3 Q5
         o3035 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Plato del torno no esta en posicion correcta)
+            (debug, LATHE START - NO Spindle Orientation 1 Confirmation)
             ;(log, )
             M02
         o3035 ENDIF
 
-    ;ENTRADA DE CONFIRMACION PLATO ABIERTO PARA gripper down
+    ;Open Chuck Confirmation
         M66 P43 L3 Q5
         o3040 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Plato del torno no abierto)
+            (debug, LATHE START - NO Open Chuck Confirmation)
             ;(log, )
             M02
         o3040 ENDIF
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
 
-    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_lathe_gripper_down_center_z>	F#<_VEL_SLOW>
+    G1 y#<_lathe_gripper_down_center_y>	F#<_VEL_SLOW>
 
-    G1 x#<_torno_gripper_down_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_lathe_gripper_down_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x#<_torno_gripper_down_x_calculado>	F#<_VEL_LENTA>
+    G1 x#<_lathe_gripper_down_x_calculated>	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE ABRIR gripper down
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;open gripper down
             o3045 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO inicia down dejar)
+                (debug, LATHE START - Gripper Down open routine error)
                 ;(log, )
                 M02
             o3045 ENDIF
 
-    ;SALIDA PARA CERRAR PLATO
+    ;SET Close Chuck
         M64 P43
 
-    ;ENTRADA DE CONFIRMACION PLATO CERRADO
+    ;Close Chuck Confirmation
         M66 P42 L3 Q10	
         o3050 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Falta confirmacion de plato cerrado)
+            (debug, LATHE START - NO Close Chuck Confirmation)
             ;(log, )
             M02
         o3050 ENDIF
 
-    ;SETEAR señal de chuck clamp en 0
+    ;SET signal chuck clamp to 0
     M65 P43
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
 
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
-    G1 z#<_z-pos-segura> F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura> F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position> F#<_VEL_FAST>
+    G1 y#<_y_secure_position> F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper down - sino error
+    ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must NOT have coupling
         M66 P21 L3 Q0.1
         o3055 IF [#5399 EQ -1]
-            (debug, TORNO inicia down dejar - Cupla presente en gripper de abajo)
+            (debug, LATHE START - Gripper Down - Coupling present)
             ;(log, )
             M02
         o3055 ENDIF
 
-    ;CERRAR TECHO
+    ;Close Moon Roof
     M64 P14
     M65 P13
+    G4 P1
+    M65 P14
 
 o3000 ENDSUB
 
-(***********************************************************************)
-(***** RUTINA TORNO MEDIO - gripper down TOMAR / gripper up DEJAR  *****)
-(***** MIDE                                                        *****)
-(***********************************************************************)
+(**********************************************************************)
+(***** ROUTINE LATHE PRODUCTION - gri down GRAB / gri up LEAVE    *****)
+(***** MEASURE                                                    *****)
+(**********************************************************************)
 
 o3200 SUB
 
-    ;SETEAR señal de chuck clamp en 0
+    ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY M180=1
+    ;M66 P51 L3 Q5.0 ; wait for the M code relay
+    ;o3204 while [#5399 EQ -1]
+    ;    ;VERIFY M180=1
+    ;    M100 P2
+    ;    M66 P51 L3 Q1 ; wait for the M code relay
+    ;o3204 endwhile
+
+    ;SET signal chuck clamp to 0
     M65 P43
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
 
-    ;SETEAR señal de spindle orientation 2 en 0
+    ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
             o3205 IF [#5399 EQ -1]
-                (debug, TORNO, TOMA GRD, DEJA GRU - No en posición segura Y/Z para comenzar)
+                (debug, LATHE PRODUCTION - Not in Safe Position Y/Z coordinates)
                 ;(log, )
                 M02
             o3205 ENDIF
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o3206 IF [#5399 EQ -1]
+            (debug, LATHE PRODUCTION - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o3206 ENDIF
 
-    ;-------------------- gripper down TOMAR --------------------
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper down - sino error
+    M65 P52 ; MFIN=0
+
+    ;-------------------- gripper down GRAB --------------------
+
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER DOWN
         M66 P21 L3 Q0.1
         o3210 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Cupla presente en gripper de abajo)
+            (debug, LATHE PRODUCTION GRD - ERROR Present Coupling in Gripper Down)
             ;(log, )
             M02
         o3210 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA PRESENTE EN gripper up - sino error
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER UP
         M66 P22 L4 Q0.1
         o3215 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Cupla no presente en gripper de arriba)
+            (debug, LATHE PRODUCTION GRD - NOT Present Coupling in Gripper UP)
             ;(log, )
             M02
         o3215 ENDIF
 
-    ;SUBRUTINA DE ABRIR gripper down
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;OPEN gripper down
             o3220 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO INTERCAMBIO TOMA GRD)
+                (debug, LATHE PRODUCTION GRD - Gripper Down open routine error)
                 ;(log, )
                 M02
             o3220 ENDIF
 
-    ;SYSTEM LINK MODE PRENDIDO
-    M66 P55 L3 Q0.1
+    (debug, *** WAIT UNTILL SYSTEM LINK 1 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
 
     o3221 while [#5399 EQ -1]
-        ;SYSTEM LINK MODE PRENDIDO
+        ;SYSTEM LINK MODE ON
+        M100 P55
         M66 P55 L3 Q1
     o3221 endwhile
 
-    M0 ;
-
-    ;ABRIR TECHO
+    ;OPEN MOON ROOF
     M64 P13
     M65 P14
 
-    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
+    ;VERIFY MOON ROOF OPEN SENSOR
         M66 P20 L3 Q10
         o3235 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Puerta del techo del okuma no esta abierta)
+            (debug, LATHE PRODUCTION GRD - Moon Roof Open Sensor not present)
             ;(log, )
             M02
         o3235 ENDIF
 
-    ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
-        M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
-        o3230 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Okuma no se encuentra en home)
-            ;(log, )
-            M02
-        o3230 ENDIF
-        
-    ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
+    ;MOON ROOF signals to 0
+        M65 P13
+        M65 P14
+
+    (debug, *** WAIT UNTILL HOME POSITION ***)
+
+    ;VERIFY Signal Machine Home position ON
+        M66 P48 L3 Q5
+
+        o3230 while [#5399 EQ -1]
+            ;Machine Home position ON
+            M100 P48
+            M66 P48 L3 Q1
+        o3230 endwhile
+
+    (debug, *** WAIT UNTILL SYSTEM LINK 2 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
+
+    o3231 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE ON
+        M100 P55
+        M66 P55 L3 Q1
+    o3231 endwhile
+
+    G4 P1      
+
+    ;SET Spindle Orientation 1 ON
         M64 P46
 
-    G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
+    G1 z#<_lathe_enter1_z>	F#<_VEL_FAST>
 
-    ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
+    ;Spindle Orientation 1 Confirmation
         M66 P45 L3 Q5	
         o3240 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Plato del torno no esta en posicion correcta)
+            (debug, LATHE PRODUCTION GRD - NO Spindle Orientation 1 Confirmation)
             ;(log, )
             M02
         o3240 ENDIF
 
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
   
-    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_lathe_gripper_down_center_z>	F#<_VEL_SLOW>
+    G1 y#<_lathe_gripper_down_center_y>	F#<_VEL_SLOW>
 
-    G1 x#<_torno_gripper_down_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_lathe_gripper_down_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x[#<_torno_gripper_down_x_calculado>+#<_torno_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x[#<_lathe_gripper_down_x_calculated>+#<_lathe_offset_x_measuring>]	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
             o3245 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO INTERCAMBIO TOMA GRD)
+                (debug, LATHE PRODUCTION GRD - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
                 ;(log, )
                 M02
             o3245 ENDIF
-            #<_torno_gripper_down_x_error> = [#<_torno_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
-            (debug, TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = #<_torno_gripper_down_x_error> )
+            #<_lathe_gripper_down_x_error> = [#<_lathe_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug, LATHE PRODUCTION GRD - MEASURE DIF VS REF = #<_lathe_gripper_down_x_error> )
             ;(log, )
-            o3250 IF [ABS[#<_torno_gripper_down_x_error>] GT #<_torno_gripper_down_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD)
+            o3250 IF [ABS[#<_lathe_gripper_down_x_error>] GT #<_lathe_gripper_down_x_error_accepted>]
+                (debug, LATHE PRODUCTION GRD - measurement length exceeded error)
                 ;(log, )
-                M02
+                ;M02
             o3250 ENDIF
 
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
-            o3255 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO INTERCAMBIO TOMA GRD)
-                ;(log, )
-                M02
-            o3255 ENDIF
-
-    ;SALIDA PARA ABRIR PLATO
+    ;SET Open Chuck
         M64 P44
 
-    ;ENTRADA DE CONFIRMACION PLATO ABIERTO
+    ;Open Chuck Confirmation
         M66 P43 L3 Q10	
         o3260 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Plato del torno no esta abierto)
+            (debug, LATHE PRODUCTION GRD - NO Open Chuck Confirmation)
             ;(log, )
             M02
         o3260 ENDIF
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o3255 IF [#5399 EQ -1]
+                (debug, LATHE PRODUCTION GRD - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
+                ;(log, )
+                M02
+            o3255 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA PRESENTE EN gripper down - sino error
+    G1 x#<_lathe_enter1_x>	F#<_VEL_MEDIUM>
+
+    ;Verify Coupling Present in Gripper Down - must have coupling
         M66 P21 L4 Q0.1
         o3265 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO TOMA GRD - Cupla presente en gripper de abajo)
+            (debug, LATHE PRODUCTION GRD - Coupling not present in Gripper Down)
             ;(log, )
             M02
         o3265 ENDIF
 
-    ;-------------------- gripper up DEJAR --------------------
+    ;-------------------- gripper up LEAVE --------------------
 
-    ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper up
+    ;SET Spindle Orientation 2 ON
         M64 P47 
 
-    G1 z#<_torno_ingreso3_z>	F#<_VEL_RAPIDA>
+    G1 z#<_lathe_enter3_z>	F#<_VEL_MEDIUM>
     
-    G1 z#<_torno_gripper_up_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_up_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_lathe_gripper_up_center_z>	F#<_VEL_SLOW>
+    G1 y#<_lathe_gripper_up_center_y>	F#<_VEL_SLOW>
 
-    ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper up
+    ;Spindle Orientation 2 Confirmation
         M66 P44 L3 Q5	
         o3270 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO DEJA GRU - Plato del torno no esta en posicion correcta)
+            (debug, LATHE PRODUCTION GRU - NO Spindle Orientation 2 Confirmation)
             ;(log, )
             M02
         o3270 ENDIF
 
-    ;SETEAR señal de spindle orientation 2 en 0
+    ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    G1 x#<_torno_gripper_up_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_lathe_gripper_up_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x#<_torno_gripper_up_x_calculado>	F#<_VEL_LENTA>
+    G1 x#<_lathe_gripper_up_x_calculated>	F#<_VEL_SLOW>
 
-    ;ABRIR GRIPPER DE ARRIBA, YA CHEQUEA QUE MORDAZAS ABRAN - sino error
-        o1750 CALL ;abrir gripper up
+    ;OPEN GRIPPER UP, ALSO CHECKS SENSOR FOR JAWS OPENED
+        o1750 CALL ;OPEN GRIPPER UP
             o3275 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO INTERCAMBIO DEJA GRU)
+                (debug, LATHE PRODUCTION GRU - ERROR ROUTINE GRIPPER UP OPEN)
                 ;(log, )
                 M02
             o3275 ENDIF
 
-    ;SALIDA PARA CERRAR PLATO
+    ;SET Close Chuck
         M64 P43
 
-    ;ENTRADA DE CONFIRMACION PLATO CERRADO
+    ;Close Chuck Confirmation
         M66 P42 L3 Q10
         o3280 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO DEJA GRU - Plato del torno no cerrado)
+            (debug, LATHE PRODUCTION GRU - NO Close Chuck Confirmation)
             ;(log, )
             M02
         o3280 ENDIF
 
-    ;SETEAR señal de chuck clamp en 0
+    ;SET signal chuck clamp to 0
     M65 P43
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
 
-    G1 y#<_torno_ingreso2_y>	F#<_VEL_RAPIDA>
+    G1 y#<_lathe_enter2_y>	F#<_VEL_FAST>
 
-    G1 z#<_torno_ingreso2_z>	F#<_VEL_RAPIDA>
+    G1 z#<_lathe_enter2_z>	F#<_VEL_FAST>
 
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
-    G1 z#<_z-pos-segura> F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura> F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position> F#<_VEL_FAST>
+    G1 y#<_y_secure_position> F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper up - sino error
+    ;Verify Coupling NOT Present in Gripper Up - must NOT be present
         M66 P22 L3 Q0.1
         o3285 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO DEJA GRU - Cupla presente en gripper de arriba)
+            (debug, LATHE PRODUCTION GRU - ERROR Coupling present in Gripper Up)
             ;(log, )
             M02
         o3285 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA PRESENTE EN gripper down - sino error
+    ;Verify Coupling Present in Gripper Down - must have coupling
         M66 P21 L4 Q0.1
         o3290 IF [#5399 EQ -1]
-            (debug, TORNO INTERCAMBIO DEJA GRU - Cupla presente en gripper de abajo)
+            (debug, LATHE PRODUCTION GRU - ERROR Coupling NOT Present in Gripper Down)
             ;(log, )
             M02
         o3290 ENDIF
 
-    ;CERRAR TECHO
+    ;Close Moon Roof
     M64 P14
     M65 P13
+    G4 P1
+    M65 P14
 
 o3200 ENDSUB
 
-(***********************************************************************)
-(***** RUTINA TORNO TERMINA - gripper down TOMAR / gripper up VACIO*****)
-(***** MIDE                                                        *****)
-(***********************************************************************)
+(**********************************************************************)
+(***** ROUTINE LATHE ENDS - gripper down GRAB / gripper up EMPTY  *****)
+(***** MEASURE                                                    *****)
+(**********************************************************************)
 
 o3400 SUB
 
-    ;SETEAR señal de chuck clamp en 0
+    ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY M180=1
+    ;M66 P51 L3 Q5.0 ; wait for the M code relay
+    ;o3404 while [#5399 EQ -1]
+    ;    ;VERIFY M180=1
+    ;    M100 P2
+    ;    M66 P51 L3 Q1 ; wait for the M code relay
+    ;o3404 endwhile
+
+    ;SET signal chuck clamp to 0
     M65 P43
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
 
-    ;SETEAR señal de spindle orientation 2 en 0
+    ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFICAR POSICION SEGURA
+    ;VERIFY SAFE POSITION
         #5399 = 0
-        o2000 CALL ;SUBRUTINA PARA VERIFICAR QUE SE ENCUENTRA EN POSICIÓN SEGURA
+        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
             o3405 IF [#5399 EQ -1]
-                (debug, TORNO TOMAR GRU - No en posición segura Y/Z para comenzar)
+                (debug, LATHE ENDS - Not in Safe Position Y/Z coordinates)
                 ;(log, )
                 M02
             o3405 ENDIF
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    ;MASTER - VERIFY ROUTINE RUNNING
+        M66 P62 L3 Q0.1
+        o3406 IF [#5399 EQ -1]
+            (debug, LATHE ENDS - PYTHON ROUTINE not running)
+            ;(log, )
+            M02
+        o3406 ENDIF
 
-    ;-------------------- gripper down TOMAR --------------------
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper down - sino error
+    M65 P52 ; MFIN=0
+
+    ;-------------------- gripper down GRAB --------------------
+
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER DOWN - MUST BE EMPTY
         M66 P21 L3 Q0.1
         o3410 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Cupla presente en gripper de abajo)
+            (debug, LATHE ENDS - ERROR Present Coupling in Gripper Down)
             ;(log, )
             M02
         o3410 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA NO PRESENTE EN gripper up - sino error
+    ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER UP - MUST BE EMPTY
         M66 P22 L3 Q0.1
         o3415 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Cupla presente en gripper de arriba)
+            (debug, LATHE ENDS - ERROR Present Coupling in Gripper UP)
             ;(log, )
             M02
         o3415 ENDIF
 
-    ;SUBRUTINA DE ABRIR gripper down
-        o1700 CALL ;abrir gripper down
+    ;ROUTINE OPEN GRIPPER DOWN
+        o1700 CALL ;OPEN gripper down
             o3420 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO TOMAR GRU)
+                (debug,  LATHE ENDS - Gripper Down open routine error)
                 ;(log, )
                 M02
             o3420 ENDIF
-    
-    ;SYSTEM LINK MODE PRENDIDO
-    M66 P55 L3 Q0.1
+
+    (debug, LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
 
     o3421 while [#5399 EQ -1]
-        ;SYSTEM LINK MODE PRENDIDO
+        ;SYSTEM LINK MODE ON
+        M100 P55
         M66 P55 L3 Q1
     o3421 endwhile
 
-    M0 ;
-
-    ;ABRIR TECHO
+    ;OPEN MOON ROOF
     M64 P13
     M65 P14
 
-    ;VERIFICAR SENSOR DE NEUMÁTICO TECHO ABIERTO - sino error
+    ;VERIFY MOON ROOF OPEN SENSOR
         M66 P20 L3 Q10
         o3435 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Puerta del techo del okuma no esta abierta)
+            (debug, LATHE ENDS - Moon Roof Open Sensor not present)
             ;(log, )
             M02
         o3435 ENDIF
 
-    ;VERIFICAR Señal 05 - MACHINE HOME POSITION = 1 - sino error
-        M66 P48 L3 Q0.1	;cambiar entrada a mirar - RI_tor_home_confirm
-        o3430 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Okuma no se encuentra en home)
-            ;(log, )
-            M02
-        o3430 ENDIF
+    ;MOON ROOF signals to 0
+        M65 P13
+        M65 P14
 
+    (debug, *** LATHE ENDS WAIT UNTILL HOME POSITION ***)
 
-    ;SALIDA PARA ORIENTAR PLATO EN ANGULO PARA gripper down
+    ;VERIFY Signal Machine Home position ON
+        M66 P48 L3 Q5
+
+        o3430 while [#5399 EQ -1]
+            ;Machine Home position ON
+            M100 P48
+            M66 P48 L3 Q1
+        o3430 endwhile
+
+    (debug, *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***)
+
+    ;SYSTEM LINK MODE ON
+    M66 P55 L3 Q5
+
+    o3431 while [#5399 EQ -1]
+        ;SYSTEM LINK MODE ON
+        M100 P55
+        M66 P55 L3 Q1
+    o3431 endwhile
+
+    G4 P1
+
+    ;SET Spindle Orientation 1 ON
         M64 P46 
 
-        G1 z#<_torno_ingreso1_z>	F#<_VEL_RAPIDA>
+    G1 z#<_lathe_enter1_z>	F#<_VEL_FAST>
 
-    ;ENTRADA DE CONFIRMACION PLATO EN ANGULO PARA gripper down
+    ;Spindle Orientation 1 Confirmation
         M66 P45 L3 Q5
         o3440 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Plato del torno no esta en posicion correcta)
+            (debug, LATHE ENDS - NO Spindle Orientation 1 Confirmation)
             ;(log, )
             M02
         o3440 ENDIF
     
-    ;SETEAR señal de spindle orientation 1 en 0
+    ;SET signal spindle orientation 1 to 0
     M65 P46
 
-    G1 z#<_torno_gripper_down_centro_z>	F#<_VEL_LENTA>
-    G1 y#<_torno_gripper_down_centro_y>	F#<_VEL_LENTA>
+    G1 z#<_lathe_gripper_down_center_z>	F#<_VEL_SLOW>
+    G1 y#<_lathe_gripper_down_center_y>	F#<_VEL_SLOW>
 
-    G1 x#<_torno_gripper_down_aproxima_x>	F#<_VEL_MEDIA>
+    G1 x#<_lathe_gripper_down_aproximates_x>	F#<_VEL_MEDIUM>
 
-    G1 x[#<_torno_gripper_down_x_calculado>+#<_torno_offset_x_medicion>]	F#<_VEL_LENTA>
+    G1 x[#<_lathe_gripper_down_x_calculated>+#<_lathe_offset_x_measuring>]	F#<_VEL_SLOW>
 
-    ;SUBRUTINA DE MEDICION gripper down
-        o1600 CALL ;mide presencia cupla gripper down
+    ;GRIPPER DOWN MEASURING ROUTINE
+        o1600 CALL ;measuring routine gripper down
             o3445 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO TOMAR GRU)
+                (debug,  LATHE ENDS - ERROR IN MEASURING GRIPPER DOWN ROUTINE)
                 ;(log, )
                 M02
             o3445 ENDIF
-            #<_torno_gripper_down_x_error> = [#<_torno_gripper_down_x_med_ref>-#<_gripper_down_cota_x_med>]
-            (debug, TORNO TOMAR GRU DIFERENCIA CON X REF = #<_torno_gripper_down_x_error> )
+            #<_lathe_gripper_down_x_error> = [#<_lathe_gripper_down_x_meas_ref>-#<_gripper_down_value_measure>]
+            (debug,  LATHE ENDS - MEASURE DIF VS REF = #<_lathe_gripper_down_x_error> )
             ;(log, )
-            o3450 IF [ABS[#<_torno_gripper_down_x_error>] GT #<_torno_gripper_down_x_error_admisible>]
-                (debug, EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO TOMAR GRU)
+            o3450 IF [ABS[#<_lathe_gripper_down_x_error>] GT #<_lathe_gripper_down_x_error_accepted>]
+                (debug,  LATHE ENDS - measurement length exceeded error)
                 ;(log, )
-                M02
+                ;M02
             o3450 ENDIF
+    
+    ;SET Open Chuck
+    M64 P44 
 
-    ;SUBRUTINA CERRAR gripper down CON PIEZA, VERIFICAR gripper down SENSORES ABIERTO Y CERRADO NO ACCIONADOS, ESPERAR TIEMPO
-        o1900 CALL ;cerrar pieza gripper down
-            o3455 IF [#5399 EQ -1]
-                (debug, ERROR EN RUTINA TORNO TOMAR GRU)
-                ;(log, )
-                M02
-            o3455 ENDIF
-
-    ;SALIDA PARA ABRIR PLATO
-        M64 P44 
-
-    ;ENTRADA DE CONFIRMACION PLATO ABIERTO
+    ;Open Chuck Confirmation
         M66 P43 L3 Q10	
         o3460 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Plato del torno no esta en posicion correcta)
+            (debug, LATHE ENDS - NO Open Chuck Confirmation)
             ;(log, )
             M02
         o3460 ENDIF
 
-    ;SETEAR señal de chuck unclamp en 0
+    ;SET signal chuck unclamp to 0
     M65 P44
 
-    G1 x#<_torno_ingreso1_x>	F#<_VEL_RAPIDA>
-    G1 y#<_torno_ingreso1_y>	F#<_VEL_RAPIDA>
+    ;SUBROUTINE CLOSE GRIPPER DOWN WITH COUPLING, CHECK SENSORS JAWS OPEN & CLOSE NOT ACTUATED, WAIT SOME TIME
+        o1900 CALL ;close gripper down with coupling
+            o3455 IF [#5399 EQ -1]
+                (debug,  LATHE ENDS - ERROR IN CLOSING GRIPPER DOWN WITH COUPLING)
+                ;(log, )
+                M02
+            o3455 ENDIF
 
-    ;VERIFICAR SENSOR DE PIEZA PRESENTE EN gripper down - sino error
+    G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
+    G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
+
+    ;Verify Coupling Present in Gripper Down - must have coupling
         M66 P21 L4 Q0.1
         o3465 IF [#5399 EQ -1]
-            (debug, TORNO TOMAR GRU - Cupla presente en gripper de abajo)
+            (debug, LATHE ENDS - ERROR Coupling NOT Present in Gripper Down)
             ;(log, )
             M02
         o3465 ENDIF
 
-    G1 z#<_z-pos-segura> F#<_VEL_RAPIDA>
-    G1 y#<_y-pos-segura> F#<_VEL_RAPIDA>
+    G1 z#<_z_secure_position> F#<_VEL_FAST>
+    G1 y#<_y_secure_position> F#<_VEL_FAST>
 
-    ;CERRAR TECHO
+    ;Close Moon Roof
     M64 P14
     M65 P13
+    G4 P1
+    M65 P14
 
 o3400 ENDSUB
 
@@ -2276,97 +3808,102 @@ o3400 ENDSUB
 
 
 
+
+
+
+
+
 (**********************************************************************)
-(***** RUTINA MEDICION gripper down                               *****)
+(***** MEASURING ROUTINE gripper down                             *****)
 (**********************************************************************)
 
 o1600 SUB
 
-    M64 P59 ;levanta flag para medir con gripper down
-    M65 P58 ;apaga flag para medir con gripper up
+    M64 P59 ;flag to measure with gripper down 1
+    M65 P58 ;flag to measure with gripper up 0
     
-    M66 P21 L3 Q0.1;sensor de gripper down ya accionado
+    M66 P21 L3 Q0.1;check coupling present sensor is 0
     o1605 IF [#5399 EQ -1]
-        (debug, sensor de gripper down ya accionado)
+        (debug, ERROR gripper down - measuring starts with coupling present sensor actuated)
         ;(log, )
-        M65 P59 ;apaga flag para medir con gripper down
-        M65 P58 ;apaga flag para medir con gripper up
+        M65 P59 ;flag to measure with gripper down 0
+        M65 P58 ;flag to measure with gripper up 0
         o1600 RETURN
     o1605 END IF
 
     G04 P01
 
-    #<pos_fin> = [#<_x>-#<_limite_medicion>]
-    G38.2 x#<pos_fin> F#<_VEL_RTN_MEDIR>
+    #<pos_fin> = [#<_x>-#<_measuring_limit>]
+    G38.2 x#<pos_fin> F#<_VEL_RTN_MEAS>
     
     o1610 IF [#5070 EQ 1]
-        #<_gripper_down_cota_x_med>=#5061
-        (debug, gripper down cota x medida #<_gripper_down_cota_x_med>)
+        #<_gripper_down_value_measure>=#5061
+        (debug, gripper down measured x coordinate #<_gripper_down_value_measure>)
         ;(log, )
-        G1 X[#5420-#<_offset_luego_medir>] F#<_VEL_RTN_MEDIR>
+        G1 X[#5420-#<_offset_after_measuring>] F#<_VEL_RTN_MEAS>
     o1610 ELSE
-        (debug, exceso de largo medido)
+        (debug, measurement length exceeded)
         #5399 = -1
     o1610 END IF
 
-    M65 P59 ;apaga flag para medir con gripper down
-    M65 P58 ;apaga flag para medir con gripper up
+    M65 P59 ;flag to measure with gripper down 0
+    M65 P58 ;flag to measure with gripper up 0
 
 o1600 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA MEDICION gripper up                                 *****)
+(***** MEASURING ROUTINE gripper up                               *****)
 (**********************************************************************)
 
 o1650 SUB
 
-    #<pos_fin> = [#<_x>-#<_limite_medicion>]
+    #<pos_fin> = [#<_x>-#<_measuring_limit>]
 
-    M65 P59 ;apaga flag para medir con gripper down
-    M64 P58 ;levanta flag para medir con gripper up
+    M65 P59 ;flag to measure with gripper down 0
+    M64 P58 ;flag to measure with gripper up 1
     
-    M66 P22 L3 Q0.1;chequeo sensor de que no este la cupla en gripper
+    M66 P22 L3 Q0.1;check coupling present sensor is 0
     o1605 IF [#5399 EQ -1]
-        (debug, sensor de gripper up ya accionado)
+        (debug, ERROR gripper up - measuring starts with coupling present sensor actuated)
         ;(log, )
-        M65 P59 ;apaga flag para medir con gripper down
-        M65 P58 ;apaga flag para medir con gripper up
+        M65 P59 ;flag to measure with gripper down 0
+        M65 P58 ;flag to measure with gripper up 0
         o1600 RETURN
     o1605 END IF
 
     G04 P01
 
-    #<pos_fin> = [#<_x>-#<_limite_medicion>]
-    G38.2 x#<pos_fin> F#<_VEL_RTN_MEDIR>
+    #<pos_fin> = [#<_x>-#<_measuring_limit>]
+    G38.2 x#<pos_fin> F#<_VEL_RTN_MEAS>
 
     o1610 IF [#5070 EQ 1]
-        #<_gripper_up_cota_x_med>=#5061
-        (debug, gripper up cota x medida #<_gripper_up_cota_x_med>)
+        #<_gripper_up_value_measure>=#5061
+        (debug, gripper up measured x coordinate #<_gripper_up_value_measure>)
         ;(log, )
-        G1 X[#5420-#<_offset_luego_medir>] F#<_VEL_RTN_MEDIR>
+        G1 X[#5420-#<_offset_after_measuring>] F#<_VEL_RTN_MEAS>
     o1610 ELSE
-        (debug, exceso de largo medido)
+        (debug, measurement length exceeded)
         #5399 = -1
     o1610 END IF
 
-    M65 P59 ;apaga flag para medir con gripper down
-    M65 P58 ;apaga flag para medir con gripper up
+    M65 P59 ;flag to measure with gripper down 0
+    M65 P58 ;flag to measure with gripper up 0
 
 o1650 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA ABRIR GRIPPER DOWN                                  *****)
+(***** ROUTINE ABRIR GRIPPER DOWN                                 *****)
 (**********************************************************************)
 
 o1700 SUB
     M64 P22
     M65 P21
 
-    M66 P25 L3 Q5		(Chequea la senal de mordaza abierta)
+    M66 P25 L3 Q5		(Signal of Jaws Opened)
     o1705 IF [#5399 EQ -1]
-        (debug, ERROR: falla apertura gripper abajo)
+        (debug, ERROR: Gripper Down - fail to open Jaws)
         ;(log, )
     o1705 ENDIF
 
@@ -2374,16 +3911,16 @@ o1700 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA ABRIR GRIPPER UP                                    *****)
+(***** ROUTINE ABRIR GRIPPER UP                                   *****)
 (**********************************************************************)
 
 o1750 SUB
     M64 P23
     M65 P24
 
-    M66 P26 L3 Q5		(Chequea la senal de mordaza abierta)
+    M66 P26 L3 Q5		(Signal of Jaws Opened)
     o1755 IF [#5399 EQ -1]
-        (debug, ERROR: falla apertura gripper arriba)
+        (debug, ERROR: Gripper UP - fail to open Jaws)
         ;(log, )
     o1755 ENDIF
 
@@ -2391,16 +3928,16 @@ o1750 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER DOWN                                 *****)
+(***** ROUTINE CLOSE GRIPPER DOWN                                 *****)
 (**********************************************************************)
 
 o1800 SUB
     M65 P22
     M64 P21
 
-    M66 P23 L3 Q5		(Chequea la senal de mordaza cerrada)
+    M66 P23 L3 Q5		(Signal of Jaws Closed)
     o1805 IF [#5399 EQ -1]
-        (debug, ERROR: falla cerrar gripper abajo)
+        (debug, ERROR: Gripper Down - fail to close Jaws)
         ;(log, )
     o1805 ENDIF
 
@@ -2408,16 +3945,16 @@ o1800 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER UP                                   *****)
+(***** ROUTINE CLOSE GRIPPER UP                                   *****)
 (**********************************************************************)
 
 o1850 SUB
     M65 P23
     M64 P24
 
-    M66 P24 L3 Q5		(Chequea la senal de mordaza cerrada)
+    M66 P24 L3 Q5		(Signal of Jaws Closed)
     o1855 IF [#5399 EQ -1]
-        (debug, ERROR: falla cierre gripper arriba)
+        (debug, ERROR: Gripper UP - fail to close Jaws)
         ;(log, )
     o1855 ENDIF
 
@@ -2425,7 +3962,7 @@ o1850 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER DOWN CON PIEZA                       *****)
+(***** ROUTINE CLOSE GRIPPER DOWN WITH COUPLING                   *****)
 (**********************************************************************)
 
 o1900 SUB
@@ -2434,23 +3971,23 @@ o1900 SUB
 
     G04 P2.5
 
-    M66 P25 L4 Q5		(Chequea la senal de mordaza no abierta)
+    M66 P25 L4 Q5		(Signal of Jaws NOT Opened)
     o1905 IF [#5399 EQ -1]
-        (debug, ERROR: Cierre con pieza gripper down)
+        (debug, ERROR: Gripper Down - Close with coupling - Jaw Opened sensor activated)
         ;(log, )
         o1900 RETURN
     o1905 ENDIF
     
-    M66 P23 L4 Q5		(Chequea la senal de mordaza no cerrada)
+    M66 P23 L4 Q5		(Signal of Jaws NOT Closed)
     o1910 IF [#5399 EQ -1]
-        (debug, ERROR: Cierre con pieza gripper down)
+        (debug, ERROR: Gripper Down - Close with coupling - Jaw Closed sensor activated)
         ;(log, )
         o1900 RETURN
     o1910 ENDIF
 
-    M66 P21 L4 Q3		(Chequea la senal de pieza presente)
+    M66 P21 L4 Q3		(Signal of present coupling)
     o1915 IF [#5399 EQ -1]
-        (debug, ERROR: Cupla no presente gripper down)
+        (debug, ERROR:  Gripper Down - Coupling present sensor not activated)
         ;(log, )
         o1900 RETURN
     o1915 ENDIF
@@ -2459,7 +3996,35 @@ o1900 ENDSUB
 
 
 (**********************************************************************)
-(***** RUTINA CERRAR GRIPPER UP CON PIEZA                         *****)
+(***** ROUTINE CLOSE GRIPPER DOWN WITH COUPLING WITHOUT PRESENCE  *****)
+(**********************************************************************)
+
+o1925 SUB
+    M65 P22
+    M64 P21
+
+    G04 P2.5
+
+    M66 P25 L4 Q5		(Signal of Jaws NOT Opened)
+    o1926 IF [#5399 EQ -1]
+        (debug, ERROR: Gripper Down - Close with coupling NO PRESENCE - Jaw Opened sensor activated)
+        ;(log, )
+        o1900 RETURN
+    o1926 ENDIF
+    
+    M66 P23 L4 Q5		(Signal of Jaws NOT Closed)
+    o1927 IF [#5399 EQ -1]
+        (debug, ERROR: Gripper Down - Close with coupling NO PRESENCE - Jaw Closed sensor activated)
+        ;(log, )
+        o1900 RETURN
+    o1927 ENDIF
+
+
+o1925 ENDSUB
+
+
+(**********************************************************************)
+(***** ROUTINE CLOSE GRIPPER UP WITH COUPLING                     *****)
 (**********************************************************************)
 
 o1950 SUB
@@ -2468,23 +4033,23 @@ o1950 SUB
 
     g04 p2.5
 
-    M66 P26 L4 Q5		(Chequea la senal de mordaza no abierta)
+    M66 P26 L4 Q5		(Signal of Jaws NOT Opened)
     o1955 IF [#5399 EQ -1]
-        (debug, ERROR: Cierre con pieza UP)
+        (debug, ERROR: Gripper UP - Close with coupling - Jaw Opened sensor activated)
         ;(log, )
         o1950 RETURN
     o1955 ENDIF
 
-    M66 P24 L4 Q5		(Chequea la senal de mordaza no cerrada)
+    M66 P24 L4 Q5		(Signal of Jaws NOT Closed)
     o1960 IF [#5399 EQ -1]
-        (debug, ERROR: Cierre con pieza UP)
+        (debug, ERROR: Gripper UP - Close with coupling - Jaw Closed sensor activated)
         ;(log, )
         o1950 RETURN
     o1960 ENDIF
 
-    M66 P22 L4 Q3		(Chequea la senal de pieza presente)
+    M66 P22 L4 Q3		(Signal of present coupling)
     o1965 IF [#5399 EQ -1]
-        (debug, ERROR: Cupla no presente UP)
+        (debug, ERROR:  Gripper UP - Coupling present sensor not activated)
         ;(log, )
         o1950 RETURN
     o1965 ENDIF
@@ -2493,20 +4058,20 @@ o1950 ENDSUB
 
 
 (**********************************************************************)
-(***** VERIFICAR POSICION SEGURA CON TOLERANCIA                   *****)
+(***** VERIFY SAFE POSITION WITH TOLERANCE                        *****)
 (**********************************************************************)
 
 o2000 SUB
 
-    o2005 IF [#<_y> GT [#<_y-pos-segura>+1] OR #<_y> LT [#<_y-pos-segura>-1]]
-        (debug, error eje Y fuera de posicion segura)
+    o2005 IF [#<_y> GT [#<_y_secure_position>+1] OR #<_y> LT [#<_y_secure_position>-1]]
+        (debug, AXIS Y error, NOT IN SAFE POSITION)
         ;(log, )
         #5399 = -1
         o2000 RETURN
     o2005 ENDIF
 
-    o2010 IF [#<_z> GT [#<_z-pos-segura>+1] OR #<_z> LT [#<_z-pos-segura>-1]]
-        (debug, error eje Z fuera de posicion segura)
+    o2010 IF [#<_z> GT [#<_z_secure_position>+1] OR #<_z> LT [#<_z_secure_position>-1]]
+        (debug, AXIS Z error, NOT IN SAFE POSITION)
         ;(log, )
         #5399 = -1
         o2000 RETURN
@@ -2522,51 +4087,51 @@ o2000 ENDSUB
 o2200 SUB
     ;(debug, OP10 )
 
-    ;OP10 - SENSOR PUERTA CERRADA
+    ;OP10 - CLOSED DOOR SENSOR
     ;M66 P19 L3 Q20
     ;o2205 IF [#5399 EQ -1]
-    ;    (debug, OP10 - SENSOR PUERTA CERRADA NO ACCIONADO)
+    ;    (debug, OP10 - CLOSED DOOR SENSOR NOT PRESENT)
     ;    ;(log, )
     ;    M02
     ;o2205 ENDIF
 
-    M65 P51 ; baja SPARE=0
+    M65 P51 ; SPARE=0
 
-    M64 P50 ; levanta CYCLE START=1   
+    ;M64 P50 ; CYCLE START=1   
 
     ;G04 P0.5
 
-    ;M65 P50 ; baja CYCLE START=0   
+    ;M65 P50 ; CYCLE START=0   
 
-    ;VERIFICAR M180=1
-    ;M66 P51 L3 Q5.0 ; espera tiempo a que levante el M
+    ;VERIFY M180=1
+    ;M66 P51 L3 Q5.0 ; wait for the M code relay
     ;o2210 IF [#5399 EQ -1]
-    ;    (debug, OP10 - incongruencia en seleccion de programa M180=0)
+    ;    (debug, OP10 - error in the program selection M180=0)
     ;    ;(log, )
     ;    M02
     ;o2210 ENDIF
 
-    ;VERIFICAR M181=0
-    ;M66 P52 L4 Q5.0 ; espera tiempo a que baje el M
+    ;VERIFY M181=0
+    ;M66 P52 L4 Q5.0 ; wait for the M code relay
     ;o2215 IF [#5399 EQ -1]
-    ;    (debug, OP10 - incongruencia en seleccion de programa M181=1)
+    ;    (debug, OP10 - error in the program selection M181=1)
     ;    ;(log, )
     ;    M02
     ;o2215 ENDIF
    
-    ;M64 P52 ; levanta MFIN=1
+    ;M64 P52 ; MFIN=1
 
-    ;VERIFICAR M180=0
-    ;M66 P51 L4 Q5.0 ; espera tiempo a que baje el M
+    ;VERIFY M180=0
+    ;M66 P51 L4 Q5.0 ; wait for the M code relay
     ;o2220 IF [#5399 EQ -1]
-    ;    (debug, OP10 - no bajo el M180)
+    ;    (debug, OP10 - M180 did not went to 0)
     ;    ;(log, )
     ;    M02
     ;o2220 ENDIF
 
-    ;M65 P52 ; baja MFIN=0
+    ;M65 P52 ; MFIN=0
 
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
+    ;CTRL_ch_of - okuma #operation finished - flag = 0
     ;M65 P53
 
 o2200 ENDSUB
@@ -2581,53 +4146,55 @@ o2150 SUB
 
     ;(debug, OP20 )
 
-    ;;OP20 - SENSOR PUERTA CERRADA
+    ;;OP20 - CLOSED DOOR SENSOR
     ;M66 P19 L3 Q20
     ;o2154 IF [#5399 EQ -1]
-    ;    (debug, OP20 - SENSOR PUERTA CERRADA NO ACCIONADO)
+    ;    (debug, OP20 - CLOSED DOOR SENSOR NOT PRESENT)
     ;    ;(log, )
     ;    M02
     ;o2154 ENDIF
 
-    M64 P51 ;levanta SPARE=1
+    M64 P51 ;SPARE=1
 
-    M64 P50 ;levanta CYCLE START=1 
+    ;M64 P50 ;CYCLE START=1 
 
     ;G04 P0.5
 
-    ;M65 P50 ; baja CYCLE START=0   
+    ;M65 P50 ;CYCLE START=0   
 
-    ;VERIFICAR M180=0
-    ;M66 P51 L4 Q5.0 ; espera tiempo a que baje el M
+    ;VERIFY M180=0
+    ;M66 P51 L4 Q5.0 ; wait for the M code relay
     ;o2155 IF [#5399 EQ -1]
-    ;    (debug, OP20 - incongruencia en seleccion de programa M180=1)
+    ;    (debug, OP20 - error in the program selection M180=1)
     ;    ;(log, )
     ;    M02
     ;o2155 ENDIF
 
-    ;VERIFICAR M181=1
-    ;M66 P52 L3 Q5.0 ; espera tiempo a que levante el M
+    ;VERIFY M181=1
+    ;M66 P52 L3 Q5.0 ; wait for the M code relay
     ;o2160 IF [#5399 EQ -1]
-    ;    (debug, OP20 - incongruencia en seleccion de programa M181=0)
+    ;    (debug, OP20 - error in the program selection M181=0)
     ;    ;(log, )
     ;    M02
     ;o2160 ENDIF
 
    
-    ;M64 P52 ; levanta MFIN=1
+    ;M64 P52 ;MFIN=1
 
-    ;VERIFICAR M181=0
-    ;M66 P52 L4 Q5.0 ; espera tiempo a que baje el M
+    ;VERIFY M181=0
+    ;M66 P52 L4 Q5.0 ; wait for the M code relay
     ;o2120 IF [#5399 EQ -1]
-    ;    (debug, OP20 - no bajo el M181)
+    ;    (debug, OP20 - M181 did not went to 0)
     ;    ;(log, )
     ;    M02
     ;o2120 ENDIF
 
-    ;M65 P52 ; baja MFIN=0
+    ;M65 P52 ; MFIN=0
 
-    ;pone en 0 el flag - CTRL_ch_of - okuma #operation finished
+    ;CTRL_ch_of - okuma #operation finished - flag = 0
     ;M65 P53
 
 
 o2150 ENDSUB
+
+;

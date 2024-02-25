@@ -1,0 +1,44 @@
+;codigo G
+o01 sub
+    (debug,rutina main)
+o01 endsub
+
+o10 sub
+    (debug,rutina carga)
+o10 endsub
+
+o20 sub
+    (debug,rutina descarga)
+o20 endsub
+
+o30 sub
+    (debug,rutina soplador)
+o30 endsub
+
+
+m66 e01 l0 ;lee pin para saber que rutina es
+
+o100 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]MAIN>]
+    o01 CALL ; rutina main
+o100 ENDIF 
+
+o1 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]CARGA>]
+    o10 CALL ; rutina carga
+o1 ENDIF 
+
+o2 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]DESCARGA>]
+    o20 CALL ; rutina descarga
+o2 ENDIF 
+
+o3 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]SOPLADOR>]
+    o30 CALL ; rutina soplador
+o3 ENDIF 
+
+
+
+
+
+
+
+
+m30

@@ -1,0 +1,4257 @@
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:26:55 ---
+lun12 02:26 Machine OFF
+
+lun12 02:26 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun12 02:27 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:28:49 ---
+lun12 02:28 Machine OFF
+
+lun12 02:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun12 02:28 Machine ON
+
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun12 02:29 Machine ON
+
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 08:18 Cannot switch pages while in AUTO mode
+
+lun12 08:45 Started program from line 1
+
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+
+lun12 08:45 Started program from line 1
+
+lun12 08:46  gripper down cota x medida 290.475952
+
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+
+lun12 08:46  *** PRESS SYSTEM LINK ***
+
+lun12 08:46  *** PRESS RESUME 1 ***
+
+lun12 08:46  *** CHECK HOME POSITION ***
+
+lun12 08:51 Must be in AUTO mode to run a program
+
+lun12 08:51 Started program from line 1
+
+lun12 08:51  gripper down cota x medida 289.578552
+
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+
+lun12 08:51  *** CHECK HOME POSITION ***
+
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+
+lun12 08:52  gripper down cota x medida 289.776947
+
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:19 Started program from line 1
+
+lun12 09:19  gripper down cota x medida 289.638306
+
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+
+lun12 09:19  *** PRESS SYSTEM LINK ***
+
+lun12 09:19  *** PRESS RESUME 1 ***
+
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+
+lun12 09:20  gripper down cota x medida 289.657837
+
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+
+lun12 09:20  gripper up cota x medida 255.783417
+
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+
+lun12 09:21  *** PRESS SYSTEM LINK ***
+
+lun12 09:23  *** PRESS RESUME 1 ***
+
+lun12 09:23  *** CHECK HOME POSITION ***
+
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+
+lun12 09:25  *** PRESS SYSTEM LINK ***
+
+lun12 09:25  gripper down cota x medida 2892.537354
+
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+
+lun12 09:26  gripper down cota x medida 936.584351
+
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:35 Started program from line 1
+
+lun12 09:35  gripper down cota x medida 290.330994
+
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+
+lun12 09:36  *** PRESS SYSTEM LINK ***
+
+lun12 09:36  *** PRESS RESUME 1 ***
+
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+
+lun12 09:36  gripper down cota x medida 289.829834
+
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+
+lun12 09:37  gripper up cota x medida 255.804016
+
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+
+lun12 09:37  *** PRESS SYSTEM LINK ***
+
+lun12 09:39  *** PRESS RESUME 1 ***
+
+lun12 09:39  *** CHECK HOME POSITION ***
+
+lun12 09:40  *** PRESS RESUME 2 ***
+
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+
+lun12 09:42  gripper down cota x medida 2892.630859
+
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+
+lun12 09:43  gripper down cota x medida 937.617493
+
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 09:58 Cannot switch pages while in AUTO mode
+
+lun12 09:58 Cannot switch pages while in AUTO mode
+
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 10:01 Started program from line 1
+
+lun12 10:01  gripper down cota x medida 289.571930
+
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+
+lun12 10:02  *** PRESS SYSTEM LINK ***
+
+lun12 10:02  *** PRESS RESUME 1 ***
+
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+
+lun12 10:02  gripper down cota x medida 290.251953
+
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+
+lun12 10:03  gripper up cota x medida 256.177948
+
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+
+lun12 10:03  *** PRESS SYSTEM LINK ***
+
+lun12 10:05  *** PRESS RESUME 1 ***
+
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+
+lun12 10:05  *** PRESS SYSTEM LINK ***
+
+lun12 10:05  gripper down cota x medida 2892.463379
+
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+
+lun12 10:06  gripper down cota x medida 936.224182
+
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:06  gripper up cota x medida 1025.299805
+
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:06  *** PRESS SYSTEM LINK ***
+
+lun12 10:11  *** PRESS RESUME 1 ***
+
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+
+lun12 10:11  *** PRESS SYSTEM LINK ***
+
+lun12 10:11  gripper down cota x medida 2892.631348
+
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+
+lun12 10:12  gripper down cota x medida 938.169861
+
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:12  gripper up cota x medida 1024.258545
+
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:13  *** PRESS SYSTEM LINK ***
+
+lun12 10:14  *** PRESS RESUME 1 ***
+
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+
+lun12 10:14  gripper down cota x medida 2890.159180
+
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 10:23 Started program from line 1
+
+lun12 10:23  error eje Z fuera de posicion segura
+
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun12 10:24 Started program from line 1
+
+lun12 10:24  gripper down cota x medida 289.545685
+
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+
+lun12 10:24  *** PRESS SYSTEM LINK ***
+
+lun12 10:24  *** PRESS RESUME 1 ***
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+
+lun12 10:25  gripper down cota x medida 290.118927
+
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+
+lun12 10:25  gripper up cota x medida 255.829880
+
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+
+lun12 10:25  *** PRESS SYSTEM LINK ***
+
+lun12 10:27  *** PRESS RESUME 1 ***
+
+lun12 10:27  *** CHECK HOME POSITION ***
+
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+
+lun12 10:27  gripper down cota x medida 2892.524170
+
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+
+lun12 10:28  gripper down cota x medida 936.758118
+
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:28  gripper up cota x medida 1024.991577
+
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:28  *** PRESS SYSTEM LINK ***
+
+lun12 10:30  *** PRESS RESUME 1 ***
+
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+
+lun12 10:30  *** PRESS SYSTEM LINK ***
+
+lun12 10:30  gripper down cota x medida 2892.610596
+
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+
+lun12 10:31  gripper down cota x medida 936.537231
+
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:31  gripper up cota x medida 1024.985229
+
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:31  *** PRESS SYSTEM LINK ***
+
+lun12 10:33  *** PRESS RESUME 1 ***
+
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+
+lun12 10:33  *** PRESS SYSTEM LINK ***
+
+lun12 10:33  gripper down cota x medida 2890.137939
+
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:34  gripper down cota x medida 2049.698730
+
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+
+lun12 10:34  gripper down cota x medida 289.412079
+
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+
+lun12 10:35  gripper up cota x medida 255.504944
+
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+
+lun12 10:35  *** PRESS SYSTEM LINK ***
+
+lun12 10:36  *** PRESS RESUME 1 ***
+
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+
+lun12 10:37  gripper down cota x medida 2890.198486
+
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:38  gripper down cota x medida 2049.751465
+
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+
+lun12 10:38  gripper down cota x medida 289.323792
+
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+
+lun12 10:39  gripper up cota x medida 255.425613
+
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+
+lun12 10:39  *** PRESS SYSTEM LINK ***
+
+lun12 10:40  *** PRESS RESUME 1 ***
+
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+
+lun12 10:40  gripper down cota x medida 2892.590820
+
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+
+lun12 10:41  gripper down cota x medida 936.351807
+
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:41  gripper up cota x medida 1025.240356
+
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:41  *** PRESS SYSTEM LINK ***
+
+lun12 10:43  *** PRESS RESUME 1 ***
+
+lun12 10:43  *** CHECK HOME POSITION ***
+
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+
+lun12 10:43  gripper down cota x medida 2892.624268
+
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+
+lun12 10:44  gripper down cota x medida 936.444092
+
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:44  gripper up cota x medida 1024.560547
+
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:44  *** PRESS SYSTEM LINK ***
+
+lun12 10:45  *** PRESS RESUME 1 ***
+
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+
+lun12 10:46  gripper down cota x medida 2890.158203
+
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:47  gripper down cota x medida 2049.685303
+
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+
+lun12 10:47  gripper down cota x medida 289.446075
+
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+
+lun12 10:48  gripper up cota x medida 255.903839
+
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+
+lun12 10:48  *** PRESS SYSTEM LINK ***
+
+lun12 10:48  *** PRESS RESUME 1 ***
+
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+
+lun12 10:48  *** PRESS SYSTEM LINK ***
+
+lun12 10:49  gripper down cota x medida 2890.171631
+
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:49  gripper down cota x medida 2049.645508
+
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+
+lun12 10:50  gripper down cota x medida 290.091370
+
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+
+lun12 10:51  gripper up cota x medida 255.837540
+
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+
+lun12 10:51  *** PRESS SYSTEM LINK ***
+
+lun12 10:53  *** PRESS RESUME 1 ***
+
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+
+lun12 10:53  gripper down cota x medida 2892.557617
+
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+
+lun12 10:54  gripper down cota x medida 936.358032
+
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:54  gripper up cota x medida 1024.725098
+
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+
+lun12 10:55  gripper down cota x medida 2897.013428
+
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+
+lun12 10:55  gripper down cota x medida 941.092896
+
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 10:56  gripper up cota x medida 1025.192993
+
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 10:56  *** PRESS SYSTEM LINK ***
+
+lun12 10:57  *** PRESS RESUME 1 ***
+
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+
+lun12 10:57  gripper down cota x medida 2890.157959
+
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 10:58  gripper down cota x medida 2049.824219
+
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+
+lun12 10:59  gripper down cota x medida 289.411835
+
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+
+lun12 10:59  gripper up cota x medida 255.605042
+
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+
+lun12 11:00  *** PRESS SYSTEM LINK ***
+
+lun12 11:01  *** PRESS RESUME 1 ***
+
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+
+lun12 11:01  gripper down cota x medida 2890.157959
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:25  gripper down cota x medida 290.118927
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+lun12 10:25  gripper up cota x medida 255.829880
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+lun12 10:25  *** PRESS SYSTEM LINK ***
+lun12 10:27  *** PRESS RESUME 1 ***
+lun12 10:27  *** CHECK HOME POSITION ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+lun12 10:27  gripper down cota x medida 2892.524170
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 10:28  gripper down cota x medida 936.758118
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:28  gripper up cota x medida 1024.991577
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:28  *** PRESS SYSTEM LINK ***
+lun12 10:30  *** PRESS RESUME 1 ***
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS SYSTEM LINK ***
+lun12 10:30  gripper down cota x medida 2892.610596
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+lun12 10:31  gripper down cota x medida 936.537231
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:31  gripper up cota x medida 1024.985229
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:31  *** PRESS SYSTEM LINK ***
+lun12 10:33  *** PRESS RESUME 1 ***
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS SYSTEM LINK ***
+lun12 10:33  gripper down cota x medida 2890.137939
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:34  gripper down cota x medida 2049.698730
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 10:34  gripper down cota x medida 289.412079
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+lun12 10:35  gripper up cota x medida 255.504944
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+lun12 10:35  *** PRESS SYSTEM LINK ***
+lun12 10:36  *** PRESS RESUME 1 ***
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+lun12 10:37  gripper down cota x medida 2890.198486
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:38  gripper down cota x medida 2049.751465
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+lun12 10:38  gripper down cota x medida 289.323792
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+lun12 10:39  gripper up cota x medida 255.425613
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+lun12 10:39  *** PRESS SYSTEM LINK ***
+lun12 10:40  *** PRESS RESUME 1 ***
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+lun12 10:40  gripper down cota x medida 2892.590820
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+lun12 10:41  gripper down cota x medida 936.351807
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:41  gripper up cota x medida 1025.240356
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:41  *** PRESS SYSTEM LINK ***
+lun12 10:43  *** PRESS RESUME 1 ***
+lun12 10:43  *** CHECK HOME POSITION ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+lun12 10:43  gripper down cota x medida 2892.624268
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+lun12 10:44  gripper down cota x medida 936.444092
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:44  gripper up cota x medida 1024.560547
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:44  *** PRESS SYSTEM LINK ***
+lun12 10:45  *** PRESS RESUME 1 ***
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+lun12 10:46  gripper down cota x medida 2890.158203
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:47  gripper down cota x medida 2049.685303
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+lun12 10:47  gripper down cota x medida 289.446075
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+lun12 10:48  gripper up cota x medida 255.903839
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:48  *** PRESS RESUME 1 ***
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:49  gripper down cota x medida 2890.171631
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:49  gripper down cota x medida 2049.645508
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+lun12 10:50  gripper down cota x medida 290.091370
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+lun12 10:51  gripper up cota x medida 255.837540
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+lun12 10:51  *** PRESS SYSTEM LINK ***
+lun12 10:53  *** PRESS RESUME 1 ***
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+lun12 10:53  gripper down cota x medida 2892.557617
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+lun12 10:54  gripper down cota x medida 936.358032
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:54  gripper up cota x medida 1024.725098
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:55  gripper down cota x medida 2897.013428
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+lun12 10:55  gripper down cota x medida 941.092896
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:56  gripper up cota x medida 1025.192993
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:56  *** PRESS SYSTEM LINK ***
+lun12 10:57  *** PRESS RESUME 1 ***
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+lun12 10:57  gripper down cota x medida 2890.157959
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:58  gripper down cota x medida 2049.824219
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+lun12 10:59  gripper down cota x medida 289.411835
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+lun12 10:59  gripper up cota x medida 255.605042
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+lun12 11:00  *** PRESS SYSTEM LINK ***
+lun12 11:01  *** PRESS RESUME 1 ***
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+lun12 11:01  gripper down cota x medida 2890.157959
+lun12 11:01  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 11:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:02  gripper down cota x medida 2051.124756
+
+lun12 11:02  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -1.324756 
+
+lun12 11:02  gripper down cota x medida 289.350922
+
+lun12 11:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.649078 
+
+lun12 11:03  gripper up cota x medida 255.425385
+
+lun12 11:03  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574615 
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:25  gripper down cota x medida 290.118927
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+lun12 10:25  gripper up cota x medida 255.829880
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+lun12 10:25  *** PRESS SYSTEM LINK ***
+lun12 10:27  *** PRESS RESUME 1 ***
+lun12 10:27  *** CHECK HOME POSITION ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+lun12 10:27  gripper down cota x medida 2892.524170
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 10:28  gripper down cota x medida 936.758118
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:28  gripper up cota x medida 1024.991577
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:28  *** PRESS SYSTEM LINK ***
+lun12 10:30  *** PRESS RESUME 1 ***
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS SYSTEM LINK ***
+lun12 10:30  gripper down cota x medida 2892.610596
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+lun12 10:31  gripper down cota x medida 936.537231
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:31  gripper up cota x medida 1024.985229
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:31  *** PRESS SYSTEM LINK ***
+lun12 10:33  *** PRESS RESUME 1 ***
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS SYSTEM LINK ***
+lun12 10:33  gripper down cota x medida 2890.137939
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:34  gripper down cota x medida 2049.698730
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 10:34  gripper down cota x medida 289.412079
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+lun12 10:35  gripper up cota x medida 255.504944
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+lun12 10:35  *** PRESS SYSTEM LINK ***
+lun12 10:36  *** PRESS RESUME 1 ***
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+lun12 10:37  gripper down cota x medida 2890.198486
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:38  gripper down cota x medida 2049.751465
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+lun12 10:38  gripper down cota x medida 289.323792
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+lun12 10:39  gripper up cota x medida 255.425613
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+lun12 10:39  *** PRESS SYSTEM LINK ***
+lun12 10:40  *** PRESS RESUME 1 ***
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+lun12 10:40  gripper down cota x medida 2892.590820
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+lun12 10:41  gripper down cota x medida 936.351807
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:41  gripper up cota x medida 1025.240356
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:41  *** PRESS SYSTEM LINK ***
+lun12 10:43  *** PRESS RESUME 1 ***
+lun12 10:43  *** CHECK HOME POSITION ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+lun12 10:43  gripper down cota x medida 2892.624268
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+lun12 10:44  gripper down cota x medida 936.444092
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:44  gripper up cota x medida 1024.560547
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:44  *** PRESS SYSTEM LINK ***
+lun12 10:45  *** PRESS RESUME 1 ***
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+lun12 10:46  gripper down cota x medida 2890.158203
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:47  gripper down cota x medida 2049.685303
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+lun12 10:47  gripper down cota x medida 289.446075
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+lun12 10:48  gripper up cota x medida 255.903839
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:48  *** PRESS RESUME 1 ***
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:49  gripper down cota x medida 2890.171631
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:49  gripper down cota x medida 2049.645508
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+lun12 10:50  gripper down cota x medida 290.091370
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+lun12 10:51  gripper up cota x medida 255.837540
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+lun12 10:51  *** PRESS SYSTEM LINK ***
+lun12 10:53  *** PRESS RESUME 1 ***
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+lun12 10:53  gripper down cota x medida 2892.557617
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+lun12 10:54  gripper down cota x medida 936.358032
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:54  gripper up cota x medida 1024.725098
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:55  gripper down cota x medida 2897.013428
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+lun12 10:55  gripper down cota x medida 941.092896
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:56  gripper up cota x medida 1025.192993
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:56  *** PRESS SYSTEM LINK ***
+lun12 10:57  *** PRESS RESUME 1 ***
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+lun12 10:57  gripper down cota x medida 2890.157959
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:58  gripper down cota x medida 2049.824219
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+lun12 10:59  gripper down cota x medida 289.411835
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+lun12 10:59  gripper up cota x medida 255.605042
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+lun12 11:00  *** PRESS SYSTEM LINK ***
+lun12 11:01  *** PRESS RESUME 1 ***
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+lun12 11:01  gripper down cota x medida 2890.157959
+lun12 11:01  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 11:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:02  gripper down cota x medida 2051.124756
+lun12 11:02  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -1.324756 
+lun12 11:02  gripper down cota x medida 289.350922
+lun12 11:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.649078 
+lun12 11:03  gripper up cota x medida 255.425385
+lun12 11:03  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574615 
+lun12 11:03  *** PRESS SYSTEM LINK ***
+
+lun12 11:04  *** PRESS RESUME 1 ***
+
+lun12 11:04  *** CHECK HOME POSITION ***
+lun12 11:04  *** PRESS RESUME 2 ***
+
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS SYSTEM LINK ***
+
+lun12 11:04  gripper down cota x medida 2892.524170
+
+lun12 11:04  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+
+lun12 11:05  gripper down cota x medida 938.825073
+
+lun12 11:05  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 17.974927 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:05  gripper up cota x medida 1023.091187
+
+lun12 11:05  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 28.708813 
+
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:05  *** PRESS SYSTEM LINK ***
+
+lun12 11:07  *** PRESS RESUME 1 ***
+
+lun12 11:07  *** CHECK HOME POSITION ***
+
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS SYSTEM LINK ***
+
+lun12 11:07  gripper down cota x medida 2892.564209
+
+lun12 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.035791 
+
+lun12 11:08  gripper down cota x medida 936.371033
+
+lun12 11:08  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.428967 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:08  gripper up cota x medida 1025.213623
+
+lun12 11:08  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.586377 
+
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:08  *** PRESS SYSTEM LINK ***
+
+lun12 11:10  *** PRESS RESUME 1 ***
+
+lun12 11:10  *** CHECK HOME POSITION ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS RESUME 2 ***
+
+lun12 11:10  *** PRESS SYSTEM LINK ***
+
+lun12 11:10  gripper down cota x medida 2890.205566
+
+lun12 11:10  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.394434 
+lun12 11:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:11  gripper down cota x medida 2049.612549
+
+lun12 11:11  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.187451 
+
+lun12 11:11  gripper down cota x medida 289.895355
+
+lun12 11:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.104645 
+
+lun12 11:12  gripper up cota x medida 255.571945
+
+lun12 11:12  PARKING UP TOMAR DIFERENCIA CON X REF = 2.428055 
+
+lun12 11:12  *** PRESS SYSTEM LINK ***
+
+lun12 11:12  *** PRESS RESUME 1 ***
+
+lun12 11:12  *** CHECK HOME POSITION ***
+
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS SYSTEM LINK ***
+
+lun12 11:13  gripper down cota x medida 2890.137939
+
+lun12 11:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+
+lun12 11:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:14  gripper down cota x medida 2049.751709
+
+lun12 11:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048291 
+
+lun12 11:14  gripper down cota x medida 289.479309
+
+lun12 11:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.520691 
+
+lun12 11:15  gripper up cota x medida 255.598251
+
+lun12 11:15  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401749 
+
+lun12 11:15  *** PRESS SYSTEM LINK ***
+
+lun12 11:22  *** PRESS RESUME 1 ***
+
+lun12 11:22  *** CHECK HOME POSITION ***
+lun12 11:22  *** PRESS RESUME 2 ***
+
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS SYSTEM LINK ***
+
+lun12 11:22  gripper down cota x medida 2892.563965
+
+lun12 11:22  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.036035 
+
+lun12 11:23  gripper down cota x medida 937.092285
+
+lun12 11:23  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.707715 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:23  gripper up cota x medida 1024.613159
+
+lun12 11:23  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.186841 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:23  *** PRESS SYSTEM LINK ***
+
+lun12 11:24  *** PRESS RESUME 1 ***
+
+lun12 11:24  *** CHECK HOME POSITION ***
+lun12 11:24  *** PRESS RESUME 2 ***
+
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS SYSTEM LINK ***
+
+lun12 11:25  gripper down cota x medida 2892.637695
+
+lun12 11:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.962305 
+
+lun12 11:25  gripper down cota x medida 938.098022
+
+lun12 11:25  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.701978 
+lun12 11:25  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:26  gripper up cota x medida 1024.380371
+
+lun12 11:26  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.419629 
+lun12 11:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:26  *** PRESS SYSTEM LINK ***
+
+lun12 11:27  *** PRESS RESUME 1 ***
+
+lun12 11:27  *** CHECK HOME POSITION ***
+
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS SYSTEM LINK ***
+
+lun12 11:27  gripper down cota x medida 2890.185303
+
+lun12 11:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.414697 
+
+lun12 11:27  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:28  gripper down cota x medida 2049.810303
+
+lun12 11:28  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.010303 
+
+lun12 11:29  gripper down cota x medida 289.558838
+
+lun12 11:29  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.441162 
+
+lun12 11:29  gripper up cota x medida 255.498688
+
+lun12 11:29  PARKING UP TOMAR DIFERENCIA CON X REF = 2.501312 
+
+lun12 11:29  *** PRESS SYSTEM LINK ***
+
+lun12 11:30  *** PRESS RESUME 1 ***
+
+lun12 11:30  *** CHECK HOME POSITION ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS RESUME 2 ***
+
+lun12 11:30  *** PRESS SYSTEM LINK ***
+
+lun12 11:30  gripper down cota x medida 2890.131592
+
+lun12 11:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.468408 
+lun12 11:30  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:31  gripper down cota x medida 2049.757812
+
+lun12 11:31  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.042188 
+
+lun12 11:32  gripper down cota x medida 289.789337
+
+lun12 11:32  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.210663 
+
+lun12 11:32  gripper up cota x medida 255.617950
+
+lun12 11:32  PARKING UP TOMAR DIFERENCIA CON X REF = 2.382050 
+
+lun12 11:32  *** PRESS SYSTEM LINK ***
+
+lun12 11:33  *** PRESS RESUME 1 ***
+
+lun12 11:33  *** CHECK HOME POSITION ***
+
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS SYSTEM LINK ***
+
+lun12 11:33  gripper down cota x medida 2892.610352
+
+lun12 11:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+
+lun12 11:34  gripper down cota x medida 936.551025
+
+lun12 11:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.248975 
+
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:34  gripper up cota x medida 1024.931396
+
+lun12 11:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.868604 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:34  *** PRESS SYSTEM LINK ***
+
+lun12 11:36  *** PRESS RESUME 1 ***
+
+lun12 11:36  *** CHECK HOME POSITION ***
+
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS SYSTEM LINK ***
+
+lun12 11:36  gripper down cota x medida 2892.684814
+
+lun12 11:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.915186 
+
+lun12 11:37  gripper down cota x medida 936.671814
+
+lun12 11:37  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.128186 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:37  gripper up cota x medida 1025.125977
+
+lun12 11:37  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.674023 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:37  *** PRESS SYSTEM LINK ***
+
+lun12 11:39  *** PRESS RESUME 1 ***
+
+lun12 11:39  *** CHECK HOME POSITION ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS RESUME 2 ***
+
+lun12 11:39  *** PRESS SYSTEM LINK ***
+
+lun12 11:39  gripper down cota x medida 2890.151367
+
+lun12 11:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:39  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:40  gripper down cota x medida 2049.619385
+
+lun12 11:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.180615 
+
+lun12 11:40  gripper down cota x medida 289.737183
+
+lun12 11:40  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.262817 
+
+lun12 11:41  gripper up cota x medida 255.763596
+
+lun12 11:41  PARKING UP TOMAR DIFERENCIA CON X REF = 2.236404 
+
+lun12 11:41  *** PRESS SYSTEM LINK ***
+
+lun12 11:42  *** PRESS RESUME 1 ***
+
+lun12 11:42  *** CHECK HOME POSITION ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS RESUME 2 ***
+
+lun12 11:42  *** PRESS SYSTEM LINK ***
+
+lun12 11:42  gripper down cota x medida 2890.151367
+
+lun12 11:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+
+lun12 11:42  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:43  gripper down cota x medida 2049.797119
+
+lun12 11:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.002881 
+
+lun12 11:44  gripper down cota x medida 289.704590
+
+lun12 11:44  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.295410 
+
+lun12 11:44  gripper up cota x medida 255.736572
+
+lun12 11:44  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263428 
+
+lun12 11:44  *** PRESS SYSTEM LINK ***
+
+lun12 11:45  *** PRESS RESUME 1 ***
+
+lun12 11:45  *** CHECK HOME POSITION ***
+
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS SYSTEM LINK ***
+
+lun12 11:45  gripper down cota x medida 2892.664062
+
+lun12 11:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.935937 
+
+lun12 11:46  gripper down cota x medida 937.657349
+
+lun12 11:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.142651 
+
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:46  gripper up cota x medida 1024.258911
+
+lun12 11:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541089 
+
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:47  *** PRESS SYSTEM LINK ***
+
+lun12 11:48  *** PRESS RESUME 1 ***
+
+lun12 11:48  *** CHECK HOME POSITION ***
+lun12 11:48  *** PRESS RESUME 2 ***
+
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS SYSTEM LINK ***
+
+lun12 11:49  gripper down cota x medida 2892.624023
+
+lun12 11:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+
+lun12 11:49  gripper down cota x medida 937.866028
+
+lun12 11:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.933972 
+lun12 11:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:50  gripper up cota x medida 1024.158325
+
+lun12 11:50  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.641675 
+lun12 11:50  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:50  *** PRESS SYSTEM LINK ***
+
+lun12 11:51  *** PRESS RESUME 1 ***
+
+lun12 11:51  *** CHECK HOME POSITION ***
+lun12 11:51  *** PRESS RESUME 2 ***
+
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS SYSTEM LINK ***
+
+lun12 11:52  gripper down cota x medida 2890.191895
+
+lun12 11:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.408105 
+lun12 11:52  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:52  gripper down cota x medida 2049.691895
+
+lun12 11:52  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.108105 
+
+lun12 11:53  gripper down cota x medida 289.585571
+
+lun12 11:53  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.414429 
+
+lun12 11:54  gripper up cota x medida 255.598343
+
+lun12 11:54  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401657 
+
+lun12 11:54  *** PRESS SYSTEM LINK ***
+
+lun12 11:54  *** PRESS RESUME 1 ***
+
+lun12 11:54  *** CHECK HOME POSITION ***
+lun12 11:54  *** PRESS RESUME 2 ***
+
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS SYSTEM LINK ***
+
+lun12 11:54  gripper down cota x medida 2890.151367
+
+lun12 11:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 11:55  gripper down cota x medida 2049.672119
+
+lun12 11:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.127881 
+
+lun12 11:56  gripper down cota x medida 289.651306
+
+lun12 11:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.348694 
+
+lun12 11:56  gripper up cota x medida 255.591553
+
+lun12 11:56  PARKING UP TOMAR DIFERENCIA CON X REF = 2.408447 
+
+lun12 11:57  *** PRESS SYSTEM LINK ***
+
+lun12 11:57  *** PRESS RESUME 1 ***
+
+lun12 11:57  *** CHECK HOME POSITION ***
+
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS SYSTEM LINK ***
+
+lun12 11:57  gripper down cota x medida 2892.610352
+
+lun12 11:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+
+lun12 11:58  gripper down cota x medida 938.189941
+
+lun12 11:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.610059 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 11:58  gripper up cota x medida 1024.137939
+
+lun12 11:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.662061 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 11:59  *** PRESS SYSTEM LINK ***
+
+lun12 12:00  *** PRESS RESUME 1 ***
+
+lun12 12:00  *** CHECK HOME POSITION ***
+
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS SYSTEM LINK ***
+
+lun12 12:00  gripper down cota x medida 2892.624023
+
+lun12 12:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+
+lun12 12:01  gripper down cota x medida 936.410950
+
+lun12 12:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.389050 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 12:01  gripper up cota x medida 1025.172729
+
+lun12 12:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.627271 
+
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 12:01  *** PRESS SYSTEM LINK ***
+
+lun12 12:03  *** PRESS RESUME 1 ***
+
+lun12 12:03  *** CHECK HOME POSITION ***
+lun12 12:03  *** PRESS RESUME 2 ***
+
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS SYSTEM LINK ***
+
+lun12 12:03  gripper down cota x medida 2890.251953
+
+lun12 12:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.348047 
+lun12 12:03  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 12:04  gripper down cota x medida 2049.698730
+
+lun12 12:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+
+lun12 12:04  gripper down cota x medida 289.697357
+
+lun12 12:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.302643 
+
+lun12 12:05  gripper up cota x medida 255.710037
+
+lun12 12:05  PARKING UP TOMAR DIFERENCIA CON X REF = 2.289963 
+
+lun12 12:05  *** PRESS SYSTEM LINK ***
+
+lun12 12:05  *** PRESS RESUME 1 ***
+
+lun12 12:05  *** CHECK HOME POSITION ***
+lun12 12:05  *** PRESS RESUME 2 ***
+
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS SYSTEM LINK ***
+
+lun12 12:06  gripper down cota x medida 2890.151367
+
+lun12 12:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 12:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 12:07  gripper down cota x medida 2049.625732
+
+lun12 12:07  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+
+lun12 12:07  gripper down cota x medida 289.949280
+
+lun12 12:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.050720 
+
+lun12 12:08  gripper up cota x medida 255.736633
+
+lun12 12:08  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263367 
+
+lun12 12:08  *** PRESS SYSTEM LINK ***
+
+lun12 12:08  *** PRESS RESUME 1 ***
+
+lun12 12:08  *** CHECK HOME POSITION ***
+
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS SYSTEM LINK ***
+
+lun12 12:09  gripper down cota x medida 2892.704590
+
+lun12 12:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.895410 
+
+lun12 12:09  gripper down cota x medida 936.665527
+
+lun12 12:09  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.134473 
+lun12 12:09  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 12:10  gripper up cota x medida 1025.212891
+
+lun12 12:10  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.587109 
+
+lun12 12:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 12:10  *** PRESS SYSTEM LINK ***
+
+lun12 12:11  *** PRESS RESUME 1 ***
+
+lun12 12:11  *** CHECK HOME POSITION ***
+lun12 12:11  *** PRESS RESUME 2 ***
+
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS SYSTEM LINK ***
+
+lun12 12:12  gripper down cota x medida 2892.651123
+
+lun12 12:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.948877 
+
+lun12 12:12  gripper down cota x medida 936.571106
+
+lun12 12:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.228894 
+
+lun12 12:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 12:13  gripper up cota x medida 1025.052612
+
+lun12 12:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.747388 
+lun12 12:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+
+lun12 12:13  *** PRESS SYSTEM LINK ***
+
+lun12 12:14  *** PRESS RESUME 1 ***
+
+lun12 12:15  *** CHECK HOME POSITION ***
+
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS RESUME 2 ***
+
+lun12 12:15  *** PRESS SYSTEM LINK ***
+
+lun12 12:15  gripper down cota x medida 2890.192139
+
+lun12 12:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.407861 
+
+lun12 12:15  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 12:16  gripper down cota x medida 2049.738281
+
+lun12 12:16  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.061719 
+
+lun12 12:16  gripper down cota x medida 289.538849
+
+lun12 12:16  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.461151 
+
+lun12 12:17  gripper up cota x medida 255.425064
+
+lun12 12:17  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574936 
+
+lun12 12:17  *** PRESS SYSTEM LINK ***
+
+lun12 12:17  *** PRESS RESUME 1 ***
+
+lun12 12:17  *** CHECK HOME POSITION ***
+
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS SYSTEM LINK ***
+
+lun12 12:18  gripper down cota x medida 2890.171631
+
+lun12 12:18  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+
+lun12 12:18  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+
+lun12 12:18  gripper down cota x medida 2049.625732
+
+lun12 12:18  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+
+lun12 12:19  *** PRESS SYSTEM LINK ***
+
+lun12 12:20  *** PRESS RESUME 1 ***
+
+lun12 12:20  *** CHECK HOME POSITION ***
+lun12 12:20  *** PRESS RESUME 2 ***
+lun12 12:20  *** PRESS SYSTEM LINK ***
+
+lun12 12:21  gripper down cota x medida 2892.764893
+
+lun12 12:21  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.835107 
+
+lun12 12:21  gripper down cota x medida 937.725952
+
+lun12 12:21  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.074048 
+lun12 12:21  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:21  *** PRESS RESUME 1 ***
+
+lun12 12:21  *** CHECK HOME POSITION ***
+lun12 12:21  *** PRESS RESUME 2 ***
+
+lun12 12:21  *** PRESS SYSTEM LINK ***
+
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS RESUME 1 ***
+
+lun12 12:22  *** CHECK HOME POSITION ***
+lun12 12:22  *** PRESS RESUME 2 ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+
+lun12 12:22  gripper down cota x medida 2893.002441
+
+lun12 12:22  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.597559 
+
+lun12 12:23  gripper down cota x medida 2052.362061
+
+lun12 12:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -2.562061 
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:25  gripper down cota x medida 290.118927
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+lun12 10:25  gripper up cota x medida 255.829880
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+lun12 10:25  *** PRESS SYSTEM LINK ***
+lun12 10:27  *** PRESS RESUME 1 ***
+lun12 10:27  *** CHECK HOME POSITION ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+lun12 10:27  gripper down cota x medida 2892.524170
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 10:28  gripper down cota x medida 936.758118
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:28  gripper up cota x medida 1024.991577
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:28  *** PRESS SYSTEM LINK ***
+lun12 10:30  *** PRESS RESUME 1 ***
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS SYSTEM LINK ***
+lun12 10:30  gripper down cota x medida 2892.610596
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+lun12 10:31  gripper down cota x medida 936.537231
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:31  gripper up cota x medida 1024.985229
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:31  *** PRESS SYSTEM LINK ***
+lun12 10:33  *** PRESS RESUME 1 ***
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS SYSTEM LINK ***
+lun12 10:33  gripper down cota x medida 2890.137939
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:34  gripper down cota x medida 2049.698730
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 10:34  gripper down cota x medida 289.412079
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+lun12 10:35  gripper up cota x medida 255.504944
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+lun12 10:35  *** PRESS SYSTEM LINK ***
+lun12 10:36  *** PRESS RESUME 1 ***
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+lun12 10:37  gripper down cota x medida 2890.198486
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:38  gripper down cota x medida 2049.751465
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+lun12 10:38  gripper down cota x medida 289.323792
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+lun12 10:39  gripper up cota x medida 255.425613
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+lun12 10:39  *** PRESS SYSTEM LINK ***
+lun12 10:40  *** PRESS RESUME 1 ***
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+lun12 10:40  gripper down cota x medida 2892.590820
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+lun12 10:41  gripper down cota x medida 936.351807
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:41  gripper up cota x medida 1025.240356
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:41  *** PRESS SYSTEM LINK ***
+lun12 10:43  *** PRESS RESUME 1 ***
+lun12 10:43  *** CHECK HOME POSITION ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+lun12 10:43  gripper down cota x medida 2892.624268
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+lun12 10:44  gripper down cota x medida 936.444092
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:44  gripper up cota x medida 1024.560547
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:44  *** PRESS SYSTEM LINK ***
+lun12 10:45  *** PRESS RESUME 1 ***
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+lun12 10:46  gripper down cota x medida 2890.158203
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:47  gripper down cota x medida 2049.685303
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+lun12 10:47  gripper down cota x medida 289.446075
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+lun12 10:48  gripper up cota x medida 255.903839
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:48  *** PRESS RESUME 1 ***
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:49  gripper down cota x medida 2890.171631
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:49  gripper down cota x medida 2049.645508
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+lun12 10:50  gripper down cota x medida 290.091370
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+lun12 10:51  gripper up cota x medida 255.837540
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+lun12 10:51  *** PRESS SYSTEM LINK ***
+lun12 10:53  *** PRESS RESUME 1 ***
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+lun12 10:53  gripper down cota x medida 2892.557617
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+lun12 10:54  gripper down cota x medida 936.358032
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:54  gripper up cota x medida 1024.725098
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:55  gripper down cota x medida 2897.013428
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+lun12 10:55  gripper down cota x medida 941.092896
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:56  gripper up cota x medida 1025.192993
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:56  *** PRESS SYSTEM LINK ***
+lun12 10:57  *** PRESS RESUME 1 ***
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+lun12 10:57  gripper down cota x medida 2890.157959
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:58  gripper down cota x medida 2049.824219
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+lun12 10:59  gripper down cota x medida 289.411835
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+lun12 10:59  gripper up cota x medida 255.605042
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+lun12 11:00  *** PRESS SYSTEM LINK ***
+lun12 11:01  *** PRESS RESUME 1 ***
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+lun12 11:01  gripper down cota x medida 2890.157959
+lun12 11:01  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 11:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:02  gripper down cota x medida 2051.124756
+lun12 11:02  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -1.324756 
+lun12 11:02  gripper down cota x medida 289.350922
+lun12 11:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.649078 
+lun12 11:03  gripper up cota x medida 255.425385
+lun12 11:03  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574615 
+lun12 11:03  *** PRESS SYSTEM LINK ***
+lun12 11:04  *** PRESS RESUME 1 ***
+lun12 11:04  *** CHECK HOME POSITION ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS SYSTEM LINK ***
+lun12 11:04  gripper down cota x medida 2892.524170
+lun12 11:04  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 11:05  gripper down cota x medida 938.825073
+lun12 11:05  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 17.974927 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:05  gripper up cota x medida 1023.091187
+lun12 11:05  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 28.708813 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:05  *** PRESS SYSTEM LINK ***
+lun12 11:07  *** PRESS RESUME 1 ***
+lun12 11:07  *** CHECK HOME POSITION ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS SYSTEM LINK ***
+lun12 11:07  gripper down cota x medida 2892.564209
+lun12 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.035791 
+lun12 11:08  gripper down cota x medida 936.371033
+lun12 11:08  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.428967 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:08  gripper up cota x medida 1025.213623
+lun12 11:08  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.586377 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:08  *** PRESS SYSTEM LINK ***
+lun12 11:10  *** PRESS RESUME 1 ***
+lun12 11:10  *** CHECK HOME POSITION ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS SYSTEM LINK ***
+lun12 11:10  gripper down cota x medida 2890.205566
+lun12 11:10  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.394434 
+lun12 11:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:11  gripper down cota x medida 2049.612549
+lun12 11:11  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.187451 
+lun12 11:11  gripper down cota x medida 289.895355
+lun12 11:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.104645 
+lun12 11:12  gripper up cota x medida 255.571945
+lun12 11:12  PARKING UP TOMAR DIFERENCIA CON X REF = 2.428055 
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:12  *** PRESS RESUME 1 ***
+lun12 11:12  *** CHECK HOME POSITION ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:13  gripper down cota x medida 2890.137939
+lun12 11:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 11:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:14  gripper down cota x medida 2049.751709
+lun12 11:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048291 
+lun12 11:14  gripper down cota x medida 289.479309
+lun12 11:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.520691 
+lun12 11:15  gripper up cota x medida 255.598251
+lun12 11:15  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401749 
+lun12 11:15  *** PRESS SYSTEM LINK ***
+lun12 11:22  *** PRESS RESUME 1 ***
+lun12 11:22  *** CHECK HOME POSITION ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS SYSTEM LINK ***
+lun12 11:22  gripper down cota x medida 2892.563965
+lun12 11:22  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.036035 
+lun12 11:23  gripper down cota x medida 937.092285
+lun12 11:23  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.707715 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:23  gripper up cota x medida 1024.613159
+lun12 11:23  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.186841 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:23  *** PRESS SYSTEM LINK ***
+lun12 11:24  *** PRESS RESUME 1 ***
+lun12 11:24  *** CHECK HOME POSITION ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS SYSTEM LINK ***
+lun12 11:25  gripper down cota x medida 2892.637695
+lun12 11:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.962305 
+lun12 11:25  gripper down cota x medida 938.098022
+lun12 11:25  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.701978 
+lun12 11:25  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:26  gripper up cota x medida 1024.380371
+lun12 11:26  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.419629 
+lun12 11:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:26  *** PRESS SYSTEM LINK ***
+lun12 11:27  *** PRESS RESUME 1 ***
+lun12 11:27  *** CHECK HOME POSITION ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS SYSTEM LINK ***
+lun12 11:27  gripper down cota x medida 2890.185303
+lun12 11:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.414697 
+lun12 11:27  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:28  gripper down cota x medida 2049.810303
+lun12 11:28  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.010303 
+lun12 11:29  gripper down cota x medida 289.558838
+lun12 11:29  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.441162 
+lun12 11:29  gripper up cota x medida 255.498688
+lun12 11:29  PARKING UP TOMAR DIFERENCIA CON X REF = 2.501312 
+lun12 11:29  *** PRESS SYSTEM LINK ***
+lun12 11:30  *** PRESS RESUME 1 ***
+lun12 11:30  *** CHECK HOME POSITION ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS SYSTEM LINK ***
+lun12 11:30  gripper down cota x medida 2890.131592
+lun12 11:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.468408 
+lun12 11:30  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:31  gripper down cota x medida 2049.757812
+lun12 11:31  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.042188 
+lun12 11:32  gripper down cota x medida 289.789337
+lun12 11:32  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.210663 
+lun12 11:32  gripper up cota x medida 255.617950
+lun12 11:32  PARKING UP TOMAR DIFERENCIA CON X REF = 2.382050 
+lun12 11:32  *** PRESS SYSTEM LINK ***
+lun12 11:33  *** PRESS RESUME 1 ***
+lun12 11:33  *** CHECK HOME POSITION ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS SYSTEM LINK ***
+lun12 11:33  gripper down cota x medida 2892.610352
+lun12 11:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:34  gripper down cota x medida 936.551025
+lun12 11:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.248975 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:34  gripper up cota x medida 1024.931396
+lun12 11:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.868604 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:34  *** PRESS SYSTEM LINK ***
+lun12 11:36  *** PRESS RESUME 1 ***
+lun12 11:36  *** CHECK HOME POSITION ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS SYSTEM LINK ***
+lun12 11:36  gripper down cota x medida 2892.684814
+lun12 11:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.915186 
+lun12 11:37  gripper down cota x medida 936.671814
+lun12 11:37  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.128186 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:37  gripper up cota x medida 1025.125977
+lun12 11:37  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.674023 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:37  *** PRESS SYSTEM LINK ***
+lun12 11:39  *** PRESS RESUME 1 ***
+lun12 11:39  *** CHECK HOME POSITION ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS SYSTEM LINK ***
+lun12 11:39  gripper down cota x medida 2890.151367
+lun12 11:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:39  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:40  gripper down cota x medida 2049.619385
+lun12 11:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.180615 
+lun12 11:40  gripper down cota x medida 289.737183
+lun12 11:40  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.262817 
+lun12 11:41  gripper up cota x medida 255.763596
+lun12 11:41  PARKING UP TOMAR DIFERENCIA CON X REF = 2.236404 
+lun12 11:41  *** PRESS SYSTEM LINK ***
+lun12 11:42  *** PRESS RESUME 1 ***
+lun12 11:42  *** CHECK HOME POSITION ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS SYSTEM LINK ***
+lun12 11:42  gripper down cota x medida 2890.151367
+lun12 11:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:42  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:43  gripper down cota x medida 2049.797119
+lun12 11:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.002881 
+lun12 11:44  gripper down cota x medida 289.704590
+lun12 11:44  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.295410 
+lun12 11:44  gripper up cota x medida 255.736572
+lun12 11:44  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263428 
+lun12 11:44  *** PRESS SYSTEM LINK ***
+lun12 11:45  *** PRESS RESUME 1 ***
+lun12 11:45  *** CHECK HOME POSITION ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS SYSTEM LINK ***
+lun12 11:45  gripper down cota x medida 2892.664062
+lun12 11:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.935937 
+lun12 11:46  gripper down cota x medida 937.657349
+lun12 11:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.142651 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:46  gripper up cota x medida 1024.258911
+lun12 11:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541089 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:47  *** PRESS SYSTEM LINK ***
+lun12 11:48  *** PRESS RESUME 1 ***
+lun12 11:48  *** CHECK HOME POSITION ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS SYSTEM LINK ***
+lun12 11:49  gripper down cota x medida 2892.624023
+lun12 11:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 11:49  gripper down cota x medida 937.866028
+lun12 11:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.933972 
+lun12 11:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:50  gripper up cota x medida 1024.158325
+lun12 11:50  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.641675 
+lun12 11:50  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:50  *** PRESS SYSTEM LINK ***
+lun12 11:51  *** PRESS RESUME 1 ***
+lun12 11:51  *** CHECK HOME POSITION ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS SYSTEM LINK ***
+lun12 11:52  gripper down cota x medida 2890.191895
+lun12 11:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.408105 
+lun12 11:52  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:52  gripper down cota x medida 2049.691895
+lun12 11:52  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.108105 
+lun12 11:53  gripper down cota x medida 289.585571
+lun12 11:53  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.414429 
+lun12 11:54  gripper up cota x medida 255.598343
+lun12 11:54  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401657 
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  *** PRESS RESUME 1 ***
+lun12 11:54  *** CHECK HOME POSITION ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  gripper down cota x medida 2890.151367
+lun12 11:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:55  gripper down cota x medida 2049.672119
+lun12 11:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.127881 
+lun12 11:56  gripper down cota x medida 289.651306
+lun12 11:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.348694 
+lun12 11:56  gripper up cota x medida 255.591553
+lun12 11:56  PARKING UP TOMAR DIFERENCIA CON X REF = 2.408447 
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  *** PRESS RESUME 1 ***
+lun12 11:57  *** CHECK HOME POSITION ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  gripper down cota x medida 2892.610352
+lun12 11:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:58  gripper down cota x medida 938.189941
+lun12 11:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.610059 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:58  gripper up cota x medida 1024.137939
+lun12 11:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.662061 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:59  *** PRESS SYSTEM LINK ***
+lun12 12:00  *** PRESS RESUME 1 ***
+lun12 12:00  *** CHECK HOME POSITION ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS SYSTEM LINK ***
+lun12 12:00  gripper down cota x medida 2892.624023
+lun12 12:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 12:01  gripper down cota x medida 936.410950
+lun12 12:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.389050 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:01  gripper up cota x medida 1025.172729
+lun12 12:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.627271 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:01  *** PRESS SYSTEM LINK ***
+lun12 12:03  *** PRESS RESUME 1 ***
+lun12 12:03  *** CHECK HOME POSITION ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS SYSTEM LINK ***
+lun12 12:03  gripper down cota x medida 2890.251953
+lun12 12:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.348047 
+lun12 12:03  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:04  gripper down cota x medida 2049.698730
+lun12 12:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 12:04  gripper down cota x medida 289.697357
+lun12 12:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.302643 
+lun12 12:05  gripper up cota x medida 255.710037
+lun12 12:05  PARKING UP TOMAR DIFERENCIA CON X REF = 2.289963 
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:05  *** PRESS RESUME 1 ***
+lun12 12:05  *** CHECK HOME POSITION ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:06  gripper down cota x medida 2890.151367
+lun12 12:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 12:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:07  gripper down cota x medida 2049.625732
+lun12 12:07  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:07  gripper down cota x medida 289.949280
+lun12 12:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.050720 
+lun12 12:08  gripper up cota x medida 255.736633
+lun12 12:08  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263367 
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:08  *** PRESS RESUME 1 ***
+lun12 12:08  *** CHECK HOME POSITION ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:09  gripper down cota x medida 2892.704590
+lun12 12:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.895410 
+lun12 12:09  gripper down cota x medida 936.665527
+lun12 12:09  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.134473 
+lun12 12:09  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:10  gripper up cota x medida 1025.212891
+lun12 12:10  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.587109 
+lun12 12:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:10  *** PRESS SYSTEM LINK ***
+lun12 12:11  *** PRESS RESUME 1 ***
+lun12 12:11  *** CHECK HOME POSITION ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS SYSTEM LINK ***
+lun12 12:12  gripper down cota x medida 2892.651123
+lun12 12:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.948877 
+lun12 12:12  gripper down cota x medida 936.571106
+lun12 12:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.228894 
+lun12 12:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:13  gripper up cota x medida 1025.052612
+lun12 12:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.747388 
+lun12 12:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:13  *** PRESS SYSTEM LINK ***
+lun12 12:14  *** PRESS RESUME 1 ***
+lun12 12:15  *** CHECK HOME POSITION ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS SYSTEM LINK ***
+lun12 12:15  gripper down cota x medida 2890.192139
+lun12 12:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.407861 
+lun12 12:15  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:16  gripper down cota x medida 2049.738281
+lun12 12:16  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.061719 
+lun12 12:16  gripper down cota x medida 289.538849
+lun12 12:16  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.461151 
+lun12 12:17  gripper up cota x medida 255.425064
+lun12 12:17  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574936 
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:17  *** PRESS RESUME 1 ***
+lun12 12:17  *** CHECK HOME POSITION ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:18  gripper down cota x medida 2890.171631
+lun12 12:18  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 12:18  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:18  gripper down cota x medida 2049.625732
+lun12 12:18  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:19  *** PRESS SYSTEM LINK ***
+lun12 12:20  *** PRESS RESUME 1 ***
+lun12 12:20  *** CHECK HOME POSITION ***
+lun12 12:20  *** PRESS RESUME 2 ***
+lun12 12:20  *** PRESS SYSTEM LINK ***
+lun12 12:21  gripper down cota x medida 2892.764893
+lun12 12:21  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.835107 
+lun12 12:21  gripper down cota x medida 937.725952
+lun12 12:21  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.074048 
+lun12 12:21  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:21  *** PRESS RESUME 1 ***
+lun12 12:21  *** CHECK HOME POSITION ***
+lun12 12:21  *** PRESS RESUME 2 ***
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS RESUME 1 ***
+lun12 12:22  *** CHECK HOME POSITION ***
+lun12 12:22  *** PRESS RESUME 2 ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  gripper down cota x medida 2893.002441
+lun12 12:22  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.597559 
+lun12 12:23  gripper down cota x medida 2052.362061
+lun12 12:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -2.562061 
+lun12 12:23 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:25  gripper down cota x medida 290.118927
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+lun12 10:25  gripper up cota x medida 255.829880
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+lun12 10:25  *** PRESS SYSTEM LINK ***
+lun12 10:27  *** PRESS RESUME 1 ***
+lun12 10:27  *** CHECK HOME POSITION ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+lun12 10:27  gripper down cota x medida 2892.524170
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 10:28  gripper down cota x medida 936.758118
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:28  gripper up cota x medida 1024.991577
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:28  *** PRESS SYSTEM LINK ***
+lun12 10:30  *** PRESS RESUME 1 ***
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS SYSTEM LINK ***
+lun12 10:30  gripper down cota x medida 2892.610596
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+lun12 10:31  gripper down cota x medida 936.537231
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:31  gripper up cota x medida 1024.985229
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:31  *** PRESS SYSTEM LINK ***
+lun12 10:33  *** PRESS RESUME 1 ***
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS SYSTEM LINK ***
+lun12 10:33  gripper down cota x medida 2890.137939
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:34  gripper down cota x medida 2049.698730
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 10:34  gripper down cota x medida 289.412079
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+lun12 10:35  gripper up cota x medida 255.504944
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+lun12 10:35  *** PRESS SYSTEM LINK ***
+lun12 10:36  *** PRESS RESUME 1 ***
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+lun12 10:37  gripper down cota x medida 2890.198486
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:38  gripper down cota x medida 2049.751465
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+lun12 10:38  gripper down cota x medida 289.323792
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+lun12 10:39  gripper up cota x medida 255.425613
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+lun12 10:39  *** PRESS SYSTEM LINK ***
+lun12 10:40  *** PRESS RESUME 1 ***
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+lun12 10:40  gripper down cota x medida 2892.590820
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+lun12 10:41  gripper down cota x medida 936.351807
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:41  gripper up cota x medida 1025.240356
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:41  *** PRESS SYSTEM LINK ***
+lun12 10:43  *** PRESS RESUME 1 ***
+lun12 10:43  *** CHECK HOME POSITION ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+lun12 10:43  gripper down cota x medida 2892.624268
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+lun12 10:44  gripper down cota x medida 936.444092
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:44  gripper up cota x medida 1024.560547
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:44  *** PRESS SYSTEM LINK ***
+lun12 10:45  *** PRESS RESUME 1 ***
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+lun12 10:46  gripper down cota x medida 2890.158203
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:47  gripper down cota x medida 2049.685303
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+lun12 10:47  gripper down cota x medida 289.446075
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+lun12 10:48  gripper up cota x medida 255.903839
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:48  *** PRESS RESUME 1 ***
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:49  gripper down cota x medida 2890.171631
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:49  gripper down cota x medida 2049.645508
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+lun12 10:50  gripper down cota x medida 290.091370
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+lun12 10:51  gripper up cota x medida 255.837540
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+lun12 10:51  *** PRESS SYSTEM LINK ***
+lun12 10:53  *** PRESS RESUME 1 ***
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+lun12 10:53  gripper down cota x medida 2892.557617
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+lun12 10:54  gripper down cota x medida 936.358032
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:54  gripper up cota x medida 1024.725098
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:55  gripper down cota x medida 2897.013428
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+lun12 10:55  gripper down cota x medida 941.092896
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:56  gripper up cota x medida 1025.192993
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:56  *** PRESS SYSTEM LINK ***
+lun12 10:57  *** PRESS RESUME 1 ***
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+lun12 10:57  gripper down cota x medida 2890.157959
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:58  gripper down cota x medida 2049.824219
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+lun12 10:59  gripper down cota x medida 289.411835
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+lun12 10:59  gripper up cota x medida 255.605042
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+lun12 11:00  *** PRESS SYSTEM LINK ***
+lun12 11:01  *** PRESS RESUME 1 ***
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+lun12 11:01  gripper down cota x medida 2890.157959
+lun12 11:01  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 11:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:02  gripper down cota x medida 2051.124756
+lun12 11:02  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -1.324756 
+lun12 11:02  gripper down cota x medida 289.350922
+lun12 11:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.649078 
+lun12 11:03  gripper up cota x medida 255.425385
+lun12 11:03  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574615 
+lun12 11:03  *** PRESS SYSTEM LINK ***
+lun12 11:04  *** PRESS RESUME 1 ***
+lun12 11:04  *** CHECK HOME POSITION ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS SYSTEM LINK ***
+lun12 11:04  gripper down cota x medida 2892.524170
+lun12 11:04  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 11:05  gripper down cota x medida 938.825073
+lun12 11:05  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 17.974927 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:05  gripper up cota x medida 1023.091187
+lun12 11:05  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 28.708813 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:05  *** PRESS SYSTEM LINK ***
+lun12 11:07  *** PRESS RESUME 1 ***
+lun12 11:07  *** CHECK HOME POSITION ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS SYSTEM LINK ***
+lun12 11:07  gripper down cota x medida 2892.564209
+lun12 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.035791 
+lun12 11:08  gripper down cota x medida 936.371033
+lun12 11:08  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.428967 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:08  gripper up cota x medida 1025.213623
+lun12 11:08  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.586377 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:08  *** PRESS SYSTEM LINK ***
+lun12 11:10  *** PRESS RESUME 1 ***
+lun12 11:10  *** CHECK HOME POSITION ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS SYSTEM LINK ***
+lun12 11:10  gripper down cota x medida 2890.205566
+lun12 11:10  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.394434 
+lun12 11:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:11  gripper down cota x medida 2049.612549
+lun12 11:11  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.187451 
+lun12 11:11  gripper down cota x medida 289.895355
+lun12 11:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.104645 
+lun12 11:12  gripper up cota x medida 255.571945
+lun12 11:12  PARKING UP TOMAR DIFERENCIA CON X REF = 2.428055 
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:12  *** PRESS RESUME 1 ***
+lun12 11:12  *** CHECK HOME POSITION ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:13  gripper down cota x medida 2890.137939
+lun12 11:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 11:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:14  gripper down cota x medida 2049.751709
+lun12 11:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048291 
+lun12 11:14  gripper down cota x medida 289.479309
+lun12 11:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.520691 
+lun12 11:15  gripper up cota x medida 255.598251
+lun12 11:15  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401749 
+lun12 11:15  *** PRESS SYSTEM LINK ***
+lun12 11:22  *** PRESS RESUME 1 ***
+lun12 11:22  *** CHECK HOME POSITION ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS SYSTEM LINK ***
+lun12 11:22  gripper down cota x medida 2892.563965
+lun12 11:22  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.036035 
+lun12 11:23  gripper down cota x medida 937.092285
+lun12 11:23  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.707715 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:23  gripper up cota x medida 1024.613159
+lun12 11:23  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.186841 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:23  *** PRESS SYSTEM LINK ***
+lun12 11:24  *** PRESS RESUME 1 ***
+lun12 11:24  *** CHECK HOME POSITION ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS SYSTEM LINK ***
+lun12 11:25  gripper down cota x medida 2892.637695
+lun12 11:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.962305 
+lun12 11:25  gripper down cota x medida 938.098022
+lun12 11:25  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.701978 
+lun12 11:25  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:26  gripper up cota x medida 1024.380371
+lun12 11:26  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.419629 
+lun12 11:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:26  *** PRESS SYSTEM LINK ***
+lun12 11:27  *** PRESS RESUME 1 ***
+lun12 11:27  *** CHECK HOME POSITION ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS SYSTEM LINK ***
+lun12 11:27  gripper down cota x medida 2890.185303
+lun12 11:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.414697 
+lun12 11:27  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:28  gripper down cota x medida 2049.810303
+lun12 11:28  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.010303 
+lun12 11:29  gripper down cota x medida 289.558838
+lun12 11:29  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.441162 
+lun12 11:29  gripper up cota x medida 255.498688
+lun12 11:29  PARKING UP TOMAR DIFERENCIA CON X REF = 2.501312 
+lun12 11:29  *** PRESS SYSTEM LINK ***
+lun12 11:30  *** PRESS RESUME 1 ***
+lun12 11:30  *** CHECK HOME POSITION ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS SYSTEM LINK ***
+lun12 11:30  gripper down cota x medida 2890.131592
+lun12 11:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.468408 
+lun12 11:30  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:31  gripper down cota x medida 2049.757812
+lun12 11:31  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.042188 
+lun12 11:32  gripper down cota x medida 289.789337
+lun12 11:32  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.210663 
+lun12 11:32  gripper up cota x medida 255.617950
+lun12 11:32  PARKING UP TOMAR DIFERENCIA CON X REF = 2.382050 
+lun12 11:32  *** PRESS SYSTEM LINK ***
+lun12 11:33  *** PRESS RESUME 1 ***
+lun12 11:33  *** CHECK HOME POSITION ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS SYSTEM LINK ***
+lun12 11:33  gripper down cota x medida 2892.610352
+lun12 11:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:34  gripper down cota x medida 936.551025
+lun12 11:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.248975 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:34  gripper up cota x medida 1024.931396
+lun12 11:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.868604 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:34  *** PRESS SYSTEM LINK ***
+lun12 11:36  *** PRESS RESUME 1 ***
+lun12 11:36  *** CHECK HOME POSITION ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS SYSTEM LINK ***
+lun12 11:36  gripper down cota x medida 2892.684814
+lun12 11:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.915186 
+lun12 11:37  gripper down cota x medida 936.671814
+lun12 11:37  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.128186 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:37  gripper up cota x medida 1025.125977
+lun12 11:37  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.674023 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:37  *** PRESS SYSTEM LINK ***
+lun12 11:39  *** PRESS RESUME 1 ***
+lun12 11:39  *** CHECK HOME POSITION ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS SYSTEM LINK ***
+lun12 11:39  gripper down cota x medida 2890.151367
+lun12 11:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:39  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:40  gripper down cota x medida 2049.619385
+lun12 11:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.180615 
+lun12 11:40  gripper down cota x medida 289.737183
+lun12 11:40  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.262817 
+lun12 11:41  gripper up cota x medida 255.763596
+lun12 11:41  PARKING UP TOMAR DIFERENCIA CON X REF = 2.236404 
+lun12 11:41  *** PRESS SYSTEM LINK ***
+lun12 11:42  *** PRESS RESUME 1 ***
+lun12 11:42  *** CHECK HOME POSITION ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS SYSTEM LINK ***
+lun12 11:42  gripper down cota x medida 2890.151367
+lun12 11:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:42  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:43  gripper down cota x medida 2049.797119
+lun12 11:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.002881 
+lun12 11:44  gripper down cota x medida 289.704590
+lun12 11:44  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.295410 
+lun12 11:44  gripper up cota x medida 255.736572
+lun12 11:44  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263428 
+lun12 11:44  *** PRESS SYSTEM LINK ***
+lun12 11:45  *** PRESS RESUME 1 ***
+lun12 11:45  *** CHECK HOME POSITION ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS SYSTEM LINK ***
+lun12 11:45  gripper down cota x medida 2892.664062
+lun12 11:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.935937 
+lun12 11:46  gripper down cota x medida 937.657349
+lun12 11:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.142651 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:46  gripper up cota x medida 1024.258911
+lun12 11:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541089 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:47  *** PRESS SYSTEM LINK ***
+lun12 11:48  *** PRESS RESUME 1 ***
+lun12 11:48  *** CHECK HOME POSITION ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS SYSTEM LINK ***
+lun12 11:49  gripper down cota x medida 2892.624023
+lun12 11:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 11:49  gripper down cota x medida 937.866028
+lun12 11:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.933972 
+lun12 11:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:50  gripper up cota x medida 1024.158325
+lun12 11:50  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.641675 
+lun12 11:50  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:50  *** PRESS SYSTEM LINK ***
+lun12 11:51  *** PRESS RESUME 1 ***
+lun12 11:51  *** CHECK HOME POSITION ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS SYSTEM LINK ***
+lun12 11:52  gripper down cota x medida 2890.191895
+lun12 11:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.408105 
+lun12 11:52  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:52  gripper down cota x medida 2049.691895
+lun12 11:52  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.108105 
+lun12 11:53  gripper down cota x medida 289.585571
+lun12 11:53  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.414429 
+lun12 11:54  gripper up cota x medida 255.598343
+lun12 11:54  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401657 
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  *** PRESS RESUME 1 ***
+lun12 11:54  *** CHECK HOME POSITION ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  gripper down cota x medida 2890.151367
+lun12 11:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:55  gripper down cota x medida 2049.672119
+lun12 11:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.127881 
+lun12 11:56  gripper down cota x medida 289.651306
+lun12 11:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.348694 
+lun12 11:56  gripper up cota x medida 255.591553
+lun12 11:56  PARKING UP TOMAR DIFERENCIA CON X REF = 2.408447 
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  *** PRESS RESUME 1 ***
+lun12 11:57  *** CHECK HOME POSITION ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  gripper down cota x medida 2892.610352
+lun12 11:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:58  gripper down cota x medida 938.189941
+lun12 11:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.610059 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:58  gripper up cota x medida 1024.137939
+lun12 11:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.662061 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:59  *** PRESS SYSTEM LINK ***
+lun12 12:00  *** PRESS RESUME 1 ***
+lun12 12:00  *** CHECK HOME POSITION ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS SYSTEM LINK ***
+lun12 12:00  gripper down cota x medida 2892.624023
+lun12 12:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 12:01  gripper down cota x medida 936.410950
+lun12 12:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.389050 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:01  gripper up cota x medida 1025.172729
+lun12 12:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.627271 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:01  *** PRESS SYSTEM LINK ***
+lun12 12:03  *** PRESS RESUME 1 ***
+lun12 12:03  *** CHECK HOME POSITION ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS SYSTEM LINK ***
+lun12 12:03  gripper down cota x medida 2890.251953
+lun12 12:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.348047 
+lun12 12:03  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:04  gripper down cota x medida 2049.698730
+lun12 12:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 12:04  gripper down cota x medida 289.697357
+lun12 12:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.302643 
+lun12 12:05  gripper up cota x medida 255.710037
+lun12 12:05  PARKING UP TOMAR DIFERENCIA CON X REF = 2.289963 
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:05  *** PRESS RESUME 1 ***
+lun12 12:05  *** CHECK HOME POSITION ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:06  gripper down cota x medida 2890.151367
+lun12 12:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 12:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:07  gripper down cota x medida 2049.625732
+lun12 12:07  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:07  gripper down cota x medida 289.949280
+lun12 12:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.050720 
+lun12 12:08  gripper up cota x medida 255.736633
+lun12 12:08  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263367 
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:08  *** PRESS RESUME 1 ***
+lun12 12:08  *** CHECK HOME POSITION ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:09  gripper down cota x medida 2892.704590
+lun12 12:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.895410 
+lun12 12:09  gripper down cota x medida 936.665527
+lun12 12:09  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.134473 
+lun12 12:09  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:10  gripper up cota x medida 1025.212891
+lun12 12:10  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.587109 
+lun12 12:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:10  *** PRESS SYSTEM LINK ***
+lun12 12:11  *** PRESS RESUME 1 ***
+lun12 12:11  *** CHECK HOME POSITION ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS SYSTEM LINK ***
+lun12 12:12  gripper down cota x medida 2892.651123
+lun12 12:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.948877 
+lun12 12:12  gripper down cota x medida 936.571106
+lun12 12:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.228894 
+lun12 12:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:13  gripper up cota x medida 1025.052612
+lun12 12:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.747388 
+lun12 12:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:13  *** PRESS SYSTEM LINK ***
+lun12 12:14  *** PRESS RESUME 1 ***
+lun12 12:15  *** CHECK HOME POSITION ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS SYSTEM LINK ***
+lun12 12:15  gripper down cota x medida 2890.192139
+lun12 12:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.407861 
+lun12 12:15  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:16  gripper down cota x medida 2049.738281
+lun12 12:16  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.061719 
+lun12 12:16  gripper down cota x medida 289.538849
+lun12 12:16  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.461151 
+lun12 12:17  gripper up cota x medida 255.425064
+lun12 12:17  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574936 
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:17  *** PRESS RESUME 1 ***
+lun12 12:17  *** CHECK HOME POSITION ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:18  gripper down cota x medida 2890.171631
+lun12 12:18  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 12:18  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:18  gripper down cota x medida 2049.625732
+lun12 12:18  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:19  *** PRESS SYSTEM LINK ***
+lun12 12:20  *** PRESS RESUME 1 ***
+lun12 12:20  *** CHECK HOME POSITION ***
+lun12 12:20  *** PRESS RESUME 2 ***
+lun12 12:20  *** PRESS SYSTEM LINK ***
+lun12 12:21  gripper down cota x medida 2892.764893
+lun12 12:21  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.835107 
+lun12 12:21  gripper down cota x medida 937.725952
+lun12 12:21  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.074048 
+lun12 12:21  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:21  *** PRESS RESUME 1 ***
+lun12 12:21  *** CHECK HOME POSITION ***
+lun12 12:21  *** PRESS RESUME 2 ***
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS RESUME 1 ***
+lun12 12:22  *** CHECK HOME POSITION ***
+lun12 12:22  *** PRESS RESUME 2 ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  gripper down cota x medida 2893.002441
+lun12 12:22  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.597559 
+lun12 12:23  gripper down cota x medida 2052.362061
+lun12 12:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -2.562061 
+lun12 12:23 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+lun12 13:04 movimiento detenido por entrada habilitada
+
+--- Qtvcp Screen Started on: lun, feb 12 2024 02:29:15 ---
+lun12 02:29 Machine OFF
+lun12 02:29 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+lun12 02:29 Machine ON
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:11 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:11 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:13 No se puede abrir el archivo <../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc>
+lun12 08:13 no se puede abrir ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:14 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+lun12 08:15 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:18 Cannot switch pages while in AUTO mode
+lun12 08:45 Started program from line 1
+lun12 08:45  INIT - CARGA gripper down - Neumatico vertical de carga no esta arriba
+lun12 08:45 Started program from line 1
+lun12 08:46  gripper down cota x medida 290.475952
+lun12 08:46  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.524048 
+lun12 08:46  *** PRESS SYSTEM LINK ***
+lun12 08:46  *** PRESS RESUME 1 ***
+lun12 08:46  *** CHECK HOME POSITION ***
+lun12 08:51 Must be in AUTO mode to run a program
+lun12 08:51 Started program from line 1
+lun12 08:51  gripper down cota x medida 289.578552
+lun12 08:51  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.421448 
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:51  *** PRESS RESUME 1 ***
+lun12 08:51  *** CHECK HOME POSITION ***
+lun12 08:51  *** PRESS RESUME 2 ***
+lun12 08:51  *** PRESS SYSTEM LINK ***
+lun12 08:52  gripper down cota x medida 289.776947
+lun12 08:52  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.223053 
+lun12 08:52 Movimiento G38.2 terminado sin hacer contacto.
+lun12 08:56 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 08:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:19 Started program from line 1
+lun12 09:19  gripper down cota x medida 289.638306
+lun12 09:19  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.361694 
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:19  *** PRESS RESUME 1 ***
+lun12 09:19  *** CHECK HOME POSITION ***
+lun12 09:19  *** PRESS RESUME 2 ***
+lun12 09:19  *** PRESS SYSTEM LINK ***
+lun12 09:20  gripper down cota x medida 289.657837
+lun12 09:20  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.342163 
+lun12 09:20  gripper up cota x medida 255.783417
+lun12 09:20  PARKING UP TOMAR DIFERENCIA CON X REF = 2.216583 
+lun12 09:21  *** PRESS SYSTEM LINK ***
+lun12 09:23  *** PRESS RESUME 1 ***
+lun12 09:23  *** CHECK HOME POSITION ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS RESUME 2 ***
+lun12 09:25  *** PRESS SYSTEM LINK ***
+lun12 09:25  gripper down cota x medida 2892.537354
+lun12 09:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.062646 
+lun12 09:26  gripper down cota x medida 936.584351
+lun12 09:26  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.215649 
+lun12 09:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:32 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:34 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:35 Started program from line 1
+lun12 09:35  gripper down cota x medida 290.330994
+lun12 09:35  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.669006 
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  *** PRESS RESUME 1 ***
+lun12 09:36  *** CHECK HOME POSITION ***
+lun12 09:36  *** PRESS RESUME 2 ***
+lun12 09:36  *** PRESS SYSTEM LINK ***
+lun12 09:36  gripper down cota x medida 289.829834
+lun12 09:36  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.170166 
+lun12 09:37  gripper up cota x medida 255.804016
+lun12 09:37  PARKING UP TOMAR DIFERENCIA CON X REF = 2.195984 
+lun12 09:37  *** PRESS SYSTEM LINK ***
+lun12 09:39  *** PRESS RESUME 1 ***
+lun12 09:39  *** CHECK HOME POSITION ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS RESUME 2 ***
+lun12 09:40  *** PRESS SYSTEM LINK ***
+lun12 09:42  gripper down cota x medida 2892.630859
+lun12 09:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.969141 
+lun12 09:43  gripper down cota x medida 937.617493
+lun12 09:43  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.182507 
+lun12 09:43  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 09:43 Movimiento G38.2 terminado sin hacer contacto.
+lun12 09:58 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 09:58 Cannot switch pages while in AUTO mode
+lun12 10:00 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:01 Started program from line 1
+lun12 10:01  gripper down cota x medida 289.571930
+lun12 10:01  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.428070 
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  *** PRESS RESUME 1 ***
+lun12 10:02  *** CHECK HOME POSITION ***
+lun12 10:02  *** PRESS RESUME 2 ***
+lun12 10:02  *** PRESS SYSTEM LINK ***
+lun12 10:02  gripper down cota x medida 290.251953
+lun12 10:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.748047 
+lun12 10:03  gripper up cota x medida 256.177948
+lun12 10:03  PARKING UP TOMAR DIFERENCIA CON X REF = 1.822052 
+lun12 10:03  *** PRESS SYSTEM LINK ***
+lun12 10:05  *** PRESS RESUME 1 ***
+lun12 10:05  *** CHECK HOME POSITION ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS RESUME 2 ***
+lun12 10:05  *** PRESS SYSTEM LINK ***
+lun12 10:05  gripper down cota x medida 2892.463379
+lun12 10:05  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.136621 
+lun12 10:06  gripper down cota x medida 936.224182
+lun12 10:06  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.575818 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:06  gripper up cota x medida 1025.299805
+lun12 10:06  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.500195 
+lun12 10:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:06  *** PRESS SYSTEM LINK ***
+lun12 10:11  *** PRESS RESUME 1 ***
+lun12 10:11  *** CHECK HOME POSITION ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS RESUME 2 ***
+lun12 10:11  *** PRESS SYSTEM LINK ***
+lun12 10:11  gripper down cota x medida 2892.631348
+lun12 10:11  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.968652 
+lun12 10:12  gripper down cota x medida 938.169861
+lun12 10:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.630139 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:12  gripper up cota x medida 1024.258545
+lun12 10:12  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541455 
+lun12 10:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:13  *** PRESS SYSTEM LINK ***
+lun12 10:14  *** PRESS RESUME 1 ***
+lun12 10:14  *** CHECK HOME POSITION ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS RESUME 2 ***
+lun12 10:14  *** PRESS SYSTEM LINK ***
+lun12 10:14  gripper down cota x medida 2890.159180
+lun12 10:14  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.440820 
+lun12 10:14  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:20 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:20 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:23 Started program from line 1
+lun12 10:23  error eje Z fuera de posicion segura
+lun12 10:23  INIT - CARGA gripper down - No en posición segura Y/Z para comenzar
+lun12 10:24 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun12 10:24 Started program from line 1
+lun12 10:24  gripper down cota x medida 289.545685
+lun12 10:24  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.454315 
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:24  *** PRESS RESUME 1 ***
+lun12 10:24  *** CHECK HOME POSITION ***
+lun12 10:24  *** PRESS RESUME 2 ***
+lun12 10:24  *** PRESS SYSTEM LINK ***
+lun12 10:25  gripper down cota x medida 290.118927
+lun12 10:25  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.881073 
+lun12 10:25  gripper up cota x medida 255.829880
+lun12 10:25  PARKING UP TOMAR DIFERENCIA CON X REF = 2.170120 
+lun12 10:25  *** PRESS SYSTEM LINK ***
+lun12 10:27  *** PRESS RESUME 1 ***
+lun12 10:27  *** CHECK HOME POSITION ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS RESUME 2 ***
+lun12 10:27  *** PRESS SYSTEM LINK ***
+lun12 10:27  gripper down cota x medida 2892.524170
+lun12 10:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 10:28  gripper down cota x medida 936.758118
+lun12 10:28  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.041882 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:28  gripper up cota x medida 1024.991577
+lun12 10:28  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.808423 
+lun12 10:28  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:28  *** PRESS SYSTEM LINK ***
+lun12 10:30  *** PRESS RESUME 1 ***
+lun12 10:30  *** CHECK HOME POSITION ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS RESUME 2 ***
+lun12 10:30  *** PRESS SYSTEM LINK ***
+lun12 10:30  gripper down cota x medida 2892.610596
+lun12 10:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989404 
+lun12 10:31  gripper down cota x medida 936.537231
+lun12 10:31  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.262769 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:31  gripper up cota x medida 1024.985229
+lun12 10:31  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.814771 
+lun12 10:31  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:31  *** PRESS SYSTEM LINK ***
+lun12 10:33  *** PRESS RESUME 1 ***
+lun12 10:33  *** CHECK HOME POSITION ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS RESUME 2 ***
+lun12 10:33  *** PRESS SYSTEM LINK ***
+lun12 10:33  gripper down cota x medida 2890.137939
+lun12 10:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 10:33  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:34  gripper down cota x medida 2049.698730
+lun12 10:34  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 10:34  gripper down cota x medida 289.412079
+lun12 10:34  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.587921 
+lun12 10:35  gripper up cota x medida 255.504944
+lun12 10:35  PARKING UP TOMAR DIFERENCIA CON X REF = 2.495056 
+lun12 10:35  *** PRESS SYSTEM LINK ***
+lun12 10:36  *** PRESS RESUME 1 ***
+lun12 10:37  *** CHECK HOME POSITION ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS RESUME 2 ***
+lun12 10:37  *** PRESS SYSTEM LINK ***
+lun12 10:37  gripper down cota x medida 2890.198486
+lun12 10:37  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.401514 
+lun12 10:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:38  gripper down cota x medida 2049.751465
+lun12 10:38  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048535 
+lun12 10:38  gripper down cota x medida 289.323792
+lun12 10:38  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.676208 
+lun12 10:39  gripper up cota x medida 255.425613
+lun12 10:39  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574387 
+lun12 10:39  *** PRESS SYSTEM LINK ***
+lun12 10:40  *** PRESS RESUME 1 ***
+lun12 10:40  *** CHECK HOME POSITION ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS RESUME 2 ***
+lun12 10:40  *** PRESS SYSTEM LINK ***
+lun12 10:40  gripper down cota x medida 2892.590820
+lun12 10:40  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.009180 
+lun12 10:41  gripper down cota x medida 936.351807
+lun12 10:41  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.448193 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:41  gripper up cota x medida 1025.240356
+lun12 10:41  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.559644 
+lun12 10:41  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:41  *** PRESS SYSTEM LINK ***
+lun12 10:43  *** PRESS RESUME 1 ***
+lun12 10:43  *** CHECK HOME POSITION ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS RESUME 2 ***
+lun12 10:43  *** PRESS SYSTEM LINK ***
+lun12 10:43  gripper down cota x medida 2892.624268
+lun12 10:43  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975732 
+lun12 10:44  gripper down cota x medida 936.444092
+lun12 10:44  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.355908 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:44  gripper up cota x medida 1024.560547
+lun12 10:44  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.239453 
+lun12 10:44  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:44  *** PRESS SYSTEM LINK ***
+lun12 10:45  *** PRESS RESUME 1 ***
+lun12 10:45  *** CHECK HOME POSITION ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS RESUME 2 ***
+lun12 10:45  *** PRESS SYSTEM LINK ***
+lun12 10:46  gripper down cota x medida 2890.158203
+lun12 10:46  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.441797 
+lun12 10:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:47  gripper down cota x medida 2049.685303
+lun12 10:47  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.114697 
+lun12 10:47  gripper down cota x medida 289.446075
+lun12 10:47  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.553925 
+lun12 10:48  gripper up cota x medida 255.903839
+lun12 10:48  PARKING UP TOMAR DIFERENCIA CON X REF = 2.096161 
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:48  *** PRESS RESUME 1 ***
+lun12 10:48  *** CHECK HOME POSITION ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS RESUME 2 ***
+lun12 10:48  *** PRESS SYSTEM LINK ***
+lun12 10:49  gripper down cota x medida 2890.171631
+lun12 10:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 10:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:49  gripper down cota x medida 2049.645508
+lun12 10:49  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.154492 
+lun12 10:50  gripper down cota x medida 290.091370
+lun12 10:50  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 1.908630 
+lun12 10:51  gripper up cota x medida 255.837540
+lun12 10:51  PARKING UP TOMAR DIFERENCIA CON X REF = 2.162460 
+lun12 10:51  *** PRESS SYSTEM LINK ***
+lun12 10:53  *** PRESS RESUME 1 ***
+lun12 10:53  *** CHECK HOME POSITION ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS RESUME 2 ***
+lun12 10:53  *** PRESS SYSTEM LINK ***
+lun12 10:53  gripper down cota x medida 2892.557617
+lun12 10:53  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.042383 
+lun12 10:54  gripper down cota x medida 936.358032
+lun12 10:54  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.441968 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:54  gripper up cota x medida 1024.725098
+lun12 10:54  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.074902 
+lun12 10:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:54  *** PRESS RESUME 1 ***
+lun12 10:54  *** CHECK HOME POSITION ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS RESUME 2 ***
+lun12 10:54  *** PRESS SYSTEM LINK ***
+lun12 10:55  gripper down cota x medida 2897.013428
+lun12 10:55  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = -0.413428 
+lun12 10:55  gripper down cota x medida 941.092896
+lun12 10:55  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 15.707104 
+lun12 10:55  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 10:56  gripper up cota x medida 1025.192993
+lun12 10:56  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.607007 
+lun12 10:56  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 10:56  *** PRESS SYSTEM LINK ***
+lun12 10:57  *** PRESS RESUME 1 ***
+lun12 10:57  *** CHECK HOME POSITION ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS RESUME 2 ***
+lun12 10:57  *** PRESS SYSTEM LINK ***
+lun12 10:57  gripper down cota x medida 2890.157959
+lun12 10:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 10:57  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 10:58  gripper down cota x medida 2049.824219
+lun12 10:58  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.024219 
+lun12 10:59  gripper down cota x medida 289.411835
+lun12 10:59  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.588165 
+lun12 10:59  gripper up cota x medida 255.605042
+lun12 10:59  PARKING UP TOMAR DIFERENCIA CON X REF = 2.394958 
+lun12 11:00  *** PRESS SYSTEM LINK ***
+lun12 11:01  *** PRESS RESUME 1 ***
+lun12 11:01  *** CHECK HOME POSITION ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS RESUME 2 ***
+lun12 11:01  *** PRESS SYSTEM LINK ***
+lun12 11:01  gripper down cota x medida 2890.157959
+lun12 11:01  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.442041 
+lun12 11:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:02  gripper down cota x medida 2051.124756
+lun12 11:02  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -1.324756 
+lun12 11:02  gripper down cota x medida 289.350922
+lun12 11:02  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.649078 
+lun12 11:03  gripper up cota x medida 255.425385
+lun12 11:03  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574615 
+lun12 11:03  *** PRESS SYSTEM LINK ***
+lun12 11:04  *** PRESS RESUME 1 ***
+lun12 11:04  *** CHECK HOME POSITION ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS RESUME 2 ***
+lun12 11:04  *** PRESS SYSTEM LINK ***
+lun12 11:04  gripper down cota x medida 2892.524170
+lun12 11:04  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.075830 
+lun12 11:05  gripper down cota x medida 938.825073
+lun12 11:05  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 17.974927 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:05  gripper up cota x medida 1023.091187
+lun12 11:05  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 28.708813 
+lun12 11:05  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:05  *** PRESS SYSTEM LINK ***
+lun12 11:07  *** PRESS RESUME 1 ***
+lun12 11:07  *** CHECK HOME POSITION ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS RESUME 2 ***
+lun12 11:07  *** PRESS SYSTEM LINK ***
+lun12 11:07  gripper down cota x medida 2892.564209
+lun12 11:07  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.035791 
+lun12 11:08  gripper down cota x medida 936.371033
+lun12 11:08  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.428967 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:08  gripper up cota x medida 1025.213623
+lun12 11:08  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.586377 
+lun12 11:08  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:08  *** PRESS SYSTEM LINK ***
+lun12 11:10  *** PRESS RESUME 1 ***
+lun12 11:10  *** CHECK HOME POSITION ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS RESUME 2 ***
+lun12 11:10  *** PRESS SYSTEM LINK ***
+lun12 11:10  gripper down cota x medida 2890.205566
+lun12 11:10  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.394434 
+lun12 11:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:11  gripper down cota x medida 2049.612549
+lun12 11:11  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.187451 
+lun12 11:11  gripper down cota x medida 289.895355
+lun12 11:11  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.104645 
+lun12 11:12  gripper up cota x medida 255.571945
+lun12 11:12  PARKING UP TOMAR DIFERENCIA CON X REF = 2.428055 
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:12  *** PRESS RESUME 1 ***
+lun12 11:12  *** CHECK HOME POSITION ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS RESUME 2 ***
+lun12 11:12  *** PRESS SYSTEM LINK ***
+lun12 11:13  gripper down cota x medida 2890.137939
+lun12 11:13  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.462061 
+lun12 11:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:14  gripper down cota x medida 2049.751709
+lun12 11:14  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.048291 
+lun12 11:14  gripper down cota x medida 289.479309
+lun12 11:14  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.520691 
+lun12 11:15  gripper up cota x medida 255.598251
+lun12 11:15  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401749 
+lun12 11:15  *** PRESS SYSTEM LINK ***
+lun12 11:22  *** PRESS RESUME 1 ***
+lun12 11:22  *** CHECK HOME POSITION ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS RESUME 2 ***
+lun12 11:22  *** PRESS SYSTEM LINK ***
+lun12 11:22  gripper down cota x medida 2892.563965
+lun12 11:22  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 4.036035 
+lun12 11:23  gripper down cota x medida 937.092285
+lun12 11:23  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.707715 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:23  gripper up cota x medida 1024.613159
+lun12 11:23  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.186841 
+lun12 11:23  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:23  *** PRESS SYSTEM LINK ***
+lun12 11:24  *** PRESS RESUME 1 ***
+lun12 11:24  *** CHECK HOME POSITION ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS RESUME 2 ***
+lun12 11:24  *** PRESS SYSTEM LINK ***
+lun12 11:25  gripper down cota x medida 2892.637695
+lun12 11:25  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.962305 
+lun12 11:25  gripper down cota x medida 938.098022
+lun12 11:25  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.701978 
+lun12 11:25  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:26  gripper up cota x medida 1024.380371
+lun12 11:26  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.419629 
+lun12 11:26  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:26  *** PRESS SYSTEM LINK ***
+lun12 11:27  *** PRESS RESUME 1 ***
+lun12 11:27  *** CHECK HOME POSITION ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS RESUME 2 ***
+lun12 11:27  *** PRESS SYSTEM LINK ***
+lun12 11:27  gripper down cota x medida 2890.185303
+lun12 11:27  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.414697 
+lun12 11:27  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:28  gripper down cota x medida 2049.810303
+lun12 11:28  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -0.010303 
+lun12 11:29  gripper down cota x medida 289.558838
+lun12 11:29  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.441162 
+lun12 11:29  gripper up cota x medida 255.498688
+lun12 11:29  PARKING UP TOMAR DIFERENCIA CON X REF = 2.501312 
+lun12 11:29  *** PRESS SYSTEM LINK ***
+lun12 11:30  *** PRESS RESUME 1 ***
+lun12 11:30  *** CHECK HOME POSITION ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS RESUME 2 ***
+lun12 11:30  *** PRESS SYSTEM LINK ***
+lun12 11:30  gripper down cota x medida 2890.131592
+lun12 11:30  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.468408 
+lun12 11:30  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:31  gripper down cota x medida 2049.757812
+lun12 11:31  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.042188 
+lun12 11:32  gripper down cota x medida 289.789337
+lun12 11:32  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.210663 
+lun12 11:32  gripper up cota x medida 255.617950
+lun12 11:32  PARKING UP TOMAR DIFERENCIA CON X REF = 2.382050 
+lun12 11:32  *** PRESS SYSTEM LINK ***
+lun12 11:33  *** PRESS RESUME 1 ***
+lun12 11:33  *** CHECK HOME POSITION ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS RESUME 2 ***
+lun12 11:33  *** PRESS SYSTEM LINK ***
+lun12 11:33  gripper down cota x medida 2892.610352
+lun12 11:33  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:34  gripper down cota x medida 936.551025
+lun12 11:34  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.248975 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:34  gripper up cota x medida 1024.931396
+lun12 11:34  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.868604 
+lun12 11:34  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:34  *** PRESS SYSTEM LINK ***
+lun12 11:36  *** PRESS RESUME 1 ***
+lun12 11:36  *** CHECK HOME POSITION ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS RESUME 2 ***
+lun12 11:36  *** PRESS SYSTEM LINK ***
+lun12 11:36  gripper down cota x medida 2892.684814
+lun12 11:36  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.915186 
+lun12 11:37  gripper down cota x medida 936.671814
+lun12 11:37  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.128186 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:37  gripper up cota x medida 1025.125977
+lun12 11:37  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.674023 
+lun12 11:37  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:37  *** PRESS SYSTEM LINK ***
+lun12 11:39  *** PRESS RESUME 1 ***
+lun12 11:39  *** CHECK HOME POSITION ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS RESUME 2 ***
+lun12 11:39  *** PRESS SYSTEM LINK ***
+lun12 11:39  gripper down cota x medida 2890.151367
+lun12 11:39  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:39  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:40  gripper down cota x medida 2049.619385
+lun12 11:40  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.180615 
+lun12 11:40  gripper down cota x medida 289.737183
+lun12 11:40  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.262817 
+lun12 11:41  gripper up cota x medida 255.763596
+lun12 11:41  PARKING UP TOMAR DIFERENCIA CON X REF = 2.236404 
+lun12 11:41  *** PRESS SYSTEM LINK ***
+lun12 11:42  *** PRESS RESUME 1 ***
+lun12 11:42  *** CHECK HOME POSITION ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS RESUME 2 ***
+lun12 11:42  *** PRESS SYSTEM LINK ***
+lun12 11:42  gripper down cota x medida 2890.151367
+lun12 11:42  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:42  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:43  gripper down cota x medida 2049.797119
+lun12 11:43  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.002881 
+lun12 11:44  gripper down cota x medida 289.704590
+lun12 11:44  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.295410 
+lun12 11:44  gripper up cota x medida 255.736572
+lun12 11:44  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263428 
+lun12 11:44  *** PRESS SYSTEM LINK ***
+lun12 11:45  *** PRESS RESUME 1 ***
+lun12 11:45  *** CHECK HOME POSITION ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS RESUME 2 ***
+lun12 11:45  *** PRESS SYSTEM LINK ***
+lun12 11:45  gripper down cota x medida 2892.664062
+lun12 11:45  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.935937 
+lun12 11:46  gripper down cota x medida 937.657349
+lun12 11:46  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.142651 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:46  gripper up cota x medida 1024.258911
+lun12 11:46  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.541089 
+lun12 11:46  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:47  *** PRESS SYSTEM LINK ***
+lun12 11:48  *** PRESS RESUME 1 ***
+lun12 11:48  *** CHECK HOME POSITION ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS RESUME 2 ***
+lun12 11:48  *** PRESS SYSTEM LINK ***
+lun12 11:49  gripper down cota x medida 2892.624023
+lun12 11:49  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 11:49  gripper down cota x medida 937.866028
+lun12 11:49  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.933972 
+lun12 11:49  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:50  gripper up cota x medida 1024.158325
+lun12 11:50  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.641675 
+lun12 11:50  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:50  *** PRESS SYSTEM LINK ***
+lun12 11:51  *** PRESS RESUME 1 ***
+lun12 11:51  *** CHECK HOME POSITION ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS RESUME 2 ***
+lun12 11:51  *** PRESS SYSTEM LINK ***
+lun12 11:52  gripper down cota x medida 2890.191895
+lun12 11:52  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.408105 
+lun12 11:52  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:52  gripper down cota x medida 2049.691895
+lun12 11:52  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.108105 
+lun12 11:53  gripper down cota x medida 289.585571
+lun12 11:53  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.414429 
+lun12 11:54  gripper up cota x medida 255.598343
+lun12 11:54  PARKING UP TOMAR DIFERENCIA CON X REF = 2.401657 
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  *** PRESS RESUME 1 ***
+lun12 11:54  *** CHECK HOME POSITION ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS RESUME 2 ***
+lun12 11:54  *** PRESS SYSTEM LINK ***
+lun12 11:54  gripper down cota x medida 2890.151367
+lun12 11:54  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 11:54  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 11:55  gripper down cota x medida 2049.672119
+lun12 11:55  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.127881 
+lun12 11:56  gripper down cota x medida 289.651306
+lun12 11:56  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.348694 
+lun12 11:56  gripper up cota x medida 255.591553
+lun12 11:56  PARKING UP TOMAR DIFERENCIA CON X REF = 2.408447 
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  *** PRESS RESUME 1 ***
+lun12 11:57  *** CHECK HOME POSITION ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS RESUME 2 ***
+lun12 11:57  *** PRESS SYSTEM LINK ***
+lun12 11:57  gripper down cota x medida 2892.610352
+lun12 11:57  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.989648 
+lun12 11:58  gripper down cota x medida 938.189941
+lun12 11:58  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 18.610059 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 11:58  gripper up cota x medida 1024.137939
+lun12 11:58  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 27.662061 
+lun12 11:58  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 11:59  *** PRESS SYSTEM LINK ***
+lun12 12:00  *** PRESS RESUME 1 ***
+lun12 12:00  *** CHECK HOME POSITION ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS RESUME 2 ***
+lun12 12:00  *** PRESS SYSTEM LINK ***
+lun12 12:00  gripper down cota x medida 2892.624023
+lun12 12:00  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.975977 
+lun12 12:01  gripper down cota x medida 936.410950
+lun12 12:01  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.389050 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:01  gripper up cota x medida 1025.172729
+lun12 12:01  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.627271 
+lun12 12:01  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:01  *** PRESS SYSTEM LINK ***
+lun12 12:03  *** PRESS RESUME 1 ***
+lun12 12:03  *** CHECK HOME POSITION ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS RESUME 2 ***
+lun12 12:03  *** PRESS SYSTEM LINK ***
+lun12 12:03  gripper down cota x medida 2890.251953
+lun12 12:03  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.348047 
+lun12 12:03  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:04  gripper down cota x medida 2049.698730
+lun12 12:04  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.101270 
+lun12 12:04  gripper down cota x medida 289.697357
+lun12 12:04  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.302643 
+lun12 12:05  gripper up cota x medida 255.710037
+lun12 12:05  PARKING UP TOMAR DIFERENCIA CON X REF = 2.289963 
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:05  *** PRESS RESUME 1 ***
+lun12 12:05  *** CHECK HOME POSITION ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS RESUME 2 ***
+lun12 12:05  *** PRESS SYSTEM LINK ***
+lun12 12:06  gripper down cota x medida 2890.151367
+lun12 12:06  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.448633 
+lun12 12:06  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:07  gripper down cota x medida 2049.625732
+lun12 12:07  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:07  gripper down cota x medida 289.949280
+lun12 12:07  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.050720 
+lun12 12:08  gripper up cota x medida 255.736633
+lun12 12:08  PARKING UP TOMAR DIFERENCIA CON X REF = 2.263367 
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:08  *** PRESS RESUME 1 ***
+lun12 12:08  *** CHECK HOME POSITION ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS RESUME 2 ***
+lun12 12:08  *** PRESS SYSTEM LINK ***
+lun12 12:09  gripper down cota x medida 2892.704590
+lun12 12:09  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.895410 
+lun12 12:09  gripper down cota x medida 936.665527
+lun12 12:09  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.134473 
+lun12 12:09  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:10  gripper up cota x medida 1025.212891
+lun12 12:10  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.587109 
+lun12 12:10  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:10  *** PRESS SYSTEM LINK ***
+lun12 12:11  *** PRESS RESUME 1 ***
+lun12 12:11  *** CHECK HOME POSITION ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS RESUME 2 ***
+lun12 12:11  *** PRESS SYSTEM LINK ***
+lun12 12:12  gripper down cota x medida 2892.651123
+lun12 12:12  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 3.948877 
+lun12 12:12  gripper down cota x medida 936.571106
+lun12 12:12  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 20.228894 
+lun12 12:12  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:13  gripper up cota x medida 1025.052612
+lun12 12:13  VOLTEADOR UP TOMAR DIFERENCIA CON X REF = 26.747388 
+lun12 12:13  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR UP TOMAR
+lun12 12:13  *** PRESS SYSTEM LINK ***
+lun12 12:14  *** PRESS RESUME 1 ***
+lun12 12:15  *** CHECK HOME POSITION ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS RESUME 2 ***
+lun12 12:15  *** PRESS SYSTEM LINK ***
+lun12 12:15  gripper down cota x medida 2890.192139
+lun12 12:15  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.407861 
+lun12 12:15  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:16  gripper down cota x medida 2049.738281
+lun12 12:16  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.061719 
+lun12 12:16  gripper down cota x medida 289.538849
+lun12 12:16  CARGA GRIPPER DOWN TOMAR DIFERENCIA CON X REF = 2.461151 
+lun12 12:17  gripper up cota x medida 255.425064
+lun12 12:17  PARKING UP TOMAR DIFERENCIA CON X REF = 2.574936 
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:17  *** PRESS RESUME 1 ***
+lun12 12:17  *** CHECK HOME POSITION ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS RESUME 2 ***
+lun12 12:17  *** PRESS SYSTEM LINK ***
+lun12 12:18  gripper down cota x medida 2890.171631
+lun12 12:18  TORNO INTERCAMBIO TOMA GRD DIFERENCIA CON X REF = 6.428369 
+lun12 12:18  EXCESO ERROR ADMISIBLE EN X, EN RUTINA TORNO INTERCAMBIO TOMA GRD
+lun12 12:18  gripper down cota x medida 2049.625732
+lun12 12:18  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = 0.174268 
+lun12 12:19  *** PRESS SYSTEM LINK ***
+lun12 12:20  *** PRESS RESUME 1 ***
+lun12 12:20  *** CHECK HOME POSITION ***
+lun12 12:20  *** PRESS RESUME 2 ***
+lun12 12:20  *** PRESS SYSTEM LINK ***
+lun12 12:21  gripper down cota x medida 2892.764893
+lun12 12:21  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.835107 
+lun12 12:21  gripper down cota x medida 937.725952
+lun12 12:21  VOLTEADOR GRIPER DOWN DIFERENCIA CON X REF = 19.074048 
+lun12 12:21  EXCESO ERROR ADMISIBLE EN X, EN RUTINA VOLTEADOR GRIPER DOWN
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:21  *** PRESS RESUME 1 ***
+lun12 12:21  *** CHECK HOME POSITION ***
+lun12 12:21  *** PRESS RESUME 2 ***
+lun12 12:21  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  *** PRESS RESUME 1 ***
+lun12 12:22  *** CHECK HOME POSITION ***
+lun12 12:22  *** PRESS RESUME 2 ***
+lun12 12:22  *** PRESS SYSTEM LINK ***
+lun12 12:22  gripper down cota x medida 2893.002441
+lun12 12:22  TORNO TOMAR GRU DIFERENCIA CON X REF = 3.597559 
+lun12 12:23  gripper down cota x medida 2052.362061
+lun12 12:23  SOPLADOR DOWN TOMAR DIFERENCIA CON X REF = -2.562061 
+lun12 12:23 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+lun12 13:04 movimiento detenido por entrada habilitada
+lun12 13:04 Machine OFF
+

@@ -1,0 +1,403 @@
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:14:48 ---
+dom25 03:14 Machine OFF
+
+dom25 03:14 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:47:04 ---
+dom25 03:47 Machine OFF
+dom25 03:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:47:43 ---
+dom25 03:47 Machine OFF
+
+dom25 03:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 03:48 Machine ON
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:49:40 ---
+dom25 03:49 Machine OFF
+dom25 03:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:54:12 ---
+dom25 03:54 Machine OFF
+
+dom25 03:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 03:54:40 ---
+dom25 03:54 Machine OFF
+dom25 03:54 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 04:03:32 ---
+dom25 04:03 Machine OFF
+
+dom25 04:03 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 04:03 Machine ON
+
+dom25 04:31  0.000000
+
+dom25 04:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 04:42:54 ---
+dom25 04:42 Machine OFF
+
+dom25 04:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 04:43 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:43 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 04:46:00 ---
+dom25 04:46 Machine OFF
+dom25 04:46 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 04:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 04:47:15 ---
+dom25 04:47 Machine OFF
+dom25 04:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 04:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 04:48 Cannot switch pages while in AUTO mode
+
+dom25 04:48 Cannot switch pages while in AUTO mode
+
+dom25 04:48 Cannot switch pages while in AUTO mode
+
+dom25 04:48 Cannot switch pages while in AUTO mode
+
+dom25 04:48 Machine ON
+dom25 04:48 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 04:49 Cannot switch pages while in AUTO mode
+
+dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:06:29 ---
+dom25 05:06 Machine OFF
+dom25 05:06 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:07:34 ---
+dom25 05:07 Machine OFF
+
+dom25 05:07 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:08 Cannot switch pages while in AUTO mode
+
+dom25 05:08 Machine ON
+dom25 05:08 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom25 05:08 Cannot switch pages while in AUTO mode
+
+dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:10:01 ---
+dom25 05:10 Machine OFF
+
+dom25 05:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:10:47 ---
+dom25 05:10 Machine OFF
+
+dom25 05:10 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:11 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:11:56 ---
+dom25 05:11 Machine OFF
+dom25 05:12 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:12:38 ---
+dom25 05:12 Machine OFF
+
+dom25 05:12 Machine ON
+
+dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:16:38 ---
+dom25 05:16 Machine OFF
+
+dom25 05:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:16 Machine ON
+
+dom25 05:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:24:20 ---
+dom25 05:24 Machine OFF
+dom25 05:24 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:25 Cannot switch pages while in AUTO mode
+
+dom25 05:25 Cannot switch pages while in AUTO mode
+
+dom25 05:25 Cannot switch pages while in AUTO mode
+
+dom25 05:25 Cannot switch pages while in AUTO mode
+
+dom25 05:25 Machine ON
+dom25 05:25 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom25 05:25 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:25 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:26 Cannot switch pages while in AUTO mode
+
+dom25 05:26 Cannot switch pages while in AUTO mode
+
+dom25 05:26 Cannot switch pages while in AUTO mode
+dom25 05:26 Cannot switch pages while in AUTO mode
+
+dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 05:26 Cannot switch pages while in AUTO mode
+
+dom25 05:26 Cannot switch pages while in AUTO mode
+
+dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:27 Valor invalido, no se puede calcular.
+
+dom25 05:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:27:50 ---
+dom25 05:27 Machine OFF
+dom25 05:27 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:28 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:31:56 ---
+dom25 05:31 Machine OFF
+
+dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:32 Valor invalido, no se puede calcular.
+
+dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 05:32:48 ---
+dom25 05:32 Machine OFF
+dom25 05:32 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 05:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 06:16:24 ---
+dom25 06:16 Machine OFF
+dom25 06:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 06:17:22 ---
+dom25 06:17 Machine OFF
+
+dom25 06:17 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 06:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 06:18 Cannot switch pages while in AUTO mode
+
+dom25 06:18 Machine ON
+dom25 06:18 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 07:16 Machine OFF
+dom25 07:16 movimiento detenido por entrada habilitada
+
+dom25 08:16 Machine ON
+
+dom25 08:16 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+
+dom25 08:17 Machine OFF
+
+dom25 08:17 Machine ON
+dom25 08:17 no se puede hacer (EMC_JOINT_HOME:123) en modo MDI
+
+dom25 08:17 Machine OFF
+dom25 08:17 Machine ON
+
+dom25 08:17  0.000000
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 12:48:42 ---
+dom25 12:48 Machine OFF
+dom25 12:48 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 12:48 fallo del amplificador de articulacion 0
+dom25 12:48 fallo del amplificador de articulacion 1
+dom25 12:48 fallo del amplificador de articulacion 2
+
+dom25 12:48 fallo del amplificador de articulacion 0
+dom25 12:48 fallo del amplificador de articulacion 1
+
+dom25 12:48 fallo del amplificador de articulacion 2
+
+dom25 12:48 fallo del amplificador de articulacion 0
+dom25 12:48 fallo del amplificador de articulacion 1
+dom25 12:48 fallo del amplificador de articulacion 2
+
+dom25 12:49 fallo del amplificador de articulacion 0
+
+dom25 12:49 fallo del amplificador de articulacion 1
+dom25 12:49 fallo del amplificador de articulacion 2
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 12:49:18 ---
+dom25 12:49 Machine OFF
+
+dom25 12:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 12:49 fallo del amplificador de articulacion 0
+dom25 12:49 fallo del amplificador de articulacion 1
+
+dom25 12:49 fallo del amplificador de articulacion 2
+
+dom25 12:49 Machine ON
+
+dom25 12:49 Machine OFF
+

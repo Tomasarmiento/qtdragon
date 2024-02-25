@@ -51,6 +51,8 @@ TAB_BLW_PARK = 5
 TAB_TORNO = 10
 TAB_NEUMATIC = 11
 TAB_PATEADOR = 12
+TAB_AXIS = 13
+TAB_BEACON = 20
 
 
 
@@ -79,6 +81,7 @@ class HandlerClass:
         self.first_turnon = True
         self.inifile = linuxcnc.ini('../sim.qtvcp_screens.qtdragon/qtdragon.ini')
         self.program_not_od = '../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc'
+        self.main_test = '../sim.qtvcp_screens.qtdragon/ngc/main.ngc'
         self.program_od = '../sim.qtvcp_screens.qtdragon/ngc/program_od.ngc'
         self.program_empty = '../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc'
         self.messages_log = '../sim.qtvcp_screens.qtdragon/logs/'
@@ -93,6 +96,8 @@ class HandlerClass:
         self.TIMEOUT_PNEUMATIC = 8
         self.wait_time = 0.2
         self.flag_bd_pc = False
+        self.flag_pat_nb = False
+        self.xx = False
         self.err_routine = True
         self.chk_init_conditions = False
         self.safe_pos_x = 0
@@ -103,8 +108,8 @@ class HandlerClass:
         self.z_actual_position = 0
         self.ip_okuma = '192.168.1.2'
         self.lineedit_list = ["search_vel", "probe_vel", "max_probe", "eoffset_count"]
-        self.onoff_list = ["frame_program", "frame_tool", "frame_dro", "frame_override", "frame_status"]
-        self.couple_data_list = ["lineEdit_diametro_bruto", "lineEdit_diametro_torneado", "lineEdit_diametro_interno", "lineEdit_largo_bruto","lineEdit_largo_op10","lineEdit_largo_op20"]
+        self.onoff_list = ["frame_program", "frame_tool", "frame_dro", "frame_override", "widget_mode_buttons"] #"frame_status"
+        self.couple_data_list = ["lineEdit_diametro_bruto", "lineEdit_diametro_torneado", "lineEdit_diametro_interno", "lineEdit_largo_bruto","lineEdit_largo_op10","lineEdit_largo_op20","lineEdit_axis_stopper"]
         self.init_conditions_error_messages = {
             'carga': [],
             'descarga': [],
@@ -169,12 +174,13 @@ class HandlerClass:
         self.w.stackedWidget.setCurrentIndex(0)
         self.w.stackedWidget_dro.setCurrentIndex(0)
         #self.w.spindle_pause.setEnabled(False)
-        self.w.btn_dimensions.setChecked(True)
+        #self.w.btn_dimensions.setChecked(True)
         self.w.page_buttonGroup.buttonClicked.connect(self.main_tab_changed)
         self.w.filemanager.onUserClicked()    
         self.w.filemanager_usb.onMediaClicked()
         self.w.filemanager.list.setAlternatingRowColors(False)
         self.w.filemanager_usb.list.setAlternatingRowColors(False)
+        self.w.frame_top_left.hide()
         STYLEEDITOR.loadStyleSheet('qtdragon_dark.qss')
         STYLEEDITOR.saveStyleSheet('qtdragon_dark.qss')
         STYLEEDITOR.on_applyButton_clicked()
@@ -200,11 +206,19 @@ class HandlerClass:
         self.safe_pos_y = self.inifile.find('INIT_SAFE_POSITIONS', 'Y_POS') or 'unknow'
         self.safe_pos_z = self.inifile.find('INIT_SAFE_POSITIONS', 'Z_POS') or 'unknow'
 
+        #pines de actualizacion de posicion para ofm(out of machine)
         pin = self.h.newpin("x-posRef", hal.HAL_FLOAT, hal.HAL_IN)
         hal_glib.GPin(pin).connect("value_changed", self.gantry_safe_position,"x")
 
         pin = self.h.newpin("z-posRef", hal.HAL_FLOAT, hal.HAL_IN)
         hal_glib.GPin(pin).connect("value_changed", self.gantry_safe_position, "z")
+        
+        #carga programa main del gantry cada vez que se modifica este valor
+        #pin = self.h.newpin("GAN_subroutine_master_out", hal.HAL_FLOAT, hal.HAL_IN)
+        pin = self.h.newpin("GAN_subroutine_master_in", hal.HAL_FLOAT, hal.HAL_IN)
+        hal_glib.GPin(pin).connect("value_changed", self.sub_routine_selector)
+
+
 
 
         #print 'xpos: ', safe_pos_x, '\n', 'ypos: ', safe_pos_y, '\n', 'zpos: ', safe_pos_z 
@@ -327,6 +341,11 @@ class HandlerClass:
                             'RI_tor_mfin':0,
                             'RI_tor_sl':0,
                             'RI_tor_ga':0,
+                            'NB_pat_kick':0,
+                            'GAN_subroutine_master_out':0,
+                            'BAL_red':0,
+                            'BAL_yellow':0,
+                            'BAL_green':0,
 							}
         self.py_control_pins = {'CTRL_bc_ogr':0,
 								'CTRL_bd_ogr':0,
@@ -339,6 +358,8 @@ class HandlerClass:
                                 'CTRL_end_cycle':0,
                                 'CTRL_ch_of':0,
                                 'CTRL_ch_no_cs':0,
+                                'CTRL_sl_writeg':0,
+                                'CTRL_sl_wasdown':0,
 							}
 
 
@@ -352,6 +373,12 @@ class HandlerClass:
         #declaracion de pines de entrada en python
         pin = self.h.newpin("SEN_bd_full", hal.HAL_BIT, hal.HAL_IN)
         hal_glib.GPin(pin).connect("value_changed", self.change_value)
+
+        pin = self.h.newpin("RI_tor_sl_confirm", hal.HAL_BIT, hal.HAL_IN)
+        hal_glib.GPin(pin).connect("value_changed", self.change_value2)
+
+        #pin = self.h.newpin("NB_pat_kick", hal.HAL_BIT, hal.HAL_IN)
+        #hal_glib.GPin(pin).connect("value_changed", self.change_value2)
         #for name,value in self.py_in_pins.items():
         #    self.pin_in = self.hglib_pin(self.h.newpin(name, hal.HAL_BIT, hal.HAL_IN))
         #    if str(name) in self.py_in_pins:
@@ -361,7 +388,10 @@ class HandlerClass:
                 
         #declaracion de pines de salida en python
         for name,value in self.py_out_pins.items():
-            self.pin_out = self.hglib_pin(self.h.newpin(name, hal.HAL_BIT, hal.HAL_IN))
+            if name == "GAN_subroutine_master_out":
+                self.pin_out = self.hglib_pin(self.h.newpin(name, hal.HAL_FLOAT, hal.HAL_IN))
+            else:
+                self.pin_out = self.hglib_pin(self.h.newpin(name, hal.HAL_BIT, hal.HAL_IN))
             if str(name) in self.py_out_pins:
                 self.py_out_pins.update({str(name): self.pin_out})
 
@@ -376,9 +406,70 @@ class HandlerClass:
         # print('los widgets son',self.w.sender().property('sensor'))
 
 
+    def sub_routine_selector(self,pin):
+        if int(pin.value) != 60 and int(pin.value) != 0:
+            self.py_out_pins['GAN_subroutine_master_out'].set(int(pin.value))
+            ACTION.SET_MANUAL_MODE()
+            if self.py_control_pins['CTRL_ch_od'].get() == False:
+                ACTION.OPEN_PROGRAM(self.program_not_od)
+            else:
+                ACTION.OPEN_PROGRAM(self.program_od)
+            print("open program")
+            #ACTION.RUN(1)
+
+        # if int(pin.value) != 0:
+        #    if self.py_control_pins['CTRL_ch_od'].get() == False:
+        #        ACTION.OPEN_PROGRAM(self.main_test)
+        #    else:
+        #        ACTION.OPEN_PROGRAM(self.program_od)
+            #ACTION.RUN(1)
+
+        #if self.w.main_tab_widget.currentIndex() != 0:
+        #    return
+        #if not STATUS.is_auto_mode():
+        #    self.add_status("Must be in AUTO mode to run a program")
+        #    return
+        #start_line = int(self.w.lbl_start_line.text().encode('utf-8'))
+        #self.add_status("Started program from line {}".format(start_line))
+        #self.run_time = 0
+        #if start_line == 1:
+        #    ACTION.RUN(start_line)
+        #else:
+        #    # instantiate preset dialog
+        #    info = '<b>Running from Line: {} <\b>'.format(start_line)
+        #    mess = {'NAME':'RUNFROMLINE', 'TITLE':'Preset Dialog', 'ID':'_RUNFROMLINE', 'MESSAGE':info, 'LINE':start_line}
+        #    ACTION.CALL_DIALOG(mess)
+
+    def change_value2(self,pin):
+        #print("entrada de sl",int(pin.value))
+        #print("flag de control",hal.get_value('CTRL_sl_writeg'))
+        #print(self.xx)
+        sl_state = pin.value
+        CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
+        if sl_state == 0 and CTRL_sl_writeg == 0:
+            key_1 = 'CTRL_sl_wasdown'
+            if not self.send_pctrl(key_1, True):
+                msg_error = 'Error sending control flag command - OKUMA - Turn on SL was down'
+                print(msg_error)
+                return False
+            
+        
+        #if hal.get_value(pin) == True:
+        #    self.flag_pat_nb = True
+        #else:
+        #    time.sleep(1)
+        #    self.flag_pat_nb = False
+
 
     def change_value(self,pin):
         #print('cambia valor de sensor')
+        #if self.threadPateador.is_alive() == True:
+        #    self.flag_pat_nb = False
+        #else:
+        #    hal.get_value(pin) == True:
+        #        self.flag_pat_nb = True
+
+
         if self.threadUnload.is_alive() == True:
             self.flag_bd_pc = False
         #return
@@ -759,14 +850,17 @@ class HandlerClass:
 
         if index is None: return
         # if in automode still allow settings to show so override limits can be used
-        if STATUS.is_auto_mode() and index !=8:
-            self.add_status("Cannot switch pages while in AUTO mode")
-            # make sure main page is showing
-            self.w.main_tab_widget.setCurrentIndex(0)
-            self.w.btn_main.setChecked(True)
-            return
+        if STATUS.is_auto_mode() and index !=8 and index !=13:
+            if index_axis != None:
+                self.w.stackedWidget_axis.setCurrentIndex(index_axis)
+            else:
+                self.add_status("Cannot switch pages while in AUTO mode")
+                # make sure main page is showing
+                self.w.main_tab_widget.setCurrentIndex(0)
+                self.w.btn_main.setChecked(True)
+                return
         #esto es lo que carga el main widget, el numero corresponde a la posisicon en la que sta en el codigo que se trae del numero index del html
-        if index != TAB_CARGA and index != TAB_DESCARGA and index != TAB_SEGREGADOR and index != TAB_VOLTEADOR and index != TAB_BLW_PARK and index != TAB_TORNO and index != TAB_GANTRY and index != TAB_PATEADOR and index_axis == None:
+        if index != TAB_CARGA and index != TAB_DESCARGA and index != TAB_SEGREGADOR and index != TAB_VOLTEADOR and index != TAB_BLW_PARK and index != TAB_TORNO and index != TAB_GANTRY and index != TAB_PATEADOR and index_axis == None and index != TAB_BEACON:
             self.w.main_tab_widget.setCurrentIndex(index)
             self.w.stackedWidget_neumatic.setCurrentIndex(0)
         else:
@@ -781,8 +875,10 @@ class HandlerClass:
         #esto es para los chiquitos de la izqurda, el numero corresponde a la posisicon en la que sta en el codigo
         if index == TAB_MAIN:
             self.w.stackedWidget.setCurrentIndex(0)
+            self.w.frame_top_left.hide()
         elif index == TAB_FILE:
             self.w.stackedWidget.setCurrentIndex(1)
+            self.w.frame_top_left.show()
         elif index == TAB_CARGA:
             self.w.stackedWidget.setCurrentIndex(2)
         elif index == TAB_DESCARGA:
@@ -799,8 +895,17 @@ class HandlerClass:
             self.w.stackedWidget.setCurrentIndex(8)
         elif index == TAB_PATEADOR:
             self.w.stackedWidget.setCurrentIndex(9)
+        elif index == TAB_AXIS:
+            self.w.stackedWidget.setCurrentIndex(0)
+            self.w.frame_top_left.hide()
+        elif index == TAB_BEACON:
+            self.w.stackedWidget.setCurrentIndex(10)
         else:
             self.w.stackedWidget.setCurrentIndex(0)
+            if self.w.main_tab_widget.currentIndex() == TAB_MAIN:
+                self.w.frame_top_left.hide()
+            else:
+                self.w.frame_top_left.show()
         
         #print(help(self.w.stackedWidget.setCurrentIndex))
         #for item in dir(self.w.stackedWidget):
@@ -1200,20 +1305,20 @@ class HandlerClass:
                     try:
                         with open(self.messages_log + filename, 'a') as f:
                             for n in valor:
-                                f.write(n + '\n')
+                                f.write(n.encode('utf-8') + '\n')
                             f.close()
                     except Exception as e:
-                        print("Error al escribir en el archivo")
+                        print("Error al escribir en el archivo1",e)
                 else:
                     try:
                         with open(self.messages_log + filename, 'w') as f:
-                            f.write(text)
+                            f.write(text.encode('utf-8'))
                             f.close()
                     except Exception as e:
-                        print("Error al escribir en el archivo")
+                        print("Error al escribir en el archivo2")
                     
             old_len_list = len(list_of_messages)
-            unicode_string = text.decode("utf-8")
+            #unicode_string = text.decode("utf-8")
 
   
             #chequea si hay errores de rutinas para poder imprimirlos
@@ -1232,25 +1337,34 @@ class HandlerClass:
                     # Paso 0 - Apaga flag de control rutina terminada
                     key_1 = 'CTRL_blw_er'
                     if not self.send_pctrl(key_1, False):
-                        print('Error Envio de comando flag control - SOPLADO - Paso 0 - No se pudo apagar flag soplado')
+                        print('Error Sending Control Flag Command - BLOWING - Step 0 - Unable to turn off blowing flag')
                         self.err_routine = False
 
                     # Paso 1 - Apaga flag de control gantry puede ingresar al ch
                     key_1 = 'CTRL_ch_ce'
                     if not self.send_pctrl(key_1, False):
-                        print('Error Envio de comando flag control - OKUMA - Paso 0 - No se pudo apagar flag gantry puede entrar')
+                        print('Error sending control flag command - OKUMA - Step 0 - Unable to turn off gantry entry flag')
                         self.err_routine = False
                     
                     # Paso 2 - Apaga flag de control gantry operation finished in lathe
                     key_1 = 'CTRL_ch_of'
                     if not self.send_pctrl(key_1, False):
-                        print('Error Envio de comando flag control - OKUMA - gantry operation finished in lathe')
+                        print('Error sending control flag command - OKUMA - Gantry operation finished in lathe')
                         self.err_routine = False
+                    
+                #Paso 3 - Chequea salida del codigo g para apagar flag de que sl estuvo en 0
+                CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
+                if CTRL_sl_writeg == 1:
+                    key_1 = 'CTRL_sl_wasdown'
+                    if not self.send_pctrl(key_1, False):
+                        msg_error = 'Error sending control flag command - OKUMA - Turn off SL was down'
+                        print(msg_error)
+                        return False
                         
 
                 # Paso 0 - Condiciones iniciales CARGA
                 init_conditions_error_messages = self.check_init_conditions_carga()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de carga')
+                init_conditions_error_messages.insert(0,'LOAD error - init conditions')
                 self.init_conditions_error_messages['carga'] = init_conditions_error_messages[:]
                 if len(init_conditions_error_messages) > 1:
                     #pass
@@ -1265,7 +1379,7 @@ class HandlerClass:
                     
                 # Paso 0 - Condiciones iniciales DESCARGA
                 init_conditions_error_messages = self.check_init_conditions_descarga()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de descarga')
+                init_conditions_error_messages.insert(0,'UNLOAD error - init conditions')
                 self.init_conditions_error_messages['descarga'] = init_conditions_error_messages[:]
                 if len(init_conditions_error_messages) > 1:
                     #pass
@@ -1281,7 +1395,7 @@ class HandlerClass:
 
                 # Paso 0 - Condiciones iniciales SOPLADOR
                 init_conditions_error_messages = self.check_init_conditions_blw()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de soplador')
+                init_conditions_error_messages.insert(0,'BLOWER error - init conditions')
                 self.init_conditions_error_messages['soplador'] = init_conditions_error_messages[:]
                 if len(init_conditions_error_messages) > 1:
                     #pass
@@ -1329,7 +1443,7 @@ class HandlerClass:
 
                 # Paso 0 - Condiciones iniciales PATEADOR
                 init_conditions_error_messages = self.check_init_conditions_pateador()
-                init_conditions_error_messages.insert(0,'Error en condiciones iniciales de pateador')
+                init_conditions_error_messages.insert(0,'KICKER error - init conditions')
                 self.init_conditions_error_messages['pateador'] = init_conditions_error_messages[:] 
                 if len(init_conditions_error_messages) > 1:
                     #pass
@@ -1388,6 +1502,9 @@ class HandlerClass:
 
  	# ********* rutina - PATEADOR *********
     def pateador_routine(self):
+        # Paso 0 - Baja flag de boton de entrada
+        self.flag_pat_nb = False
+
         # Paso 1 - Subir cuna
         key_1 = 'EV_pat_up'
         key_2 = 'EV_pat_down'
@@ -1980,17 +2097,17 @@ class HandlerClass:
 		error_messages = []
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
-			(self.threadPateador.is_alive() == False, 'Rutina ya ejecutandose'),			
-			(hal.get_value('SEN_pat_pc') == True, 'Cupla no presente en pateador'),
-            (hal.get_value('SEN_pat_down') == True, 'Cuna no esta abajo'),
-            (hal.get_value('SEN_pat_bkw') == True, 'Pateador no retraido'),
-			(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-      		(s.task_paused == 0, 'Pausa esta activa'),
-            (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+			(self.threadPateador.is_alive() == False, 'Routine already running'),			
+			(hal.get_value('SEN_pat_pc') == True, 'Coupling not present in kicker'),
+            (hal.get_value('SEN_pat_down') == True, 'Kicker is not down'),
+            (hal.get_value('SEN_pat_bkw') == True, 'Kicker not retracted'),
+			#(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
+      		#(s.task_paused == 0, 'Pausa esta activa'),
+            #(STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
             #(flag de que se puede patear == True, 'flag de pateo no activo'),
-            (self.err_routine == True, 'Error en rutina previo'),
-      		(anular == False, 'anulada activa'),
-            (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+            (self.err_routine == True, 'Error in previous routine'),
+      		#(anular == False, 'anulada activa'),
+            (hal.get_value('NB_pat_kick') == True, 'Coupling kick button not pressed'),
 		]
 
 		for flag, error in init_flags:
@@ -2026,6 +2143,7 @@ class HandlerClass:
             (self.err_routine == True, 'Error en rutina previo'),
       		(anular == False, 'anulada activa'),
             (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+            
       
 		]
 
@@ -2076,16 +2194,16 @@ class HandlerClass:
 		error_messages = []
 		# Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
 		init_flags = [
-			(self.threadBlower.is_alive() == False, 'Rutina ya ejecutandose'),
-			(self.py_control_pins['CTRL_blw_sr'].get() == True, 'Flag de comenzar rutina soplado no esta encendido'),	
-   			(self.py_control_pins['CTRL_blw_er'].get() == False, 'Flag de finalizacion de rutina de soplado no esta apagado'),
-      		(self.py_control_pins['CTRL_blw_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de soplador'),
-      		(s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-      		(s.task_paused == 0, 'Pausa esta activa'),
-            (self.err_routine == True, 'Error en rutina previo'),
-            (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+			(self.threadBlower.is_alive() == False, 'Routine already running'),
+			(self.py_control_pins['CTRL_blw_sr'].get() == True, 'Start blowing routine flag is not turned on'),	
+   			(self.py_control_pins['CTRL_blw_er'].get() == False, 'End blowing routine flag is not turned off'),
+      		(self.py_control_pins['CTRL_blw_ogr'].get() == False, 'Gantry should not be executing blower routine'),
+      		(s.task_mode == 2, 'Gantry is not in state 2 (automatic program)'),
+      		(s.task_paused == 0, 'Pause is active'),
+            (self.err_routine == True, 'Error in previous routine'),
+            (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
       		#(anular == False, 'anulada activa'),
-            #(hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+            #
       
 		]
 
@@ -2104,32 +2222,30 @@ class HandlerClass:
         # Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
         if self.py_control_pins['CTRL_ch_od'].get() == False:
             init_flags = [
-                (self.threadUnload.is_alive() == False, 'Rutina ya ejecutandose'),
-                (hal.get_value('SEN_bd_up') == True, 'Piston de descarga no esta arriba'),	
-                (hal.get_value('SEN_bd_pc') == False, 'Cupla no presente en descarga'),
-                (hal.get_value('SEN_bd_full') == True, 'Bancal descarga lleno'),
-                (self.py_control_pins['CTRL_bd_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de descarga'),
-                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                (s.task_paused == 0, 'Pausa esta activa'),
-                (self.err_routine == True, 'Error en rutina previo'),
-                (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+                (self.threadUnload.is_alive() == False, 'Routine already running'),
+                (hal.get_value('SEN_bd_up') == True, 'The discharge piston is not up.'),	
+                (hal.get_value('SEN_bd_pc') == False, 'Coupling not present in discharge'),
+                (hal.get_value('SEN_bd_full') == True, 'Discharge full'),
+                (self.py_control_pins['CTRL_bd_ogr'].get() == False, 'Gantry should not be running discharge routine'),
+                (s.task_mode == 2, 'Gantry is not in state 2 (automatic program)'),
+                (s.task_paused == 0, 'Pause is active'),
+                (self.err_routine == True, 'Error in previous routine'),
+                (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
             ]
         else:
             init_flags = [
-                (self.threadUnload.is_alive() == False, 'Rutina ya ejecutandose'),
-                (hal.get_value('SEN_bd_up') == True, 'Piston de descarga no esta arriba'),	
-                (hal.get_value('SEN_bd_pc') == False, 'Cupla no presente en descarga'),
-                (hal.get_value('SEN_bd_full') == True, 'Bancal descarga lleno'),
-                (self.py_control_pins['CTRL_bd_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de descarga'),
-                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                (s.task_paused == 0, 'Pausa esta activa'),
-                (self.err_routine == True, 'Error en rutina previo'),
-                (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+                (self.threadUnload.is_alive() == False, 'Routine already running'),
+                (hal.get_value('SEN_bd_up') == True, 'The discharge piston is not up.'),	
+                (hal.get_value('SEN_bd_pc') == False, 'Coupling not present in discharge'),
+                (hal.get_value('SEN_bd_full') == True, 'Discharge full'),
+                (self.py_control_pins['CTRL_bd_ogr'].get() == False, 'Gantry should not be running discharge routine'),
+                (s.task_mode == 2, 'Gantry is not in state 2 (automatic program)'),
+                (s.task_paused == 0, 'Pause is active'),
+                (self.err_routine == True, 'Error in previous routine'),
+                (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('SEN_bd_bkw') == True, 'Piston de descarga adelante'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+                (hal.get_value('SEN_bd_bkw') == True, 'Discharge piston forward'),
             ]
 
 
@@ -2148,34 +2264,34 @@ class HandlerClass:
         # Paso 0 - Chequear condiciones iniciales - Todos los valores deben ser True par que empiece la rutina
         if self.py_control_pins['CTRL_ch_od'].get() == False:
             init_flags = [
-                (self.threadLoad.is_alive() == False, 'Rutina ya ejecutandose'),
-                (hal.get_value('SEN_seg_idle') == True, 'Segregador no presente del lado carga'),	
-                (hal.get_value('SEN_bc_up') == True, 'Piston de carga no esta arriba'),				
-                (hal.get_value('SEN_seg_pc') == True, 'Cupla no presente en segregador'),					
-                (hal.get_value('SEN_bc_pc') == False, 'Cupla presente en carga'),
-                (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de carga'),
-                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                (s.task_paused == 0, 'Pausa esta activa'),
-                (self.err_routine == True, 'Error en rutina previo'),
-                (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+                (self.threadLoad.is_alive() == False, 'Routine already running'),
+                (hal.get_value('SEN_seg_idle') == True, 'Segregator not present on the loading side'),	
+                (hal.get_value('SEN_bc_up') == True, 'Loading piston is not up'),				
+                (hal.get_value('SEN_seg_pc') == True, 'Coupling not present in segregator'),					
+                (hal.get_value('SEN_bc_pc') == False, 'Coupling present in loading'),
+                (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry should not be running loading routine'),
+                (s.task_mode == 2, 'Gantry is not in state 2 (automatic program)'),
+                (s.task_paused == 0, 'Pause is active'),
+                (self.err_routine == True, 'Error in previous routine'),
+                (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+                
             ]
         else:
             init_flags = [
-                (self.threadLoad.is_alive() == False, 'Rutina ya ejecutandose'),
-                (hal.get_value('SEN_seg_idle') == True, 'Segregador no presente del lado carga'),	
-                (hal.get_value('SEN_bc_up') == True, 'Piston de carga no esta arriba'),				
-                (hal.get_value('SEN_seg_pc') == True, 'Cupla no presente en segregador'),					
-                (hal.get_value('SEN_bc_pc') == True, 'Cupla presente en carga'),
-                (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry no debe estar ejecutando rutina de carga'),
-                (s.task_mode == 2, 'Gantry no esta en estado 2 (programa en automatico)'),
-                (s.task_paused == 0, 'Pausa esta activa'),
-                (hal.get_value('SEN_bc_bkw') == True, 'Piston de carga adelante'),
-                (self.err_routine == True, 'Error en rutina previo'),
-                (STATUS.is_auto_running() == True, 'No esta en play el programa de automatico'),
+                (self.threadLoad.is_alive() == False, 'Routine already running'),
+                (hal.get_value('SEN_seg_idle') == True, 'Segregator not present on the loading side'),	
+                (hal.get_value('SEN_bc_up') == True, 'Loading piston is not up'),				
+                (hal.get_value('SEN_seg_pc') == True, 'Coupling not present in segregator.'),					
+                (hal.get_value('SEN_bc_pc') == True, 'Coupling present in loading'),
+                (self.py_control_pins['CTRL_bc_ogr'].get() == False, 'Gantry should not be running loading routine'),
+                (s.task_mode == 2, 'Gantry is not in state 2 (automatic program)'),
+                (s.task_paused == 0, 'Pause is active'),
+                (hal.get_value('SEN_bc_bkw') == True, 'Loading piston forward'),
+                (self.err_routine == True, 'Error in previous routine'),
+                (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
-                (hal.get_value('RI_tor_sl_confirm') == True, 'Senal de system link del torno no esta prendida'),
+                
             ]
 
         for flag, error in init_flags:
@@ -2350,32 +2466,33 @@ class HandlerClass:
     def btn_send_cupla_params(self):
         changed = False
         cuple_inputs_dict = {
-        'diametro_bruto': self.w.lineEdit_diametro_bruto.text(),
-        'diametro_torneado': self.w.lineEdit_diametro_torneado.text(),
-        'diametro_interno': self.w.lineEdit_diametro_interno.text(),
-        'largo_bruto': self.w.lineEdit_largo_bruto.text(),
-        'largo_op10': self.w.lineEdit_largo_op10.text(),
-        'largo_torneado': self.w.lineEdit_largo_op20.text(),
-        'd_bruto_altura_ps': 0,
-        'd_torneado_altura_ps': 0,
-        'd_bruto_altura_cd': 0,
-        'd_torneado_altura_cd': 0,
+        'od_raw_diameter': self.w.lineEdit_diametro_bruto.text(),
+        'od_machined_diameter': self.w.lineEdit_diametro_torneado.text(),
+        'id_diameter': self.w.lineEdit_diametro_interno.text(),
+        'raw_coupling_length': self.w.lineEdit_largo_bruto.text(),
+        'op10_coupling_length': self.w.lineEdit_largo_op10.text(),
+        'final_coupling_length': self.w.lineEdit_largo_op20.text(),
+        'lathe_axial_stopper': self.w.lineEdit_axis_stopper.text(),
+        'd_raw_height_ps': 0,
+        'd_machined_height_ps': 0,
+        'd_raw_height_cd': 0,
+        'd_machined_height_cd': 0,
         }
 
         try:		
-            #if float(cuple_inputs_dict['diametro_torneado']) >= 75:
-            cuple_inputs_dict['d_bruto_altura_ps'] = math.sin(math.acos(50 / (12.5 + float(cuple_inputs_dict['diametro_bruto']) / 2))) * (12.5 + float(cuple_inputs_dict['diametro_bruto']) / 2)
-            cuple_inputs_dict['d_torneado_altura_ps'] = math.sin(math.acos(50 / (12.5 + float(cuple_inputs_dict['diametro_torneado']) / 2))) * (12.5 + float(cuple_inputs_dict['diametro_torneado']) / 2)
+            #if float(cuple_inputs_dict['od_machined_diameter']) >= 75:
+            cuple_inputs_dict['d_raw_height_ps'] = math.sin(math.acos(50 / (12.5 + float(cuple_inputs_dict['od_raw_diameter']) / 2))) * (12.5 + float(cuple_inputs_dict['od_raw_diameter']) / 2)
+            cuple_inputs_dict['d_machined_height_ps'] = math.sin(math.acos(50 / (12.5 + float(cuple_inputs_dict['od_machined_diameter']) / 2))) * (12.5 + float(cuple_inputs_dict['od_machined_diameter']) / 2)
             
-            print ('el valor del calculo bruto altura ps:',cuple_inputs_dict['d_bruto_altura_ps'])
-            print ('el valor del calculo torneado altura ps:',cuple_inputs_dict['d_torneado_altura_ps'])		
+            print ('el valor del calculo bruto altura ps:',cuple_inputs_dict['d_raw_height_ps'])
+            print ('el valor del calculo torneado altura ps:',cuple_inputs_dict['d_machined_height_ps'])		
             
             #testeado, da bien la formula
-            cuple_inputs_dict['d_bruto_altura_cd'] = math.sin(math.radians(55)) * (float(cuple_inputs_dict['diametro_bruto']) / 2) + math.tan(math.radians(35)) * math.cos(math.radians(55)) * (float(cuple_inputs_dict['diametro_bruto']) / 2)
-            cuple_inputs_dict['d_torneado_altura_cd'] = math.sin(math.radians(55)) * (float(cuple_inputs_dict['diametro_torneado']) / 2) + math.tan(math.radians(35)) * math.cos(math.radians(55)) * (float(cuple_inputs_dict['diametro_torneado']) / 2)
+            cuple_inputs_dict['d_raw_height_cd'] = math.sin(math.radians(55)) * (float(cuple_inputs_dict['od_raw_diameter']) / 2) + math.tan(math.radians(35)) * math.cos(math.radians(55)) * (float(cuple_inputs_dict['od_raw_diameter']) / 2)
+            cuple_inputs_dict['d_machined_height_cd'] = math.sin(math.radians(55)) * (float(cuple_inputs_dict['od_machined_diameter']) / 2) + math.tan(math.radians(35)) * math.cos(math.radians(55)) * (float(cuple_inputs_dict['od_machined_diameter']) / 2)
             
-            print ('el valor del calculo CD bruto:',cuple_inputs_dict['d_bruto_altura_cd'])
-            print ('el valor del calculo CD torneado:',cuple_inputs_dict['d_torneado_altura_cd'])
+            print ('el valor del calculo CD bruto:',cuple_inputs_dict['d_raw_height_cd'])
+            print ('el valor del calculo CD torneado:',cuple_inputs_dict['d_machined_height_cd'])
         except:
             self.add_status('Valor invalido, no se puede calcular.')
             print('valor invalido, no se puede calcular')
@@ -2395,7 +2512,8 @@ class HandlerClass:
                     for key, value in cuple_inputs_dict.iteritems():
                         print key, value
                         if '<_{0}>= '.format(key) in line:
-                            lines[i] = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value))) + '\n'
+                            replaced_line = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value)))
+                            lines[i] = '    ' + replaced_line + '\n'  # Add 4 spaces before #
                             break
 
                 # Escribir las lineas modificadas en el archivo
@@ -2428,7 +2546,7 @@ class HandlerClass:
 
 
             #el and verifica si paso el largo al torno
-            if changed == True: #and self.iniciar_cliente(cuple_inputs_dict['largo_bruto']) #*****descomentar and
+            if changed == True: #and self.iniciar_cliente(cuple_inputs_dict['raw_coupling_length']) #*****descomentar and
                 if self.py_control_pins['CTRL_ch_od'].get() == False:
                     ACTION.OPEN_PROGRAM(self.program_not_od)
                 else:
@@ -2502,11 +2620,19 @@ class HandlerClass:
             self.w[widget].setEnabled(state)
         if state is True:
             self.w.jogging_frame.show()
+            self.w['mdiline_2'].show()
+            if self.w.main_tab_widget.currentIndex() == TAB_MAIN:
+                self.w.frame_top_left.hide()
+            else:
+                self.w.frame_top_left.show()
         else:
+            self.w['mdiline_2'].hide()
             self.w.jogging_frame.hide()
+            self.w.frame_top_left.hide()
             self.w.main_tab_widget.setCurrentIndex(TAB_MAIN)
             self.w.stackedWidget.setCurrentIndex(0)
         self.w.stackedWidget_dro.setCurrentIndex(0)
+
 
     def enable_onoff(self, state):
         if state:
@@ -2517,6 +2643,7 @@ class HandlerClass:
         self.h['eoffset_count'] = 0
         for widget in self.onoff_list:
             self.w[widget].setEnabled(state)
+            #self.w["action_exit"].setEnabled(True)
 
     def set_start_line(self, line):
         if line == 0:

@@ -231,7 +231,7 @@
                <enum>QFrame::Raised</enum>
               </property>
               <property name="currentIndex">
-               <number>2</number>
+               <number>8</number>
               </property>
               <widget class="QWidget" name="gcode_page">
                <property name="sizePolicy">
@@ -745,7 +745,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Download Forward&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Neumatic Retracted&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -753,7 +753,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="SEN_bd_frw" native="true">
+                    <widget class="LED" name="SEN_bd_rtc" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -820,7 +820,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Download Backward&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Neumatic Extended&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -828,7 +828,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="SEN_bd_bkw" native="true">
+                    <widget class="LED" name="SEN_bd_ext" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -1143,7 +1143,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>Load Forward</string>
+                      <string>Neumatic Retracted</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -1151,7 +1151,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="SEN_bc_frw" native="true">
+                    <widget class="LED" name="SEN_bc_rtc" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -1219,7 +1219,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>Load Backward</string>
+                      <string>Neumatic Extended</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -1227,7 +1227,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="SEN_bc_bkw" native="true">
+                    <widget class="LED" name="SEN_bc_ext" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -3344,7 +3344,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="RI_tor_sl_confirm" native="true">
+                    <widget class="LED" name="RI_tor_sl_confirm_2" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -4079,6 +4079,101 @@
                 </item>
                </layout>
               </widget>
+              <widget class="QWidget" name="cabinet_page">
+               <layout class="QVBoxLayout" name="verticalLayout_48">
+                <property name="spacing">
+                 <number>4</number>
+                </property>
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <property name="topMargin">
+                 <number>2</number>
+                </property>
+                <property name="rightMargin">
+                 <number>2</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <widget class="QWidget" name="widget_tool_table" native="true">
+                  <layout class="QHBoxLayout" name="horizontalLayout_29">
+                   <item>
+                    <widget class="QLabel" name="label_48">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>100</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>DejaVu Sans</family>
+                       <pointsize>20</pointsize>
+                       <kerning>true</kerning>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Air Presure</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="LED" name="SEN_presure" native="true">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>35</width>
+                       <height>35</height>
+                      </size>
+                     </property>
+                     <property name="diameter" stdset="0">
+                      <number>30</number>
+                     </property>
+                     <property name="color" stdset="0">
+                      <color>
+                       <red>0</red>
+                       <green>255</green>
+                       <blue>0</blue>
+                      </color>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
              </widget>
             </item>
             <item>
@@ -4348,7 +4443,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="btn_settings_2">
+               <widget class="QPushButton" name="btn_settings">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
@@ -4381,7 +4476,7 @@
                 </attribute>
                </widget>
               </item>
-              <item>
+              <item alignment="Qt::AlignTop">
                <widget class="QPushButton" name="btn_datos">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -4391,8 +4486,8 @@
                 </property>
                 <property name="minimumSize">
                  <size>
-                  <width>70</width>
-                  <height>40</height>
+                  <width>120</width>
+                  <height>80</height>
                  </size>
                 </property>
                 <property name="maximumSize">
@@ -4401,8 +4496,11 @@
                   <height>40</height>
                  </size>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.515306 rgba(0, 78, 255, 255), stop:1 rgba(0, 0, 0, 255));color:rgb(255, 255, 255);font: 16pt</string>
+                </property>
                 <property name="text">
-                 <string>DATOS</string>
+                 <string>NEW PART</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -4829,688 +4927,253 @@ RESET</string>
                       <number>0</number>
                      </property>
                      <item>
-                      <widget class="QWidget" name="widget_view_buttons" native="true">
+                      <widget class="QFrame" name="verticalFrame">
                        <property name="sizePolicy">
-                        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                        <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
                          <horstretch>0</horstretch>
                          <verstretch>0</verstretch>
                         </sizepolicy>
                        </property>
-                       <property name="minimumSize">
-                        <size>
-                         <width>54</width>
-                         <height>0</height>
-                        </size>
-                       </property>
                        <property name="maximumSize">
                         <size>
-                         <width>54</width>
+                         <width>100</width>
                          <height>16777215</height>
                         </size>
                        </property>
-                       <layout class="QVBoxLayout" name="verticalLayout">
-                        <property name="spacing">
-                         <number>4</number>
-                        </property>
-                        <property name="leftMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="topMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="rightMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="bottomMargin">
-                         <number>0</number>
-                        </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_47">
                         <item>
-                         <widget class="ActionButton" name="actionbutton_view_p">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Set view P</string>
-                          </property>
-                          <property name="text">
-                           <string>P</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                          <property name="checked">
-                           <bool>true</bool>
-                          </property>
-                          <property name="autoExclusive">
-                           <bool>true</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>P</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
+                         <layout class="QVBoxLayout" name="verticalLayout_50">
+                          <item>
+                           <widget class="QLabel" name="label_90">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>50</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>100</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>DejaVu Sans</family>
+                              <pointsize>10</pointsize>
+                              <weight>50</weight>
+                              <italic>false</italic>
+                              <bold>false</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">font: 10pt &quot;DejaVu Sans&quot;;</string>
+                            </property>
+                            <property name="text">
+                             <string>Lathe
+Hatch
+Open</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignCenter</set>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignHCenter">
+                           <widget class="LED" name="SEN_tor_gate_open_5" native="true">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>16</width>
+                              <height>16</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>35</width>
+                              <height>35</height>
+                             </size>
+                            </property>
+                            <property name="diameter" stdset="0">
+                             <number>20</number>
+                            </property>
+                            <property name="color" stdset="0">
+                             <color>
+                              <red>0</red>
+                              <green>255</green>
+                              <blue>0</blue>
+                             </color>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
                         </item>
                         <item>
-                         <widget class="ActionButton" name="actionbutton_view_x">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Set view X</string>
-                          </property>
-                          <property name="text">
-                           <string>X</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                          <property name="autoExclusive">
-                           <bool>true</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>X</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="ActionButton" name="actionbutton_view_y">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Set view Y</string>
-                          </property>
-                          <property name="text">
-                           <string>Y</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                          <property name="autoExclusive">
-                           <bool>true</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>Y</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="ActionButton" name="actionbutton_view_z">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Set view Z</string>
-                          </property>
-                          <property name="text">
-                           <string>Z</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                          <property name="autoExclusive">
-                           <bool>true</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>Z</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="PushButton" name="btn_dimensions">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Toggle display dimensions</string>
-                          </property>
-                          <property name="text">
-                           <string>D</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="ActionButton" name="actionbutton_zoom_in">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Zoom in</string>
-                          </property>
-                          <property name="text">
-                           <string>+</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>false</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>zoom-in</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="ActionButton" name="actionbutton_zoom_out">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Zoom out</string>
-                          </property>
-                          <property name="text">
-                           <string>-</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>false</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>zoom-out</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="ActionButton" name="actionbutton_clear">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="toolTip">
-                           <string>Clear display</string>
-                          </property>
-                          <property name="autoFillBackground">
-                           <bool>false</bool>
-                          </property>
-                          <property name="text">
-                           <string>C</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>false</bool>
-                          </property>
-                          <property name="estop_action" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="view_change_action" stdset="0">
-                           <bool>true</bool>
-                          </property>
-                          <property name="template_label_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="joint_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="incr_imperial_number" stdset="0">
-                           <double>0.010000000000000</double>
-                          </property>
-                          <property name="incr_mm_number" stdset="0">
-                           <double>0.025000000000000</double>
-                          </property>
-                          <property name="incr_angular_number" stdset="0">
-                           <double>-1.000000000000000</double>
-                          </property>
-                          <property name="toggle_float_option" stdset="0">
-                           <bool>false</bool>
-                          </property>
-                          <property name="float_num" stdset="0">
-                           <double>100.000000000000000</double>
-                          </property>
-                          <property name="float_alt_num" stdset="0">
-                           <double>50.000000000000000</double>
-                          </property>
-                          <property name="view_type_string" stdset="0">
-                           <string>Clear</string>
-                          </property>
-                          <property name="command_text_string" stdset="0">
-                           <string/>
-                          </property>
-                          <property name="ini_mdi_number" stdset="0">
-                           <number>0</number>
-                          </property>
-                          <property name="textTemplate" stdset="0">
-                           <string>%1.3f in</string>
-                          </property>
-                          <property name="alt_textTemplate" stdset="0">
-                           <string>%1.2f mm</string>
-                          </property>
-                         </widget>
+                         <layout class="QVBoxLayout" name="verticalLayout_52">
+                          <item>
+                           <widget class="QLabel" name="label_88">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>50</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>100</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>DejaVu Sans</family>
+                              <pointsize>10</pointsize>
+                              <weight>50</weight>
+                              <italic>false</italic>
+                              <bold>false</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">font: 10pt &quot;DejaVu Sans&quot;;</string>
+                            </property>
+                            <property name="text">
+                             <string>Lathe
+Hatch
+Closed</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignCenter</set>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignHCenter">
+                           <widget class="LED" name="SEN_tor_gate_closed_3" native="true">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>16</width>
+                              <height>16</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>35</width>
+                              <height>35</height>
+                             </size>
+                            </property>
+                            <property name="diameter" stdset="0">
+                             <number>20</number>
+                            </property>
+                            <property name="color" stdset="0">
+                             <color>
+                              <red>0</red>
+                              <green>255</green>
+                              <blue>0</blue>
+                             </color>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
                         </item>
                        </layout>
                       </widget>
                      </item>
                      <item>
-                      <widget class="GCodeGraphics" name="gcodegraphics" native="true">
-                       <property name="sizePolicy">
-                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                         <horstretch>0</horstretch>
-                         <verstretch>0</verstretch>
-                        </sizepolicy>
-                       </property>
-                       <property name="minimumSize">
-                        <size>
-                         <width>0</width>
-                         <height>0</height>
-                        </size>
-                       </property>
-                       <property name="maximumSize">
-                        <size>
-                         <width>16777215</width>
-                         <height>16777215</height>
-                        </size>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true"/>
-                       </property>
-                       <property name="_view" stdset="0">
-                        <string>p</string>
-                       </property>
-                       <property name="_dtg" stdset="0">
-                        <bool>false</bool>
-                       </property>
-                       <property name="background_color" stdset="0">
-                        <color>
-                         <red>0</red>
-                         <green>0</green>
-                         <blue>0</blue>
-                        </color>
-                       </property>
-                       <property name="overlay" stdset="0">
-                        <bool>false</bool>
-                       </property>
+                      <widget class="QWidget" name="verticalWidget" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_54">
+                        <item>
+                         <widget class="GcodeEditor" name="gcode_viewer_2" native="true">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Lato</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="auto_show_mdi_status" stdset="0">
+                           <bool>true</bool>
+                          </property>
+                          <property name="auto_show_manual_status" stdset="0">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="MDILine" name="mdiline_2">
+                          <property name="enabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="maxLength">
+                           <number>60</number>
+                          </property>
+                          <property name="placeholderText">
+                           <string>MDI:</string>
+                          </property>
+                          <property name="soft_keyboard_option" stdset="0">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
                       </widget>
                      </item>
                     </layout>
@@ -5622,7 +5285,7 @@ FILE</string>
                             </property>
                             <property name="icon">
                              <iconset>
-                              <normaloff>../../../../../home/ipclinux/images/qtdragon/images/Right_arrow.png</normaloff>../../../../../home/ipclinux/images/qtdragon/images/Right_arrow.png</iconset>
+                              <normaloff>../../images/qtdragon/images/Right_arrow.png</normaloff>../../images/qtdragon/images/Right_arrow.png</iconset>
                             </property>
                             <property name="iconSize">
                              <size>
@@ -5660,7 +5323,7 @@ FILE</string>
                             </property>
                             <property name="icon">
                              <iconset>
-                              <normaloff>../../../../../home/ipclinux/images/qtdragon/images/Left_arrow.png</normaloff>../../../../../home/ipclinux/images/qtdragon/images/Left_arrow.png</iconset>
+                              <normaloff>../../images/qtdragon/images/Left_arrow.png</normaloff>../../images/qtdragon/images/Left_arrow.png</iconset>
                             </property>
                             <property name="iconSize">
                              <size>
@@ -8048,7 +7711,7 @@ TO FILE</string>
                            </size>
                           </property>
                           <property name="styleSheet">
-                           <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
+                           <string notr="true">font: 8pt</string>
                           </property>
                           <property name="text">
                            <string>UNLOAD</string>
@@ -8180,7 +7843,7 @@ TO FILE</string>
                            </size>
                           </property>
                           <property name="styleSheet">
-                           <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
+                           <string notr="true">font: 8pt</string>
                           </property>
                           <property name="text">
                            <string>GANTRY</string>
@@ -8226,7 +7889,7 @@ TO FILE</string>
                            </size>
                           </property>
                           <property name="text">
-                           <string>TORNO</string>
+                           <string>LATHE</string>
                           </property>
                           <property name="checkable">
                            <bool>true</bool>
@@ -8322,6 +7985,52 @@ TO FILE</string>
                           </property>
                           <property name="index_neumatic" stdset="0">
                            <number>8</number>
+                          </property>
+                          <attribute name="buttonGroup">
+                           <string notr="true">page_buttonGroup</string>
+                          </attribute>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="btn_beacon">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>50</width>
+                            <height>40</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>50</width>
+                            <height>40</height>
+                           </size>
+                          </property>
+                          <property name="baseSize">
+                           <size>
+                            <width>60</width>
+                            <height>40</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 8pt</string>
+                          </property>
+                          <property name="text">
+                           <string>BEACON</string>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                          <property name="index" stdset="0">
+                           <number>20</number>
+                          </property>
+                          <property name="index_neumatic" stdset="0">
+                           <number>9</number>
                           </property>
                           <attribute name="buttonGroup">
                            <string notr="true">page_buttonGroup</string>
@@ -8484,7 +8193,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>FORWARD-L</string>
+                               <string>RETRACT-L</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8609,7 +8318,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>BACKWARD-L</string>
+                               <string>EXTEND-L</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8714,7 +8423,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>FORWARD-D</string>
+                               <string>RETRACT-D</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8839,7 +8548,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>BACKWARD-D</string>
+                               <string>EXTEND-D</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -10517,6 +10226,263 @@ TO FILE</string>
                                 </property>
                                 <property name="text">
                                  <string>KICKER DOWN</string>
+                                </property>
+                                <property name="bajar_des" stdset="0">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="template_label_option" stdset="0">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="joint_number" stdset="0">
+                                 <number>0</number>
+                                </property>
+                                <property name="incr_imperial_number" stdset="0">
+                                 <double>0.010000000000000</double>
+                                </property>
+                                <property name="incr_mm_number" stdset="0">
+                                 <double>0.025000000000000</double>
+                                </property>
+                                <property name="incr_angular_number" stdset="0">
+                                 <double>-1.000000000000000</double>
+                                </property>
+                                <property name="toggle_float_option" stdset="0">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="float_num" stdset="0">
+                                 <double>100.000000000000000</double>
+                                </property>
+                                <property name="float_alt_num" stdset="0">
+                                 <double>50.000000000000000</double>
+                                </property>
+                                <property name="view_type_string" stdset="0">
+                                 <string>P</string>
+                                </property>
+                                <property name="command_text_string" stdset="0">
+                                 <string/>
+                                </property>
+                                <property name="ini_mdi_number" stdset="0">
+                                 <number>0</number>
+                                </property>
+                                <property name="textTemplate" stdset="0">
+                                 <string>%1.3f in</string>
+                                </property>
+                                <property name="alt_textTemplate" stdset="0">
+                                 <string>%1.2f mm</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                        </layout>
+                       </widget>
+                       <widget class="QWidget" name="main_tab_widgetPage15">
+                        <layout class="QHBoxLayout" name="horizontalLayout_7">
+                         <property name="spacing">
+                          <number>4</number>
+                         </property>
+                         <property name="leftMargin">
+                          <number>4</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>4</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <layout class="QVBoxLayout" name="verticalLayout_30">
+                           <item>
+                            <widget class="QWidget" name="widget_zero_offsets_4" native="true">
+                             <layout class="QHBoxLayout" name="horizontalLayout">
+                              <property name="spacing">
+                               <number>4</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>4</number>
+                              </property>
+                              <item>
+                               <widget class="ActionButton" name="BAL_red">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>80</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>350</width>
+                                  <height>100</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">font: 15pt &quot;DejaVu Sans&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string>RED</string>
+                                </property>
+                                <property name="subir_d" stdset="0">
+                                 <bool>true</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QWidget" name="widget_zero_offsets_14" native="true">
+                             <layout class="QHBoxLayout" name="horizontalLayout_17">
+                              <property name="spacing">
+                               <number>4</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>4</number>
+                              </property>
+                              <item>
+                               <widget class="ActionButton" name="BAL_yellow">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>80</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>350</width>
+                                  <height>100</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">font: 15pt &quot;DejaVu Sans&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string>YELLOW</string>
+                                </property>
+                                <property name="bajar_des" stdset="0">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="template_label_option" stdset="0">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="joint_number" stdset="0">
+                                 <number>0</number>
+                                </property>
+                                <property name="incr_imperial_number" stdset="0">
+                                 <double>0.010000000000000</double>
+                                </property>
+                                <property name="incr_mm_number" stdset="0">
+                                 <double>0.025000000000000</double>
+                                </property>
+                                <property name="incr_angular_number" stdset="0">
+                                 <double>-1.000000000000000</double>
+                                </property>
+                                <property name="toggle_float_option" stdset="0">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="float_num" stdset="0">
+                                 <double>100.000000000000000</double>
+                                </property>
+                                <property name="float_alt_num" stdset="0">
+                                 <double>50.000000000000000</double>
+                                </property>
+                                <property name="view_type_string" stdset="0">
+                                 <string>P</string>
+                                </property>
+                                <property name="command_text_string" stdset="0">
+                                 <string/>
+                                </property>
+                                <property name="ini_mdi_number" stdset="0">
+                                 <number>0</number>
+                                </property>
+                                <property name="textTemplate" stdset="0">
+                                 <string>%1.3f in</string>
+                                </property>
+                                <property name="alt_textTemplate" stdset="0">
+                                 <string>%1.2f mm</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QWidget" name="widget_zero_offsets_3" native="true">
+                             <layout class="QHBoxLayout" name="horizontalLayout">
+                              <property name="spacing">
+                               <number>4</number>
+                              </property>
+                              <property name="leftMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="topMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>4</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>4</number>
+                              </property>
+                              <item>
+                               <widget class="ActionButton" name="BAL_green">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>80</width>
+                                  <height>50</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>350</width>
+                                  <height>100</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string>GREEN</string>
                                 </property>
                                 <property name="bajar_des" stdset="0">
                                  <bool>true</bool>
@@ -12502,58 +12468,9 @@ TO FILE</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap>../../../../../../../home/tom/images/qtdragon/images/silver_dragon.png</pixmap>
+                           <pixmap>../../../../../../../../home/tom/images/qtdragon/images/silver_dragon.png</pixmap>
                           </property>
                          </widget>
-                        </item>
-                        <item>
-                         <layout class="QHBoxLayout" name="horizontalLayout_49">
-                          <item>
-                           <widget class="QPushButton" name="CTRL_ch_od_2">
-                            <property name="minimumSize">
-                             <size>
-                              <width>0</width>
-                              <height>60</height>
-                             </size>
-                            </property>
-                            <property name="text">
-                             <string>Reset Master</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item>
-                           <widget class="LED" name="LED_init_master" native="true">
-                            <property name="sizePolicy">
-                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                              <horstretch>0</horstretch>
-                              <verstretch>0</verstretch>
-                             </sizepolicy>
-                            </property>
-                            <property name="minimumSize">
-                             <size>
-                              <width>16</width>
-                              <height>16</height>
-                             </size>
-                            </property>
-                            <property name="maximumSize">
-                             <size>
-                              <width>35</width>
-                              <height>35</height>
-                             </size>
-                            </property>
-                            <property name="diameter" stdset="0">
-                             <number>30</number>
-                            </property>
-                            <property name="color" stdset="0">
-                             <color>
-                              <red>0</red>
-                              <green>255</green>
-                              <blue>0</blue>
-                             </color>
-                            </property>
-                           </widget>
-                          </item>
-                         </layout>
                         </item>
                         <item>
                          <layout class="QHBoxLayout" name="horizontalLayout_46">
@@ -13289,6 +13206,51 @@ TO FILE</string>
                             </item>
                            </layout>
                           </item>
+                          <item>
+                           <layout class="QVBoxLayout" name="verticalLayout_74">
+                            <item alignment="Qt::AlignHCenter">
+                             <widget class="QLabel" name="label_54">
+                              <property name="text">
+                               <string>Axis Stopper</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item alignment="Qt::AlignHCenter">
+                             <widget class="QLineEdit" name="lineEdit_axis_stopper">
+                              <property name="enabled">
+                               <bool>false</bool>
+                              </property>
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>60</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>60</width>
+                                <height>30</height>
+                               </size>
+                              </property>
+                              <property name="maxLength">
+                               <number>8</number>
+                              </property>
+                              <property name="alignment">
+                               <set>Qt::AlignCenter</set>
+                              </property>
+                              <property name="readOnly">
+                               <bool>false</bool>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </item>
                          </layout>
                         </widget>
                        </item>
@@ -13309,7 +13271,7 @@ TO FILE</string>
                             </size>
                            </property>
                            <property name="text">
-                            <string>EDITAR</string>
+                            <string>EDIT</string>
                            </property>
                           </widget>
                          </item>
@@ -13322,7 +13284,7 @@ TO FILE</string>
                             </size>
                            </property>
                            <property name="text">
-                            <string>CARGAR PROGRAMA</string>
+                            <string>LOAD PROGRAM</string>
                            </property>
                           </widget>
                          </item>
@@ -14716,6 +14678,71 @@ START</string>
                <property name="bottomMargin">
                 <number>4</number>
                </property>
+               <item>
+                <spacer name="verticalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Maximum</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>10</width>
+                   <height>10</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_49">
+                 <item>
+                  <widget class="QPushButton" name="CTRL_ch_od_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>Reset Master</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="LED" name="LED_init_master" native="true">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>16</width>
+                     <height>16</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>35</width>
+                     <height>35</height>
+                    </size>
+                   </property>
+                   <property name="diameter" stdset="0">
+                    <number>30</number>
+                   </property>
+                   <property name="color" stdset="0">
+                    <color>
+                     <red>0</red>
+                     <green>255</green>
+                     <blue>0</blue>
+                    </color>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
                <item>
                 <widget class="QWidget" name="widget_state" native="true">
                  <layout class="QVBoxLayout" name="verticalLayout_28">
@@ -17605,7 +17632,7 @@ ALL</string>
                   <property name="bottomMargin">
                    <number>0</number>
                   </property>
-                  <item>
+                  <item alignment="Qt::AlignHCenter">
                    <widget class="QLabel" name="label_13">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -17830,7 +17857,7 @@ ALL</string>
                   <property name="bottomMargin">
                    <number>0</number>
                   </property>
-                  <item alignment="Qt::AlignHCenter">
+                  <item>
                    <widget class="QLabel" name="label_10">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18034,7 +18061,7 @@ ALL</string>
                      <property name="bottomMargin">
                       <number>0</number>
                      </property>
-                     <item alignment="Qt::AlignHCenter">
+                     <item>
                       <widget class="QLabel" name="label_41">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18181,7 +18208,7 @@ ALL</string>
                      <property name="bottomMargin">
                       <number>0</number>
                      </property>
-                     <item alignment="Qt::AlignHCenter">
+                     <item>
                       <widget class="QLabel" name="label_18">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18297,6 +18324,64 @@ ALL</string>
                </item>
               </layout>
              </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_23">
+              <item>
+               <widget class="QLabel" name="label_28">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>LINUXCNC LINKED</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="LED" name="ctrlConnected" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>16</width>
+                  <height>16</height>
+                 </size>
+                </property>
+                <property name="diameter" stdset="0">
+                 <number>15</number>
+                </property>
+                <property name="color" stdset="0">
+                 <color>
+                  <red>0</red>
+                  <green>255</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </item>
             <item>
              <widget class="QWidget" name="widget_clock_exit" native="true">
@@ -18525,12 +18610,6 @@ ALL</string>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>GCodeGraphics</class>
-   <extends>QWidget</extends>
-   <header>qtvcp.widgets.gcode_graphics</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>StatusSlider</class>
    <extends>QSlider</extends>
    <header>qtvcp.widgets.status_slider</header>
@@ -18682,22 +18761,6 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>btn_jog_l_slow</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slow_button_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1336</x>
-     <y>358</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>719</x>
-     <y>429</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>action_abort</sender>
    <signal>clicked()</signal>
    <receiver>progressBar</receiver>
@@ -18720,123 +18783,11 @@ ALL</string>
    <slot>percent_completed_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>112</x>
-     <y>42</y>
+     <x>129</x>
+     <y>75</y>
     </hint>
     <hint type="destinationlabel">
      <x>150</x>
-     <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_load_file</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_load_file_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>508</x>
-     <y>106</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1059</x>
-     <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_gcode_edit</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_gcode_edit_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>522</x>
-     <y>456</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1088</x>
-     <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_copy_right</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_copy_file_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>522</x>
-     <y>258</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>446</x>
-     <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_copy_left</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_copy_file_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>522</x>
-     <y>324</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>471</x>
-     <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_clear_status</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_clear_status_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1047</x>
-     <y>171</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1365</x>
-     <y>159</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_save_status</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_save_status_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1047</x>
-     <y>227</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1365</x>
-     <y>227</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>gcodegraphics</sender>
-   <signal>percentLoaded(int)</signal>
-   <receiver>MainWindow</receiver>
-   <slot>percent_loaded_changed()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>537</x>
-     <y>95</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>877</x>
      <y>0</y>
     </hint>
    </hints>
@@ -18906,6 +18857,198 @@ ALL</string>
    </hints>
   </connection>
   <connection>
+   <sender>action_zero_x</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_zero_axis_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>778</x>
+     <y>592</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1365</x>
+     <y>663</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>action_zero_y</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_zero_axis_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>778</x>
+     <y>654</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1364</x>
+     <y>697</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>action_zero_z</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_zero_axis_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>778</x>
+     <y>716</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1363</x>
+     <y>739</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>CTRL_ch_od_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_reset_master_init()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>544</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>783</x>
+     <y>-7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>CTRL_end_cycle</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_last_cycle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>726</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>-12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>resetFaults</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1077</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1358</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_jog_l_slow</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slow_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1336</x>
+     <y>358</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>719</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_load_file</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_load_file_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>508</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1059</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_gcode_edit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_gcode_edit_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>456</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1088</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_copy_right</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_copy_file_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>258</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_copy_left</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_copy_file_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>324</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>471</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_save_status</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_save_status_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1047</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1365</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>EV_seg_overturn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -18922,18 +19065,18 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>EV_seg_idle</sender>
+   <sender>btn_clear_status</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
+   <slot>btn_clear_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>971</x>
-     <y>393</y>
+     <x>1047</x>
+     <y>171</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1361</x>
-     <y>301</y>
+     <x>1365</x>
+     <y>159</y>
     </hint>
    </hints>
   </connection>
@@ -18950,6 +19093,22 @@ ALL</string>
     <hint type="destinationlabel">
      <x>1360</x>
      <y>118</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_seg_idle</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>971</x>
+     <y>393</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1361</x>
+     <y>301</y>
     </hint>
    </hints>
   </connection>
@@ -19008,8 +19167,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>631</x>
-     <y>120</y>
+     <x>1046</x>
+     <y>212</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19024,8 +19183,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>588</x>
-     <y>137</y>
+     <x>775</x>
+     <y>410</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19040,8 +19199,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>631</x>
-     <y>137</y>
+     <x>1046</x>
+     <y>410</y>
     </hint>
     <hint type="destinationlabel">
      <x>1364</x>
@@ -19050,10 +19209,10 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>EV_pat_frw</sender>
+   <sender>BAL_red</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
+   <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>537</x>
@@ -19066,14 +19225,14 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>EV_pat_bkw</sender>
+   <sender>BAL_yellow</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
+   <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>212</y>
+     <x>589</x>
+     <y>120</y>
     </hint>
     <hint type="destinationlabel">
      <x>1358</x>
@@ -19082,34 +19241,18 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>EV_pat_down</sender>
+   <sender>BAL_green</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
+   <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>410</y>
+     <x>589</x>
+     <y>137</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
      <y>437</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>EV_pat_up</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>775</x>
-     <y>410</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1359</x>
-     <y>286</y>
     </hint>
    </hints>
   </connection>
@@ -19120,8 +19263,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>119</y>
+     <x>1047</x>
+     <y>229</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19136,8 +19279,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>119</y>
+     <x>771</x>
+     <y>229</y>
     </hint>
     <hint type="destinationlabel">
      <x>1362</x>
@@ -19152,28 +19295,12 @@ ALL</string>
    <slot>chk_inhibit_display_selection_clicked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>687</x>
-     <y>399</y>
+     <x>545</x>
+     <y>89</y>
     </hint>
     <hint type="destinationlabel">
      <x>558</x>
      <y>0</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>EV_bc_frw</sender>
-   <signal>pressed()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_pressed_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>587</x>
-     <y>132</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1365</x>
-     <y>404</y>
     </hint>
    </hints>
   </connection>
@@ -19184,12 +19311,28 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>132</y>
+     <x>771</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
      <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_bc_frw</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_pressed_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>393</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1365</x>
+     <y>404</y>
     </hint>
    </hints>
   </connection>
@@ -19200,8 +19343,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>132</y>
+     <x>1047</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19216,8 +19359,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>132</y>
+     <x>1047</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
@@ -19232,8 +19375,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>119</y>
+     <x>1047</x>
+     <y>229</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19248,8 +19391,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>119</y>
+     <x>771</x>
+     <y>229</y>
     </hint>
     <hint type="destinationlabel">
      <x>1362</x>
@@ -19264,8 +19407,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>132</y>
+     <x>1047</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19280,8 +19423,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>635</x>
-     <y>132</y>
+     <x>1047</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19296,8 +19439,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>132</y>
+     <x>771</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19312,28 +19455,12 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>132</y>
+     <x>771</x>
+     <y>393</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
      <y>431</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>resetFaults</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_receiver_neumatic_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1077</x>
-     <y>25</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1358</x>
-     <y>73</y>
     </hint>
    </hints>
   </connection>
@@ -19350,6 +19477,22 @@ ALL</string>
     <hint type="destinationlabel">
      <x>820</x>
      <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_send_cupla_params()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>535</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1358</x>
+     <y>536</y>
     </hint>
    </hints>
   </connection>
@@ -19408,76 +19551,12 @@ ALL</string>
    <slot>btn_edit_couple_data_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>745</x>
-     <y>433</y>
+     <x>486</x>
+     <y>170</y>
     </hint>
     <hint type="destinationlabel">
      <x>1359</x>
      <y>397</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_send_cupla_params()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1053</x>
-     <y>433</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1358</x>
-     <y>536</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>action_zero_x</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_zero_axis_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>778</x>
-     <y>592</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1365</x>
-     <y>663</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>action_zero_y</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_zero_axis_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>778</x>
-     <y>654</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1364</x>
-     <y>697</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>action_zero_z</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_zero_axis_cmd()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>778</x>
-     <y>716</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1363</x>
-     <y>739</y>
     </hint>
    </hints>
   </connection>
@@ -19488,8 +19567,8 @@ ALL</string>
    <slot>chk_override_limits_checked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>687</x>
-     <y>453</y>
+     <x>545</x>
+     <y>94</y>
     </hint>
     <hint type="destinationlabel">
      <x>1364</x>
@@ -19504,8 +19583,8 @@ ALL</string>
    <slot>btn_od_version()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>868</x>
-     <y>419</y>
+     <x>485</x>
+     <y>148</y>
     </hint>
     <hint type="destinationlabel">
      <x>1335</x>
@@ -19514,50 +19593,18 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_3</sender>
+   <sender>RI_tor_cu</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_chk_init_conditions()</slot>
+   <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>801</x>
-     <y>149</y>
+     <x>1034</x>
+     <y>163</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1358</x>
-     <y>100</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>CTRL_ch_od_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_reset_master_init()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>854</x>
-     <y>311</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>783</x>
-     <y>-7</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>CTRL_end_cycle</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_last_cycle()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>378</x>
-     <y>726</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>234</x>
-     <y>-12</y>
+     <x>860</x>
+     <y>-6</y>
     </hint>
    </hints>
   </connection>
@@ -19568,8 +19615,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>759</x>
-     <y>91</y>
+     <x>537</x>
+     <y>95</y>
     </hint>
     <hint type="destinationlabel">
      <x>992</x>
@@ -19584,8 +19631,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>826</x>
-     <y>95</y>
+     <x>1034</x>
+     <y>106</y>
     </hint>
     <hint type="destinationlabel">
      <x>928</x>
@@ -19594,34 +19641,18 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>RI_tor_cc</sender>
+   <sender>pushButton_3</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
+   <slot>btn_chk_init_conditions()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>716</x>
-     <y>163</y>
+     <x>537</x>
+     <y>105</y>
     </hint>
     <hint type="destinationlabel">
-     <x>832</x>
-     <y>-20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>RI_tor_cu</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>899</x>
-     <y>163</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>860</x>
-     <y>-6</y>
+     <x>1358</x>
+     <y>100</y>
     </hint>
    </hints>
   </connection>
@@ -19632,8 +19663,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>750</x>
-     <y>223</y>
+     <x>769</x>
+     <y>219</y>
     </hint>
     <hint type="destinationlabel">
      <x>689</x>
@@ -19648,12 +19679,60 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>815</x>
-     <y>224</y>
+     <x>1034</x>
+     <y>219</y>
     </hint>
     <hint type="destinationlabel">
      <x>1103</x>
      <y>-11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RI_tor_cc</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_toggle_ev()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>769</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>832</x>
+     <y>-20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RI_tor_mfin</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_toggle_ev()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1034</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>-11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RI_tor_spare</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_toggle_ev()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>769</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>-15</y>
     </hint>
    </hints>
   </connection>
@@ -19664,8 +19743,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>705</x>
-     <y>295</y>
+     <x>769</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
      <x>1149</x>
@@ -19680,44 +19759,12 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1004</x>
-     <y>287</y>
+     <x>1034</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
      <x>1213</x>
      <y>-10</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>RI_tor_spare</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>558</x>
-     <y>362</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>477</x>
-     <y>-15</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>RI_tor_mfin</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>807</x>
-     <y>358</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>569</x>
-     <y>-11</y>
     </hint>
    </hints>
   </connection>
@@ -19728,8 +19775,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>743</x>
-     <y>422</y>
+     <x>769</x>
+     <y>441</y>
     </hint>
     <hint type="destinationlabel">
      <x>344</x>
@@ -19744,8 +19791,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>990</x>
-     <y>419</y>
+     <x>1034</x>
+     <y>441</y>
     </hint>
     <hint type="destinationlabel">
      <x>1317</x>
@@ -19828,6 +19875,7 @@ ALL</string>
   <slot>btn_reset_master_init()</slot>
   <slot>btn_last_cycle()</slot>
   <slot>btn_toggle_ev()</slot>
+  <slot>btn_man_mode()</slot>
  </slots>
  <buttongroups>
   <buttongroup name="mode_buttonGroup"/>
