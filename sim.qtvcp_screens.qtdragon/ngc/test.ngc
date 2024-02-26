@@ -1,0 +1,30 @@
+(**********************************************************************)
+(***** HEADING                                                    *****)
+(**********************************************************************)
+
+G10 L2 P1 X0 Y0 Z0 ;offset G54
+G90 ;absolute distance
+G54 ;zero
+G64 P1 ;path blending(cont)
+;M68 E0 Q30 ;change acceleration X
+;M68 E1 Q20 ;change acceleration Y
+;M68 E2 Q10 ;change acceleration Z
+
+g1 x500 f500
+m65 p56
+g1 x1000 f500
+m64 p56
+g1 x1500 f500
+m65 p56
+g1 x2000 f500
+m64 p56
+g1 x2500 f500
+m65 p56
+g1 x2000 f500
+m64 p56
+g1 x1500 f500
+m65 p56
+g1 x1000 f500
+m64 p56
+g1 x500 f500
+M02

@@ -8,15 +8,15 @@
 ;CALCULATIONS BASED ON COUPLING DIMENSIONS - START
 
     ;**** VALUES LOADED BY THE OPERATOR FROM DE PANEL ****
-    #<_od_raw_diameter>= 666
-    #<_od_machined_diameter>= 666
-    #<_id_diameter>= 666
+#<_od_raw_diameter>= 159.2
+#<_od_machined_diameter>= 154.7
+#<_id_diameter>= 100
 
-    #<_raw_coupling_length>= 666
-    #<_op10_coupling_length>= 666
-    #<_final_coupling_length>= 666
+#<_raw_coupling_length>= 305.8
+#<_op10_coupling_length>= 302
+#<_final_coupling_length>= 301.8
 
-    #<_lathe_axial_stopper>= 666
+#<_lathe_axial_stopper>= 46
 
 
 
@@ -34,8 +34,8 @@
     #<_d_reference_height_ps>= 70.83
 
     ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
-    #<_d_raw_height_ps>= 341.862911121
-    #<_d_machined_height_ps>= 341.862911121
+#<_d_raw_height_ps>= 77.3460406226
+#<_d_machined_height_ps>= 74.6526791214
 
     ;DIAMETER CORRECTIONS
     #<_d_raw_height_correction_ps>= [#<_d_raw_height_ps>-#<_d_reference_height_ps>] ;correction when raw diameter is used
@@ -50,8 +50,8 @@
     #<_d_reference_height_cd>= 90.58
 
     ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
-    #<_d_raw_height_cd>= 406.517938058
-    #<_d_machined_height_cd>= 406.517938058
+#<_d_raw_height_cd>= 97.1736572654
+#<_d_machined_height_cd>= 94.4269144407
 
     ;DIAMETER CORRECTIONS
     #<_d_raw_height_correction_cd>= [#<_d_raw_height_cd>-#<_d_reference_height_cd>] ;correction when raw diameter is used
@@ -61,9 +61,91 @@
 
 
 
+;(**********************************************************************)
+;(***** DEFINED POSITIONS & DIMENSIONS                             *****)
+;(**********************************************************************)
+
+;DEFINED POSITIONS & DIMENSIONS - START
+
+    ; ********** SERVICE POSITION **********
+    #<_x_service_position> = 1000
+    #<_y_service_position> = 0
+    #<_z_service_position> = 750
+
+
+
+    ; ********** SAFE POSITION **********
+    #<_y_secure_position> = 0
+    #<_z_secure_position> = 1350
+
+
+
+    ; ********** MEASURING **********
+    #<_offset_after_measuring> = 4
+    #<_measuring_limit> = 20
+
+
+
+    ; ********** UNLOAD **********
+    #<_unload_light>=3
+
+
+    
+    ; ********** Parking  ********** 
+    ; (raw couplings)
+    #<_parking_offset_x_measuring>=4
+    #<_parking_z_offset>=5
+    #<_parking_gripper_up_x_error_accepted>=6
+    #<_parking_gripper_down_x_error_accepted>=6
+
+
+
+    ; ********** Blower gripper_down ********** 
+    ; (machined couplings)
+    #<_blower_offset_x_measuring>=4
+    #<_blower_z_offset>=6
+    #<_blower_gripper_down_x_error_accepted>=6
+
+
+
+    ; ********** Load Gripper down **********
+    ; (raw couplings)
+    #<_load_offset_x_measuring>=4
+    #<_load_z_offset>=5
+    #<_load_gripper_down_x_error_accepted>=6
+
+
+
+    ; ********** Unload gripper_down ********** 
+    ; (machined couplings)
+    #<_unload_z_offset>=5
+
+
+
+    ; ********** Tumbler  ********** 
+    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
+    #<_tumbler_offset_x_measuring>=10
+    #<_tumbler_x_error_accepted>=6
+    #<_tumbler_x_displacement>=20
+
+
+
+    ; ********** Lathe **********
+    ; we consider the couplings with raw length
+    ; and the differents lengths from raw, op10 and op20 (finished)
+    ; are absorbed by the measuring routine
+    #<_lathe_offset_x_measuring>=6
+    #<_lathe_gripper_down_x_error_accepted>=6
+
+;DEFINED POSITIONS & DIMENSIONS - END
+
+
+
+;(**********************************************************************)
+;(***** MEASURED POSITION POINTS                                   *****)
+;(**********************************************************************)
 
 o<call_parameters> CALL
-
 ;MEASURED POSITION POINTS explanation - START
 
     ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
@@ -134,88 +216,6 @@ o<call_parameters> CALL
 
 
 
-
-;(**********************************************************************)
-;(***** DEFINED POSITIONS & DIMENSIONS                             *****)
-;(**********************************************************************)
-
-;DEFINED POSITIONS & DIMENSIONS - START
-
-    ; ********** SERVICE POSITION **********
-    #<_x_service_position> = 1000
-    #<_y_service_position> = 0
-    #<_z_service_position> = 750
-
-
-
-    ; ********** SAFE POSITION **********
-    #<_y_secure_position> = 0
-    #<_z_secure_position> = 1350
-
-
-
-    ; ********** MEASURING **********
-    #<_offset_after_measuring> = 4
-    #<_measuring_limit> = 20
-
-
-
-    ; ********** UNLOAD **********
-    #<_unload_light>=3
-
-
-    
-    ; ********** Parking  ********** 
-    ; (raw couplings)
-    #<_parking_offset_x_measuring>=4
-    #<_parking_z_offset>=8
-    #<_parking_gripper_up_x_error_accepted>=6
-    #<_parking_gripper_down_x_error_accepted>=6
-
-
-
-    ; ********** Blower gripper_down ********** 
-    ; (machined couplings)
-    #<_blower_offset_x_measuring>=4
-    #<_blower_z_offset>=6
-    #<_blower_gripper_down_x_error_accepted>=6
-
-
-
-    ; ********** Load Gripper down **********
-    ; (raw couplings)
-    #<_load_offset_x_measuring>=4
-    #<_load_z_offset>=5
-    #<_load_gripper_down_x_error_accepted>=6
-
-
-
-    ; ********** Unload gripper_down ********** 
-    ; (machined couplings)
-    #<_unload_z_offset>=5
-
-
-
-    ; ********** Tumbler  ********** 
-    ;(we say that always uses raw diameter couplings because is the bigest diameter, anyway is centered)
-    #<_tumbler_offset_x_measuring>=10
-    #<_tumbler_x_error_accepted>=6
-    #<_tumbler_x_displacement>=20
-
-
-
-    ; ********** Lathe **********
-    ; we consider the couplings with raw length
-    ; and the differents lengths from raw, op10 and op20 (finished)
-    ; are absorbed by the measuring routine
-    #<_lathe_offset_x_measuring>=6
-    #<_lathe_gripper_down_x_error_accepted>=6
-
-;DEFINED POSITIONS & DIMENSIONS - END
-
-
-
-
 ;(**********************************************************************)
 ;(***** RELATIVE POSITION POINTS                                   *****)
 ;(**********************************************************************)
@@ -240,19 +240,25 @@ o<call_parameters> CALL
     #<_parking_gripper_up_load_x_calculated>=[#<_parking_plate_to_gripper_up_x> + #<_raw_coupling_length>]
     #<_parking_gripper_up_z_calculated>=[#<_parking_gripper_up_z_reference> + #<_d_raw_height_correction_ps>]
 
+    #<_parking_gripper_down_x_meas_ref>=[#<_parking_gripper_down_load_x_calculated> + #<_parking_gripper_down_x_meas_offset>]
+    #<_parking_gripper_up_x_meas_ref>=[#<_parking_gripper_up_load_x_calculated> + #<_parking_gripper_up_x_meas_offset>]
+   
 
 
     ; ********** Blower gripper_down ********** 
     ; (machined couplings)
 
-    #<_blower_enter_x>=[#<_blower_plate_to_gripper_down_x> + 511]
+    #<_blower_enter_x>=[#<_blower_plate_to_gripper_down_x> + 700]
 
-    #<_blower_aproximates_x>=[#<_blower_plate_to_gripper_down_x> + 301]
+    #<_blower_allow_door_x>=[#<_blower_plate_to_gripper_down_x> + 700]
+
+    #<_blower_aproximates_x>=[#<_blower_plate_to_gripper_down_x> + 350]
     
     #<_blower_gripper_down_unload_x_calculated>=[#<_blower_plate_to_gripper_down_x> + #<_unload_light> + #<_final_coupling_length>]
     #<_blower_gripper_down_load_x_calculated>=[#<_blower_plate_to_gripper_down_x> + #<_final_coupling_length>]
     #<_blower_gripper_down_z_calculated_machined>=[#<_blower_gripper_down_z_reference> + #<_d_machined_height_correction_ps>]
 
+    #<_blower_gripper_down_x_meas_ref_machined>=[#<_blower_gripper_down_load_x_calculated> + #<_blower_gripper_down_x_meas_ref_offset>]
 
 
     ; ********** Load Gripper down **********
@@ -260,11 +266,12 @@ o<call_parameters> CALL
 
     #<_load_enter_x>=[#<_load_plate_to_gripper_down_x> + 423]
     
-    #<_load_aproximates_x>=[#<_load_plate_to_gripper_down_x> + 323] 
+    #<_load_aproximates_x>=[#<_load_plate_to_gripper_down_x> + 330] 
 
     #<_load_gripper_down_x_calculated>=[#<_load_plate_to_gripper_down_x> + #<_raw_coupling_length>] 
     #<_load_gripper_down_z_calculated>=[#<_load_gripper_down_z_reference> + #<_d_raw_height_correction_cd>]
 
+    #<_load_gripper_down_x_meas_ref>=[#<_load_gripper_down_x_calculated> + #<_load_gripper_down_x_meas_offset>]
 
 
     ; ********** Unload gripper_down ********** 
@@ -272,9 +279,9 @@ o<call_parameters> CALL
 
     #<_unload_enter_x>=[#<_unload_plate_to_gripper_down_x> + 510]
 
-    #<_unload_aproximates_x>=[#<_unload_plate_to_gripper_down_x> + 300]
+    #<_unload_aproximates_x>=[#<_unload_plate_to_gripper_down_x> + 330]
 
-    #<_unload_enter_intermediate_x>=[#<_unload_plate_to_gripper_down_x> + 330]
+    #<_unload_enter_intermediate_x>=[#<_unload_plate_to_gripper_down_x> + 350]
     #<_unload_enter_intermediate_Z>=[#<_unload_gripper_down_z_reference> + 127.6]
 
     #<_unload_gripper_down_x_calculated>=[#<_unload_plate_to_gripper_down_x> + #<_unload_light> + #<_final_coupling_length>]
@@ -311,7 +318,8 @@ o<call_parameters> CALL
     ;there is no length correction, because the dimension does not change with the couplng length variation, it is a fix dimension
     ;*** This value must be almost the same than _tumbler_gripper_down_extracts ***
 
-
+    #<_tumbler_gripper_down_x_meas_ref>=[#<_tumbler_gripper_down_load_from_extract> + #<_tumbler_gripper_down_x_meas_offset>]
+    #<_tumbler_gripper_up_x_meas_ref>=[#<_tumbler_gripper_up_load_from_extract> + #<_tumbler_gripper_up_x_meas_offset>]
 
 
     ; ********** Lathe **********
@@ -335,8 +343,9 @@ o<call_parameters> CALL
     #<_lathe_gripper_down_x_calculated>=[#<_lathe_chuck_front_to_gripper_down_x> + #<_lathe_axial_stopper> + #<_raw_coupling_length>]
     #<_lathe_gripper_up_x_calculated>=[#<_lathe_chuck_front_to_gripper_up_x> + #<_lathe_axial_stopper> + #<_unload_light> + #<_raw_coupling_length>]
 
-;RELATIVE POSITION POINTS - END
+    #<_lathe_gripper_down_x_meas_ref>=[#<_lathe_gripper_down_x_calculated> + #<_lathe_gripper_down_x_meas_offset>] 
 
+;RELATIVE POSITION POINTS - END
 
 
 
@@ -351,8 +360,6 @@ o<call_parameters> CALL
 
 
 
-
-
 (**********************************************************************)
 (***** HEADING                                                    *****)
 (**********************************************************************)
@@ -364,6 +371,8 @@ G64 P1 ;path blending(cont)
 ;M68 E0 Q30 ;change acceleration X
 ;M68 E1 Q20 ;change acceleration Y
 ;M68 E2 Q10 ;change acceleration Z
+#<_blower_manual> = 0
+#<_connected>=0
 
 
 
@@ -446,6 +455,14 @@ G64 P1 ;path blending(cont)
         o350 CALL
         M02
     o550 ENDIF
+
+    o560 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]LOAD_GRIPPER_DOWN> ] ;LOAD GRIPPER DOWN
+        (debug, LOAD GRIPPER DOWN)
+        ;(log, )
+        M100 P360
+        o360 CALL
+        M02
+    o560 ENDIF
 
     o575 IF [#5399 EQ #<_ini[SUBROUTINE_NUMBER_SELECTION]SERVICE_POSITION> ] ;SERVICE POS
         (debug, SERVICE POS)
@@ -534,6 +551,7 @@ G64 P1 ;path blending(cont)
 (**********************************************************************)
 
 o190 SUB ; routines for debugging
+    #<_connected>=0
     ;o800 CALL ;initializations
     ;o801 CALL ;checkings
     ;o1300 CALL ;LOAD gripper down
@@ -563,8 +581,23 @@ o190 ENDSUB
 (**********************************************************************)
 (***** PRODUCTION PROGRAM WITH STEPS                              *****)
 (**********************************************************************)
- 
-o400 SUB
+
+;Routines with automatic header and footer
+
+    ;PARKING GRD LEAVE GRU GRAB   HEADER  / -
+    ;PARKING GRD GRAB             -       / -
+    ;PARKING GRU LEAVE            -       / -
+    ;BLOWER LEAVE                 HEADER  / FOOTER
+    ;BLOWE GRAB                   HEADER  / -
+    ;LOAD                         HEADER  / FOOTER
+    ;UNLOAD                       HEADER  / FOOTER
+    ;TUMBLER (ALL 4)              -       / -
+    ;LATHE (ALL 3)                HEADER  / FOOTER
+
+
+
+
+o400 SUB ;PRODUCTION PROGRAM WITH STEPS  
 
     o800 CALL ;initializations
     o801 CALL ;checkings
@@ -573,6 +606,7 @@ o400 SUB
     ;*** STEP 0 - gantry empty / lathe empty ***
     o600 IF [#<_step> EQ 0]
         (debug, STEP 0 - gantry empty-lathe empty)
+        #<_connected>=0
 
         (debug, 0 - checkings step 0)
         o802 CALL ;checkings step 0
@@ -586,6 +620,7 @@ o400 SUB
     ;*** STEP 1 - gantry raw / lathe empty ***
     o601 IF [#<_step> EQ 1]
         (debug, STEP 1 - gantry raw-lathe empty)
+        #<_connected>=0
 
         (debug, 1 - checkings step 1)
         o803 CALL ;checkings step 1
@@ -600,15 +635,31 @@ o400 SUB
     ;*** STEP 2 - gantry empty / lathe op10 ***
     o602 IF [#<_step> EQ 2]
         (debug, STEP 2 - gantry empty-lathe op10)
+        #<_connected>=1 ;**** add trajectories ****
         
         (debug, 2 - checkings step 2)
         o804 CALL ;checkings step 2
         
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o4005 IF [#5399 EQ -1]
+                (debug, STEP2 - LOAD - Not in safe position, Y/Z coordinates)
+                ;(log, )
+                M02
+            o4005 ENDIF
+
         (debug, 2 - LOAD gripper down)
         o1300 CALL ;LOAD gripper down
         
+        ;don't need to do movements between routines
+        ;first movement in parking is Z
+
         (debug, 2 - PARKING - DOWN LEAVES - UP GRABS)
         o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
+
+        ;don't need to do final movements
+        ;parking ends in SAFE
         
         #<_step>=3
     o602 ENDIF
@@ -619,6 +670,7 @@ o400 SUB
         ;*** STEP 3 -  gantry raw up / lathe op10 ***
         o606 IF [#<_step> EQ 3]
             (debug, STEP 3 -  gantry raw up / lathe op10)
+            #<_connected>=0
 
             (debug, 3 - checkings step 3 to 6)
             o806 CALL ;checkings step 3 to 6
@@ -638,6 +690,7 @@ o400 SUB
         ;*** STEP 4 - gantry op10T up / lathe op10 ***
         o608 IF [#<_step> EQ 4]
             (debug, STEP 4 - gantry op10T up / lathe op10)
+            #<_connected>=0
 
             (debug, 4 - checkings step 3 to 6)
             o806 CALL ;checkings step 3 to 6
@@ -657,26 +710,64 @@ o400 SUB
         ;*** STEP 5 - gantry op10T up / lathe op20 ***
         o610 IF [#<_step> EQ 5]
             (debug, STEP 5 - gantry op10T up / lathe op20)
+            #<_connected>=1 ;**** add trajectories ****
 
             (debug, 5 - checkings step 3 to 6)
             o806 CALL ;checkings step 3 to 6
+
+            ;VERIFY SAFE POSITION
+                #5399 = 0
+                o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                    o4010 IF [#5399 EQ -1]
+                        (debug, STEP5 - LATHE PRODUCTION - Not in Safe Position Y/Z coordinates)
+                        ;(log, )
+                        M02
+                    o4010 ENDIF
 
             (debug, 5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
             o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
             o2150 CALL ; ----- OP20 -----
 
+            ;movements between routines
+            G1 x#<_blower_allow_door_x> y#<_blower_enter_y>	F#<_VEL_FAST>
+
             (debug, 5 - BLOWER)
             o1200 CALL ;blower gripper down leaves
+
+            ;movements between routines
+            G1 x#<_blower_allow_door_x> F#<_VEL_FAST>
+
             o1250 CALL ;blower gripper down grabs
-            
+
+            ;don't need to do movements between routines
+            ;blower grabs ends in SAFE
+
+            ;VERIFY SAFE POSITION
+                #5399 = 0
+                o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                o4015 IF [#5399 EQ -1]
+                    (debug, STEP5 - UNLOAD GRD - Not in Safe Position Y/Z coordinates)
+                    ;(log, )
+                    M02
+                o4015 ENDIF
+
             (debug, 5 - UNLOAD gripper down)
             o1350 CALL ;UNLOAD gripper down
-            
+
+            ;movements between routines
+            G1 y#<_load_enter_y>	F#<_VEL_FAST>
+
             (debug, 5 - LOAD gripper down)
             o1300 CALL ;LOAD gripper down
             
+            ;don't need to do movements between routines
+            ;first movement in parking is Z
+
             (debug, 5 - PARKING - DOWN LEAVES - UP GRABS)
             o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
+
+            ;don't need to do final movements
+            ;parking ends in SAFE
 
             #<_step>=6
         o610 ENDIF
@@ -684,17 +775,46 @@ o400 SUB
         ;*** STEP 6 - gantry raw up / lathe op20 ***
         o612 IF [#<_step> EQ 6]
             (debug, STEP 6 - gantry raw up-lathe op20)
+            #<_connected>=1 ;**** add trajectories ****
             
             (debug, 6 - checkings step 3 to 6)
             o806 CALL ;checkings step 3 to 6
+
+            ;VERIFY SAFE POSITION
+                #5399 = 0
+                o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                    o4020 IF [#5399 EQ -1]
+                        (debug, STEP6 - LATHE PRODUCTION - Not in Safe Position Y/Z coordinates)
+                        ;(log, )
+                        M02
+                    o4020 ENDIF
 
             (debug, 6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES)
             o3200 CALL ;LATHE PRODUCTION gripper down GRABS / gripper up LEAVES
             o2200 CALL ; **** OP10 ****
             
+            ;movements between routines
+            G1 x#<_blower_allow_door_x> y#<_blower_enter_y>	F#<_VEL_FAST>
+
             (debug, 6 - BLOWER)
             o1200 CALL ;blower gripper down leaves
+
+            ;movements between routines
+            G1 x#<_blower_allow_door_x> F#<_VEL_FAST>
+
             o1250 CALL ;blower gripper down grabs
+
+            ;don't need to do movements between routines
+            ;blower grabs ends in SAFE
+
+            ;VERIFY SAFE POSITION
+                #5399 = 0
+                o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                o4025 IF [#5399 EQ -1]
+                    (debug, STEP6 - UNLOAD GRD - Not in Safe Position Y/Z coordinates)
+                    ;(log, )
+                    M02
+                o4025 ENDIF
 
             (debug, 6 - UNLOAD gripper down)
             o1350 CALL ;UNLOAD gripper down
@@ -704,25 +824,79 @@ o400 SUB
             o614 IF [#5399 EQ 1] ; LAST CYCLE ON
                 (debug, Last Cycle - gantry raw up-lathe op20)
 
+                ;movements between routines
+                G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+                G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
+                ;VERIFY SAFE POSITION
+                #5399 = 0
+                o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                    o4030 IF [#5399 EQ -1]
+                        (debug, STEP6 - LATHE ENDS - Not in Safe Position Y/Z coordinates)
+                        ;(log, )
+                        M02
+                    o4030 ENDIF
+
                 (debug, Last Cycle - LATHE ENDS - gripper down GRABS)
                 o3400 CALL ;LATHE ENDS - gripper down GRABS
 
+                ;movements between routines
+                G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+
                 (debug, Last Cycle - TUMBLER enter gripper down  - exit gripper down)
                 O1500 CALL ;TUMBLER enter gripper down  - exit gripper down
+
+                ;don't need to do movements between routines
+                ;tumbler ends in SAFE
+
+                ;VERIFY SAFE POSITION
+                    #5399 = 0
+                    o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                        o4035 IF [#5399 EQ -1]
+                            (debug, STEP6 - LATHE START - Not in Safe Position Y/Z coordinates)
+                            ;(log, )
+                            M02
+                        o4035 ENDIF
 
                 (debug, Last Cycle - LATHE STARTS - gripper down leaves coupling)
                 o3000 CALL ;LATHE STARTS - gripper down leaves coupling
                 o2150 CALL ; ----- OP20 -----
 
+                ;don't need to do movements between routines
+                ;LATHE STARTS finish at the same position LATHE ENDS starts
+
                 (debug, Last Cycle - LATHE ENDS - gripper down GRABS)
                 o3400 CALL ;LATHE ENDS - gripper down GRABS
 
+                ;movements between routines
+                G1 x#<_blower_allow_door_x> y#<_blower_enter_y>	F#<_VEL_FAST>
+
                 (debug, Last Cycle - BLOWER)
                 o1200 CALL ;blower gripper down leaves
+
+                ;movements between routines
+                G1 x#<_blower_allow_door_x> F#<_VEL_FAST>
+
                 o1250 CALL ;blower gripper down grabs
+
+                ;don't need to do movements between routines
+                ;blower grabs ends in SAFE
+
+                ;VERIFY SAFE POSITION
+                    #5399 = 0
+                    o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                    o4040 IF [#5399 EQ -1]
+                        (debug, STEP6 - UNLOAD GRD - Not in Safe Position Y/Z coordinates)
+                        ;(log, )
+                        M02
+                    o4040 ENDIF
 
                 (debug, Last Cycle - UNLOAD gripper down)
                 o1350 CALL ;UNLOAD gripper down
+        
+                ;final movements
+                G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+                G1 y#<_y_secure_position>	        F#<_VEL_FAST>
 
                 #<_step>=1
                 #<_end>=1
@@ -732,12 +906,21 @@ o400 SUB
 
             o614 ELSE ; LAST CYCLE OFF
                 (debug, STEP 6 Continues - gantry raw up-lathe op20)
+    
+               ;movements between routines
+                G1 y#<_load_enter_y>	F#<_VEL_FAST>
 
                 (debug, 6 - LOAD gripper down)
                 o1300 CALL ;LOAD gripper down
 
+                ;don't need to do movements between routines
+                ;first movement in parking is Z
+
                 (debug, 6 - PARKING - DOWN LEAVES - UP GRABS)
                 o2100 CALL ;PARKING - DOWN LEAVES - UP GRABS
+
+                ;don't need to do final movements
+                ;parking ends in SAFE
 
                 #<_step>=3
                 #<_end>=0
@@ -759,8 +942,8 @@ o400 ENDSUB
 
 ;PARTIAL PROGRAMS
 
-    ;PRINT PARAMETERS
-    o180 SUB
+    o180 SUB ;PRINT PARAMETERS
+        #<_connected>=0
         (debug, <_parking_plate_to_gripper_down_x> = #<_parking_plate_to_gripper_down_x>)
         (debug, <_parking_gripper_down_enter_y> = #<_parking_gripper_down_enter_y>)
         (debug, <_parking_gripper_down_z_reference> = #<_parking_gripper_down_z_reference>)
@@ -779,16 +962,20 @@ o400 ENDSUB
         (debug, <_parking_gripper_up_z_calculated> = #<_parking_gripper_up_z_calculated>)
         (debug, <_parking_gripper_down_x_meas_ref> = #<_parking_gripper_down_x_meas_ref>)
         (debug, <_parking_gripper_up_x_meas_ref> = #<_parking_gripper_up_x_meas_ref>)
+        (debug, <_parking_gripper_down_x_meas_offset> = #<_parking_gripper_down_x_meas_offset>)
+        (debug, <_parking_gripper_up_x_meas_offset> = #<_parking_gripper_up_x_meas_offset>)
 
         (debug, <_blower_plate_to_gripper_down_x> = #<_blower_plate_to_gripper_down_x>)
         (debug, <_blower_enter_y> = #<_blower_enter_y>)
         (debug, <_blower_gripper_down_z_reference> = #<_blower_gripper_down_z_reference>)
+        (debug, <_blower_allow_door_x> = #<_blower_allow_door_x>)
         (debug, <_blower_enter_x> = #<_blower_enter_x>)
         (debug, <_blower_aproximates_x> = #<_blower_aproximates_x>)
         (debug, <_blower_gripper_down_unload_x_calculated> = #<_blower_gripper_down_unload_x_calculated>)
         (debug, <_blower_gripper_down_load_x_calculated> = #<_blower_gripper_down_load_x_calculated>)
         (debug, <_blower_gripper_down_z_calculated_machined> = #<_blower_gripper_down_z_calculated_machined>)
         (debug, <_blower_gripper_down_x_meas_ref_machined> = #<_blower_gripper_down_x_meas_ref_machined>)
+        (debug, <_blower_gripper_down_x_meas_ref_offset> = #<_blower_gripper_down_x_meas_ref_offset>)
 
         (debug, <_load_plate_to_gripper_down_x> = #<_load_plate_to_gripper_down_x>)
         (debug, <_load_enter_y> = #<_load_enter_y>)
@@ -798,6 +985,7 @@ o400 ENDSUB
         (debug, <_load_gripper_down_x_calculated> = #<_load_gripper_down_x_calculated>)
         (debug, <_load_gripper_down_z_calculated> = #<_load_gripper_down_z_calculated>)
         (debug, <_load_gripper_down_x_meas_ref> = #<_load_gripper_down_x_meas_ref>)
+        (debug, <_load_gripper_down_x_meas_offset> = #<_load_gripper_down_x_meas_offset>)
 
         (debug, <_unload_plate_to_gripper_down_x> = #<_unload_plate_to_gripper_down_x>)
         (debug, <_unload_enter_y> = #<_unload_enter_y>)
@@ -825,6 +1013,8 @@ o400 ENDSUB
         (debug, <_tumbler_gripper_up_load_from_extract> = #<_tumbler_gripper_up_load_from_extract>)
         (debug, <_tumbler_gripper_down_x_meas_ref> = #<_tumbler_gripper_down_x_meas_ref>)
         (debug, <_tumbler_gripper_up_x_meas_ref> = #<_tumbler_gripper_up_x_meas_ref>)
+        (debug, <_tumbler_gripper_down_x_meas_offset> = #<_tumbler_gripper_down_x_meas_offset>)
+        (debug, <_tumbler_gripper_up_x_meas_offset> = #<_tumbler_gripper_up_x_meas_offset>)
 
         (debug, <_lathe_chuck_front_to_gripper_down_x>  =  #<_lathe_chuck_front_to_gripper_down_x>)
         (debug, <_lathe_gripper_down_center_y>  =  #<_lathe_gripper_down_center_y>)
@@ -843,12 +1033,14 @@ o400 ENDSUB
         (debug, <_lathe_gripper_down_x_calculated> = #<_lathe_gripper_down_x_calculated>)
         (debug, <_lathe_gripper_up_x_calculated> = #<_lathe_gripper_up_x_calculated>)
         (debug, <_lathe_gripper_down_x_meas_ref> = #<_lathe_gripper_down_x_meas_ref>)
+        (debug, <_lathe_gripper_down_x_meas_offset> = #<_lathe_gripper_down_x_meas_offset>)
 
         M02
     o180 ENDSUB
 
-    ;UNLOAD PARKING
-    o220 SUB
+
+    o220 SUB ;UNLOAD PARKING
+        #<_connected>=0
         o1050 CALL ; PARKING gripper down GRAB
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
@@ -856,8 +1048,9 @@ o400 ENDSUB
         M02
     o220 ENDSUB
 
-    ;UNLOAD BLOWER
-    o250 SUB
+    o250 SUB ;UNLOAD BLOWER
+        #<_connected>=0
+        #<_blower_manual> = 1
         o1250 CALL ; BLOWER GRIPPER DOWN GRAB
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
@@ -865,8 +1058,9 @@ o400 ENDSUB
         M02
     o250 ENDSUB
 
-    ;UNLOAD LATHE
-    o270 SUB
+    
+    o270 SUB ;UNLOAD LATHE
+        #<_connected>=0
         o3400 CALL ; LATHE ENDS
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
@@ -874,8 +1068,9 @@ o400 ENDSUB
         M02
     o270 ENDSUB
 
-    ;UNLOAD TUMBLER BEFORE TURNING
-    o300 SUB
+    
+    o300 SUB ;UNLOAD TUMBLER BEFORE TURNING
+        #<_connected>=0
         o3500 CALL ; TUMBLER gripper down grabs BEFORE TURNING
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
@@ -883,8 +1078,9 @@ o400 ENDSUB
         M02
     o300 ENDSUB
 
-    ;UNLOAD TUMBLER AFTER TURNED
-    o310 SUB
+    
+    o310 SUB ;UNLOAD TUMBLER AFTER TURNED
+        #<_connected>=0
         o3550 CALL ; TUMBLER gripper down grabs AFTER TURNED
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
@@ -892,8 +1088,9 @@ o400 ENDSUB
         M02
     o310 ENDSUB
 
-    ;UNLOAD GRIPPER UP
-    o320 SUB
+    
+    o320 SUB ;UNLOAD GRIPPER UP
+        #<_connected>=0
         o1100 CALL ; PARKING gripper up LEAVE 
         o1050 CALL ; PARKING gripper down GRAB
         o1350 CALL ; UNLOAD gripper down
@@ -902,17 +1099,27 @@ o400 ENDSUB
         M02
     o320 ENDSUB
 
-    ;UNLOAD GRIPPER DOWN
-    o350 SUB
+    
+    o350 SUB ;UNLOAD GRIPPER DOWN
+        #<_connected>=0
         o1350 CALL ; UNLOAD gripper down
         (debug, 30 seconds to end)
         G4 P30
         M02
     o350 ENDSUB
 
-    ;SERVICE POS
-    o370 SUB
+    
+    o360 SUB ;UNLOAD GRIPPER DOWN
+        #<_connected>=0
+        o1300 CALL ;LOAD gripper down
+        (debug, 30 seconds to end)
+        G4 P30
+        M02
+    o360 ENDSUB
 
+    
+    o370 SUB ;SERVICE POS
+        #<_connected>=0
         ;VERIFY SAFE POSITION
         #5399 = 0
         o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
@@ -952,6 +1159,10 @@ o400 ENDSUB
 
     o800 SUB ;FLAGS TO SET AT PRODUCTION ALL STEPS
             
+        #<_blower_manual> = 0
+
+        #<_connected>=0
+        
         ;Flag 01 - Gantry in Load Routine to 0
         M65 P63
 
@@ -995,7 +1206,11 @@ o400 ENDSUB
         M65 P13
         M65 P14
 
+        ;SYSTEM LINK WAS DOWN ERASE signal to 1 and 0
+        M64 P56
         G4 P1
+        M65 P56
+
     o800 ENDSUB
 
 
@@ -1009,6 +1224,22 @@ o400 ENDSUB
                 ;(log, )
                 M02
             o100 ENDIF
+
+        ;LAST CYCLE - signal is 0
+            M66 P49 L4 Q1	
+            o128 IF [#5399 EQ -1]
+                (debug, INIT PYTHON - LAST CYCLE signal is 1)
+                ;(log, )
+                M02
+            o128 ENDIF
+
+        ;MASTER - VERIFY ROUTINE RUNNING
+            M66 P62 L3 Q0.1
+            o127 IF [#5399 EQ -1]
+                (debug, INIT PYTHON ROUTINE not running)
+                ;(log, )
+                M02
+            o127 ENDIF
 
         ;LOAD - Check sensor of vertical pneumatic up
             ;no tiene sentido porque puede estar abajo cargando
@@ -1099,6 +1330,7 @@ o400 ENDSUB
                 M02
             o111 ENDIF
         
+
         ;LATHE - Signal lathe in alarm - no_alarm=1 (n/c)
             M66 P46 L3 Q0.1	
             o118 IF [#5399 EQ -1]
@@ -1139,27 +1371,11 @@ o400 ENDSUB
                 M02
             o123 ENDIF
 
-        ;MASTER - VERIFY ROUTINE RUNNING
-            M66 P62 L3 Q0.1
-            o127 IF [#5399 EQ -1]
-                (debug, INIT PYTHON ROUTINE not running)
-                ;(log, )
-                M02
-            o127 ENDIF
-
-        ;LAST CYCLE - signal is 0
-            M66 P49 L4 Q1	
-            o128 IF [#5399 EQ -1]
-                (debug, INIT PYTHON - LAST CYCLE signal is 1)
-                ;(log, )
-                M02
-            o128 ENDIF
-
-        ;OPEN MOON ROOF
+        ;LATHE - OPEN MOON ROOF
             M64 P13
             M65 P14
 
-        ;VERIFY MOON ROOF OPEN SENSOR
+        ;LATHE - VERIFY MOON ROOF OPEN SENSOR
             M66 P20 L3 Q10
             o129 IF [#5399 EQ -1]
                 (debug, INIT - Moon Roof Open Sensor not present)
@@ -1167,13 +1383,13 @@ o400 ENDSUB
                 M02
             o129 ENDIF
         
-        ;MOON ROOF signals to 0
+        ;LATHE - MOON ROOF signals to 0
         M65 P13
         M65 P14
 
         (debug, INIT - WAIT UNTILL HOME POSITION)
 
-        ;VERIFY Signal Machine Home position ON
+        ;LATHE - VERIFY Signal Machine Home position ON
             M66 P48 L3 Q5
 
             o131 while [#5399 EQ -1]
@@ -1183,7 +1399,6 @@ o400 ENDSUB
             o131 endwhile
         
     o801 ENDSUB
-
 
     o802 SUB ;FLAGS TO REVIEW AT PRODUCTION STEP 0 (GRD empty - GRU empty - Chuck Open)
 
@@ -1360,23 +1575,26 @@ o400 ENDSUB
 
 
 
+
 (**********************************************************************)
 (***** ROUTINE PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB     *****)
 (**********************************************************************)
 
-o2100 SUB
+o2100 SUB ;ROUTINE PARKING - GRIPPER DOWN LEAVE - GRIPPER UP GRAB
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-        o2105 IF [#5399 EQ -1]
-            (debug, PARKING - Gantry not in Safe Position Y/Z coordinates)
-            ;(log, )
-            M02
-        o2105 ENDIF
+    o2111 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o2105 IF [#5399 EQ -1]
+                (debug, PARKING - Gantry not in Safe Position Y/Z coordinates)
+                ;(log, )
+                M02
+            o2105 ENDIF
+    o2111 ENDIF
 
     ;VERIFY TUMBLER - Open Jaws Sensor
-        M66 P13 L3 Q0.1
+        M66 P13 L3 Q10
         o2106 IF [#5399 EQ -1]
             (debug, PARKING - Tumbler Jaws are closed)
             ;(log, )
@@ -1385,7 +1603,7 @@ o2100 SUB
 
     ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
     ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
-        M66 P10 L3 Q0.1
+        M66 P10 L3 Q10
         o2107 IF [#5399 EQ -1]
             (debug, PARKING - Tumbler rotator not in 0 degrees)
             ;(log, )
@@ -1511,10 +1729,10 @@ o2100 SUB
             o2160 ENDIF
 
     ;describes diagonal movement in X & Z
-    G1 x#<_parking_enter_x_over_bars> z[#<_parking_gripper_up_z_calculated>+#<_parking_z_offset>]	F#<_VEL_FAST>
+    G1 x#<_parking_enter_x_free> z[#<_parking_gripper_up_z_calculated>+#<_parking_z_offset>]	F#<_VEL_FAST>
     
-    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
-    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    ;describes diagonal movement in Y & Z
+    G1 y#<_y_secure_position> z#<_z_secure_position>        F#<_VEL_FAST>
     
     ;VERIFY PARKING COUPLING PRESENCE SENSOR - coupling must not be present
         M66 P14 L3 Q0.1
@@ -1541,7 +1759,7 @@ o2100 ENDSUB
 (***** MIDE                                                       *****)
 (**********************************************************************)
 
-o1050 SUB
+o1050 SUB ;ROUTINE PARKING gripper down GRAB 
     
     ;VERIFY SAFE POSITION
         #5399 = 0
@@ -1569,7 +1787,7 @@ o1050 SUB
         o1055 ENDIF
 
     ;VERIFY TUMBLER - Open Jaws Sensor
-        M66 P13 L3 Q0.1
+        M66 P13 L3 Q10
         o1056 IF [#5399 EQ -1]
             (debug, Parking Grab GRD - Tumbler Jaws are closed)
             ;(log, )
@@ -1578,7 +1796,7 @@ o1050 SUB
 
     ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
     ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
-        M66 P10 L3 Q0.1
+        M66 P10 L3 Q10
         o1057 IF [#5399 EQ -1]
             (debug, Parking Grab GRD - Tumbler rotator not in 0 degrees)
             ;(log, )
@@ -1666,7 +1884,7 @@ o1050 ENDSUB
 (***** ROUTINE PARKING gripper up LEAVE                           *****)
 (**********************************************************************)
 
-o1100 SUB
+o1100 SUB ;ROUTINE PARKING gripper up LEAVE
     
     ;VERIFY SAFE POSITION
         #5399 = 0
@@ -1694,7 +1912,7 @@ o1100 SUB
         o1110 ENDIF
 
     ;VERIFY TUMBLER - Open Jaws Sensor
-        M66 P13 L3 Q0.1
+        M66 P13 L3 Q10
         o1111 IF [#5399 EQ -1]
             (debug, PARKING Leave GRU - Tumbler Jaws are closed)
             ;(log, )
@@ -1703,7 +1921,7 @@ o1100 SUB
 
     ;VERIFY SENSOR TUMBLER ROTATOR IN 0 DEGREES 
     ;(POSITION WITH CLEAN FACE, NO HOOSES OR CABLES)
-        M66 P10 L3 Q0.1
+        M66 P10 L3 Q10
         o1112 IF [#5399 EQ -1]
             (debug, PARKING Leave GRU  - Tumbler rotator not in 0 degrees)
             ;(log, )
@@ -1777,20 +1995,26 @@ o1100 ENDSUB
 
 
 
+
+
+
+
 (**********************************************************************)
 (***** ROUTINE BLOWER GRIPPER DOWN LEAVE                          *****)
 (**********************************************************************)
 
-o1200 SUB
+o1200 SUB ;ROUTINE BLOWER GRIPPER DOWN LEAVE  
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-        o1201 IF [#5399 EQ -1]
-            (debug, BLOWER GRIPPER DOWN LEAVE - Not in Safe Position Y/Z coordinates)
-            ;(log, )
-            M02
-        o1201 ENDIF
+    o1203 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o1201 IF [#5399 EQ -1]
+                (debug, BLOWER GRIPPER DOWN LEAVE - Not in Safe Position Y/Z coordinates)
+                ;(log, )
+                M02
+            o1201 ENDIF
+    o1203 ENDIF
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -1882,8 +2106,10 @@ o1200 SUB
 
     G1 x#<_blower_enter_x>	F#<_VEL_FAST>
 
-    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
-    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1232 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1232 ENDIF
 
     ;VERIFY Blower present coupling sensor - coupling must be present
         M66 P16 L3 Q0.1
@@ -1910,21 +2136,24 @@ o1200 SUB
 o1200 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE BLOWER GRIPPER DOWN GRAB                           *****)
 (***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o1250 SUB
+o1250 SUB ;ROUTINE BLOWER GRIPPER DOWN GRAB
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-        o1251 IF [#5399 EQ -1]
-            (debug, BLOWER GRIPPER DOWN GRAB - Not in Safe Position Y/Z coordinates)
-            ;(log, )
-            M02
-        o1251 ENDIF
+    o1253 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o1251 IF [#5399 EQ -1]
+                (debug, BLOWER GRIPPER DOWN GRAB - Not in Safe Position Y/Z coordinates)
+                ;(log, )
+                M02
+            o1251 ENDIF
+    o1253 ENDIF
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -1934,14 +2163,17 @@ o1250 SUB
             M02
         o1252 ENDIF
 
-    ;;VERIFY Flag Blower Cloncluded in 1
-        M66 P27 L3 Q40
-        o1270 IF [#5399 EQ -1]
-            (debug, BLOWER GRIPPER DOWN GRAB - Blower not conluded)
-            ;(log, )
-            M02
-        o1270 ENDIF
-
+    o1261 IF [ #<_blower_manual> EQ 0]
+        ;VERIFY Flag Blower Cloncluded in 1
+            M66 P27 L3 Q10
+            o1270 IF [#5399 EQ -1]
+                (debug, BLOWER GRIPPER DOWN GRAB - Blower not conluded)
+                ;(log, )
+                M02
+            o1270 ENDIF
+    o1261 ENDIF
+    #<_blower_manual> = 0
+    
     ;VERIFY Blower present coupling sensor - coupling must be present
         M66 P16 L3 Q0.1
         o1255 IF [#5399 EQ -1]
@@ -2075,21 +2307,27 @@ o1250 ENDSUB
 
 
 
+
+
+
+
 (**********************************************************************)
 (***** ROUTINE LOAD gripper down                                  *****)
 (***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o1300 SUB
+o1300 SUB ;ROUTINE LOAD gripper down 
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-        o1301 IF [#5399 EQ -1]
-            (debug, LOAD gripper down - Not in safe position, Y/Z coordinates)
-            ;(log, )
-            M02
-        o1301 ENDIF
+    o1309 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o1301 IF [#5399 EQ -1]
+                (debug, LOAD gripper down - Not in safe position, Y/Z coordinates)
+                ;(log, )
+                M02
+            o1301 ENDIF
+    o1309 ENDIF
 
     ;VERIFY SENSOR FOR COUPLING PRESENT IN GRIPPER DOWN - gripper must be empty
         M66 P21 L3 Q0.1
@@ -2231,8 +2469,10 @@ o1300 SUB
             M02
         o1325 ENDIF
 
-    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
-    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1326 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1326 ENDIF
 
     ;SET Flag 01 Gantry in Load Routine to 0
         M65 P63
@@ -2240,20 +2480,23 @@ o1300 SUB
 o1300 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE UNLOAD gripper down                                *****)
 (**********************************************************************)
 
-o1350 SUB
+o1350 SUB ;ROUTINE UNLOAD gripper down  
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-        o1351 IF [#5399 EQ -1]
-            (debug, UNLOAD gripper down - Not in Safe Position Y/Z coordinates)
-            ;(log, )
-            M02
-        o1351 ENDIF
+    o1353 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+            o1351 IF [#5399 EQ -1]
+                (debug, UNLOAD gripper down - Not in Safe Position Y/Z coordinates)
+                ;(log, )
+                M02
+            o1351 ENDIF
+    o1353 ENDIF
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -2296,6 +2539,14 @@ o1350 SUB
             M02
         o1358 ENDIF
 
+    ;VERIFY UNLOAD VERTICAL PNEUMATIC IS UP 
+        M66 P05 L3 Q10 ; waits unload routine time
+        o1360 IF [#5399 EQ -1]
+            (debug, UNLOAD gripper down - Vertical Pneumatic is not up)
+            ;(log, )
+            M02
+        o1360 ENDIF  
+
     G1 x#<_unload_enter_x>	F#<_VEL_FAST>
     G1 y#<_unload_enter_y>	F#<_VEL_FAST>
 
@@ -2312,14 +2563,6 @@ o1350 SUB
     G1 x#<_unload_enter_intermediate_x>	F#<_VEL_FAST>
 
     G1 z[#<_unload_gripper_down_z_calculated>+#<_unload_z_offset>]	F#<_VEL_FAST>
-
-    ;VERIFY UNLOAD VERTICAL PNEUMATIC IS UP 
-        M66 P05 L3 Q10 ; waits unload routine time
-        o1360 IF [#5399 EQ -1]
-            (debug, UNLOAD gripper down - Vertical Pneumatic is not up)
-            ;(log, )
-            M02
-        o1360 ENDIF  
 
     ;VERIFY UNLOAD PRESENT COUPLING SENSOR IN VERTICAL PNEUMATIC - has to be empty
         M66 P15 L3 Q1 ; n/c
@@ -2370,13 +2613,20 @@ o1350 SUB
             M02
         o1380 ENDIF
 
-    G1 z#<_z_secure_position>	        F#<_VEL_FAST>
-    G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1381 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 z#<_z_secure_position>	        F#<_VEL_FAST>
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o1381 ENDIF
 
     ;SET Flag 02 Gantry in UnLoad Routine to 0
         M65 P62
 
 o1350 ENDSUB
+
+
+
+
+
 
 
 
@@ -2615,6 +2865,7 @@ o1400 SUB ;ROUTINE TUMBLER gripper start down - ends up
 o1400 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE TUMBLER gripper start down - ends down             *****)
 (***** MEASURE                                                    *****)
@@ -2836,6 +3087,7 @@ o1500 SUB ;ROUTINE TUMBLER gripper start down - ends down
 o1500 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE TUMBLER gripper down grabs BEFORE TURNING          *****)
 (***** MEASURE                                                    *****)
@@ -2965,6 +3217,7 @@ o3500 SUB ;ROUTINE TUMBLER gripper down grabs BEFORE TURNING
     #<_measuring_limit> = 20 ;we put it back to normal
 
 o3500 ENDSUB
+
 
 
 (**********************************************************************)
@@ -3106,6 +3359,10 @@ o3550 ENDSUB
 
 
 
+
+
+
+
 (**********************************************************************)
 (***** ROUTINE LATHE                                              *****)
 (**********************************************************************)
@@ -3115,16 +3372,19 @@ o3550 ENDSUB
 (*****                                                            *****)
 (**********************************************************************)
 
-o3000 SUB
+o3000 SUB ;ROUTINE LATHE START - gri down LEAVE / gri up EMPTY
 
-    ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
-    ;VERIFY M180=1
-    ;M66 P51 L3 Q5.0 ; wait for the M code relay
-    ;o3004 while [#5399 EQ -1]
-    ;    ;VERIFY M180=1
-    ;    M100 P2
-    ;    M66 P51 L3 Q1 ; wait for the M code relay
-    ;o3004 endwhile
+    (debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY WAS_DOWN=1
+    M66 P56 L3 Q5.0
+    o3004 while [#5399 EQ -1]
+        ;VERIFY WAS_DOWN=1
+        M100 P5000
+        M66 P56 L3 Q1
+    o3004 endwhile
+
+    ;SYSTEM LINK WAS DOWN ERASE signal to 1
+    M64 P56
 
     M64 P52 ; MFIN=1
 
@@ -3140,14 +3400,16 @@ o3000 SUB
     ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-            o3005 IF [#5399 EQ -1]
-                (debug, LATHE START - Not in Safe Position Y/Z coordinates)
-                ;(log, )
-                M02
-            o3005 ENDIF
+    o1311 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                o3005 IF [#5399 EQ -1]
+                    (debug, LATHE START - Not in Safe Position Y/Z coordinates)
+                    ;(log, )
+                    M02
+                o3005 ENDIF
+    o1311 ENDIF            
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -3289,11 +3551,13 @@ o3000 SUB
     M65 P43
 
     G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
-
     G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
     G1 z#<_z_secure_position> F#<_VEL_FAST>
-    G1 y#<_y_secure_position> F#<_VEL_FAST>
+
+    o3051 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o3051 ENDIF
 
     ;VERIFY GRIPPER DOWN SENSOR PRESENT COUPLING - must NOT have coupling
         M66 P21 L3 Q0.1
@@ -3303,29 +3567,47 @@ o3000 SUB
             M02
         o3055 ENDIF
 
+    ;SYSTEM LINK WAS DOWN ERASE signal to 0
+    M65 P56
+
     ;Close Moon Roof
     M64 P14
     M65 P13
     G4 P1
     M65 P14
 
+
 o3000 ENDSUB
+
+
 
 (**********************************************************************)
 (***** ROUTINE LATHE PRODUCTION - gri down GRAB / gri up LEAVE    *****)
 (***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o3200 SUB
+o3200 SUB ;ROUTINE LATHE PRODUCTION - gri down GRAB / gri up LEAVE
 
     ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
     ;VERIFY M180=1
     ;M66 P51 L3 Q5.0 ; wait for the M code relay
     ;o3204 while [#5399 EQ -1]
     ;    ;VERIFY M180=1
-    ;    M100 P2
+    ;    M100 P5000
     ;    M66 P51 L3 Q1 ; wait for the M code relay
     ;o3204 endwhile
+
+    (debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY WAS_DOWN=1
+    M66 P56 L3 Q5.0
+    o3204 while [#5399 EQ -1]
+        ;VERIFY WAS_DOWN=1
+        M100 P5000
+        M66 P56 L3 Q1
+    o3204 endwhile
+
+    ;SYSTEM LINK WAS DOWN ERASE signal to 1
+    M64 P56
 
     ;SET signal chuck clamp to 0
     M65 P43
@@ -3339,14 +3621,16 @@ o3200 SUB
     ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-            o3205 IF [#5399 EQ -1]
-                (debug, LATHE PRODUCTION - Not in Safe Position Y/Z coordinates)
-                ;(log, )
-                M02
-            o3205 ENDIF
+    o3207 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                o3205 IF [#5399 EQ -1]
+                    (debug, LATHE PRODUCTION - Not in Safe Position Y/Z coordinates)
+                    ;(log, )
+                    M02
+                o3205 ENDIF
+    o3207 ENDIF
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -3559,13 +3843,15 @@ o3200 SUB
     G1 x#<_lathe_enter1_x>	F#<_VEL_FAST>
 
     G1 y#<_lathe_enter2_y>	F#<_VEL_FAST>
-
     G1 z#<_lathe_enter2_z>	F#<_VEL_FAST>
 
     G1 y#<_lathe_enter1_y>	F#<_VEL_FAST>
 
     G1 z#<_z_secure_position> F#<_VEL_FAST>
-    G1 y#<_y_secure_position> F#<_VEL_FAST>
+
+    o3281 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o3281 ENDIF
 
     ;Verify Coupling NOT Present in Gripper Up - must NOT be present
         M66 P22 L3 Q0.1
@@ -3583,6 +3869,9 @@ o3200 SUB
             M02
         o3290 ENDIF
 
+    ;SYSTEM LINK WAS DOWN ERASE signal to 0
+    M65 P56
+
     ;Close Moon Roof
     M64 P14
     M65 P13
@@ -3591,21 +3880,35 @@ o3200 SUB
 
 o3200 ENDSUB
 
+
+
 (**********************************************************************)
 (***** ROUTINE LATHE ENDS - gripper down GRAB / gripper up EMPTY  *****)
 (***** MEASURE                                                    *****)
 (**********************************************************************)
 
-o3400 SUB
+o3400 SUB ;ROUTINE LATHE ENDS - gripper down GRAB / gripper up EMPTY
 
     ;(debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
     ;VERIFY M180=1
     ;M66 P51 L3 Q5.0 ; wait for the M code relay
     ;o3404 while [#5399 EQ -1]
     ;    ;VERIFY M180=1
-    ;    M100 P2
+    ;    M100 P5000
     ;    M66 P51 L3 Q1 ; wait for the M code relay
     ;o3404 endwhile
+
+    (debug, *** WAIT UNTILL LATHE MACHINES THE PART ***)
+    ;VERIFY WAS_DOWN=1
+    M66 P56 L3 Q5.0
+    o3404 while [#5399 EQ -1]
+        ;VERIFY WAS_DOWN=1
+        M100 P5000
+        M66 P56 L3 Q1
+    o3404 endwhile
+
+    ;SYSTEM LINK WAS DOWN ERASE signal to 1
+    M64 P56
 
     ;SET signal chuck clamp to 0
     M65 P43
@@ -3619,14 +3922,16 @@ o3400 SUB
     ;SET signal spindle orientation 2 to 0
     M65 P47
 
-    ;VERIFY SAFE POSITION
-        #5399 = 0
-        o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
-            o3405 IF [#5399 EQ -1]
-                (debug, LATHE ENDS - Not in Safe Position Y/Z coordinates)
-                ;(log, )
-                M02
-            o3405 ENDIF
+    o3407 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        ;VERIFY SAFE POSITION
+            #5399 = 0
+            o2000 CALL  ;SUBROUTINE CHECKS GANTRY IN SAFE POSITION
+                o3405 IF [#5399 EQ -1]
+                    (debug, LATHE ENDS - Not in Safe Position Y/Z coordinates)
+                    ;(log, )
+                    M02
+                o3405 ENDIF
+    o3407 ENDIF
 
     ;MASTER - VERIFY ROUTINE RUNNING
         M66 P62 L3 Q0.1
@@ -3791,7 +4096,13 @@ o3400 SUB
         o3465 ENDIF
 
     G1 z#<_z_secure_position> F#<_VEL_FAST>
-    G1 y#<_y_secure_position> F#<_VEL_FAST>
+
+    o3466 IF [#<_connected> NE 1] ;if connected is 1 it does not do this
+        G1 y#<_y_secure_position>	        F#<_VEL_FAST>
+    o3466 ENDIF
+
+    ;SYSTEM LINK WAS DOWN ERASE signal to 0
+    M65 P56
 
     ;Close Moon Roof
     M64 P14
@@ -3813,11 +4124,12 @@ o3400 ENDSUB
 
 
 
+
 (**********************************************************************)
 (***** MEASURING ROUTINE gripper down                             *****)
 (**********************************************************************)
 
-o1600 SUB
+o1600 SUB ;MEASURING ROUTINE gripper down   
 
     M64 P59 ;flag to measure with gripper down 1
     M65 P58 ;flag to measure with gripper up 0
@@ -3852,11 +4164,12 @@ o1600 SUB
 o1600 ENDSUB
 
 
+
 (**********************************************************************)
 (***** MEASURING ROUTINE gripper up                               *****)
 (**********************************************************************)
 
-o1650 SUB
+o1650 SUB ;MEASURING ROUTINE gripper up
 
     #<pos_fin> = [#<_x>-#<_measuring_limit>]
 
@@ -3893,11 +4206,12 @@ o1650 SUB
 o1650 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE ABRIR GRIPPER DOWN                                 *****)
 (**********************************************************************)
 
-o1700 SUB
+o1700 SUB ;ROUTINE ABRIR GRIPPER DOWN
     M64 P22
     M65 P21
 
@@ -3910,11 +4224,12 @@ o1700 SUB
 o1700 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE ABRIR GRIPPER UP                                   *****)
 (**********************************************************************)
 
-o1750 SUB
+o1750 SUB ;ROUTINE ABRIR GRIPPER UP  
     M64 P23
     M65 P24
 
@@ -3927,11 +4242,12 @@ o1750 SUB
 o1750 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE CLOSE GRIPPER DOWN                                 *****)
 (**********************************************************************)
 
-o1800 SUB
+o1800 SUB ;ROUTINE CLOSE GRIPPER DOWN   
     M65 P22
     M64 P21
 
@@ -3944,11 +4260,12 @@ o1800 SUB
 o1800 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE CLOSE GRIPPER UP                                   *****)
 (**********************************************************************)
 
-o1850 SUB
+o1850 SUB ;ROUTINE CLOSE GRIPPER UP
     M65 P23
     M64 P24
 
@@ -3961,11 +4278,12 @@ o1850 SUB
 o1850 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE CLOSE GRIPPER DOWN WITH COUPLING                   *****)
 (**********************************************************************)
 
-o1900 SUB
+o1900 SUB ;ROUTINE CLOSE GRIPPER DOWN WITH COUPLING
     M65 P22
     M64 P21
 
@@ -3995,11 +4313,12 @@ o1900 SUB
 o1900 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE CLOSE GRIPPER DOWN WITH COUPLING WITHOUT PRESENCE  *****)
 (**********************************************************************)
 
-o1925 SUB
+o1925 SUB ;ROUTINE CLOSE GRIPPER DOWN WITH COUPLING WITHOUT PRESENCE
     M65 P22
     M64 P21
 
@@ -4023,11 +4342,12 @@ o1925 SUB
 o1925 ENDSUB
 
 
+
 (**********************************************************************)
 (***** ROUTINE CLOSE GRIPPER UP WITH COUPLING                     *****)
 (**********************************************************************)
 
-o1950 SUB
+o1950 SUB ;ROUTINE CLOSE GRIPPER UP WITH COUPLING
     M65 P23
     M64 P24
 
@@ -4057,11 +4377,12 @@ o1950 SUB
 o1950 ENDSUB
 
 
+
 (**********************************************************************)
 (***** VERIFY SAFE POSITION WITH TOLERANCE                        *****)
 (**********************************************************************)
 
-o2000 SUB
+o2000 SUB ;VERIFY SAFE POSITION WITH TOLERANCE
 
     o2005 IF [#<_y> GT [#<_y_secure_position>+1] OR #<_y> LT [#<_y_secure_position>-1]]
         (debug, AXIS Y error, NOT IN SAFE POSITION)
@@ -4080,11 +4401,12 @@ o2000 SUB
 o2000 ENDSUB
 
 
+
 (**********************************************************************)
 (***** OP10 SPARE=0 / M180=1                                      *****)
 (**********************************************************************)
 
-o2200 SUB
+o2200 SUB ;OP10 SPARE=0 / M180=1  
     ;(debug, OP10 )
 
     ;OP10 - CLOSED DOOR SENSOR
@@ -4137,11 +4459,12 @@ o2200 SUB
 o2200 ENDSUB
 
 
+
 (**********************************************************************)
 (----- OP20 SPARE=1 M181=1                                        -----)
 (**********************************************************************)
 
-o2150 SUB
+o2150 SUB ;OP20 SPARE=1 M181=1   
 
 
     ;(debug, OP20 )
