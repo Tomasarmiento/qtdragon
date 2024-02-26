@@ -202,135 +202,2664 @@ Run the Latency Test and resolve before continuing.
 jue22 06:17 Machine ON
 
 
---- Qtvcp Screen Started on: jue, feb 22 2024 11:48:47 ---
-jue22 11:48 Machine OFF
-jue22 11:48 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: jue, feb 22 2024 07:56:21 ---
+jue22 07:56 Machine OFF
+
+jue22 07:56 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-jue22 11:48 Machine ON
+jue22 07:58 Machine ON
 
 
---- Qtvcp Screen Started on: jue, feb 22 2024 11:58:30 ---
-jue22 11:58 Machine OFF
-
-jue22 11:58 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: jue, feb 22 2024 07:59:26 ---
+jue22 07:59 Machine OFF
+jue22 07:59 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-jue22 11:58 Machine ON
+jue22 07:59 Machine ON
 
-jue22 11:59 Must be in AUTO mode to run a program
+jue22 07:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue22 08:04 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:04 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:04 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+jue22 08:08 Cannot switch pages while in AUTO mode
+
+jue22 08:08 Started program from line 1
+
+jue22 08:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:09 Started program from line 1
+jue22 08:09 Parámetro con nombre #<_ini[subroutine_number_selection]load_gripper_down> no definido
+
+jue22 08:10 Cannot switch pages while in AUTO mode
 
 
---- Qtvcp Screen Started on: jue, feb 22 2024 12:00:41 ---
-jue22 12:00 Machine OFF
-jue22 12:00 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
+
+jue22 08:12 Machine ON
+
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+jue22 08:12 Started program from line 1
+
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+
+jue22 08:13  0 - LOAD gripper down
+
+jue22 08:13  gripper down measured x coordinate 309.404907
+
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+
+jue22 08:14  gripper down measured x coordinate 310.097198
+
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 08:14  gripper up measured x coordinate 273.666016
+
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 08:17  gripper down measured x coordinate 2910.964600
+
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 08:18  gripper down measured x coordinate 1017.826050
+
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+
+jue22 08:24 Started program from line 1
+
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+
+jue22 08:25  gripper up measured x coordinate 269.967468
+
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+
+jue22 08:25  30 seconds to end
+
+jue22 08:26 Cannot switch pages while in AUTO mode
+
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+
+jue22 08:26 Started program from line 1
+
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:27 Started program from line 1
+
+jue22 08:27  PRODUCTION step 4
+
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 08:27  gripper down measured x coordinate 2910.885010
+
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 08:28  gripper down measured x coordinate 1017.330933
+
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+
+jue22 08:29  gripper up measured x coordinate 270.317688
+
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 08:34  gripper down measured x coordinate 2909.238770
+
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 08:34  5 - BLOWER
+
+jue22 08:34  gripper down measured x coordinate 2068.998291
+
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+
+jue22 08:35  5 - UNLOAD gripper down
+
+jue22 08:35  5 - LOAD gripper down
+
+jue22 08:35  gripper down measured x coordinate 309.645142
+
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 08:36  gripper up measured x coordinate 273.043091
+
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:38  gripper down measured x coordinate 2909.057861
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:38  gripper down measured x coordinate 2909.057861
+jue22 08:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.042139 
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:38  gripper down measured x coordinate 2909.057861
+jue22 08:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.042139 
+jue22 08:38  LATHE PRODUCTION GRD - measurement length exceeded error
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:38  gripper down measured x coordinate 2909.057861
+jue22 08:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.042139 
+jue22 08:38  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:38  6 - BLOWER
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:11:55 ---
+jue22 08:11 Machine OFF
+jue22 08:11 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 08:12 Machine ON
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:12 Started program from line 1
+jue22 08:12  PRODUCTION step 0
+jue22 08:12  INIT - WAIT UNTILL HOME POSITION
+jue22 08:13  STEP 0 - gantry empty-lathe empty
+jue22 08:13  0 - checkings step 0
+jue22 08:13  0 - LOAD gripper down
+jue22 08:13  gripper down measured x coordinate 309.404907
+jue22 08:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.195093 
+jue22 08:13  STEP 1 - gantry raw-lathe empty
+jue22 08:13  1 - checkings step 1
+jue22 08:13  1 - LATHE STARTS - gripper down leaves coupling
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 08:13  *** WAIT UNTILL HOME POSITION ***
+jue22 08:13  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 08:14  STEP 2 - gantry empty-lathe op10
+jue22 08:14  2 - checkings step 2
+jue22 08:14  2 - LOAD gripper down
+jue22 08:14  gripper down measured x coordinate 310.097198
+jue22 08:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.502802 
+jue22 08:14  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:14  gripper up measured x coordinate 273.666016
+jue22 08:14  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.833984 
+jue22 08:14  STEP 3 -  gantry raw up / lathe op10
+jue22 08:14  3 - checkings step 3 to 6
+jue22 08:14  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:14  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:17  *** WAIT UNTILL HOME POSITION ***
+jue22 08:17  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:17  gripper down measured x coordinate 2910.964600
+jue22 08:17  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.135400 
+jue22 08:17  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:18  3 - TUMBLER enter gripper down - exit gripper up
+jue22 08:18  gripper down measured x coordinate 1017.826050
+jue22 08:18  Tumbler down - MEASURE DIF VS REF = 7.173950 
+jue22 08:18  Tumbler down - measurement length exceeded error
+jue22 08:18  PARKING - Tumbler rotator not in 0 degrees
+jue22 08:24 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB DEBUGGING.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:24 Started program from line 1
+jue22 08:24  DEBUG
+jue22 08:25  gripper up measured x coordinate 269.967468
+jue22 08:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.532532 
+jue22 08:25  PARKING gripper up - measurement length exceeded
+jue22 08:25  30 seconds to end
+jue22 08:26 Cannot switch pages while in AUTO mode
+jue22 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP4 Gantry op10 Turn GRU - Lathe op10.ngc
+jue22 08:26 Started program from line 1
+jue22 08:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:27 Started program from line 1
+jue22 08:27  PRODUCTION step 4
+jue22 08:27  INIT - WAIT UNTILL HOME POSITION
+jue22 08:27  STEP 4 - gantry op10T up / lathe op10
+jue22 08:27  4 - checkings step 3 to 6
+jue22 08:27  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:27  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:27  *** WAIT UNTILL HOME POSITION ***
+jue22 08:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:27  gripper down measured x coordinate 2910.885010
+jue22 08:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.214990 
+jue22 08:27  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:28  4 - TUMBLER enter gripper down - exit gripper up
+jue22 08:28  gripper down measured x coordinate 1017.330933
+jue22 08:28  Tumbler down - MEASURE DIF VS REF = 7.669067 
+jue22 08:28  Tumbler down - measurement length exceeded error
+jue22 08:29  gripper up measured x coordinate 270.317688
+jue22 08:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.182312 
+jue22 08:29  PARKING gripper up - measurement length exceeded
+jue22 08:29  STEP 5 - gantry op10T up / lathe op20
+jue22 08:29  5 - checkings step 3 to 6
+jue22 08:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:33  *** WAIT UNTILL HOME POSITION ***
+jue22 08:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:34  gripper down measured x coordinate 2909.238770
+jue22 08:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 47.861230 
+jue22 08:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:34  5 - BLOWER
+jue22 08:34  gripper down measured x coordinate 2068.998291
+jue22 08:34  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.501709 
+jue22 08:35  5 - UNLOAD gripper down
+jue22 08:35  5 - LOAD gripper down
+jue22 08:35  gripper down measured x coordinate 309.645142
+jue22 08:35  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.954858 
+jue22 08:35  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 08:36  gripper up measured x coordinate 273.043091
+jue22 08:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.456909 
+jue22 08:36  STEP 6 - gantry raw up-lathe op20
+jue22 08:36  6 - checkings step 3 to 6
+jue22 08:36  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 08:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:36 Pneumatic Sensor Error - UNLOAD - Step 2 - Cup did not pass the discharge sensor
+jue22 08:37  *** WAIT UNTILL HOME POSITION ***
+jue22 08:37  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 08:38  gripper down measured x coordinate 2909.057861
+jue22 08:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.042139 
+jue22 08:38  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 08:38  6 - BLOWER
+jue22 08:38  BLOWER GRIPPER DOWN LEAVE - PYTHON ROUTINE not running
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:44:46 ---
+jue22 08:44 Machine OFF
+
+jue22 08:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 08:47:44 ---
+jue22 08:47 Machine OFF
+jue22 08:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 08:48 Machine ON
+
+jue22 08:48 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB UNLOAD GRIPPER DOWN.ngc
+jue22 08:48 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB UNLOAD GRIPPER DOWN.ngc
+
+jue22 08:48 Started program from line 1
+
+jue22 08:48 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:48 Started program from line 1
+
+jue22 08:48  UNLOAD GRIPPER DOWN
+
+jue22 08:49  UNLOAD gripper down - Vertical Pneumatic is not up
+
+jue22 08:53 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:53 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:53 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 08:53 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:53 Started program from line 1
+
+jue22 08:53  UNLOAD GRIPPER DOWN
+
+jue22 08:53  UNLOAD gripper down - Vertical Pneumatic is not up
+
+jue22 08:53 Cannot switch pages while in AUTO mode
+
+jue22 08:53 Cannot switch pages while in AUTO mode
+
+jue22 08:54 Started program from line 1
+jue22 08:54  UNLOAD GRIPPER DOWN
+
+jue22 08:54  30 seconds to end
+
+jue22 08:55 Cannot switch pages while in AUTO mode
+
+jue22 08:55 Cannot switch pages while in AUTO mode
+
+jue22 08:56 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP2 Gantry empty - Lathe op10.ngc
+jue22 08:56 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP2 Gantry empty - Lathe op10.ngc
+
+jue22 08:56 Started program from line 1
+
+jue22 08:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 08:56 Started program from line 1
+jue22 08:56  PRODUCTION step 2
+
+jue22 08:56  INIT - WAIT UNTILL HOME POSITION
+
+jue22 08:56  STEP 2 - gantry empty-lathe op10
+jue22 08:56  2 - checkings step 2
+
+jue22 08:56  2 - LOAD gripper down
+
+jue22 08:56  gripper down measured x coordinate 310.424866
+
+jue22 08:56  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.175134 
+
+jue22 08:56  2 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 08:57  gripper up measured x coordinate 273.872894
+
+jue22 08:57  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.627106 
+
+jue22 08:57  STEP 3 -  gantry raw up / lathe op10
+
+jue22 08:57  3 - checkings step 3 to 6
+jue22 08:57  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 08:57  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:57  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 08:57  *** WAIT UNTILL HOME POSITION ***
+jue22 08:57  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 08:57  gripper down measured x coordinate 2910.804932
+
+jue22 08:57  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.295068 
+jue22 08:57  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 08:57  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 08:58  gripper down measured x coordinate 1017.031189
+
+jue22 08:58  Tumbler down - MEASURE DIF VS REF = 7.968811 
+
+jue22 08:58  Tumbler down - measurement length exceeded error
+
+jue22 08:58  gripper up measured x coordinate 270.331116
+
+jue22 08:58  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.168884 
+
+jue22 08:58  PARKING gripper up - measurement length exceeded
+
+jue22 08:59  STEP 4 - gantry op10T up / lathe op10
+jue22 08:59  4 - checkings step 3 to 6
+jue22 08:59  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 08:59  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 08:59  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:11  *** WAIT UNTILL HOME POSITION ***
+
+jue22 09:11  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:11  gripper down measured x coordinate 2910.811279
+
+jue22 09:11  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.288721 
+jue22 09:11  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:11  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 09:12  gripper down measured x coordinate 1016.411255
+
+jue22 09:12  Tumbler down - MEASURE DIF VS REF = 8.588745 
+jue22 09:12  Tumbler down - measurement length exceeded error
+
+jue22 09:12  gripper up measured x coordinate 270.331085
+
+jue22 09:12  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.168915 
+
+jue22 09:12  PARKING gripper up - measurement length exceeded
+
+jue22 09:12  STEP 5 - gantry op10T up / lathe op20
+jue22 09:12  5 - checkings step 3 to 6
+jue22 09:12  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 09:12  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:13  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:15  *** WAIT UNTILL HOME POSITION ***
+jue22 09:15  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:15  gripper down measured x coordinate 2909.037598
+
+jue22 09:15  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.062402 
+
+jue22 09:15  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:15  5 - BLOWER
+
+jue22 09:16  gripper down measured x coordinate 2068.852051
+
+jue22 09:16  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.647949 
+
+jue22 09:16  5 - UNLOAD gripper down
+
+jue22 09:16  5 - LOAD gripper down
+
+jue22 09:16  gripper down measured x coordinate 309.651642
+
+jue22 09:16  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.948358 
+
+jue22 09:17  5 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 09:17  gripper up measured x coordinate 273.129639
+
+jue22 09:17  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.370361 
+
+jue22 09:17  STEP 6 - gantry raw up-lathe op20
+jue22 09:17  6 - checkings step 3 to 6
+jue22 09:17  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 09:17  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:17  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:18  *** WAIT UNTILL HOME POSITION ***
+jue22 09:18  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:18  gripper down measured x coordinate 2909.058350
+
+jue22 09:18  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.041650 
+jue22 09:18  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:19  6 - BLOWER
+
+jue22 09:19  gripper down measured x coordinate 2068.416992
+
+jue22 09:19  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 6.083008 
+jue22 09:19  BLOWER GRIPPER DOWN GRAB - measurement length exceeded
+
+jue22 09:19  6 - UNLOAD gripper down
+
+jue22 09:20  STEP 6 Continues - gantry raw up-lathe op20
+jue22 09:20  6 - LOAD gripper down
+
+jue22 09:20  gripper down measured x coordinate 309.431702
+
+jue22 09:20  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.168298 
+
+jue22 09:20  6 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 09:20  gripper up measured x coordinate 272.685211
+
+jue22 09:20  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.814789 
+
+jue22 09:20  STEP 3 -  gantry raw up / lathe op10
+jue22 09:20  3 - checkings step 3 to 6
+
+jue22 09:20  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:21  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:21  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:23  *** WAIT UNTILL HOME POSITION ***
+jue22 09:23  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:23  gripper down measured x coordinate 2910.724365
+
+jue22 09:23  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.375635 
+jue22 09:23  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:24  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 09:24  gripper down measured x coordinate 1017.858643
+
+jue22 09:24  Tumbler down - MEASURE DIF VS REF = 7.141357 
+jue22 09:24  Tumbler down - measurement length exceeded error
+
+jue22 09:25  gripper up measured x coordinate 269.731110
+
+jue22 09:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.768890 
+jue22 09:25  PARKING gripper up - measurement length exceeded
+
+jue22 09:25  STEP 4 - gantry op10T up / lathe op10
+
+jue22 09:25  4 - checkings step 3 to 6
+jue22 09:25  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:25  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:25  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:27  *** WAIT UNTILL HOME POSITION ***
+jue22 09:27  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:27  gripper down measured x coordinate 2910.925049
+
+jue22 09:27  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.174951 
+
+jue22 09:27  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:28  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 09:28  gripper down measured x coordinate 1018.297668
+
+jue22 09:28  Tumbler down - MEASURE DIF VS REF = 6.702332 
+
+jue22 09:28  Tumbler down - measurement length exceeded error
+
+jue22 09:29  gripper up measured x coordinate 269.784576
+
+jue22 09:29  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.715424 
+
+jue22 09:29  PARKING gripper up - measurement length exceeded
+
+jue22 09:29  STEP 5 - gantry op10T up / lathe op20
+jue22 09:29  5 - checkings step 3 to 6
+jue22 09:29  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 09:29  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:29  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:33  *** WAIT UNTILL HOME POSITION ***
+jue22 09:33  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:33  gripper down measured x coordinate 2909.084473
+
+jue22 09:33  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.015527 
+jue22 09:33  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:33  5 - BLOWER
+
+jue22 09:35  gripper down measured x coordinate 2068.951660
+
+jue22 09:35  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.548340 
+
+jue22 09:35  5 - UNLOAD gripper down
+
+jue22 09:36  5 - LOAD gripper down
+
+jue22 09:36  gripper down measured x coordinate 309.464996
+
+jue22 09:36  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.135004 
+
+jue22 09:36  5 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 09:36  gripper up measured x coordinate 272.518036
+
+jue22 09:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.981964 
+
+jue22 09:37  STEP 6 - gantry raw up-lathe op20
+
+jue22 09:37  6 - checkings step 3 to 6
+jue22 09:37  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:37  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:37  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:38  *** WAIT UNTILL HOME POSITION ***
+jue22 09:38  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:39  gripper down measured x coordinate 2908.892822
+
+jue22 09:39  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.207178 
+
+jue22 09:39  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:39  6 - BLOWER
+
+jue22 09:39  gripper down measured x coordinate 2068.403320
+
+jue22 09:39  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 6.096680 
+jue22 09:39  BLOWER GRIPPER DOWN GRAB - measurement length exceeded
+
+jue22 09:40  6 - UNLOAD gripper down
+
+jue22 09:40  STEP 6 Continues - gantry raw up-lathe op20
+jue22 09:40  6 - LOAD gripper down
+
+jue22 09:40  gripper down measured x coordinate 309.224884
+
+jue22 09:40  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.375116 
+
+jue22 09:40  6 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 09:41  gripper up measured x coordinate 272.364258
+
+jue22 09:41  PARKING GRIPPER UP - MEASURE DIF VS REF = 4.135742 
+
+jue22 09:41  STEP 3 -  gantry raw up / lathe op10
+
+jue22 09:41  3 - checkings step 3 to 6
+jue22 09:41  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:41  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:41  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:44 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP3 Gantry raw GRU - Lathe op10.ngc
+jue22 09:44 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP3 Gantry raw GRU - Lathe op10.ngc
+
+jue22 09:44 Started program from line 1
+jue22 09:44 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 09:44 Started program from line 1
+
+jue22 09:44  PRODUCTION step 3
+
+jue22 09:44  AXIS Y error, NOT IN SAFE POSITION
+jue22 09:44  INIT - Gantry not in Safe Position Y/Z coordinates
+
+jue22 09:44 Cannot switch pages while in AUTO mode
+
+jue22 09:45 Started program from line 1
+
+jue22 09:45  PRODUCTION step 3
+
+jue22 09:45  INIT - WAIT UNTILL HOME POSITION
+
+jue22 09:45  STEP 3 -  gantry raw up / lathe op10
+jue22 09:45  3 - checkings step 3 to 6
+
+jue22 09:45  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:45  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:45  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:45  *** WAIT UNTILL HOME POSITION ***
+jue22 09:45  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:46  gripper down measured x coordinate 2910.657471
+
+jue22 09:46  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.442529 
+jue22 09:46  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:46  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 09:46  gripper down measured x coordinate 1016.818542
+
+jue22 09:46  Tumbler down - MEASURE DIF VS REF = 8.181458 
+
+jue22 09:46  Tumbler down - measurement length exceeded error
+
+jue22 09:47  gripper up measured x coordinate 269.863770
+
+jue22 09:47  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.636230 
+
+jue22 09:47  PARKING gripper up - measurement length exceeded
+
+jue22 09:47  STEP 4 - gantry op10T up / lathe op10
+jue22 09:47  4 - checkings step 3 to 6
+jue22 09:47  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 09:47  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:47  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:49  *** WAIT UNTILL HOME POSITION ***
+jue22 09:49  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:50  gripper down measured x coordinate 2910.724365
+
+jue22 09:50  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.375635 
+
+jue22 09:50  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:50  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 09:51  gripper down measured x coordinate 1017.390503
+
+jue22 09:51  Tumbler down - MEASURE DIF VS REF = 7.609497 
+
+jue22 09:51  Tumbler down - measurement length exceeded error
+
+jue22 09:51  gripper up measured x coordinate 269.764465
+
+jue22 09:51  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.735535 
+jue22 09:51  PARKING gripper up - measurement length exceeded
+
+jue22 09:51  STEP 5 - gantry op10T up / lathe op20
+
+jue22 09:51  5 - checkings step 3 to 6
+jue22 09:51  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:51  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:51  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:54  *** WAIT UNTILL HOME POSITION ***
+jue22 09:54  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:54  gripper down measured x coordinate 2908.932129
+
+jue22 09:54  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.167871 
+jue22 09:54  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:54  5 - BLOWER
+
+jue22 09:55  gripper down measured x coordinate 2068.744141
+
+jue22 09:55  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.755859 
+
+jue22 09:55  5 - UNLOAD gripper down
+
+jue22 09:55  5 - LOAD gripper down
+
+jue22 09:56  gripper down measured x coordinate 309.618958
+
+jue22 09:56  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.981042 
+
+jue22 09:56  5 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 09:56  gripper up measured x coordinate 273.036591
+
+jue22 09:56  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.463409 
+
+jue22 09:56  STEP 6 - gantry raw up-lathe op20
+
+jue22 09:56  6 - checkings step 3 to 6
+jue22 09:56  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 09:56  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 09:56  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 09:58  *** WAIT UNTILL HOME POSITION ***
+jue22 09:58  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 09:58  gripper down measured x coordinate 2908.918701
+
+jue22 09:58  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 48.181299 
+jue22 09:58  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 09:58  6 - BLOWER
+
+jue22 09:59  gripper down measured x coordinate 2068.750488
+
+jue22 09:59  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 5.749512 
+
+jue22 09:59  6 - UNLOAD gripper down
+
+jue22 09:59  STEP 6 Continues - gantry raw up-lathe op20
+jue22 09:59  6 - LOAD gripper down
+
+jue22 09:59  gripper down measured x coordinate 309.384644
+
+jue22 09:59  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 4.215356 
+
+jue22 10:00  6 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 10:00  gripper up measured x coordinate 272.571198
+
+jue22 10:00  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.928802 
+
+jue22 10:00  STEP 3 -  gantry raw up / lathe op10
+jue22 10:00  3 - checkings step 3 to 6
+
+jue22 10:00  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 10:00  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 10:00  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 10:02  *** WAIT UNTILL HOME POSITION ***
+jue22 10:02  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 10:02  gripper down measured x coordinate 2910.831299
+
+jue22 10:02  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.268701 
+jue22 10:02  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 10:02  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 10:03  gripper down measured x coordinate 1017.544250
+
+jue22 10:03  Tumbler down - MEASURE DIF VS REF = 7.455750 
+jue22 10:03  Tumbler down - measurement length exceeded error
+
+jue22 10:03  gripper up measured x coordinate 269.305359
+
+jue22 10:03  PARKING GRIPPER UP - MEASURE DIF VS REF = 7.194641 
+
+jue22 10:03  PARKING gripper up - measurement length exceeded
+
+jue22 10:04  STEP 4 - gantry op10T up / lathe op10
+
+jue22 10:04  4 - checkings step 3 to 6
+jue22 10:04  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 10:04  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 10:04  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 10:05  *** WAIT UNTILL HOME POSITION ***
+jue22 10:05  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 10:06  gripper down measured x coordinate 2910.791504
+
+jue22 10:06  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 46.308496 
+
+jue22 10:06  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 10:06  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 10:07  gripper down measured x coordinate 1017.979431
+
+jue22 10:07  Tumbler down - MEASURE DIF VS REF = 7.020569 
+jue22 10:07  Tumbler down - measurement length exceeded error
+
+jue22 10:07  gripper up measured x coordinate 269.604340
+
+jue22 10:07  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.895660 
+jue22 10:07  PARKING gripper up - measurement length exceeded
+
+jue22 10:07  STEP 5 - gantry op10T up / lathe op20
+
+jue22 10:07  5 - checkings step 3 to 6
+jue22 10:07  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 10:07  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 10:07  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:13:28 ---
+jue22 10:13 Machine OFF
+jue22 10:13 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 10:14 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:16:17 ---
+jue22 10:16 Machine OFF
+
+jue22 10:16 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 10:16 Machine ON
+
+jue22 10:16 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+jue22 10:16 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+jue22 10:16 Started program from line 1
+
+jue22 10:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 10:16 Started program from line 1
+jue22 10:16 Código m desconocido: M100
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:38:47 ---
+jue22 10:38 Machine OFF
+jue22 10:38 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 10:38 Machine ON
+
+jue22 10:39 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+jue22 10:39 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+jue22 10:39 Started program from line 1
+
+jue22 10:39 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 10:39 Started program from line 1
+jue22 10:39 Código m desconocido: M100
+
+jue22 10:39 Started program from line 1
+jue22 10:39 Código m desconocido: M100
+
+jue22 10:40 Código m desconocido: M100
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:40:28 ---
+jue22 10:40 Machine OFF
+jue22 10:40 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 10:40 Machine ON
+
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+jue22 10:42 Machine ON
+
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+jue22 10:45 Started program from line 1
+
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+
+jue22 10:46 Started program from line 1
+
+jue22 10:46  PRODUCTION step 0
+
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+
+jue22 10:46 Started program from line 1
+
+jue22 10:46  PRODUCTION step 0
+
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+
+jue22 10:47 Cannot switch pages while in AUTO mode
+
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+jue22 10:56  INIT - Parking - Present Coupling error
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+jue22 10:56  INIT - Parking - Present Coupling error
+jue22 10:58 Started program from line 1
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+jue22 10:56  INIT - Parking - Present Coupling error
+jue22 10:58 Started program from line 1
+jue22 10:58  PRODUCTION step 0
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+jue22 10:56  INIT - Parking - Present Coupling error
+jue22 10:58 Started program from line 1
+jue22 10:58  PRODUCTION step 0
+jue22 10:58  INIT PYTHON ROUTINE not running
+
+jue22 10:59 Started program from line 1
+
+jue22 10:59  PRODUCTION step 0
+
+jue22 10:59  INIT - WAIT UNTILL HOME POSITION
+
+jue22 11:00 Cannot switch pages while in AUTO mode
+
+jue22 11:06 Machine OFF
+
+jue22 11:06 Machine ON
+
+jue22 11:11 Cannot switch pages while in AUTO mode
+
+jue22 11:11 Cannot switch pages while in AUTO mode
+
+jue22 11:11 Cannot switch pages while in AUTO mode
+
+jue22 11:18 Started program from line 1
+jue22 11:18  PRODUCTION step 0
+
+jue22 11:19  INIT - WAIT UNTILL HOME POSITION
+
+jue22 11:19  STEP 0 - gantry empty-lathe empty
+jue22 11:19  0 - checkings step 0
+jue22 11:19  0 - LOAD gripper down
+
+jue22 11:19  gripper down measured x coordinate 299.018646
+
+jue22 11:19  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 14.581354 
+jue22 11:19  LOAD GRIPPER DOWN - measurement length exceeded error
+
+jue22 11:19  STEP 1 - gantry raw-lathe empty
+jue22 11:19  1 - checkings step 1
+
+jue22 11:19  1 - LATHE STARTS - gripper down leaves coupling
+
+jue22 11:19  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+
+jue22 11:19  *** WAIT UNTILL HOME POSITION ***
+jue22 11:19  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+jue22 11:21 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Cannot switch pages while in AUTO mode
+
+jue22 11:22 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+jue22 11:23 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 11:23 Started program from line 1
+
+jue22 11:23  PRODUCTION step 0
+
+jue22 11:24  INIT - WAIT UNTILL HOME POSITION
+
+jue22 11:24  STEP 0 - gantry empty-lathe empty
+
+jue22 11:24  0 - checkings step 0
+jue22 11:24  0 - LOAD gripper down
+
+jue22 11:24  gripper down measured x coordinate 301.311676
+
+jue22 11:24  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 12.288324 
+
+jue22 11:24  LOAD GRIPPER DOWN - measurement length exceeded error
+
+jue22 11:24  STEP 1 - gantry raw-lathe empty
+
+jue22 11:24  1 - checkings step 1
+jue22 11:24  1 - LATHE STARTS - gripper down leaves coupling
+
+jue22 11:24  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 11:24  *** WAIT UNTILL HOME POSITION ***
+jue22 11:24  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+jue22 11:25  STEP 2 - gantry empty-lathe op10
+
+jue22 11:25  2 - checkings step 2
+jue22 11:25  2 - LOAD gripper down
+
+jue22 11:25  gripper down measured x coordinate 300.426239
+
+jue22 11:25  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 13.173761 
+
+jue22 11:25  LOAD GRIPPER DOWN - measurement length exceeded error
+
+jue22 11:25  2 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 11:25  gripper up measured x coordinate 269.578583
+
+jue22 11:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.921417 
+jue22 11:25  PARKING gripper up - measurement length exceeded
+
+jue22 11:26  STEP 3 -  gantry raw up / lathe op10
+jue22 11:26  3 - checkings step 3 to 6
+jue22 11:26  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 11:26  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:26  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:28  *** WAIT UNTILL HOME POSITION ***
+
+jue22 11:28  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:29  gripper down measured x coordinate 2913.820557
+
+jue22 11:29  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 21.279443 
+jue22 11:29  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 11:30  3 - TUMBLER enter gripper down - exit gripper up
+
+jue22 11:30  gripper down measured x coordinate 1017.614807
+
+jue22 11:30  Tumbler down - MEASURE DIF VS REF = 7.385193 
+
+jue22 11:30  Tumbler down - measurement length exceeded error
+
+jue22 11:31  gripper up measured x coordinate 267.446533
+
+jue22 11:31  PARKING GRIPPER UP - MEASURE DIF VS REF = 9.053467 
+jue22 11:31  PARKING gripper up - measurement length exceeded
+
+jue22 11:31  STEP 4 - gantry op10T up / lathe op10
+
+jue22 11:31  4 - checkings step 3 to 6
+jue22 11:31  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:31  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:31  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:34  *** WAIT UNTILL HOME POSITION ***
+jue22 11:34  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:34  gripper down measured x coordinate 2913.168945
+
+jue22 11:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 21.931055 
+
+jue22 11:34  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 11:35  4 - TUMBLER enter gripper down - exit gripper up
+
+jue22 11:35  gripper down measured x coordinate 1017.824463
+
+jue22 11:35  Tumbler down - MEASURE DIF VS REF = 7.175537 
+
+jue22 11:35  Tumbler down - measurement length exceeded error
+
+jue22 11:36  gripper up measured x coordinate 267.001617
+
+jue22 11:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 9.498383 
+jue22 11:36  PARKING gripper up - measurement length exceeded
+
+jue22 11:36  STEP 5 - gantry op10T up / lathe op20
+jue22 11:36  5 - checkings step 3 to 6
+jue22 11:36  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+jue22 11:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:38  *** WAIT UNTILL HOME POSITION ***
+
+jue22 11:38  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:38  gripper down measured x coordinate 2911.238525
+
+jue22 11:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 23.861475 
+jue22 11:38  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 11:39  5 - BLOWER
+
+jue22 11:39  gripper down measured x coordinate 2072.666992
+
+jue22 11:39  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.833008 
+
+jue22 11:39  5 - UNLOAD gripper down
+
+jue22 11:40  5 - LOAD gripper down
+
+jue22 11:40  gripper down measured x coordinate 304.913208
+
+jue22 11:40  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 8.686792 
+jue22 11:40  LOAD GRIPPER DOWN - measurement length exceeded error
+
+jue22 11:40  5 - PARKING - DOWN LEAVES - UP GRABS
+
+jue22 11:40  gripper up measured x coordinate 269.947235
+
+jue22 11:40  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.552765 
+jue22 11:40  PARKING gripper up - measurement length exceeded
+
+jue22 11:40  STEP 6 - gantry raw up-lathe op20
+jue22 11:40  6 - checkings step 3 to 6
+
+jue22 11:40  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:40  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:41  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:42  *** WAIT UNTILL HOME POSITION ***
+
+jue22 11:42  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:42  gripper down measured x coordinate 2911.170898
+
+jue22 11:43  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 23.929102 
+jue22 11:43  LATHE PRODUCTION GRD - measurement length exceeded error
+
+jue22 11:43  6 - BLOWER
+
+jue22 11:43  gripper down measured x coordinate 2072.403809
+
+jue22 11:43  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 2.096191 
+
+jue22 11:44  6 - UNLOAD gripper down
+
+jue22 11:44  Last Cycle - gantry raw up-lathe op20
+jue22 11:44  Last Cycle - LATHE ENDS - gripper down GRABS
+jue22 11:44  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:44  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:47  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+
+jue22 11:47  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:47  gripper down measured x coordinate 2913.917480
+
+jue22 11:47   LATHE ENDS - MEASURE DIF VS REF = 21.182520 
+jue22 11:47   LATHE ENDS - measurement length exceeded error
+
+jue22 11:47  Last Cycle - TUMBLER enter gripper down  - exit gripper down
+
+jue22 11:48  gripper down measured x coordinate 1017.830261
+
+jue22 11:48  Tumbler down - MEASURE DIF VS REF = 7.169739 
+
+jue22 11:48  Tumbler down - measurement length exceeded error
+
+jue22 11:48  Last Cycle - LATHE STARTS - gripper down leaves coupling
+
+jue22 11:48  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+
+jue22 11:48  *** WAIT UNTILL HOME POSITION ***
+jue22 11:48  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+jue22 11:48  Last Cycle - LATHE ENDS - gripper down GRABS
+
+jue22 11:48  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+jue22 11:48  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+jue22 11:52  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+jue22 11:52  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+jue22 11:52  gripper down measured x coordinate 2911.726807
+
+jue22 11:52   LATHE ENDS - MEASURE DIF VS REF = 23.373193 
+
+jue22 11:52   LATHE ENDS - measurement length exceeded error
+
+jue22 11:52  Last Cycle - BLOWER
+
+jue22 11:53  gripper down measured x coordinate 2072.549072
+
+jue22 11:53  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.950928 
+
+jue22 11:53  Last Cycle - UNLOAD gripper down
+
+jue22 11:53  30 seconds to end
+
+jue22 11:55 Machine OFF
+
+jue22 11:55 movimiento detenido por entrada habilitada
 
 jue22 12:00 Machine ON
 
+jue22 12:33 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+jue22 12:33 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
 
---- Qtvcp Screen Started on: jue, feb 22 2024 12:02:08 ---
-jue22 12:02 Machine OFF
-jue22 12:02 Unexpected realtime delay on task 0 with period 1000000
+jue22 12:33 Started program from line 1
+
+jue22 12:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+jue22 12:33 Started program from line 1
+
+jue22 12:33  PRINT VARIABLES
+
+jue22 12:33  <_parking_plate_to_gripper_down_x> = -12.200000
+jue22 12:33  <_parking_gripper_down_enter_y> = 354.500000
+
+jue22 12:33  <_parking_gripper_down_z_reference> = 1329.100000
+jue22 12:33  <_parking_plate_to_gripper_up_x> = -9.200000
+jue22 12:33  <_parking_gripper_up_enter_y> = 354.200000
+
+jue22 12:33  <_parking_gripper_up_z_reference> = 1077.000000
+jue22 12:33  <_parking_enter_x_over_bars> = 339.800000
+jue22 12:33  <_parking_enter_z> = 1381.100000
+
+jue22 12:33  <_parking_aproximates_x> = 309.800000
+jue22 12:33  <_parking_enter_x_free> = 509.800000
+jue22 12:33  <_parking_gripper_down_unload_x_calculated> = 275.300000
+
+jue22 12:33  <_parking_gripper_down_load_x_calculated> = 272.300000
+jue22 12:33  <_parking_gripper_down_z_calculated> = 1335.496938
+jue22 12:33  <_parking_gripper_up_unload_x_calculated> = 278.300000
+
+jue22 12:33  <_parking_gripper_up_load_x_calculated> = 275.300000
+jue22 12:33  <_parking_gripper_up_z_calculated> = 1083.396938
+jue22 12:33  <_parking_gripper_down_x_meas_ref> = 276.500000
+
+jue22 12:33  <_parking_gripper_up_x_meas_ref> = 276.500000
+jue22 12:33  <_blower_plate_to_gripper_down_x> = 1798.200000
+jue22 12:33  <_blower_enter_y> = 353.700000
+
+jue22 12:33  <_blower_gripper_down_z_reference> = 1327.800000
+jue22 12:33  <_blower_enter_x> = 2309.200000
+jue22 12:33  <_blower_aproximates_x> = 2099.200000
+
+jue22 12:33  <_blower_gripper_down_unload_x_calculated> = 2078.700000
+jue22 12:33  <_blower_gripper_down_load_x_calculated> = 2075.700000
+jue22 12:33  <_blower_gripper_down_z_calculated_machined> = 1331.442075
+
+jue22 12:33  <_blower_gripper_down_x_meas_ref_machined> = 2074.500000
+jue22 12:33  <_load_plate_to_gripper_down_x> = 21.900000
+jue22 12:33  <_load_enter_y> = 167.900000
+
+jue22 12:33  <_load_gripper_down_z_reference> = 385.200000
+jue22 12:33  <_load_enter_x> = 444.900000
+jue22 12:33  <_load_aproximates_x> = 344.900000
+
+jue22 12:33  <_load_gripper_down_x_calculated> = 306.400000
+jue22 12:33  <_load_gripper_down_z_calculated> = 391.671580
+jue22 12:33  <_load_gripper_down_x_meas_ref> = 313.600000
+
+jue22 12:33  <_unload_plate_to_gripper_down_x> = 11.400000
+jue22 12:33  <_unload_enter_y> = 450.000000
+jue22 12:33  <_unload_gripper_down_z_reference> = 519.000000
+
+jue22 12:33  <_unload_enter_x> = 521.400000
+jue22 12:33  <_unload_aproximates_x> = 311.400000
+jue22 12:33  <_unload_enter_intermediate_x> = 341.400000
+
+jue22 12:33  <_unload_enter_intermediate_Z> = 646.600000
+jue22 12:33  <_unload_gripper_down_x_calculated> = 291.900000
+jue22 12:33  <_unload_gripper_down_z_calculated> = 522.663798
+
+jue22 12:33  <_tumbler_gripper_down_jaws_center_x> = 808.400000
+jue22 12:33  <_tumbler_enter_down_y> = 424.000000
+jue22 12:33  <_tumbler_gripper_down_z> = 1304.800000
+
+--- Qtvcp Screen Started on: jue, feb 22 2024 10:42:24 ---
+jue22 10:42 Machine OFF
+jue22 10:42 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
+jue22 10:42 Machine ON
+jue22 10:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 10:45 Started program from line 1
+jue22 10:45  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46 Started program from line 1
+jue22 10:46  PRODUCTION step 0
+jue22 10:46  INIT - UNLOAD gripper down - Coupling present in vertical
+jue22 10:47 Cannot switch pages while in AUTO mode
+jue22 10:54 Started program from line 1
+jue22 10:54  PRODUCTION step 0
+jue22 10:54  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+jue22 10:54 Pneumatic Sensor Error - LOADING - Step 2.1 - Checking segregator overturn sensor
+jue22 10:54 Cannot switch pages while in AUTO mode
+jue22 10:56 Started program from line 1
+jue22 10:56  PRODUCTION step 0
+jue22 10:56  INIT - Parking - Present Coupling error
+jue22 10:58 Started program from line 1
+jue22 10:58  PRODUCTION step 0
+jue22 10:58  INIT PYTHON ROUTINE not running
+jue22 10:59 Started program from line 1
+jue22 10:59  PRODUCTION step 0
+jue22 10:59  INIT - WAIT UNTILL HOME POSITION
+jue22 11:00 Cannot switch pages while in AUTO mode
+jue22 11:06 Machine OFF
+jue22 11:06 Machine ON
+jue22 11:11 Cannot switch pages while in AUTO mode
+jue22 11:11 Cannot switch pages while in AUTO mode
+jue22 11:11 Cannot switch pages while in AUTO mode
+jue22 11:18 Started program from line 1
+jue22 11:18  PRODUCTION step 0
+jue22 11:19  INIT - WAIT UNTILL HOME POSITION
+jue22 11:19  STEP 0 - gantry empty-lathe empty
+jue22 11:19  0 - checkings step 0
+jue22 11:19  0 - LOAD gripper down
+jue22 11:19  gripper down measured x coordinate 299.018646
+jue22 11:19  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 14.581354 
+jue22 11:19  LOAD GRIPPER DOWN - measurement length exceeded error
+jue22 11:19  STEP 1 - gantry raw-lathe empty
+jue22 11:19  1 - checkings step 1
+jue22 11:19  1 - LATHE STARTS - gripper down leaves coupling
+jue22 11:19  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 11:19  *** WAIT UNTILL HOME POSITION ***
+jue22 11:19  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 11:21 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Cannot switch pages while in AUTO mode
+jue22 11:22 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+jue22 11:23 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 11:23 Started program from line 1
+jue22 11:23  PRODUCTION step 0
+jue22 11:24  INIT - WAIT UNTILL HOME POSITION
+jue22 11:24  STEP 0 - gantry empty-lathe empty
+jue22 11:24  0 - checkings step 0
+jue22 11:24  0 - LOAD gripper down
+jue22 11:24  gripper down measured x coordinate 301.311676
+jue22 11:24  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 12.288324 
+jue22 11:24  LOAD GRIPPER DOWN - measurement length exceeded error
+jue22 11:24  STEP 1 - gantry raw-lathe empty
+jue22 11:24  1 - checkings step 1
+jue22 11:24  1 - LATHE STARTS - gripper down leaves coupling
+jue22 11:24  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 11:24  *** WAIT UNTILL HOME POSITION ***
+jue22 11:24  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 11:25  STEP 2 - gantry empty-lathe op10
+jue22 11:25  2 - checkings step 2
+jue22 11:25  2 - LOAD gripper down
+jue22 11:25  gripper down measured x coordinate 300.426239
+jue22 11:25  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 13.173761 
+jue22 11:25  LOAD GRIPPER DOWN - measurement length exceeded error
+jue22 11:25  2 - PARKING - DOWN LEAVES - UP GRABS
+jue22 11:25  gripper up measured x coordinate 269.578583
+jue22 11:25  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.921417 
+jue22 11:25  PARKING gripper up - measurement length exceeded
+jue22 11:26  STEP 3 -  gantry raw up / lathe op10
+jue22 11:26  3 - checkings step 3 to 6
+jue22 11:26  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:26  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:26  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:28  *** WAIT UNTILL HOME POSITION ***
+jue22 11:28  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:29  gripper down measured x coordinate 2913.820557
+jue22 11:29  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 21.279443 
+jue22 11:29  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 11:30  3 - TUMBLER enter gripper down - exit gripper up
+jue22 11:30  gripper down measured x coordinate 1017.614807
+jue22 11:30  Tumbler down - MEASURE DIF VS REF = 7.385193 
+jue22 11:30  Tumbler down - measurement length exceeded error
+jue22 11:31  gripper up measured x coordinate 267.446533
+jue22 11:31  PARKING GRIPPER UP - MEASURE DIF VS REF = 9.053467 
+jue22 11:31  PARKING gripper up - measurement length exceeded
+jue22 11:31  STEP 4 - gantry op10T up / lathe op10
+jue22 11:31  4 - checkings step 3 to 6
+jue22 11:31  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:31  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:31  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:34  *** WAIT UNTILL HOME POSITION ***
+jue22 11:34  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:34  gripper down measured x coordinate 2913.168945
+jue22 11:34  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 21.931055 
+jue22 11:34  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 11:35  4 - TUMBLER enter gripper down - exit gripper up
+jue22 11:35  gripper down measured x coordinate 1017.824463
+jue22 11:35  Tumbler down - MEASURE DIF VS REF = 7.175537 
+jue22 11:35  Tumbler down - measurement length exceeded error
+jue22 11:36  gripper up measured x coordinate 267.001617
+jue22 11:36  PARKING GRIPPER UP - MEASURE DIF VS REF = 9.498383 
+jue22 11:36  PARKING gripper up - measurement length exceeded
+jue22 11:36  STEP 5 - gantry op10T up / lathe op20
+jue22 11:36  5 - checkings step 3 to 6
+jue22 11:36  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:36  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:36  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:38  *** WAIT UNTILL HOME POSITION ***
+jue22 11:38  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:38  gripper down measured x coordinate 2911.238525
+jue22 11:38  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 23.861475 
+jue22 11:38  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 11:39  5 - BLOWER
+jue22 11:39  gripper down measured x coordinate 2072.666992
+jue22 11:39  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.833008 
+jue22 11:39  5 - UNLOAD gripper down
+jue22 11:40  5 - LOAD gripper down
+jue22 11:40  gripper down measured x coordinate 304.913208
+jue22 11:40  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 8.686792 
+jue22 11:40  LOAD GRIPPER DOWN - measurement length exceeded error
+jue22 11:40  5 - PARKING - DOWN LEAVES - UP GRABS
+jue22 11:40  gripper up measured x coordinate 269.947235
+jue22 11:40  PARKING GRIPPER UP - MEASURE DIF VS REF = 6.552765 
+jue22 11:40  PARKING gripper up - measurement length exceeded
+jue22 11:40  STEP 6 - gantry raw up-lathe op20
+jue22 11:40  6 - checkings step 3 to 6
+jue22 11:40  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+jue22 11:40  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:41  *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:42  *** WAIT UNTILL HOME POSITION ***
+jue22 11:42  *** WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:42  gripper down measured x coordinate 2911.170898
+jue22 11:43  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 23.929102 
+jue22 11:43  LATHE PRODUCTION GRD - measurement length exceeded error
+jue22 11:43  6 - BLOWER
+jue22 11:43  gripper down measured x coordinate 2072.403809
+jue22 11:43  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 2.096191 
+jue22 11:44  6 - UNLOAD gripper down
+jue22 11:44  Last Cycle - gantry raw up-lathe op20
+jue22 11:44  Last Cycle - LATHE ENDS - gripper down GRABS
+jue22 11:44  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:44  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:47  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+jue22 11:47  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:47  gripper down measured x coordinate 2913.917480
+jue22 11:47   LATHE ENDS - MEASURE DIF VS REF = 21.182520 
+jue22 11:47   LATHE ENDS - measurement length exceeded error
+jue22 11:47  Last Cycle - TUMBLER enter gripper down  - exit gripper down
+jue22 11:48  gripper down measured x coordinate 1017.830261
+jue22 11:48  Tumbler down - MEASURE DIF VS REF = 7.169739 
+jue22 11:48  Tumbler down - measurement length exceeded error
+jue22 11:48  Last Cycle - LATHE STARTS - gripper down leaves coupling
+jue22 11:48  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+jue22 11:48  *** WAIT UNTILL HOME POSITION ***
+jue22 11:48  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+jue22 11:48  Last Cycle - LATHE ENDS - gripper down GRABS
+jue22 11:48  *** WAIT UNTILL LATHE MACHINES THE PART ***
+jue22 11:48  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+jue22 11:52  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+jue22 11:52  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+jue22 11:52  gripper down measured x coordinate 2911.726807
+jue22 11:52   LATHE ENDS - MEASURE DIF VS REF = 23.373193 
+jue22 11:52   LATHE ENDS - measurement length exceeded error
+jue22 11:52  Last Cycle - BLOWER
+jue22 11:53  gripper down measured x coordinate 2072.549072
+jue22 11:53  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.950928 
+jue22 11:53  Last Cycle - UNLOAD gripper down
+jue22 11:53  30 seconds to end
+jue22 11:55 Machine OFF
+jue22 11:55 movimiento detenido por entrada habilitada
+jue22 12:00 Machine ON
+jue22 12:33 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+jue22 12:33 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+jue22 12:33 Started program from line 1
+jue22 12:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+jue22 12:33 Started program from line 1
+jue22 12:33  PRINT VARIABLES
+jue22 12:33  <_parking_plate_to_gripper_down_x> = -12.200000
+jue22 12:33  <_parking_gripper_down_enter_y> = 354.500000
+jue22 12:33  <_parking_gripper_down_z_reference> = 1329.100000
+jue22 12:33  <_parking_plate_to_gripper_up_x> = -9.200000
+jue22 12:33  <_parking_gripper_up_enter_y> = 354.200000
+jue22 12:33  <_parking_gripper_up_z_reference> = 1077.000000
+jue22 12:33  <_parking_enter_x_over_bars> = 339.800000
+jue22 12:33  <_parking_enter_z> = 1381.100000
+jue22 12:33  <_parking_aproximates_x> = 309.800000
+jue22 12:33  <_parking_enter_x_free> = 509.800000
+jue22 12:33  <_parking_gripper_down_unload_x_calculated> = 275.300000
+jue22 12:33  <_parking_gripper_down_load_x_calculated> = 272.300000
+jue22 12:33  <_parking_gripper_down_z_calculated> = 1335.496938
+jue22 12:33  <_parking_gripper_up_unload_x_calculated> = 278.300000
+jue22 12:33  <_parking_gripper_up_load_x_calculated> = 275.300000
+jue22 12:33  <_parking_gripper_up_z_calculated> = 1083.396938
+jue22 12:33  <_parking_gripper_down_x_meas_ref> = 276.500000
+jue22 12:33  <_parking_gripper_up_x_meas_ref> = 276.500000
+jue22 12:33  <_blower_plate_to_gripper_down_x> = 1798.200000
+jue22 12:33  <_blower_enter_y> = 353.700000
+jue22 12:33  <_blower_gripper_down_z_reference> = 1327.800000
+jue22 12:33  <_blower_enter_x> = 2309.200000
+jue22 12:33  <_blower_aproximates_x> = 2099.200000
+jue22 12:33  <_blower_gripper_down_unload_x_calculated> = 2078.700000
+jue22 12:33  <_blower_gripper_down_load_x_calculated> = 2075.700000
+jue22 12:33  <_blower_gripper_down_z_calculated_machined> = 1331.442075
+jue22 12:33  <_blower_gripper_down_x_meas_ref_machined> = 2074.500000
+jue22 12:33  <_load_plate_to_gripper_down_x> = 21.900000
+jue22 12:33  <_load_enter_y> = 167.900000
+jue22 12:33  <_load_gripper_down_z_reference> = 385.200000
+jue22 12:33  <_load_enter_x> = 444.900000
+jue22 12:33  <_load_aproximates_x> = 344.900000
+jue22 12:33  <_load_gripper_down_x_calculated> = 306.400000
+jue22 12:33  <_load_gripper_down_z_calculated> = 391.671580
+jue22 12:33  <_load_gripper_down_x_meas_ref> = 313.600000
+jue22 12:33  <_unload_plate_to_gripper_down_x> = 11.400000
+jue22 12:33  <_unload_enter_y> = 450.000000
+jue22 12:33  <_unload_gripper_down_z_reference> = 519.000000
+jue22 12:33  <_unload_enter_x> = 521.400000
+jue22 12:33  <_unload_aproximates_x> = 311.400000
+jue22 12:33  <_unload_enter_intermediate_x> = 341.400000
+jue22 12:33  <_unload_enter_intermediate_Z> = 646.600000
+jue22 12:33  <_unload_gripper_down_x_calculated> = 291.900000
+jue22 12:33  <_unload_gripper_down_z_calculated> = 522.663798
+jue22 12:33  <_tumbler_gripper_down_jaws_center_x> = 808.400000
+jue22 12:33  <_tumbler_enter_down_y> = 424.000000
+jue22 12:33  <_tumbler_gripper_down_z> = 1304.800000
+jue22 12:33  <_tumbler_gripper_up_jaws_center_x> = 811.600000
+jue22 12:33  <_tumbler_enter_up_y> = 424.300000
+jue22 12:33  <_tumbler_gripper_up_z> = 1051.900000
+jue22 12:33  <_tumbler_enter_x> = 1158.400000
+jue22 12:33  <_tumbler_gripper_down_unload_x_calculated> = 950.650000
+jue22 12:33  <_tumbler_gripper_down_load_x_calculated> = 950.650000
+jue22 12:33  <_tumbler_gripper_down_extracts> = 1020.400000
 
-jue22 12:02 Machine ON
+jue22 12:33  <_tumbler_aproximates_down_x> = 1048.400000
+jue22 12:33  <_tumbler_aproximates_up_x> = 1051.600000
+jue22 12:33  <_tumbler_gripper_down_load_from_extract> = 1023.400000
 
-jue22 12:02  0.000000
+jue22 12:33  <_tumbler_gripper_up_load_from_extract> = 1026.600000
+jue22 12:33  <_tumbler_gripper_down_x_meas_ref> = 1025.000000
+jue22 12:33  <_tumbler_gripper_up_x_meas_ref> = 1021.300000
 
+jue22 12:33  <_lathe_chuck_front_to_gripper_down_x>  =  2613.700000
+jue22 12:33  <_lathe_gripper_down_center_y>  =  324.300000
+jue22 12:33  <_lathe_gripper_down_center_z>  =  295.000000
 
---- Qtvcp Screen Started on: jue, feb 22 2024 12:02:54 ---
-jue22 12:02 Machine OFF
-jue22 12:02 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
+jue22 12:33  <_lathe_chuck_front_to_gripper_up_x>  =  2615.600000
+jue22 12:33  <_lathe_gripper_up_center_y>  =  325.400000
+jue22 12:33  <_lathe_gripper_up_center_z>  =  42.900000
 
+jue22 12:33  <_lathe_enter1_x> = 3137.400000
+jue22 12:33  <_lathe_enter1_y> = 228.300000
+jue22 12:33  <_lathe_enter1_z> = 307.000000
 
-jue22 12:03 Machine ON
+jue22 12:33  <_lathe_enter2_y> = 145.300000
+jue22 12:33  <_lathe_enter2_z> = 497.000000
+jue22 12:33  <_lathe_enter3_z> = 64.900000
 
+jue22 12:33  <_lathe_gripper_down_aproximates_x> = 3027.700000
+jue22 12:33  <_lathe_gripper_up_aproximates_x> = 3029.600000
+jue22 12:33  <_lathe_gripper_down_x_calculated> = 2921.200000
 
---- Qtvcp Screen Started on: jue, feb 22 2024 12:37:13 ---
-jue22 12:37 Machine OFF
-jue22 12:37 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
+jue22 12:33  <_lathe_gripper_up_x_calculated> = 2926.100000
+jue22 12:33  <_lathe_gripper_down_x_meas_ref> = 2935.100000
 
-
-jue22 12:37 Machine ON
-
-
---- Qtvcp Screen Started on: jue, feb 22 2024 12:37:45 ---
-jue22 12:37 Machine OFF
-jue22 12:37 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-jue22 12:37 Machine ON
-
-
---- Qtvcp Screen Started on: jue, feb 22 2024 12:38:23 ---
-jue22 12:38 Machine OFF
-
-jue22 12:38 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-jue22 12:38 Machine ON
-
-
---- Qtvcp Screen Started on: jue, feb 22 2024 12:39:39 ---
-jue22 12:39 Machine OFF
-
-jue22 12:39 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-jue22 12:39 Machine ON
-
-jue22 12:41  0.000000
-
-jue22 12:42  0.000000
-
-jue22 12:45  0.000000
-
-jue22 12:48  0.000000
-
-
---- Qtvcp Screen Started on: jue, feb 22 2024 12:51:10 ---
-jue22 12:51 Machine OFF
-
-jue22 12:51 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-jue22 12:51 Machine ON
-
-jue22 12:51  0.000000
-
-jue22 12:51  0.000000
-
-jue22 12:54  0.000000
-
-
---- Qtvcp Screen Started on: jue, feb 22 2024 12:59:35 ---
-jue22 12:59 Machine OFF
-
-jue22 12:59 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-jue22 12:59 Machine ON
+jue22 12:34 Cannot switch pages while in AUTO mode
 

@@ -250,7 +250,7 @@ net RI_tor_so1_confirm => qtdragon.RI_tor_so1_confirm #spindle orientation 1
 net RI_tor_so2_confirm => qtdragon.RI_tor_so2_confirm #spindle orientation 2
 net RI_tor_ep_confirm => qtdragon.RI_tor_ep_confirm #end program - CYCLE COMPLETE
 net RI_tor_home_confirm => qtdragon.RI_tor_home_confirm
-net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm_2
+net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm_2 => qtdragon.RI_tor_sl_confirm_3
 net RI_tor_alarm_confirm => qtdragon.RI_tor_alarm_confirm
 net RI_tor_cstop_confirm => qtdragon.RI_tor_cstop_confirm
 net RI_tor_m180_confirm => qtdragon.RI_tor_m180_confirm

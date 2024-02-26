@@ -1,0 +1,98 @@
+
+o<parameters13> SUB
+
+;(**********************************************************************)
+;(***** MEASURED POSITION POINTS                                   *****)
+;(**********************************************************************)
+
+;MEASURED POSITION POINTS - START
+
+    ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
+
+    #<_load_plate_to_gripper_down_x>= -22.3
+    #<_load_enter_y>= 173.4
+    #<_load_gripper_down_z_reference>= 395
+    
+    #<_load_enter_x_installation_corrector>=50
+
+
+
+    #<_unload_plate_to_gripper_down_x>= -29.5
+    #<_unload_enter_y>= 472.3
+    #<_unload_gripper_down_z_reference>= 531.8
+
+    #<_unload_enter_x_installation_corrector>=50 
+
+
+
+    #<_parking_plate_to_gripper_up_x>= -5.3
+    #<_parking_gripper_up_enter_y>= 339
+    #<_parking_gripper_up_z_reference>= 1082
+
+    #<_parking_plate_to_gripper_down_x>= -8.3
+    #<_parking_gripper_down_enter_y>= 338.9
+    #<_parking_gripper_down_z_reference>= 1334.8
+
+
+
+    #<_tumbler_gripper_up_jaws_center_x>= 807
+    #<_tumbler_enter_up_y>= 425.5
+    #<_tumbler_gripper_up_z>= 1054.3
+
+    #<_tumbler_gripper_down_jaws_center_x>= 803.1
+    #<_tumbler_enter_down_y>= 426.2
+    #<_tumbler_gripper_down_z>= 1306.8
+
+
+
+    #<_blower_plate_to_gripper_down_x>= 1796.6
+    #<_blower_enter_y>= 353.9
+    #<_blower_gripper_down_z_reference>= 1337
+
+
+
+    #<_lathe_chuck_front_to_gripper_up_x>= 2499
+    #<_lathe_gripper_up_center_y>= 324.4
+    #<_lathe_gripper_up_center_z>= 30.6
+
+    #<_lathe_chuck_front_to_gripper_down_x>= 2501
+    #<_lathe_gripper_down_center_y>= 323.3
+    #<_lathe_gripper_down_center_z>= 283.8
+
+    
+;MEASURED POSITION POINTS - END
+
+;DIMENSIONS TAKEN BY THE GANTRY - START
+
+    ;This offsets should be used to adjust the differences between the measuring results and the calculated values
+    
+    ; ********** Parking  ********** 
+    #<_parking_gripper_down_x_meas_offset>=0
+    #<_parking_gripper_up_x_meas_offset>=0
+   
+
+
+
+    ; ********** Blower gripper_down ********** 
+    #<_blower_gripper_down_x_meas_ref_offset>=0
+
+
+
+    ; ********** Load Gripper down **********
+    #<_load_gripper_down_x_meas_offset>=0
+
+
+
+    ; ********** Tumbler  ********** 
+    #<_tumbler_gripper_down_x_meas_offset>=0
+    #<_tumbler_gripper_up_x_meas_offset>=0
+  
+
+
+    ; ********** Lathe  **********
+    #<_lathe_gripper_down_x_meas_offset>=0
+
+    
+;DIMENSIONS TAKEN BY THE GANTRY - END
+
+o<parameters13> ENDSUB
