@@ -1548,146 +1548,157 @@ Run the Latency Test and resolve before continuing.
 
 
 
---- Qtvcp Screen Started on: mar, feb 20 2024 09:02:08 ---
-mar20 09:02 Machine OFF
-mar20 09:02 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: mar, feb 20 2024 08:28:27 ---
+mar20 08:28 Machine OFF
+
+mar20 08:28 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-mar20 09:02 Machine ON
 
-mar20 09:02  0.000000
-
-mar20 09:02 Machine OFF
-mar20 09:02 movimiento detenido por entrada habilitada
-
-mar20 09:47 Machine ON
-
-
---- Qtvcp Screen Started on: mar, feb 20 2024 09:50:47 ---
-mar20 09:50 Machine OFF
-mar20 09:50 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: mar, feb 20 2024 08:38:01 ---
+mar20 08:38 Machine OFF
+mar20 08:38 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-mar20 09:50 Machine ON
 
-mar20 09:51 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
-mar20 09:51 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+--- Qtvcp Screen Started on: mar, feb 20 2024 08:59:03 ---
+mar20 08:59 Machine OFF
 
-mar20 09:51 Started program from line 1
+mar20 08:59 Machine ON
 
-mar20 09:51 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+mar20 08:59  0.000000
 
-mar20 09:51 Started program from line 1
-mar20 09:51  PRINT VARIABLES
+mar20 08:59 Machine OFF
+mar20 08:59 movimiento detenido por entrada habilitada
 
-mar20 09:51  <_parking_plate_to_gripper_down_x> = 1.800000
-mar20 09:51  <_parking_gripper_down_enter_y> = 357.800000
-mar20 09:51  <_parking_gripper_down_z_reference> = 1333.700000
 
-mar20 09:51  <_parking_plate_to_gripper_up_x> = 0.900000
-mar20 09:51  <_parking_gripper_up_enter_y> = 356.800000
-mar20 09:51  <_parking_gripper_up_z_reference> = 1082.600000
+--- Qtvcp Screen Started on: mar, feb 20 2024 09:44:48 ---
+mar20 09:44 Machine OFF
+mar20 09:44 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
 
-mar20 09:51  <_parking_enter_x_over_bars> = 353.800000
-mar20 09:51  <_parking_enter_z> = 1385.700000
-mar20 09:51  <_parking_aproximates_x> = 323.800000
 
-mar20 09:51  <_parking_enter_x_free> = 523.800000
-mar20 09:51  <_parking_gripper_down_unload_x_calculated> = 287.800000
-mar20 09:51  <_parking_gripper_down_load_x_calculated> = 284.800000
+mar20 09:44 Machine ON
 
-mar20 09:51  <_parking_gripper_down_z_calculated> = 1340.100000
-mar20 09:51  <_parking_gripper_up_unload_x_calculated> = 286.900000
-mar20 09:51  <_parking_gripper_up_load_x_calculated> = 283.900000
+mar20 09:45 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+mar20 09:45 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
 
-mar20 09:51  <_parking_gripper_up_z_calculated> = 1089.000000
-mar20 09:51  <_parking_gripper_down_x_meas_ref> = 275.000000
-mar20 09:51  <_parking_gripper_up_x_meas_ref> = 275.000000
+mar20 09:45 Started program from line 1
 
-mar20 09:51  <_blower_plate_to_gripper_down_x> = 1800.300000
-mar20 09:51  <_blower_enter_y> = 354.500000
-mar20 09:51  <_blower_gripper_down_z_reference> = 1330.400000
+mar20 09:45 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
 
-mar20 09:51  <_blower_enter_x> = 2301.300000
-mar20 09:51  <_blower_aproximates_x> = 2101.300000
-mar20 09:51  <_blower_gripper_down_unload_x_calculated> = 2080.700000
+mar20 09:45 Started program from line 1
 
-mar20 09:51  <_blower_gripper_down_load_x_calculated> = 2077.700000
-mar20 09:51  <_blower_gripper_down_z_calculated_machined> = 1333.980000
-mar20 09:51  <_blower_gripper_down_x_meas_ref_machined> = 2074.400000
+mar20 09:45  PRINT VARIABLES
 
-mar20 09:51  <_load_plate_to_gripper_down_x> = 9.100000
-mar20 09:51  <_load_enter_y> = 164.900000
-mar20 09:51  <_load_gripper_down_z_reference> = 371.300000
+mar20 09:45  <_parking_plate_to_gripper_down_x> = 4.100000
+mar20 09:45  <_parking_gripper_down_enter_y> = 355.100000
 
-mar20 09:51  <_load_enter_x> = 432.100000
-mar20 09:51  <_load_aproximates_x> = 332.100000
-mar20 09:51  <_load_gripper_down_x_calculated> = 292.100000
+mar20 09:45  <_parking_gripper_down_z_reference> = 1335.100000
+mar20 09:45  <_parking_plate_to_gripper_up_x> = 5.700000
+mar20 09:45  <_parking_gripper_up_enter_y> = 352.900000
+mar20 09:45  <_parking_gripper_up_z_reference> = 1084.100000
 
-mar20 09:51  <_load_gripper_down_z_calculated> = 377.770000
-mar20 09:51  <_load_gripper_down_x_meas_ref> = 312.100000
-mar20 09:51  <_unload_plate_to_gripper_down_x> = 16.000000
+mar20 09:45  <_parking_enter_x_over_bars> = 356.100000
+mar20 09:45  <_parking_enter_z> = 1387.100000
+mar20 09:45  <_parking_aproximates_x> = 326.100000
 
-mar20 09:51  <_unload_enter_y> = 460.100000
-mar20 09:51  <_unload_gripper_down_z_reference> = 520.600000
-mar20 09:51  <_unload_enter_x> = 526.000000
+mar20 09:45  <_parking_enter_x_free> = 526.100000
+mar20 09:45  <_parking_gripper_down_unload_x_calculated> = 290.100000
+mar20 09:45  <_parking_gripper_down_load_x_calculated> = 287.100000
 
-mar20 09:51  <_unload_aproximates_x> = 316.000000
-mar20 09:51  <_unload_enter_intermediate_x> = 346.000000
-mar20 09:51  <_unload_enter_intermediate_Z> = 648.200000
+mar20 09:45  <_parking_gripper_down_z_calculated> = 1341.500000
+mar20 09:45  <_parking_gripper_up_unload_x_calculated> = 291.700000
+mar20 09:45  <_parking_gripper_up_load_x_calculated> = 288.700000
 
-mar20 09:51  <_unload_gripper_down_x_calculated> = 296.400000
-mar20 09:51  <_unload_gripper_down_z_calculated> = 524.200000
-mar20 09:51  <_tumbler_gripper_down_jaws_center_x> = 936.200000
+mar20 09:45  <_parking_gripper_up_z_calculated> = 1090.500000
+mar20 09:45  <_parking_gripper_down_x_meas_ref> = 275.000000
+mar20 09:45  <_parking_gripper_up_x_meas_ref> = 275.000000
 
-mar20 09:51  <_tumbler_enter_down_y> = 427.100000
-mar20 09:51  <_tumbler_gripper_down_z> = 1305.300000
-mar20 09:51  <_tumbler_gripper_up_jaws_center_x> = 936.600000
+mar20 09:45  <_blower_plate_to_gripper_down_x> = 1795.300000
+mar20 09:45  <_blower_enter_y> = 357.100000
+mar20 09:45  <_blower_gripper_down_z_reference> = 1331.100000
 
-mar20 09:51  <_tumbler_enter_up_y> = 425.900000
-mar20 09:51  <_tumbler_gripper_up_z> = 1054.100000
-mar20 09:51  <_tumbler_enter_x> = 1286.200000
+mar20 09:45  <_blower_enter_x> = 2296.300000
+mar20 09:45  <_blower_aproximates_x> = 2096.300000
+mar20 09:45  <_blower_gripper_down_unload_x_calculated> = 2075.700000
 
-mar20 09:51  <_tumbler_gripper_down_unload_x_calculated> = 1077.700000
-mar20 09:51  <_tumbler_gripper_down_load_x_calculated> = 1077.700000
-mar20 09:51  <_tumbler_gripper_down_extracts> = 1148.200000
+mar20 09:45  <_blower_gripper_down_load_x_calculated> = 2072.700000
+mar20 09:45  <_blower_gripper_down_z_calculated_machined> = 1334.680000
+mar20 09:45  <_blower_gripper_down_x_meas_ref_machined> = 2074.400000
 
-mar20 09:51  <_tumbler_aproximates_down_x> = 1176.200000
-mar20 09:51  <_tumbler_aproximates_up_x> = 1176.600000
-mar20 09:51  <_tumbler_gripper_down_load_from_extract> = 1151.200000
+mar20 09:45  <_load_plate_to_gripper_down_x> = 28.700000
+mar20 09:45  <_load_enter_y> = 177.100000
+mar20 09:45  <_load_gripper_down_z_reference> = 375.200000
 
-mar20 09:51  <_tumbler_gripper_up_load_from_extract> = 1151.600000
-mar20 09:51  <_tumbler_gripper_down_x_meas_ref> = 1025.000000
-mar20 09:51  <_tumbler_gripper_up_x_meas_ref> = 1021.300000
+mar20 09:45  <_load_enter_x> = 451.700000
+mar20 09:45  <_load_aproximates_x> = 351.700000
+mar20 09:45  <_load_gripper_down_x_calculated> = 311.700000
 
-mar20 09:51  <_lathe_chuck_front_to_gripper_down_x>  =  2517.800000
-mar20 09:51  <_lathe_gripper_down_center_y>  =  323.300000
-mar20 09:51  <_lathe_gripper_down_center_z>  =  279.600000
+mar20 09:45  <_load_gripper_down_z_calculated> = 381.670000
+mar20 09:45  <_load_gripper_down_x_meas_ref> = 312.100000
+mar20 09:45  <_unload_plate_to_gripper_down_x> = 33.000000
 
-mar20 09:51  <_lathe_chuck_front_to_gripper_up_x>  =  2518.200000
-mar20 09:51  <_lathe_gripper_up_center_y>  =  321.400000
-mar20 09:51  <_lathe_gripper_up_center_z>  =  28.300000
+mar20 09:45  <_unload_enter_y> = 457.200000
+mar20 09:45  <_unload_gripper_down_z_reference> = 516.900000
+mar20 09:45  <_unload_enter_x> = 543.000000
 
-mar20 09:51  <_lathe_enter1_x> = 3041.500000
-mar20 09:51  <_lathe_enter1_y> = 227.300000
-mar20 09:51  <_lathe_enter1_z> = 291.600000
+mar20 09:45  <_unload_aproximates_x> = 333.000000
+mar20 09:45  <_unload_enter_intermediate_x> = 363.000000
+mar20 09:45  <_unload_enter_intermediate_Z> = 644.500000
 
-mar20 09:51  <_lathe_enter2_y> = 144.300000
-mar20 09:51  <_lathe_enter2_z> = 481.600000
-mar20 09:51  <_lathe_enter3_z> = 50.300000
+mar20 09:45  <_unload_gripper_down_x_calculated> = 313.400000
+mar20 09:45  <_unload_gripper_down_z_calculated> = 520.500000
+mar20 09:45  <_tumbler_gripper_down_jaws_center_x> = 924.800000
 
-mar20 09:51  <_lathe_gripper_down_aproximates_x> = 2931.800000
-mar20 09:51  <_lathe_gripper_up_aproximates_x> = 2932.200000
-mar20 09:51  <_lathe_gripper_down_x_calculated> = 2845.800000
+mar20 09:45  <_tumbler_enter_down_y> = 429.800000
+mar20 09:45  <_tumbler_gripper_down_z> = 1302.800000
+mar20 09:45  <_tumbler_gripper_up_jaws_center_x> = 927.100000
 
-mar20 09:51  <_lathe_gripper_up_x_calculated> = 2849.200000
-mar20 09:51  <_lathe_gripper_down_x_meas_ref> = 2955.600000
+mar20 09:45  <_tumbler_enter_up_y> = 426.700000
+mar20 09:45  <_tumbler_gripper_up_z> = 1051.600000
+mar20 09:45  <_tumbler_enter_x> = 1274.800000
 
-mar20 09:51 Cannot switch pages while in AUTO mode
+mar20 09:45  <_tumbler_gripper_down_unload_x_calculated> = 1066.300000
+mar20 09:45  <_tumbler_gripper_down_load_x_calculated> = 1066.300000
+mar20 09:45  <_tumbler_gripper_down_extracts> = 1136.800000
 
-mar20 09:52 Machine OFF
+mar20 09:45  <_tumbler_aproximates_down_x> = 1164.800000
+mar20 09:45  <_tumbler_aproximates_up_x> = 1167.100000
+mar20 09:45  <_tumbler_gripper_down_load_from_extract> = 1139.800000
+
+mar20 09:45  <_tumbler_gripper_up_load_from_extract> = 1142.100000
+mar20 09:45  <_tumbler_gripper_down_x_meas_ref> = 1025.000000
+mar20 09:45  <_tumbler_gripper_up_x_meas_ref> = 1021.300000
+
+mar20 09:45  <_lathe_chuck_front_to_gripper_down_x>  =  2591.500000
+mar20 09:45  <_lathe_gripper_down_center_y>  =  331.800000
+mar20 09:45  <_lathe_gripper_down_center_z>  =  278.500000
+
+mar20 09:45  <_lathe_chuck_front_to_gripper_up_x>  =  2593.400000
+mar20 09:45  <_lathe_gripper_up_center_y>  =  330.300000
+mar20 09:45  <_lathe_gripper_up_center_z>  =  27.200000
+
+mar20 09:45  <_lathe_enter1_x> = 3115.200000
+mar20 09:45  <_lathe_enter1_y> = 235.800000
+mar20 09:45  <_lathe_enter1_z> = 290.500000
+
+mar20 09:45  <_lathe_enter2_y> = 152.800000
+mar20 09:45  <_lathe_enter2_z> = 480.500000
+mar20 09:45  <_lathe_enter3_z> = 49.200000
+
+mar20 09:45  <_lathe_gripper_down_aproximates_x> = 3005.500000
+mar20 09:45  <_lathe_gripper_up_aproximates_x> = 3007.400000
+mar20 09:45  <_lathe_gripper_down_x_calculated> = 2919.500000
+
+mar20 09:45  <_lathe_gripper_up_x_calculated> = 2924.400000
+mar20 09:45  <_lathe_gripper_down_x_meas_ref> = 2955.600000
+
+mar20 09:46 Machine OFF
+mar20 09:46 movimiento detenido por entrada habilitada
 

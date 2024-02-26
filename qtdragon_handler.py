@@ -446,7 +446,7 @@ class HandlerClass:
         #print(self.xx)
         sl_state = pin.value
         CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
-        if sl_state == 0 and CTRL_sl_writeg == 0:
+        if sl_state == 1 and CTRL_sl_writeg == 0:
             key_1 = 'CTRL_sl_wasdown'
             if not self.send_pctrl(key_1, True):
                 msg_error = 'Error sending control flag command - OKUMA - Turn on SL was down'
@@ -2369,7 +2369,7 @@ class HandlerClass:
 		while sen_check:
 			sen_check = self.flag_bd_pc
 			elapsed_time = (datetime.datetime.now() - start_time).total_seconds()
-			if elapsed_time >= self.TIMEOUT_PNEUMATIC:
+			if elapsed_time >= 20:
 				return False
 			time.sleep(self.wait_time)
 		return True	
@@ -2532,7 +2532,8 @@ class HandlerClass:
                     for key, value in cuple_inputs_dict.iteritems():
                         print key, value
                         if '<_{0}>= '.format(key) in line:
-                            lines[i] = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value))) + '\n'
+                            replaced_line = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value)))
+                            lines[i] = '    ' + replaced_line + '\n'  # Add 4 spaces before #
                             break
 
                 # Escribir las lineas modificadas en el archivo
