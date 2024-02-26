@@ -1,0 +1,798 @@
+--- Qtvcp Screen Started on: lun, feb 26 2024 05:43:37 ---
+lun26 05:43 Machine OFF
+lun26 05:43 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 05:44 fallo del amplificador de articulacion 1
+
+lun26 05:44 fallo del amplificador de articulacion 1
+
+lun26 05:44 fallo del amplificador de articulacion 1
+lun26 05:44 el comando (EMC_JOINT_HOME) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+lun26 05:44 fallo del amplificador de articulacion 1
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 05:47:41 ---
+lun26 05:47 Machine OFF
+lun26 05:47 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 05:47 fallo del amplificador de articulacion 1
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 06:08:20 ---
+lun26 06:08 Machine OFF
+lun26 06:08 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 06:08 Machine ON
+
+lun26 06:09 Machine OFF
+
+lun26 06:12 Machine ON
+
+lun26 06:13 Machine OFF
+lun26 06:13 movimiento detenido por entrada habilitada
+
+lun26 06:17 Machine ON
+
+lun26 06:18 Machine OFF
+lun26 06:18 movimiento detenido por entrada habilitada
+
+lun26 06:57 Machine ON
+
+lun26 06:58 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+lun26 06:58 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+lun26 06:58 Started program from line 1
+
+lun26 06:58 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 06:58 Started program from line 1
+lun26 06:58  PRINT VARIABLES
+
+lun26 06:58  <_parking_plate_to_gripper_down_x> = -5.400000
+
+lun26 06:58  <_parking_gripper_down_enter_y> = 346.100000
+lun26 06:58  <_parking_gripper_down_z_reference> = 1325.200000
+lun26 06:58  <_parking_plate_to_gripper_up_x> = -4.000000
+
+lun26 06:58  <_parking_gripper_up_enter_y> = 345.500000
+lun26 06:58  <_parking_gripper_up_z_reference> = 1075.100000
+lun26 06:58  <_parking_enter_x_over_bars> = 366.600000
+
+lun26 06:58  <_parking_enter_z> = 1367.200000
+lun26 06:58  <_parking_aproximates_x> = 316.600000
+lun26 06:58  <_parking_enter_x_free> = 516.600000
+
+lun26 06:58  <_parking_gripper_down_unload_x_calculated> = 299.400000
+lun26 06:58  <_parking_gripper_down_load_x_calculated> = 296.400000
+lun26 06:58  <_parking_gripper_down_z_calculated> = 1329.022679
+
+lun26 06:58  <_parking_gripper_up_unload_x_calculated> = 300.800000
+lun26 06:58  <_parking_gripper_up_load_x_calculated> = 297.800000
+lun26 06:58  <_parking_gripper_up_z_calculated> = 1078.922679
+
+lun26 06:58  <_parking_gripper_down_x_meas_ref> = 296.400000
+lun26 06:58  <_parking_gripper_up_x_meas_ref> = 297.800000
+lun26 06:58  <_parking_gripper_down_x_meas_offset> = 0.000000
+
+lun26 06:58  <_parking_gripper_up_x_meas_offset> = 0.000000
+lun26 06:58  <_blower_plate_to_gripper_down_x> = 1796.100000
+lun26 06:58  <_blower_enter_y> = 365.400000
+
+lun26 06:58  <_blower_gripper_down_z_reference> = 1324.100000
+lun26 06:58  <_blower_enter_x> = 2496.100000
+lun26 06:58  <_blower_aproximates_x> = 2146.100000
+
+lun26 06:58  <_blower_gripper_down_unload_x_calculated> = 2100.900000
+lun26 06:58  <_blower_gripper_down_load_x_calculated> = 2097.900000
+lun26 06:58  <_blower_gripper_down_z_calculated_machined> = 1327.922679
+
+lun26 06:58  <_blower_gripper_down_x_meas_ref_machined> = 2097.900000
+lun26 06:58  <_blower_gripper_down_x_meas_ref_offset> = 0.000000
+lun26 06:58  <_load_plate_to_gripper_down_x> = -11.800000
+
+lun26 06:58  <_load_enter_y> = 145.100000
+lun26 06:58  <_load_gripper_down_z_reference> = 372.200000
+lun26 06:58  <_load_enter_x_installation_corrector> = 15.000000
+
+lun26 06:58  <_load_enter_x> = 426.200000
+lun26 06:58  <_load_aproximates_x> = 318.200000
+lun26 06:58  <_load_gripper_down_x_calculated> = 290.000000
+
+lun26 06:58  <_load_gripper_down_z_calculated> = 376.046914
+lun26 06:58  <_load_gripper_down_x_meas_ref> = 290.000000
+lun26 06:58  <_load_gripper_down_x_meas_offset> = 0.000000
+
+lun26 06:58  <_unload_plate_to_gripper_down_x> = 5.400000
+lun26 06:58  <_unload_enter_y> = 447.800000
+lun26 06:58  <_unload_gripper_down_z_reference> = 507.800000
+
+lun26 06:58  <_unload_enter_x_installation_corrector> = 15.000000
+lun26 06:58  <_unload_enter_x> = 530.400000
+lun26 06:58  <_unload_aproximates_x> = 335.400000
+
+lun26 06:58  <_unload_enter_intermediate_x> = 355.400000
+lun26 06:58  <_unload_enter_intermediate_Z> = 635.400000
+lun26 06:58  <_unload_gripper_down_x_calculated> = 310.200000
+
+lun26 06:58  <_unload_gripper_down_z_calculated> = 511.646914
+lun26 06:58  <_tumbler_gripper_down_jaws_center_x> = 807.700000
+lun26 06:58  <_tumbler_enter_down_y> = 432.700000
+
+lun26 06:58  <_tumbler_gripper_down_z> = 1298.700000
+lun26 06:58  <_tumbler_gripper_up_jaws_center_x> = 807.600000
+lun26 06:58  <_tumbler_enter_up_y> = 431.500000
+
+lun26 06:58  <_tumbler_gripper_up_z> = 1048.000000
+lun26 06:58  <_tumbler_enter_x> = 1157.700000
+lun26 06:58  <_tumbler_gripper_down_unload_x_calculated> = 958.600000
+
+lun26 06:58  <_tumbler_gripper_down_load_x_calculated> = 958.600000
+lun26 06:58  <_tumbler_gripper_down_extracts> = 1019.700000
+lun26 06:58  <_tumbler_aproximates_down_x> = 1047.700000
+
+lun26 06:58  <_tumbler_aproximates_up_x> = 1047.600000
+lun26 06:58  <_tumbler_gripper_down_load_from_extract> = 1022.700000
+lun26 06:58  <_tumbler_gripper_up_load_from_extract> = 1022.600000
+
+lun26 06:58  <_tumbler_gripper_down_x_meas_ref> = 1022.700000
+lun26 06:58  <_tumbler_gripper_up_x_meas_ref> = 1022.600000
+lun26 06:58  <_tumbler_gripper_down_x_meas_offset> = 0.000000
+
+lun26 06:58  <_tumbler_gripper_up_x_meas_offset> = 0.000000
+lun26 06:58  <_lathe_chuck_front_to_gripper_down_x>  =  2513.800000
+lun26 06:58  <_lathe_gripper_down_center_y>  =  322.500000
+
+lun26 06:58  <_lathe_gripper_down_center_z>  =  277.000000
+lun26 06:58  <_lathe_chuck_front_to_gripper_up_x>  =  2514.500000
+lun26 06:58  <_lathe_gripper_up_center_y>  =  323.000000
+lun26 06:58  <_lathe_gripper_up_center_z>  =  26.700000
+
+lun26 06:58  <_lathe_enter1_x> = 3037.500000
+lun26 06:58  <_lathe_enter1_y> = 226.500000
+lun26 06:58  <_lathe_enter1_z> = 289.000000
+
+lun26 06:58  <_lathe_enter2_y> = 143.500000
+lun26 06:58  <_lathe_enter2_z> = 479.000000
+lun26 06:58  <_lathe_enter3_z> = 48.700000
+
+lun26 06:58  <_lathe_gripper_down_aproximates_x> = 2927.800000
+lun26 06:58  <_lathe_gripper_up_aproximates_x> = 2928.500000
+lun26 06:58  <_lathe_gripper_down_x_calculated> = 2839.100000
+
+lun26 06:58  <_lathe_gripper_up_x_calculated> = 2842.800000
+lun26 06:58  <_lathe_gripper_down_x_meas_ref> = 2839.100000
+lun26 06:58  <_lathe_gripper_down_x_meas_offset> = 0.000000
+
+lun26 07:00 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun26 07:01 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 07:01 Cannot switch pages while in AUTO mode
+
+lun26 07:17 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+lun26 07:17 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+lun26 07:17 Started program from line 1
+
+lun26 07:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 07:17 Started program from line 1
+lun26 07:17  PRODUCTION step 0
+
+lun26 07:18  INIT - WAIT UNTILL HOME POSITION
+
+lun26 07:18  STEP 0 - gantry empty-lathe empty
+
+lun26 07:18  0 - checkings step 0
+lun26 07:18  0 - LOAD gripper down
+
+lun26 07:18  gripper down measured x coordinate 288.501831
+
+lun26 07:18  LOAD GRIPPER DOWN - MEASURE DIF VS REF = -0.301831 
+
+lun26 07:19  STEP 1 - gantry raw-lathe empty
+lun26 07:19  1 - checkings step 1
+
+lun26 07:19  1 - LATHE STARTS - gripper down leaves coupling
+lun26 07:19  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 07:22 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP1 Gantry raw GRD - Lathe empty.ngc
+lun26 07:22 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/production steps/PRODUCTION STEP1 Gantry raw GRD - Lathe empty.ngc
+
+lun26 07:23 Started program from line 1
+lun26 07:23 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 07:23 Started program from line 1
+
+lun26 07:23  PRODUCTION step 1
+
+lun26 07:23  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+
+lun26 07:23 Started program from line 1
+
+lun26 07:23  PRODUCTION step 1
+
+lun26 07:23  INIT - WAIT UNTILL HOME POSITION
+
+lun26 07:23  STEP 1 - gantry raw-lathe empty
+lun26 07:23  1 - checkings step 1
+
+lun26 07:23  1 - LATHE STARTS - gripper down leaves coupling
+lun26 07:23  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 07:24  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+lun26 07:24  *** WAIT UNTILL HOME POSITION ***
+lun26 07:24  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+lun26 07:25  STEP 2 - gantry empty-lathe op10
+lun26 07:25  2 - checkings step 2
+
+lun26 07:25  2 - LOAD gripper down
+
+lun26 07:26  gripper down measured x coordinate 288.776825
+
+lun26 07:26  LOAD GRIPPER DOWN - MEASURE DIF VS REF = -0.576825 
+
+lun26 07:26  2 - PARKING - DOWN LEAVES - UP GRABS
+
+lun26 07:27  gripper up measured x coordinate 297.318451
+
+lun26 07:27  PARKING GRIPPER UP - MEASURE DIF VS REF = -1.318451 
+
+lun26 07:27  STEP 3 -  gantry raw up / lathe op10
+
+lun26 07:27  3 - checkings step 3 to 6
+
+lun26 07:28  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 07:28  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 07:28  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 07:28  *** WAIT UNTILL HOME POSITION ***
+lun26 07:28  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 07:29  gripper down measured x coordinate 2860.425049
+
+lun26 07:29  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -1.125049 
+
+lun26 07:30  3 - TUMBLER enter gripper down - exit gripper up
+
+lun26 07:31  Tumbler down - Rotator not in 180 degrees
+
+lun26 07:46 Machine OFF
+lun26 07:46 movimiento detenido por entrada habilitada
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 09:02:29 ---
+lun26 09:02 Machine OFF
+lun26 09:02 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 09:03 Machine ON
+
+lun26 09:05 Machine OFF
+lun26 09:05 movimiento detenido por entrada habilitada
+
+lun26 09:52 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+lun26 09:52 el comando (EMC_TASK_PLAN_EXECUTE) no se puede ejecutar hasta que la máquina salga de Estop y esté encendida
+
+lun26 09:52 Machine ON
+
+lun26 09:53 Cannot switch pages while in AUTO mode
+
+lun26 09:53 Cannot switch pages while in AUTO mode
+
+lun26 09:53 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+lun26 09:53 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+lun26 09:54 Started program from line 1
+
+lun26 09:54 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 09:54 Started program from line 1
+lun26 09:54  PRINT VARIABLES
+
+lun26 09:54  <_parking_plate_to_gripper_down_x> = -5.400000
+
+lun26 09:54  <_parking_gripper_down_enter_y> = 346.100000
+lun26 09:54  <_parking_gripper_down_z_reference> = 1325.200000
+lun26 09:54  <_parking_plate_to_gripper_up_x> = -4.000000
+
+lun26 09:54  <_parking_gripper_up_enter_y> = 345.500000
+lun26 09:54  <_parking_gripper_up_z_reference> = 1075.100000
+lun26 09:54  <_parking_enter_x_over_bars> = 366.600000
+
+lun26 09:54  <_parking_enter_z> = 1367.200000
+lun26 09:54  <_parking_aproximates_x> = 316.600000
+lun26 09:54  <_parking_enter_x_free> = 516.600000
+
+lun26 09:54  <_parking_gripper_down_unload_x_calculated> = 297.600000
+lun26 09:54  <_parking_gripper_down_load_x_calculated> = 294.600000
+lun26 09:54  <_parking_gripper_down_z_calculated> = 1329.022679
+
+lun26 09:54  <_parking_gripper_up_unload_x_calculated> = 299.000000
+lun26 09:54  <_parking_gripper_up_load_x_calculated> = 296.000000
+lun26 09:54  <_parking_gripper_up_z_calculated> = 1078.922679
+
+lun26 09:54  <_parking_gripper_down_x_meas_ref> = 294.600000
+lun26 09:54  <_parking_gripper_up_x_meas_ref> = 296.000000
+lun26 09:54  <_parking_gripper_down_x_meas_offset> = 0.000000
+
+lun26 09:54  <_parking_gripper_up_x_meas_offset> = 0.000000
+lun26 09:54  <_blower_plate_to_gripper_down_x> = 1796.100000
+lun26 09:54  <_blower_enter_y> = 365.400000
+
+lun26 09:54  <_blower_gripper_down_z_reference> = 1324.100000
+lun26 09:54  <_blower_enter_x> = 2496.100000
+lun26 09:54  <_blower_aproximates_x> = 2146.100000
+
+lun26 09:54  <_blower_gripper_down_unload_x_calculated> = 2099.100000
+lun26 09:54  <_blower_gripper_down_load_x_calculated> = 2096.100000
+lun26 09:54  <_blower_gripper_down_z_calculated_machined> = 1327.922679
+
+lun26 09:54  <_blower_gripper_down_x_meas_ref_machined> = 2096.100000
+lun26 09:54  <_blower_gripper_down_x_meas_ref_offset> = 0.000000
+lun26 09:54  <_load_plate_to_gripper_down_x> = -11.800000
+
+lun26 09:54  <_load_enter_y> = 145.100000
+lun26 09:54  <_load_gripper_down_z_reference> = 372.200000
+lun26 09:54  <_load_enter_x_installation_corrector> = 15.000000
+
+lun26 09:54  <_load_enter_x> = 426.200000
+lun26 09:54  <_load_aproximates_x> = 318.200000
+lun26 09:54  <_load_gripper_down_x_calculated> = 288.200000
+
+lun26 09:54  <_load_gripper_down_z_calculated> = 376.046914
+lun26 09:54  <_load_gripper_down_x_meas_ref> = 288.200000
+lun26 09:54  <_load_gripper_down_x_meas_offset> = 0.000000
+
+lun26 09:54  <_unload_plate_to_gripper_down_x> = 5.400000
+lun26 09:54  <_unload_enter_y> = 447.800000
+lun26 09:54  <_unload_gripper_down_z_reference> = 507.800000
+
+lun26 09:54  <_unload_enter_x_installation_corrector> = 15.000000
+lun26 09:54  <_unload_enter_x> = 530.400000
+lun26 09:54  <_unload_aproximates_x> = 335.400000
+
+lun26 09:54  <_unload_enter_intermediate_x> = 355.400000
+lun26 09:54  <_unload_enter_intermediate_Z> = 635.400000
+lun26 09:54  <_unload_gripper_down_x_calculated> = 308.400000
+
+lun26 09:54  <_unload_gripper_down_z_calculated> = 511.646914
+lun26 09:54  <_tumbler_gripper_down_jaws_center_x> = 807.700000
+lun26 09:54  <_tumbler_enter_down_y> = 432.700000
+
+lun26 09:54  <_tumbler_gripper_down_z> = 1298.700000
+lun26 09:54  <_tumbler_gripper_up_jaws_center_x> = 807.600000
+lun26 09:54  <_tumbler_enter_up_y> = 431.500000
+
+lun26 09:54  <_tumbler_gripper_up_z> = 1048.000000
+lun26 09:54  <_tumbler_enter_x> = 1157.700000
+lun26 09:54  <_tumbler_gripper_down_unload_x_calculated> = 957.700000
+
+lun26 09:54  <_tumbler_gripper_down_load_x_calculated> = 957.700000
+lun26 09:54  <_tumbler_gripper_down_extracts> = 1019.700000
+lun26 09:54  <_tumbler_aproximates_down_x> = 1047.700000
+
+lun26 09:54  <_tumbler_aproximates_up_x> = 1047.600000
+lun26 09:54  <_tumbler_gripper_down_load_from_extract> = 1022.700000
+lun26 09:54  <_tumbler_gripper_up_load_from_extract> = 1022.600000
+
+lun26 09:54  <_tumbler_gripper_down_x_meas_ref> = 1022.700000
+lun26 09:54  <_tumbler_gripper_up_x_meas_ref> = 1022.600000
+lun26 09:54  <_tumbler_gripper_down_x_meas_offset> = 0.000000
+
+lun26 09:54  <_tumbler_gripper_up_x_meas_offset> = 0.000000
+lun26 09:54  <_lathe_chuck_front_to_gripper_down_x>  =  2513.800000
+lun26 09:54  <_lathe_gripper_down_center_y>  =  322.500000
+
+lun26 09:54  <_lathe_gripper_down_center_z>  =  277.000000
+lun26 09:54  <_lathe_chuck_front_to_gripper_up_x>  =  2514.500000
+lun26 09:54  <_lathe_gripper_up_center_y>  =  323.000000
+
+lun26 09:54  <_lathe_gripper_up_center_z>  =  26.700000
+lun26 09:54  <_lathe_enter1_x> = 3037.500000
+lun26 09:54  <_lathe_enter1_y> = 226.500000
+
+lun26 09:54  <_lathe_enter1_z> = 289.000000
+lun26 09:54  <_lathe_enter2_y> = 143.500000
+lun26 09:54  <_lathe_enter2_z> = 479.000000
+
+lun26 09:54  <_lathe_enter3_z> = 48.700000
+lun26 09:54  <_lathe_gripper_down_aproximates_x> = 2927.800000
+lun26 09:54  <_lathe_gripper_up_aproximates_x> = 2928.500000
+
+lun26 09:54  <_lathe_gripper_down_x_calculated> = 2859.300000
+lun26 09:54  <_lathe_gripper_up_x_calculated> = 2863.000000
+lun26 09:54  <_lathe_gripper_down_x_meas_ref> = 2859.300000
+
+lun26 09:54  <_lathe_gripper_down_x_meas_offset> = 0.000000
+
+lun26 09:55 Cannot switch pages while in AUTO mode
+
+lun26 09:55 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+lun26 09:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 09:56 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+lun26 09:56 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+lun26 09:57 Cannot switch pages while in AUTO mode
+
+lun26 09:57 Started program from line 1
+
+lun26 09:57 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+lun26 09:57 Started program from line 1
+lun26 09:57  PRODUCTION step 0
+
+lun26 09:57  INIT - WAIT UNTILL HOME POSITION
+
+lun26 09:57  STEP 0 - gantry empty-lathe empty
+lun26 09:57  0 - checkings step 0
+lun26 09:57  0 - LOAD gripper down
+
+lun26 09:57  gripper down measured x coordinate 288.483551
+
+lun26 09:57  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 0.716449 
+
+lun26 09:57  STEP 1 - gantry raw-lathe empty
+lun26 09:57  1 - checkings step 1
+
+lun26 09:57  1 - LATHE STARTS - gripper down leaves coupling
+lun26 09:57  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 09:58  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+lun26 09:58  *** WAIT UNTILL HOME POSITION ***
+lun26 09:58  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+lun26 09:58  STEP 2 - gantry empty-lathe op10
+
+lun26 09:58  2 - checkings step 2
+lun26 09:58  2 - LOAD gripper down
+
+lun26 09:58  gripper down measured x coordinate 288.664886
+
+lun26 09:58  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 0.535114 
+
+lun26 09:58  2 - PARKING - DOWN LEAVES - UP GRABS
+
+lun26 09:59  gripper up measured x coordinate 297.215759
+
+lun26 09:59  PARKING GRIPPER UP - MEASURE DIF VS REF = -0.215759 
+
+lun26 09:59  STEP 3 -  gantry raw up / lathe op10
+lun26 09:59  3 - checkings step 3 to 6
+
+lun26 09:59  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 09:59  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 09:59  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 09:59  *** WAIT UNTILL HOME POSITION ***
+
+lun26 09:59  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 09:59  gripper down measured x coordinate 2860.489258
+
+lun26 09:59  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.189258 
+
+lun26 09:59  3 - TUMBLER enter gripper down - exit gripper up
+
+lun26 10:00  gripper down measured x coordinate 1026.830933
+
+lun26 10:00  Tumbler down - MEASURE DIF VS REF = -4.130933 
+
+lun26 10:00  gripper up measured x coordinate 297.103302
+
+lun26 10:00  PARKING GRIPPER UP - MEASURE DIF VS REF = -0.103302 
+
+lun26 10:01  STEP 4 - gantry op10T up / lathe op10
+
+lun26 10:01  4 - checkings step 3 to 6
+
+lun26 10:01  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 10:01  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:01  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:01  *** WAIT UNTILL HOME POSITION ***
+
+lun26 10:01  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:01  gripper down measured x coordinate 2860.657471
+
+lun26 10:01  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.357471 
+
+lun26 10:02  4 - TUMBLER enter gripper down - exit gripper up
+
+lun26 10:02  gripper down measured x coordinate 1026.784302
+
+lun26 10:02  Tumbler down - MEASURE DIF VS REF = -4.084302 
+
+lun26 10:02  gripper up measured x coordinate 297.195404
+
+lun26 10:03  PARKING GRIPPER UP - MEASURE DIF VS REF = -0.195404 
+
+lun26 10:03  STEP 5 - gantry op10T up / lathe op20
+
+lun26 10:03  5 - checkings step 3 to 6
+
+lun26 10:03  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+lun26 10:03  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:03  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:03  *** WAIT UNTILL HOME POSITION ***
+lun26 10:03  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:03  gripper down measured x coordinate 2860.636963
+
+lun26 10:03  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.336963 
+
+lun26 10:04  5 - BLOWER
+
+lun26 10:04  gripper down measured x coordinate 2097.729004
+
+lun26 10:04  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = -0.629004 
+
+lun26 10:04  5 - UNLOAD gripper down
+
+lun26 10:04 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun26 10:04 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+lun26 10:04 no se puede hacer (EMC_TASK_PLAN_CLOSE) en modo auto con el intérprete en pausa
+lun26 10:04 no se puede hacer (EMC_TASK_PLAN_OPEN) en modo auto con el intérprete en pausa
+
+lun26 10:05  5 - LOAD gripper down
+
+lun26 10:05  gripper down measured x coordinate 288.989899
+
+lun26 10:05  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 0.210101 
+
+lun26 10:05  5 - PARKING - DOWN LEAVES - UP GRABS
+
+lun26 10:05  gripper up measured x coordinate 296.939301
+
+lun26 10:05  PARKING GRIPPER UP - MEASURE DIF VS REF = 0.060699 
+
+lun26 10:05  STEP 6 - gantry raw up-lathe op20
+
+lun26 10:05  6 - checkings step 3 to 6
+
+lun26 10:06  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 10:06  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:06  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:06  *** WAIT UNTILL HOME POSITION ***
+lun26 10:06  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:06  gripper down measured x coordinate 2860.664307
+
+lun26 10:06  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.364307 
+
+lun26 10:06  6 - BLOWER
+
+lun26 10:07  gripper down measured x coordinate 2097.874512
+
+lun26 10:07  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = -0.774512 
+
+lun26 10:07  6 - UNLOAD gripper down
+
+lun26 10:07  STEP 6 Continues - gantry raw up-lathe op20
+
+lun26 10:07  6 - LOAD gripper down
+
+lun26 10:07  gripper down measured x coordinate 288.517426
+
+lun26 10:07  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 0.682574 
+
+lun26 10:07  6 - PARKING - DOWN LEAVES - UP GRABS
+
+lun26 10:08  gripper up measured x coordinate 296.998535
+
+lun26 10:08  PARKING GRIPPER UP - MEASURE DIF VS REF = 0.001465 
+
+lun26 10:08  STEP 3 -  gantry raw up / lathe op10
+lun26 10:08  3 - checkings step 3 to 6
+
+lun26 10:08  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+lun26 10:08  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:08  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:08  *** WAIT UNTILL HOME POSITION ***
+lun26 10:08  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:08  gripper down measured x coordinate 2860.429199
+
+lun26 10:08  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.129199 
+
+lun26 10:09  3 - TUMBLER enter gripper down - exit gripper up
+
+lun26 10:09  gripper down measured x coordinate 1026.997192
+
+lun26 10:09  Tumbler down - MEASURE DIF VS REF = -4.297192 
+
+lun26 10:09  gripper up measured x coordinate 296.826355
+
+lun26 10:09  PARKING GRIPPER UP - MEASURE DIF VS REF = 0.173645 
+
+lun26 10:10  STEP 4 - gantry op10T up / lathe op10
+
+lun26 10:10  4 - checkings step 3 to 6
+
+lun26 10:10  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+
+lun26 10:10  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:10  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:10  *** WAIT UNTILL HOME POSITION ***
+lun26 10:10  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:11  gripper down measured x coordinate 2860.758301
+
+lun26 10:11  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.458301 
+
+lun26 10:11  4 - TUMBLER enter gripper down - exit gripper up
+
+lun26 10:12  gripper down measured x coordinate 1026.897705
+
+lun26 10:12  Tumbler down - MEASURE DIF VS REF = -4.197705 
+
+lun26 10:12  gripper up measured x coordinate 297.083496
+
+lun26 10:12  PARKING GRIPPER UP - MEASURE DIF VS REF = -0.083496 
+
+lun26 10:12  STEP 5 - gantry op10T up / lathe op20
+lun26 10:12  5 - checkings step 3 to 6
+
+lun26 10:12  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 10:12  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:12  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:12  *** WAIT UNTILL HOME POSITION ***
+lun26 10:12  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:13  gripper down measured x coordinate 2860.529053
+
+lun26 10:13  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.229053 
+
+lun26 10:13  5 - BLOWER
+
+lun26 10:13  gripper down measured x coordinate 2097.683350
+
+lun26 10:13  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = -0.583350 
+
+lun26 10:14  5 - UNLOAD gripper down
+
+lun26 10:14  5 - LOAD gripper down
+
+lun26 10:14  gripper down measured x coordinate 288.523926
+
+lun26 10:14  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 0.676074 
+
+lun26 10:14  5 - PARKING - DOWN LEAVES - UP GRABS
+
+lun26 10:14  gripper up measured x coordinate 297.057343
+
+lun26 10:14  PARKING GRIPPER UP - MEASURE DIF VS REF = -0.057343 
+
+lun26 10:14  STEP 6 - gantry raw up-lathe op20
+
+lun26 10:14  6 - checkings step 3 to 6
+
+lun26 10:15  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+lun26 10:15  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:15  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:15  *** WAIT UNTILL HOME POSITION ***
+lun26 10:15  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:15  gripper down measured x coordinate 2860.658936
+
+lun26 10:15  LATHE PRODUCTION GRD - MEASURE DIF VS REF = -0.358936 
+
+lun26 10:15  6 - BLOWER
+
+lun26 10:16  gripper down measured x coordinate 2097.742432
+
+lun26 10:16  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = -0.642432 
+
+lun26 10:16  6 - UNLOAD gripper down
+
+lun26 10:16  Last Cycle - gantry raw up-lathe op20
+
+lun26 10:16  Last Cycle - LATHE ENDS - gripper down GRABS
+lun26 10:16  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:16  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:16  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+lun26 10:16  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:17  gripper down measured x coordinate 2861.062988
+
+lun26 10:17   LATHE ENDS - MEASURE DIF VS REF = -0.762988 
+
+lun26 10:17  Last Cycle - TUMBLER enter gripper down  - exit gripper down
+
+lun26 10:17  gripper down measured x coordinate 1027.272583
+
+lun26 10:17  Tumbler down - MEASURE DIF VS REF = -4.572583 
+
+lun26 10:18  Last Cycle - LATHE STARTS - gripper down leaves coupling
+
+lun26 10:18  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:18  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+
+lun26 10:18  *** WAIT UNTILL HOME POSITION ***
+lun26 10:18  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+lun26 10:18  Last Cycle - LATHE ENDS - gripper down GRABS
+
+lun26 10:18  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+lun26 10:19  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+lun26 10:19  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+lun26 10:19  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+lun26 10:19  gripper down measured x coordinate 2860.857422
+
+lun26 10:19   LATHE ENDS - MEASURE DIF VS REF = -0.557422 
+
+lun26 10:19  Last Cycle - BLOWER
+
+lun26 10:20  gripper down measured x coordinate 2097.781250
+
+lun26 10:20  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = -0.681250 
+
+lun26 10:20  Last Cycle - UNLOAD gripper down
+
+lun26 10:20  30 seconds to end
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 10:49:42 ---
+lun26 10:49 Machine OFF
+lun26 10:49 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 10:49 fallo del amplificador de articulacion 0
+lun26 10:49 fallo del amplificador de articulacion 1
+lun26 10:49 fallo del amplificador de articulacion 2
+
+lun26 10:49 Machine ON
+
+lun26 10:50 Machine OFF
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 10:31:25 ---
+lun26 10:31 Machine OFF
+lun26 10:31 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 10:31 Machine ON
+
