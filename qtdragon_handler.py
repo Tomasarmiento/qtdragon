@@ -52,7 +52,6 @@ TAB_TORNO = 10
 TAB_NEUMATIC = 11
 TAB_PATEADOR = 12
 TAB_AXIS = 13
-TAB_BEACON = 20
 
 
 
@@ -97,7 +96,6 @@ class HandlerClass:
         self.wait_time = 0.2
         self.flag_bd_pc = False
         self.flag_pat_nb = False
-        self.xx = False
         self.err_routine = True
         self.chk_init_conditions = False
         self.safe_pos_x = 0
@@ -343,9 +341,6 @@ class HandlerClass:
                             'RI_tor_ga':0,
                             'NB_pat_kick':0,
                             'GAN_subroutine_master_out':0,
-                            'BAL_red':0,
-                            'BAL_yellow':0,
-                            'BAL_green':0,
 							}
         self.py_control_pins = {'CTRL_bc_ogr':0,
 								'CTRL_bd_ogr':0,
@@ -358,8 +353,6 @@ class HandlerClass:
                                 'CTRL_end_cycle':0,
                                 'CTRL_ch_of':0,
                                 'CTRL_ch_no_cs':0,
-                                'CTRL_sl_writeg':0,
-                                'CTRL_sl_wasdown':0,
 							}
 
 
@@ -373,9 +366,6 @@ class HandlerClass:
         #declaracion de pines de entrada en python
         pin = self.h.newpin("SEN_bd_full", hal.HAL_BIT, hal.HAL_IN)
         hal_glib.GPin(pin).connect("value_changed", self.change_value)
-
-        pin = self.h.newpin("RI_tor_sl_confirm", hal.HAL_BIT, hal.HAL_IN)
-        hal_glib.GPin(pin).connect("value_changed", self.change_value2)
 
         #pin = self.h.newpin("NB_pat_kick", hal.HAL_BIT, hal.HAL_IN)
         #hal_glib.GPin(pin).connect("value_changed", self.change_value2)
@@ -441,19 +431,7 @@ class HandlerClass:
         #    ACTION.CALL_DIALOG(mess)
 
     def change_value2(self,pin):
-        #print("entrada de sl",int(pin.value))
-        #print("flag de control",hal.get_value('CTRL_sl_writeg'))
-        #print(self.xx)
-        sl_state = pin.value
-        CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
-        if sl_state == 0 and CTRL_sl_writeg == 0:
-            key_1 = 'CTRL_sl_wasdown'
-            if not self.send_pctrl(key_1, True):
-                msg_error = 'Error sending control flag command - OKUMA - Turn on SL was down'
-                print(msg_error)
-                return False
-            
-        
+        print(hal.get_value(pin))
         #if hal.get_value(pin) == True:
         #    self.flag_pat_nb = True
         #else:
@@ -860,7 +838,7 @@ class HandlerClass:
                 self.w.btn_main.setChecked(True)
                 return
         #esto es lo que carga el main widget, el numero corresponde a la posisicon en la que sta en el codigo que se trae del numero index del html
-        if index != TAB_CARGA and index != TAB_DESCARGA and index != TAB_SEGREGADOR and index != TAB_VOLTEADOR and index != TAB_BLW_PARK and index != TAB_TORNO and index != TAB_GANTRY and index != TAB_PATEADOR and index_axis == None and index != TAB_BEACON:
+        if index != TAB_CARGA and index != TAB_DESCARGA and index != TAB_SEGREGADOR and index != TAB_VOLTEADOR and index != TAB_BLW_PARK and index != TAB_TORNO and index != TAB_GANTRY and index != TAB_PATEADOR and index_axis == None:
             self.w.main_tab_widget.setCurrentIndex(index)
             self.w.stackedWidget_neumatic.setCurrentIndex(0)
         else:
@@ -898,8 +876,6 @@ class HandlerClass:
         elif index == TAB_AXIS:
             self.w.stackedWidget.setCurrentIndex(0)
             self.w.frame_top_left.hide()
-        elif index == TAB_BEACON:
-            self.w.stackedWidget.setCurrentIndex(10)
         else:
             self.w.stackedWidget.setCurrentIndex(0)
             if self.w.main_tab_widget.currentIndex() == TAB_MAIN:
@@ -1308,14 +1284,14 @@ class HandlerClass:
                                 f.write(n.encode('utf-8') + '\n')
                             f.close()
                     except Exception as e:
-                        print("Error al escribir en el archivo1",e)
+                        print("Error al escribir en el archivo")
                 else:
                     try:
                         with open(self.messages_log + filename, 'w') as f:
                             f.write(text.encode('utf-8'))
                             f.close()
                     except Exception as e:
-                        print("Error al escribir en el archivo2")
+                        print("Error al escribir en el archivo")
                     
             old_len_list = len(list_of_messages)
             #unicode_string = text.decode("utf-8")
@@ -1351,15 +1327,6 @@ class HandlerClass:
                     if not self.send_pctrl(key_1, False):
                         print('Error sending control flag command - OKUMA - Gantry operation finished in lathe')
                         self.err_routine = False
-                    
-                #Paso 3 - Chequea salida del codigo g para apagar flag de que sl estuvo en 0
-                CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
-                if CTRL_sl_writeg == 1:
-                    key_1 = 'CTRL_sl_wasdown'
-                    if not self.send_pctrl(key_1, False):
-                        msg_error = 'Error sending control flag command - OKUMA - Turn off SL was down'
-                        print(msg_error)
-                        return False
                         
 
                 # Paso 0 - Condiciones iniciales CARGA
@@ -2512,8 +2479,7 @@ class HandlerClass:
                     for key, value in cuple_inputs_dict.iteritems():
                         print key, value
                         if '<_{0}>= '.format(key) in line:
-                            replaced_line = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value)))
-                            lines[i] = '    ' + replaced_line + '\n'  # Add 4 spaces before #
+                            lines[i] = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value))) + '\n'
                             break
 
                 # Escribir las lineas modificadas en el archivo

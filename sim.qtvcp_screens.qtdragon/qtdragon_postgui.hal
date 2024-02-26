@@ -28,10 +28,6 @@
 #net cal_offset       motion.analog-out-12 => qtdragon.cal_offset
 ########################################################################
 
-# Board
-net ctrlConnected <= qtdragon.ctrlConnected
-#===========================================================
-
 # Axes
 #===========================================================
 #net posMode <= pyvcp.positionMode
@@ -211,11 +207,9 @@ net z-posRef => qtdragon.z-posRef
 
 #pin para controlar subrutinas
 net GAN_subroutine_master_out <= motion.analog-out-01 <= qtdragon.GAN_subroutine_master_in
+
 net GAN_subroutine_master_in => motion.analog-in-01 => qtdragon.GAN_subroutine_master_out
 
-#RI_tor_sl_confirm
-net CTRL_sl_writeg => qtdragon.CTRL_sl_writeg
-net CTRL_sl_wasdown => qtdragon.CTRL_sl_wasdown
 
 #########################################################################
 
@@ -250,7 +244,7 @@ net RI_tor_so1_confirm => qtdragon.RI_tor_so1_confirm #spindle orientation 1
 net RI_tor_so2_confirm => qtdragon.RI_tor_so2_confirm #spindle orientation 2
 net RI_tor_ep_confirm => qtdragon.RI_tor_ep_confirm #end program - CYCLE COMPLETE
 net RI_tor_home_confirm => qtdragon.RI_tor_home_confirm
-net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm_2
+net RI_tor_sl_confirm => qtdragon.RI_tor_sl_confirm
 net RI_tor_alarm_confirm => qtdragon.RI_tor_alarm_confirm
 net RI_tor_cstop_confirm => qtdragon.RI_tor_cstop_confirm
 net RI_tor_m180_confirm => qtdragon.RI_tor_m180_confirm
@@ -290,16 +284,5 @@ net CTRL_init_master => qtdragon.LED_init_master => qtdragon.CTRL_init_master =>
 net CTRL_end_cycle => motion.digital-in-49 => qtdragon.CTRL_end_cycle => qtdragon.LED_end_cycle
 
 ########################################################################
-
-#tablero
-#leds
-#net SEN_presure <= qtdragon.SEN_presure
-
-#baliza
-net BAL_red <= qtdragon.BAL_red
-net BAL_yellow <= qtdragon.BAL_yellow
-net BAL_green <= qtdragon.BAL_green
-
-
 
 

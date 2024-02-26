@@ -231,7 +231,7 @@
                <enum>QFrame::Raised</enum>
               </property>
               <property name="currentIndex">
-               <number>8</number>
+               <number>0</number>
               </property>
               <widget class="QWidget" name="gcode_page">
                <property name="sizePolicy">
@@ -745,7 +745,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Neumatic Retracted&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Download Forward&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -820,7 +820,7 @@
                       <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Neumatic Extended&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Download Backward&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>
@@ -3344,7 +3344,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="LED" name="RI_tor_sl_confirm_2" native="true">
+                    <widget class="LED" name="RI_tor_sl_confirm" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -4079,101 +4079,6 @@
                 </item>
                </layout>
               </widget>
-              <widget class="QWidget" name="cabinet_page">
-               <layout class="QVBoxLayout" name="verticalLayout_48">
-                <property name="spacing">
-                 <number>4</number>
-                </property>
-                <property name="leftMargin">
-                 <number>2</number>
-                </property>
-                <property name="topMargin">
-                 <number>2</number>
-                </property>
-                <property name="rightMargin">
-                 <number>2</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>2</number>
-                </property>
-                <item>
-                 <widget class="QWidget" name="widget_tool_table" native="true">
-                  <layout class="QHBoxLayout" name="horizontalLayout_29">
-                   <item>
-                    <widget class="QLabel" name="label_48">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>180</width>
-                       <height>30</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>16777215</width>
-                       <height>100</height>
-                      </size>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <family>DejaVu Sans</family>
-                       <pointsize>20</pointsize>
-                       <kerning>true</kerning>
-                      </font>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
-                     </property>
-                     <property name="text">
-                      <string>Air Presure</string>
-                     </property>
-                     <property name="alignment">
-                      <set>Qt::AlignCenter</set>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="LED" name="SEN_presure" native="true">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>16</width>
-                       <height>16</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>35</width>
-                       <height>35</height>
-                      </size>
-                     </property>
-                     <property name="diameter" stdset="0">
-                      <number>30</number>
-                     </property>
-                     <property name="color" stdset="0">
-                      <color>
-                       <red>0</red>
-                       <green>255</green>
-                       <blue>0</blue>
-                      </color>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
              </widget>
             </item>
             <item>
@@ -4443,7 +4348,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="btn_settings">
+               <widget class="QPushButton" name="btn_settings_2">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
@@ -4476,7 +4381,7 @@
                 </attribute>
                </widget>
               </item>
-              <item alignment="Qt::AlignTop">
+              <item>
                <widget class="QPushButton" name="btn_datos">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -4486,8 +4391,8 @@
                 </property>
                 <property name="minimumSize">
                  <size>
-                  <width>120</width>
-                  <height>80</height>
+                  <width>70</width>
+                  <height>40</height>
                  </size>
                 </property>
                 <property name="maximumSize">
@@ -4496,11 +4401,8 @@
                   <height>40</height>
                  </size>
                 </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.515306 rgba(0, 78, 255, 255), stop:1 rgba(0, 0, 0, 255));color:rgb(255, 255, 255);font: 16pt</string>
-                </property>
                 <property name="text">
-                 <string>NEW PART</string>
+                 <string>DATA</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7711,7 +7613,7 @@ TO FILE</string>
                            </size>
                           </property>
                           <property name="styleSheet">
-                           <string notr="true">font: 8pt</string>
+                           <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
                           </property>
                           <property name="text">
                            <string>UNLOAD</string>
@@ -7843,7 +7745,7 @@ TO FILE</string>
                            </size>
                           </property>
                           <property name="styleSheet">
-                           <string notr="true">font: 8pt</string>
+                           <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
                           </property>
                           <property name="text">
                            <string>GANTRY</string>
@@ -7985,52 +7887,6 @@ TO FILE</string>
                           </property>
                           <property name="index_neumatic" stdset="0">
                            <number>8</number>
-                          </property>
-                          <attribute name="buttonGroup">
-                           <string notr="true">page_buttonGroup</string>
-                          </attribute>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QPushButton" name="btn_beacon">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>50</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="baseSize">
-                           <size>
-                            <width>60</width>
-                            <height>40</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 8pt</string>
-                          </property>
-                          <property name="text">
-                           <string>BEACON</string>
-                          </property>
-                          <property name="checkable">
-                           <bool>true</bool>
-                          </property>
-                          <property name="index" stdset="0">
-                           <number>20</number>
-                          </property>
-                          <property name="index_neumatic" stdset="0">
-                           <number>9</number>
                           </property>
                           <attribute name="buttonGroup">
                            <string notr="true">page_buttonGroup</string>
@@ -8193,7 +8049,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>RETRACT-L</string>
+                               <string>FORWARD-L</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8318,7 +8174,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>EXTEND-L</string>
+                               <string>BACKWARD-L</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8423,7 +8279,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>RETRACT-D</string>
+                               <string>FORWARD-D</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -8548,7 +8404,7 @@ TO FILE</string>
                                <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
                               </property>
                               <property name="text">
-                               <string>EXTEND-D</string>
+                               <string>BACKWARD-D</string>
                               </property>
                               <property name="autoDefault">
                                <bool>false</bool>
@@ -10226,263 +10082,6 @@ TO FILE</string>
                                 </property>
                                 <property name="text">
                                  <string>KICKER DOWN</string>
-                                </property>
-                                <property name="bajar_des" stdset="0">
-                                 <bool>true</bool>
-                                </property>
-                                <property name="template_label_option" stdset="0">
-                                 <bool>false</bool>
-                                </property>
-                                <property name="joint_number" stdset="0">
-                                 <number>0</number>
-                                </property>
-                                <property name="incr_imperial_number" stdset="0">
-                                 <double>0.010000000000000</double>
-                                </property>
-                                <property name="incr_mm_number" stdset="0">
-                                 <double>0.025000000000000</double>
-                                </property>
-                                <property name="incr_angular_number" stdset="0">
-                                 <double>-1.000000000000000</double>
-                                </property>
-                                <property name="toggle_float_option" stdset="0">
-                                 <bool>false</bool>
-                                </property>
-                                <property name="float_num" stdset="0">
-                                 <double>100.000000000000000</double>
-                                </property>
-                                <property name="float_alt_num" stdset="0">
-                                 <double>50.000000000000000</double>
-                                </property>
-                                <property name="view_type_string" stdset="0">
-                                 <string>P</string>
-                                </property>
-                                <property name="command_text_string" stdset="0">
-                                 <string/>
-                                </property>
-                                <property name="ini_mdi_number" stdset="0">
-                                 <number>0</number>
-                                </property>
-                                <property name="textTemplate" stdset="0">
-                                 <string>%1.3f in</string>
-                                </property>
-                                <property name="alt_textTemplate" stdset="0">
-                                 <string>%1.2f mm</string>
-                                </property>
-                               </widget>
-                              </item>
-                             </layout>
-                            </widget>
-                           </item>
-                          </layout>
-                         </item>
-                        </layout>
-                       </widget>
-                       <widget class="QWidget" name="main_tab_widgetPage15">
-                        <layout class="QHBoxLayout" name="horizontalLayout_7">
-                         <property name="spacing">
-                          <number>4</number>
-                         </property>
-                         <property name="leftMargin">
-                          <number>4</number>
-                         </property>
-                         <property name="topMargin">
-                          <number>0</number>
-                         </property>
-                         <property name="rightMargin">
-                          <number>4</number>
-                         </property>
-                         <property name="bottomMargin">
-                          <number>0</number>
-                         </property>
-                         <item>
-                          <layout class="QVBoxLayout" name="verticalLayout_30">
-                           <item>
-                            <widget class="QWidget" name="widget_zero_offsets_4" native="true">
-                             <layout class="QHBoxLayout" name="horizontalLayout">
-                              <property name="spacing">
-                               <number>4</number>
-                              </property>
-                              <property name="leftMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="topMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="rightMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="bottomMargin">
-                               <number>4</number>
-                              </property>
-                              <item>
-                               <widget class="ActionButton" name="BAL_red">
-                                <property name="sizePolicy">
-                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                                  <horstretch>0</horstretch>
-                                  <verstretch>0</verstretch>
-                                 </sizepolicy>
-                                </property>
-                                <property name="minimumSize">
-                                 <size>
-                                  <width>80</width>
-                                  <height>50</height>
-                                 </size>
-                                </property>
-                                <property name="maximumSize">
-                                 <size>
-                                  <width>350</width>
-                                  <height>100</height>
-                                 </size>
-                                </property>
-                                <property name="styleSheet">
-                                 <string notr="true">font: 15pt &quot;DejaVu Sans&quot;;</string>
-                                </property>
-                                <property name="text">
-                                 <string>RED</string>
-                                </property>
-                                <property name="subir_d" stdset="0">
-                                 <bool>true</bool>
-                                </property>
-                               </widget>
-                              </item>
-                             </layout>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QWidget" name="widget_zero_offsets_14" native="true">
-                             <layout class="QHBoxLayout" name="horizontalLayout_17">
-                              <property name="spacing">
-                               <number>4</number>
-                              </property>
-                              <property name="leftMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="topMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="rightMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="bottomMargin">
-                               <number>4</number>
-                              </property>
-                              <item>
-                               <widget class="ActionButton" name="BAL_yellow">
-                                <property name="sizePolicy">
-                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                                  <horstretch>0</horstretch>
-                                  <verstretch>0</verstretch>
-                                 </sizepolicy>
-                                </property>
-                                <property name="minimumSize">
-                                 <size>
-                                  <width>80</width>
-                                  <height>50</height>
-                                 </size>
-                                </property>
-                                <property name="maximumSize">
-                                 <size>
-                                  <width>350</width>
-                                  <height>100</height>
-                                 </size>
-                                </property>
-                                <property name="styleSheet">
-                                 <string notr="true">font: 15pt &quot;DejaVu Sans&quot;;</string>
-                                </property>
-                                <property name="text">
-                                 <string>YELLOW</string>
-                                </property>
-                                <property name="bajar_des" stdset="0">
-                                 <bool>true</bool>
-                                </property>
-                                <property name="template_label_option" stdset="0">
-                                 <bool>false</bool>
-                                </property>
-                                <property name="joint_number" stdset="0">
-                                 <number>0</number>
-                                </property>
-                                <property name="incr_imperial_number" stdset="0">
-                                 <double>0.010000000000000</double>
-                                </property>
-                                <property name="incr_mm_number" stdset="0">
-                                 <double>0.025000000000000</double>
-                                </property>
-                                <property name="incr_angular_number" stdset="0">
-                                 <double>-1.000000000000000</double>
-                                </property>
-                                <property name="toggle_float_option" stdset="0">
-                                 <bool>false</bool>
-                                </property>
-                                <property name="float_num" stdset="0">
-                                 <double>100.000000000000000</double>
-                                </property>
-                                <property name="float_alt_num" stdset="0">
-                                 <double>50.000000000000000</double>
-                                </property>
-                                <property name="view_type_string" stdset="0">
-                                 <string>P</string>
-                                </property>
-                                <property name="command_text_string" stdset="0">
-                                 <string/>
-                                </property>
-                                <property name="ini_mdi_number" stdset="0">
-                                 <number>0</number>
-                                </property>
-                                <property name="textTemplate" stdset="0">
-                                 <string>%1.3f in</string>
-                                </property>
-                                <property name="alt_textTemplate" stdset="0">
-                                 <string>%1.2f mm</string>
-                                </property>
-                               </widget>
-                              </item>
-                             </layout>
-                            </widget>
-                           </item>
-                           <item>
-                            <widget class="QWidget" name="widget_zero_offsets_3" native="true">
-                             <layout class="QHBoxLayout" name="horizontalLayout">
-                              <property name="spacing">
-                               <number>4</number>
-                              </property>
-                              <property name="leftMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="topMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="rightMargin">
-                               <number>4</number>
-                              </property>
-                              <property name="bottomMargin">
-                               <number>4</number>
-                              </property>
-                              <item>
-                               <widget class="ActionButton" name="BAL_green">
-                                <property name="sizePolicy">
-                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                                  <horstretch>0</horstretch>
-                                  <verstretch>0</verstretch>
-                                 </sizepolicy>
-                                </property>
-                                <property name="minimumSize">
-                                 <size>
-                                  <width>80</width>
-                                  <height>50</height>
-                                 </size>
-                                </property>
-                                <property name="maximumSize">
-                                 <size>
-                                  <width>350</width>
-                                  <height>100</height>
-                                 </size>
-                                </property>
-                                <property name="styleSheet">
-                                 <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;</string>
-                                </property>
-                                <property name="text">
-                                 <string>GREEN</string>
                                 </property>
                                 <property name="bajar_des" stdset="0">
                                  <bool>true</bool>
@@ -17632,7 +17231,7 @@ ALL</string>
                   <property name="bottomMargin">
                    <number>0</number>
                   </property>
-                  <item alignment="Qt::AlignHCenter">
+                  <item>
                    <widget class="QLabel" name="label_13">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -17857,7 +17456,7 @@ ALL</string>
                   <property name="bottomMargin">
                    <number>0</number>
                   </property>
-                  <item>
+                  <item alignment="Qt::AlignHCenter">
                    <widget class="QLabel" name="label_10">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18061,7 +17660,7 @@ ALL</string>
                      <property name="bottomMargin">
                       <number>0</number>
                      </property>
-                     <item>
+                     <item alignment="Qt::AlignHCenter">
                       <widget class="QLabel" name="label_41">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18208,7 +17807,7 @@ ALL</string>
                      <property name="bottomMargin">
                       <number>0</number>
                      </property>
-                     <item>
+                     <item alignment="Qt::AlignHCenter">
                       <widget class="QLabel" name="label_18">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -18324,64 +17923,6 @@ ALL</string>
                </item>
               </layout>
              </widget>
-            </item>
-            <item>
-             <layout class="QVBoxLayout" name="verticalLayout_23">
-              <item>
-               <widget class="QLabel" name="label_28">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>20</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>20</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>LINUXCNC LINKED</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="LED" name="ctrlConnected" native="true">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>16</width>
-                  <height>16</height>
-                 </size>
-                </property>
-                <property name="diameter" stdset="0">
-                 <number>15</number>
-                </property>
-                <property name="color" stdset="0">
-                 <color>
-                  <red>0</red>
-                  <green>255</green>
-                  <blue>0</blue>
-                 </color>
-                </property>
-               </widget>
-              </item>
-             </layout>
             </item>
             <item>
              <widget class="QWidget" name="widget_clock_exit" native="true">
@@ -18548,7 +18089,7 @@ ALL</string>
              </widget>
             </item>
             <item>
-             <spacer name="verticalSpacer_3">
+             <spacer name="verticalSpacer_11">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
@@ -19209,10 +18750,10 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>BAL_red</sender>
+   <sender>EV_pat_frw</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
+   <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>537</x>
@@ -19225,10 +18766,10 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>BAL_yellow</sender>
+   <sender>EV_pat_bkw</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
+   <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>589</x>
@@ -19241,10 +18782,10 @@ ALL</string>
    </hints>
   </connection>
   <connection>
-   <sender>BAL_green</sender>
+   <sender>EV_pat_down</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>btn_toggle_ev()</slot>
+   <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>589</x>
@@ -19253,6 +18794,22 @@ ALL</string>
     <hint type="destinationlabel">
      <x>1363</x>
      <y>437</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_pat_up</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>537</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1359</x>
+     <y>286</y>
     </hint>
    </hints>
   </connection>
@@ -19878,7 +19435,7 @@ ALL</string>
   <slot>btn_man_mode()</slot>
  </slots>
  <buttongroups>
-  <buttongroup name="mode_buttonGroup"/>
   <buttongroup name="page_buttonGroup"/>
+  <buttongroup name="mode_buttonGroup"/>
  </buttongroups>
 </ui>

@@ -180,6 +180,21 @@ m68 e01 q#<_ini[INIT_SAFE_POSITIONS]X_POS>
 G1 X 671 F1
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
+G1 y156.2 F1000
+G1 y156.2 F1000
+G1 z376.5 F1000
+G1 z514.8 F1000
+G1 y457.9 F1000
+G1 y357.9 F1000
+G1 z1334.4 F1000
+G1 y428.4 F1000
+G1 z1307.2 F1000
+G1 y356.5 F1000
+G1 z1329.1 F1000
+G1 y324.1 F1000
+G1 z282.1 F1000
+G1 y324.1 F1000
+G1 z31.3 F1000
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
@@ -188,150 +203,3 @@ G1 X 671 F1
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
 (debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m68 e01 q#<_ini[INIT_SAFE_POSITIONS]X_POS>
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug,asd)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-g1 y164.9 f1000
-g1 z371.3 f1000
-g1 y460.1 f1000
-g1 z520..6 f1000
-g1 z520.6 f1000
-g1 y357.8 f1000
-g1 z1333.7 f1000
-g1 y427.1 f1000
-g1 z1035.3 f1000
-g1 z1305.3 f1000
-g1 y354.5 f1000
-g1 z1330.4 f1000
-g1 y323.3 f1000
-g1 z279.6 f1000
-m66 p56
-m65 p56
-m66 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m65 p56
-m64 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m64 p56
-m65 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m65 p56
-m64 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m64 p56
-m65 p56
-m100 p1
-m100 p1
-m100 p1
-m100 p2
-m100 p2
-m100 p2
-m100 p2
-m100 p2
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p2
-m100 p2
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p2
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p2
-m100 p3
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1
-m100 p1
-(debug, #<_ini[INIT_SAFE_POSITIONS]X_POS>)
-m100 p1

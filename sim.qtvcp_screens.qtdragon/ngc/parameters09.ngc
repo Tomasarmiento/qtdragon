@@ -1,5 +1,5 @@
 
-o<parameters10> SUB
+o<parameters09> SUB
 
 ;(**********************************************************************)
 ;(***** MEASURED POSITION POINTS                                   *****)
@@ -9,41 +9,41 @@ o<parameters10> SUB
 
     ;ALL THE VALUS WITH THE "ENTER Y" NAME GO DIRECTLY TO THE FINAL CENTER AT THE Y COORDINATE
 
-    #<_load_plate_to_gripper_down_x>= 9.1
-    #<_load_enter_y>= 164.9
-    #<_load_gripper_down_z_reference>= 371.3
+    #<_load_plate_to_gripper_down_x>= 13.6
+    #<_load_enter_y>= 156.2
+    #<_load_gripper_down_z_reference>= 376.5
 
-    #<_unload_plate_to_gripper_down_x>= 16
-    #<_unload_enter_y>= 460.1
-    #<_unload_gripper_down_z_reference>= 520.6
+    #<_unload_plate_to_gripper_down_x>= 16.4
+    #<_unload_enter_y>= 457.9
+    #<_unload_gripper_down_z_reference>= 514.8
 
-    #<_parking_plate_to_gripper_up_x>= 0.9
-    #<_parking_gripper_up_enter_y>= 356.8
-    #<_parking_gripper_up_z_reference>= 1082.6
+    #<_parking_plate_to_gripper_up_x>= -4.6
+    #<_parking_gripper_up_enter_y>= 357.1
+    #<_parking_gripper_up_z_reference>= 1083.6
 
-    #<_parking_plate_to_gripper_down_x>= 1.8
-    #<_parking_gripper_down_enter_y>= 356.8
-    #<_parking_gripper_down_z_reference>= 1333.7
+    #<_parking_plate_to_gripper_down_x>= -6.3
+    #<_parking_gripper_down_enter_y>= 357.9
+    #<_parking_gripper_down_z_reference>= 1334.4
 
-    #<_tumbler_gripper_up_jaws_center_x>= 816.6
-    #<_tumbler_enter_up_y>= 425.9
-    #<_tumbler_gripper_up_z>= 1054.1
+    #<_tumbler_gripper_up_jaws_center_x>= 809.2
+    #<_tumbler_enter_up_y>= 428
+    #<_tumbler_gripper_up_z>= 1056.9
 
-    #<_tumbler_gripper_down_jaws_center_x>= 816.2
-    #<_tumbler_enter_down_y>= 427.1
-    #<_tumbler_gripper_down_z>= 1305.3
+    #<_tumbler_gripper_down_jaws_center_x>= 806.7
+    #<_tumbler_enter_down_y>= 428.4
+    #<_tumbler_gripper_down_z>= 1307.2
 
-    #<_blower_plate_to_gripper_down_x>= 1800.3
-    #<_blower_enter_y>= 354.5
-    #<_blower_gripper_down_z_reference>= 1331.4
+    #<_blower_plate_to_gripper_down_x>= 1796.7
+    #<_blower_enter_y>= 356.5
+    #<_blower_gripper_down_z_reference>= 1329.1
 
-    #<_lathe_chuck_front_to_gripper_up_x>= 2518.2
-    #<_lathe_gripper_up_center_y>= 321.4
-    #<_lathe_gripper_up_center_z>= 28.3
+    #<_lathe_chuck_front_to_gripper_up_x>= 2563.6
+    #<_lathe_gripper_up_center_y>= 322.8
+    #<_lathe_gripper_up_center_z>= 31.3
 
-    #<_lathe_chuck_front_to_gripper_down_x>= 2517.8
-    #<_lathe_gripper_down_center_y>= 323.3
-    #<_lathe_gripper_down_center_z>= 279.6
+    #<_lathe_chuck_front_to_gripper_down_x>= 2563.5
+    #<_lathe_gripper_down_center_y>= 322.9
+    #<_lathe_gripper_down_center_z>= 282.1
     
 ;MEASURED POSITION POINTS - END
 
@@ -164,4 +164,4 @@ o<parameters10> SUB
     
 ;DIMENSIONS TAKEN BY THE GANTRY - END
 
-o<parameters10> ENDSUB
+o<parameters09> ENDSUB

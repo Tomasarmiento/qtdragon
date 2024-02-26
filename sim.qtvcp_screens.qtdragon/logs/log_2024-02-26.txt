@@ -1,0 +1,53 @@
+--- Qtvcp Screen Started on: lun, feb 26 2024 06:28:00 ---
+lun26 06:28 Machine OFF
+lun26 06:28 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 06:28 Machine ON
+
+lun26 06:33 Machine OFF
+lun26 06:33 movimiento detenido por entrada habilitada
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 09:44:42 ---
+lun26 09:44 Machine OFF
+
+lun26 09:44 fallo del amplificador de articulacion 0
+
+lun26 09:44 fallo del amplificador de articulacion 1
+lun26 09:44 fallo del amplificador de articulacion 2
+
+lun26 09:44 fallo del amplificador de articulacion 0
+lun26 09:44 fallo del amplificador de articulacion 1
+lun26 09:44 fallo del amplificador de articulacion 2
+
+lun26 09:45 fallo del amplificador de articulacion 0
+lun26 09:45 fallo del amplificador de articulacion 1
+
+lun26 09:45 fallo del amplificador de articulacion 2
+
+
+--- Qtvcp Screen Started on: lun, feb 26 2024 09:45:48 ---
+lun26 09:45 Machine OFF
+lun26 09:45 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+lun26 09:45 fallo del amplificador de articulacion 0
+lun26 09:45 fallo del amplificador de articulacion 1
+lun26 09:45 fallo del amplificador de articulacion 2
+
+lun26 09:45 Machine ON
+
+lun26 09:45 Machine OFF
+lun26 09:45 Machine ON
+
+lun26 09:46 Machine OFF
+
+lun26 09:46 Machine ON
+
+lun26 09:46 Machine OFF
+

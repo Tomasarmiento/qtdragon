@@ -8,15 +8,15 @@
 ;CALCULATIONS BASED ON COUPLING DIMENSIONS - START
 
     ;**** VALUES LOADED BY THE OPERATOR FROM DE PANEL ****
-    #<_od_raw_diameter>= 666
-    #<_od_machined_diameter>= 666
-    #<_id_diameter>= 666
+#<_od_raw_diameter>= 148.4
+#<_od_machined_diameter>= 148.4
+#<_id_diameter>= 100
 
-    #<_raw_coupling_length>= 666
-    #<_op10_coupling_length>= 666
-    #<_final_coupling_length>= 666
+#<_raw_coupling_length>= 240
+#<_op10_coupling_length>= 240
+#<_final_coupling_length>= 240
 
-    #<_lathe_axial_stopper>= 666
+#<_lathe_axial_stopper>= 45
 
 
 
@@ -34,8 +34,8 @@
     #<_d_reference_height_ps>= 70.83
 
     ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
-    #<_d_raw_height_ps>= 341.862911121
-    #<_d_machined_height_ps>= 341.862911121
+#<_d_raw_height_ps>= 70.8300077651
+#<_d_machined_height_ps>= 70.8300077651
 
     ;DIAMETER CORRECTIONS
     #<_d_raw_height_correction_ps>= [#<_d_raw_height_ps>-#<_d_reference_height_ps>] ;correction when raw diameter is used
@@ -50,8 +50,8 @@
     #<_d_reference_height_cd>= 90.58
 
     ;CALCULATED VALUES WRITEN HERE BY PYTHON MASTER OBTAINED BASED IN THE INFORMATION LOADED BY THE OPERATOR IN DE PANEL 
-    #<_d_raw_height_cd>= 406.517938058
-    #<_d_machined_height_cd>= 406.517938058
+#<_d_raw_height_cd>= 90.5814744861
+#<_d_machined_height_cd>= 90.5814744861
 
     ;DIAMETER CORRECTIONS
     #<_d_raw_height_correction_cd>= [#<_d_raw_height_cd>-#<_d_reference_height_cd>] ;correction when raw diameter is used

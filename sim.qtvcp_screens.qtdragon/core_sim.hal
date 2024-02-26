@@ -72,8 +72,6 @@ net resetFaults => coenet.ResetFaults
 
 net gcodeVelocity motion.requested-vel
 
-net ctrlConnected => coenet.Connected
-
 # Joints
 ################################################################################
 
@@ -396,10 +394,6 @@ net probe => motion.probe-input <= or2.0.out
 net CTRL_gantry_probe_selecd => motion.digital-out-59 <= and2.0.in1
 net CTRL_gantry_probe_selecu => motion.digital-out-58 <= and2.1.in1
 
-#RI_tor_sl_confirm
-net CTRL_sl_writeg => motion.digital-out-56
-net CTRL_sl_wasdown => motion.digital-in-56
-
 #axis soft limit
 net soft_limit => motion.on-soft-limit
 
@@ -490,13 +484,3 @@ net cncMotionEnabled <= and2.3.in1
 
 net cmd_home_all => halui.home-all <= and2.3.out
 
-########################################################################
-
-#tablero
-#leds
-#net SEN_presure => coenet.DigIn-121 <= motion.digital-in-53
-
-#baliza
-net BAL_red <= coenet.DigOutCmd-017 <= motion.digital-out-27
-net BAL_yellow <= coenet.DigOutCmd-015 <= motion.digital-out-25
-net BAL_green <= coenet.DigOutCmd-016 <= motion.digital-out-26

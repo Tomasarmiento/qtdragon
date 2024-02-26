@@ -6,24 +6,6 @@ import sys
 import ConfigParser
 import Tkinter as tk
 
-from qtvcp.lib import sys_notify
-
-sys_notify.init('notify')
-
-noti = sys_notify.Notification("","","")
-noti.close()
-def center_window(window):
-    screen_width = window.winfo_screenwidth()
-    screen_height = window.winfo_screenheight()
-    
-    x = (screen_width - window.winfo_reqwidth()) / 2
-    y = (screen_height - window.winfo_reqheight()) / 2
-    
-    window.geometry("1000x2000+%d+%d" % (x, y))
-
-def maximize_window():
-    window.attributes('-fullscreen', not window.attributes('-fullscreen'))
-
 P=sys.argv[1]
 
 #The following allows running from a terminal or from Linuxcnc which adds .000000 to the P parameter
@@ -41,12 +23,7 @@ instruction = cfg.get("Messages", ps)
 window = tk.Tk()
 
 window.title(title)
-center_window(window)
-window.attributes('-fullscreen', True)
-
-# boton para maximizar la ventana emergente
-maximize_button = tk.Button(window, text="Maximizar", command=maximize_window)
-maximize_button.pack(side=tk.TOP, padx=10)
+window.geometry("1000x2000")
 
 msg = tk.Message(window, text = instruction,width=1000)
 msg.config(bg="White", fg="Red", font=("times", 40, "bold"))
