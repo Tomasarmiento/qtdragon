@@ -1,403 +1,683 @@
---- Qtvcp Screen Started on: dom, feb 25 2024 03:14:48 ---
-dom25 03:14 Machine OFF
+--- Qtvcp Screen Started on: dom, feb 25 2024 04:49:58 ---
+dom25 04:50 Machine OFF
 
-dom25 03:14 Machine ON
+dom25 04:50 Machine ON
 
-
---- Qtvcp Screen Started on: dom, feb 25 2024 03:47:04 ---
-dom25 03:47 Machine OFF
-dom25 03:47 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 03:47:43 ---
-dom25 03:47 Machine OFF
-
-dom25 03:47 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 03:48 Machine ON
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 03:49:40 ---
-dom25 03:49 Machine OFF
-dom25 03:49 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 03:54:12 ---
-dom25 03:54 Machine OFF
-
-dom25 03:54 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 03:54:40 ---
-dom25 03:54 Machine OFF
-dom25 03:54 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 04:03:32 ---
-dom25 04:03 Machine OFF
-
-dom25 04:03 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 04:03 Machine ON
-
-dom25 04:31  0.000000
-
-dom25 04:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:42 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 04:42:54 ---
-dom25 04:42 Machine OFF
-
-dom25 04:42 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 04:43 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:43 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 04:46:00 ---
-dom25 04:46 Machine OFF
-dom25 04:46 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 04:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:46 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 04:47:15 ---
-dom25 04:47 Machine OFF
-dom25 04:47 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 04:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:47 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 04:48 Cannot switch pages while in AUTO mode
-
-dom25 04:48 Cannot switch pages while in AUTO mode
-
-dom25 04:48 Cannot switch pages while in AUTO mode
-
-dom25 04:48 Cannot switch pages while in AUTO mode
-
-dom25 04:48 Machine ON
-dom25 04:48 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
-
-dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 04:49 Cannot switch pages while in AUTO mode
-
-dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 04:49 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:06:29 ---
-dom25 05:06 Machine OFF
-dom25 05:06 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:06 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:07:34 ---
-dom25 05:07 Machine OFF
-
-dom25 05:07 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:08 Cannot switch pages while in AUTO mode
-
-dom25 05:08 Machine ON
-dom25 05:08 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
-
-dom25 05:08 Cannot switch pages while in AUTO mode
-
-dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:08 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:10:01 ---
-dom25 05:10 Machine OFF
-
-dom25 05:10 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:10:47 ---
-dom25 05:10 Machine OFF
-
-dom25 05:10 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:10 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:11 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:11:56 ---
-dom25 05:11 Machine OFF
-dom25 05:12 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:12:38 ---
-dom25 05:12 Machine OFF
-
-dom25 05:12 Machine ON
-
-dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:12 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:16:38 ---
-dom25 05:16 Machine OFF
-
-dom25 05:16 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:16 Machine ON
-
-dom25 05:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:24:20 ---
-dom25 05:24 Machine OFF
-dom25 05:24 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:24 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:25 Cannot switch pages while in AUTO mode
-
-dom25 05:25 Cannot switch pages while in AUTO mode
-
-dom25 05:25 Cannot switch pages while in AUTO mode
-
-dom25 05:25 Cannot switch pages while in AUTO mode
-
-dom25 05:25 Machine ON
-dom25 05:25 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
-
-dom25 05:25 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:25 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:26 Cannot switch pages while in AUTO mode
-
-dom25 05:26 Cannot switch pages while in AUTO mode
-
-dom25 05:26 Cannot switch pages while in AUTO mode
-dom25 05:26 Cannot switch pages while in AUTO mode
-
-dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:26 Loaded program file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 05:26 Cannot switch pages while in AUTO mode
-
-dom25 05:26 Cannot switch pages while in AUTO mode
-
-dom25 05:26 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:27 Valor invalido, no se puede calcular.
-
-dom25 05:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:27:50 ---
-dom25 05:27 Machine OFF
-dom25 05:27 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:27 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:28 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:31:56 ---
-dom25 05:31 Machine OFF
-
-dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:32 Valor invalido, no se puede calcular.
-
-dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 05:32:48 ---
-dom25 05:32 Machine OFF
-dom25 05:32 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 05:32 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 05:33 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 06:16:24 ---
-dom25 06:16 Machine OFF
-dom25 06:16 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-
---- Qtvcp Screen Started on: dom, feb 25 2024 06:17:22 ---
-dom25 06:17 Machine OFF
-
-dom25 06:17 Unexpected realtime delay on task 0 with period 1000000
-This Message will only display once per session.
-Run the Latency Test and resolve before continuing.
-
-
-dom25 06:17 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 06:18 Cannot switch pages while in AUTO mode
-
-dom25 06:18 Machine ON
-dom25 06:18 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
-
-dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
-
-dom25 06:18 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
-
-dom25 07:16 Machine OFF
-dom25 07:16 movimiento detenido por entrada habilitada
+dom25 04:57 Machine OFF
 
 dom25 08:16 Machine ON
 
-dom25 08:16 no se puede hacer (EMC_JOINT_HOME) en modo auto con el intérprete inactivo
+dom25 08:19 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom25 08:19 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
 
-dom25 08:17 Machine OFF
-
-dom25 08:17 Machine ON
-dom25 08:17 no se puede hacer (EMC_JOINT_HOME:123) en modo MDI
-
-dom25 08:17 Machine OFF
-dom25 08:17 Machine ON
-
-dom25 08:17  0.000000
+dom25 08:20 Started program from line 1
 
 
---- Qtvcp Screen Started on: dom, feb 25 2024 12:48:42 ---
-dom25 12:48 Machine OFF
-dom25 12:48 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: dom, feb 25 2024 08:25:32 ---
+dom25 08:25 Machine OFF
+dom25 08:25 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-dom25 12:48 fallo del amplificador de articulacion 0
-dom25 12:48 fallo del amplificador de articulacion 1
-dom25 12:48 fallo del amplificador de articulacion 2
+dom25 08:25 Machine ON
 
-dom25 12:48 fallo del amplificador de articulacion 0
-dom25 12:48 fallo del amplificador de articulacion 1
+dom25 08:25 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom25 08:25 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
 
-dom25 12:48 fallo del amplificador de articulacion 2
+dom25 08:25 Cannot switch pages while in AUTO mode
 
-dom25 12:48 fallo del amplificador de articulacion 0
-dom25 12:48 fallo del amplificador de articulacion 1
-dom25 12:48 fallo del amplificador de articulacion 2
+dom25 08:26 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
+dom25 08:26 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/test.ngc
 
-dom25 12:49 fallo del amplificador de articulacion 0
+dom25 08:26 Started program from line 1
 
-dom25 12:49 fallo del amplificador de articulacion 1
-dom25 12:49 fallo del amplificador de articulacion 2
+dom25 08:29 Machine OFF
+
+dom25 09:15 Machine ON
+
+dom25 09:16 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+dom25 09:16 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+dom25 09:16 Started program from line 1
+
+dom25 09:16 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 09:16 Started program from line 1
+dom25 09:16  PRINT VARIABLES
+
+dom25 09:16  <_parking_plate_to_gripper_down_x> = -12.200000
+dom25 09:16  <_parking_gripper_down_enter_y> = 354.500000
+dom25 09:16  <_parking_gripper_down_z_reference> = 1329.100000
+dom25 09:16  <_parking_plate_to_gripper_up_x> = -9.200000
+
+dom25 09:16  <_parking_gripper_up_enter_y> = 354.200000
+dom25 09:16  <_parking_gripper_up_z_reference> = 1077.000000
+dom25 09:16  <_parking_enter_x_over_bars> = 339.800000
+dom25 09:16  <_parking_enter_z> = 1381.100000
+
+dom25 09:16  <_parking_aproximates_x> = 309.800000
+dom25 09:16  <_parking_enter_x_free> = 509.800000
+dom25 09:16  <_parking_gripper_down_unload_x_calculated> = 296.600000
+dom25 09:16  <_parking_gripper_down_load_x_calculated> = 293.600000
+
+dom25 09:16  <_parking_gripper_down_z_calculated> = 1335.616041
+dom25 09:16  <_parking_gripper_up_unload_x_calculated> = 299.600000
+dom25 09:16  <_parking_gripper_up_load_x_calculated> = 296.600000
+dom25 09:17  <_parking_gripper_up_z_calculated> = 1083.516041
+
+dom25 09:17  <_parking_gripper_down_x_meas_ref> = 293.600000
+dom25 09:17  <_parking_gripper_up_x_meas_ref> = 296.600000
+dom25 09:17  <_parking_gripper_down_x_meas_offset> = 0.000000
+dom25 09:17  <_parking_gripper_up_x_meas_offset> = 0.000000
+
+dom25 09:17  <_blower_plate_to_gripper_down_x> = 1798.200000
+dom25 09:17  <_blower_enter_y> = 353.700000
+dom25 09:17  <_blower_gripper_down_z_reference> = 1327.800000
+dom25 09:17  <_blower_allow_door_x> = 2498.200000
+
+dom25 09:17  <_blower_enter_x> = 2498.200000
+dom25 09:17  <_blower_aproximates_x> = 2148.200000
+dom25 09:17  <_blower_gripper_down_unload_x_calculated> = 2103.000000
+dom25 09:17  <_blower_gripper_down_load_x_calculated> = 2100.000000
+
+dom25 09:17  <_blower_gripper_down_z_calculated_machined> = 1331.622679
+dom25 09:17  <_blower_gripper_down_x_meas_ref_machined> = 2100.000000
+dom25 09:17  <_blower_gripper_down_x_meas_ref_offset> = 0.000000
+dom25 09:17  <_load_plate_to_gripper_down_x> = 21.900000
+
+dom25 09:17  <_load_enter_y> = 167.900000
+dom25 09:17  <_load_gripper_down_z_reference> = 385.200000
+dom25 09:17  <_load_enter_x> = 444.900000
+dom25 09:17  <_load_aproximates_x> = 351.900000
+
+dom25 09:17  <_load_gripper_down_x_calculated> = 327.700000
+dom25 09:17  <_load_gripper_down_z_calculated> = 391.793657
+dom25 09:17  <_load_gripper_down_x_meas_ref> = 327.700000
+dom25 09:17  <_load_gripper_down_x_meas_offset> = 0.000000
+
+dom25 09:17  <_unload_plate_to_gripper_down_x> = 11.400000
+dom25 09:17  <_unload_enter_y> = 450.000000
+dom25 09:17  <_unload_gripper_down_z_reference> = 519.000000
+dom25 09:17  <_unload_enter_x> = 521.400000
+
+dom25 09:17  <_unload_aproximates_x> = 341.400000
+dom25 09:17  <_unload_enter_intermediate_x> = 361.400000
+dom25 09:17  <_unload_enter_intermediate_Z> = 646.600000
+dom25 09:17  <_unload_gripper_down_x_calculated> = 316.200000
+
+dom25 09:17  <_unload_gripper_down_z_calculated> = 522.846914
+dom25 09:17  <_tumbler_gripper_down_jaws_center_x> = 808.400000
+dom25 09:17  <_tumbler_enter_down_y> = 424.000000
+dom25 09:17  <_tumbler_gripper_down_z> = 1304.800000
+
+dom25 09:17  <_tumbler_gripper_up_jaws_center_x> = 811.600000
+dom25 09:17  <_tumbler_enter_up_y> = 424.300000
+dom25 09:17  <_tumbler_gripper_up_z> = 1051.900000
+dom25 09:17  <_tumbler_enter_x> = 1158.400000
+
+dom25 09:17  <_tumbler_gripper_down_unload_x_calculated> = 961.300000
+dom25 09:17  <_tumbler_gripper_down_load_x_calculated> = 961.300000
+dom25 09:17  <_tumbler_gripper_down_extracts> = 1020.400000
+dom25 09:17  <_tumbler_aproximates_down_x> = 1048.400000
+
+dom25 09:17  <_tumbler_aproximates_up_x> = 1051.600000
+dom25 09:17  <_tumbler_gripper_down_load_from_extract> = 1023.400000
+dom25 09:17  <_tumbler_gripper_up_load_from_extract> = 1026.600000
+dom25 09:17  <_tumbler_gripper_down_x_meas_ref> = 1023.400000
+
+dom25 09:17  <_tumbler_gripper_up_x_meas_ref> = 1026.600000
+dom25 09:17  <_tumbler_gripper_down_x_meas_offset> = 0.000000
+dom25 09:17  <_tumbler_gripper_up_x_meas_offset> = 0.000000
+dom25 09:17  <_lathe_chuck_front_to_gripper_down_x>  =  2613.700000
+
+dom25 09:17  <_lathe_gripper_down_center_y>  =  324.300000
+dom25 09:17  <_lathe_gripper_down_center_z>  =  295.000000
+dom25 09:17  <_lathe_chuck_front_to_gripper_up_x>  =  2615.600000
+dom25 09:17  <_lathe_gripper_up_center_y>  =  325.400000
+
+dom25 09:17  <_lathe_gripper_up_center_z>  =  42.900000
+dom25 09:17  <_lathe_enter1_x> = 3137.400000
+dom25 09:17  <_lathe_enter1_y> = 228.300000
+dom25 09:17  <_lathe_enter1_z> = 307.000000
+dom25 09:17  <_lathe_enter2_y> = 145.300000
+
+dom25 09:17  <_lathe_enter2_z> = 497.000000
+dom25 09:17  <_lathe_enter3_z> = 64.900000
+dom25 09:17  <_lathe_gripper_down_aproximates_x> = 3027.700000
+
+dom25 09:17  <_lathe_gripper_up_aproximates_x> = 3029.600000
+dom25 09:17  <_lathe_gripper_down_x_calculated> = 2965.500000
+dom25 09:17  <_lathe_gripper_up_x_calculated> = 2970.400000
+dom25 09:17  <_lathe_gripper_down_x_meas_ref> = 2965.500000
+dom25 09:17  <_lathe_gripper_down_x_meas_offset> = 0.000000
+
+dom25 09:17 Cannot switch pages while in AUTO mode
+
+dom25 09:17 Cannot switch pages while in AUTO mode
+
+dom25 09:21 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 09:21 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 09:28 Cannot switch pages while in AUTO mode
 
 
---- Qtvcp Screen Started on: dom, feb 25 2024 12:49:18 ---
-dom25 12:49 Machine OFF
-
-dom25 12:49 Unexpected realtime delay on task 0 with period 1000000
+--- Qtvcp Screen Started on: dom, feb 25 2024 09:51:57 ---
+dom25 09:52 Machine OFF
+dom25 09:52 Unexpected realtime delay on task 0 with period 1000000
 This Message will only display once per session.
 Run the Latency Test and resolve before continuing.
 
 
-dom25 12:49 fallo del amplificador de articulacion 0
-dom25 12:49 fallo del amplificador de articulacion 1
+dom25 09:56 Machine ON
 
-dom25 12:49 fallo del amplificador de articulacion 2
+dom25 09:56 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+dom25 09:56 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
 
-dom25 12:49 Machine ON
+dom25 09:56 Started program from line 1
 
-dom25 12:49 Machine OFF
+dom25 09:56 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 09:56 Started program from line 1
+dom25 09:56 Código m desconocido: M100
+
+dom25 09:56 Started program from line 1
+dom25 09:56 Código m desconocido: M100
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 09:57:14 ---
+dom25 09:57 Machine OFF
+dom25 09:57 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 09:57 Machine ON
+
+dom25 09:57 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+dom25 09:57 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/subprograms/SUB PRINT VARIABLES.ngc
+
+dom25 09:57 Started program from line 1
+
+dom25 09:57 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 09:57 Started program from line 1
+dom25 09:57  PRINT VARIABLES
+
+dom25 09:57  <_parking_plate_to_gripper_down_x> = -12.200000
+dom25 09:57  <_parking_gripper_down_enter_y> = 354.500000
+dom25 09:57  <_parking_gripper_down_z_reference> = 1329.100000
+
+dom25 09:57  <_parking_plate_to_gripper_up_x> = -9.200000
+dom25 09:57  <_parking_gripper_up_enter_y> = 354.200000
+dom25 09:57  <_parking_gripper_up_z_reference> = 1077.000000
+
+dom25 09:57  <_parking_enter_x_over_bars> = 339.800000
+dom25 09:57  <_parking_enter_z> = 1381.100000
+dom25 09:57  <_parking_aproximates_x> = 309.800000
+
+dom25 09:57  <_parking_enter_x_free> = 509.800000
+dom25 09:57  <_parking_gripper_down_unload_x_calculated> = 296.800000
+dom25 09:57  <_parking_gripper_down_load_x_calculated> = 293.800000
+
+dom25 09:57  <_parking_gripper_down_z_calculated> = 1335.616041
+dom25 09:57  <_parking_gripper_up_unload_x_calculated> = 299.800000
+dom25 09:57  <_parking_gripper_up_load_x_calculated> = 296.800000
+
+dom25 09:57  <_parking_gripper_up_z_calculated> = 1083.516041
+dom25 09:57  <_parking_gripper_down_x_meas_ref> = 293.800000
+dom25 09:57  <_parking_gripper_up_x_meas_ref> = 296.800000
+
+dom25 09:57  <_parking_gripper_down_x_meas_offset> = 0.000000
+dom25 09:57  <_parking_gripper_up_x_meas_offset> = 0.000000
+dom25 09:57  <_blower_plate_to_gripper_down_x> = 1798.200000
+
+dom25 09:57  <_blower_enter_y> = 353.700000
+dom25 09:57  <_blower_gripper_down_z_reference> = 1327.800000
+dom25 09:57  <_blower_allow_door_x> = 2498.200000
+
+dom25 09:57  <_blower_enter_x> = 2498.200000
+dom25 09:57  <_blower_aproximates_x> = 2148.200000
+dom25 09:57  <_blower_gripper_down_unload_x_calculated> = 2103.200000
+
+dom25 09:57  <_blower_gripper_down_load_x_calculated> = 2100.200000
+dom25 09:57  <_blower_gripper_down_z_calculated_machined> = 1331.622679
+dom25 09:57  <_blower_gripper_down_x_meas_ref_machined> = 2100.200000
+
+dom25 09:57  <_blower_gripper_down_x_meas_ref_offset> = 0.000000
+dom25 09:57  <_load_plate_to_gripper_down_x> = 21.900000
+dom25 09:57  <_load_enter_y> = 167.900000
+
+dom25 09:57  <_load_gripper_down_z_reference> = 385.200000
+dom25 09:57  <_load_enter_x> = 444.900000
+dom25 09:57  <_load_aproximates_x> = 351.900000
+
+dom25 09:57  <_load_gripper_down_x_calculated> = 327.900000
+dom25 09:57  <_load_gripper_down_z_calculated> = 391.793657
+dom25 09:57  <_load_gripper_down_x_meas_ref> = 327.900000
+
+dom25 09:57  <_load_gripper_down_x_meas_offset> = 0.000000
+dom25 09:57  <_unload_plate_to_gripper_down_x> = 11.400000
+dom25 09:57  <_unload_enter_y> = 450.000000
+
+dom25 09:57  <_unload_gripper_down_z_reference> = 519.000000
+dom25 09:57  <_unload_enter_x> = 521.400000
+dom25 09:57  <_unload_aproximates_x> = 341.400000
+
+dom25 09:57  <_unload_enter_intermediate_x> = 361.400000
+dom25 09:57  <_unload_enter_intermediate_Z> = 646.600000
+dom25 09:57  <_unload_gripper_down_x_calculated> = 316.400000
+
+dom25 09:57  <_unload_gripper_down_z_calculated> = 522.846914
+dom25 09:57  <_tumbler_gripper_down_jaws_center_x> = 808.400000
+dom25 09:57  <_tumbler_enter_down_y> = 424.000000
+
+dom25 09:57  <_tumbler_gripper_down_z> = 1304.800000
+dom25 09:57  <_tumbler_gripper_up_jaws_center_x> = 811.600000
+dom25 09:57  <_tumbler_enter_up_y> = 424.300000
+
+dom25 09:57  <_tumbler_gripper_up_z> = 1051.900000
+dom25 09:57  <_tumbler_enter_x> = 1158.400000
+dom25 09:57  <_tumbler_gripper_down_unload_x_calculated> = 961.400000
+
+dom25 09:57  <_tumbler_gripper_down_load_x_calculated> = 961.400000
+dom25 09:57  <_tumbler_gripper_down_extracts> = 1020.400000
+dom25 09:57  <_tumbler_aproximates_down_x> = 1048.400000
+
+dom25 09:57  <_tumbler_aproximates_up_x> = 1051.600000
+dom25 09:57  <_tumbler_gripper_down_load_from_extract> = 1023.400000
+dom25 09:57  <_tumbler_gripper_up_load_from_extract> = 1026.600000
+
+dom25 09:57  <_tumbler_gripper_down_x_meas_ref> = 1023.400000
+dom25 09:57  <_tumbler_gripper_up_x_meas_ref> = 1026.600000
+dom25 09:57  <_tumbler_gripper_down_x_meas_offset> = 0.000000
+
+dom25 09:57  <_tumbler_gripper_up_x_meas_offset> = 0.000000
+dom25 09:57  <_lathe_chuck_front_to_gripper_down_x>  =  2613.700000
+dom25 09:57  <_lathe_gripper_down_center_y>  =  324.300000
+
+dom25 09:57  <_lathe_gripper_down_center_z>  =  295.000000
+dom25 09:57  <_lathe_chuck_front_to_gripper_up_x>  =  2615.600000
+dom25 09:57  <_lathe_gripper_up_center_y>  =  325.400000
+
+dom25 09:57  <_lathe_gripper_up_center_z>  =  42.900000
+dom25 09:57  <_lathe_enter1_x> = 3137.400000
+dom25 09:57  <_lathe_enter1_y> = 228.300000
+
+dom25 09:57  <_lathe_enter1_z> = 307.000000
+dom25 09:57  <_lathe_enter2_y> = 145.300000
+dom25 09:57  <_lathe_enter2_z> = 497.000000
+
+dom25 09:57  <_lathe_enter3_z> = 64.900000
+dom25 09:57  <_lathe_gripper_down_aproximates_x> = 3027.700000
+dom25 09:57  <_lathe_gripper_up_aproximates_x> = 3029.600000
+
+dom25 09:57  <_lathe_gripper_down_x_calculated> = 2942.700000
+dom25 09:57  <_lathe_gripper_up_x_calculated> = 2947.600000
+dom25 09:57  <_lathe_gripper_down_x_meas_ref> = 2942.700000
+
+dom25 09:57  <_lathe_gripper_down_x_meas_offset> = 0.000000
+
+dom25 09:58 Cannot switch pages while in AUTO mode
+
+dom25 09:58 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+dom25 09:58 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+dom25 09:59 Started program from line 1
+
+dom25 09:59 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 09:59 Started program from line 1
+dom25 09:59  PRODUCTION step 0
+
+dom25 09:59  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 11:35:57 ---
+dom25 11:36 Machine OFF
+dom25 11:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+
+dom25 11:36 Machine ON
+
+dom25 11:51 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+
+dom25 11:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 11:53 Cannot switch pages while in AUTO mode
+
+dom25 11:53 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+dom25 11:53 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+
+dom25 11:53 Started program from line 1
+
+dom25 11:53 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+
+dom25 11:53 Started program from line 1
+dom25 11:53  PRODUCTION step 0
+
+dom25 11:53  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+
+dom25 11:54 Cannot switch pages while in AUTO mode
+
+dom25 11:55 Started program from line 1
+dom25 11:55  PRODUCTION step 0
+
+dom25 11:55  INIT - WAIT UNTILL HOME POSITION
+
+dom25 11:55  STEP 0 - gantry empty-lathe empty
+dom25 11:55  0 - checkings step 0
+dom25 11:55  INIT LATHE - Okuma chuck with no open confirmation signal
+
+dom25 11:56 Started program from line 1
+dom25 11:56  PRODUCTION step 0
+
+dom25 11:56  INIT - WAIT UNTILL HOME POSITION
+
+dom25 11:56  STEP 0 - gantry empty-lathe empty
+
+dom25 11:56  0 - checkings step 0
+dom25 11:56  0 - LOAD gripper down
+
+dom25 11:56  gripper down measured x coordinate 324.180573
+
+dom25 11:56  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.519427 
+
+dom25 11:56  STEP 1 - gantry raw-lathe empty
+dom25 11:56  1 - checkings step 1
+
+dom25 11:56  1 - LATHE STARTS - gripper down leaves coupling
+dom25 11:56  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 11:57  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+dom25 11:57  *** WAIT UNTILL HOME POSITION ***
+dom25 11:57  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+dom25 11:57  STEP 2 - gantry empty-lathe op10
+dom25 11:57  2 - checkings step 2
+
+dom25 11:57  2 - LOAD gripper down
+
+dom25 11:58  gripper down measured x coordinate 323.743134
+
+dom25 11:58  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.956866 
+
+dom25 11:58  2 - PARKING - DOWN LEAVES - UP GRABS
+
+dom25 11:59  gripper up measured x coordinate 293.841705
+
+dom25 11:59  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.758295 
+
+dom25 11:59  STEP 3 -  gantry raw up / lathe op10
+
+dom25 11:59  3 - checkings step 3 to 6
+dom25 11:59  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 11:59  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 11:59  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+dom25 11:59  *** WAIT UNTILL HOME POSITION ***
+
+dom25 11:59  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:00  gripper down measured x coordinate 2940.218262
+
+dom25 12:00  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 2.281738 
+
+dom25 12:00  3 - TUMBLER enter gripper down - exit gripper up
+
+dom25 12:07  gripper down measured x coordinate 1022.380066
+
+dom25 12:07  Tumbler down - MEASURE DIF VS REF = 1.019934 
+
+dom25 12:08  gripper up measured x coordinate 293.642517
+
+dom25 12:08  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.957483 
+
+dom25 12:08  STEP 4 - gantry op10T up / lathe op10
+
+dom25 12:08  4 - checkings step 3 to 6
+dom25 12:08  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:08  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:08  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+dom25 12:08  *** WAIT UNTILL HOME POSITION ***
+
+dom25 12:08  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:09  gripper down measured x coordinate 2941.471680
+
+dom25 12:09  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 1.028320 
+
+dom25 12:09  4 - TUMBLER enter gripper down - exit gripper up
+
+dom25 12:10  gripper down measured x coordinate 1023.672852
+
+dom25 12:10  Tumbler down - MEASURE DIF VS REF = -0.272852 
+
+dom25 12:10  gripper up measured x coordinate 293.758209
+
+dom25 12:10  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.841791 
+
+dom25 12:10  STEP 5 - gantry op10T up / lathe op20
+dom25 12:10  5 - checkings step 3 to 6
+
+dom25 12:10  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:10  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:11  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+dom25 12:11  *** WAIT UNTILL HOME POSITION ***
+dom25 12:11  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:11  gripper down measured x coordinate 2941.778564
+
+dom25 12:11  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 0.721436 
+
+dom25 12:11  5 - BLOWER
+
+dom25 12:12  gripper down measured x coordinate 2102.358643
+
+dom25 12:12  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.641357 
+
+dom25 12:12  5 - UNLOAD gripper down
+
+dom25 12:12  5 - LOAD gripper down
+
+dom25 12:13  gripper down measured x coordinate 322.670319
+
+dom25 12:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 5.029681 
+
+dom25 12:13  5 - PARKING - DOWN LEAVES - UP GRABS
+
+dom25 12:13  gripper up measured x coordinate 293.281982
+
+dom25 12:13  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.318018 
+
+dom25 12:13  STEP 6 - gantry raw up-lathe op20
+dom25 12:13  6 - checkings step 3 to 6
+
+dom25 12:13  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:13  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:14  *** WAIT UNTILL SYSTEM LINK 1 ***
+
+dom25 12:14  *** WAIT UNTILL HOME POSITION ***
+dom25 12:14  *** WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:14  gripper down measured x coordinate 2940.998535
+
+dom25 12:14  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 1.501465 
+
+dom25 12:14  6 - BLOWER
+
+dom25 12:15  gripper down measured x coordinate 2101.532227
+
+dom25 12:15  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 2.467773 
+
+dom25 12:15  6 - UNLOAD gripper down
+
+dom25 12:15  Last Cycle - gantry raw up-lathe op20
+
+dom25 12:15  Last Cycle - LATHE ENDS - gripper down GRABS
+dom25 12:15  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:16  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+--- Qtvcp Screen Started on: dom, feb 25 2024 11:35:57 ---
+dom25 11:36 Machine OFF
+dom25 11:36 Unexpected realtime delay on task 0 with period 1000000
+This Message will only display once per session.
+Run the Latency Test and resolve before continuing.
+
+dom25 11:36 Machine ON
+dom25 11:51 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/vacio.ngc
+dom25 11:52 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 11:53 Cannot switch pages while in AUTO mode
+dom25 11:53 Loaded program file : /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+dom25 11:53 Loaded file /usr/share/qtvcp/screens/qtdragon/sim.qtvcp_screens.qtdragon/ngc/PRODUCTION MAIN PROGRAM.ngc
+dom25 11:53 Started program from line 1
+dom25 11:53 Loaded file ../sim.qtvcp_screens.qtdragon/ngc/program_not_od.ngc
+dom25 11:53 Started program from line 1
+dom25 11:53  PRODUCTION step 0
+dom25 11:53  INIT - LOAD gripper down - Dumping pneumatic NOT in load or idle position
+dom25 11:54 Cannot switch pages while in AUTO mode
+dom25 11:55 Started program from line 1
+dom25 11:55  PRODUCTION step 0
+dom25 11:55  INIT - WAIT UNTILL HOME POSITION
+dom25 11:55  STEP 0 - gantry empty-lathe empty
+dom25 11:55  0 - checkings step 0
+dom25 11:55  INIT LATHE - Okuma chuck with no open confirmation signal
+dom25 11:56 Started program from line 1
+dom25 11:56  PRODUCTION step 0
+dom25 11:56  INIT - WAIT UNTILL HOME POSITION
+dom25 11:56  STEP 0 - gantry empty-lathe empty
+dom25 11:56  0 - checkings step 0
+dom25 11:56  0 - LOAD gripper down
+dom25 11:56  gripper down measured x coordinate 324.180573
+dom25 11:56  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.519427 
+dom25 11:56  STEP 1 - gantry raw-lathe empty
+dom25 11:56  1 - checkings step 1
+dom25 11:56  1 - LATHE STARTS - gripper down leaves coupling
+dom25 11:56  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 11:57  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+dom25 11:57  *** WAIT UNTILL HOME POSITION ***
+dom25 11:57  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+dom25 11:57  STEP 2 - gantry empty-lathe op10
+dom25 11:57  2 - checkings step 2
+dom25 11:57  2 - LOAD gripper down
+dom25 11:58  gripper down measured x coordinate 323.743134
+dom25 11:58  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 3.956866 
+dom25 11:58  2 - PARKING - DOWN LEAVES - UP GRABS
+dom25 11:59  gripper up measured x coordinate 293.841705
+dom25 11:59  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.758295 
+dom25 11:59  STEP 3 -  gantry raw up / lathe op10
+dom25 11:59  3 - checkings step 3 to 6
+dom25 11:59  3 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 11:59  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 11:59  *** WAIT UNTILL SYSTEM LINK 1 ***
+dom25 11:59  *** WAIT UNTILL HOME POSITION ***
+dom25 11:59  *** WAIT UNTILL SYSTEM LINK 2 ***
+dom25 12:00  gripper down measured x coordinate 2940.218262
+dom25 12:00  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 2.281738 
+dom25 12:00  3 - TUMBLER enter gripper down - exit gripper up
+dom25 12:07  gripper down measured x coordinate 1022.380066
+dom25 12:07  Tumbler down - MEASURE DIF VS REF = 1.019934 
+dom25 12:08  gripper up measured x coordinate 293.642517
+dom25 12:08  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.957483 
+dom25 12:08  STEP 4 - gantry op10T up / lathe op10
+dom25 12:08  4 - checkings step 3 to 6
+dom25 12:08  4 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:08  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 12:08  *** WAIT UNTILL SYSTEM LINK 1 ***
+dom25 12:08  *** WAIT UNTILL HOME POSITION ***
+dom25 12:08  *** WAIT UNTILL SYSTEM LINK 2 ***
+dom25 12:09  gripper down measured x coordinate 2941.471680
+dom25 12:09  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 1.028320 
+dom25 12:09  4 - TUMBLER enter gripper down - exit gripper up
+dom25 12:10  gripper down measured x coordinate 1023.672852
+dom25 12:10  Tumbler down - MEASURE DIF VS REF = -0.272852 
+dom25 12:10  gripper up measured x coordinate 293.758209
+dom25 12:10  PARKING GRIPPER UP - MEASURE DIF VS REF = 2.841791 
+dom25 12:10  STEP 5 - gantry op10T up / lathe op20
+dom25 12:10  5 - checkings step 3 to 6
+dom25 12:10  5 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:10  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 12:11  *** WAIT UNTILL SYSTEM LINK 1 ***
+dom25 12:11  *** WAIT UNTILL HOME POSITION ***
+dom25 12:11  *** WAIT UNTILL SYSTEM LINK 2 ***
+dom25 12:11  gripper down measured x coordinate 2941.778564
+dom25 12:11  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 0.721436 
+dom25 12:11  5 - BLOWER
+dom25 12:12  gripper down measured x coordinate 2102.358643
+dom25 12:12  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 1.641357 
+dom25 12:12  5 - UNLOAD gripper down
+dom25 12:12  5 - LOAD gripper down
+dom25 12:13  gripper down measured x coordinate 322.670319
+dom25 12:13  LOAD GRIPPER DOWN - MEASURE DIF VS REF = 5.029681 
+dom25 12:13  5 - PARKING - DOWN LEAVES - UP GRABS
+dom25 12:13  gripper up measured x coordinate 293.281982
+dom25 12:13  PARKING GRIPPER UP - MEASURE DIF VS REF = 3.318018 
+dom25 12:13  STEP 6 - gantry raw up-lathe op20
+dom25 12:13  6 - checkings step 3 to 6
+dom25 12:13  6 - LATHE PRODUCTION gripper down GRABS & gripper up LEAVES
+dom25 12:13  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 12:14  *** WAIT UNTILL SYSTEM LINK 1 ***
+dom25 12:14  *** WAIT UNTILL HOME POSITION ***
+dom25 12:14  *** WAIT UNTILL SYSTEM LINK 2 ***
+dom25 12:14  gripper down measured x coordinate 2940.998535
+dom25 12:14  LATHE PRODUCTION GRD - MEASURE DIF VS REF = 1.501465 
+dom25 12:14  6 - BLOWER
+dom25 12:15  gripper down measured x coordinate 2101.532227
+dom25 12:15  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 2.467773 
+dom25 12:15  6 - UNLOAD gripper down
+dom25 12:15  Last Cycle - gantry raw up-lathe op20
+dom25 12:15  Last Cycle - LATHE ENDS - gripper down GRABS
+dom25 12:15  *** WAIT UNTILL LATHE MACHINES THE PART ***
+dom25 12:16  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+dom25 12:16  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+dom25 12:16  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:16  gripper down measured x coordinate 2941.179443
+
+dom25 12:16   LATHE ENDS - MEASURE DIF VS REF = 1.320557 
+
+dom25 12:16  Last Cycle - TUMBLER enter gripper down  - exit gripper down
+
+dom25 12:17  gripper down measured x coordinate 1022.218689
+
+dom25 12:17  Tumbler down - MEASURE DIF VS REF = 1.181311 
+
+dom25 12:17  Last Cycle - LATHE STARTS - gripper down leaves coupling
+dom25 12:17  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:17  *** WAIT UNTILL PRESS SYSTEM LINK 1 ***
+
+dom25 12:17  *** WAIT UNTILL HOME POSITION ***
+dom25 12:17  *** WAIT UNTILL PRESS SYSTEM LINK 2 ***
+
+dom25 12:17  Last Cycle - LATHE ENDS - gripper down GRABS
+dom25 12:17  *** WAIT UNTILL LATHE MACHINES THE PART ***
+
+dom25 12:18  LATHE ENDS *** WAIT UNTILL SYSTEM LINK 1 ***
+
+dom25 12:18  *** LATHE ENDS WAIT UNTILL HOME POSITION ***
+dom25 12:18  *** LATHE ENDS WAIT UNTILL SYSTEM LINK 2 ***
+
+dom25 12:18  gripper down measured x coordinate 2940.432617
+
+dom25 12:18   LATHE ENDS - MEASURE DIF VS REF = 2.067383 
+
+dom25 12:18  Last Cycle - BLOWER
+
+dom25 12:19  gripper down measured x coordinate 2101.245850
+
+dom25 12:19  BLOWER GRIPPER DOWN GRAB - MEASURE DIF VS REF = 2.754150 
+
+dom25 12:19  Last Cycle - UNLOAD gripper down
+
+dom25 12:19  30 seconds to end
 

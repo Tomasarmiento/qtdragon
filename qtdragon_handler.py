@@ -2369,7 +2369,7 @@ class HandlerClass:
 		while sen_check:
 			sen_check = self.flag_bd_pc
 			elapsed_time = (datetime.datetime.now() - start_time).total_seconds()
-			if elapsed_time >= self.TIMEOUT_PNEUMATIC:
+			if elapsed_time >= 20:
 				return False
 			time.sleep(self.wait_time)
 		return True	
@@ -2512,8 +2512,7 @@ class HandlerClass:
                     for key, value in cuple_inputs_dict.iteritems():
                         print key, value
                         if '<_{0}>= '.format(key) in line:
-                            replaced_line = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value)))
-                            lines[i] = '    ' + replaced_line + '\n'  # Add 4 spaces before #
+                            lines[i] = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value))) + '\n'
                             break
 
                 # Escribir las lineas modificadas en el archivo
