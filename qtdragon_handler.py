@@ -100,9 +100,12 @@ class HandlerClass:
         self.xx = False
         self.err_routine = True
         self.chk_init_conditions = False
+        self.GAN_lu_ofr = False #gantry load/ unload out of range
         self.safe_pos_x = 0
         self.safe_pos_y = 0
         self.safe_pos_z = 0
+        self.safe_pos_x_lu = 0
+        self.safe_pos_z_lu = 0
         self.safe_pos_offset = 0.3 
         self.x_actual_position = 0
         self.z_actual_position = 0
@@ -205,6 +208,9 @@ class HandlerClass:
         self.safe_pos_x = self.inifile.find('INIT_SAFE_POSITIONS', 'X_POS') or 'unknow'
         self.safe_pos_y = self.inifile.find('INIT_SAFE_POSITIONS', 'Y_POS') or 'unknow'
         self.safe_pos_z = self.inifile.find('INIT_SAFE_POSITIONS', 'Z_POS') or 'unknow'
+
+        self.safe_pos_x_lu = self.inifile.find('SAFE_POSITIONS_LU', 'X_POS_LU') or 'unknow'
+        self.safe_pos_z_lu = self.inifile.find('SAFE_POSITIONS_LU', 'Z_POS_LU') or 'unknow'
 
         #pines de actualizacion de posicion para ofm(out of machine)
         pin = self.h.newpin("x-posRef", hal.HAL_FLOAT, hal.HAL_IN)
@@ -446,7 +452,7 @@ class HandlerClass:
         #print(self.xx)
         sl_state = pin.value
         CTRL_sl_writeg = hal.get_value('CTRL_sl_writeg')
-        if sl_state == 0 and CTRL_sl_writeg == 0:
+        if sl_state == 1 and CTRL_sl_writeg == 0:
             key_1 = 'CTRL_sl_wasdown'
             if not self.send_pctrl(key_1, True):
                 msg_error = 'Error sending control flag command - OKUMA - Turn on SL was down'
@@ -686,11 +692,20 @@ class HandlerClass:
         safe_pos_x = 2500
         #print("valor x", self.x_actual_position)
         #print("valor z", self.z_actual_position)
+        #esto es para ver cuando el robot esta fuera el okuma
         if (self.z_actual_position <= (int(self.safe_pos_z) - self.safe_pos_offset)) and (self.x_actual_position >= (int(safe_pos_x))):
             self.py_out_pins['RI_tor_ofm'].set(False)
         else:
             self.py_out_pins['RI_tor_ofm'].set(True)
 
+        if self.x_actual_position >= int(self.safe_pos_x_lu):
+            self.GAN_lu_ofr = True 
+        else:
+            if self.z_actual_position >= int(self.safe_pos_z_lu):
+                self.GAN_lu_ofr = True
+            else:
+                self.GAN_lu_ofr = False
+        
     def x_state_changed(self, data):
         state = self.h['x_StateFbk']
         self.w.lbl_x_StateFbk.setText(str(state))
@@ -2232,6 +2247,7 @@ class HandlerClass:
                 (self.err_routine == True, 'Error in previous routine'),
                 (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
+                (self.GAN_lu_ofr == True, 'Gantry is not out of range load/unload'),
             ]
         else:
             init_flags = [
@@ -2246,6 +2262,7 @@ class HandlerClass:
                 (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
                 (hal.get_value('SEN_bd_bkw') == True, 'Discharge piston forward'),
+                (self.GAN_lu_ofr == True, 'Gantry is not out of range load/unload'),
             ]
 
 
@@ -2275,6 +2292,8 @@ class HandlerClass:
                 (self.err_routine == True, 'Error in previous routine'),
                 (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
+                (self.GAN_lu_ofr == True, 'Gantry is not out of range load/unload'),
+                
                 
             ]
         else:
@@ -2291,6 +2310,7 @@ class HandlerClass:
                 (self.err_routine == True, 'Error in previous routine'),
                 (STATUS.is_auto_running() == True, 'The automatic program is not in play'),
                 #(anular == False, 'anulada activa'),
+                (self.GAN_lu_ofr == True, 'Gantry is not out of range load/unload'),
                 
             ]
 
@@ -2369,7 +2389,7 @@ class HandlerClass:
 		while sen_check:
 			sen_check = self.flag_bd_pc
 			elapsed_time = (datetime.datetime.now() - start_time).total_seconds()
-			if elapsed_time >= self.TIMEOUT_PNEUMATIC:
+			if elapsed_time >= 20:
 				return False
 			time.sleep(self.wait_time)
 		return True	
@@ -2532,7 +2552,8 @@ class HandlerClass:
                     for key, value in cuple_inputs_dict.iteritems():
                         print key, value
                         if '<_{0}>= '.format(key) in line:
-                            lines[i] = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value))) + '\n'
+                            replaced_line = line.replace('<_{0}>= {1}'.format(key, line.split("=")[1].strip()), '<_{0}>= {1}'.format(key, str(value)))
+                            lines[i] = '    ' + replaced_line + '\n'  # Add 4 spaces before #
                             break
 
                 # Escribir las lineas modificadas en el archivo

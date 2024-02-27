@@ -6,12 +6,8 @@ import sys
 import ConfigParser
 import Tkinter as tk
 
-from qtvcp.lib import sys_notify
 
-sys_notify.init('notify')
 
-noti = sys_notify.Notification("","","")
-noti.close()
 def center_window(window):
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()

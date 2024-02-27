@@ -4907,7 +4907,7 @@ RESET</string>
                     <enum>QFrame::Raised</enum>
                    </property>
                    <property name="currentIndex">
-                    <number>11</number>
+                    <number>0</number>
                    </property>
                    <widget class="QWidget" name="main_tab_widgetPage1">
                     <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -5065,6 +5065,83 @@ Closed</string>
                           </item>
                           <item alignment="Qt::AlignHCenter">
                            <widget class="LED" name="SEN_tor_gate_closed_3" native="true">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>16</width>
+                              <height>16</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>35</width>
+                              <height>35</height>
+                             </size>
+                            </property>
+                            <property name="diameter" stdset="0">
+                             <number>20</number>
+                            </property>
+                            <property name="color" stdset="0">
+                             <color>
+                              <red>0</red>
+                              <green>255</green>
+                              <blue>0</blue>
+                             </color>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                        <item>
+                         <layout class="QVBoxLayout" name="verticalLayout_57">
+                          <item>
+                           <widget class="QLabel" name="label_91">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>50</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>100</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>DejaVu Sans</family>
+                              <pointsize>10</pointsize>
+                              <weight>50</weight>
+                              <italic>false</italic>
+                              <bold>false</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">font: 10pt &quot;DejaVu Sans&quot;;</string>
+                            </property>
+                            <property name="text">
+                             <string>System
+Link</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignCenter</set>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignHCenter">
+                           <widget class="LED" name="RI_tor_sl_confirm_3" native="true">
                             <property name="sizePolicy">
                              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                               <horstretch>0</horstretch>
@@ -13310,7 +13387,7 @@ TO FILE</string>
                 <property name="minimumSize">
                  <size>
                   <width>292</width>
-                  <height>400</height>
+                  <height>300</height>
                  </size>
                 </property>
                 <property name="maximumSize">
@@ -18783,8 +18860,8 @@ ALL</string>
    <slot>percent_completed_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>129</x>
-     <y>75</y>
+     <x>112</x>
+     <y>42</y>
     </hint>
     <hint type="destinationlabel">
      <x>150</x>
@@ -18943,8 +19020,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1077</x>
-     <y>25</y>
+     <x>1137</x>
+     <y>61</y>
     </hint>
     <hint type="destinationlabel">
      <x>1358</x>
@@ -18960,7 +19037,7 @@ ALL</string>
    <hints>
     <hint type="sourcelabel">
      <x>1336</x>
-     <y>358</y>
+     <y>421</y>
     </hint>
     <hint type="destinationlabel">
      <x>719</x>
@@ -18991,8 +19068,8 @@ ALL</string>
    <slot>btn_gcode_edit_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>522</x>
-     <y>456</y>
+     <x>517</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1088</x>
@@ -19007,8 +19084,8 @@ ALL</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>522</x>
-     <y>258</y>
+     <x>517</x>
+     <y>165</y>
     </hint>
     <hint type="destinationlabel">
      <x>446</x>
@@ -19023,8 +19100,8 @@ ALL</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>522</x>
-     <y>324</y>
+     <x>517</x>
+     <y>165</y>
     </hint>
     <hint type="destinationlabel">
      <x>471</x>
@@ -19039,8 +19116,8 @@ ALL</string>
    <slot>btn_save_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>227</y>
+     <x>517</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19055,8 +19132,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>971</x>
-     <y>229</y>
+     <x>721</x>
+     <y>205</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
@@ -19071,8 +19148,8 @@ ALL</string>
    <slot>btn_clear_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>171</y>
+     <x>517</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19087,8 +19164,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>212</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19103,8 +19180,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>971</x>
-     <y>393</y>
+     <x>721</x>
+     <y>355</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19135,8 +19212,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>952</x>
-     <y>410</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1364</x>
@@ -19167,8 +19244,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>212</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19183,8 +19260,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>775</x>
-     <y>410</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19199,8 +19276,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>410</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1364</x>
@@ -19215,8 +19292,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>537</x>
-     <y>115</y>
+     <x>952</x>
+     <y>212</y>
     </hint>
     <hint type="destinationlabel">
      <x>1359</x>
@@ -19231,8 +19308,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>589</x>
-     <y>120</y>
+     <x>952</x>
+     <y>331</y>
     </hint>
     <hint type="destinationlabel">
      <x>1358</x>
@@ -19247,8 +19324,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>589</x>
-     <y>137</y>
+     <x>952</x>
+     <y>449</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
@@ -19263,8 +19340,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>229</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19279,8 +19356,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>229</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1362</x>
@@ -19296,7 +19373,7 @@ ALL</string>
    <hints>
     <hint type="sourcelabel">
      <x>545</x>
-     <y>89</y>
+     <y>399</y>
     </hint>
     <hint type="destinationlabel">
      <x>558</x>
@@ -19311,8 +19388,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
@@ -19327,8 +19404,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19343,8 +19420,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19359,8 +19436,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1363</x>
@@ -19375,8 +19452,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>229</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1365</x>
@@ -19391,8 +19468,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>229</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1362</x>
@@ -19407,8 +19484,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19423,8 +19500,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1047</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1361</x>
@@ -19439,8 +19516,8 @@ ALL</string>
    <slot>btn_pressed_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19455,8 +19532,8 @@ ALL</string>
    <slot>btn_released_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>771</x>
-     <y>393</y>
+     <x>599</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
      <x>1360</x>
@@ -19471,8 +19548,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>537</x>
-     <y>115</y>
+     <x>546</x>
+     <y>152</y>
     </hint>
     <hint type="destinationlabel">
      <x>820</x>
@@ -19487,8 +19564,8 @@ ALL</string>
    <slot>btn_send_cupla_params()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>535</x>
-     <y>170</y>
+     <x>849</x>
+     <y>424</y>
     </hint>
     <hint type="destinationlabel">
      <x>1358</x>
@@ -19503,8 +19580,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>212</y>
+     <x>879</x>
+     <y>192</y>
     </hint>
     <hint type="destinationlabel">
      <x>1032</x>
@@ -19519,8 +19596,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>775</x>
-     <y>410</y>
+     <x>608</x>
+     <y>370</y>
     </hint>
     <hint type="destinationlabel">
      <x>662</x>
@@ -19535,8 +19612,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1046</x>
-     <y>410</y>
+     <x>879</x>
+     <y>370</y>
     </hint>
     <hint type="destinationlabel">
      <x>579</x>
@@ -19551,8 +19628,8 @@ ALL</string>
    <slot>btn_edit_couple_data_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>486</x>
-     <y>170</y>
+     <x>492</x>
+     <y>424</y>
     </hint>
     <hint type="destinationlabel">
      <x>1359</x>
@@ -19568,7 +19645,7 @@ ALL</string>
    <hints>
     <hint type="sourcelabel">
      <x>545</x>
-     <y>94</y>
+     <y>453</y>
     </hint>
     <hint type="destinationlabel">
      <x>1364</x>
@@ -19583,8 +19660,8 @@ ALL</string>
    <slot>btn_od_version()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>485</x>
-     <y>148</y>
+     <x>755</x>
+     <y>410</y>
     </hint>
     <hint type="destinationlabel">
      <x>1335</x>
@@ -19599,8 +19676,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>163</y>
+     <x>884</x>
+     <y>207</y>
     </hint>
     <hint type="destinationlabel">
      <x>860</x>
@@ -19615,8 +19692,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>537</x>
-     <y>95</y>
+     <x>599</x>
+     <y>135</y>
     </hint>
     <hint type="destinationlabel">
      <x>992</x>
@@ -19631,8 +19708,8 @@ ALL</string>
    <slot>btn_receiver_neumatic_cmd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>106</y>
+     <x>884</x>
+     <y>147</y>
     </hint>
     <hint type="destinationlabel">
      <x>928</x>
@@ -19647,8 +19724,8 @@ ALL</string>
    <slot>btn_chk_init_conditions()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>537</x>
-     <y>105</y>
+     <x>806</x>
+     <y>207</y>
     </hint>
     <hint type="destinationlabel">
      <x>1358</x>
@@ -19663,8 +19740,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>769</x>
-     <y>219</y>
+     <x>619</x>
+     <y>266</y>
     </hint>
     <hint type="destinationlabel">
      <x>689</x>
@@ -19679,8 +19756,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>219</y>
+     <x>884</x>
+     <y>266</y>
     </hint>
     <hint type="destinationlabel">
      <x>1103</x>
@@ -19695,8 +19772,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>769</x>
-     <y>163</y>
+     <x>619</x>
+     <y>207</y>
     </hint>
     <hint type="destinationlabel">
      <x>832</x>
@@ -19711,8 +19788,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>375</y>
+     <x>884</x>
+     <y>385</y>
     </hint>
     <hint type="destinationlabel">
      <x>569</x>
@@ -19727,8 +19804,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>769</x>
-     <y>375</y>
+     <x>619</x>
+     <y>385</y>
     </hint>
     <hint type="destinationlabel">
      <x>477</x>
@@ -19743,8 +19820,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>769</x>
-     <y>309</y>
+     <x>619</x>
+     <y>325</y>
     </hint>
     <hint type="destinationlabel">
      <x>1149</x>
@@ -19759,8 +19836,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>309</y>
+     <x>884</x>
+     <y>325</y>
     </hint>
     <hint type="destinationlabel">
      <x>1213</x>
@@ -19775,8 +19852,8 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>769</x>
-     <y>441</y>
+     <x>619</x>
+     <y>444</y>
     </hint>
     <hint type="destinationlabel">
      <x>344</x>
@@ -19791,12 +19868,76 @@ ALL</string>
    <slot>btn_toggle_ev()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1034</x>
-     <y>441</y>
+     <x>884</x>
+     <y>444</y>
     </hint>
     <hint type="destinationlabel">
      <x>1317</x>
      <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_pat_frw</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>690</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>-21</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_pat_bkw</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>962</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1361</x>
+     <y>17</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_pat_down</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>813</x>
+     <y>357</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1360</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>EV_pat_up</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_receiver_neumatic_cmd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1362</x>
+     <y>782</y>
     </hint>
    </hints>
   </connection>
@@ -19878,7 +20019,7 @@ ALL</string>
   <slot>btn_man_mode()</slot>
  </slots>
  <buttongroups>
-  <buttongroup name="mode_buttonGroup"/>
   <buttongroup name="page_buttonGroup"/>
+  <buttongroup name="mode_buttonGroup"/>
  </buttongroups>
 </ui>
