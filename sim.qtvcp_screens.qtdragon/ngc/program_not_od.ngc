@@ -10,10 +10,10 @@
     ;**** VALUES LOADED BY THE OPERATOR FROM DE PANEL ****
     #<_od_raw_diameter>= 154.7
     #<_od_machined_diameter>= 154.7
-    #<_id_diameter>= 100
+    #<_id_diameter>= 
 
     #<_raw_coupling_length>= 301.8
-    #<_op10_coupling_length>= 301.8
+    #<_op10_coupling_length>= 
     #<_final_coupling_length>= 301.8
 
     #<_lathe_axial_stopper>= 45.2

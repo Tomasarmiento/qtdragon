@@ -187,6 +187,8 @@ class HandlerClass:
         STYLEEDITOR.loadStyleSheet('qtdragon_dark.qss')
         STYLEEDITOR.saveStyleSheet('qtdragon_dark.qss')
         STYLEEDITOR.on_applyButton_clicked()
+        self.py_out_pins['EV_bc_bkw'].set(True)
+        self.py_out_pins['EV_bd_bkw'].set(True)
         
 
         
@@ -1020,22 +1022,44 @@ class HandlerClass:
 
     def btn_pressed_cmd(self):
         key = (self.w.sender().objectName())
-        self.py_out_pins[key].set(True)
+        if key == "EV_bc_frw":
+            self.py_out_pins['EV_bc_bkw'].set(False)    
+            self.py_out_pins[key].set(True)
+        elif key == "EV_bd_frw":
+            self.py_out_pins['EV_bd_bkw'].set(False)
+            self.py_out_pins[key].set(True)
+        else:
+            self.py_out_pins[key].set(True)
 
     def btn_released_cmd(self):
         key = (self.w.sender().objectName())
         self.py_out_pins[key].set(False)
+        if key == "EV_bc_frw":
+            self.py_out_pins['EV_bc_bkw'].set(True)
+        elif key == "EV_bd_frw":
+            self.py_out_pins['EV_bd_bkw'].set(True)
+        else:
+            self.py_out_pins[key].set(False)
 
         
     def btn_receiver_neumatic_cmd(self):#, key
         key = (self.w.sender().objectName())
-        try:
-            self.py_out_pins[key].set(True)
-            time.sleep(0.2)
-            self.py_out_pins[key].set(False)
-            #return True
-        except:
-            return False
+        #print("la key es: ",key)
+        if key == "EV_pat_down":
+            if hal.get_value('SEN_pat_bkw'):
+                self.py_out_pins[key].set(True)
+                time.sleep(0.2)
+                self.py_out_pins[key].set(False)
+            else:
+                return False
+        else:
+            try:
+                self.py_out_pins[key].set(True)
+                time.sleep(0.2)
+                self.py_out_pins[key].set(False)
+                #return True
+            except:
+                return False
 
         
     # override frame
